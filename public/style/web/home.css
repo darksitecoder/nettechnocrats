@@ -285,8 +285,22 @@ a {
  border: 1px solid var(--blue);
 }
 
+.about__seo {
+ padding: 2rem 1rem;
+}
+
+.about__seo img {
+ width: 80%;
+}
+
+
 /*responsive*/
 @media(max-width: 991px) {
+
+
+ .phone__number {
+  display: none !important;
+ }
 
  .header .item-center {
   order: 3;
@@ -470,6 +484,7 @@ a {
    opacity: 1;
    transform: translateX(0%);
   }
+
  }
 
  @keyframes slideRight {
@@ -527,4 +542,5 @@ a {
   visibility: visible;
   opacity: 1;
  }
+
 }
