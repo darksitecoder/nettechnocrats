@@ -13979,3 +13979,52 @@ fieldset:disabled .btn {
   display: none !important
  }
 }
+
+
+
+footer {
+ padding: 1rem 2rem;
+}
+
+footer .row p {
+ margin: 0.7rem 0rem;
+ font-weight: 600;
+}
+
+footer .row a {
+ color: var(--black);
+ font-weight: 600;
+}
+
+footer .row h5 {
+ color: var(--black);
+ font-weight: 700;
+ font-size: 25px;
+}
+
+footer .row .keywords__footer a {
+ padding: 0rem 1rem;
+ border-right: 5px solid #a6acaf;
+}
+
+footer .row .social__media__icons a {
+ padding: 8px 12px;
+ margin: 0px 10px 0px 0px;
+ background-color: var(--green);
+ border-radius: 100%;
+ color: var(--blue);
+ transition: 0.5s ease-in-out;
+ font-size: 20px;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+footer .row .social__media__icons a:hover {
+
+ background-color: var(--blue);
+ color: var(--green);
+
+}
+
+footer .row img {
+ width: 80px;
+}

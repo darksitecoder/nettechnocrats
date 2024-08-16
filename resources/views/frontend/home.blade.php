@@ -42,7 +42,7 @@
    </div>
   </section>
  </div>
-
+ @include('partial/footer')
 </body>
 
 
