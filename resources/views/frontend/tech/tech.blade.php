@@ -720,3 +720,5 @@
     <script src="{{ asset('style/web/lib/counterup/counterup.min.js') }}"></script>
     <script src="{{ asset('style/web/lib/lightbox/js/lightbox.min.js') }}"></script>
     <script src="{{ asset('style/web/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+
+    <script src="{{ asset('js/main.js') }}"></script>
