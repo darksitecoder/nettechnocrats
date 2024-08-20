@@ -38,7 +38,117 @@
     <div class="col-lg-5">
      <img src="{{ asset('assets/web/clutch.png') }}" alt="" srcset="">
     </div>
-    <div class="col-lg-7"></div>
+    <div class="col-lg-7">
+     <p class="colored__text">Awarded as Top SEO Company in 2023</p>
+     <h2>Boosting ROI and Traffic: The Nettechnocrats Way!</h2>
+     <p>
+      At Nettechnocrats, we take immense pride in being recognized as a Top SEO company by Clutch, renowned for our exceptional ability to boost ROI and drive traffic like never before. Our mission is simple: aim high with your ROI and witness the phenomenal surge in your website traffic!</p>
+
+     <p>Experience exponential growth and unparalleled success by attracting precisely the right audience through strategically chosen industry-relevant search terms. We don’t just scratch the surface; we plunge into the depths of every aspect that influences your visibility on search engine results pages – from your website’s authority to its lightning-fast speed. Our strategic approach ensures that the results you achieve are nothing short of transformative.</p>
+
+     <p>With Nettechnocrats, you gain access to our expertise and industry insights, empowering your business to thrive in the long run. Embark on your journey toward lasting success today!
+     </p>
+     <br>
+     <a href="#" class="about__btn mt-4">Talk With Our Experts</a>
+    </div>
+   </div>
+  </section>
+
+  <section class="spectrum__services">
+   <div class="row">
+    <div class="col-lg-12">
+     <h2 class="text-center">Unveiling Our Spectrum of Services</h2>
+     <p class="text-center">Leveraging a robust team force, we’re helping businesses across various sectors amplify their online presence. Through trusted methods like White Hat SEO, SEM, and SMO, we elevate brand recognition and foster growth.</p>
+    </div>
+   </div>
+   <div class="row services__cards">
+    <div class="col-lg-12">
+     <div class="row">
+      <div class="col-lg-3">
+       <div class="cards__details">
+        <img src="{{ asset('assets/web/digital-marketing.png') }}" alt="" srcset="">
+        <h3>Digital Marketing</h3>
+        <p>Backed by expert marketers, we craft strategies that ensure your brand voice is heard, resonating with your audience seamlessly.</p>
+       </div>
+       <div class="text-center">
+        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+       </div>
+      </div>
+      <div class="col-lg-3">
+       <div class="cards__details">
+        <img src="{{ asset('assets/web/seo.png') }}" alt="" srcset="">
+        <h3>Search Engine Optimization</h3>
+        <p>Leading SEO company and digital marketing agency at your service. Boost traffic, garner customers, and elevate profits with our on-page and off-page expertise.</p>
+       </div>
+       <div class="text-center">
+        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+       </div>
+      </div>
+      <div class="col-lg-3">
+       <div class="cards__details">
+        <img src="{{ asset('assets/web/smo.png') }}" alt="" srcset="">
+        <h3>Social Media Optimization</h3>
+        <p>We recognize that every client campaign demands unique audience targeting on the right social media platforms.</p>
+       </div>
+       <div class="text-center">
+        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+       </div>
+      </div>
+      <div class="col-lg-3">
+       <div class="cards__details">
+        <img src="{{ asset('assets/web/ppc.png') }}" alt="" srcset="">
+        <h3>Pay Per Click</h3>
+        <p>Specializing in PPC services that drive organic traffic and connect you with your target audience instantly. Our savvy strategies ensure maximum ROI on your investment.</p>
+       </div>
+       <div class="text-center">
+        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+       </div>
+      </div>
+
+     </div>
+     <div class="row pt-5">
+      <div class="col-lg-3">
+       <div class="cards__details">
+        <img src="{{ asset('assets/web/webd.png') }}" alt="" srcset="">
+        <h3>Web Development</h3>
+        <p>Responsive, sleek, and user-centric websites are our specialty. Experience the perfect blend of design and functionality with us.</p>
+       </div>
+       <div class="text-center">
+        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+       </div>
+      </div>
+      <div class="col-lg-3">
+       <div class="cards__details">
+        <img src="{{ asset('assets/web/mobile.png') }}" alt="" srcset="">
+        <h3>Mobile Application</h3>
+        <p>User experience is at the heart of our apps. We bring innovation to your fingertips, promoting user engagement and satisfaction.</p>
+       </div>
+       <div class="text-center">
+        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+       </div>
+      </div>
+      <div class="col-lg-3">
+       <div class="cards__details">
+        <img src="{{ asset('assets/web/mvm.png') }}" alt="" srcset="">
+        <h3>Multi-Vendor Marketplace</h3>
+        <p>We are rated as one of the top multi-vendor marketplace development companies, we will help you build the application for B2C, B2B and suppliers multi-vendor eCommerce marketplace.</p>
+       </div>
+       <div class="text-center">
+        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+       </div>
+      </div>
+      <div class="col-lg-3">
+       <div class="cards__details">
+        <img src="{{ asset('assets/web/cloud.png') }}" alt="" srcset="">
+        <h3>Cloud Services</h3>
+        <p>Gain the control and confidence you need to securely run your organization with the most flexible and secure cloud computing environment available. </p>
+       </div>
+       <div class="text-center">
+        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+       </div>
+      </div>
+     </div>
+    </div>
    </div>
   </section>
  </div>
