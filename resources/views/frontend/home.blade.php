@@ -151,6 +151,29 @@
     </div>
    </div>
   </section>
+
+  <section class="testimonial__video">
+   <div class="row">
+    <div class="col-lg-6">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/f-MAIzGxWc0?si=GkZPmhg-MKDbM0Dl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="col-lg-6">
+     <h2>We Are Ranked Among the Top Global Leaders in Digital Marketing</h2>
+     <p>Nettechnocrats quickly ascended to digital prominence, catering to a diverse clientele across various business sectors. Partner with the best in digital innovation.</p>
+
+     <div class="slider-wrapper left">
+      <div class="item item1"></div>
+      <div class="item item2"></div>
+      <div class="item item3"></div>
+      <div class="item item4"></div>
+      <div class="item item5"></div>
+      <div class="item item6"></div>
+      <div class="item item7"></div>
+      <div class="item item8"></div>
+     </div>
+    </div>
+   </div>
+  </section>
  </div>
  @include('partial/footer')
 </body>
