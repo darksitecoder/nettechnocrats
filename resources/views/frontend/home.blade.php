@@ -186,7 +186,12 @@
    </div>
   </section>
 
-  <section class="industries"></section>
+  <section class="industries">
+   <div class="row">
+    <div class="col-lg-6"></div>
+    <div class="col-lg-6"></div>
+   </div>
+  </section>
  </div>
  @include('partial/footer')
 </body>
