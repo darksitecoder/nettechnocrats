@@ -162,18 +162,31 @@
      <p>Nettechnocrats quickly ascended to digital prominence, catering to a diverse clientele across various business sectors. Partner with the best in digital innovation.</p>
 
      <div class="slider-wrapper left">
-      <div class="item item1"></div>
-      <div class="item item2"></div>
-      <div class="item item3"></div>
-      <div class="item item4"></div>
-      <div class="item item5"></div>
-      <div class="item item6"></div>
-      <div class="item item7"></div>
-      <div class="item item8"></div>
+      <div class="item item1"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="" srcset=""></div>
+      <div class="item item2"><img src="{{ asset('assets/web/appfuture.png') }}" alt="" srcset=""></div>
+      <div class="item item3"><img src="{{ asset('assets/web/upwork.png') }}" alt="" srcset=""></div>
+      <div class="item item4"><img src="{{ asset('assets/web/extract.png') }}" alt="" srcset=""></div>
+      <div class="item item5"><img src="{{ asset('assets/web/goodfirms.png') }}" alt="" srcset=""></div>
+      <!-- <div class="item item6"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="" srcset=""></div>
+      <div class="item item7"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="" srcset=""></div>
+      <div class="item item8"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="" srcset=""></div> -->
      </div>
     </div>
    </div>
   </section>
+
+  <section class="sample__banner" style="background: url('{{ asset('assets/web/sample__banner.png') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat;">
+   <div class="row">
+    <div class="col-lg-12">
+     <h2>
+      What Comprise A Robust Digital Marketing Strategy? Straight from the horse's Mouth
+     </h2>
+     <p>Well, it's not the rocket science, but to be truthful, it is not that much easier too. But before you hire us as your digital marketing consultant, let us know you what processes we have adopted to serve you.</p>
+    </div>
+   </div>
+  </section>
+
+  <section class="industries"></section>
  </div>
  @include('partial/footer')
 </body>
