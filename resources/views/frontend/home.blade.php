@@ -182,13 +182,21 @@
       What Comprise A Robust Digital Marketing Strategy? Straight from the horse's Mouth
      </h2>
      <p>Well, it's not the rocket science, but to be truthful, it is not that much easier too. But before you hire us as your digital marketing consultant, let us know you what processes we have adopted to serve you.</p>
+     <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
     </div>
    </div>
   </section>
 
   <section class="industries">
    <div class="row">
-    <div class="col-lg-6"></div>
+    <div class="col-lg-6">
+     <div class="content">
+      <p>INDUSTRIES</p>
+      <h3>A Unified Vision That Caters to Diverse Industry Demands</h3>
+      <p>As an experienced Search Engine Optimization company in India, we level up your SEO efforts to create brand awareness and ensure increased revenues. By utilizing cutting-edge strategies, conducting detailed analyses, and establishing innovative approaches, we go above and beyond to help you expand your businesses and ensure long-term success.</p>
+      <a href="#" class="card__read__more">Contact Us <i class="fa-solid fa-angle-right"></i></a>
+     </div>
+    </div>
     <div class="col-lg-6"></div>
    </div>
   </section>
