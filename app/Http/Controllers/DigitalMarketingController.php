@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class DigitalMarketingController extends Controller
 {
-    public function digitalMarketing()
+    public function index()
     {
         return view('frontend.digital-marketing.digitalmarketing');
     }
