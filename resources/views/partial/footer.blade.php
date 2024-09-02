@@ -79,11 +79,17 @@
   </div>
   <div class="col-lg-6">
    <h5>PARTNER & CERTIFICATIONS</h5>
-   <div class="certificates d-flex justify-content-between">
-    <a href="#"><img src="{{ asset('assets/web/footer-images/google_certified.webp') }}" alt="" srcset=""></a>
-    <a href="#"><img src="{{ asset('assets/web/footer-images/9001_certified.webp') }}" alt="" srcset=""></a>
-    <a href="#"><img src="{{ asset('assets/web/footer-images/amazon_services.webp') }}" alt="" srcset=""></a>
-    <a href="#"><img src="{{ asset('assets/web/footer-images/paypal.webp') }}" alt="" srcset=""></a>
+   <div class="certificates">
+    <div class="row">
+     <div class="col-lg-3"><a href="#"><img src="{{ asset('assets/web/footer-images/google_certified.webp') }}" alt="" srcset=""></a></div>
+     <div class="col-lg-3"><a href="#"><img src="{{ asset('assets/web/footer-images/9001_certified.webp') }}" alt="" srcset=""></a></div>
+     <div class="col-lg-3"><a href="#"><img src="{{ asset('assets/web/footer-images/amazon_services.webp') }}" alt="" srcset=""></a></div>
+     <div class="col-lg-3"><a href="#"><img src="{{ asset('assets/web/footer-images/paypal.webp') }}" alt="" srcset=""></a></div>
+    </div>
+
+
+
+
    </div>
   </div>
  </div>

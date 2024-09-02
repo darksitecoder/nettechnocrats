@@ -286,7 +286,7 @@ a {
 }
 
 .about__seo {
-  padding: 2rem 1rem;
+  padding: 2rem 0rem;
 }
 
 .about__seo img {
@@ -324,7 +324,7 @@ a {
 }
 
 .spectrum__services {
-  padding: 2rem 1rem;
+  padding: 2rem 0rem;
 }
 
 .spectrum__services .services__cards {
@@ -357,8 +357,8 @@ a {
 
 .spectrum__services .services__cards .cards__details {
   text-align: center;
-  padding: 20px 10px;
-  height: 340px;
+  padding: 20px 8px;
+  height: 380px;
 }
 
 
@@ -413,7 +413,7 @@ a {
 }
 
 .testimonial__video {
-  padding: 1rem 3rem;
+  padding: 1rem 0rem;
 }
 
 .testimonial__video iframe {
