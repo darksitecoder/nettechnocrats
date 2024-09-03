@@ -5,6 +5,12 @@ use App\Http\Controllers\DigitalMarketingController;
 use App\Http\Controllers\TechController;
 use App\Http\Controllers\Admin\DashboardController;
 
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
 Route::get('/', function () {
     return view('frontend.home');
 });
