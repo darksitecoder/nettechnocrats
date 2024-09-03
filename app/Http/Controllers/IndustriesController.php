@@ -4,10 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class TechController extends Controller
+class IndustriesController extends Controller
 {
+    //
     public function index()
     {
-        return view('frontend.tech.tech');
+        return view('frontend.industries.index');
     }
 }

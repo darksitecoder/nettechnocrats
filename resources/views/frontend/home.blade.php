@@ -19,20 +19,21 @@
 
 <body>
  @include('partial/header')
- <div class="containerd">
-  <section class="hero__banner">
-   <div class="row">
-    <div class="col-lg-8">
-     <h1 class="py-2">Unlock Digital <br> Excellence, Propel Your <br> Brand Forward! </h1>
-     <p class="py-3 banner__description">Experience digital dominance with Nettechnocrats. Our data-driven SEO and digital marketing expertise empower your brand to thrive online. Watch as your business soars with top SERP rankings, high conversion rates, and a surge in web traffic. Join us on this exhilarating journey to successin the digital realm!</p>
-     <div class="banner__btn d-flex">
-      <a href="#" class="btn get__touch mx-1">Get In Touch</a>
-      <a href="#" class="btn audit mx-1">Request For Audit</a>
-     </div>
+
+ <section class="hero__banner">
+  <div class="row">
+   <div class="col-lg-8">
+    <h1 class="py-2">Unlock Digital <br> Excellence, Propel Your <br> Brand Forward! </h1>
+    <p class="py-3 banner__description">Experience digital dominance with Nettechnocrats. Our data-driven SEO and digital marketing expertise empower your brand to thrive online. Watch as your business soars with top SERP rankings, high conversion rates, and a surge in web traffic. Join us on this exhilarating journey to successin the digital realm!</p>
+    <div class="banner__btn d-flex">
+     <a href="#" class="btn get__touch mx-1">Get In Touch</a>
+     <a href="#" class="btn audit mx-1">Request For Audit</a>
     </div>
-    <div class="col-lg-4"><img src="{{ asset('assets/web/hero_banner.webp') }}" alt="" srcset=""></div>
    </div>
-  </section>
+   <div class="col-lg-4"><img src="{{ asset('assets/web/hero_banner.webp') }}" alt="" srcset=""></div>
+  </div>
+ </section>
+ <div class="container">
   <section class="about__seo">
    <div class="row">
     <div class="col-lg-5">
@@ -174,19 +175,18 @@
     </div>
    </div>
   </section>
-
-  <section class="sample__banner" style="background: url('{{ asset('assets/web/sample__banner.png') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat;">
-   <div class="row">
-    <div class="col-lg-12">
-     <h2>
-      What Comprise A Robust Digital Marketing Strategy? Straight from the horse's Mouth
-     </h2>
-     <p>Well, it's not the rocket science, but to be truthful, it is not that much easier too. But before you hire us as your digital marketing consultant, let us know you what processes we have adopted to serve you.</p>
-     <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
-    </div>
+ </div>
+ <section class="sample__banner" style="background: url('{{ asset('assets/web/sample__banner.png') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat;">
+  <div class="row">
+   <div class="col-lg-12">
+    <h2>
+     What Comprise A Robust Digital Marketing Strategy? Straight from the horse's Mouth
+    </h2>
+    <p>Well, it's not the rocket science, but to be truthful, it is not that much easier too. But before you hire us as your digital marketing consultant, let us know you what processes we have adopted to serve you.</p>
    </div>
-  </section>
-
+  </div>
+ </section>
+ <div class="container">
   <section class="industries">
    <div class="row">
     <div class="col-lg-6">
@@ -201,6 +201,7 @@
    </div>
   </section>
  </div>
+
  @include('partial/footer')
 </body>
 
