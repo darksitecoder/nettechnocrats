@@ -1,6 +1,0 @@
-title: seo
-template: seo/show
-revisions: false
-date_behavior:
-  past: public
-  future: private

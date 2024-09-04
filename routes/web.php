@@ -13,7 +13,7 @@ use App\Http\Controllers\PortfolioController;
 // });
 
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('frontend.home');
 });
 
