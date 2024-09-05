@@ -29,7 +29,7 @@
             <nav class="nav-top">
                 <div class="container">
                     <div class="row">
-                        @if (theme_option('social_links') && $socialLinks = json_decode(theme_option('social_links'), true))
+                        <!-- @if (theme_option('social_links') && $socialLinks = json_decode(theme_option('social_links'), true))
                             <div class="col-sm-4">
                                 <div class="hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3a d-inline-block">
                                     @foreach($socialLinks as $socialLink)
@@ -41,9 +41,9 @@
                                     @endforeach
                                 </div>
                             </div>
-                        @endif
+                        @endif -->
                         <div class="col-sm-8 d-flex align-center justify-content-end">
-                            @if (is_plugin_active('member'))
+                            <!-- @if (is_plugin_active('member'))
                                 <ul class="d-flex">
                                     @if (auth('member')->check())
                                         <li><a href="{{ route('public.member.dashboard') }}" rel="nofollow"><img src="{{ auth('member')->user()->avatar_url }}" class="img-circle" width="20" alt="{{ auth('member')->user()->name }}" loading="lazy"> &nbsp;<span>{{ auth('member')->user()->name }}</span></a></li>
@@ -57,7 +57,7 @@
                                         @csrf
                                     </form>
                                 @endif
-                            @endif
+                            @endif -->
 
                             <div class="language-wrapper d-sm-inline-block">
                                 {!! apply_filters('language_switcher') !!}

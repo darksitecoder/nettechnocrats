@@ -14,6 +14,7 @@ use Theme\Ripple\Fields\ThemeIconField;
 
 register_page_template([
     'no-sidebar' => __('No sidebar'),
+    
 ]);
 
 register_sidebar([

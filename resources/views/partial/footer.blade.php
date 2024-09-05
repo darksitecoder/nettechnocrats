@@ -94,8 +94,8 @@
   </div>
  </div>
  <div class="row pt-4">
-  <div class="col-lg-12">
+  <!-- <div class="col-lg-12">
    <p class="text-center">Copyright © 2024 Nettechnocrats IT Services Pvt. Ltd</p>
-  </div>
+  </div> -->
  </div>
 </footer>
