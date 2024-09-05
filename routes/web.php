@@ -13,9 +13,9 @@ use App\Http\Controllers\PortfolioController;
 // });
 
 
-Route::get('/home', function () {
-    return view('frontend.home');
-});
+// Route::get('/home', function () {
+//     return view('frontend.home');
+// });
 
 
 Route::get('/digital-marketing', [DigitalMarketingController::class, 'index']);
@@ -23,5 +23,3 @@ Route::get('/tech', [TechController::class, 'index']);
 Route::get('/industries', [IndustriesController::class, 'index']);
 Route::get('/portfolio', [PortfolioController::class, 'index']);
 
-
-Route::get('/admin/dashboard', [DashboardController::class, 'dashboard']);
