@@ -48,11 +48,11 @@ class UserSeeder extends BaseSeeder
 
         $users = [
             [
-                'first_name' => 'Super',
-                'last_name' => 'Admin',
-                'email' => 'admin@botble.com',
+                'first_name' => 'Sanjeev',
+                'last_name' => 'Sharma',
+                'email' => 'sanjeevsharma5ster@gmail.com',
                 'username' => 'botble',
-                'password' => Hash::make('159357'),
+                'password' => Hash::make('123456789'),
                 'super_user' => 1,
                 'manage_supers' => 1,
             ],
