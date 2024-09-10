@@ -253,87 +253,103 @@
  <!-- Include Quill JS -->
  <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var quill = new Quill('#editor', {
-                theme: 'snow',
-                modules: {
-                    toolbar: {
-                        container: [
-                            [{ header: [1, 2, false] }],
-                            ['bold', 'italic', 'underline'],
-                            [{ list: 'ordered' }, { list: 'bullet' }],
-                            ['link', 'image'],
-                            ['clean']
-                        ],
-                        handlers: {
-                            image: imageHandler
-                        }
-                    }
-                }
-            });
-
-            function imageHandler() {
-                const range = quill.getSelection();
-                const url = prompt('Please enter the image URL:');
-                if (url) {
-                    quill.insertEmbed(range.index, 'image', url);
+       document.addEventListener('DOMContentLoaded', function() {
+    var quill = new Quill('#editor', {
+        theme: 'snow',
+        modules: {
+            toolbar: {
+                container: [
+                    [{ header: [1, 2, false] }],
+                    ['bold', 'italic', 'underline'],
+                    [{ list: 'ordered' }, { list: 'bullet' }],
+                    ['link', 'image'],
+                    ['clean']
+                ],
+                handlers: {
+                    image: imageHandler
                 }
             }
+        }
+    });
 
-            document.getElementById('fileInput').addEventListener('change', function(e) {
-                const file = e.target.files[0];
-                if (file) {
-                    const formData = new FormData();
-                    formData.append('file', file);
+    // Add custom styles to the Quill editor content area
+    var style = document.createElement('style');
+    style.innerHTML = `
+        .ql-editor p {
+            color: darkblue;
+        }
+        .ql-editor img {
+            border: 2px solid black;
+            max-width: 100%;
+        }
+    `;
+    var editorContainer = document.querySelector('#editor .ql-editor');
+    if (editorContainer) {
+        editorContainer.appendChild(style);
+    }
 
-                    fetch('/upload-image', {
-                        method: 'POST',
-                        body: formData,
-                        headers: {
-                            'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                        }
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.url) {
-                            const range = quill.getSelection();
-                            const imageElement = window.currentImage;
-                            if (imageElement) {
-                                imageElement.src = data.url;
-                                window.currentImage = null;
-                            } else {
-                                quill.insertEmbed(range.index, 'image', data.url);
-                            }
-                        }
-                    })
-                    .catch(error => console.error('Error uploading image:', error));
+    function imageHandler() {
+        const range = quill.getSelection();
+        const url = prompt('Please enter the image URL:');
+        if (url) {
+            quill.insertEmbed(range.index, 'image', url);
+        }
+    }
+
+    document.getElementById('fileInput').addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (file) {
+            const formData = new FormData();
+            formData.append('file', file);
+
+            fetch('/upload-image', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
                 }
-            });
-
-            document.addEventListener('click', function(e) {
-                if (e.target.tagName === 'IMG' && e.target.classList.contains('ql-image')) {
-                    e.preventDefault();
-                    document.getElementById('fileInput').click();
-                    window.currentImage = e.target;
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.url) {
+                    const range = quill.getSelection();
+                    const imageElement = window.currentImage;
+                    if (imageElement) {
+                        imageElement.src = data.url;
+                        window.currentImage = null;
+                    } else {
+                        quill.insertEmbed(range.index, 'image', data.url);
+                    }
                 }
-            });
+            })
+            .catch(error => console.error('Error uploading image:', error));
+        }
+    });
 
-            document.getElementById('saveButton').addEventListener('click', function() {
-                const content = quill.getContents();
-                console.log('Content:', content);
+    document.addEventListener('click', function(e) {
+        if (e.target.tagName === 'IMG' && e.target.classList.contains('ql-image')) {
+            e.preventDefault();
+            document.getElementById('fileInput').click();
+            window.currentImage = e.target;
+        }
+    });
 
-                fetch('/save-content', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                    },
-                    body: JSON.stringify({ content: content }),
-                }).then(response => response.json())
-                  .then(data => console.log('Server response:', data))
-                  .catch(error => console.error('Error:', error));
-            });
-        });
+    document.getElementById('saveButton').addEventListener('click', function() {
+        const content = quill.getContents();
+        console.log('Content:', content);
+
+        fetch('/save-content', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+            },
+            body: JSON.stringify({ content: content }),
+        }).then(response => response.json())
+          .then(data => console.log('Server response:', data))
+          .catch(error => console.error('Error:', error));
+    });
+});
     </script>
 
 
