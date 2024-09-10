@@ -1,6 +1,17 @@
 const mix = require('laravel-mix')
 const glob = require('glob')
 
+mix.js('resources/js/app.js', 'public/js');
+
+mix.styles([
+    'vendor/core/plugins/language/css/language-public.css',
+    'vendor/core/plugins/member/css/app.css',
+    'vendor/core/plugins/social-login/css/social-login.css',
+    'vendor/core/plugins/translation/css/theme-translations.css'
+], 'public/css/vendor.css');
+
+  
+
 mix.options({
     processCssUrls: false,
     clearConsole: true,

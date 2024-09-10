@@ -26,9 +26,9 @@ use App\Http\Controllers\PortfolioController;
 // });
 
 
-// Route::get('/home', function () {
-//     return view('frontend.home');
-// });
+Route::get('/home', function () {
+    return view('frontend.home');
+});
 
 
 Route::get('/digital-marketing', [DigitalMarketingController::class, 'index']);
