@@ -35,3 +35,6 @@ Route::get('/digital-marketing', [DigitalMarketingController::class, 'index']);
 // Route::get('/tech', [TechController::class, 'index']);
 Route::get('/industries', [IndustriesController::class, 'index']);
 Route::get('/portfolio', [PortfolioController::class, 'index']);
+
+
+Route::get('/seo', [DigitalMarketingController::class, 'seo']);
