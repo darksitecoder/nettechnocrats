@@ -4,572 +4,703 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>SEO</title>
+ <title>SEO Services</title>
 
  <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
   referrerpolicy="no-referrer" />
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
- <link rel="stylesheet" href="{{ asset('style/web/digital-marketing/fontawesome.css') }}">
- <link rel="stylesheet" href="{{ asset('style/web/digital-marketing/templatemo-seo-dream.css') }}">
- <link rel="stylesheet" href="{{ asset('style/web/digital-marketing/animated.css') }}">
- <link rel="stylesheet" href="{{ asset('style/web/digital-marketing/owl.css') }}">
+
+ <!-- Vendor CSS Files -->
+ <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
+ <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+ <link href="{{ asset('js/vendor/aos/aos.css') }}" rel="stylesheet">
+ <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+ <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+ <!-- Main CSS File -->
+ <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
+
 </head>
 
 <body>
  @include('partial/header')
- <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-12">
-     <div class="row">
-      <div class="col-lg-6 align-self-center">
-       <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-        <div class="row">
-         <div class="col-lg-4 col-sm-4">
-          <div class="info-stat">
-           <h6>Agency Status:</h6>
-           <h4>Ready Work</h4>
-          </div>
-         </div>
-         <div class="col-lg-4 col-sm-4">
-          <div class="info-stat">
-           <h6>Price:</h6>
-           <h4>$720/Month</h4>
-          </div>
-         </div>
-         <div class="col-lg-4 col-sm-4">
-          <div class="info-stat">
-           <h6>Schedules</h6>
-           <h4>$450/Meeting</h4>
-          </div>
-         </div>
-         <div class="col-lg-12">
-          <h2>SEO &amp; Digital Marketing Agency</h2>
-         </div>
-         <div class="col-lg-12">
-          <div class="main-green-button scroll-to-section">
-           <a href="#">Get Your Quote</a>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="col-lg-6">
-       <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-        <img src="{{ asset('assets/web/banner-right-image.png') }}" alt="">
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
+ <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
- <div id="features" class="features section">
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-12">
-     <div class="features-content">
-      <div class="row">
-       <div class="col-lg-3">
-        <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-         <div class="first-number number">
-          <h6>01</h6>
-         </div>
-         <div class="icon"></div>
-         <h4>Reach Out</h4>
-         <div class="line-dec"></div>
-         <p>This HTML5 template is based on Bootstrap 5 CSS. You are free to customize anything.</p>
-        </div>
-       </div>
-       <div class="col-lg-3">
-        <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-         <div class="second-number number">
-          <h6>02</h6>
-         </div>
-         <div class="icon"></div>
-         <h4>Develop a Strategy</h4>
-         <div class="line-dec"></div>
-         <p>Lorem ipsum dolor sit ameter consectetur adipiscing li elit sed do eiusmod.</p>
-        </div>
-       </div>
-       <div class="col-lg-3">
-        <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-         <div class="third-number number">
-          <h6>03</h6>
-         </div>
-         <div class="icon"></div>
-         <h4>Implementation</h4>
-         <div class="line-dec"></div>
-         <p>If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.</p>
-        </div>
-       </div>
-       <div class="col-lg-3">
-        <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-         <div class="fourth-number number">
-          <h6>04</h6>
-         </div>
-         <div class="icon"></div>
-         <h4>Analyze the result</h4>
-         <div class="line-dec"></div>
-         <p>Below circular progress bar animation supports those CSS values 10, 20, 30, till 100.</p>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="col-lg-12">
-     <div class="skills-content">
-      <div class="row">
-       <div class="col-lg-3">
-        <div class="skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-         <div class="progress" data-percentage="80">
-          <span class="progress-left">
-           <span class="progress-bar"></span>
-          </span>
-          <span class="progress-right">
-           <span class="progress-bar"></span>
-          </span>
-          <div class="progress-value">
-           <div>
-            80%<br>
-            <span>HTML/CSS/JS</span>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="col-lg-3">
-        <div class="skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-         <div class="progress" data-percentage="60">
-          <span class="progress-left">
-           <span class="progress-bar"></span>
-          </span>
-          <span class="progress-right">
-           <span class="progress-bar"></span>
-          </span>
-          <div class="progress-value">
-           <div>
-            60%<br>
-            <span>Wordpress</span>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="col-lg-3">
-        <div class="skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-         <div class="progress" data-percentage="90">
-          <span class="progress-left">
-           <span class="progress-bar"></span>
-          </span>
-          <span class="progress-right">
-           <span class="progress-bar"></span>
-          </span>
-          <div class="progress-value">
-           <div>
-            90%<br>
-            <span>Marketing</span>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="col-lg-3">
-        <div class="skill-item last-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-         <div class="progress" data-percentage="70">
-          <span class="progress-left">
-           <span class="progress-bar"></span>
-          </span>
-          <span class="progress-right">
-           <span class="progress-bar"></span>
-          </span>
-          <div class="progress-value">
-           <div>
-            70%<br>
-            <span>Photoshop</span>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
+ <main class="main">
 
- <div id="about" class="about-us section">
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-6">
-     <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-      <img src="{{ asset('assets/web/about-left-image.png') }}" alt="">
-     </div>
-    </div>
-    <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-     <div class="section-heading">
-      <h6>About Us</h6>
-      <h2>Top <em>marketing</em> agency &amp; consult your website <span>with us</span></h2>
-     </div>
-     <div class="row">
-      <div class="col-lg-4 col-sm-4">
-       <div class="about-item">
-        <h4>750+</h4>
-        <h6>projects finished</h6>
-       </div>
-      </div>
-      <div class="col-lg-4 col-sm-4">
-       <div class="about-item">
-        <h4>340+</h4>
-        <h6>happy clients</h6>
-       </div>
-      </div>
-      <div class="col-lg-4 col-sm-4">
-       <div class="about-item">
-        <h4>128+</h4>
-        <h6>awards</h6>
-       </div>
-      </div>
-     </div>
-     <p><a rel="nofollow" href="https://templatemo.com/tm-563-seo-dream" target="_parent">SEO Dream</a> is free digital marketing CSS template provided by TemplateMo website. You are allowed to use this template for your business websites. Please DO NOT redistribute this template ZIP file on any Free CSS collection websites. You may contact us for more information. Thank you.</p>
-     <div class="main-green-button"><a href="#">Discover company</a></div>
-    </div>
-   </div>
-  </div>
- </div>
+  <!-- Hero Section -->
+  <section id="hero" class="hero section">
 
- <div id="services" class="our-services section">
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-6 offset-lg-3">
-     <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-      <h6>Our Services</h6>
-      <h2>Discover What We Do &amp; <span>Offer</span> To Our <em>Clients</em></h2>
+   <div class="container">
+    <div class="row gy-4">
+     <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+      <img src="{{ asset('assets/web/seo-banner.png') }} " alt="" srcset="">
+      <!-- <h1>Elegant and creative solutions</h1>
+      <p>We are team of talented designers making websites with Bootstrap</p>
+      <div class="d-flex">
+       <a href="#about" class="btn-get-started">Get Started</a>
+       <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+      </div> -->
      </div>
-    </div>
-   </div>
-  </div>
-  <div class="container-fluid">
-   <div class="row">
-    <div class="col-lg-4">
-     <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-      <div class="row">
-       <div class="col-lg-4">
-        <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-01.png') }}" alt="">
-        </div>
-       </div>
-       <div class="col-lg-8">
-        <div class="right-content">
-         <h4>Similar Websites</h4>
-         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="col-lg-4">
-     <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-      <div class="row">
-       <div class="col-lg-4">
-        <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-02.png') }}" alt="">
-        </div>
-       </div>
-       <div class="col-lg-8">
-        <div class="right-content">
-         <h4>Website Trends</h4>
-         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="col-lg-4">
-     <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-      <div class="row">
-       <div class="col-lg-4">
-        <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-03.png') }}" alt="">
-        </div>
-       </div>
-       <div class="col-lg-8">
-        <div class="right-content">
-         <h4>Traffic Analysis</h4>
-         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="col-lg-4">
-     <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-      <div class="row">
-       <div class="col-lg-4">
-        <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-03.png') }}" alt="">
-        </div>
-       </div>
-       <div class="col-lg-8">
-        <div class="right-content">
-         <h4>Optimizing Keywords</h4>
-         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="col-lg-4">
-     <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.7s">
-      <div class="row">
-       <div class="col-lg-4">
-        <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-01.png') }}" alt="">
-        </div>
-       </div>
-       <div class="col-lg-8">
-        <div class="right-content">
-         <h4>Page Optimizations</h4>
-         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="col-lg-4">
-     <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-      <div class="row">
-       <div class="col-lg-4">
-        <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-02.png') }}" alt="">
-        </div>
-       </div>
-       <div class="col-lg-8">
-        <div class="right-content">
-         <h4>Deep URL Analysis</h4>
-         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
 
- <div id="portfolio" class="our-portfolio section">
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-5">
-     <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-      <h6>Our Portofolio</h6>
-      <h2>Discover Our Recent <em>Projects</em> And <span>Showcases</span></h2>
-     </div>
     </div>
    </div>
-  </div>
-  <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
-   <div class="row">
-    <div class="col-lg-12">
-     <div class="loop owl-carousel">
-      <div class="item">
-       <div class="portfolio-item">
-        <div class="thumb">
-         <img src="{{ asset('assets/web/portfolio-01.jpg') }}" alt="">
-         <div class="hover-content">
-          <div class="inner-content">
-           <a href="#">
-            <h4>Awesome Project 101</h4>
-           </a>
-           <span>Marketing</span>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="portfolio-item">
-        <div class="thumb">
-         <img src="{{ asset('assets/web/portfolio-04.jpg') }}" alt="">
-         <div class="hover-content">
-          <div class="inner-content">
-           <a href="#">
-            <h4>Awesome Project 102</h4>
-           </a>
-           <span>Branding</span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="item">
-       <div class="portfolio-item">
-        <div class="thumb">
-         <img src="{{ asset('assets/web/portfolio-02.jpg') }}" alt="">
-         <div class="hover-content">
-          <div class="inner-content">
-           <a href="#">
-            <h4>Awesome Project 103</h4>
-           </a>
-           <span>Consulting</span>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="portfolio-item">
-        <div class="thumb">
-         <img src="{{ asset('assets/web/portfolio-05.jpg') }}" alt="">
-         <div class="hover-content">
-          <div class="inner-content">
-           <a href="#">
-            <h4>Awesome Project 104</h4>
-           </a>
-           <span>Artwork</span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="item">
-       <div class="portfolio-item">
-        <div class="thumb">
-         <img src="{{ asset('assets/web/portfolio-03.jpg') }}" alt="">
-         <div class="hover-content">
-          <div class="inner-content">
-           <a href="#">
-            <h4>Awesome Project 105</h4>
-           </a>
-           <span>Branding</span>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="portfolio-item">
-        <div class="thumb">
-         <img src="{{ asset('assets/web/portfolio-06.jpg') }}" alt="">
-         <div class="hover-content">
-          <div class="inner-content">
-           <a href="#">
-            <h4>Awesome Project 106</h4>
-           </a>
-           <span>Artwork</span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="item">
-       <div class="portfolio-item">
-        <div class="thumb">
-         <img src="{{ asset('assets/web/portfolio-04.jpg') }}" alt="">
-         <div class="hover-content">
-          <div class="inner-content">
-           <a href="#">
-            <h4>Awesome Project 107</h4>
-           </a>
-           <span>Creative</span>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="portfolio-item">
-        <div class="thumb">
-         <img src="{{ asset('assets/web/portfolio-01.jpg') }}" alt="">
-         <div class="hover-content">
-          <div class="inner-content">
-           <a href="#">
-            <h4>Awesome Project 108</h4>
-           </a>
-           <span>Consulting</span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
 
- <div id="contact" class="contact-us section">
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
-     <form id="contact" action="" method="post">
-      <div class="row">
-       <div class="col-lg-6 offset-lg-3">
-        <div class="section-heading">
-         <h6>Contact Us</h6>
-         <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Us</h2>
-        </div>
+  </section><!-- /Hero Section -->
+
+  <!-- Featured Services Section -->
+  <section id="featured-services" class="featured-services section">
+
+   <div class="container">
+
+    <div class="row gy-4">
+
+     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+      <div class="service-item position-relative">
+       <div class="icon"><i class="bi bi-activity icon"></i></div>
+       <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+       <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+      </div>
+     </div><!-- End Service Item -->
+
+     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+      <div class="service-item position-relative">
+       <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+       <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+       <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+      </div>
+     </div><!-- End Service Item -->
+
+     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+      <div class="service-item position-relative">
+       <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+       <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
+       <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+      </div>
+     </div><!-- End Service Item -->
+
+    </div>
+
+   </div>
+
+  </section><!-- /Featured Services Section -->
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+
+   <!-- Section Title -->
+   <div class="container section-title" data-aos="fade-up">
+    <span>About Us<br></span>
+    <h2>About</h2>
+    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+   </div><!-- End Section Title -->
+
+   <div class="container">
+
+    <div class="row gy-4">
+     <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+      <img src="assets/img/about.png" class="img-fluid" alt="">
+      <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+     </div>
+     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+      <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+      <p class="fst-italic">
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+       magna aliqua.
+      </p>
+      <ul>
+       <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+       <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+       <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+      </ul>
+      <p>
+       Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+      </p>
+     </div>
+    </div>
+
+   </div>
+
+  </section><!-- /About Section -->
+
+  <!-- Stats Section -->
+  <section id="stats" class="stats section">
+
+   <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4">
+
+     <div class="col-lg-3 col-md-6">
+      <div class="stats-item text-center w-100 h-100">
+       <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+       <p>Clients</p>
+      </div>
+     </div><!-- End Stats Item -->
+
+     <div class="col-lg-3 col-md-6">
+      <div class="stats-item text-center w-100 h-100">
+       <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+       <p>Projects</p>
+      </div>
+     </div><!-- End Stats Item -->
+
+     <div class="col-lg-3 col-md-6">
+      <div class="stats-item text-center w-100 h-100">
+       <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+       <p>Hours Of Support</p>
+      </div>
+     </div><!-- End Stats Item -->
+
+     <div class="col-lg-3 col-md-6">
+      <div class="stats-item text-center w-100 h-100">
+       <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+       <p>Workers</p>
+      </div>
+     </div><!-- End Stats Item -->
+
+    </div>
+
+   </div>
+
+  </section><!-- /Stats Section -->
+
+  <!-- Services Section -->
+  <section id="services" class="services section light-background">
+
+   <!-- Section Title -->
+   <div class="container section-title" data-aos="fade-up">
+    <span>Services</span>
+    <h2>Services</h2>
+    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+   </div><!-- End Section Title -->
+
+   <div class="container">
+
+    <div class="row gy-4">
+
+     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+      <div class="service-item position-relative">
+       <div class="icon">
+        <i class="bi bi-activity"></i>
        </div>
-       <div class="col-lg-9">
-        <div class="row">
-         <div class="col-lg-6">
-          <fieldset>
-           <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
-          </fieldset>
-         </div>
-         <div class="col-lg-6">
-          <fieldset>
-           <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
-          </fieldset>
-         </div>
-         <div class="col-lg-6">
-          <fieldset>
-           <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-          </fieldset>
-         </div>
-         <div class="col-lg-6">
-          <fieldset>
-           <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on">
-          </fieldset>
-         </div>
-         <div class="col-lg-12">
-          <fieldset>
-           <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>
-          </fieldset>
-         </div>
-         <div class="col-lg-12">
-          <fieldset>
-           <button type="submit" id="form-submit" class="main-button ">Send Message Now</button>
-          </fieldset>
-         </div>
-        </div>
+       <a href="service-details.html" class="stretched-link">
+        <h3>Nesciunt Mete</h3>
+       </a>
+       <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+      </div>
+     </div><!-- End Service Item -->
+
+     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+      <div class="service-item position-relative">
+       <div class="icon">
+        <i class="bi bi-broadcast"></i>
        </div>
-       <div class="col-lg-3">
-        <div class="contact-info">
-         <ul>
-          <li>
-           <div class="icon">
-            <img src="{{ asset('assets/web/contact-icon-01.png') }}" alt="email icon">
-           </div>
-           <a href="#">info@company.com</a>
-          </li>
-          <li>
-           <div class="icon">
-            <img src="{{ asset('assets/web/contact-icon-02.png') }}" alt="phone">
-           </div>
-           <a href="#">+001-002-0034</a>
-          </li>
-          <li>
-           <div class="icon">
-            <img src="{{ asset('assets/web/contact-icon-03.png') }}" alt="location">
-           </div>
-           <a href="#">26th Street, Digital Villa</a>
-          </li>
-         </ul>
+       <a href="service-details.html" class="stretched-link">
+        <h3>Eosle Commodi</h3>
+       </a>
+       <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+      </div>
+     </div><!-- End Service Item -->
+
+     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+      <div class="service-item position-relative">
+       <div class="icon">
+        <i class="bi bi-easel"></i>
+       </div>
+       <a href="service-details.html" class="stretched-link">
+        <h3>Ledo Markt</h3>
+       </a>
+       <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+      </div>
+     </div><!-- End Service Item -->
+
+     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+      <div class="service-item position-relative">
+       <div class="icon">
+        <i class="bi bi-bounding-box-circles"></i>
+       </div>
+       <a href="service-details.html" class="stretched-link">
+        <h3>Asperiores Commodit</h3>
+       </a>
+       <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+       <a href="service-details.html" class="stretched-link"></a>
+      </div>
+     </div><!-- End Service Item -->
+
+     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+      <div class="service-item position-relative">
+       <div class="icon">
+        <i class="bi bi-calendar4-week"></i>
+       </div>
+       <a href="service-details.html" class="stretched-link">
+        <h3>Velit Doloremque</h3>
+       </a>
+       <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+       <a href="service-details.html" class="stretched-link"></a>
+      </div>
+     </div><!-- End Service Item -->
+
+     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+      <div class="service-item position-relative">
+       <div class="icon">
+        <i class="bi bi-chat-square-text"></i>
+       </div>
+       <a href="service-details.html" class="stretched-link">
+        <h3>Dolori Architecto</h3>
+       </a>
+       <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+       <a href="service-details.html" class="stretched-link"></a>
+      </div>
+     </div><!-- End Service Item -->
+
+    </div>
+
+   </div>
+
+  </section><!-- /Services Section -->
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio section">
+
+   <!-- Section Title -->
+   <div class="container section-title" data-aos="fade-up">
+    <span>Portfolio</span>
+    <h2>Portfolio</h2>
+    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+   </div><!-- End Section Title -->
+
+   <div class="container">
+
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+     <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+      <li data-filter="*" class="filter-active">All</li>
+      <li data-filter=".filter-app">App</li>
+      <li data-filter=".filter-product">Product</li>
+      <li data-filter=".filter-branding">Branding</li>
+      <li data-filter=".filter-books">Books</li>
+     </ul><!-- End Portfolio Filters -->
+
+     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+       <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>App 1</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+       <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>Product 1</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+       <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>Branding 1</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+       <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>Books 1</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+       <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>App 2</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+       <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>Product 2</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+       <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>Branding 2</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+       <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>Books 2</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+       <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>App 3</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+       <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>Product 3</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+       <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>Branding 3</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+       <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+       <div class="portfolio-info">
+        <h4>Books 3</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+       </div>
+      </div><!-- End Portfolio Item -->
+
+     </div><!-- End Portfolio Container -->
+
+    </div>
+
+   </div>
+
+  </section><!-- /Portfolio Section -->
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials section light-background">
+
+   <!-- Section Title -->
+   <div class="container section-title" data-aos="fade-up">
+    <span>Testimonials</span>
+    <h2>Testimonials</h2>
+    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+   </div><!-- End Section Title -->
+
+   <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
+     <script type="application/json" class="swiper-config">
+      {
+       "loop": true,
+       "speed": 600,
+       "autoplay": {
+        "delay": 5000
+       },
+       "slidesPerView": "auto",
+       "pagination": {
+        "el": ".swiper-pagination",
+        "type": "bullets",
+        "clickable": true
+       },
+       "breakpoints": {
+        "320": {
+         "slidesPerView": 1,
+         "spaceBetween": 40
+        },
+        "1200": {
+         "slidesPerView": 3,
+         "spaceBetween": 20
+        }
+       }
+      }
+     </script>
+     <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+       <div class="testimonial-item" "="">
+          <p>
+            <i class=" bi bi-quote quote-icon-left"></i>
+        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+        </p>
+        <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+        <h3>Saul Goodman</h3>
+        <h4>Ceo &amp; Founder</h4>
+       </div>
+      </div><!-- End testimonial item -->
+
+      <div class="swiper-slide">
+       <div class="testimonial-item">
+        <p>
+         <i class="bi bi-quote quote-icon-left"></i>
+         <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+         <i class="bi bi-quote quote-icon-right"></i>
+        </p>
+        <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+        <h3>Sara Wilsson</h3>
+        <h4>Designer</h4>
+       </div>
+      </div><!-- End testimonial item -->
+
+      <div class="swiper-slide">
+       <div class="testimonial-item">
+        <p>
+         <i class="bi bi-quote quote-icon-left"></i>
+         <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+         <i class="bi bi-quote quote-icon-right"></i>
+        </p>
+        <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+        <h3>Jena Karlis</h3>
+        <h4>Store Owner</h4>
+       </div>
+      </div><!-- End testimonial item -->
+
+      <div class="swiper-slide">
+       <div class="testimonial-item">
+        <p>
+         <i class="bi bi-quote quote-icon-left"></i>
+         <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+         <i class="bi bi-quote quote-icon-right"></i>
+        </p>
+        <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+        <h3>Matt Brandon</h3>
+        <h4>Freelancer</h4>
+       </div>
+      </div><!-- End testimonial item -->
+
+      <div class="swiper-slide">
+       <div class="testimonial-item">
+        <p>
+         <i class="bi bi-quote quote-icon-left"></i>
+         <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+         <i class="bi bi-quote quote-icon-right"></i>
+        </p>
+        <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+        <h3>John Larson</h3>
+        <h4>Entrepreneur</h4>
+       </div>
+      </div><!-- End testimonial item -->
+
+     </div>
+     <div class="swiper-pagination"></div>
+    </div>
+
+   </div>
+
+  </section><!-- /Testimonials Section -->
+
+  <!-- Call To Action Section -->
+  <section id="call-to-action" class="call-to-action section accent-background">
+
+   <div class="container">
+    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+     <div class="col-xl-10">
+      <div class="text-center">
+       <h3>Call To Action</h3>
+       <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       <a class="cta-btn" href="#">Call To Action</a>
+      </div>
+     </div>
+    </div>
+   </div>
+
+  </section><!-- /Call To Action Section -->
+
+  <!-- Team Section -->
+  <section id="team" class="team section">
+
+   <!-- Section Title -->
+   <div class="container section-title" data-aos="fade-up">
+    <span>Section Title</span>
+    <h2>Team</h2>
+    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+   </div><!-- End Section Title -->
+
+   <div class="container">
+
+    <div class="row gy-5">
+
+     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+      <div class="member">
+       <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+       <div class="member-info">
+        <h4>Walter White</h4>
+        <span>Chief Executive Officer</span>
+        <div class="social">
+         <a href=""><i class="bi bi-twitter-x"></i></a>
+         <a href=""><i class="bi bi-facebook"></i></a>
+         <a href=""><i class="bi bi-instagram"></i></a>
+         <a href=""><i class="bi bi-linkedin"></i></a>
         </div>
        </div>
       </div>
-     </form>
+     </div><!-- End Team Member -->
+
+     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+      <div class="member">
+       <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+       <div class="member-info">
+        <h4>Sarah Jhonson</h4>
+        <span>Product Manager</span>
+        <div class="social">
+         <a href=""><i class="bi bi-twitter-x"></i></a>
+         <a href=""><i class="bi bi-facebook"></i></a>
+         <a href=""><i class="bi bi-instagram"></i></a>
+         <a href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+       </div>
+      </div>
+     </div><!-- End Team Member -->
+
+     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+       <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+       <div class="member-info">
+        <h4>William Anderson</h4>
+        <span>CTO</span>
+        <div class="social">
+         <a href=""><i class="bi bi-twitter-x"></i></a>
+         <a href=""><i class="bi bi-facebook"></i></a>
+         <a href=""><i class="bi bi-instagram"></i></a>
+         <a href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+       </div>
+      </div>
+     </div><!-- End Team Member -->
+
     </div>
+
    </div>
-  </div>
- </div>
+
+  </section><!-- /Team Section -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+
+   <!-- Section Title -->
+   <div class="container section-title" data-aos="fade-up">
+    <span>Section Title</span>
+    <h2>Contact</h2>
+    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+   </div><!-- End Section Title -->
+
+   <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4">
+
+     <div class="col-lg-5">
+
+      <div class="info-wrap">
+       <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+        <i class="bi bi-geo-alt flex-shrink-0"></i>
+        <div>
+         <h3>Address</h3>
+         <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+       </div><!-- End Info Item -->
+
+       <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+        <i class="bi bi-telephone flex-shrink-0"></i>
+        <div>
+         <h3>Call Us</h3>
+         <p>+1 5589 55488 55</p>
+        </div>
+       </div><!-- End Info Item -->
+
+       <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+        <i class="bi bi-envelope flex-shrink-0"></i>
+        <div>
+         <h3>Email Us</h3>
+         <p>info@example.com</p>
+        </div>
+       </div><!-- End Info Item -->
+
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+     </div>
+
+     <div class="col-lg-7">
+      <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+       <div class="row gy-4">
+
+        <div class="col-md-6">
+         <label for="name-field" class="pb-2">Your Name</label>
+         <input type="text" name="name" id="name-field" class="form-control" required="">
+        </div>
+
+        <div class="col-md-6">
+         <label for="email-field" class="pb-2">Your Email</label>
+         <input type="email" class="form-control" name="email" id="email-field" required="">
+        </div>
+
+        <div class="col-md-12">
+         <label for="subject-field" class="pb-2">Subject</label>
+         <input type="text" class="form-control" name="subject" id="subject-field" required="">
+        </div>
+
+        <div class="col-md-12">
+         <label for="message-field" class="pb-2">Message</label>
+         <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+        </div>
+
+        <div class="col-md-12 text-center">
+         <div class="loading">Loading</div>
+         <div class="error-message"></div>
+         <div class="sent-message">Your message has been sent. Thank you!</div>
+
+         <button type="submit">Send Message</button>
+        </div>
+
+       </div>
+      </form>
+     </div><!-- End Contact Form -->
+
+    </div>
+
+   </div>
+
+  </section><!-- /Contact Section -->
+
+ </main>
+ <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
  @include('partial/footer')
 
@@ -581,6 +712,20 @@
  <script src="{{ asset('js/digital-marketing/animation.js') }}"></script>
  <script src="{{ asset('js/digital-marketing/imagesloaded.js') }}"></script>
  <script src="{{ asset('js/digital-marketing/custom.js') }}"></script>
+
+ <!-- Vendor JS Files -->
+ <script src="{{ asset('js/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+ <script src="{{ asset('js/vendor/php-email-form/validate.js') }}"></script>
+ <script src="{{ asset('js/vendor/aos/aos.js') }}"></script>
+ <script src="{{ asset('js/vendor/glightbox/js/glightbox.min.js') }}"></script>
+ <script src="{{ asset('js/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+ <script src="{{ asset('js/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+ <script src="{{ asset('js/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+ <script src="{{ asset('js/vendor/swiper/swiper-bundle.min.js') }}"></script>
+
+ <!-- Main JS File -->
+ <script src="{{ asset('js/vendor/main.js') }}"></script>
+
 </body>
 
 </html>
