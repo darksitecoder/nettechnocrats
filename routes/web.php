@@ -38,3 +38,4 @@ Route::get('/portfolio', [PortfolioController::class, 'index']);
 
 
 Route::get('/seo', [DigitalMarketingController::class, 'seo']);
+Route::get('/about', [DigitalMarketingController::class, 'aboutus']);

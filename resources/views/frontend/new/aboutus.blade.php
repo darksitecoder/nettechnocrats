@@ -1,7 +1,3 @@
-<?php include 'include/header.php';?>
-
-
-
 <section class="cd-section visible">
    <div id="home" class="welcome-area site-header">
       <div class="welcome-image-area about" data-stellar-background-ratio="0.6">
@@ -9,13 +5,13 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="banner_text about_banner">
-                     <h1>We design and build world class responsive websites 
+                     <h1>We design and build world class responsive websites
                         that understands your business
                      </h1>
                      <p>Global Leaders In Web Development Solutions</p>
                      </h2>
                   </div>
-                  
+
                </div>
             </div>
          </div>
@@ -28,7 +24,8 @@
       <div class="row">
          <div class="col-md-12">
             <div class="nettect_about">
-               <h3>Nettechnocrats IT Services PVT LTD.’s <font> sole objective is to conceptualize, produce and implement effective IT and Digital Marketing solutions that surpass even the highest standards of quality.</font> </h3>
+               <h3>Nettechnocrats IT Services PVT LTD.’s <font> sole objective is to conceptualize, produce and implement effective IT and Digital Marketing solutions that surpass even the highest standards of quality.</font>
+               </h3>
             </div>
          </div>
       </div>
@@ -40,7 +37,7 @@
          <div class="col-md-12">
             <div class="mission">
                <h3>About Us</h3>
-               <p> 2010 was a turning point in the life of <strong>Dev</strong> and <strong>Sanjeev Sharma</strong> when they collaborated their past experiences and followed their inner conscience to step into competitive IT sector. They always had firm belief in smart work to enhance the return on  investment for all our global and domestic clients in vivid niches, by offering them top-notch IT, Digital Marketing and Mobile Application(ios and android) designing services.</p>
+               <p> 2010 was a turning point in the life of <strong>Dev</strong> and <strong>Sanjeev Sharma</strong> when they collaborated their past experiences and followed their inner conscience to step into competitive IT sector. They always had firm belief in smart work to enhance the return on investment for all our global and domestic clients in vivid niches, by offering them top-notch IT, Digital Marketing and Mobile Application(ios and android) designing services.</p>
                <p>We have seen technology evolving into the most irrefutable element of human life. Therefore, being the observers of this massive progression in a global transformation, our conclusion is in accepting the fact that technology fuels us and time. Technology & time has influenced today’s world and our finances, hence, we prefer to measure the success of our clients by the quality time they invest in our exclusive services. In short, we never lose focus on curating selective and amicable business solutions for our clients in the shortest time span.</p>
             </div>
          </div>
@@ -57,21 +54,21 @@
             <div class="row">
                <div class="col-md-4 col-sm-6 col-xm-12">
                   <div class="clear_div">
-                  <figure><img src="images/chart_icon.png" alt=""></figure>
+                     <figure><img src="images/chart_icon.png" alt=""></figure>
                      <h3>Transparent Communication</h3>
                      <p> Transparent communication is a key to a happy, productive relationship and to attain great results. We always keep the lines of communication open and reciprocal. You’ll be informed and empowered from inception to project review and beyond.</p>
                   </div>
                </div>
                <div class="col-md-4 col-sm-6 col-xm-12">
                   <div class="clear_div">
-                  <figure><img src="images/chart_icon.png" alt=""></figure>
+                     <figure><img src="images/chart_icon.png" alt=""></figure>
                      <h3>Dedicated Project Manager</h3>
                      <p> Every project with Nettechnocrats is assigned to a dedicated project manager. The project manager is always there to partner with you, ensuring that you always know what’s going on, what’s next, and what we need from you.</p>
                   </div>
                </div>
                <div class="col-md-4 col-sm-6 col-xm-12">
                   <div class="clear_div">
-                  <figure><img src="images/chart_icon.png" alt=""></figure>
+                     <figure><img src="images/chart_icon.png" alt=""></figure>
                      <h3>Built To Expand</h3>
                      <p> We are not a team of robots offering a fancy home page widget to every client. Every project has its own unique goals and vision. Whatever your project demands, our talented team bring fresh ideas to the table—every time.</p>
                   </div>
@@ -124,15 +121,15 @@
 <div class="client_about_us">
    <div class="container">
       <div class="row">
-         
+
          <div class="col-md-12">
             <div class="team_div client_div">
                <h2>Our Reputed Clients</h2>
                <p>We've had the good fortune of having the opportunity to serve a number of prominent companies and agencies. Here are some we've recently added to our growing list of partnerships.</p>
-               
-               
-               
-               
+
+
+
+
                <div class="brands_logo">
                   <div class="logo_brands"> <img src="https://s3.us-east-2.amazonaws.com/nettech-images/cocacola.png" alt="" class="img-responsive" /> </div>
                   <div class="logo_brands"> <img src="https://s3.us-east-2.amazonaws.com/nettech-images/client2.png" alt="" class="img-responsive" /> </div>
@@ -149,20 +146,3 @@
       </div>
    </div>
 </div>
-
-
-
-<?php include 'include/info_nettech.php'; ?>
-
-
-
-
-
-
-
-
-
-
-
-
-<?php include 'include/footer.php'; ?>
