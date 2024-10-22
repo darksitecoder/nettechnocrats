@@ -59,10 +59,15 @@
     @include('partial/header')
 
 
+<<<<<<< HEAD
 
     <div id="editor">
    
   
+=======
+    <div id="editor" style="height: 500px;">
+
+>>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
 
         <section class="hero__banner">
             <div class="row">
@@ -98,7 +103,10 @@
                     </div>
                 </div>
             </section>
+<<<<<<< HEAD
         
+=======
+>>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
 
             <section class="spectrum__services">
                 <div class="row">
@@ -246,16 +254,27 @@
                 </div>
             </section>
         </div>
+<<<<<<< HEAD
 
 
 
                         </div>
 
 
+=======
+
+
+    </div>
+
+
+
+    <!-- @include('partial/footer') -->
+>>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
 </body>
 
 
 <!-- Include Quill JS -->
+<<<<<<< HEAD
 <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
 <script>
     // Define and Register Custom Blot
@@ -303,6 +322,118 @@
         });
     });
 </script>
+=======
+<!-- <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script> -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var quill = new Quill('#editor', {
+            theme: 'snow',
+            modules: {
+                toolbar: {
+                    container: [
+                        [{
+                            header: [1, 2, false]
+                        }],
+                        ['bold', 'italic', 'underline'],
+                        [{
+                            list: 'ordered'
+                        }, {
+                            list: 'bullet'
+                        }],
+                        ['link', 'image'],
+                        ['clean']
+                    ],
+                    handlers: {
+                        image: imageHandler
+                    }
+                }
+            }
+        });
+
+        // Add custom styles to the Quill editor content area
+        var style = document.createElement('style');
+        style.innerHTML = `
+        .ql-editor p {
+            color: darkblue;
+        }
+        .ql-editor img {
+            border: 2px solid black;
+            max-width: 100%;
+        }
+        
+    `;
+        var editorContainer = document.querySelector('#editor .ql-editor');
+        if (editorContainer) {
+            editorContainer.appendChild(style);
+        }
+
+        function imageHandler() {
+            const range = quill.getSelection();
+            const url = prompt('Please enter the image URL:');
+            if (url) {
+                quill.insertEmbed(range.index, 'image', url);
+            }
+        }
+
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const formData = new FormData();
+                formData.append('file', file);
+
+                fetch('/upload-image', {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                        }
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.url) {
+                            const range = quill.getSelection();
+                            const imageElement = window.currentImage;
+                            if (imageElement) {
+                                imageElement.src = data.url;
+                                window.currentImage = null;
+                            } else {
+                                quill.insertEmbed(range.index, 'image', data.url);
+                            }
+                        }
+                    })
+                    .catch(error => console.error('Error uploading image:', error));
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            if (e.target.tagName === 'IMG' && e.target.classList.contains('ql-image')) {
+                e.preventDefault();
+                document.getElementById('fileInput').click();
+                window.currentImage = e.target;
+            }
+        });
+
+        document.getElementById('saveButton').addEventListener('click', function() {
+            const content = quill.getContents();
+            console.log('Content:', content);
+
+            fetch('/save-content', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                    },
+                    body: JSON.stringify({
+                        content: content
+                    }),
+                }).then(response => response.json())
+                .then(data => console.log('Server response:', data))
+                .catch(error => console.error('Error:', error));
+        });
+    });
+</script>
+
+>>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
 
 
 

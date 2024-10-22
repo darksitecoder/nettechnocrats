@@ -10,4 +10,17 @@ class DigitalMarketingController extends Controller
     {
         return view('frontend.digital-marketing.digitalmarketing');
     }
+
+
+
+    public function seo()
+    {
+        return view('frontend.digital-marketing.seo');
+    }
+
+    public function aboutus()
+    {
+
+        return view('frontend/new/aboutus');
+    }
 }
