@@ -1,12 +1,13 @@
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-<link href="css/style.css" rel="stylesheet" />
-<link rel="stylesheet" type="text/css" href="css_old/style.css" />
-<link rel="stylesheet" type="text/css" href="css_old/local.css" />
-<link href="css/responsive.css" rel="stylesheet" />
-<link rel="stylesheet" type="text/css" href="css_old/media.css" />
-<link href="css/fonts.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}" />
+<link href="{{ asset('css/style.css') }}" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="{{ asset('css_old/style.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ asset('css_old/local.css') }}" />
+<link href="{{ asset('css/responsive.css') }}" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="{{ asset('css_old/media.css') }}" />
+<link href="{{ asset('css/fonts.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <section class="top_banner">
+
 
 
    <section class="cd-section visible">
