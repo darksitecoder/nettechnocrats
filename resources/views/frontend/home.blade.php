@@ -59,8 +59,15 @@
     @include('partial/header')
 
 
+<<<<<<< HEAD
+
+    <div id="editor">
+   
+  
+=======
     <div id="editor" style="height: 500px;">
 
+>>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
 
         <section class="hero__banner">
             <div class="row">
@@ -96,6 +103,10 @@
                     </div>
                 </div>
             </section>
+<<<<<<< HEAD
+        
+=======
+>>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
 
             <section class="spectrum__services">
                 <div class="row">
@@ -243,6 +254,14 @@
                 </div>
             </section>
         </div>
+<<<<<<< HEAD
+
+
+
+                        </div>
+
+
+=======
 
 
     </div>
@@ -250,10 +269,60 @@
 
 
     <!-- @include('partial/footer') -->
+>>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
 </body>
 
 
 <!-- Include Quill JS -->
+<<<<<<< HEAD
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+<script>
+    // Define and Register Custom Blot
+    var Inline = Quill.import('blots/inline');
+
+    class BannerBlot extends Inline {
+        static create(value) {
+            let node = super.create();
+            node.classList.add('banner-section');
+            return node;
+        }
+
+        static formats(node) {
+            return node.classList.contains('banner-section');
+        }
+
+        format(name, value) {
+            if (name === 'banner-section' && value) {
+                this.domNode.classList.add('banner-section');
+            } else {
+                super.format(name, value);
+            }
+        }
+    }
+
+    Quill.register('formats/banner-section', BannerBlot);
+
+    // Initialize Quill
+    document.addEventListener('DOMContentLoaded', function() {
+        var quill = new Quill('#editor', {
+            theme: 'snow',
+            modules: {
+                toolbar: [
+                    [{ 'banner-section': true }, 'bold', 'italic']
+                ]
+            }
+        });
+
+        // Apply Custom Formatting Programmatically
+        document.getElementById('hero__banner').addEventListener('click', function() {
+            var range = quill.getSelection();
+            if (range) {
+                quill.format('banner-section', true);
+            }
+        });
+    });
+</script>
+=======
 <!-- <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script> -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -364,6 +433,7 @@
     });
 </script>
 
+>>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
 
 
 
