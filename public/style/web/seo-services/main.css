@@ -383,9 +383,13 @@ section,
   width: 100%;
   min-height: 70vh;
   position: relative;
-  padding: 0px 0 60px 0;
+  padding: 0px 0px 0px 0px;
   display: flex;
   align-items: center;
+}
+
+.hero img {
+  width: 100%;
 }
 
 .hero h1 {
@@ -491,6 +495,7 @@ section,
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   height: 100%;
+  transition: 0.5s ease-in-out;
 }
 
 .featured-services .service-item .icon {
@@ -522,6 +527,8 @@ section,
 
 .featured-services .service-item:hover {
   transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid var(--accent-color);
 }
 
 .featured-services .service-item:hover h4 a {
@@ -601,6 +608,7 @@ section,
   padding: 80px 20px;
   transition: border ease-in-out 0.3s;
   height: 100%;
+  transition: 0.5s ease-in-out;
 }
 
 .services .service-item .icon {
@@ -637,6 +645,7 @@ section,
 
 .services .service-item:hover {
   border-color: var(--accent-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .services .service-item:hover h3 {
