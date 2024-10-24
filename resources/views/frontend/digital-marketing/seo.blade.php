@@ -96,7 +96,8 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-            <img src="{{ asset('assets/web/seo-banner.png') }} " class="img-fluid" alt="">
+            <!-- <img src="{{ asset('assets/web/about-left-image.png') }} " class="img-fluid" alt=""> -->
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
             <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
@@ -161,7 +162,7 @@
     <!-- Consultent -->
     <section id="hero" class="hero section">
 
-      <div class="py-4" style="background-color: var(--background-color);">
+      <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
         <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
           <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
             <h1 class="text-center">How do we help?</h1>
@@ -186,8 +187,8 @@
         <h2>Services</h2>
         <p>Why Choose Us For SEO Services?</p>
         <p class="fs-5">In the dynamic domain of SEO, our history is rich with over two decades of proficiency. As a forefront SEO company, we’ve seamlessly blended deep-rooted expertise with agility, navigating through the intricate terrains of search engine algorithms and user behaviours. Our commitment isn’t just about recalling the past—it’s about constantly driving towards unparalleled excellence. With rigorous attention to keyword research and a constant ear to the industry’s heartbeat, our SEO services are meticulously curated and unparalleled in delivery.</p><br />
-        <p class="fs-5">
-          Be it an ambitious startup eager to etch its digital footprint or an established brand aspiring to refurbish its SEO techniques and fortify its online presence, our holistic SEO services are your passport to digital triumph. Put your digital dreams in the hands of an eminent SEO company that meticulously crafts strategies tailor-made for your distinct business aspirations, and observe as we navigate your digital trajectory towards unmatched growth.</p>
+        <!-- <p class="fs-5">
+          </p> -->
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -293,7 +294,89 @@
 
     </section><!-- /Call To Action Section -->
 
-
+    <section class="light-background why__choose__Net">
+      <div class="container">
+        <h2>Why Nettechnocrats for Digital Marketing Services?</h2>
+        <p>Be it an ambitious startup eager to etch its digital footprint or an established brand aspiring to refurbish its SEO techniques and fortify its online presence, our holistic SEO services are your passport to digital triumph. Put your digital dreams in the hands of an eminent SEO company that meticulously crafts strategies tailor-made for your distinct business aspirations, and observe as we navigate your digital trajectory towards unmatched growth.</p>
+        <div class="row pt-2">
+          <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
+            <div class="row mt-3">
+              <div class="col-lg-6">
+                <p class="why__answer">5+ years of average experience
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="why__answer">On time project delivery guaranteed
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="why__answer">High sealed security
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="why__answer">Dedicated Project Managers
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="why__answer">24*7 Support
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="why__answer">Hassle free communication
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="why__answer">Maintenance Service
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="why__answer">User-Friendly Data Structure
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="why__answer">5+ years of average experience
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="why__answer">On time project delivery guaranteed
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="why__answer">Integrity & transparency
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="why__answer">Free no-obligation quote
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="why__answer">Flexible Engagement Models
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="why__answer">Non-Discloser Agreement
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">

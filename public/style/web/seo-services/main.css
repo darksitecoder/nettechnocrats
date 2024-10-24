@@ -13,6 +13,7 @@
   --heading-color: #5f687b;
   /* Color for headings, subheadings and title throughout the website */
   --accent-color: #32C5B5;
+  --accent-color-opacity: rgba(50, 197, 181, 0.1);
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -896,6 +897,38 @@ section,
 
 .call-to-action .cta-btn:hover {
   background: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+}
+
+/*--------------------------------------------------------------
+# Why Choose Net
+--------------------------------------------------------------*/
+
+.why__choose__Net {
+  padding: 80px 0;
+  position: relative;
+  clip-path: inset(0);
+}
+
+.why__choose__Net h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--default-color);
+}
+
+.why__choose__Net .why__answer {
+  background-color: var(--accent-color-opacity);
+  border: 1px solid var(--accent-color-opacity);
+  padding: 15px 20px;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.why__choose__Net .why__answer:hover {
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  padding: 15px 20px;
+  border-radius: 5px;
 }
 
 /*--------------------------------------------------------------
