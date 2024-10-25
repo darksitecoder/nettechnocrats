@@ -151,7 +151,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
+              <p>Members</p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -180,13 +180,36 @@
     </section>
     <!-- Consultent -->
 
+    <section class="our__clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <div class="wheel">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+              <div class="cabin">Hello</div>
+              <div class="cabin"></div>
+              <div class="cabin"></div>
+              <div class="cabin"></div>
+              <div class="cabin"></div>
+              <div class="cabin"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Services Section -->
     <section id="services" class="services section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span>Services</span>
-        <h2>Services</h2>
+        <h2>Tailored SEO Solutions for Every Business Need</h2>
         <p>Why Choose Us For SEO Services?</p>
         <p class="fs-5">In the dynamic domain of SEO, our history is rich with over two decades of proficiency. As a forefront SEO company, we’ve seamlessly blended deep-rooted expertise with agility, navigating through the intricate terrains of search engine algorithms and user behaviours. Our commitment isn’t just about recalling the past—it’s about constantly driving towards unparalleled excellence. With rigorous attention to keyword research and a constant ear to the industry’s heartbeat, our SEO services are meticulously curated and unparalleled in delivery.</p><br />
         <!-- <p class="fs-5">
