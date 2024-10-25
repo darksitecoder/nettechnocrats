@@ -571,6 +571,14 @@ section,
   top: calc(50% - 47px);
 }
 
+.about section {
+  background-color: var(--accent-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
