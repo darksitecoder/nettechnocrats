@@ -1244,6 +1244,11 @@ section,
   color: var(--contrast-color);
 }
 
+.contact iframe {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+}
+
 .contact .php-email-form {
   background-color: var(--surface-color);
   height: 100%;
