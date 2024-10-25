@@ -382,9 +382,9 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 70vh;
+  min-height: 60vh;
   position: relative;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 60px 0px;
   display: flex;
   align-items: center;
 }
@@ -756,6 +756,7 @@ section,
 }
 
 .seo__animation__gif {
+  border-radius: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
@@ -1120,6 +1121,7 @@ section,
 }
 
 .why__choose__Net #seo__animation__gif {
+  border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
