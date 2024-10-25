@@ -6,6 +6,13 @@ use Illuminate\Http\Request;
 
 class DigitalMarketingController extends Controller
 {
+
+    public function index1()
+    {
+        // dd('hello');
+        return view('frontend.digital-marketing.digitalmarketing');
+    }
+
     public function index()
     {
         return view('frontend.digital-marketing.digitalmarketing');
