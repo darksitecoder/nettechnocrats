@@ -88,7 +88,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span>About Us<br></span>
-        <h2>What sets<br> <strong>our company apart?</strong></h2>
+        <h2><strong>What sets<br> our company apart?</strong></h2>
         <p>We have already spent enough years in SEO, ensuring that we understand the algorithm employed by all the major search engines. That's why we are consistently able to achieve positive results for our clients. </p>
       </div><!-- End Section Title -->
 
@@ -102,7 +102,7 @@
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
             <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3> -->
-            <p class="fst-italic">
+            <p class="">
               There is no shortage of SEO consultants and experts offering SEO services in India, but only a few of them have enough skills and experience to match with Nettechnocrats. Backed by a pool of SEO experts, we help you develop a unique strategy and plan so that you know what you exactly need to do to get higher rankings. We execute the best plan for you and help to get the top position in the marketplace.
             </p>
             <p>
@@ -111,6 +111,8 @@
             <p>
               We take a consultative approach with clients. Our client's SEO marketing needs are paramount and that's why we work closely with you at every step of SEO process. Our SEO services are proven to bring more traffic on the website from the search engines and resulting in more customers, sales and ROI.
             </p>
+
+            <a href="#" class="contact__btn">Talk to our consultant</a>
           </div>
         </div>
 
@@ -302,71 +304,71 @@
           <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
             <div class="row mt-3">
               <div class="col-lg-6">
-                <p class="why__answer">5+ years of average experience
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="200">5+ years of average experience
                 </p>
               </div>
               <div class="col-lg-6">
-                <p class="why__answer">On time project delivery guaranteed
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <p class="why__answer">High sealed security
-                </p>
-              </div>
-              <div class="col-lg-6">
-                <p class="why__answer">Dedicated Project Managers
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="200">On time project delivery guaranteed
                 </p>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-6">
-                <p class="why__answer">24*7 Support
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="300">High sealed security
                 </p>
               </div>
               <div class="col-lg-6">
-                <p class="why__answer">Hassle free communication
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <p class="why__answer">Maintenance Service
-                </p>
-              </div>
-              <div class="col-lg-6">
-                <p class="why__answer">User-Friendly Data Structure
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="300">Dedicated Project Managers
                 </p>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-6">
-                <p class="why__answer">5+ years of average experience
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="400">24*7 Support
                 </p>
               </div>
               <div class="col-lg-6">
-                <p class="why__answer">On time project delivery guaranteed
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <p class="why__answer">Integrity & transparency
-                </p>
-              </div>
-              <div class="col-lg-6">
-                <p class="why__answer">Free no-obligation quote
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="400">Hassle free communication
                 </p>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-6">
-                <p class="why__answer">Flexible Engagement Models
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="500">Maintenance Service
                 </p>
               </div>
               <div class="col-lg-6">
-                <p class="why__answer">Non-Discloser Agreement
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="500">User-Friendly Data Structure
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="600">5+ years of average experience
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="600">On time project delivery guaranteed
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Integrity & transparency
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Free no-obligation quote
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Flexible Engagement Models
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Non-Discloser Agreement
                 </p>
               </div>
             </div>
