@@ -18,19 +18,19 @@ use App\Http\Controllers\PortfolioController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+    
 
 
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 
 Route::get('/home', function () {
     return view('frontend.home');
 });
 
-
+// Route::get('/', [DigitalMarketingController::class, 'index1']);
 Route::get('/digital-marketing', [DigitalMarketingController::class, 'index']);
 // Route::get('/tech', [TechController::class, 'index']);
 Route::get('/industries', [IndustriesController::class, 'index']);
