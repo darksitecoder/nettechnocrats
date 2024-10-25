@@ -167,11 +167,11 @@
 
       <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
         <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
-          <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+          <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center px-5" data-aos="fade-up">
             <h1 class="text-center">How do we help?</h1>
-            <p class="text-center"><strong>Our Exceptional SEO Services Redefined!</strong></p>
-            <p class="text-center">In today’s digital-dominated world, our SEO services stand out. We elevate Brand Visibility, making your business a recognizable name in crowded markets. By optimizing your online presence, we guarantee Increased Traffic, driving potential clients to your doorstep.</p>
-            <p class="text-center">Beyond mere numbers, our focus on Lead Generation ensures a quality audience engages with your content. This naturally translates to Increased Sales as more visitors convert to customers. And speaking of conversion, our strategies finesse user journeys, enhancing the Conversion Rate. Simply put, we are not just about drawing crowds; we are about drawing the right crowd and ensuring they take action.</p>
+            <p class="text-center px-5"><strong>Our Exceptional SEO Services Redefined!</strong></p>
+            <p class="text-center px-5">In today's digital-dominated world, our SEO services stand out. We elevate Brand Visibility, making your business a recognizable name in crowded markets. By optimizing your online presence, we guarantee Increased Traffic, driving potential clients to your doorstep.</p>
+            <p class="text-center px-5">Beyond mere numbers, our focus on Lead Generation ensures a quality audience engages with your content. This naturally translates to Increased Sales as more visitors convert to customers. And speaking of conversion, our strategies finesse user journeys, enhancing the Conversion Rate. Simply put, we are not just about drawing crowds; we are about drawing the right crowd and ensuring they take action.</p>
 
           </div>
         </div>
