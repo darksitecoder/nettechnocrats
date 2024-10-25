@@ -8,12 +8,7 @@
     <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer" />
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
@@ -59,15 +54,15 @@
     @include('partial/header')
 
 
-<<<<<<< HEAD
+
 
     <div id="editor">
    
   
-=======
+
     <div id="editor" style="height: 500px;">
 
->>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
+
 
         <section class="hero__banner">
             <div class="row">
@@ -103,10 +98,9 @@
                     </div>
                 </div>
             </section>
-<<<<<<< HEAD
+
         
-=======
->>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
+
 
             <section class="spectrum__services">
                 <div class="row">
@@ -254,264 +248,19 @@
                 </div>
             </section>
         </div>
-<<<<<<< HEAD
 
 
 
                         </div>
 
 
-=======
-
-
-    </div>
-
-
-
-    <!-- @include('partial/footer') -->
->>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
 </body>
 
 
 <!-- Include Quill JS -->
-<<<<<<< HEAD
-<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
-<script>
-    // Define and Register Custom Blot
-    var Inline = Quill.import('blots/inline');
-
-    class BannerBlot extends Inline {
-        static create(value) {
-            let node = super.create();
-            node.classList.add('banner-section');
-            return node;
-        }
-
-        static formats(node) {
-            return node.classList.contains('banner-section');
-        }
-
-        format(name, value) {
-            if (name === 'banner-section' && value) {
-                this.domNode.classList.add('banner-section');
-            } else {
-                super.format(name, value);
-            }
-        }
-    }
-
-    Quill.register('formats/banner-section', BannerBlot);
-
-    // Initialize Quill
-    document.addEventListener('DOMContentLoaded', function() {
-        var quill = new Quill('#editor', {
-            theme: 'snow',
-            modules: {
-                toolbar: [
-                    [{ 'banner-section': true }, 'bold', 'italic']
-                ]
-            }
-        });
-
-        // Apply Custom Formatting Programmatically
-        document.getElementById('hero__banner').addEventListener('click', function() {
-            var range = quill.getSelection();
-            if (range) {
-                quill.format('banner-section', true);
-            }
-        });
-    });
-</script>
-=======
-<!-- <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script> -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var quill = new Quill('#editor', {
-            theme: 'snow',
-            modules: {
-                toolbar: {
-                    container: [
-                        [{
-                            header: [1, 2, false]
-                        }],
-                        ['bold', 'italic', 'underline'],
-                        [{
-                            list: 'ordered'
-                        }, {
-                            list: 'bullet'
-                        }],
-                        ['link', 'image'],
-                        ['clean']
-                    ],
-                    handlers: {
-                        image: imageHandler
-                    }
-                }
-            }
-        });
-
-        // Add custom styles to the Quill editor content area
-        var style = document.createElement('style');
-        style.innerHTML = `
-        .ql-editor p {
-            color: darkblue;
-        }
-        .ql-editor img {
-            border: 2px solid black;
-            max-width: 100%;
-        }
-        
-    `;
-        var editorContainer = document.querySelector('#editor .ql-editor');
-        if (editorContainer) {
-            editorContainer.appendChild(style);
-        }
-
-        function imageHandler() {
-            const range = quill.getSelection();
-            const url = prompt('Please enter the image URL:');
-            if (url) {
-                quill.insertEmbed(range.index, 'image', url);
-            }
-        }
-
-        document.getElementById('fileInput').addEventListener('change', function(e) {
-            const file = e.target.files[0];
-            if (file) {
-                const formData = new FormData();
-                formData.append('file', file);
-
-                fetch('/upload-image', {
-                        method: 'POST',
-                        body: formData,
-                        headers: {
-                            'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                        }
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.url) {
-                            const range = quill.getSelection();
-                            const imageElement = window.currentImage;
-                            if (imageElement) {
-                                imageElement.src = data.url;
-                                window.currentImage = null;
-                            } else {
-                                quill.insertEmbed(range.index, 'image', data.url);
-                            }
-                        }
-                    })
-                    .catch(error => console.error('Error uploading image:', error));
-            }
-        });
-
-        document.addEventListener('click', function(e) {
-            if (e.target.tagName === 'IMG' && e.target.classList.contains('ql-image')) {
-                e.preventDefault();
-                document.getElementById('fileInput').click();
-                window.currentImage = e.target;
-            }
-        });
-
-        document.getElementById('saveButton').addEventListener('click', function() {
-            const content = quill.getContents();
-            console.log('Content:', content);
-
-            fetch('/save-content', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                    },
-                    body: JSON.stringify({
-                        content: content
-                    }),
-                }).then(response => response.json())
-                .then(data => console.log('Server response:', data))
-                .catch(error => console.error('Error:', error));
-        });
-    });
-</script>
-
->>>>>>> 982419e27d8262a9b5f022716a2c1c92794d42c8
 
 
 
 
-<script>
-    const menu = document.querySelector(".menu");
-    const menuMain = menu.querySelector(".menu-main");
-    const goBack = menu.querySelector(".go-back");
-    const menuTrigger = document.querySelector(".mobile-menu-trigger");
-    const closeMenu = menu.querySelector(".mobile-menu-close");
-    let subMenu;
-    menuMain.addEventListener("click", (e) => {
-        if (!menu.classList.contains("active")) {
-            return;
-        }
-        if (e.target.closest(".menu-item-has-children")) {
-            const hasChildren = e.target.closest(".menu-item-has-children");
-            showSubMenu(hasChildren);
-        }
-    });
-    goBack.addEventListener("click", () => {
-        hideSubMenu();
-    })
-    menuTrigger.addEventListener("click", () => {
-        toggleMenu();
-    })
-    closeMenu.addEventListener("click", () => {
-        toggleMenu();
-    })
-    document.querySelector(".menu-overlay").addEventListener("click", () => {
-        toggleMenu();
-    })
-
-    function toggleMenu() {
-        menu.classList.toggle("active");
-        document.querySelector(".menu-overlay").classList.toggle("active");
-    }
-
-    function showSubMenu(hasChildren) {
-        subMenu = hasChildren.querySelector(".sub-menu");
-        subMenu.classList.add("active");
-        subMenu.style.animation = "slideLeft 0.5s ease forwards";
-        const menuTitle = hasChildren.querySelector("i").parentNode.childNodes[0].textContent;
-        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
-        menu.querySelector(".mobile-menu-head").classList.add("active");
-    }
-
-    function hideSubMenu() {
-        subMenu.style.animation = "slideRight 0.5s ease forwards";
-        setTimeout(() => {
-            subMenu.classList.remove("active");
-        }, 300);
-        menu.querySelector(".current-menu-title").innerHTML = "";
-        menu.querySelector(".mobile-menu-head").classList.remove("active");
-    }
-
-    window.onresize = function() {
-        if (this.innerWidth > 991) {
-            if (menu.classList.contains("active")) {
-                toggleMenu();
-            }
-
-        }
-    }
-</script>
-<script>
-    const links = document.querySelectorAll('.list-item a');
-    const image = document.getElementById('image');
-
-    links.forEach(link => {
-        link.addEventListener('mouseover', function() {
-            image.src = this.getAttribute('data-image');
-        });
-
-        link.addEventListener('mouseout', function() {
-            image.src = '{{ asset("assets/web/nav-images/seo.png") }}'; // Use double quotes inside the asset function
-        });
-    });
-</script>
 
 </html>
