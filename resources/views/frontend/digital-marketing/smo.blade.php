@@ -392,7 +392,7 @@
 
                   <!-- Section Title -->
                   <div class="container section-title" data-aos="fade-up">
-                        <span>Section Title</span>
+                        <span>Contact us</span>
                         <h2>Contact</h2>
                         <p>Fill the form for more details</p>
                   </div><!-- End Section Title -->

@@ -1098,13 +1098,14 @@ section,
 }
 
 .call-to-action h3 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
   color: var(--default-color);
 }
 
 .call-to-action p {
   color: var(--default-color);
+  font-size: 18px;
 }
 
 .call-to-action .cta-btn {
@@ -1123,6 +1124,12 @@ section,
 
 .call-to-action .cta-btn:hover {
   background: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+}
+
+.call-to-action .call_action_list li {
+  list-style-type: disc;
+  line-height: 40px;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------

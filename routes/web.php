@@ -39,5 +39,8 @@ Route::get('/portfolio', [PortfolioController::class, 'index']);
 
 Route::get('/seo-services', [DigitalMarketingController::class, 'seo']);
 Route::get('/smo-services', [DigitalMarketingController::class, 'smo']);
+Route::get('/ppc-services', [DigitalMarketingController::class, 'ppc']);
+Route::get('/local-seo-services', [DigitalMarketingController::class, 'local']);
+Route::get('/online-reputation-management', [DigitalMarketingController::class, 'orm']);
 
 Route::get('/about', [DigitalMarketingController::class, 'aboutus']);
