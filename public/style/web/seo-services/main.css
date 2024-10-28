@@ -8,9 +8,9 @@
 :root {
   --background-color: #ffffff;
   /* Background color for the entire website, including individual sections */
-  --default-color: #444444;
+  --default-color: #0a0a0a;
   /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #5f687b;
+  --heading-color: #000000;
   /* Color for headings, subheadings and title throughout the website */
   --accent-color: #32C5B5;
   --accent-color-opacity: rgba(50, 197, 181, 0.1);
@@ -23,7 +23,7 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #5f687b;
+  --nav-color: #000000;
   /* The default color of the main navmenu links */
   --nav-hover-color: #32C5B5;
   /* Applied to main navmenu links when they are hovered over or active */
@@ -382,11 +382,16 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 60vh;
+  min-height: 85vh;
   position: relative;
   padding: 0px 0px 60px 0px;
   display: flex;
   align-items: center;
+}
+
+.hero .hero__banner__base {
+  height: 85vh;
+  width: 100%;
 }
 
 .hero img {
@@ -394,16 +399,18 @@ section,
 }
 
 .hero h1 {
+  margin-top: 2rem;
+  color: var(--background-color);
   margin: 0;
-  font-size: 48px;
+  font-size: 58px;
   font-weight: 700;
   line-height: 56px;
 }
 
 .hero p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: var(--background-color);
   margin: 5px 0 30px 0;
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 400;
 }
 
@@ -453,6 +460,33 @@ section,
 
 .hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.hero .hero__image {
+  margin-top: 2rem;
+  width: 450px;
+  height: auto;
+  /* animation: bounce 1.5s ease infinite; */
+}
+
+/* Bouncing animation */
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
 @media (max-width: 640px) {
