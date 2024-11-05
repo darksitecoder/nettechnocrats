@@ -33,6 +33,9 @@ Route::get('/', function () {
 // Route::get('/', [DigitalMarketingController::class, 'index1']);
 Route::get('/digital-marketing', [DigitalMarketingController::class, 'index']);
 Route::get('/tech', [TechController::class, 'index']);
+Route::get('/asp-net-development', [TechController::class, 'index']);
+
+
 Route::get('/industries', [IndustriesController::class, 'index']);
 Route::get('/portfolio', [PortfolioController::class, 'index']);
 

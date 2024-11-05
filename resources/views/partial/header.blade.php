@@ -24,38 +24,66 @@
        <a href="#">Tech <i class="fa fa-angle-down"></i></a>
        <div class="sub-menu mega-menu mega-menu-column-4">
         <div class="list-item">
-         <h4 class="title">Web Development</h4>
+         <h4 class="title">MICROSOFT</h4>
          <ul>
-          <li><a href="#" data-image=""> the key for every business success. Backed by a dedicated team of SEO professionals</a></li>
+          <li><a href="{{url('/asp-net-development')}}" data-image="">ASP. Net</a></li>
+          <li><a href="#" data-image="">C#</a></li>
+          <li><a href="#" data-image="">SharePoint</a></li>
          </ul>
-         <h4 class="title">Mobile App Development</h4>
-         <ul>
-          <li><a href="#" data-image=""> Visibility and Drive Targeted Traffic with a Top-tier PPC Management Company</a></li>
-         </ul>
-        </div>
-        <div class="list-item">
-         <h4 class="title">CMS</h4>
-         <ul>
-          <li><a href="#" data-image=""> Social media experts to increase brand awareness and loyalty</a></li>
-         </ul>
-         <h4 class="title">Local SEO Services</h4>
-         <ul>
-          <li><a href="#" data-image="}">Boost Your Local Presence with Local SEO Services Choose the premier Local SEO Company</a></li>
-         </ul>
-        </div>
-        <div class="list-item">
          <h4 class="title">CRM</h4>
          <ul>
-          <li><a href="#" data-image="}">Boost Agency Revenue with Our Trusted White Label Services</a></li>
+          <li><a href="#" data-image="">Microsoft Dynamic CRM</a></li>
+          <li><a href="#" data-image="">Salesforce</a></li>
          </ul>
-         <h4 class="title">Microsoft</h4>
+        </div>
+        <div class="list-item">
+         <h4 class="title">MOBILE</h4>
          <ul>
-          <li><a href="#" data-image="}">Experience the Pinnacle of Online Reputation Management Services with Nettechnocrats.</a></li>
+          <li><a href="#" data-image="">Android</a></li>
+          <li><a href="#" data-image="">Iphone/IOS</a></li>
+          <li><a href="#" data-image="">Swift</a></li>
+          <li><a href="#" data-image="">Wearable</a></li>
+         </ul>
+         <h4 class="title">PHP TECHNOLOGY</h4>
+         <ul>
+          <li><a href="#" data-image="}">PHP</a></li>
+          <li><a href="#" data-image="}">Zend</a></li>
+          <li><a href="#" data-image="}">Lamp</a></li>
+          <li><a href="#" data-image="}">Codeigniter</a></li>
+          <li><a href="#" data-image="}">Laravel</a></li>
          </ul>
         </div>
-        <div class="list-item" id="imge">
-         <img src="{{ asset('assets/web/nav-images/seo.png') }}" alt="Service Image" id="imae" />
+        <div class="list-item">
+         <h4 class="title">JS FRAMEWORK</h4>
+         <ul>
+          <li><a href="#" data-image="}">Node Js</a></li>
+          <li><a href="#" data-image="}">Angular Js</a></li>
+         </ul>
+         <h4 class="title">CMS</h4>
+         <ul>
+          <li><a href="#" data-image="}">WordPress</a></li>
+          <li><a href="#" data-image="}">Magento</a></li>
+          <li><a href="#" data-image="}">Joomla</a></li>
+          <li><a href="#" data-image="}">Drupal</a></li>
+         </ul>
         </div>
+        <div class="list-item">
+         <h4 class="title">OTHERS</h4>
+         <ul>
+          <li><a href="#" data-image="}">Python Web development-company</a></li>
+          <li><a href="#" data-image="}">Cloud Computing</a></li>
+          <li><a href="#" data-image="}">Big Data</a></li>
+          <li><a href="#" data-image="}">Chatbot</a></li>
+          <li><a href="#" data-image="}">IBeacon</a></li>
+          <li><a href="#" data-image="}">Iot</a></li>
+          <li><a href="#" data-image="}">Blockchain</a></li>
+          <li><a href="#" data-image="}">Data Science</a></li>
+          <li><a href="#" data-image="}">Artificial Intelligence</a></li>
+         </ul>
+        </div>
+        <!-- <div class="list-item" id="imge">
+         <img src="{{ asset('assets/web/nav-images/seo.png') }}" alt="Service Image" id="imae" />
+        </div> -->
        </div>
       </li>
       <li class="menu-item-has-children">

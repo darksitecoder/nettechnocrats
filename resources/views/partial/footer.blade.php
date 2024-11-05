@@ -45,6 +45,7 @@
   <div class="col-lg-12">
    <h5>INDUSTRIES THAT WE SERVED:</h5>
    <div class="keywords__footer">
+
     <a href="#">E-Wallet App Development </a>
     <a href="#">Banking App Development </a>
     <a href="#">Multi-Vendor Marketplace Development </a>

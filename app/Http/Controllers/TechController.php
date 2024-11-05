@@ -10,4 +10,9 @@ class TechController extends Controller
     {
         return view('frontend.tech.tech');
     }
+
+    public function asp()
+    {
+        return view('frontend.asp.asp-net-development');
+    }
 }
