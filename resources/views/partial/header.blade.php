@@ -92,31 +92,31 @@
         <div class="list-item">
          <h4 class="title">SEO Services</h4>
          <ul>
-          <li><a href="#" data-image="{{ asset('assets/web/nav-images/seo.png') }}">SEO is the key for every business success. Backed by a dedicated team of SEO professionals</a></li>
+          <li><a href="{{url('/seo-services/')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">SEO is the key for every business success. Backed by a dedicated team of SEO professionals</a></li>
          </ul>
          <h4 class="title">PPC Services</h4>
          <ul>
-          <li><a href="#" data-image="{{ asset('assets/web/nav-images/ppc.png') }}">Maximize Visibility and Drive Targeted Traffic with a Top-tier PPC Management Company</a></li>
+          <li><a href="{{url('/ppc-services/')}}" data-image="{{ asset('assets/web/nav-images/ppc.png') }}">Maximize Visibility and Drive Targeted Traffic with a Top-tier PPC Management Company</a></li>
          </ul>
         </div>
         <div class="list-item">
          <h4 class="title">SMO Services</h4>
          <ul>
-          <li><a href="#" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">Hire Social media experts to increase brand awareness and loyalty</a></li>
+          <li><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">Hire Social media experts to increase brand awareness and loyalty</a></li>
          </ul>
          <h4 class="title">Local SEO Services</h4>
          <ul>
-          <li><a href="#" data-image="{{ asset('assets/web/nav-images/local-seo.png') }}">Boost Your Local Presence with Local SEO Services Choose the premier Local SEO Company</a></li>
+          <li><a href="{{url('/local-seo-services/')}}" data-image="{{ asset('assets/web/nav-images/local-seo.png') }}">Boost Your Local Presence with Local SEO Services Choose the premier Local SEO Company</a></li>
          </ul>
         </div>
         <div class="list-item">
          <h4 class="title">SEO Reseller</h4>
          <ul>
-          <li><a href="#" data-image="{{ asset('assets/web/nav-images/seo-reseller.png') }}">Boost Agency Revenue with Our Trusted White Label Services</a></li>
+          <li><a href="{{url('//')}}" data-image="{{ asset('assets/web/nav-images/seo-reseller.png') }}">Boost Agency Revenue with Our Trusted White Label Services</a></li>
          </ul>
          <h4 class="title">ORM</h4>
          <ul>
-          <li><a href="#" data-image="{{ asset('assets/web/nav-images/orm.webp') }}">Experience the Pinnacle of Online Reputation Management Services with Nettechnocrats.</a></li>
+          <li><a href="{{url('/online-reputation-management/')}}" data-image="{{ asset('assets/web/nav-images/orm.webp') }}">Experience the Pinnacle of Online Reputation Management Services with Nettechnocrats.</a></li>
          </ul>
         </div>
         <div class="list-item" id="imageContainer">
