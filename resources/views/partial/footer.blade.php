@@ -1,28 +1,30 @@
 ﻿<footer>
  <div class="row">
   <div class="col-lg-2">
-   <h5>Experties</h5>
-   <p><a href="#">SEO Services</a></p>
-   <p><a href="#">SEO Services</a></p>
-   <p><a href="#">SEO Services</a></p>
-   <p><a href="#">SEO Services</a></p>
-   <p><a href="#">SEO Services</a></p>
+   <h5 class="fs-5">Experties</h5>
+   <p><a href="{{url('/seo-services/')}}">SEO Services</a></p>
+   <p><a href="{{url('/smo-services/')}}">SMO Services</a></p>
+   <p><a href="{{url('/ppc-services/')}}">PPC Services</a></p>
+   <p><a href="#">Digital Marketing</a></p>
+   <p><a href="#">Landing Page Development</a></p>
   </div>
   <div class="col-lg-2">
-   <h5>Experties</h5>
-   <p><a href="#">SEO Services</a></p>
-   <p> <a href="#">SEO Services</a></p>
-   <p><a href="#">SEO Services</a></p>
-   <p> <a href="#">SEO Services</a></p>
-   <p><a href="#">SEO Services</a></p>
+   <h5 class="fs-5">SEO BY INDUSTRY</h5>
+   <p><a href="#">Law Firm SEO</a></p>
+   <p> <a href="#">Healthcare SEO</a></p>
+   <p><a href="#">limo SEO</a></p>
+   <p> <a href="#">E-commerce SEO</a></p>
+   <p><a href="#">Shopify SEO</a></p>
+   <p><a href="#">WIX SEO</a></p>
   </div>
   <div class="col-lg-2">
    <h5 class="invisible">More Links</h5>
-   <p><a href="#">SEO Services</a></p>
-   <p><a href="#">SEO Services</a></p>
-   <p><a href="#">SEO Services</a></p>
-   <p><a href="#">SEO Services</a></p>
-   <p><a href="#">SEO Services</a></p>
+   <p><a href="#">Wordpress SEO</a></p>
+   <p><a href="#">ORM</a></p>
+   <p><a href="#">Local SEO</a></p>
+   <p><a href="#">SEO Reseller</a></p>
+   <p><a href="#">Amazon SEO</a></p>
+   <p><a href="#">Squarespace SEO</a></p>
   </div>
   <div class="col-lg-6">
    <h5>About Company</h5>
