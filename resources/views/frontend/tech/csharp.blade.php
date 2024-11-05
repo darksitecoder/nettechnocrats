@@ -4,7 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+ <title>C Sharp</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -31,31 +31,31 @@
 <body>
  @include('partial/header')
  <!-- Abvout Start -->
- <div class="container-fluid about py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+ <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-5 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">.Net Application Development</h1>
-      <p class="mb-4 text-white">Hire An Experienced .NET Development Company To Develop High-Quality and Secure Web Applications
+      <h1 class="display-5 mb-4 text-white">.C# Development Customize</h1>
+      <p class="mb-4 text-white">Customize your software application needs using C# development and .NET framework
       </p>
      </div>
     </div>
     <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.2s">
-     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/pay-p-c-removebg-preview.png') }}" class="img-fluid rounded" alt="">
+     <div class="rounded position-relative overflow-hidden d-flex justify-content-center">
+      <img src="{{ asset('assets/web/Csharp_Logo.png') }}" class="img-fluid rounded " alt="">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="container-fluid about hero__banner__tech py-5">
+ <div class="container-fluid about py-5">
   <div class="container py-5">
 
    <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-    <h2 class="display-5 mb-4">ASP.Net Application Development Company</h2>
+    <h2 class="display-5 mb-4">C# Development Company</h2>
     <p class="mb-0">Establish Your Business In The Virtual World Using .Net Web Development Services
     </p>
    </div>
@@ -63,8 +63,7 @@
     <div class="col-xl-6 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4">Our team of experienced web developers has worked on a variety of ASP.NET web application development and programming projects for the different industry domains. We offer a full cycle of ASP.net application development services right from analyzing the clients’ requirements to design, testing, deployment and ongoing support.
-       Hire our experienced asp.net VC developers who can serve you with both fully custom ASP.net web solutions as well as integrated MVC solutions. Whether it’s a simple and creative asp .net application development or a complicated e-commerce website development project, we strive hard to provide you all the features you could possibly require at very affordable rates.
+      <p class="mb-4">Being the most sought-after object oriented programming language (OOPS) from the tech giant Microsoft, C# is employed generally for developing robust and scalable desktop, web and windows solutions that suit business requirements. At Nettechnocrats, our rich expertise has given us the competitive edge for C# clients.
       </p>
       <div class="row g-4">
 
@@ -110,7 +109,7 @@
       </div>
       <div class="rounded-bottom p-4">
        <a href="#" class="h4 d-inline-block mb-4">KEYWORD RESEARCH & ANALYSIS</a>
-       <p class="mb-4">In the world of SEO, there are two types of keywords one that attracts browsers and one that attracts buyers. Finding the best keywords is key to a successful SEO campaign.
+       <p class="mb-4">Our experts make sure your online store works smoothly. We fix issues, make it fast, and mobile-friendly, and ensure your product pages shine.
        </p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
@@ -122,8 +121,8 @@
        <i class="fa-solid fa-globe"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">DESKTOP SOFTWARE DEVELOPMENT</a>
-       <p class="mb-4">C# is Microsoft powerful, object-oriented programming language when it comes to developing scalable enterprise applications. Having expertise in C# development, we can provide robust and scalable desktop solutions to our clients.
+       <a href="#" class="h4 d-inline-block mb-4">ON-PAGE OPTIMIZATION</a>
+       <p class="mb-4">We optimize every page of your website as per Google guideline to improve its position in the search engine rankings.
        </p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
@@ -136,7 +135,7 @@
       </div>
       <div class="rounded-bottom p-4">
        <a href="#" class="h4 d-inline-block mb-4">ANALYTICS TRACKING</a>
-       <p class="mb-4">If you can measure it, you can improve it. Quantify your results by tracking your rankings, referrals, links, and more to help analyze SEO strategy and get more success.
+       <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
        </p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
@@ -161,8 +160,8 @@
        <i class="fa-solid fa-link"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">SERVER-SIDE SOFTWARE DEVELOPMENT</a>
-       <p class="mb-4">Server-side software development mainly refers to the software that runs on the server with high stability and survivability. Our adept developers possess good knowledge to develop high-load server-side software solutions using C# technologies.</p>
+       <a href="#" class="h4 d-inline-block mb-4">ORGANIC LINK BUILDING</a>
+       <p class="mb-4">Our link development analysts offer a winning link building strategy combined with specific, powerful, and shareable content that drives organic links to your website.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -177,7 +176,7 @@
  <section class="light-background why__choose__Net">
   <div class="container">
    <h2>Why Nettechnocrats for Digital Marketing Services?</h2>
-   <p></p>
+   <p>Be it an ambitious startup eager to etch its digital footprint or an established brand aspiring to refurbish its SEO techniques and fortify its online presence, our holistic SEO services are your passport to digital triumph. Put your digital dreams in the hands of an eminent SEO company that meticulously crafts strategies tailor-made for your distinct business aspirations, and observe as we navigate your digital trajectory towards unmatched growth.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
      <div class="row mt-3">

@@ -32,8 +32,10 @@ Route::get('/', function () {
 
 // Route::get('/', [DigitalMarketingController::class, 'index1']);
 Route::get('/digital-marketing', [DigitalMarketingController::class, 'index']);
-Route::get('/tech', [TechController::class, 'index']);
-Route::get('/asp-net-development', [TechController::class, 'index']);
+Route::get('/tech', [TechController::class, 'tech']);
+Route::get('/asp-net-development', [TechController::class, 'asp']);
+Route::get('/c-sharp-development', [TechController::class, 'csharp']);
+Route::get('/share-point', [TechController::class, 'sharepoint']);
 
 
 Route::get('/industries', [IndustriesController::class, 'index']);
