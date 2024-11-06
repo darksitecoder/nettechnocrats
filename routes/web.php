@@ -36,6 +36,23 @@ Route::get('/tech', [TechController::class, 'tech']);
 Route::get('/asp-net-development', [TechController::class, 'asp']);
 Route::get('/c-sharp-development', [TechController::class, 'csharp']);
 Route::get('/share-point', [TechController::class, 'sharepoint']);
+Route::get('/php-development', [TechController::class, 'php']);
+Route::get('/zend-development', [TechController::class, 'zend']);
+Route::get('/lamp-development', [TechController::class, 'lamp']);
+Route::get('/codeigniter-development', [TechController::class, 'codeigniter']);
+Route::get('/microsoft-dynamic-crm', [TechController::class, 'microsoftcrm']);
+Route::get('/salesforce-development', [TechController::class, 'salesforce']);
+Route::get('/android-app-development', [TechController::class, 'android']);
+Route::get('/iphone-ios-development-company', [TechController::class, 'iphone']);
+Route::get('/swift-platform-development', [TechController::class, 'swift']);
+Route::get('/wearable-app-development', [TechController::class, 'wearable']);
+Route::get('/nodejs-development', [TechController::class, 'nodejs']);
+Route::get('/angular-js-development', [TechController::class, 'angular']);
+// Route::get('/share-point', [TechController::class, 'sharepoint']);
+// Route::get('/share-point', [TechController::class, 'sharepoint']);
+// Route::get('/share-point', [TechController::class, 'sharepoint']);
+// Route::get('/share-point', [TechController::class, 'sharepoint']);
+// Route::get('/share-point', [TechController::class, 'sharepoint']);
 
 
 Route::get('/industries', [IndustriesController::class, 'index']);
