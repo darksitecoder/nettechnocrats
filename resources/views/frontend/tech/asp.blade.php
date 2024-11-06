@@ -2,285 +2,313 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
- <!-- <link rel="stylesheet" href="style.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASP .Net</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
- <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
- <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer" />
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
-  referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
 
 
 
- <!-- Libraries Stylesheet -->
- <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
- <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
- <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 </head>
 
 <body>
- @include('partial/header')
- <!-- Abvout Start -->
- <div class="container-fluid about py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
-  <div class="container py-5">
-   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-5 wow fadeInLeft">
-     <div>
-      <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">.Net Application Development</h1>
-      <p class="mb-4 text-white">Hire An Experienced .NET Development Company To Develop High-Quality and Secure Web Applications
-      </p>
-     </div>
+    @include('partial/header')
+    <!-- Abvout Start -->
+    <div class="container-fluid about py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-xl-5 wow fadeInLeft">
+                    <div>
+                        <!-- <h4 class="text-primary1">About Us</h4> -->
+                        <h1 class="display-5 mb-4 text-white">.Net Application Development</h1>
+                        <p class="mb-4 text-white">Hire An Experienced .NET Development Company To Develop High-Quality and Secure Web Applications
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
+                        <img src="{{ asset('assets/web/pay-p-c-removebg-preview.png') }}" class="img-fluid rounded" alt="">
+                        <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.2s">
-     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/pay-p-c-removebg-preview.png') }}" class="img-fluid rounded" alt="">
-      <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="container-fluid about hero__banner__tech py-5">
-  <div class="container py-5">
+    <div class="container-fluid about hero__banner__tech py-5">
+        <div class="container py-5">
 
-   <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-    <h2 class="display-5 mb-4">ASP.Net Application Development Company</h2>
-    <p class="mb-0">Establish Your Business In The Virtual World Using .Net Web Development Services
-    </p>
-   </div>
-   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-6 wow fadeInLeft">
-     <div>
-      <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4">Our team of experienced web developers has worked on a variety of ASP.NET web application development and programming projects for the different industry domains. We offer a full cycle of ASP.net application development services right from analyzing the clients’ requirements to design, testing, deployment and ongoing support.
-       Hire our experienced asp.net VC developers who can serve you with both fully custom ASP.net web solutions as well as integrated MVC solutions. Whether it’s a simple and creative asp .net application development or a complicated e-commerce website development project, we strive hard to provide you all the features you could possibly require at very affordable rates.
-      </p>
-      <div class="row g-4">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+                <h2 class="display-5 mb-4">ASP.Net Application Development Company</h2>
+                <p class="mb-0">Establish Your Business In The Virtual World Using .Net Web Development Services
+                </p>
+            </div>
+            <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-xl-6 wow fadeInLeft">
+                    <div>
+                        <!-- <h4 class="text-primary1">About Us</h4> -->
+                        <p class="mb-4">Our team of experienced web developers has worked on a variety of ASP.NET web application development and programming projects for the different industry domains. We offer a full cycle of ASP.net application development services right from analyzing the clients’ requirements to design, testing, deployment and ongoing support.
+                            Hire our experienced asp.net VC developers who can serve you with both fully custom ASP.net web solutions as well as integrated MVC solutions. Whether it’s a simple and creative asp .net application development or a complicated e-commerce website development project, we strive hard to provide you all the features you could possibly require at very affordable rates.
+                        </p>
+                        <div class="row g-4">
 
-       <div class="col-sm-6">
-        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
-       </div>
+                            <div class="col-sm-6">
+                                <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+                            </div>
 
-      </div>
-     </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="bg-primary rounded position-relative overflow-hidden">
+                        <!-- <img src="img/about-2.png" class="img-fluid rounded w-100" alt=""> -->
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-     <div class="bg-primary rounded position-relative overflow-hidden">
-      <!-- <img src="img/about-2.png" class="img-fluid rounded w-100" alt=""> -->
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <!-- About End -->
+    <!-- About End -->
 
- <!-- Services Start -->
- <div class="container-fluid service pb-5">
-  <div class="container pb-5">
-   <div class="row g-4">
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-brands fa-battle-net"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">.NET DESKTOP APPLICATION DEVELOPMENT SERVICES</a>
-       <p class="mb-4">With cross-platform desktop development, we deliver desktop software that can run on the majority of operating systems with high performance and smooth UX.
-       </p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
+    <!-- Services Start -->
+    <div class="container-fluid service pb-5">
+        <div class="container pb-5">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <i class="fa-brands fa-battle-net"></i>
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">.NET DESKTOP APPLICATION DEVELOPMENT SERVICES</a>
+                            <p class="mb-4">With cross-platform desktop development, we deliver desktop software that can run on the majority of operating systems with high performance and smooth UX.
+                            </p>
+                            <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <i class="fa-brands fa-searchengin"></i>
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">KEYWORD RESEARCH & ANALYSIS</a>
+                            <p class="mb-4">In the world of SEO, there are two types of keywords one that attracts browsers and one that attracts buyers. Finding the best keywords is key to a successful SEO campaign.
+                            </p>
+                            <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">DESKTOP SOFTWARE DEVELOPMENT</a>
+                            <p class="mb-4">C# is Microsoft powerful, object-oriented programming language when it comes to developing scalable enterprise applications. Having expertise in C# development, we can provide robust and scalable desktop solutions to our clients.
+                            </p>
+                            <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <i class="fa-solid fa-chart-simple"></i>
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">ANALYTICS TRACKING</a>
+                            <p class="mb-4">If you can measure it, you can improve it. Quantify your results by tracking your rankings, referrals, links, and more to help analyze SEO strategy and get more success.
+                            </p>
+                            <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <i class="fa-brands fa-creative-commons-remix"></i>
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">CONTENT CREATION</a>
+                            <p class="mb-4">It’s only engaging content that will hold your potentials on the website. See how the copywriters at our SEO agency can convert your readers into paying customers.
+                            </p>
+                            <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <i class="fa-solid fa-link"></i>
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-4">SERVER-SIDE SOFTWARE DEVELOPMENT</a>
+                            <p class="mb-4">Server-side software development mainly refers to the software that runs on the server with high stability and survivability. Our adept developers possess good knowledge to develop high-load server-side software solutions using C# technologies.</p>
+                            <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-brands fa-searchengin"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">KEYWORD RESEARCH & ANALYSIS</a>
-       <p class="mb-4">In the world of SEO, there are two types of keywords one that attracts browsers and one that attracts buyers. Finding the best keywords is key to a successful SEO campaign.
-       </p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-globe"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">DESKTOP SOFTWARE DEVELOPMENT</a>
-       <p class="mb-4">C# is Microsoft powerful, object-oriented programming language when it comes to developing scalable enterprise applications. Having expertise in C# development, we can provide robust and scalable desktop solutions to our clients.
-       </p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-chart-simple"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">ANALYTICS TRACKING</a>
-       <p class="mb-4">If you can measure it, you can improve it. Quantify your results by tracking your rankings, referrals, links, and more to help analyze SEO strategy and get more success.
-       </p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-brands fa-creative-commons-remix"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CONTENT CREATION</a>
-       <p class="mb-4">It’s only engaging content that will hold your potentials on the website. See how the copywriters at our SEO agency can convert your readers into paying customers.
-       </p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-link"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">SERVER-SIDE SOFTWARE DEVELOPMENT</a>
-       <p class="mb-4">Server-side software development mainly refers to the software that runs on the server with high stability and survivability. Our adept developers possess good knowledge to develop high-load server-side software solutions using C# technologies.</p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <!-- Services End -->
+    <!-- Services End -->
 
 
 
- <section class="light-background why__choose__Net">
-  <div class="container">
-   <h2>Why Nettechnocrats for Digital Marketing Services?</h2>
-   <p></p>
-   <div class="row pt-2">
-    <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
-     <div class="row mt-3">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="200">5+ years of average experience
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="200">On time project delivery guaranteed
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="300">High sealed security
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="300">Dedicated Project Managers
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="400">24*7 Support
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="400">Hassle free communication
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="500">Maintenance Service
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="500">User-Friendly Data Structure
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="600">5+ years of average experience
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="600">On time project delivery guaranteed
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Integrity & transparency
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Free no-obligation quote
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Flexible Engagement Models
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Non-Discloser Agreement
-       </p>
-      </div>
-     </div>
-    </div>
-    <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-     <div class="seo__animation__gif">
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
-     </div>
-    </div>
-   </div>
-  </div>
- </section>
+    <section class="light-background why__choose__Net">
+        <div class="container">
+            <h2>Why Nettechnocrats for Digital Marketing Services?</h2>
+            <p></p>
+            <div class="row pt-2">
+                <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
+                    <div class="row mt-3">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="200">5+ years of average experience
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="200">On time project delivery guaranteed
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="300">High sealed security
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="300">Dedicated Project Managers
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="400">24*7 Support
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="400">Hassle free communication
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="500">Maintenance Service
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="500">User-Friendly Data Structure
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="600">5+ years of average experience
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="600">On time project delivery guaranteed
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Integrity & transparency
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Free no-obligation quote
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Flexible Engagement Models
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Non-Discloser Agreement
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="seo__animation__gif">
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
- <!--  -->
+    <!--  -->
 
- <!-- Call To Action Section -->
- <section id="call-to-action" class="call-to-action section accent-background">
+    <section class="brand__images py-4">
+        <div class="container">
+            <h3 class="text-center">Count On Our Passion For Technology</h3>
+            <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
+            <div class="img__row">
+                <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
+            </div>
+            <div class="img__row">
+                <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
+            </div>
+            <div class="img__row">
+                <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
+            </div>
+        </div>
+    </section>
 
-  <div class="container">
-   <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-    <div class="col-xl-10">
-     <div class="text-center">
-      <h3>Ready To Get Started?</h3>
-      <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="#">Contact Us</a>
-     </div>
-    </div>
-   </div>
-  </div>
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section accent-background">
 
- </section><!-- /Call To Action Section -->
+        <div class="container">
+            <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-xl-10">
+                    <div class="text-center">
+                        <h3>Ready To Get Started?</h3>
+                        <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
+                        <a class="cta-btn" href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
- <!-- Features Start -->
- <!-- <div class="container-fluid feature pb-5">
+    </section><!-- /Call To Action Section -->
+
+    <!-- Features Start -->
+    <!-- <div class="container-fluid feature pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary1">Our Features</h4>
@@ -336,11 +364,11 @@
             </div>
         </div>
     </div> -->
- <!-- Features End -->
+    <!-- Features End -->
 
 
- <!-- Offer Start -->
- <!-- <div class="container-fluid offer-section pb-5">
+    <!-- Offer Start -->
+    <!-- <div class="container-fluid offer-section pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary1">Our Offer</h4>
@@ -424,10 +452,10 @@
             </div>
         </div>
     </div> -->
- <!-- Offer End -->
+    <!-- Offer End -->
 
- <!-- Blog Start -->
- <!-- <div class="container-fluid blog pb-5">
+    <!-- Blog Start -->
+    <!-- <div class="container-fluid blog pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary1">Our Blog & News</h4>
@@ -511,11 +539,11 @@
             </div>
         </div>
     </div> -->
- <!-- Blog End -->
+    <!-- Blog End -->
 
 
- <!-- FAQs Start -->
- <!-- <div class="container-fluid faq-section pb-5">
+    <!-- FAQs Start -->
+    <!-- <div class="container-fluid faq-section pb-5">
         <div class="container pb-5 overflow-hidden">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary1">FAQs</h4>
@@ -596,11 +624,11 @@
             </div>
         </div>
     </div> -->
- <!-- FAQs End -->
+    <!-- FAQs End -->
 
 
- <!-- Team Start -->
- <!-- <div class="container-fluid team pb-5">
+    <!-- Team Start -->
+    <!-- <div class="container-fluid team pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary1">Our Team</h4>
@@ -680,10 +708,10 @@
             </div>
         </div>
     </div> -->
- <!-- Team End -->
+    <!-- Team End -->
 
- <!-- Testimonial Start -->
- <!-- <div class="container-fluid testimonial pb-5">
+    <!-- Testimonial Start -->
+    <!-- <div class="container-fluid testimonial pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary1">Testimonial</h4>
@@ -808,7 +836,7 @@
         </div>
     </div> -->
 
- @include('partial/footer')
+    @include('partial/footer')
 </body>
 
 </html>

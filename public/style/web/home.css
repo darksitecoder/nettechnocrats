@@ -147,6 +147,10 @@ a {
   }
 }
 
+p {
+  line-height: 1.8 !important;
+}
+
 .header .menu>ul>li .sub-menu>ul>li {
   line-height: 1;
 }
@@ -1281,7 +1285,7 @@ a {
   border-radius: 10px;
   transition: 0.20s;
   border: 1px solid var(--accent-color);
-  height: 300px;
+  height: 400px;
 }
 
 .service .service-item:hover {
@@ -1318,6 +1322,65 @@ a {
   text-align: center;
   cursor: default;
 }
+
+/* .brand__images .img__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brand__images .img__row img {
+  width: 60%;
+} */
+.brand__images h3 {
+  font-weight: 600;
+}
+
+.brand__images .img__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0px;
+  /* Adjust gap as needed */
+}
+
+.brand__images .brands {
+  flex: 1 1 calc(20% - 10px);
+  /* 20% width minus gap to ensure 5 items per row */
+  box-sizing: border-box;
+  background-color: var(--accent-color-opacity);
+  padding: 25px 0px;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+}
+
+.brand__images .brands:hover img {
+  scale: 1.1;
+}
+
+.brand__images .brands img {
+  transition: 0.5s ease-in-out;
+  width: 60%;
+  height: auto;
+  display: block;
+}
+
+
+@media (max-width: 600px) {
+  .brand__images .img__row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand__images .brands {
+    flex: 1 1 100%;
+    /* Full width for each item */
+    width: 100%;
+  }
+}
+
 
 /*** Service End ***/
 /*--------------------------------------------------------------
