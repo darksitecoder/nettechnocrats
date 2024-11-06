@@ -55,7 +55,7 @@ class TechController extends Controller
     }
     public function iphone()
     {
-        return view('frontend/tech/iphone');
+        return view('frontend/tech/ios');
     }
     public function swift()
     {
@@ -67,7 +67,7 @@ class TechController extends Controller
     }
     public function nodejs()
     {
-        return view('frontend/tech/nodejs');
+        return view('frontend/tech/node');
     }
     public function angular()
     {
