@@ -1656,6 +1656,16 @@ p {
   color: var(--bs-dark);
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: var(--accent-color) !important;
+  box-shadow: none !important;
+}
+
+.faq-section h2 * {
+  color: var(--heading-color) !important;
+  font-weight: 600 !important;
+}
+
 /*** FAQs End ***/
 
 /*** Team Start ***/

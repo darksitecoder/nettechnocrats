@@ -4,7 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Joomla Web Development Company In India</title>
+ <title>Blockchain App Development Company</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -26,6 +26,12 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+ <style>
+  .service-item {
+   height: 450px !important;
+  }
+ </style>
 </head>
 
 <body>
@@ -37,8 +43,8 @@
     <div class="col-xl-7 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">Joomla Web Development Company In India</h1>
-      <p class="mb-4 text-white">Bespoke Joomla Web Development Services That Compliments Your Brand</p>
+      <h1 class="display-5 mb-4 text-white">Blockchain App Development Company</h1>
+      <p class="mb-4 text-white">Enable Blockchain & get Better Traceability of Transaction that Enhances Engagement with Loyalty</p>
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -54,24 +60,19 @@
   <div class="container py-5">
 
    <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-    <h2 class="display-5 mb-4">Joomla Web Development</h2>
-    <!-- <p class="mb-0">Laravel Web Development Services for catering to the diverse industry verticals.</p> -->
+    <h2 class="display-5 mb-4">How Blockchain work in mobile appliation development</h2>
+    <p class="mb-0">The next huge wave in the technological world. It is the latest introduced technology that will change
+     the way you deal with your business.</p>
    </div>
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-6 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <!-- <p class="mb-4 fw-bold fs-3">What is Laravel Web Development ?</p> -->
-      <p class="mb-4">Joomla is the most demanded framework for the development of highly advanced business websites, news portals, online communities, social sites and many more. At Nettechnocrats, we are a leading Joomla web development company specializing in building robust and comprehensive web-enabled solutions by integrating and customizing Joomla CMS to suit individual clients’ requirements.</p>
-      <p class="mb-4">So, whether you need a full Joomla CMS website developed, development of customized extensions, bug fixing & support, or template design & development, hire Joomla web developers who can get the job done right for you.</p>
-
-      <div class="row g-4">
-
-       <div class="col-sm-6">
-        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
-       </div>
-
-      </div>
+      <p class="mb-4">The blockchain is a block chain which has a growing list of records. By its design, the blockchain is a decentralized technology. It is an incorruptible digital ledger of economic transactions which is programmed to record the financial transaction and virtually everything of value. This technology is creating a backbone for a new type of Internet and it allows easy distribution of blockchain technology. However, copying this digital information is strictly prohibited.</p>
+      <p class="mb-4">Originally devised for the digital currency- Bitcoin the technical communities are now using blockchain technology as a common date layer. This is something which enables a new application. A global network of computers uses blockchain technology to jointly manage database which records Bitcoin transaction.</p>
+      <p class="mb-4">The blockchain is a shared public ledger onto which the entire Bitcoin network relies upon. It allows Bitcoin wallet to calculate their spendable balance. Now the data and process adopted by the business can be shared across the various organization which eliminate the risk of fraud and waste. It creates a new revenue stream for companies.</p>
+      <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
      </div>
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
@@ -81,23 +82,162 @@
      </div>
     </div>
    </div>
+
   </div>
  </div>
  <!-- About End -->
 
+
+
+ <!-- Offer Start -->
+ <div class="container-fluid offer-section pb-5">
+  <div class="container pb-5">
+   <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+    <h2 class="display-5 mb-4">Blockchain Development Services</h2>
+   </div>
+   <div class="row g-5 align-items-center">
+    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
+     <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
+      <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
+       <h5 class="mb-0">ICO Development</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
+       <h5 class="mb-0">ICO Marketing</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
+       <h5 class="mb-0">Wallet app Development</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
+       <h5 class="mb-0">Blockchain development</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
+       <h5 class="mb-0">Coin creation</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseSix">
+       <h5 class="mb-0">Smart Contract Development</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseSeven">
+       <h5 class="mb-0">Hypeledger Development</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseEight">
+       <h5 class="mb-0">Multichain Development</h5>
+      </a>
+     </div>
+    </div>
+    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
+     <div class="tab-content">
+      <div id="collapseOne" class="tab-pane fade show p-0 active">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">ICO Development</h1>
+         <p class="mb-4">Customized ICO development services from design to launch ensures success.</p>
+        </div>
+       </div>
+      </div>
+      <div id="collapseTwo" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">ICO Marketing</h1>
+         <p class="mb-4">Dedicated strategic marketing to get ultimate fame in the field of ICO development.</p>
+        </div>
+       </div>
+      </div>
+      <div id="collapseThree" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">Wallet app Development</h1>
+         <p class="mb-4">Wallet app is developed ensures timely payments, quick transfer of funds, easy accessibility, and simple money transaction</p>
+        </div>
+       </div>
+      </div>
+      <div id="collapseFour" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">Blockchain development</h1>
+         <p class="mb-4">Blockchain development develops and implements an incorruptible digital ledger for economic transactions.</p>
+        </div>
+       </div>
+      </div>
+      <div id="collapseFive" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">Coin creation</h1>
+         <p class="mb-4">Coin creation gives the much-needed headway in the transaction into cutting edge blockchain</p>
+        </div>
+       </div>
+      </div>
+      <div id="collapseSix" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">Smart Contract Development</h1>
+         <p class="mb-4">For business authenticity and reliability-smart contract development acts indelible and traceable.</p>
+        </div>
+       </div>
+      </div>
+      <div id="collapseSeven" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">Hypeledger Development</h1>
+         <p class="mb-4">Keeping the business ahead, hyper ledger maintains and manages everything with the best results.</p>
+        </div>
+       </div>
+      </div>
+      <div id="collapseEight" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">Multichain Development</h1>
+         <p class="mb-4">Multi chains enables the business to complete vivid tasks. Also, it keeps a business ready for any challenge.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- Offer End -->
+
+
+ <div class="container-fluid about py-5">
+  <div class="container py-5">
+
+   <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+    <h2 class="display-5 mb-4">Benefits Of Using Blockchain Technology</h2>
+   </div>
+   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+     <div class="rounded position-relative overflow-hidden">
+      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
+     </div>
+    </div>
+    <div class="col-xl-6 wow fadeInLeft">
+     <div>
+      <!-- <h4 class="text-primary1">About Us</h4> -->
+      <!-- <p class="mb-4 fw-bold fs-3">What is Laravel Web Development ?</p> -->
+      <p class="mb-4">Utilizing artificial intelligence has simplified manpower efforts in many ways. While blockchain app development was designed to serve the digital master, it can also be used to serve your needs. Artificial intelligence has eased human effort. In many ways, it will not be a mistake to say that our lives have become advanced with the technology.</p>
+      <p class="mb-4">As a blockchain development company the projects developed and delivered by our experts seamlessly integrates with our clients business. We use ethereum as a decentralized platform for application. This is the reason, chances of fraud, censorship and third-party interference get almost nullified. We are the blockchain solution providers who offer AI specialization in</p>
+     </div>
+    </div>
+
+   </div>
+
+  </div>
+ </div>
+
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
+   <h3 class="mb-4 fw-bolder fs-1 text-center">Why Choose Blockchain Technology?</h3>
    <div class="row g-4">
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-laravel"></i>
+       <i class="fa-solid fa-microchip"></i>
       </div>
       <div class="rounded-bottom p-4">
        <a href="#" class="h4 d-inline-block mb-4">
-        JOOMLA WEBSITE DEVELOPMENT</a>
-       <p class="mb-4">Joomla CMS web design & development is one of our core capabilities. All our developers are skillfully proficient and experienced with the Joomla CMS and its latest versions.</p>
+        FRAUD PREVENTION</a>
+       <p class="mb-4">With the blockchain mobile app development, frauds almost get nullified. An open sourced ledgers having the record of every single transaction provide an enormous amount of oversights. This is the ultimate technology which makes the blockchain mobile app completely invulnerable to fraud.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -105,11 +245,11 @@
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-searchengin"></i>
+       <i class="fa-solid fa-tachograph-digital"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">COMPONENTS DEVELOPMENT</a>
-       <p class="mb-4">If you want to add any new Joomla component to your websites like blog, directory, image gallery, forum or anything else, we can develop bespoke components whenever you require.</p>
+       <a href="#" class="h4 d-inline-block mb-4">CRYPTOGRAPHICALLY SECURE</a>
+       <p class="mb-4">Blockchain app development based projects cannot meddle by anyone. This is something which makes them extremely resistant to hyperinflation. All the records can be easily found in the system where no one can intervene with the security. Ultimately a more secured way can be experienced with cryptographically secured blockchain app development.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -117,11 +257,11 @@
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-globe"></i>
+       <i class="fa-solid fa-clock"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">JOOMLA CUSTOM DEVELOPMENT</a>
-       <p class="mb-4">Our web developers have the experience to develop a whole range of custom web applications ranging from simple websites to complex website to suit individual client’s requirements.</p>
+       <a href="#" class="h4 d-inline-block mb-4">IMPROVED TRACEABILITY</a>
+       <p class="mb-4">Tracing goods with a blockchain is advantageous when you are seeking to trace the components actual position. Blockchain technology provides an audit trail for complex supply chains. The transactional data from the past can verify the authenticity of assets and hence this can prevent the fraud from happening.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -129,11 +269,11 @@
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-chart-simple"></i>
+       <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CUSTOM MODULES DEVELOPMENT</a>
-       <p class="mb-4">If your website needs more than what the existing modules offer, we provide unique custom Joomla development service to our clients in a great expert and professional circumstances.</p>
+       <a href="#" class="h4 d-inline-block mb-4">INCREASED FINANCIAL EFFICIENCY</a>
+       <p class="mb-4">Decentralized blockchain allow transactions to be easily made. The transaction is directly made from person to person. This effortlessly generates a clear statement for the client. Ultimately settling finance without seeking third part assistance gets effortless.</p>
       </div>
      </div>
     </div>
@@ -143,19 +283,19 @@
        <i class="fa-brands fa-creative-commons-remix"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">JOOMLA THEME CUSTOMIZATION</a>
-       <p class="mb-4">Get exclusive Joomla themes which are ready to use in an instant, enhancing the durability of your website to result in a completely satisfied customer.</p>
+       <a href="#" class="h4 d-inline-block mb-4">REDUCED COSTS</a>
+       <p class="mb-4">For a better business, a digestible cost is always the priority. With blockchain app development the need for intermediaries to guarantee the service is eliminated and hence cost gets reduced.</p>
       </div>
      </div>
     </div>
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-link"></i>
+       <i class="fa-solid fa-coins"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">JOOMLA APPLICATION DEVELOPMENT</a>
-       <p class="mb-4">Our adept team of offshore Joomla developers provides scalable and customized solutions that smoothly support your workflows without compromising any feature or functionality.</p>
+       <a href="#" class="h4 d-inline-block mb-4">GREATER TRANSPARENCY</a>
+       <p class="mb-4">With blockchain app development one can see the transaction history more clearly. All network participants share the same document as opposed to individual copies.</p>
       </div>
      </div>
     </div>
@@ -164,97 +304,10 @@
  </div>
  <!-- Services End -->
 
- <!-- Offer Start -->
- <div class="container-fluid offer-section pb-5">
-  <div class="container pb-5">
-   <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-    <h3 class="display-5 mb-4 fw-bolder">Why choose Joomla for your website?</h3>
-    <!-- <p class="mb-0 fw-bold">Our PHP professionals are highly experienced in offering PHP web development services and able to cater to all the demands of the client’s successfully. Here are some points why should you choose the PHP programming language for developing your website.</p> -->
-   </div>
-   <div class="row g-5 align-items-center">
-    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
-     <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
-      <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-       <h5 class="mb-0">Open Source Infrastructure</h5>
-      </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
-       <h5 class="mb-0">Robust & fast</h5>
-      </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-       <h5 class="mb-0">Secure (No Direct Access)</h5>
-      </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
-       <h5 class="mb-0">Extension Library</h5>
-      </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
-       <h5 class="mb-0">eCommerce becomes easy</h5>
-      </a>
-      <!-- <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseSix">
-       <h5 class="mb-0">Allows To Do Multiple Things</h5>
-      </a> -->
-     </div>
-    </div>
-    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
-     <div class="tab-content">
-      <div id="collapseOne" class="tab-pane fade show p-0 active">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Open Source Infrastructure</h1>
-         <p class="mb-4">The first and important factor to choose Joomla as a platform for a website is that its open source and free. That’s why it is more famous and most demanded CMS till yet.</p>
-        </div>
-       </div>
-      </div>
-      <div id="collapseTwo" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Robust & fast</h1>
-         <p class="mb-4">The most faster CMS platform, Joomla has power-full core features which make it faster to load contents. Even it can handle If there are over 100k page views/day without any problem or any bug.</p>
-        </div>
-       </div>
-      </div>
-      <div id="collapseThree" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Secure (No Direct Access)</h1>
-         <p class="mb-4">As Joomla is an object-oriented programming language, this framework helps PHP developers by providing complete support for PHP development. By easily reusing the code, developers can develop multi-interface applications quickly.</p>
-        </div>
-       </div>
-      </div>
-      <div id="collapseFour" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Extension Library</h1>
-         <p class="mb-4">Joomla is designed with thousands of readymade extensions which can help you to meet your requirement in a very quick time. You can also extend its functionality by using different extensions.</p>
-        </div>
-       </div>
-      </div>
-      <div id="collapseFive" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">eCommerce becomes easy</h1>
-         <p class="mb-4">IIf you’re looking for an eCommerce website, it is the best framework to opt for as Joomla is an e-commerce friendly CMS framework that instills many components designed specifically.</p>
-        </div>
-       </div>
-      </div>
-      <!-- <div id="collapseSix" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Allows To Do Multiple Things</h1>
-         <p class="mb-4">With Laravel framework development, you’re allowed to do multiple things. Right from user authentication and controlling the action to resources to creating forms, you can go for much more.</p>
-        </div>
-       </div>
-      </div> -->
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <!-- Offer End -->
-
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Joomla Web Development Services?</h2>
-
+   <h2>Why Nettechnocrats for your next Blockchain mobile application?</h2>
+   <p class="pb-4 pt-4">Nettechnocrats blockchain app development addresses blockchain technology whereby they provide quality, performance, and the trust which are the four major pillars of an incredible service. The blockchain development services caters to help in the adoption, integration and realization of blockchain networks. Nettechnocrats also brings its ability in other technology whereby they combine with blockchain and help the client amplify more value. In short, Nettechnocrats is the sole blockchain app development company to cater all your technical needs.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
      <div class="row mt-3">
