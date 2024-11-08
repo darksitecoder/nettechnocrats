@@ -44,8 +44,7 @@
                 </div>
                 <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.2s">
                     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-                        <img src="{{ asset('assets/web/pay-p-c-removebg-preview.png') }}" class="img-fluid rounded" alt="">
-                        <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
+                        <img src="{{ asset('assets/web/asp.net.webp') }}" class="img-fluid rounded w-50" alt="">
                     </div>
                 </div>
             </div>
@@ -76,9 +75,9 @@
                     </div>
                 </div>
                 <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="bg-primary rounded position-relative overflow-hidden">
-                        <!-- <img src="img/about-2.png" class="img-fluid rounded w-100" alt=""> -->
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
+                    <div class=" rounded-4 position-relative overflow-hidden" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <img src="{{ asset('assets/web/ASP.webp') }}" class="img-fluid rounded-3 w-100" alt="">
+                        <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
                     </div>
                 </div>
             </div>

@@ -27,58 +27,58 @@
          <h4 class="title">MICROSOFT</h4>
          <ul>
           <li><a href="{{url('/asp-net-development')}}" data-image="">ASP. Net</a></li>
-          <li><a href="#" data-image="">C#</a></li>
-          <li><a href="#" data-image="">SharePoint</a></li>
+          <li><a href="{{url('/c-sharp-development')}}" data-image="">C#</a></li>
+          <li><a href="{{url('/share-point')}}" data-image="">SharePoint</a></li>
          </ul>
          <h4 class="title">CRM</h4>
          <ul>
-          <li><a href="#" data-image="">Microsoft Dynamic CRM</a></li>
-          <li><a href="#" data-image="">Salesforce</a></li>
+          <li><a href="{{url('/microsoft-dynamic-crm')}}" data-image="">Microsoft Dynamic CRM</a></li>
+          <li><a href="{{url('/salesforce-development')}}" data-image="">Salesforce</a></li>
          </ul>
         </div>
         <div class="list-item">
          <h4 class="title">MOBILE</h4>
          <ul>
-          <li><a href="#" data-image="">Android</a></li>
-          <li><a href="#" data-image="">Iphone/IOS</a></li>
-          <li><a href="#" data-image="">Swift</a></li>
-          <li><a href="#" data-image="">Wearable</a></li>
+          <li><a href="{{url('/android-app-development')}}" data-image="">Android</a></li>
+          <li><a href="{{url('/iphone-ios-development-company')}}" data-image="">Iphone/IOS</a></li>
+          <li><a href="{{url('/swift-platform-development')}}" data-image="">Swift</a></li>
+          <li><a href="{{url('/wearable-app-development')}}" data-image="">Wearable</a></li>
          </ul>
          <h4 class="title">PHP TECHNOLOGY</h4>
          <ul>
-          <li><a href="#" data-image="}">PHP</a></li>
-          <li><a href="#" data-image="}">Zend</a></li>
-          <li><a href="#" data-image="}">Lamp</a></li>
-          <li><a href="#" data-image="}">Codeigniter</a></li>
-          <li><a href="#" data-image="}">Laravel</a></li>
+          <li><a href="{{url('/php-development')}}" data-image="}">PHP</a></li>
+          <li><a href="{{url('/zend-development')}}" data-image="}">Zend</a></li>
+          <li><a href="{{url('/lamp-development')}}" data-image="}">Lamp</a></li>
+          <li><a href="{{url('/codeigniter-development')}}" data-image="}">Codeigniter</a></li>
+          <li><a href="{{url('/laravel-development')}}" data-image="}">Laravel</a></li>
          </ul>
         </div>
         <div class="list-item">
          <h4 class="title">JS FRAMEWORK</h4>
          <ul>
-          <li><a href="#" data-image="}">Node Js</a></li>
-          <li><a href="#" data-image="}">Angular Js</a></li>
+          <li><a href="{{url('/nodejs-development')}}" data-image="}">Node Js</a></li>
+          <li><a href="{{url('/angular-js-development')}}" data-image="}">Angular Js</a></li>
          </ul>
          <h4 class="title">CMS</h4>
          <ul>
-          <li><a href="#" data-image="}">WordPress</a></li>
-          <li><a href="#" data-image="}">Magento</a></li>
-          <li><a href="#" data-image="}">Joomla</a></li>
-          <li><a href="#" data-image="}">Drupal</a></li>
+          <li><a href="{{url('/wordpress-development-services')}}" data-image="}">WordPress</a></li>
+          <li><a href="{{url('/magento-web-development ')}}" data-image="}">Magento</a></li>
+          <li><a href="{{url('/joomla-web-development')}}" data-image="}">Joomla</a></li>
+          <li><a href="{{url('/drupal-web-development')}}" data-image="}">Drupal</a></li>
          </ul>
         </div>
         <div class="list-item">
          <h4 class="title">OTHERS</h4>
          <ul>
-          <li><a href="#" data-image="}">Python Web development-company</a></li>
-          <li><a href="#" data-image="}">Cloud Computing</a></li>
-          <li><a href="#" data-image="}">Big Data</a></li>
-          <li><a href="#" data-image="}">Chatbot</a></li>
-          <li><a href="#" data-image="}">IBeacon</a></li>
-          <li><a href="#" data-image="}">Iot</a></li>
-          <li><a href="#" data-image="}">Blockchain</a></li>
-          <li><a href="#" data-image="}">Data Science</a></li>
-          <li><a href="#" data-image="}">Artificial Intelligence</a></li>
+          <li><a href="{{url('/python-django-development-company')}}" data-image="}">Python Web development-company</a></li>
+          <li><a href="{{url('/cloud-computing')}}" data-image="}">Cloud Computing</a></li>
+          <li><a href="{{url('/big-data-analytics')}}" data-image="}">Big Data</a></li>
+          <li><a href="{{url('/chatbot-development-company')}}" data-image="}">Chatbot</a></li>
+          <li><a href="{{url('/ibeacon-app-development-company')}}" data-image="}">IBeacon</a></li>
+          <li><a href="{{url('/iot-applications-development-company')}}" data-image="}">Iot</a></li>
+          <li><a href="{{url('/blockchain-application-development-company')}}" data-image="}">Blockchain</a></li>
+          <li><a href="{{url('/data-science')}}" data-image="}">Data Science</a></li>
+          <li><a href="{{url('/ai-application-development-company')}}" data-image="}">Artificial Intelligence</a></li>
          </ul>
         </div>
         <!-- <div class="list-item" id="imge">
