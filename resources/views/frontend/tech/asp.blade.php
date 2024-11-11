@@ -252,7 +252,7 @@
                 </div>
                 <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="seo__animation__gif">
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
+                        <img src="{{ asset('assets/web/asp-image.webp') }}" class="img-fluid w-100" alt="">
                     </div>
                 </div>
             </div>

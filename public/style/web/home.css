@@ -1541,6 +1541,23 @@ p {
   color: var(--bs-white);
 }
 
+
+.seo__animation__gif {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+}
+
+.seo__animation__gif img {
+  border-radius: 10px;
+}
+
+.image-with-shadow {
+  width: 200px;
+  /* Adjust the size as needed */
+  height: auto;
+  filter: url(#corner-shadow);
+}
+
 /*** Offer End ***/
 
 /*** Blog Start ***/

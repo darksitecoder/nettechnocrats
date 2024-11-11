@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="rounded position-relative overflow-hidden d-flex justify-content-center">
-                        <img src="{{ asset('assets/web/Csharp_Logo.png') }}" class="img-fluid rounded " alt="">
+                        <img src="{{ asset('assets/web/Csharp_Logo.webp') }}" class="img-fluid rounded " alt="">
                         <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
                     </div>
                 </div>
@@ -75,9 +75,8 @@
                     </div>
                 </div>
                 <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="bg-primary rounded position-relative overflow-hidden">
-                        <!-- <img src="img/about-2.png" class="img-fluid rounded w-100" alt=""> -->
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
+                    <div class=" rounded-4 position-relative overflow-hidden" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <img src="{{ asset('assets/web/c-sharp.webp') }}" class="img-fluid rounded-3 w-100" alt="">
                     </div>
                 </div>
             </div>
@@ -252,7 +251,8 @@
                 </div>
                 <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="seo__animation__gif">
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
+
+                        <img src="{{ asset('assets/web/c-sharp-img.png') }}" class="img-fluid" style="width: 500px;" alt="">
                     </div>
                 </div>
             </div>
