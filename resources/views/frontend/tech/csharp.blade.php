@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>C Sharp</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
 
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -31,20 +31,20 @@
 <body>
     @include('partial/header')
     <!-- Abvout Start -->
-    <div class="container-fluid about py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+    <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
         <div class="container py-5">
             <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-xl-5 wow fadeInLeft">
                     <div>
                         <!-- <h4 class="text-primary1">About Us</h4> -->
-                        <h1 class="display-5 mb-4 text-white">.Net Application Development</h1>
-                        <p class="mb-4 text-white">Hire An Experienced .NET Development Company To Develop High-Quality and Secure Web Applications
+                        <h1 class="display-5 mb-4 text-white">.C# Development Customize</h1>
+                        <p class="mb-4 text-white">Customize your software application needs using C# development and .NET framework
                         </p>
                     </div>
                 </div>
                 <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class=" rounded position-relative overflow-hidden">
-                        <img src="{{ asset('assets/web/pay-p-c-removebg-preview.png') }}" class="img-fluid rounded w-100" alt="">
+                    <div class="rounded position-relative overflow-hidden d-flex justify-content-center">
+                        <img src="{{ asset('assets/web/Csharp_Logo.webp') }}" class="img-fluid rounded " alt="">
                         <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
                     </div>
                 </div>
@@ -55,7 +55,7 @@
         <div class="container py-5">
 
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-                <h2 class="display-5 mb-4">ASP.Net Application Development Company</h2>
+                <h2 class="display-5 mb-4">C# Development Company</h2>
                 <p class="mb-0">Establish Your Business In The Virtual World Using .Net Web Development Services
                 </p>
             </div>
@@ -63,8 +63,7 @@
                 <div class="col-xl-6 wow fadeInLeft">
                     <div>
                         <!-- <h4 class="text-primary1">About Us</h4> -->
-                        <p class="mb-4">Our team of experienced web developers has worked on a variety of ASP.NET web application development and programming projects for the different industry domains. We offer a full cycle of ASP.net application development services right from analyzing the clients’ requirements to design, testing, deployment and ongoing support.
-                            Hire our experienced asp.net VC developers who can serve you with both fully custom ASP.net web solutions as well as integrated MVC solutions. Whether it’s a simple and creative asp .net application development or a complicated e-commerce website development project, we strive hard to provide you all the features you could possibly require at very affordable rates.
+                        <p class="mb-4">Being the most sought-after object oriented programming language (OOPS) from the tech giant Microsoft, C# is employed generally for developing robust and scalable desktop, web and windows solutions that suit business requirements. At Nettechnocrats, our rich expertise has given us the competitive edge for C# clients.
                         </p>
                         <div class="row g-4">
 
@@ -76,9 +75,8 @@
                     </div>
                 </div>
                 <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="bg-primary rounded position-relative overflow-hidden">
-                        <!-- <img src="img/about-2.png" class="img-fluid rounded w-100" alt=""> -->
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
+                    <div class=" rounded-4 position-relative overflow-hidden" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <img src="{{ asset('assets/web/c-sharp.webp') }}" class="img-fluid rounded-3 w-100" alt="">
                     </div>
                 </div>
             </div>
@@ -253,7 +251,8 @@
                 </div>
                 <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="seo__animation__gif">
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
+
+                        <img src="{{ asset('assets/web/c-sharp-img.png') }}" class="img-fluid" style="width: 500px;" alt="">
                     </div>
                 </div>
             </div>
@@ -261,6 +260,34 @@
     </section>
 
     <!--  -->
+
+    <section class="brand__images py-4">
+        <div class="container">
+            <h3 class="text-center">Count On Our Passion For Technology</h3>
+            <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
+            <div class="img__row">
+                <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
+            </div>
+            <div class="img__row">
+                <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
+            </div>
+            <div class="img__row">
+                <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
+            </div>
+        </div>
+    </section>
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">

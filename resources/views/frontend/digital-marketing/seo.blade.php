@@ -102,8 +102,18 @@
 
   </section><!-- /About Section -->
 
+<<<<<<< HEAD
   <!-- Stats Section -->
   <section id="stats" class="stats section">
+=======
+      <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
+        <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
+          <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center px-5" data-aos="fade-up">
+            <h1 class="text-center">How do we help?</h1>
+            <p class="text-center px-5"><strong>Our Exceptional SEO Services Redefined!</strong></p>
+            <p class="text-center px-5">In today's digital-dominated world, our SEO services stand out. We elevate Brand Visibility, making your business a recognizable name in crowded markets. By optimizing your online presence, we guarantee Increased Traffic, driving potential clients to your doorstep.</p>
+            <p class="text-center px-5">Beyond mere numbers, our focus on Lead Generation ensures a quality audience engages with your content. This naturally translates to Increased Sales as more visitors convert to customers. And speaking of conversion, our strategies finesse user journeys, enhancing the Conversion Rate. Simply put, we are not just about drawing crowds; we are about drawing the right crowd and ensuring they take action.</p>
+>>>>>>> 9c896838ea55936ae5c0d3cc27503bc1063ab15f
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -414,9 +424,57 @@
             </div>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
           <div class="seo__animation__gif">
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
+=======
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Contact us</span>
+        <h2>Contact</h2>
+        <p>Fill the form for more details</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>G-192, Sec-63, Noida, Delhi (NCR) India</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p> +91-9711411002</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>sales@nettechnocrats.com</p>
+                </div>
+              </div><!-- End Info Item -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2768.1690364594565!2d77.38490257189108!3d28.617918631000588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5041555554f%3A0x6c59d83bd08b7d6f!2sNettechnocrats!5e1!3m2!1sen!2sus!4v1729664445332!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+>>>>>>> 9c896838ea55936ae5c0d3cc27503bc1063ab15f
           </div>
         </div>
       </div>

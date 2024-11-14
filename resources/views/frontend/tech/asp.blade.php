@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ASP .Net</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
 
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -43,15 +43,14 @@
                     </div>
                 </div>
                 <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class=" rounded position-relative overflow-hidden">
-                        <img src="{{ asset('assets/web/pay-p-c-removebg-preview.png') }}" class="img-fluid rounded w-100" alt="">
-                        <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
+                    <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
+                        <img src="{{ asset('assets/web/asp.net.webp') }}" class="img-fluid rounded w-50" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid about py-5">
+    <div class="container-fluid about hero__banner__tech py-5">
         <div class="container py-5">
 
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
@@ -76,9 +75,9 @@
                     </div>
                 </div>
                 <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="bg-primary rounded position-relative overflow-hidden">
-                        <!-- <img src="img/about-2.png" class="img-fluid rounded w-100" alt=""> -->
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
+                    <div class=" rounded-4 position-relative overflow-hidden" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <img src="{{ asset('assets/web/ASP.webp') }}" class="img-fluid rounded-3 w-100" alt="">
+                        <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
                     </div>
                 </div>
             </div>
@@ -110,7 +109,7 @@
                         </div>
                         <div class="rounded-bottom p-4">
                             <a href="#" class="h4 d-inline-block mb-4">KEYWORD RESEARCH & ANALYSIS</a>
-                            <p class="mb-4">Our experts make sure your online store works smoothly. We fix issues, make it fast, and mobile-friendly, and ensure your product pages shine.
+                            <p class="mb-4">In the world of SEO, there are two types of keywords one that attracts browsers and one that attracts buyers. Finding the best keywords is key to a successful SEO campaign.
                             </p>
                             <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
                         </div>
@@ -122,8 +121,8 @@
                             <i class="fa-solid fa-globe"></i>
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4">ON-PAGE OPTIMIZATION</a>
-                            <p class="mb-4">We optimize every page of your website as per Google guideline to improve its position in the search engine rankings.
+                            <a href="#" class="h4 d-inline-block mb-4">DESKTOP SOFTWARE DEVELOPMENT</a>
+                            <p class="mb-4">C# is Microsoft powerful, object-oriented programming language when it comes to developing scalable enterprise applications. Having expertise in C# development, we can provide robust and scalable desktop solutions to our clients.
                             </p>
                             <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
                         </div>
@@ -136,7 +135,7 @@
                         </div>
                         <div class="rounded-bottom p-4">
                             <a href="#" class="h4 d-inline-block mb-4">ANALYTICS TRACKING</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                            <p class="mb-4">If you can measure it, you can improve it. Quantify your results by tracking your rankings, referrals, links, and more to help analyze SEO strategy and get more success.
                             </p>
                             <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
                         </div>
@@ -161,8 +160,8 @@
                             <i class="fa-solid fa-link"></i>
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4">ORGANIC LINK BUILDING</a>
-                            <p class="mb-4">Our link development analysts offer a winning link building strategy combined with specific, powerful, and shareable content that drives organic links to your website.</p>
+                            <a href="#" class="h4 d-inline-block mb-4">SERVER-SIDE SOFTWARE DEVELOPMENT</a>
+                            <p class="mb-4">Server-side software development mainly refers to the software that runs on the server with high stability and survivability. Our adept developers possess good knowledge to develop high-load server-side software solutions using C# technologies.</p>
                             <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
                         </div>
                     </div>
@@ -177,7 +176,7 @@
     <section class="light-background why__choose__Net">
         <div class="container">
             <h2>Why Nettechnocrats for Digital Marketing Services?</h2>
-            <p>Be it an ambitious startup eager to etch its digital footprint or an established brand aspiring to refurbish its SEO techniques and fortify its online presence, our holistic SEO services are your passport to digital triumph. Put your digital dreams in the hands of an eminent SEO company that meticulously crafts strategies tailor-made for your distinct business aspirations, and observe as we navigate your digital trajectory towards unmatched growth.</p>
+            <p></p>
             <div class="row pt-2">
                 <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
                     <div class="row mt-3">
@@ -253,7 +252,7 @@
                 </div>
                 <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="seo__animation__gif">
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
+                        <img src="{{ asset('assets/web/asp-image.webp') }}" class="img-fluid w-100" alt="">
                     </div>
                 </div>
             </div>
@@ -261,6 +260,34 @@
     </section>
 
     <!--  -->
+
+    <section class="brand__images py-4">
+        <div class="container">
+            <h3 class="text-center">Count On Our Passion For Technology</h3>
+            <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
+            <div class="img__row">
+                <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
+            </div>
+            <div class="img__row">
+                <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
+            </div>
+            <div class="img__row">
+                <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
+                <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
+            </div>
+        </div>
+    </section>
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">

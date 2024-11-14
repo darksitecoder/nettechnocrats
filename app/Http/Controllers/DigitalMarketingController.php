@@ -24,6 +24,22 @@ class DigitalMarketingController extends Controller
     {
         return view('frontend.digital-marketing.seo');
     }
+    public function smo()
+    {
+        return view('frontend.digital-marketing.smo');
+    }
+    public function ppc()
+    {
+        return view('frontend.digital-marketing.ppc');
+    }
+    public function local()
+    {
+        return view('frontend.digital-marketing.local');
+    }
+    public function orm()
+    {
+        return view('frontend.digital-marketing.orm');
+    }
 
     public function aboutus()
     {
