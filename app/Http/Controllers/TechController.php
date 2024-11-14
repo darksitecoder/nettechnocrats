@@ -129,4 +129,8 @@ class TechController extends Controller
     {
         return view('frontend/tech/drupal');
     }
+    public function wallet()
+    {
+        return view('frontend/tech/e-wallet-app-development');
+    }
 }

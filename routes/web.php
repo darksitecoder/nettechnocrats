@@ -76,3 +76,7 @@ Route::get('/local-seo-services', [DigitalMarketingController::class, 'local']);
 Route::get('/online-reputation-management', [DigitalMarketingController::class, 'orm']);
 
 Route::get('/about', [DigitalMarketingController::class, 'aboutus']);
+
+
+
+Route::get('/e-wallet-app-development', [TechController::class, 'wallet']);
