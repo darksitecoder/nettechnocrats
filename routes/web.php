@@ -6,6 +6,7 @@ use App\Http\Controllers\DigitalMarketingController;
 use App\Http\Controllers\TechController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\IndustriesController;
+use App\Http\Controllers\logincontroller;
 use App\Http\Controllers\PortfolioController;
 
 /*
@@ -76,3 +77,6 @@ Route::get('/local-seo-services', [DigitalMarketingController::class, 'local']);
 Route::get('/online-reputation-management', [DigitalMarketingController::class, 'orm']);
 
 Route::get('/about', [DigitalMarketingController::class, 'aboutus']);
+
+
+Route::get('/login', [logincontroller::class, 'login']);
