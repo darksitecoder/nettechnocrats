@@ -79,4 +79,8 @@ Route::get('/online-reputation-management', [DigitalMarketingController::class, 
 Route::get('/about', [DigitalMarketingController::class, 'aboutus']);
 
 
+
 Route::get('/login', [logincontroller::class, 'login']);
+
+Route::get('/e-wallet-app-development', [TechController::class, 'wallet']);
+
