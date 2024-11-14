@@ -1,13 +1,16 @@
 <?php
 
-
+use App\Http\Controllers\Admin\blogController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DigitalMarketingController;
 use App\Http\Controllers\TechController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\backend\dashboardController as BackendDashboardController;
 use App\Http\Controllers\IndustriesController;
 use App\Http\Controllers\logincontroller;
+use App\Http\Controllers\Admin\AdminportfolioController;
 use App\Http\Controllers\PortfolioController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -80,7 +83,26 @@ Route::get('/about', [DigitalMarketingController::class, 'aboutus']);
 
 
 
-Route::get('/login', [logincontroller::class, 'login']);
+Route::get('/login', [logincontroller::class, 'login'])->name('login');
+
+
+Route::post('/logout', [logincontroller::class, 'destroy'])->name('logout');
+
+Route::post('/credentials_check', [logincontroller::class, 'credentials_check']);
+Route::get('/register', [logincontroller::class, 'register']);
+Route::post('/signup', [logincontroller::class, 'signup']);
+// Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']); 
+
+Route::get('/portfolio', [AdminportfolioController::class, 'portfolio']);
+
+Route::get('/blog', [blogController::class, 'blog']);
+
+
 
 Route::get('/e-wallet-app-development', [TechController::class, 'wallet']);
+
+Route::middleware(['auth'])->group(function () {
+    // Protected route for the admin dashboard
+    Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']);
+});
 

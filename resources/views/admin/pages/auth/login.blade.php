@@ -16,7 +16,8 @@
 
 	<title>Sign In | AdminKit Demo</title>
 
-	<link href="css/app.css" rel="stylesheet">
+	<link href="{{ asset('/dashboard_theme/css/app.css') }}" rel="stylesheet">
+
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
@@ -36,33 +37,45 @@
 
 						<div class="card">
 							<div class="card-body">
+							<!-- @if(session('success'))
+                                <div class="alert alert-success" style="color:green; font: size 20px;">
+                                    {{ session('success') }}
+                                </div>
+                                @endif -->
 								<div class="m-sm-4">
 									<div class="text-center">
-										<img src="img/avatars/avatar.jpg" alt="Charles Hall" class="img-fluid rounded-circle" width="132" height="132" />
+										<a href="{{url('/')}}">
+										<img src="{{ asset('/dashboard_theme/img/avatars/nettechnocrats-logo.png')}}" alt="Charles Hall" class="img-fluid rounded-ci5cle" width="152" height="152" /></a>
 									</div>
-									<form>
+									<form method="POST" action="{{ url('/credentials_check') }}">
+									@csrf
 										<div class="mb-3">
 											<label class="form-label">Email</label>
 											<input class="form-control form-control-lg" type="email" name="email" placeholder="Enter your email" />
+											@error('email')
+                                            <div class="alert alert-danger mt-2" style="color:red">{{ $message }}</div> <!-- Red Error Message -->
+                                            @enderror
 										</div>
 										<div class="mb-3">
 											<label class="form-label">Password</label>
 											<input class="form-control form-control-lg" type="password" name="password" placeholder="Enter your password" />
+											@error('password')
+                                            <div class="alert alert-danger mt-2" style="color:red">{{ $message }}</div> <!-- Red Error Message -->
+                                            @enderror
 											<small>
-            <a href="index.html">Forgot password?</a>
-          </small>
+												<a href="/register">Register ?</a>
+											</small>
 										</div>
 										<div>
 											<label class="form-check">
-            <input class="form-check-input" type="checkbox" value="remember-me" name="remember-me" checked>
-            <span class="form-check-label">
-              Remember me next time
-            </span>
-          </label>
+												<input class="form-check-input" type="checkbox" value="remember-me" name="remember-me" checked>
+												<span class="form-check-label">
+													Remember me next time
+												</span>
+											</label>
 										</div>
 										<div class="text-center mt-3">
-											<a href="index.html" class="btn btn-lg btn-primary">Sign in</a>
-											<!-- <button type="submit" class="btn btn-lg btn-primary">Sign in</button> -->
+											<button type="submit" class="btn btn-lg btn-primary">Sign in</button>
 										</div>
 									</form>
 								</div>
@@ -75,7 +88,7 @@
 		</div>
 	</main>
 
-	<script src="js/app.js"></script>
+	<script src="/dashboard_themejs/app.js"></script>
 
 </body>
 
