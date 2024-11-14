@@ -157,6 +157,7 @@
     <a href="#" class="phone__number"><i class="fa-solid fa-phone"></i>+91-9711411002</a>
     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
     <a href="#"><span class="get__in__touch">Get In Touch</span></a>
+    <a href="#"><span class="get__in__touch">Login</span></a>
     <!-- mobile menu trigger -->
     <div class="mobile-menu-trigger">
      <span></span>
