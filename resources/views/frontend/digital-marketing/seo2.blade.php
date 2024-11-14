@@ -77,9 +77,10 @@
 
       <div class="row gy-4">
         <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-          <!-- <img src="{{ asset('assets/web/about-left-image.png') }} " class="img-fluid" alt=""> -->
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
-          <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
+          <div class="seo__animation__gif">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
+            <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
+          </div>
         </div>
         <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
           <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3> -->
@@ -93,7 +94,7 @@
             We take a consultative approach with clients. Our client's SEO marketing needs are paramount and that's why we work closely with you at every step of SEO process. Our SEO services are proven to bring more traffic on the website from the search engines and resulting in more customers, sales and ROI.
           </p>
 
-          <a href="#" class="contact__btn">Talk to our consultant</a>
+          <a href="#" class="contact__btn mt-5">Talk to our consultant</a>
         </div>
       </div>
 
@@ -110,28 +111,28 @@
 
         <div class="col-lg-3 col-md-6">
           <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="3" class="purecounter"></span>
             <p>Clients</p>
           </div>
         </div><!-- End Stats Item -->
 
         <div class="col-lg-3 col-md-6">
           <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="4" class="purecounter"></span>
             <p>Projects</p>
           </div>
         </div><!-- End Stats Item -->
 
         <div class="col-lg-3 col-md-6">
           <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="5" class="purecounter"></span>
             <p>Hours Of Support</p>
           </div>
         </div><!-- End Stats Item -->
 
         <div class="col-lg-3 col-md-6">
           <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="4" class="purecounter"></span>
             <p>Members</p>
           </div>
         </div><!-- End Stats Item -->
@@ -161,7 +162,7 @@
   </section>
   <!-- Consultent -->
 
-  <section class="our__clients">
+  <!-- <section class="our__clients">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
@@ -172,7 +173,7 @@
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
-            <div class="cabin">Hello</div>
+            <div class="cabin"><img src="{{ asset('assets/web/google__ads.png') }} " alt="" srcset=""></div>
             <div class="cabin"></div>
             <div class="cabin"></div>
             <div class="cabin"></div>
@@ -182,7 +183,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Services Section -->
   <section id="services" class="services section light-background">
@@ -204,48 +205,48 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="service-item position-relative">
             <div class="icon">
-              <i class="bi bi-activity"></i>
+              <i class="fa-solid fa-shop-lock"></i>
             </div>
             <a href="service-details.html" class="stretched-link">
-              <h3>Cutting-Edge Tools</h3>
+              <h3>Local SEO</h3>
             </a>
-            <p>From high-level onsite SEO evaluation tools to resources for in-depth keywords research, we have all the cutting-edge tools that you need to succeed in today's digital world.</p>
+            <p>Expand your local footprint! Reach out to your immediate audience seamlessly and make your mark in your neighborhood. Be the local buzz!</p>
           </div>
         </div><!-- End Service Item -->
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="service-item position-relative">
             <div class="icon">
-              <i class="bi bi-broadcast"></i>
+              <i class="fa-brands fa-amazon"></i>
             </div>
             <a href="service-details.html" class="stretched-link">
-              <h3>Ethical Practices</h3>
+              <h3>Amazon SEO</h3>
             </a>
-            <p>Being the best SEO company, we only use white-hate techniques to get your website increased rankings in search engines such as Google, Yahoo, and Bing.</p>
+            <p>Navigate the giant e-commerce platform effortlessly. Skyrocket your products' visibility amidst millions and drive stellar sales on Amazon. </p>
           </div>
         </div><!-- End Service Item -->
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
           <div class="service-item position-relative">
             <div class="icon">
-              <i class="bi bi-easel"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
             </div>
             <a href="service-details.html" class="stretched-link">
-              <h3>Experienced Professionals</h3>
+              <h3>E-commerce SEO</h3>
             </a>
-            <p>From great social media strategy to top-notch mobile web design, our highly trained qualified SEO consultant knows how to do it all.</p>
+            <p>Optimize your online store for maximum visibility. Attract, engage, and convert your site visitors into loyal customers. Boost your online sales!</p>
           </div>
         </div><!-- End Service Item -->
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div class="service-item position-relative">
             <div class="icon">
-              <i class="bi bi-bounding-box-circles"></i>
+              <i class="fa-solid fa-gears"></i>
             </div>
             <a href="service-details.html" class="stretched-link">
-              <h3>Transparency</h3>
+              <h3>Technical SEO</h3>
             </a>
-            <p>Being a professional SEO company, we submit complete, detail and fact-based SEO and analytic reports just to make our work as transparent as it could be.</p>
+            <p>Dive deep into the backend of your website. Enhance its functionality, speed, and overall user experience. Make your website loved not just by users but by search engines too!</p>
             <a href="service-details.html" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
@@ -253,12 +254,12 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
           <div class="service-item position-relative">
             <div class="icon">
-              <i class="bi bi-calendar4-week"></i>
+              <i class="fa-brands fa-wix"></i>
             </div>
             <a href="service-details.html" class="stretched-link">
-              <h3>No Lock-In Contracts</h3>
+              <h3>WIX SEO</h3>
             </a>
-            <p>We are so confident in our SEO services that you don't need to tie yourself into a lengthy contract. Once you see the results, we are sure that you'll continue.</p>
+            <p>Wix SEO is a powerful tool that empowers website owners to optimize their online presence effortlessly.</p>
             <a href="service-details.html" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
@@ -266,12 +267,48 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
           <div class="service-item position-relative">
             <div class="icon">
-              <i class="bi bi-chat-square-text"></i>
+              <i class="fa-brands fa-wordpress"></i>
             </div>
             <a href="service-details.html" class="stretched-link">
-              <h3>People-Driven</h3>
+              <h3>WordPress SEO</h3>
             </a>
-            <p>You'll meet the people who will work on your account, and they'll be the people who will be in conversation with you and send you regular updates.</p>
+            <p>When it comes to optimizing your WordPress website for search engines, look no further than our WordPress SEO agency.</p>
+            <a href="service-details.html" class="stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="fa-brands fa-shopify"></i>
+            </div>
+            <a href="service-details.html" class="stretched-link">
+              <h3>Shopify SEO</h3>
+            </a>
+            <p>Shopify SEO is a critical component of driving organic traffic and increasing visibility for your online store on the Shopify platform.</p>
+            <a href="service-details.html" class="stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="fa-brands fa-squarespace"></i>
+            </div>
+            <a href="service-details.html" class="stretched-link">
+              <h3>Squarespace SEO</h3>
+            </a>
+            <p>Our Squarespace SEO services encompass a range of strategies and techniques to ensure your website ranks higher.</p>
+            <a href="service-details.html" class="stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <a href="service-details.html" class="stretched-link">
+              <h3>Mobile SEO</h3>
+            </a>
+            <p>Our Squarespace SEO services encompass a range of strategies and techniques to ensure your website ranks higher.</p>
             <a href="service-details.html" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
@@ -377,8 +414,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
+        <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="seo__animation__gif">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
+          </div>
         </div>
       </div>
     </div>
