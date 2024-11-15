@@ -67,7 +67,7 @@
         /*  */
 
 
-        .topic {
+        #element-container {
             padding: 5px 10px;
             margin: 5px;
             background-color: #fff;
@@ -76,11 +76,20 @@
             width: fit-content;
         }
 
+        .btn-close {
+            cursor: pointer;
+            margin-left: 5px;
+            font-size: 18px;
+            /* color: red !important; */
+        }
+
         .close-btn {
             cursor: pointer;
             margin-left: 5px;
             font-size: 18px;
-            color: red;
+            color: red !important;
+            background-color: transparent;
+            border: none;
         }
 
         #input-container input {
@@ -105,6 +114,22 @@
             /* Initial border */
             text-wrap: wrap !important;
         }
+
+        .alert-success {
+            background-color: #67f0c8;
+            color: #fff;
+            font-weight: 600;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+
+        .alert-danger {
+            background-color: #ff9191;
+            color: #fff;
+            font-weight: 600;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 
@@ -128,28 +153,31 @@
                     </div>
 
                     <div class="row pt-3">
+
                         <div class="col-lg-12">
                             <div id="input-container" class="d-flex justify-content-start">
                                 <!-- Display success or error messages from session -->
-                                @if(session('success'))
-                                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                    {{ session('success') }}
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></br>
-                                </div>
-                                @endif
 
-                                @if(session('error'))
-                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                    {{ session('error') }}
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></br>
-                                </div>
-                                @endif
 
                                 <form method="POST" action="{{ url('/addBlogTopicApi') }}">
                                     @csrf
                                     <input type="text" name="topic_text" id="input-text" placeholder="Enter text..." required>
                                     <button type="submit" class="add_new_btn mx-5">Add Topic</button>
                                 </form>
+
+                                @if(session('success'))
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    {{ session('success') }}
+                                    <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button></br>
+                                </div>
+                                @endif
+
+                                @if(session('error'))
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    {{ session('error') }}
+                                    <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button></br>
+                                </div>
+                                @endif
                             </div>
 
                             <br>
@@ -157,18 +185,21 @@
                         </div>
                     </div>
                     <div class="row pt-3">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 d-flex flex-wrap">
                             @foreach($topics as $topic)
-                            <div id="element-container" class="d-flex flex-wrap">{{$topic->topic}}  <form action="{{ url('deleteBlogTopicApi', $topic->id) }}" method="POST" class="ms-2">
-                    @csrf
-                    @method('DELETE')
-                    <button type="submit" class="btn btn-sm btn-danger">
-                        <i class="fa-solid fa-xmark"></i> <!-- FontAwesome "X" icon -->
-                    </button>
-                </form></div>
-                           
+                            <div id="element-container" class="d-flex flex-wrap m-2">{{$topic->topic}}
+                                <form action="{{ url('deleteBlogTopicApi', $topic->id) }}" method="POST" class="ms-2">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="close-btn">
+                                        <i class="fa-solid fa-xmark"></i> <!-- FontAwesome "X" icon -->
+                                    </button>
+                                </form>
+                            </div>
+
                             @endforeach
                         </div>
+
                     </div>
 
                 </div>
