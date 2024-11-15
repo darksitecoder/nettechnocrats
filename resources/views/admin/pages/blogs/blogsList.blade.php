@@ -26,6 +26,7 @@
   <style>
     .edit {
       transition: 0.5s ease-in-out;
+      background-color: #3B7DDD;
       border: 1px solid #1CBB8C !important;
     }
 
@@ -103,7 +104,7 @@
                       <td class="d-none d-xl-table-cell">SEO</td>
                       <td class="d-none d-xl-table-cell">Lorem ipsum dolor sit amet.</td>
                       <td><span class="badge bg-warning fs-6">Save</span></td>
-                      <td class="d-none d-md-table-cell"><button class="badge bg-success px-2 py-1 fs-6 edit">Edit <i class="fa-solid fa-pen-to-square"></i></button></td>
+                      <td class="d-none d-md-table-cell"><button class="badge px-2 py-1 fs-6 edit">Edit <i class="fa-solid fa-pen-to-square"></i></button></td>
                       <td class="d-none d-md-table-cell"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></td>
                     </tr>
                     <tr>
@@ -111,8 +112,8 @@
                       <td>18/11/2024</td>
                       <td class="d-none d-xl-table-cell">SEO</td>
                       <td class="d-none d-xl-table-cell">Lorem ipsum dolor sit amet.</td>
-                      <td><span class="badge bg-primary fs-6">Published</span></td>
-                      <td class="d-none d-md-table-cell"><button class="badge bg-success px-2 py-1 fs-6 edit">Edit <i class="fa-solid fa-pen-to-square"></i></button></td>
+                      <td><span class="badge bg-success fs-6">Published</span></td>
+                      <td class="d-none d-md-table-cell"><button class="badge px-2 py-1 fs-6 edit">Edit <i class="fa-solid fa-pen-to-square"></i></button></td>
                       <td class="d-none d-md-table-cell"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></td>
                     </tr>
                   </tbody>

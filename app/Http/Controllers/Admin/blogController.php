@@ -72,7 +72,6 @@ class blogController extends Controller
 
     public function AddBlogsForAdmin(Request $request,)
     {
-       
         return view('admin/pages/blogs/addBlogs');
     }
 
