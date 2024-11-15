@@ -130,16 +130,44 @@
                     <div class="row pt-3">
                         <div class="col-lg-12">
                             <div id="input-container" class="d-flex justify-content-start">
-                                <input type="text" id="input-text" placeholder="Enter text...">
-                                <button id="add-button" class="add_new_btn mx-5">Add Topic</button>
+                                <!-- Display success or error messages from session -->
+                                @if(session('success'))
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    {{ session('success') }}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></br>
+                                </div>
+                                @endif
+
+                                @if(session('error'))
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    {{ session('error') }}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></br>
+                                </div>
+                                @endif
+
+                                <form method="POST" action="{{ url('/addBlogTopicApi') }}">
+                                    @csrf
+                                    <input type="text" name="topic_text" id="input-text" placeholder="Enter text..." required>
+                                    <button type="submit" class="add_new_btn mx-5">Add Topic</button>
+                                </form>
                             </div>
+
                             <br>
                             <span class="msg_err" id="allReadyExist" style="color:red; font-size:15px;"></span>
                         </div>
                     </div>
                     <div class="row pt-3">
                         <div class="col-lg-12">
-                            <div id="element-container" class="d-flex flex-wrap"></div>
+                            @foreach($topics as $topic)
+                            <div id="element-container" class="d-flex flex-wrap">{{$topic->topic}}  <form action="{{ url('deleteBlogTopicApi', $topic->id) }}" method="POST" class="ms-2">
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-sm btn-danger">
+                        <i class="fa-solid fa-xmark"></i> <!-- FontAwesome "X" icon -->
+                    </button>
+                </form></div>
+                           
+                            @endforeach
                         </div>
                     </div>
 
@@ -159,50 +187,138 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        document.getElementById('add-button').addEventListener('click', function() {
-            const input = document.getElementById('input-text');
-            const topic = input.value.trim();
+        $(document).ready(function() {
+            var baseUrl = window.location.origin;
+            var token = localStorage.getItem('authToken');
 
-            // Check if input is empty
-            if (topic === '') {
-                document.getElementById('allReadyExist').textContent = 'Please enter a topic.';
-                return;
+            if (!token) {
+                console.error('Token not found in localStorage');
+                window.location.href = '/';
             }
 
-            // Clear any previous error messages
-            document.getElementById('allReadyExist').textContent = '';
+            // Fetch Blog Topics
+            $.ajax({
+                url: baseUrl + '/fetchBlogTopicApi',
+                method: 'GET',
+                dataType: 'json',
+                headers: {
+                    'Authorization': 'Bearer ' + token,
+                },
+                success: function(response) {
+                    $.each(response.data, function(index, item) {
+                        var element = document.createElement("div");
+                        element.className = "element";
+                        element.textContent = item.topic;
 
-            // Check if topic already exists
-            const existingTopics = document.querySelectorAll('#element-container .topic');
-            for (let i = 0; i < existingTopics.length; i++) {
-                if (existingTopics[i].textContent.slice(0, -1) === topic) {
-                    document.getElementById('allReadyExist').textContent = 'This topic already exists.';
-                    return;
+                        // Create remove button
+                        var removeButton = document.createElement("span");
+                        removeButton.className = "element-remove";
+                        removeButton.innerHTML = '<i class="fa-solid fa-xmark" id="' + item.id + '"></i>';
+
+                        element.appendChild(removeButton);
+                        $('#element-container').append(element);
+                    });
+                },
+                error: function(xhr, status, error) {
+                    console.error(xhr.responseText);
                 }
+            });
+        });
+
+        // Add Blog Topic
+        document.addEventListener("DOMContentLoaded", function() {
+            var inputText = document.getElementById("input-text");
+            var addButton = document.getElementById("add-button");
+            var elementContainer = document.getElementById("element-container");
+
+            addButton.addEventListener("click", function() {
+                $('.msg_err').text('');
+                var text = inputText.value.trim();
+
+                if (text !== "") {
+                    var token = localStorage.getItem('authToken');
+                    if (!token) {
+                        console.error('Token not found in localStorage');
+                        window.location.href = '/';
+                    }
+
+                    var baseUrl = window.location.origin;
+
+                    $.ajax({
+                        type: 'POST',
+                        url: baseUrl + '/addBlogTopicApi',
+                        data: {
+                            'text': text
+                        },
+                        headers: {
+                            'Authorization': 'Bearer ' + token
+                        },
+                        dataType: 'json',
+                        success: function(response) {
+                            if (response.alreadyExist) {
+                                $('#allReadyExist').text(response.alreadyExist);
+                            }
+
+                            if (response.success) {
+                                var element = document.createElement("div");
+                                element.className = "element";
+                                element.textContent = text;
+
+                                // Create remove button
+                                var removeButton = document.createElement("span");
+                                removeButton.className = "element-remove";
+                                removeButton.innerHTML = '<i class="fa-solid fa-xmark" id="' + response.id + '"></i>';
+
+                                element.appendChild(removeButton);
+                                elementContainer.prepend(element);
+                                inputText.value = "";
+                            }
+                        },
+                        error: function(xhr, status, error) {
+                            console.error(xhr.responseText);
+                        }
+                    });
+                }
+            });
+
+            // Add using Enter key
+            inputText.addEventListener("keypress", function(event) {
+                if (event.key === "Enter") {
+                    addButton.click();
+                }
+            });
+        });
+
+        // Remove Blog Topic
+        $(document).on('click', '.fa-xmark', function() {
+            var token = localStorage.getItem('authToken');
+            if (!token) {
+                console.error('Token not found in localStorage');
+                window.location.href = '/';
             }
 
-            // Create topic element
-            const topicElement = document.createElement('div');
-            topicElement.className = 'topic';
-            topicElement.textContent = topic;
+            $('.msg_err').text('');
+            var $this = $(this);
+            var id = $this.attr('id');
+            var baseUrl = window.location.origin;
 
-            // Create close button
-            const closeButton = document.createElement('span');
-            closeButton.className = 'close-btn';
-            closeButton.textContent = '×';
-
-            // Append close button to topic element
-            topicElement.appendChild(closeButton);
-
-            // Append topic element to container
-            document.getElementById('element-container').appendChild(topicElement);
-
-            // Clear input
-            input.value = '';
-
-            // Add event listener to close button
-            closeButton.addEventListener('click', function() {
-                document.getElementById('element-container').removeChild(topicElement);
+            $.ajax({
+                url: baseUrl + '/deleteBlogTopicApi',
+                method: 'GET',
+                data: {
+                    'id': id
+                },
+                headers: {
+                    'Authorization': 'Bearer ' + token
+                },
+                dataType: 'json',
+                success: function(response) {
+                    $('#success_msg').html('<img src="' + baseUrl + '/assets/frontEnd/web/images/checkmark.gif" alt="Success Image" width="50px" height="50px">' + response.success);
+                    $this.closest('.element').remove();
+                },
+                error: function(xhr, status, error) {
+                    console.error(xhr.responseText);
+                }
             });
         });
     </script>
