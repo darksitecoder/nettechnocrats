@@ -76,8 +76,8 @@
           <div class="d-flex justify-content-between mb-4">
             <h1 class="h3 mb-3"><strong>Blog List</strong></h1>
             <div class="buttons">
-              <a href="#" class="mx-3 btn">Add Topic <i class="fa-solid fa-circle-plus"></i></a>
-              <a href="#" class=" btn">Create Blog <i class="fa-solid fa-circle-plus"></i></a>
+              <a href="{{url('/blogTopics')}}" class="mx-3 btn">Add Topic <i class="fa-solid fa-circle-plus"></i></a>
+              <a href="{{url('/AddBlogsForAdmin')}}" class=" btn">Create Blog <i class="fa-solid fa-circle-plus"></i></a>
             </div>
           </div>
 
