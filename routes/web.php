@@ -110,13 +110,10 @@ Route::middleware(['auth'])->group(function () {
     // Protected route for the admin dashboard
     Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']);
 });
-<<<<<<< HEAD
-=======
-
-  // for blog topic
-  Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
-  Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
-  Route::get('deleteBlogTopicApi', [BlogTopicController::class, 'delete']);
+// for blog topic
+Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
+Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
+Route::get('deleteBlogTopicApi', [BlogTopicController::class, 'delete']);
 
 
 // for blogs
@@ -148,5 +145,3 @@ Route::get('blogDetailsForUsersApi/{blogID}/{b2b_id?}', [blogController::class, 
 
 Route::get('/blogs/{shop_id?}', [blogController::class, 'blogs']);
 Route::get('blogDetails/{id}/{shop_id?}', [blogController::class, 'blogDetails']);
-
->>>>>>> e1cb0103860fd9922430940dd0f3c2f98808e626
