@@ -106,3 +106,14 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']);
 });
 
+
+
+// for blogs
+Route::get('listBlogsForAdminApi', [blogController::class, 'listBlogsForAdminApi']);
+Route::get('deleteBlogsForAdminApi/{id}', [blogController::class, 'deleteBlogsForAdminApi']);
+Route::get('editBlogsForAdminApi/{id}', [blogController::class, 'editBlogsForAdminApi']);
+Route::post('saveBlogsForAdminApi', [blogController::class, 'saveBlogsForAdminApi']);
+Route::get('fetchBlogDetailsApi/{id}', [blogController::class, 'fetchBlogDetailsApi']);
+Route::post('updateBlogsForAdminApi', [blogController::class, 'updateBlogsForAdminApi']);
+
+
