@@ -100,9 +100,9 @@ Route::get('/blog', [blogController::class, 'blog']);
 
 
 Route::get('/e-wallet-app-development', [TechController::class, 'wallet']);
+Route::get('/ui-ux-design-services', [TechController::class, 'uiux']);
 
 Route::middleware(['auth'])->group(function () {
     // Protected route for the admin dashboard
     Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']);
 });
-

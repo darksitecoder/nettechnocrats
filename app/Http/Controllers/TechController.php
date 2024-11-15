@@ -133,4 +133,8 @@ class TechController extends Controller
     {
         return view('frontend/tech/e-wallet-app-development');
     }
+    public function uiux()
+    {
+        return view('frontend/tech/uiux');
+    }
 }
