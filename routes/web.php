@@ -130,7 +130,7 @@ Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
 Route::get('AddBlogsForAdmin', [blogController::class, 'AddBlogsForAdmin']);
 Route::get('BlogsForAdmin/{role}', [blogController::class, 'AddBlogsForAdmin']);
 Route::get('editBlogsForAdmin/{id}/{encryptedUserId}', [blogController::class, 'editBlogsForAdmin']);
-Route::get('blogTopics/{role}', [BlogTopicController::class, 'blogTopics']);
+Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
 
 
 // Blogs comments
