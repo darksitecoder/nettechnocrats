@@ -205,76 +205,124 @@
 
       <main class="content">
         <div class="container-fluid p-0">
-          <div class="d-flex justify-content-between mb-4">
-            <h1 class="h3 mb-3"><strong>Add Blog</strong></h1>
-            <div class="buttons">
-              <a href="{{url('/blogTopics')}}" class="mx-3 btn save">Save <i class="fa-solid fa-bookmark"></i></a>
-              <a href="{{url('/AddBlogsForAdmin')}}" class="btn published">Published <i class="fa-solid fa-inbox"></i></a>
-            </div>
-          </div>
+        <form action="{{ url('/saveBlogsForAdminApi') }}" method="POST" enctype="multipart/form-data">
+    @csrf
 
-          <form id="AddBlogForm">
+    <!-- Flash Messages (Success or Error) -->
+    @if(session('success'))
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ session('success') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
 
-            <div class="row pt-3 d-flex justify-content-center">
-              <div class="col-md-6 stretch-card grid-margin d-flex flex-column">
-                <div class="image-uploader">
-                  <input type="file" id="image" accept="image/*" style="display: none;">
-                  <div class="upload-container">
+    @if(session('error'))
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            {{ session('error') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
+
+    <!-- Form Content -->
+    <div class="d-flex justify-content-between mb-4">
+        <h1 class="h3 mb-3"><strong>Add Blog</strong></h1>
+
+        <div class="buttons">
+            <button class="mx-3 btn save" type="Submit">Save<i class="fa-solid fa-bookmark"></i></button>
+            <a href="#" class="btn published" type="Submit">Published <i class="fa-solid fa-inbox"></i></a>
+        </div>
+    </div>
+
+    <!-- Image Upload Section -->
+    <div class="row pt-3 d-flex justify-content-center">
+        <div class="col-md-6 stretch-card grid-margin d-flex flex-column">
+            <div class="image-uploader">
+                <input type="file" id="image" name="image" accept="image/*" style="display: none;">
+                <div class="upload-container">
                     <label for="image" id="imageLabel">Upload Image</label>
                     <img id="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
-                  </div>
                 </div>
-                <span class="msg_err" id="image_err" style="color:red;  font-size:13px;"></span>
-              </div>
+            </div>
+            <!-- Display Image Validation Error -->
+            @error('image')
+                <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+            @enderror
+        </div>
 
-              <div class="col-md-6 stretch-card grid-margin d-flex flex-column">
-                <div class="video-uploader">
-                  <input type="file" id="video" accept="video/mp4,video/quicktime" style="display: none;">
-                  <div class="upload-container">
+        <!-- Video Upload Section -->
+        <div class="col-md-6 stretch-card grid-margin d-flex flex-column">
+            <div class="video-uploader">
+                <input type="file" id="video" name="video" accept="video/mp4,video/quicktime" style="display: none;">
+                <div class="upload-container">
                     <label for="video" id="videoLabel">Upload Video</label>
                     <video id="uploadedVideo" controls style="display: none;"></video>
-                  </div>
                 </div>
-                <span class="msg_err" id="video_err" style="color:red;  font-size:13px;"></span>
-              </div>
             </div>
+            <!-- Display Video Validation Error -->
+            @error('video')
+                <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+            @enderror
+        </div>
+    </div>
 
-            <div class="row pt-1 d-flex justify-content-center">
-              <div class="col-md-12 stretch-card grid-margin">
-                <div class="pdf-uploader">
-                  <span class="msg_err" id="pdf_err" style="color:red;  font-size:13px;"></span>
-                  <input type="file" id="pdf" accept="application/pdf" style="display: none;">
-                  <div class="upload-container">
+    <!-- PDF Upload Section -->
+    <div class="row pt-1 d-flex justify-content-center">
+        <div class="col-md-12 stretch-card grid-margin">
+            <div class="pdf-uploader">
+                <!-- Display PDF Validation Error -->
+                @error('pdf')
+                    <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+                @enderror
+                <input type="file" id="pdf" name="pdf" accept="application/pdf" style="display: none;">
+                <div class="upload-container">
                     <label for="pdf" id="pdfLabel">Upload PDF</label>
                     <p id="pdfName" style="display: none;"></p>
-                  </div>
                 </div>
-              </div>
             </div>
+        </div>
+    </div>
 
-            <div class="row pt-1 my-3 d-flex justify-content-center">
-              <span class="msg_err" id="topic_err" style="color:red;  font-size:13px;"></span>
-              <div class="col-md-12 stretch-card grid-margin">
-                <select name="topic" id="topic"></select>
-              </div>
-            </div>
+    <!-- Topic Select Section -->
+    <div class="row pt-1 my-3 d-flex justify-content-center">
+        <!-- Display Topic Validation Error -->
+        @error('topic')
+            <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+        @enderror
+        <div class="col-md-12 stretch-card grid-margin">
+            <select name="topic" id="topic">
+                @foreach($topics as $topic)
+                    <option name="topic" value="{{ $topic->topic }}" {{ old('topic') == $topic->topic ? 'selected' : '' }}>
+                        {{ $topic->topic }}
+                    </option>
+                @endforeach
+            </select>
+        </div>
+    </div>
 
+    <!-- Heading Input Section -->
+    <div class="row pt-1 my-3 d-flex justify-content-center">
+        <!-- Display Heading Validation Error -->
+        @error('heading')
+            <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+        @enderror
+        <div class="col-md-12 stretch-card grid-margin">
+            <input type="text" id="heading" name="heading" class="blog__heading" value="{{ old('heading') }}" placeholder="Enter Heading Here...">
+        </div>
+    </div>
 
-            <div class="row pt-1 my-3 d-flex justify-content-center">
-              <span class="msg_err" id="heading_err" style="color:red;  font-size:13px;"></span>
-              <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="heading" class="blog__heading" placeholder="Enter Heading Here...">
-              </div>
-            </div>
+    <!-- Content Textarea Section -->
+    <div class="row pt-1 d-flex justify-content-center">
+        <!-- Display Content Validation Error -->
+        @error('content')
+            <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+        @enderror
+        <div class="col-md-12 stretch-card grid-margin blog__content">
+            <textarea name="content" id="editor">{{ old('content') }}</textarea>
+        </div>
+    </div>
 
+</form>
 
-            <div class="row pt-1 d-flex justify-content-center">
-              <span class="msg_err" id="content_err" style="color:red;  font-size:13px;"></span>
-              <div class="col-md-12 stretch-card grid-margin blog__content">
-                <textarea name="content" id="editor"></textarea>
-              </div>
-            </div>
-          </form>
 
         </div>
       </main>

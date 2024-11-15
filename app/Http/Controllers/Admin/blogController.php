@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Support\Facades\Storage;
+use App\Models\BlogTopic;
 
 class blogController extends Controller
 {
@@ -72,7 +73,8 @@ class blogController extends Controller
 
     public function AddBlogsForAdmin(Request $request,)
     {
-        return view('admin/pages/blogs/addBlogs');
+        $topics = BlogTopic::select('topic','id')->get();
+        return view('admin/pages/blogs/addBlogs')->with(compact('topics'));
     }
 
 
@@ -133,17 +135,6 @@ class blogController extends Controller
     // for save
     public function saveBlogsForAdminApi(Request $request)
     {
-
-        $user = Auth::guard('api')->user();
-        if (!in_array($user->role, ['Admin', 'b2b'])) {
-            return response()->json(['status' => '0', 'message' => 'Unauthorized users'], 200);
-        }
-
-        // Check if the request is AJAX
-        if (!$request->ajax()) {
-            return response()->json(['message' => 'Invalid request'], 400);
-        }
-
         // Validate the incoming data
         $validatedData = $request->validate([
             'topic' => 'required|string',
@@ -154,33 +145,36 @@ class blogController extends Controller
             'pdf' => 'nullable|mimes:pdf',
             'status' => 'nullable|string|in:save,publish', // Optional: if you want to differentiate between save and publish
         ]);
-
+        
+        // dd($request->all());
+        $user = Auth::user(); // Get the authenticated user
+        
+        // dd($user);
         // Initialize file paths
         $imagePath = null;
         $videoPath = null;
         $pdfPath = null;
-
+        
+        
+        
         // Handle Image Upload
         if ($request->hasFile('image')) {
             $imagePath = $request->file('image')->store('blogs/images', 'public');
         }
-
+        
         // Handle Video Upload
         if ($request->hasFile('video')) {
             $videoPath = $request->file('video')->store('blogs/videos', 'public');
         }
-
+        
         // Handle PDF Upload
         if ($request->hasFile('pdf')) {
             $pdfPath = $request->file('pdf')->store('blogs/pdfs', 'public');
         }
-
-        // Sanitize rich text content
-        // $cleanContent = Purifier::clean($validatedData['content']);
-
+        
         // Determine the status
         $status = $validatedData['status'] ?? 'save'; // Default to 'save' if not provided
-
+        
         // Create the blog entry
         $blog = Blog::create([
             'topic' => $validatedData['topic'],
@@ -192,14 +186,14 @@ class blogController extends Controller
             'status' => $status, // Assuming you have a 'status' column in your blogs table
             'created_by' => $user->id
         ]);
-
-        // Return JSON response
-        return response()->json([
-            'status' => '1',
-            'message' => 'Blog ' . ($status === 'publish' ? 'published' : 'saved') . ' successfully!',
-            'blog' => $blog
-        ], 200);
+    
+        // Store success message in session
+        session()->flash('success', 'Blog ' . ($status === 'publish' ? 'published' : 'saved') . ' successfully!');
+    
+        // Optionally, return the blog ID or any other data if needed
+        return redirect()->route('AddBlogsForAdmin'); // Redirect to the blogs index page or your desired page
     }
+    
 
 
     public function editBlogsForAdmin(Request $request, $id, $encryptedUserId, $page_type = null)
