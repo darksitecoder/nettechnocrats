@@ -82,8 +82,8 @@ Route::get('/online-reputation-management', [DigitalMarketingController::class, 
 Route::get('/about', [DigitalMarketingController::class, 'aboutus']);
 
 
-
-Route::get('/login', [logincontroller::class, 'login'])->name('login');
+Route::get('/login_page', [logincontroller::class, 'login_page'])->name('login');
+Route::get('/login', [logincontroller::class, 'login']);
 
 
 Route::post('/logout', [logincontroller::class, 'destroy'])->name('logout');

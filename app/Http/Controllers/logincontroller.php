@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Auth;
 
 class logincontroller extends Controller
 {
-    public function login(){
+    public function login_page(){
         return view('admin/pages/auth/login');
     }
 
@@ -86,6 +86,6 @@ class logincontroller extends Controller
         $request->session()->regenerateToken();
 
         // Redirect the user to the login page with a success message
-        return redirect()->to('login')->with('success', 'You have been logged out successfully.');
+        return redirect()->to('login_page')->with('success', 'You have been logged out successfully.');
     }
 }
