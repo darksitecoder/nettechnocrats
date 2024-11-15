@@ -18,7 +18,7 @@ class BlogTopicController extends Controller
 
       
 
-        return view('admin_theme/pages/blogs/blogTopics')->with(compact('role', 'encryptedUserId', 'page_type', 'b2b_id'));
+        return view('admin/pages/blogs/blogTopics');
     }
 
 
