@@ -22,7 +22,7 @@
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="{{url('blog')}}">
+						<a class="sidebar-link" href="{{url('listBlogsForAdmin')}}">
               <i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Blogs</span>
             </a>
 					</li>

@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Admin\blogController;
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DigitalMarketingController;
 use App\Http\Controllers\TechController;
@@ -10,6 +10,10 @@ use App\Http\Controllers\IndustriesController;
 use App\Http\Controllers\logincontroller;
 use App\Http\Controllers\Admin\AdminportfolioController;
 use App\Http\Controllers\PortfolioController;
+
+use App\Http\Controllers\Admin\blogController;
+use App\Http\Controllers\Admin\BlogCommentController;
+use App\Http\Controllers\Admin\BlogTopicController;
 
 
 /*
@@ -95,7 +99,7 @@ Route::post('/signup', [logincontroller::class, 'signup']);
 
 Route::get('/portfolio', [AdminportfolioController::class, 'portfolio']);
 
-Route::get('/blog', [blogController::class, 'blog']);
+// Route::get('/blog', [blogController::class, 'blog']);
 
 
 
@@ -106,3 +110,43 @@ Route::middleware(['auth'])->group(function () {
     // Protected route for the admin dashboard
     Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']);
 });
+<<<<<<< HEAD
+=======
+
+  // for blog topic
+  Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
+  Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
+  Route::get('deleteBlogTopicApi', [BlogTopicController::class, 'delete']);
+
+
+// for blogs
+Route::get('listBlogsForAdminApi', [blogController::class, 'listBlogsForAdminApi']);
+Route::get('deleteBlogsForAdminApi/{id}', [blogController::class, 'deleteBlogsForAdminApi']);
+Route::get('editBlogsForAdminApi/{id}', [blogController::class, 'editBlogsForAdminApi']);
+Route::post('saveBlogsForAdminApi', [blogController::class, 'saveBlogsForAdminApi']);
+Route::get('fetchBlogDetailsApi/{id}', [blogController::class, 'fetchBlogDetailsApi']);
+Route::post('updateBlogsForAdminApi', [blogController::class, 'updateBlogsForAdminApi']);
+
+
+// Blogs for Admin
+Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
+Route::get('AddBlogsForAdmin/{role}', [blogController::class, 'AddBlogsForAdmin']);
+Route::get('BlogsForAdmin/{role}', [blogController::class, 'AddBlogsForAdmin']);
+Route::get('editBlogsForAdmin/{id}/{encryptedUserId}', [blogController::class, 'editBlogsForAdmin']);
+Route::get('blogTopics/{role}', [BlogTopicController::class, 'blogTopics']);
+
+
+// Blogs comments
+Route::get('blogComments/{role}', [BlogCommentController::class, 'blogComments']);
+
+// for users blog
+Route::get('listBlogsForUsersApi', [blogController::class, 'listBlogsForUsersApi']);
+Route::get('blogDetailsForUsersApi/{blogID}/{b2b_id?}', [blogController::class, 'blogDetailsForUsersApi']);
+
+
+// blogs for Admin
+
+Route::get('/blogs/{shop_id?}', [blogController::class, 'blogs']);
+Route::get('blogDetails/{id}/{shop_id?}', [blogController::class, 'blogDetails']);
+
+>>>>>>> e1cb0103860fd9922430940dd0f3c2f98808e626
