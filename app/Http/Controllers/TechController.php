@@ -137,4 +137,8 @@ class TechController extends Controller
     {
         return view('frontend/tech/uiux');
     }
+    public function about()
+    {
+        return view('frontend/tech/about');
+    }
 }

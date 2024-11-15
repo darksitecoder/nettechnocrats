@@ -73,6 +73,9 @@ Route::get('/data-science', [TechController::class, 'datascience']);
 Route::get('/ai-application-development-company', [TechController::class, 'ai']);
 
 
+Route::get('/about-us', [TechController::class, 'about']);
+
+
 Route::get('/industries', [IndustriesController::class, 'index']);
 Route::get('/portfolio', [PortfolioController::class, 'index']);
 
