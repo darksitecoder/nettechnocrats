@@ -127,7 +127,7 @@ Route::post('updateBlogsForAdminApi', [blogController::class, 'updateBlogsForAdm
 
 // Blogs for Admin
 Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
-Route::get('AddBlogsForAdmin/{role}', [blogController::class, 'AddBlogsForAdmin']);
+Route::get('dd', [blogController::class, 'AddBlogsForAdmin']);
 Route::get('BlogsForAdmin/{role}', [blogController::class, 'AddBlogsForAdmin']);
 Route::get('editBlogsForAdmin/{id}/{encryptedUserId}', [blogController::class, 'editBlogsForAdmin']);
 Route::get('blogTopics/{role}', [BlogTopicController::class, 'blogTopics']);
