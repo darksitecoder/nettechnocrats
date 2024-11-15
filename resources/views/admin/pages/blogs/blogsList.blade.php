@@ -274,12 +274,11 @@
   </div>
 
 
-  @include('admin_theme/Partial/navbar')
   <!-- partial -->
   <div class="container-fluid page-body-wrapper">
 
 
-    @include('admin_theme/Partial/sidebar')
+  @include('admin/partials/left_sidebar')
 
 
     <!-- partial -->
@@ -287,7 +286,7 @@
       <div class="content-wrapper">
 
         <div class="" style="padding-bottom:10px;   margin-top:-1.5rem;">
-          @include('admin_theme/Partial/admin_header')
+        @include('admin/partials/header')
           <button class="navbar-toggler" type="button" data-toggle="offcanvas">
             <span class="mdi mdi-menu"></span>
           </button>
@@ -299,8 +298,8 @@
           </div>
           <div class="col-md-7 stretch-card grid-margin d-flex justify-content-end" style="text-align:right">
             <input type="text" id="filterNo" placeholder="Search" style="padding:5px 10px; outline:none; border:none; border-radius:5px; margin:0px 40px;">
-            <a class="add_new_btn" href="{{url('/blogTopics/' . urlencode($encryptedUserId))}}"><img class="" src="{{ asset('assets/frontEnd/web/images/icons/add-circled-outline.svg') }}" alt="Logo" class="logo-img"> &nbsp; <span>Add Topics</span></a>
-            <a class="add_new_btn" href="{{url('/AddBlogsForAdmin/' . urlencode($encryptedUserId))}}"><img class="" src="{{ asset('assets/frontEnd/web/images/icons/add-circled-outline.svg') }}" alt="Logo" class="logo-img"> &nbsp; <span>Create New</span></a>
+            <a class="add_new_btn" href="{{url('/blogTopics/')}}"><img class="" src="{{ asset('assets/frontEnd/web/images/icons/add-circled-outline.svg') }}" alt="Logo" class="logo-img"> &nbsp; <span>Add Topics</span></a>
+            <a class="add_new_btn" href="{{url('/AddBlogsForAdmin/')}}"><img class="" src="{{ asset('assets/frontEnd/web/images/icons/add-circled-outline.svg') }}" alt="Logo" class="logo-img"> &nbsp; <span>Create New</span></a>
           </div>
         </div>
         <span id="success_msg" style="color:green"></span>
@@ -361,233 +360,7 @@
   </div>
   <!-- END : Unregistered Users -->
 
-  <script>
-    $(document).ready(function() {
-      var token = localStorage.getItem('authToken');
-      console.log(token);
-
-      if (!token) {
-        console.error('Token not found in localStorage');
-        window.location.href = '/';
-      }
-
-      var currentPage = 1;
-      var itemsPerPage = 10;
-      var dataList = []; // Store the original data list
-      var filteredList = []; // Store the filtered data list
-
-      var b2b_id = '{{$b2b_id}}';
-      var url = '/listBlogsForAdminApi/';
-
-      if (b2b_id) {
-        url += '?b2b_id=' + b2b_id;
-      }
-
-
-      $.ajax({
-        url: url, // Replace with the actual endpoint URL
-        method: 'GET',
-        headers: {
-          'Authorization': 'Bearer ' + token,
-        },
-        success: function(data) {
-          // Handle the successful response
-          if (data.Blogs) {
-            console.log('Data received:', data.Blogs);
-
-            dataList = Object.values(data.Blogs);
-            filteredList = dataList.slice(); // Initialize filtered list with all data
-            populateTable(filteredList);
-            applyPagination(filteredList);
-          } else {
-            console.error('No data received or invalid data format');
-          }
-        },
-        error: function(error) {
-          // Handle errors
-          console.error('Error:', error);
-          if (error.status === 401) {
-            console.error('Unauthorized: Please check your authentication token.');
-          }
-        }
-      });
-
-      function populateTable(dataList) {
-        var tableBody = $('#dataTable tbody');
-
-        // Clear existing table rows
-        tableBody.empty();
-
-        var startIndex = (currentPage - 1) * itemsPerPage;
-        var endIndex = Math.min(startIndex + itemsPerPage, dataList.length);
-
-        // Check if dataList is empty
-        if (dataList.length === 0) {
-          // Display message when no records are found
-          tableBody.append('<tr><td colspan="6" style="text-align: center;">No records found</td></tr>');
-          return; // Exit the function early
-        }
-
-        // Iterate through the data and add rows to the table
-        for (var j = startIndex; j < endIndex; j++) {
-          var item = dataList[j];
-          var row = $('<tr id="data-' + item.id + '">');
-          row.append('<td>' + item.id + '</td>');
-          row.append('<td>' + item.topic + '</td>');
-          row.append('<td>' + item.heading + '</td>');
-          row.append('<td>' + item.status + '</td>');
-          row.append(`<td><a href="{{ url('/editBlogsForAdmin/' . '${item.id}' . '/' . urlencode($encryptedUserId)) }}" class="add_new_btn edit_btn">Edit &nbsp;<i class="fa-solid fa-pen"></i></a></td>`);
-          row.append('<td style="width:70px;"><div class="d-flex justify-content-end"><button onclick="deleteOperation(' + item.id + ')" class="deleteButton"><i class="fa-solid fa-trash"></i></button></div></td>');
-          tableBody.append(row);
-        }
-      }
-
-      function editNewsLetter(no) {
-        console.log('helllow');
-      }
-
-      function applyPagination(dataList) {
-        var totalPages = Math.ceil(dataList.length / itemsPerPage);
-        var pagination = $('#pagination');
-        pagination.empty();
-
-        var maxPagesToShow = 3; // Maximum number of pages to show
-        var startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
-        var endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
-
-        if (currentPage + Math.floor(maxPagesToShow / 2) > totalPages) {
-          startPage = Math.max(1, totalPages - maxPagesToShow + 1);
-        }
-
-        // Add "Previous" button
-        if (currentPage > 1) {
-          pagination.append('<button class="page-link" data-page="' + (currentPage - 1) + '">Previous</button>');
-        }
-
-        for (var i = startPage; i <= endPage; i++) {
-          pagination.append('<button class="page-link' + (i === currentPage ? ' active' : '') + '" data-page="' + i + '">' + i + '</button>');
-        }
-
-        // Add "Next" button
-        if (currentPage < totalPages) {
-          pagination.append('<button class="page-link" data-page="' + (currentPage + 1) + '">Next</button>');
-        }
-      }
-
-
-
-
-      $(document).on('click', '.page-link', function(e) {
-        e.preventDefault();
-        currentPage = parseInt($(this).data('page'));
-        populateTable(filteredList); // Use filtered list for pagination
-        applyPagination(filteredList);
-      });
-
-
-      $('#filterNo').on('input', function() {
-        var filterValue = $(this).val().trim().toLowerCase(); // Get the filter value
-        filteredList = dataList.filter(function(item) {
-          for (var key in item) {
-            if (item.hasOwnProperty(key) && typeof item[key] === 'string') {
-              if (item[key].toLowerCase().includes(filterValue)) {
-                return true;
-              }
-            }
-          }
-          return false;
-        });
-        currentPage = 1; // Reset current page to 1 when filtering
-        populateTable(filteredList);
-        applyPagination(filteredList);
-      });
-
-
-      // Function to filter data based on input in elements with class '.partial-search'
-      $('.partial-search').on('input', function() {
-        var filterColumn = $(this).attr('data-search');
-        var filterValue = $(this).val().trim().toLowerCase(); // Get the filter value
-        $('.partial-search').not(this).val(''); // Clear the value of other elements
-
-        filteredList = dataList.filter(function(item) {
-          // Check if the "Offen" column matches the filter value
-          if (item.hasOwnProperty(filterColumn) && typeof item[filterColumn] === 'string') {
-            if (item[filterColumn].toLowerCase().includes(filterValue)) {
-              return true;
-            }
-          }
-          return false;
-        });
-        currentPage = 1; // Reset current page to 1 when filtering
-        populateTable(filteredList);
-        applyPagination(filteredList);
-      });
-    });
-  </script>
-
-  <script>
-    function deleteOperation(blogId) {
-      // Make a DELETE request using AJAX
-      console.log(blogId);
-      if (confirm('Are you sure you want to delete this blog?')) {
-        // User clicked "OK"
-        // Process further deletion logic here
-        console.log('User confirmed deletion.');
-        // Proceed with deletion logic here
-      } else {
-        // User clicked "Cancel"
-        // Optionally, you can handle the cancellation case here
-        console.log('User canceled deletion.');
-        return false();
-      }
-
-      var token = localStorage.getItem('authToken');
-      console.log(token);
-
-      // Check if the token exists
-      if (!token) {
-        console.error('Token not found in localStorage');
-        window.location.href = '/';
-      }
-
-      $.ajax({
-        url: '/deleteBlogsForAdminApi/' + blogId,
-        method: 'get',
-        dataType: 'json',
-        headers: {
-          'Authorization': 'Bearer ' + token,
-        },
-        success: function(data) {
-
-          if (data.success) {
-            iziToast.show({
-              title: '',
-              message: data.success,
-              position: 'topRight',
-              backgroundColor: '#44e1d5',
-              borderColor: '#44e1d5',
-              borderWidth: '2px', // Example border width
-              borderRadius: '10px', // Example border radius
-              titleSize: '18px', // Example font size for title
-              messageSize: '16px', // Example font size for message
-              messageFontWeight: 'bold',
-              timeout: 5000 // Example timeout to close the toast automatically after 5 seconds
-            });
-
-            jQuery('#data-' + blogId).remove();
-
-            console.log('blog deleted successfully:', data.success);
-            // Perform any additional actions after deletion
-          } else {
-            console.log('blog not deleted successfully:', data.message);
-          }
-        },
-        error: function(error) {
-          console.error('Error deleting blog:', error.responseJSON.error);
-        }
-      });
-    }
-  </script>
+  <!--  -->
 
 
   <script type="text/javascript" src="{{ asset('theme/assets/vendors/js/vendor.bundle.base.js') }}"></script>
