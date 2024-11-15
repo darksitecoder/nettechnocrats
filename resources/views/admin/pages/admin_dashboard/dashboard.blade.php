@@ -16,18 +16,18 @@
 
 	<title>AdminKit Demo - Bootstrap 5 Admin Template</title>
 
-    <link href="{{ asset('/dashboard_theme/css/app.css') }}" rel="stylesheet">
+	<link href="{{ asset('/dashboard_theme/css/app.css') }}" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<div class="wrapper">
-	
-	@include('admin/partials/left_sidebar')
+
+		@include('admin/partials/left_sidebar')
 
 		<div class="main">
-			
-		@include('admin/partials/header')
+
+			@include('admin/partials/header')
 
 			<main class="content">
 				<div class="container-fluid p-0">
@@ -305,6 +305,14 @@
 		</div>
 	</div>
 
+
+	<script>
+		// Select the child element within the parent
+		const childElement = document.querySelector('.dashboard');
+
+		// Add a new class to the child element
+		childElement.classList.add('active');
+	</script>
 	<script src="{{ asset('dashboard_theme/js/app.js') }}"></script>
 
 

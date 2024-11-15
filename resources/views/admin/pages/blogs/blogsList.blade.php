@@ -2,378 +2,361 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Admin Blogs</title>
-  <link rel="icon" href="{{ asset('assets/frontEnd/web/images/favicon.ico') }}" type="image/x-icon" />
-  <link rel="shortcut icon" href="{{ asset('assets/frontEnd/web/images/favicon.ico') }}" type="image/x-icon" />
-  <!-- plugins:css -->
+  <meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+  <meta name="author" content="AdminKit">
+  <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+
+  <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
   <!-- Fonts -->
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
   <script src="https://kit.fontawesome.com/e1528f4468.js" crossorigin="anonymous"></script>
   <!-- Fonts -->
+  <title>Blog list</title>
 
-  <link rel="stylesheet" href="{{ asset('theme/assets/vendors/mdi/css/materialdesignicons.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('theme/assets/vendors/css/vendor.bundle.base.css') }}">
-  <link rel="stylesheet" href="{{ asset('theme/assets/css/style.css') }}">
-  <link rel="stylesheet" href="{{ asset('theme/assets/images/favicon.ico') }}">
+  <link href="{{ asset('/dashboard_theme/css/app.css') }}" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="{{ asset('style/admin-style/common.css') }}">
-  <link rel="stylesheet" href="{{ asset('style/admin-style/listing-style.css') }}">
   <style>
-    .transform-hover {
-      height: 150px;
-      object-fit: cover;
-      transition: transform 0.3s ease;
-      /* You can adjust the scale value for the desired zoom effect */
-
-    }
-
-    .transform-hover:hover {
-      transform: scale(1.1);
-      cursor: pointer;
-    }
-
-    .close {
-      color: #404040;
-    }
-
-    .row .col {
-      font-size: 14px;
-    }
-
-    table tr th {
-      width: 200px;
-      font-weight: 400 !important;
-    }
-
-    table tr td {
-      padding: 10px 2px;
-      width: 200px;
-      height: 50px;
-      font-size: 14px;
-    }
-
-    table tr td a {
-      color: #54606c;
-    }
-
-    .blogdetails a {
-      color: #44e1d5 !important;
-      background-color: #121315 !important;
-      border: none;
-      border-radius: 5px;
-      margin-top: 1px;
-      text-align: center;
-      border-right: 5px solid #44e1d5;
-      /* Initial border */
-      text-wrap: wrap !important;
-    }
-
-    #pagination .page-link {
-      color: #404040;
-      border: 2px solid #fff;
-      font-weight: 600;
-      padding: 10px 15px;
-      margin-left: 10px;
-    }
-
-    .deleteButton {
-      background-color: red;
-      color: #fff;
-      padding: 5px 10px;
-      border: none;
-      border-radius: 5px;
-      font-size: 18px;
+    .edit {
       transition: 0.5s ease-in-out;
+      border: 1px solid #1CBB8C !important;
     }
 
-    .deleteButton:hover {
-      background-color: transparent;
-      color: red;
-    }
-
-    .history {
-      background-color: #44e1d5;
-      color: #fff;
-      padding: 5px 10px;
-      border: none;
-      border-radius: 5px;
-      font-size: 18px;
-      transition: 0.5s ease-in-out;
-    }
-
-    .history:hover {
-      background-color: transparent;
-      color: #44e1d5;
-    }
-
-    .price__history h4 {
-      /* font-weight:700; */
-      background-color: #191a1c;
-      box-shadow: rgb(69 69 69 / 24%) 0px 3px 8px;
-      width: 54%;
-      padding: 10px 5px;
-      border-radius: 5px;
-    }
-
-    .price__history p {
-      font-weight: 500;
-    }
-
-    .price__history p span {
-      color: #44e1d5;
-      font-size: 18px;
-      font-weight: 900 !important;
-    }
-
-    /* Modal */
-
-    .g-receive-text {
-      color: #1BE3FE;
-      font-size: 16px;
-      font-weight: 510;
-      color: #1BE3FE;
-      text-decoration: underline;
-    }
-
-    .g-payment-text,
-    .g-type {
-      color: #B0C5E2;
-    }
-
-    .g-payment {
-      margin-right: 15px;
-    }
-
-    #g-modal-add-delivery-address {
-      background: #0000008a !important;
-      opacity: 1.1 !important;
-    }
-
-    .g-modal-add-delivery-address-content,
-    .g-modal-import-customer-csv-content {
-      background: black !important;
-      border: 1px #444444 solid !important;
-      border-radius: 20px !important;
-    }
-
-    .g-modal-add-delivery-address-footer,
-    .g-modal-import-customer-csv-footer {
-      background: #1be3fe !important;
-      color: #282E36 !important;
-    }
-
-    .g-modal-add-delivery-address-close,
-    .g-modal-add-delivery-address-close:hover,
-    .g-modal-import-customer-csv-close,
-    .g-modal-import-customer-csv-close:hover {
-      border: 2px #B0C5E2 solid;
-      color: #B0C5E2;
-      border-radius: 13px;
-      height: min-content;
-    }
-
-    .g-modal-border-icon {
-      border: 1px #282E36 solid !important;
-      border-radius: 10px !important;
-      background: black;
-    }
-
-    .g-cursor-pointer {
-      cursor: pointer !important;
-    }
-
-    .g-modal-import-customer-drag-drop-file {
-      background: #16181e;
-    }
-
-    .g-modal-import-customer-drag-drop-file-chield {
-      padding: 5% 15% !important;
-    }
-
-    .g-modal-import-customer-drag-drop-file-text {
-      font-size: 16px !important;
-      font-weight: 400 !important;
-      line-height: 19.09px !important;
-    }
-
-    .modal-header {
-      border-bottom: 1px solid #444444 !important;
-    }
-
-    .modal-footer {
-      border-top: 1px solid #444444 !important;
-    }
-
-    .g-modal-import-customer-drag-drop-file-icone {
-      border-radius: 10px;
-      border: 1px #586371 solid;
-      padding: 2%;
-      background: black;
-    }
-
-    .g-modal-import-customer-drag-drop-file-span {
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 16.71px;
-      color: #b0c5e2;
-    }
-
-    .btn-danger {
-      background-color: red;
-      border-radius: 10px;
-      padding: 15px 20px;
-      transition: 0.5s ease-in-out;
-
-    }
-
-    .btn-success {
-      background-color: #44e1d5;
-      border-radius: 10px;
-      padding: 15px 29px;
-      transition: 0.5s ease-in-out;
-    }
-
-    .btn-danger:hover {
-      background-color: transparent;
-      border: 1px solid red;
-      color: red !important;
-    }
-
-    .btn-success:hover {
+    .edit:hover {
       background-color: transparent !important;
-      border: 1px solid #44e1d5;
-      color: var(--blue) !important;
+      color: #1CBB8C;
+    }
+
+    .delete {
+      transition: 0.5s ease-in-out;
+      border: 1px solid #DC3545;
+    }
+
+    .delete:hover {
+      background-color: transparent !important;
+      color: #DC3545;
+    }
+
+    .btn {
+      padding: 8px 20px;
+      border: 1px solid #3B7DDD;
+      border-radius: 5px;
+      background-color: #3B7DDD;
+      color: #fff;
+      text-decoration: none;
+      transition: 0.5s ease-in-out;
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      background-color: transparent;
+      color: #3B7DDD;
     }
   </style>
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
 <body>
-  <div class="container-scroller">
-    <div class="row p-0 m-0 proBanner" id="proBanner">
-      <div class="col-md-12 p-0 m-0">
-        {{-- <div class="card-body card-body-padding d-flex align-items-center justify-content-between">
-            <div class="ps-lg-1">
-              <div class="d-flex align-items-center justify-content-between">
-                <!-- <p class="mb-0 font-weight-medium me-3 buy-now-text">Free 24/7 customer support, updates, and more with this template!</p> -->
-                <a href="https://www.bootstrapdash.com/product/purple-bootstrap-admin-template/?utm_source=organic&utm_medium=banner&utm_campaign=buynow_demo" target="_blank" class="btn me-2 buy-now-btn border-0">Get Pro</a>
+  <div class="wrapper">
+
+    @include('admin/partials/left_sidebar')
+
+    <div class="main">
+
+      @include('admin/partials/header')
+
+      <main class="content">
+        <div class="container-fluid p-0">
+          <div class="d-flex justify-content-between mb-4">
+            <h1 class="h3 mb-3"><strong>Blog List</strong></h1>
+            <div class="buttons">
+              <a href="#" class="mx-3 btn">Add Topic <i class="fa-solid fa-circle-plus"></i></a>
+              <a href="#" class=" btn">Create Blog <i class="fa-solid fa-circle-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-lg-12 col-xxl-12 d-flex">
+              <div class="card flex-fill">
+                <table class="table table-hover my-0">
+                  <thead>
+                    <tr>
+                      <th>Blog Id</th>
+                      <th>Date</th>
+                      <th class="d-none d-xl-table-cell">Topic</th>
+                      <th class="d-none d-xl-table-cell">Heading</th>
+                      <th>Status</th>
+                      <th class="d-none d-md-table-cell"></th>
+                      <th class="d-none d-md-table-cell"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>BL-250</td>
+                      <td>18/11/2024</td>
+                      <td class="d-none d-xl-table-cell">SEO</td>
+                      <td class="d-none d-xl-table-cell">Lorem ipsum dolor sit amet.</td>
+                      <td><span class="badge bg-warning fs-6">Save</span></td>
+                      <td class="d-none d-md-table-cell"><button class="badge bg-success px-2 py-1 fs-6 edit">Edit <i class="fa-solid fa-pen-to-square"></i></button></td>
+                      <td class="d-none d-md-table-cell"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>BL-250</td>
+                      <td>18/11/2024</td>
+                      <td class="d-none d-xl-table-cell">SEO</td>
+                      <td class="d-none d-xl-table-cell">Lorem ipsum dolor sit amet.</td>
+                      <td><span class="badge bg-primary fs-6">Published</span></td>
+                      <td class="d-none d-md-table-cell"><button class="badge bg-success px-2 py-1 fs-6 edit">Edit <i class="fa-solid fa-pen-to-square"></i></button></td>
+                      <td class="d-none d-md-table-cell"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
-            <div class="d-flex align-items-center justify-content-between">
-              <a href="https://www.bootstrapdash.com/product/purple-bootstrap-admin-template/"><i class="mdi mdi-home me-3 text-white"></i></a>
-              <button id="bannerClose" class="btn border-0 p-0">
-                <i class="mdi mdi-close text-white me-0"></i>
-              </button>
-            </div> --}}
-      </div>
+
+          </div>
+
+        </div>
+      </main>
+
+      @include('admin/partials/footer')
+
     </div>
   </div>
 
+  <script src="{{ asset('dashboard_theme/js/app.js') }}"></script>
+  <script>
+    const childElement = document.querySelector('.blog');
+    childElement.classList.add('active');
+  </script>
 
-  <!-- partial -->
-  <div class="container-fluid page-body-wrapper">
-
-
-  @include('admin/partials/left_sidebar')
-
-
-    <!-- partial -->
-    <div class="main-panel">
-      <div class="content-wrapper">
-
-        <div class="" style="padding-bottom:10px;   margin-top:-1.5rem;">
-        @include('admin/partials/header')
-          <button class="navbar-toggler" type="button" data-toggle="offcanvas">
-            <span class="mdi mdi-menu"></span>
-          </button>
-        </div>
-        <div class="row pt-3">
-
-          <div class="col-md-5 stretch-card grid-margin" style="font-size:20px; display:flex; align-items:center;">
-            All Blogs
-          </div>
-          <div class="col-md-7 stretch-card grid-margin d-flex justify-content-end" style="text-align:right">
-            <input type="text" id="filterNo" placeholder="Search" style="padding:5px 10px; outline:none; border:none; border-radius:5px; margin:0px 40px;">
-            <a class="add_new_btn" href="{{url('/blogTopics/')}}"><img class="" src="{{ asset('assets/frontEnd/web/images/icons/add-circled-outline.svg') }}" alt="Logo" class="logo-img"> &nbsp; <span>Add Topics</span></a>
-            <a class="add_new_btn" href="{{url('/AddBlogsForAdmin/')}}"><img class="" src="{{ asset('assets/frontEnd/web/images/icons/add-circled-outline.svg') }}" alt="Logo" class="logo-img"> &nbsp; <span>Create New</span></a>
-          </div>
-        </div>
-        <span id="success_msg" style="color:green"></span>
-
-        <div class="container responsive">
-          <table id="dataTable" style="width:100%;">
-            <thead>
-              <tr style="border:none;">
-                <th><i class="fa-solid fa-magnifying-glass"></i><input type="text" class="partial-search" data-search="id" placeholder="Id"></th>
-                <th><i class="fa-solid fa-magnifying-glass"></i><input type="text" class="partial-search" data-search="topic" placeholder="Topic"></th>
-                <th><i class="fa-solid fa-magnifying-glass"></i><input type="text" class="partial-search" data-search="heading" placeholder="Heading"></th>
-                <th><i class="fa-solid fa-magnifying-glass"></i><input type="text" class="partial-search" data-search="status" placeholder="Status"></th>
-                <!-- <th><i class="fa-solid fa-magnifying-glass"></i><input type="text" class="partial-search" data-search="Kunden" placeholder="Customer name"></th> -->
-                <th></th>
-              </tr>
-            </thead>
-
-            <tbody>
-
-            </tbody>
-          </table>
-        </div>
-        <div id="pagination" class="pagination" style="padding-top: 3rem; color:#404040;"></div>
-      </div>
-    </div>
-    <!-- main-panel ends -->
-  </div>
-  <!-- page-body-wrapper ends -->
-  </div>
-  <!-- container-scroller -->
-  <!-- plugins:js -->
-
-
-  <!-- START : Unregistered user -->
-  <div class="modal fade" id="unregistered-user">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content g-modal-add-delivery-address-content">
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <!-- <h5 class="modal-title"><span class="p-2 g-modal-border-icon mx-2"><i class="fa-solid fa-add text-warning" aria-hidden="true"></i></span>Add Delivery Address</h5> -->
-          <h5 class="modal-title"><span class="p-2 g-modal-border-icon mx-2"><img src="{{asset('assets/backend/images/icone/plus-circle-yellow.png')}}"></span>Unregistered User</h5>
-          <button type="button" class="btn-close g-modal-add-delivery-address-close" data-bs-dismiss="modal">X</button>
-        </div>
-        <!-- Modal body -->
-        <form>
-          <div class="modal-body" style="overflow-y: scroll; overflow-x: hidden; height:auto; max-height:450px;">
-            <div class="row my-2" id="list_temp_details">
-              <div class="col-md-8 d-flex align-items-center" id="un_registered_user_id"></div>
-              <div class="col-md-4 d-flex align-items-center"><button type="button" id="status_button" class="add_new_btn"></button></div>
-            </div>
-          </div>
-
-
-        </form>
-
-      </div>
-    </div>
-  </div>
-  <!-- END : Unregistered Users -->
-
-  <!--  -->
-
-
-  <script type="text/javascript" src="{{ asset('theme/assets/vendors/js/vendor.bundle.base.js') }}"></script>
-  <script type="text/javascript" src="{{ asset('theme/assets/vendors/chart.js/Chart.min.js') }}"></script>
-  <script type="text/javascript" src="{{ asset('theme/assets/js/jquery.cookie.js') }}"></script>
-  <script type="text/javascript" src="{{ asset('theme/assets/js/off-canvas.js') }}"></script>
-  <script type="text/javascript" src="{{ asset('theme/assets/js/hoverable-collapse.js') }}"></script>
-  <!-- <script type="text/javascript" src="{{ asset('theme/assets/js/misc.js') }}"></script> -->
-
-  <script type="text/javascript" src="{{ asset('theme/assets/js/dashboard.js') }}"></script>
-  <script type="text/javascript" src="{{ asset('theme/assets/js/todolist.js') }}"></script>
-
-
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var ctx = document.getElementById("chartjs-dashboard-line").getContext("2d");
+      var gradient = ctx.createLinearGradient(0, 0, 0, 225);
+      gradient.addColorStop(0, "rgba(215, 227, 244, 1)");
+      gradient.addColorStop(1, "rgba(215, 227, 244, 0)");
+      // Line chart
+      new Chart(document.getElementById("chartjs-dashboard-line"), {
+        type: "line",
+        data: {
+          labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+          datasets: [{
+            label: "Sales ($)",
+            fill: true,
+            backgroundColor: gradient,
+            borderColor: window.theme.primary,
+            data: [
+              2115,
+              1562,
+              1584,
+              1892,
+              1587,
+              1923,
+              2566,
+              2448,
+              2805,
+              3438,
+              2917,
+              3327
+            ]
+          }]
+        },
+        options: {
+          maintainAspectRatio: false,
+          legend: {
+            display: false
+          },
+          tooltips: {
+            intersect: false
+          },
+          hover: {
+            intersect: true
+          },
+          plugins: {
+            filler: {
+              propagate: false
+            }
+          },
+          scales: {
+            xAxes: [{
+              reverse: true,
+              gridLines: {
+                color: "rgba(0,0,0,0.0)"
+              }
+            }],
+            yAxes: [{
+              ticks: {
+                stepSize: 1000
+              },
+              display: true,
+              borderDash: [3, 3],
+              gridLines: {
+                color: "rgba(0,0,0,0.0)"
+              }
+            }]
+          }
+        }
+      });
+    });
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Pie chart
+      new Chart(document.getElementById("chartjs-dashboard-pie"), {
+        type: "pie",
+        data: {
+          labels: ["Chrome", "Firefox", "IE"],
+          datasets: [{
+            data: [4306, 3801, 1689],
+            backgroundColor: [
+              window.theme.primary,
+              window.theme.warning,
+              window.theme.danger
+            ],
+            borderWidth: 5
+          }]
+        },
+        options: {
+          responsive: !window.MSInputMethodContext,
+          maintainAspectRatio: false,
+          legend: {
+            display: false
+          },
+          cutoutPercentage: 75
+        }
+      });
+    });
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Bar chart
+      new Chart(document.getElementById("chartjs-dashboard-bar"), {
+        type: "bar",
+        data: {
+          labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+          datasets: [{
+            label: "This year",
+            backgroundColor: window.theme.primary,
+            borderColor: window.theme.primary,
+            hoverBackgroundColor: window.theme.primary,
+            hoverBorderColor: window.theme.primary,
+            data: [54, 67, 41, 55, 62, 45, 55, 73, 60, 76, 48, 79],
+            barPercentage: .75,
+            categoryPercentage: .5
+          }]
+        },
+        options: {
+          maintainAspectRatio: false,
+          legend: {
+            display: false
+          },
+          scales: {
+            yAxes: [{
+              gridLines: {
+                display: false
+              },
+              stacked: false,
+              ticks: {
+                stepSize: 20
+              }
+            }],
+            xAxes: [{
+              stacked: false,
+              gridLines: {
+                color: "transparent"
+              }
+            }]
+          }
+        }
+      });
+    });
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var markers = [{
+          coords: [31.230391, 121.473701],
+          name: "Shanghai"
+        },
+        {
+          coords: [28.704060, 77.102493],
+          name: "Delhi"
+        },
+        {
+          coords: [6.524379, 3.379206],
+          name: "Lagos"
+        },
+        {
+          coords: [35.689487, 139.691711],
+          name: "Tokyo"
+        },
+        {
+          coords: [23.129110, 113.264381],
+          name: "Guangzhou"
+        },
+        {
+          coords: [40.7127837, -74.0059413],
+          name: "New York"
+        },
+        {
+          coords: [34.052235, -118.243683],
+          name: "Los Angeles"
+        },
+        {
+          coords: [41.878113, -87.629799],
+          name: "Chicago"
+        },
+        {
+          coords: [51.507351, -0.127758],
+          name: "London"
+        },
+        {
+          coords: [40.416775, -3.703790],
+          name: "Madrid "
+        }
+      ];
+      var map = new jsVectorMap({
+        map: "world",
+        selector: "#world_map",
+        zoomButtons: true,
+        markers: markers,
+        markerStyle: {
+          initial: {
+            r: 9,
+            strokeWidth: 7,
+            stokeOpacity: .4,
+            fill: window.theme.primary
+          },
+          hover: {
+            fill: window.theme.primary,
+            stroke: window.theme.primary
+          }
+        },
+        zoomOnScroll: false
+      });
+      window.addEventListener("resize", () => {
+        map.updateSize();
+      });
+    });
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var date = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000);
+      var defaultDate = date.getUTCFullYear() + "-" + (date.getUTCMonth() + 1) + "-" + date.getUTCDate();
+      document.getElementById("datetimepicker-dashboard").flatpickr({
+        inline: true,
+        prevArrow: "<span title=\"Previous month\">&laquo;</span>",
+        nextArrow: "<span title=\"Next month\">&raquo;</span>",
+        defaultDate: defaultDate
+      });
+    });
+  </script>
 
 </body>
 
