@@ -203,9 +203,11 @@ class blogController extends Controller
 
     public function editBlogsForAdmin(Request $request, $id, )
     {
+        $topics = BlogTopic::select('topic','id')->get();
+        // dd($topic);
 
-       
-        return view('admin/pages/blogs/editBlogs')->with(compact('id'));
+        $Blogs = Blog::select()->where('id', $id)->get();
+        return view('admin/pages/blogs/editBlogs')->with(compact('topics', 'Blogs'));
     }
 
 

@@ -295,8 +295,12 @@
       <div class="row pt-1 my-3 d-flex justify-content-center">
        <div class="col-md-12 stretch-card grid-margin">
         <select name="topic" id="topic">
-         <option name="topic" value="{{ $topic->topic }}">
-         </option>
+        @foreach($topics as $topic)
+                  <option name="topic" value="{{ $topic->topic }}" {{ old('topic') == $topic->topic ? 'selected' : '' }}>
+                    {{ $topic->topic }}
+                  </option>
+                  @endforeach
+     
         </select>
        </div>
       </div>
