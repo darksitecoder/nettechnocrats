@@ -254,21 +254,11 @@
             <div class="d-flex justify-content-between mb-4 mt-4">
               <h1 class="h3 mb-3"><strong>Add Blog</strong></h1>
 
-<<<<<<< HEAD
-        <div class="buttons">
-            <button class="mx-3 btn save" type="Submit">Save<i class="fa-solid fa-bookmark"></i></button>
-     
-            <button class="btn published" type="Submit">Published <i class="fa-solid fa-inbox"></i></button>
-           
-        </div>
-    </div>
-=======
               <div class="buttons">
                 <button class="mx-3 btn save" type="Submit">Save<i class="fa-solid fa-bookmark"></i></button>
                 <a href="#" class="btn published" type="Submit">Published <i class="fa-solid fa-inbox"></i></a>
               </div>
             </div>
->>>>>>> 04591e39b4a825c90f6c7ddd583cf4cb1dd18cc3
 
             <!-- Image Upload Section -->
             <div class="row pt-3 d-flex justify-content-center">
