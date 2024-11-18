@@ -27,12 +27,12 @@
     .edit {
       transition: 0.5s ease-in-out;
       background-color: #3B7DDD;
-      border: 1px solid #1CBB8C !important;
+      border: 1px solid #3B7DDD !important;
     }
 
     .edit:hover {
       background-color: transparent !important;
-      color: #1CBB8C;
+      color: #3B7DDD;
     }
 
     .delete {
