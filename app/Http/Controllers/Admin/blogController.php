@@ -136,6 +136,8 @@ class blogController extends Controller
     // for save
     public function saveBlogsForAdminApi(Request $request)
     {
+        $status = $request->input('action');
+        // dd($status);
         // Validate the incoming data
         $validatedData = $request->validate([
             'topic' => 'required|string',
@@ -144,7 +146,7 @@ class blogController extends Controller
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
             'video' => 'nullable|mimes:mp4,mov,ogg,qt',
             'pdf' => 'nullable|mimes:pdf',
-            'status' => 'nullable|string|in:save,publish', // Optional: if you want to differentiate between save and publish
+            'status' => 'nullable|string|in:save,publish',
         ]);
         
         // dd($request->all());
@@ -155,6 +157,8 @@ class blogController extends Controller
         $imagePath = null;
         $videoPath = null;
         $pdfPath = null;
+
+        
         
         
         
@@ -173,8 +177,8 @@ class blogController extends Controller
             $pdfPath = $request->file('pdf')->store('blogs/pdfs', 'public');
         }
         
-        // Determine the status
-        $status = $validatedData['status'] ?? 'save'; // Default to 'save' if not provided
+        // // Determine the status
+        // $status = $validatedData['status'] ?? 'save'; // Default to 'save' if not provided
         
         // Create the blog entry
         $blog = Blog::create([
@@ -184,13 +188,13 @@ class blogController extends Controller
             'image' => $imagePath,
             'video' => $videoPath,
             'pdf' => $pdfPath,
-            'status' => $status, // Assuming you have a 'status' column in your blogs table
+            'status' => $status, 
             'created_by' => $user->id
         ]);
     
         // Store success message in session
-        session()->flash('success', 'Blog ' . ($status === 'publish' ? 'published' : 'saved') . ' successfully!');
-    
+        session()->flash('success', 'Blog ' . ($status == 'Published' ? 'Published' : 'saved') . ' successfully!');
+
         // Optionally, return the blog ID or any other data if needed
         return redirect()->route('AddBlogsForAdmin'); // Redirect to the blogs index page or your desired page
     }

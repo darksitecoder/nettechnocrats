@@ -255,8 +255,8 @@
               <h1 class="h3 mb-3"><strong>Add Blog</strong></h1>
 
               <div class="buttons">
-                <button class="mx-3 btn save" type="Submit">Save<i class="fa-solid fa-bookmark"></i></button>
-                <a href="#" class="btn published" type="Submit">Published <i class="fa-solid fa-inbox"></i></a>
+                <button class="mx-3 btn save" name="action" value="save" type="Submit">Save<i class="fa-solid fa-bookmark"></i></button>
+                <button class="btn published" name="action" value="publish"  type="Submit">Published <i class="fa-solid fa-inbox"></i></button>
               </div>
             </div>
 

@@ -98,26 +98,35 @@
                     </tr>
                   </thead>
                   <tbody>
-                  <tr>
-                    @foreach($blogs as $blog)
+                    <tr>
+                      @foreach($blogs as $blog)
 
-                    <td>{{$blog->id}}</td>
-                    <td>{{ $blog->created_at->format('Y-m-d') }}</td>
+                      <td>{{$blog->id}}</td>
+                      <td>{{ $blog->created_at->format('Y-m-d') }}</td>
                       <td class="d-none d-xl-table-cell">{{$blog->topic}}</td>
                       <td class="d-none d-xl-table-cell">{{$blog->heading}}</td>
-                      <td><span class="badge bg-warning fs-6">Save</span></td>
+                      <td>
+                        <span class="badge fs-6 
+        @if($blog->status === 'publish') 
+            bg-success 
+        @else 
+            bg-warning 
+        @endif">
+                          {{ $blog->status }}
+                        </span>
+                      </td>
                       <td class="d-none d-md-table-cell"><a href="{{ url('/editBlogsForAdmin/' . $blog->id) }}">
-    <button class="badge px-2 py-1 fs-6 edit">
-        Edit <i class="fa-solid fa-pen-to-square"></i>
-    </button>
-</a>
-</td>
+                          <button class="badge px-2 py-1 fs-6 edit">
+                            Edit <i class="fa-solid fa-pen-to-square"></i>
+                          </button>
+                        </a>
+                      </td>
                       <td class="d-none d-md-table-cell"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></td>
                     </tr>
                     @endforeach
-                   
-                      
-                    
+
+
+
                   </tbody>
                 </table>
               </div>
