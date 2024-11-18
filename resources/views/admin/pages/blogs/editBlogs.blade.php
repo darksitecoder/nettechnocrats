@@ -18,7 +18,7 @@
  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
  <script src="https://kit.fontawesome.com/e1528f4468.js" crossorigin="anonymous"></script>
  <!-- Fonts -->
- <title>Blog list</title>
+ <title>Edit Blog</title>
 
  <link href="{{ asset('/dashboard_theme/css/app.css') }}" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -335,7 +335,7 @@
  </script>
 
 
- <script>
+ <!-- <script>
   document.addEventListener('DOMContentLoaded', function() {
    // Image Uploader
    const image = document.getElementById('image');
@@ -439,7 +439,7 @@
     pdfUploader.click(); // Trigger file input click
    });
   });
- </script>
+ </script> -->
 
 
 </body>

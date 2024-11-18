@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
   <script src="https://kit.fontawesome.com/e1528f4468.js" crossorigin="anonymous"></script>
   <!-- Fonts -->
-  <title>Blog list</title>
+  <title>Add Blog</title>
 
   <link href="{{ asset('/dashboard_theme/css/app.css') }}" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -256,7 +256,7 @@
 
               <div class="buttons">
                 <button class="mx-3 btn save" name="action" value="save" type="Submit">Save<i class="fa-solid fa-bookmark"></i></button>
-                <button class="btn published" name="action" value="publish"  type="Submit">Published <i class="fa-solid fa-inbox"></i></button>
+                <button class="btn published" name="action" value="publish" type="Submit">Published <i class="fa-solid fa-inbox"></i></button>
               </div>
             </div>
 
