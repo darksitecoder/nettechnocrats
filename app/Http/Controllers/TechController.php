@@ -141,4 +141,12 @@ class TechController extends Controller
     {
         return view('frontend/tech/about');
     }
+    public function bloglist()
+    {
+        return view('frontend.bloglist');
+    }
+    public function blogdetail()
+    {
+        return view('frontend/blogdetail');
+    }
 }
