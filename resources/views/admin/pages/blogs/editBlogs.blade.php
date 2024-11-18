@@ -234,9 +234,17 @@
     <div class="container-fluid p-0">
      <form action="{{ url('/saveBlogsForAdminApi') }}" method="POST" enctype="multipart/form-data">
 
+      <!-- Flash Messages (Success or Error) -->
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+       <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+       <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
       <!-- Form Content -->
       <div class="d-flex justify-content-between mb-4 mt-4">
-       <h1 class="h3 mb-3"><strong>Edit Blog</strong></h1>
+       <h1 class="h3 mb-3"><strong>Add Blog</strong></h1>
 
        <div class="buttons">
         <button class="mx-3 btn save" name="action" value="save" type="Submit">Update<i class="fa-solid fa-bookmark"></i></button>
@@ -287,12 +295,12 @@
       <div class="row pt-1 my-3 d-flex justify-content-center">
        <div class="col-md-12 stretch-card grid-margin">
         <select name="topic" id="topic">
-         @foreach($topics as $topic)
-         <option name="topic" value="{{ $topic->topic }}" {{ old('topic') == $topic->topic ? 'selected' : '' }}>
-          {{ $topic->topic }}
+        @foreach($topics as $topic)
+                  <option name="topic" value="{{ $topic->topic }}" {{ old('topic') == $topic->topic ? 'selected' : '' }}>
+                    {{ $topic->topic }}
+                  </option>
+                  @endforeach
          </option>
-         @endforeach
-
         </select>
        </div>
       </div>
