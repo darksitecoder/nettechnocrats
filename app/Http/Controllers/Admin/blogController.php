@@ -65,6 +65,7 @@ class blogController extends Controller
 
         // Fetch all blogs (you can add further query filters if needed)
         $blogs = Blog::select('*')->get();
+        // dd($blogs);
 
         // Return the view with the list of blogs
         return view('admin/pages/blogs/blogsList')->with(compact('blogs'));
@@ -196,34 +197,11 @@ class blogController extends Controller
     
 
 
-    public function editBlogsForAdmin(Request $request, $id, $encryptedUserId, $page_type = null)
+    public function editBlogsForAdmin(Request $request, $id, )
     {
 
-        // Decrypt 'page_type' parameter if it's not null
-        $page_type = $page_type ? Crypt::decrypt($page_type) : null;
-
-        try {
-            $userId = Crypt::decrypt($encryptedUserId);
-        } catch (DecryptException $e) {
-            return response()->json(['error' => 'Invalid user ID'], 400);
-        }
-
-        $user = User::find($userId);
-
-        if (!$user) {
-            return response()->json(['error' => 'User not found'], 404);
-        }
-
-        $role = $user->role;
-
-        if ($role == 'b2b') {
-            $b2b_shop_info = Helpers::getB2BShopInfo($userId);
-            $b2b_shop_status = $b2b_shop_info['b2b_shop_status'];
-            $premium_features = $b2b_shop_info['premium_features'];
-
-            return view('admin_theme.pages.blogs.editBlogs', compact('role', 'b2b_shop_status', 'premium_features', 'encryptedUserId', 'page_type', 'id'));
-        }
-        return view('admin_theme/pages/blogs/editBlogs')->with(compact('role', 'encryptedUserId', 'page_type', 'id'));
+       
+        return view('admin/pages/blogs/editBlogs')->with(compact('id'));
     }
 
 

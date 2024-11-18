@@ -229,7 +229,9 @@
 
         <div class="buttons">
             <button class="mx-3 btn save" type="Submit">Save<i class="fa-solid fa-bookmark"></i></button>
-            <a href="#" class="btn published" type="Submit">Published <i class="fa-solid fa-inbox"></i></a>
+     
+            <button class="btn published" type="Submit">Published <i class="fa-solid fa-inbox"></i></button>
+           
         </div>
     </div>
 

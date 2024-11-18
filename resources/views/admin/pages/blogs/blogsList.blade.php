@@ -98,24 +98,26 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>BL-250</td>
-                      <td>18/11/2024</td>
-                      <td class="d-none d-xl-table-cell">SEO</td>
-                      <td class="d-none d-xl-table-cell">Lorem ipsum dolor sit amet.</td>
+                  <tr>
+                    @foreach($blogs as $blog)
+
+                    <td>{{$blog->id}}</td>
+                    <td>{{ $blog->created_at->format('Y-m-d') }}</td>
+                      <td class="d-none d-xl-table-cell">{{$blog->topic}}</td>
+                      <td class="d-none d-xl-table-cell">{{$blog->heading}}</td>
                       <td><span class="badge bg-warning fs-6">Save</span></td>
-                      <td class="d-none d-md-table-cell"><button class="badge px-2 py-1 fs-6 edit">Edit <i class="fa-solid fa-pen-to-square"></i></button></td>
+                      <td class="d-none d-md-table-cell"><a href="{{ url('/editBlogsForAdmin/' . $blog->id) }}">
+    <button class="badge px-2 py-1 fs-6 edit">
+        Edit <i class="fa-solid fa-pen-to-square"></i>
+    </button>
+</a>
+</td>
                       <td class="d-none d-md-table-cell"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></td>
                     </tr>
-                    <tr>
-                      <td>BL-250</td>
-                      <td>18/11/2024</td>
-                      <td class="d-none d-xl-table-cell">SEO</td>
-                      <td class="d-none d-xl-table-cell">Lorem ipsum dolor sit amet.</td>
-                      <td><span class="badge bg-success fs-6">Published</span></td>
-                      <td class="d-none d-md-table-cell"><button class="badge px-2 py-1 fs-6 edit">Edit <i class="fa-solid fa-pen-to-square"></i></button></td>
-                      <td class="d-none d-md-table-cell"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></td>
-                    </tr>
+                    @endforeach
+                   
+                      
+                    
                   </tbody>
                 </table>
               </div>

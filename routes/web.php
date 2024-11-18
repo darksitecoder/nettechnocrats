@@ -132,7 +132,7 @@ Route::post('updateBlogsForAdminApi', [blogController::class, 'updateBlogsForAdm
 Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
 Route::get('AddBlogsForAdmin', [blogController::class, 'AddBlogsForAdmin'])->name('AddBlogsForAdmin');
 Route::get('BlogsForAdmin/{role}', [blogController::class, 'AddBlogsForAdmin']);
-Route::get('editBlogsForAdmin/{id}/{encryptedUserId}', [blogController::class, 'editBlogsForAdmin']);
+Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
 Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
 
 
