@@ -87,6 +87,7 @@
          background-color: #fff;
          border-radius: 10px;
          transition: 0.5s ease-in-out;
+         border: 0.5px solid #c6c6c6;
       }
 
       .blog__list .blog h6 {
@@ -154,6 +155,12 @@
          background-color: #fff;
          padding: 0.8rem;
          border-radius: 10px;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+         transition: 0.5s ease-in-out;
+      }
+
+      .pdf__card:hover {
+         box-shadow: none;
       }
 
       .pdf__card img {
@@ -260,7 +267,7 @@
                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi doloribus laudantium repellendus atque, nemo in ducimus ipsa cupiditate, qui at quae, odio perspiciatis optio?</p>
 
                      <div class="author__date d-flex">
-                        <b>Oliver Laugh </b>&nbsp;&nbsp;
+                        <b>Nettechnocrats </b>&nbsp;&nbsp;
                         <p> 28/09/2024</p>
                      </div>
                   </div>
@@ -277,7 +284,7 @@
                            </div>
                         </a>
                         <div class="author__date d-flex justify-content-between">
-                           <b>Oliver Laugh </b>&nbsp;&nbsp;
+                           <b>Nettechnocrats </b>&nbsp;&nbsp;
                            <p> 28/09/2024</p>
                         </div>
                         <hr />
@@ -289,7 +296,7 @@
                            </div>
                         </a>
                         <div class="author__date d-flex justify-content-between">
-                           <b>Oliver Laugh </b>&nbsp;&nbsp;
+                           <b>Nettechnocrats </b>&nbsp;&nbsp;
                            <p> 28/09/2024</p>
                         </div>
                         <hr />
@@ -301,7 +308,7 @@
                            </div>
                         </a>
                         <div class="author__date d-flex justify-content-between">
-                           <b>Oliver Laugh </b>&nbsp;&nbsp;
+                           <b>Nettechnocrats </b>&nbsp;&nbsp;
                            <p> 28/09/2024</p>
                         </div>
                         <hr />
@@ -313,7 +320,7 @@
                            </div>
                         </a>
                         <div class="author__date d-flex justify-content-between">
-                           <b>Oliver Laugh </b>&nbsp;&nbsp;
+                           <b>Nettechnocrats </b>&nbsp;&nbsp;
                            <p> 28/09/2024</p>
                         </div>
                         <hr />
@@ -330,7 +337,7 @@
                            <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                            <div class="author__date d-flex justify-content-between">
-                              <b>Oliver Laugh </b>&nbsp;&nbsp;
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
                               <p> 28/09/2024</p>
                            </div>
                         </div>
@@ -345,7 +352,7 @@
                            <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                            <div class="author__date d-flex justify-content-between">
-                              <b>Oliver Laugh </b>&nbsp;&nbsp;
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
                               <p> 28/09/2024</p>
                            </div>
                         </div>
@@ -360,7 +367,7 @@
                            <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                            <div class="author__date d-flex justify-content-between">
-                              <b>Oliver Laugh </b>&nbsp;&nbsp;
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
                               <p> 28/09/2024</p>
                            </div>
                         </div>
@@ -375,7 +382,7 @@
                            <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                            <div class="author__date d-flex justify-content-between">
-                              <b>Oliver Laugh </b>&nbsp;&nbsp;
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
                               <p> 28/09/2024</p>
                            </div>
                         </div>
@@ -385,68 +392,9 @@
             </div>
 
          </section>
-         <section class="blog__slider pt-5">
-            <div class="heading d-flex justify-content-between align-items-center">
-               <hr style="color:#5CE1D5; width:30%; height:5px;" />
-               <h1>BLOG VIDEOS</h1>
-               <hr style="color:#5CE1D5; width:30%; height:5px;" />
-            </div>
-            <div class="slider owl-carousel">
-               <div class="card">
-                  <a href="#">
-                     <div class="img">
-                        <img src="{{ asset('assets/web/banner2.png') }}" alt="">
-                     </div>
-                     <div class="content">
 
-                        <div class="title">
-                           Lorem ipsum dolor sit amet consecteturur</div>
-                  </a>
-                  <div class="author__date d-flex justify-content-between align-items-center">
-                     <b>5 min watch </b>&nbsp;&nbsp;
-                     <p> 28/09/2024</p>
-                  </div>
-                  <hr />
-               </div>
-            </div>
-            <div class="card">
-               <a href="#">
-                  <div class="img">
-                     <img src="{{ asset('assets/web/banner1.png') }}" alt="">
-                  </div>
-                  <div class="content">
-
-                     <div class="title">
-                        Lorem ipsum dolor sit amet consectetureez</div>
-               </a>
-               <div class="author__date d-flex justify-content-between align-items-center">
-                  <b>5 min watch </b>&nbsp;&nbsp;
-                  <p> 28/09/2024</p>
-               </div>
-               <hr />
-            </div>
-      </div>
-      <div class="card">
-         <a href="#">
-            <div class="img">
-               <img src="{{ asset('assets/web/banner2.png') }}" alt="">
-            </div>
-            <div class="content">
-
-               <div class="title">
-                  Lorem ipsum dolor sit amet consectetur</div>
-         </a>
-         <div class="author__date d-flex justify-content-between align-items-center">
-            <b>5 min watch </b>&nbsp;&nbsp;
-            <p> 28/09/2024</p>
-         </div>
-         <hr />
-      </div>
-
-
-   </section>
-   <div class="container">
-      <section class="blog__pdf pt-5">
+         <div class="container">
+            <!-- <section class="blog__pdf pt-5">
          <div class="heading d-flex justify-content-between align-items-center">
             <hr style="color:#5CE1D5; width:30%; height:5px;" />
             <h1>BLOG PDF FILES</h1>
@@ -568,63 +516,82 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> -->
 
-      <section class="blog__more__topics pt-5">
-         <div class="heading d-flex justify-content-between align-items-center">
-            <hr style="color:#5CE1D5; width:20%; height:5px;" />
-            <h1>EXPLORE MORE TOPICS</h1>
-            <hr style="color:#5CE1D5; width:20%; height:5px;" />
-         </div>
-         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam ipsum neque molestiae eum! Recusandae.</p>
-         <div class="row">
-            <div class="col-lg-4">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                  <p class="text-center">Lorem ipsum</p>
+            <section class="blog__more__topics pt-5">
+               <div class="heading d-flex justify-content-between align-items-center">
+                  <hr style="color:#5CE1D5; width:20%; height:5px;" />
+                  <h1>EXPLORE MORE TOPICS</h1>
+                  <hr style="color:#5CE1D5; width:20%; height:5px;" />
+               </div>
+               <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam ipsum neque molestiae eum! Recusandae.</p>
+               <div class="row">
+                  <div class="col-lg-4">
+                     <div class="pdf__card">
+                        <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
+                        <p class="text-center">Lorem ipsum</p>
+
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="pdf__card">
+                        <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
+                        <p class="text-center">Lorem ipsum</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="pdf__card">
+                        <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
+                        <p class="text-center">Lorem ipsum</p>
+
+                     </div>
+                  </div>
 
                </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                  <p class="text-center">Lorem ipsum</p>
+
+            </section>
+
+            <section class="subscribe pt-5">
+               <div class="heading d-flex justify-content-between align-items-center">
+                  <hr style="color:#5CE1D5; width:8%; height:5px;" />
+                  <h1>SUBSCRIBE TO GET UPDATE IN YOUR INBOX</h1>
+                  <hr style="color:#5CE1D5; width:8%; height:5px;" />
                </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                  <p class="text-center">Lorem ipsum</p>
+
+               <div class="inputs">
+
+                  <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+                  <button class="btn mt-4">SUBSCRIBE</button>
 
                </div>
-            </div>
+            </section>
 
          </div>
-
-      </section>
-
-      <section class="subscribe pt-5">
-         <div class="heading d-flex justify-content-between align-items-center">
-            <hr style="color:#5CE1D5; width:8%; height:5px;" />
-            <h1>SUBSCRIBE TO GET UPDATE IN YOUR INBOX</h1>
-            <hr style="color:#5CE1D5; width:8%; height:5px;" />
-         </div>
-
-         <div class="inputs">
-
-            <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
-
-            <button class="btn mt-4">SUBSCRIBE</button>
-
-         </div>
-      </section>
-
-   </div>
    </section>
 
    <!-- Footer -->
    @include('partial/footer')
    <!-- Footer -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894yeTMcEGkYUnw5inS4Yk5PobPbwlZ4dOKF2EUp5k3e54r78Pj+6E+tSGVnNSeQppRlGlo+tu9WdGHU6E2fg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-kvFVyywbHUcEKoEoIZs2orxfJcpLb6Ow/LPps5yOEedM9pKxrKZDB9iP8VfxikiyDknDt0+zYB7ebs3tNp00xA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script>
+      $(document).ready(function() {
+         $(".slider").owlCarousel({
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+            items: 3,
+            itemsDesktop: [1199, 3],
+            itemsDesktopSmall: [979, 2],
+            itemsTablet: [768, 2],
+            itemsMobile: [479, 1],
+            navigation: true,
+            navigationText: ["<", ">"],
+            pagination: true,
+            dragEndSpeed: 450
+         });
+      });
+   </script>
+
    <script>
       $(".slider").owlCarousel({
          loop: true,
@@ -633,6 +600,8 @@
          autoplayHoverPause: true,
       });
    </script>
+
+
 </body>
 
 </html>

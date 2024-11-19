@@ -210,7 +210,21 @@
         @yield('content')
     </main>
 
-    <footer>
+
+
+    <!-- Vendor JS Files -->
+    <script src="{{ asset('js/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/php-email-form/validate.js') }}"></script>
+    <script src="{{ asset('js/vendor/aos/aos.js') }}"></script>
+    <script src="{{ asset('js/vendor/glightbox/js/glightbox.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+    <script src="{{ asset('js/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/swiper/swiper-bundle.min.js') }}"></script>
+
+    <!-- Main JS File -->
+    <script src="{{ asset('js/vendor/main.js') }}"></script>
+    <!-- <footer>
         <div class="row">
             <div class="col-lg-2">
                 <h5>Experties</h5>
@@ -306,24 +320,12 @@
             </div>
         </div>
         <div class="row pt-4">
-            <!-- <div class="col-lg-12">
+            <div class="col-lg-12">
    <p class="text-center">Copyright © 2024 Nettechnocrats IT Services Pvt. Ltd</p>
-  </div> -->
+  </div>
         </div>
-    </footer>
-
-    <!-- Vendor JS Files -->
-    <script src="{{ asset('js/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('js/vendor/php-email-form/validate.js') }}"></script>
-    <script src="{{ asset('js/vendor/aos/aos.js') }}"></script>
-    <script src="{{ asset('js/vendor/glightbox/js/glightbox.min.js') }}"></script>
-    <script src="{{ asset('js/vendor/purecounter/purecounter_vanilla.js') }}"></script>
-    <script src="{{ asset('js/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
-    <script src="{{ asset('js/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('js/vendor/swiper/swiper-bundle.min.js') }}"></script>
-
-    <!-- Main JS File -->
-    <script src="{{ asset('js/vendor/main.js') }}"></script>
+    </footer> -->
 </body>
+<!-- @include('partial/footer') -->
 
 </html>
