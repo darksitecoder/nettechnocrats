@@ -100,7 +100,7 @@ Route::get('/register', [logincontroller::class, 'register']);
 Route::post('/signup', [logincontroller::class, 'signup']);
 // Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']); 
 
-Route::get('/portfolio', [AdminportfolioController::class, 'portfolio']);
+// Route::get('/portfolio', [AdminportfolioController::class, 'portfolio']);
 
 // Route::get('/blog', [blogController::class, 'blog']);
 

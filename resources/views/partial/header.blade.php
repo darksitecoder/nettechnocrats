@@ -140,14 +140,14 @@
        <a href="#">Portfolio</a>
       </li>
       <li class="menu-item-has-children">
-       <a href="#">Blog <i class="fas fa-angle-down"></i></a>
-       <div class="sub-menu single-column-menu">
+       <a href="{{url('/bloglist/')}}">Blog </a>
+       <!-- <div class="sub-menu single-column-menu">
         <ul>
          <li><a href="#">Standard Layout</a></li>
          <li><a href="#">Grid Layout</a></li>
          <li><a href="#">single Post Layout</a></li>
         </ul>
-       </div>
+       </div> -->
       </li>
      </ul>
     </nav>

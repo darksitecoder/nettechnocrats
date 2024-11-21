@@ -261,7 +261,7 @@
                <div class="col-lg-6">
 
                   <div class="main-blog-post ">
-                     <a href="#"> <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
+                     <a href="{{url('/blogdetail/')}}"> <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
                         <h2>Lorem, ipsum dolor sit amet consectetur adipisicing </h2>
                      </a>
                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi doloribus laudantium repellendus atque, nemo in ducimus ipsa cupiditate, qui at quae, odio perspiciatis optio?</p>
