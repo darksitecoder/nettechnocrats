@@ -17,8 +17,55 @@
       <div class="mobile-menu-close">&times;</div>
      </div>
      <ul class="menu-main">
-      <li>
-       <a href="#">About</a>
+      <li class="menu-item-has-children">
+       <a href="#">About <i class="fa fa-angle-down"></i></a>
+       <div class="sub-menu mega-menu mega-menu-column-4">
+        <div class="list-item">
+         <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
+         <h5 class="title ps-3 m-0 fw-bolder">About Nettechnocrats</h5>
+         <p class="ps-3 m-0">We design and build world class websites and mobile app that understands your business and help our client to grow</p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <div class="list-item">
+         <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
+         <h5 class="title ps-3 m-0 fw-bolder">Awards & Accolades</h5>
+         <p class="ps-3 m-0">The biggest awards we have achieved are the many friendships and relationships that we have discovered while doing business with you. It is our pride to see you smile.</p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <div class="list-item">
+         <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
+         <h5 class="title ps-3 m-0 fw-bolder">Client’s Words</h5>
+         <p class="ps-3 m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+        <div class="list-item">
+         <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
+         <h5 class="title ps-3 m-0 fw-bolder">How we work and Function</h5>
+         <p class="ps-3 m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile
+         </p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <!-- <div class="list-item">
+         <h4 class="title">SMO Services</h4>
+         <ul>
+          <li><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">Hire Social media experts to increase brand awareness and loyalty</a></li>
+         </ul>
+         <h4 class="title">Local SEO Services</h4>
+         <ul>
+          <li><a href="{{url('/local-seo-services/')}}" data-image="{{ asset('assets/web/nav-images/local-seo.png') }}">Boost Your Local Presence with Local SEO Services Choose the premier Local SEO Company</a></li>
+         </ul>
+        </div>
+        <div class="list-item">
+         <h4 class="title">SEO Reseller</h4>
+         <ul>
+          <li><a href="{{url('//')}}" data-image="{{ asset('assets/web/nav-images/seo-reseller.png') }}">Boost Agency Revenue with Our Trusted White Label Services</a></li>
+         </ul>
+         <h4 class="title">ORM</h4>
+         <ul>
+          <li><a href="{{url('/online-reputation-management/')}}" data-image="{{ asset('assets/web/nav-images/orm.webp') }}">Experience the Pinnacle of Online Reputation Management Services with Nettechnocrats.</a></li>
+         </ul>
+        </div>
+        <div class="list-item" id="imageContainer">
+         <img src="{{ asset('assets/web/nav-images/seo.png') }}" alt="Service Image" id="image" />
+        </div> -->
+       </div>
       </li>
       <li class="menu-item-has-children">
        <a href="#">Tech <i class="fa fa-angle-down"></i></a>
@@ -137,7 +184,7 @@
        </div>
       </li>
       <li>
-       <a href="#">Portfolio</a>
+       <a href="{{url('/portfolio/')}}">Portfolio</a>
       </li>
       <li class="menu-item-has-children">
        <a href="{{url('/bloglist/')}}">Blog </a>

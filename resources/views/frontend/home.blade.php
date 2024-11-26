@@ -113,6 +113,7 @@
             color: var(--blue);
         }
 
+
         .industries__tag {
             background-color: var(--white);
             color: var(--blue);
@@ -172,19 +173,260 @@
             border: 1px solid var(--white);
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
+
+
+        /* Funnel */
+        .digital__marketing__funnel {
+            width: 100%;
+            padding: 3rem 0rem;
+        }
+
+        .funnel-container {
+            position: relative;
+            max-width: 100%;
+            margin: 0 auto;
+            font-family: tahoma;
+        }
+
+        .funnel-container:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .funnel-wrap {
+            margin: 50px auto;
+            position: relative;
+            padding-top: 10px;
+            max-width: 632px;
+            float: right;
+            width: 80%;
+        }
+
+        .funnel-wrap ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .funnel-wrap ul>li {
+            background: #2c3d4f;
+            color: #fff;
+            margin: 0 auto;
+            position: relative;
+            display: block;
+            padding: 25px 10px 0;
+            text-align: center;
+            font-size: 16px;
+            height: 120px;
+        }
+
+        .funnel-wrap ul>li a {
+            color: #fff;
+            text-decoration: none;
+
+        }
+
+        .funnel-wrap ul>li a:hover {
+            color: #e6e6e6;
+        }
+
+        .funnel-wrap ul:hover li:not(:hover) {
+            -webkit-filter: grayscale(70%) !important;
+            filter: grayscale(70%);
+            filter: #cdcdcd;
+            transition: all .2s;
+        }
+
+        .funnel-wrap ul>li .content {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .funnel-wrap ul>li h3 {
+            margin: 0;
+            /* display: none; */
+        }
+
+        .funnel-wrap ul>li p {
+            margin: 0;
+        }
+
+        .funnel-before {
+            position: absolute;
+            top: 0;
+            left: 0px;
+            width: 0;
+            height: 0;
+            border-right: 200px solid transparent;
+            border-left: 0px solid transparent;
+            border-bottom: 500px solid #fff;
+            z-index: 20;
+        }
+
+        .funnel-after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 200px solid transparent;
+            border-right: 0px solid transparent;
+            border-bottom: 500px solid #fff;
+            z-index: 20;
+        }
+
+        .funnel-wrap ul li:after {
+            margin: 0 auto;
+            height: 30px;
+            border-radius: 50%;
+            background: #5888bb;
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 0;
+            width: 100%;
+            margin: auto;
+            right: 0;
+        }
+
+        .funnel-wrap ul li:nth-child(1):before {
+            margin: 0 auto;
+            height: 30px;
+            border-radius: 50%;
+            background: #409bd5;
+            content: '';
+            position: absolute;
+            top: -15px;
+            left: 0;
+            width: 100%;
+            margin: auto;
+            right: 0;
+            z-index: 12;
+        }
+
+        .funnel-wrap ul li:nth-child(1),
+        .funnel-wrap ul li:nth-child(1):after {
+            background-color: #11BBFF;
+            z-index: 10;
+        }
+
+        .funnel-wrap ul li:nth-child(1):before {
+            background-color: #0cacec;
+        }
+
+        .funnel-wrap ul li:nth-child(2),
+        .funnel-wrap ul li:nth-child(2):after {
+            background-color: #1199DD;
+            z-index: 9;
+            width: 95%;
+        }
+
+        .funnel-wrap ul li:nth-child(2):before {
+            background-color: #3178a9;
+        }
+
+        .funnel-wrap ul li:nth-child(3),
+        .funnel-wrap ul li:nth-child(3):after {
+            background-color: #1177BB;
+            z-index: 8;
+            width: 93%;
+        }
+
+        .funnel-wrap ul li:nth-child(3):before {
+            background-color: #275e86;
+        }
+
+        .funnel-wrap ul li:nth-child(4),
+        .funnel-wrap ul li:nth-child(4):after {
+            background-color: #2d6198;
+            z-index: 7;
+            width: 69%;
+        }
+
+        .funnel-wrap ul li:nth-child(4):before {
+            background-color: #263952;
+        }
+
+        .funnel-wrap ul li:nth-child(5),
+        .funnel-wrap ul li:nth-child(5):after {
+            background-color: #2c3d4f;
+            z-index: 6;
+            width: 37.5%;
+            clip-path: polygon(0 0, 100% 0, 84% 100%, 14% 100%);
+        }
+
+        .funnel-wrap ul li:nth-child(5):before {
+            background-color: #070b10;
+        }
+
+        .funnel-wrap .content {
+            position: relative;
+            z-index: 20;
+            display: block;
+        }
+
+        .funnel-titles {
+            margin: 3rem 0;
+            padding: 0 20px;
+            width: 40%;
+            transform: rotate(-16deg);
+            position: absolute;
+            right: 55%;
+            z-index: 30;
+        }
+
+        .funnel-titles div {
+            height: 145px;
+            margin: 0;
+            transform: rotate(16deg);
+        }
+
+        .funnel-titles h3 {
+            font-size: 24px;
+            margin: 0;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+
+        @media(max-width:800px) {
+            .funnel-titles {
+                display: none;
+            }
+
+            .funnel-wrap {
+                width: 96%;
+                float: none;
+                margin: 5% auto
+            }
+
+            .funnel-wrap ul>li {
+                height: auto;
+            }
+
+            .funnel-wrap ul>li .content {
+                padding: 10px;
+                top: 0;
+                transform: translateY(0)
+            }
+
+            .funnel-wrap .content h3 {
+                display: block;
+            }
+        }
+
+        .digital__marketing__funnel .content {
+            background-color: transparent !important;
+        }
     </style>
 </head>
 
 <body>
     @include('partial/header')
     <div id="editor">
-
-
-
         <div id="editor" style="height: 500px;">
-
-
-
             <section class="hero__banner">
                 <div class="row">
                     <div class="col-lg-8">
@@ -201,8 +443,8 @@
             <div class="container">
                 <section class="about__seo">
                     <div class="row">
-                        <div class="col-lg-5">
-                            <img src="{{ asset('assets/web/clutch.png') }}" alt="" srcset="">
+                        <div class="col-lg-5 d-flex align-items-center">
+                            <img src="{{ asset('assets/web/clutch.png') }}" alt="" srcset="" style="width:100%;">
                         </div>
                         <div class="col-lg-7">
                             <p class="colored__text">Awarded as Top SEO Company in 2023</p>
@@ -219,7 +461,6 @@
                         </div>
                     </div>
                 </section>
-
 
 
 
@@ -320,6 +561,80 @@
                         </div>
                     </div>
                 </section>
+
+                <section class="digital__marketing__funnel">
+
+                    <div class="funnel-container">
+                        <h2 class=" text-center fw-bolder fs-1 pb-3">Digital Marketing Stages</h2>
+                        <p class="text-center pb-3"> This approach involves dividing the funnel into three stages - Awareness, Consideration, and Conversion - and sometimes adding a fourth stage - Customer Retention. By optimizing campaigns for each stage of the funnel, businesses can reach potential and existing customers at every stage of their journey, building trust and credibility. </p>
+                        <div class="funnel-titles">
+                            <div>
+                                <!-- <h3>Funnel Top</h3> -->
+                                <p>Generate initial interest through social media ads, blog posts, and SEO to reach potential customers not actively seeking solutions.</p>
+                            </div>
+                            <div>
+                                <p>
+                                    Customers research options by reading reviews, watching demos, and engaging with detailed content like case studies.</p>
+                            </div>
+                            <div>
+                                <p>Prospects compare features and pricing, influenced by strong calls-to-action and compelling offers to decide.</p>
+                            </div>
+                            <div>
+                                <p>Potential customers take desired actions like purchasing, signing up for newsletters, or downloading trials.</p>
+                            </div>
+                            <div>
+                                <p>The loyalty stage builds long-term relationships with excellent service, relevant content, and loyalty programs.</p>
+                            </div>
+                        </div>
+
+                        <div class="funnel-wrap">
+                            <ul>
+                                <li>
+                                    <span class="before"></span>
+                                    <span class="content">
+                                        <h3>Awareness</h3>
+                                    </span>
+                                    <span class="after"></span>
+                                </li>
+                                <li>
+                                    <span class="before"></span>
+                                    <span class="content">
+                                        <h3>Consideration</h3>
+                                    </span>
+                                    <span class="after"></span>
+                                </li>
+                                <li>
+                                    <span class="before"></span>
+                                    <span class="content">
+                                        <h3>Evaluation</h3>
+
+                                    </span>
+                                    <span class="after"></span>
+                                </li>
+                                <li>
+                                    <span class="before"></span>
+                                    <span class="content">
+                                        <h3>Conversion</h3>
+                                    </span>
+                                    <span class="after"></span>
+                                </li>
+                                <li>
+                                    <span class="before"></span>
+                                    <span class="content">
+                                        <h3>Loyalty</h3>
+                                    </span>
+                                    <span class="after"></span>
+                                </li>
+
+                            </ul>
+
+                            <div class="funnel-before"></div>
+                            <div class="funnel-after"></div>
+
+                        </div>
+                    </div>
+                </section>
+
 
                 <section class="testimonial__video">
                     <div class="row">
@@ -544,6 +859,39 @@
     activeSlidesIndex * sliderHeight
   }px)`;
     };
+</script>
+
+
+<script>
+    jQuery(document).ready(function($) {
+
+        function setFunnelAngles() {
+            var windowWidth = $(window).width();
+            var el = $(".funnel-wrap");
+            var w = el.outerHeight() + 30;
+            if (windowWidth > 800) {
+                var bw = el.outerWidth() / 3;
+            } else {
+                var bw = el.outerWidth() / 5;
+            }
+            el.find('.funnel-before, .funnel-after').css({
+                "border-bottom-width": w + "px"
+            });
+            el.find('.funnel-before').css({
+                "border-right-width": bw + "px"
+            });
+            el.find('.funnel-after').css({
+                "border-left-width": bw + "px"
+            });
+        }
+
+        setFunnelAngles();
+
+        $(window).resize(function() {
+            setFunnelAngles();
+        });
+
+    });
 </script>
 
 </html>

@@ -102,7 +102,7 @@ Route::post('/signup', [logincontroller::class, 'signup']);
 
 // Route::get('/portfolio', [AdminportfolioController::class, 'portfolio']);
 
-// Route::get('/blog', [blogController::class, 'blog']);
+Route::get('/blog', [blogController::class, 'blog']);
 
 
 

@@ -175,11 +175,11 @@ p {
   display: block;
 }
 
-.header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li>a {
+.header .menu>ul>li .sub-menu.mega-menu>.list-item>a {
   padding: 10px 0;
   display: inline-block;
   font-size: 15px;
-  color: var(--black);
+  color: var(--green);
   transition: color 0.3s ease;
 }
 
@@ -396,7 +396,7 @@ p {
 .spectrum__services .services__cards .cards__details {
   text-align: center;
   padding: 20px 8px;
-  height: 380px;
+  height: 400px;
 }
 
 
