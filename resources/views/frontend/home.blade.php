@@ -428,16 +428,18 @@
     <div id="editor">
         <div id="editor" style="height: 500px;">
             <section class="hero__banner">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h1 class="py-2">Unlock Digital <br> Excellence, Propel Your <br> Brand Forward! </h1>
-                        <p class="py-3 banner__description">Experience digital dominance with Nettechnocrats. Our data-driven SEO and digital marketing expertise empower your brand to thrive online. Watch as your business soars with top SERP rankings, high conversion rates, and a surge in web traffic. Join us on this exhilarating journey to successin the digital realm!</p>
-                        <div class="banner__btn d-flex">
-                            <a href="#" class="btn get__touch mx-1">Get In Touch</a>
-                            <a href="#" class="btn audit mx-1">Request For Audit</a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <h1 class="py-2">Unlock Digital <br> Excellence, Propel Your <br> Brand Forward! </h1>
+                            <p class="py-3 banner__description">Experience digital dominance with Nettechnocrats. Our data-driven SEO and digital marketing expertise empower your brand to thrive online. Watch as your business soars with top SERP rankings, high conversion rates, and a surge in web traffic. Join us on this exhilarating journey to successin the digital realm!</p>
+                            <div class="banner__btn d-flex">
+                                <a href="#" class="btn get__touch mx-1">Get In Touch</a>
+                                <a href="#" class="btn audit mx-1">Request For Audit</a>
+                            </div>
                         </div>
+                        <div class="col-lg-4"><img src="{{ asset('assets/web/hero_banner.webp') }}" alt="" srcset=""></div>
                     </div>
-                    <div class="col-lg-4"><img src="{{ asset('assets/web/hero_banner.webp') }}" alt="" srcset=""></div>
                 </div>
             </section>
             <div class="container">

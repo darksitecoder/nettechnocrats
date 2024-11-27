@@ -115,7 +115,7 @@ a {
 .header .menu>ul>li {
   display: inline-block;
   line-height: 50px;
-  margin-left: 25px;
+  margin-left: 45px;
 }
 
 .header .menu>ul>li>a {
@@ -175,6 +175,19 @@ p {
   display: block;
 }
 
+.header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li>a {
+  padding: 7px 0;
+  display: inline-block;
+  font-size: 15px;
+  color: var(--black);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li>a:hover {
+  color: var(--green);
+}
+
 .header .menu>ul>li .sub-menu.mega-menu>.list-item>a {
   padding: 10px 0;
   display: inline-block;
@@ -199,6 +212,10 @@ p {
 .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item {
   flex: 0 0 25%;
   padding: 0 15px;
+}
+
+.header .menu>ul>li .industries>.list-item {
+  flex: 0 0 33% !important;
 }
 
 .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item .title {
