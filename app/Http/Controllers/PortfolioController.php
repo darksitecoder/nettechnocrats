@@ -11,4 +11,10 @@ class PortfolioController extends Controller
     {
         return view('frontend/portfolio/index');
     }
+
+
+    public function PortfolioForAdmin()
+    {
+        return view('frontend/portfolio/index');
+    }
 }
