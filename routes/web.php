@@ -119,8 +119,8 @@ Route::middleware(['auth'])->group(function () {
 });
 // for blog topic
 Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
-// Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
-Route::delete('deleteBlogTopicApi/{id}', [BlogTopicController::class, 'delete']);
+Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
+Route::get('deleteBlogTopicApi', [BlogTopicController::class, 'delete']);
 
 
 // for blogs
