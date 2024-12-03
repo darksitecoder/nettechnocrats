@@ -143,7 +143,7 @@ Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
 // Blogs for Admin
 Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
 Route::get('AddBlogsForAdmin', [blogController::class, 'AddBlogsForAdmin'])->name('AddBlogsForAdmin');
-Route::get('PortfolioForAdmin', [blogController::class, 'AddBlogsForAdmin']);
+Route::get('PortfolioForAdmin', [PortfolioController::class, 'PortfolioForAdmin']);
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
 Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
 
