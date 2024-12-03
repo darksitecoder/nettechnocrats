@@ -74,10 +74,12 @@ Route::get('/ai-application-development-company', [TechController::class, 'ai'])
 
 
 Route::get('/about-us', [TechController::class, 'about']);
+Route::get('/clients', [TechController::class, 'client']);
 
 
 Route::get('/industries', [IndustriesController::class, 'index']);
 Route::get('/portfolio', [PortfolioController::class, 'index']);
+Route::get('/portfoliodetails', [PortfolioController::class, 'portfoliodetail']);
 
 
 Route::get('/seo-services', [DigitalMarketingController::class, 'seo']);
@@ -148,6 +150,7 @@ Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
 Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
 Route::get('AddBlogsForAdmin', [blogController::class, 'AddBlogsForAdmin'])->name('AddBlogsForAdmin');
 Route::get('PortfolioForAdmin', [PortfolioController::class, 'PortfolioForAdmin']);
+Route::get('/createportfolio', [PortfolioController::class, 'createportfolio']);
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
 Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
 

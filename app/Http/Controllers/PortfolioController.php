@@ -17,4 +17,12 @@ class PortfolioController extends Controller
     {
         return view('admin/pages/portfolio/portfolio');
     }
+    public function createportfolio()
+    {
+        return view('admin/pages/portfolio/creaportfolio');
+    }
+    public function portfoliodetail()
+    {
+        return view('admin/pages/portfolio/portfoliodetail');
+    }
 }
