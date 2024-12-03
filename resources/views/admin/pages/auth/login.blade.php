@@ -47,7 +47,7 @@
 										<a href="{{url('/')}}">
 										<img src="{{ asset('/dashboard_theme/img/avatars/nettechnocrats-logo.png')}}" alt="Charles Hall" class="img-fluid rounded-ci5cle" width="152" height="152" /></a>
 									</div>
-									<form method="POST" action="{{ url('/credentials_check') }}">
+									<form method="POST" action="{{ url('credentials_check') }}">
 									@csrf
 										<div class="mb-3">
 											<label class="form-label">Email</label>
@@ -63,7 +63,7 @@
                                             <div class="alert alert-danger mt-2" style="color:red">{{ $message }}</div> <!-- Red Error Message -->
                                             @enderror
 											<small>
-												<a href="/register">Register ?</a>
+												<a href="{{ url('register')}}">Register ?</a>
 											</small>
 										</div>
 										<div>

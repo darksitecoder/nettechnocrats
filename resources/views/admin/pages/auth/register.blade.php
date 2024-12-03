@@ -47,7 +47,7 @@
 
 
                                 <div class="m-sm-4">
-                                    <form method="POST" action="{{ url('/signup') }}">
+                                    <form method="POST" action="{{ url('signup') }}">
                                         @csrf
 
                                         <!-- Name Field -->

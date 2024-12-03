@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
     <meta name="author" content="AdminKit">
     <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
@@ -157,27 +158,8 @@
                         <div class="col-lg-12">
                             <div id="input-container" class="d-flex justify-content-start">
                                 <!-- Display success or error messages from session -->
-
-
-                                <form method="POST" action="{{ url('/addBlogTopicApi') }}">
-                                    @csrf
-                                    <input type="text" name="topic_text" id="input-text" placeholder="Enter text..." required>
-                                    <button type="submit" class="add_new_btn mx-5">Add Topic</button>
-                                </form>
-
-                                @if(session('success'))
-                                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                    {{ session('success') }}
-                                    <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button></br>
-                                </div>
-                                @endif
-
-                                @if(session('error'))
-                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                    {{ session('error') }}
-                                    <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button></br>
-                                </div>
-                                @endif
+                                <input type="text" name="topic_text" id="input-text" placeholder="Enter text..." required>
+                                <button type="submit" id="add-button" class="add_new_btn mx-5">Add Topic</button>
                             </div>
 
                             <br>
@@ -186,18 +168,8 @@
                     </div>
                     <div class="row pt-3">
                         <div class="col-lg-12 d-flex flex-wrap">
-                            @foreach($topics as $topic)
-                            <div id="element-container" class="d-flex flex-wrap m-2">{{$topic->topic}}
-                                <form action="{{ url('deleteBlogTopicApi', $topic->id) }}" method="POST" class="ms-2">
-                                    @csrf
-                                    @method('DELETE')
-                                    <button type="submit" class="close-btn">
-                                        <i class="fa-solid fa-xmark"></i> <!-- FontAwesome "X" icon -->
-                                    </button>
-                                </form>
+                            <div id="element-container">
                             </div>
-
-                            @endforeach
                         </div>
 
                     </div>
@@ -220,21 +192,12 @@
     <script>
         $(document).ready(function() {
             var baseUrl = window.location.origin;
-            var token = localStorage.getItem('authToken');
-
-            if (!token) {
-                console.error('Token not found in localStorage');
-                window.location.href = '/';
-            }
 
             // Fetch Blog Topics
             $.ajax({
                 url: baseUrl + '/fetchBlogTopicApi',
                 method: 'GET',
                 dataType: 'json',
-                headers: {
-                    'Authorization': 'Bearer ' + token,
-                },
                 success: function(response) {
                     $.each(response.data, function(index, item) {
                         var element = document.createElement("div");
@@ -257,35 +220,33 @@
         });
 
         // Add Blog Topic
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             var inputText = document.getElementById("input-text");
             var addButton = document.getElementById("add-button");
             var elementContainer = document.getElementById("element-container");
 
-            addButton.addEventListener("click", function() {
+            // Get CSRF token from the meta tag
+            var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+
+            addButton.addEventListener("click", function (e) {
+                e.preventDefault();
                 $('.msg_err').text('');
                 var text = inputText.value.trim();
 
                 if (text !== "") {
-                    var token = localStorage.getItem('authToken');
-                    if (!token) {
-                        console.error('Token not found in localStorage');
-                        window.location.href = '/';
-                    }
-
                     var baseUrl = window.location.origin;
 
                     $.ajax({
                         type: 'POST',
                         url: baseUrl + '/addBlogTopicApi',
+                        headers: {
+                            'X-CSRF-TOKEN': csrfToken // Add the CSRF token to the headers
+                        },
                         data: {
                             'text': text
                         },
-                        headers: {
-                            'Authorization': 'Bearer ' + token
-                        },
                         dataType: 'json',
-                        success: function(response) {
+                        success: function (response) {
                             if (response.alreadyExist) {
                                 $('#allReadyExist').text(response.alreadyExist);
                             }
@@ -305,7 +266,7 @@
                                 inputText.value = "";
                             }
                         },
-                        error: function(xhr, status, error) {
+                        error: function (xhr, status, error) {
                             console.error(xhr.responseText);
                         }
                     });
@@ -313,7 +274,7 @@
             });
 
             // Add using Enter key
-            inputText.addEventListener("keypress", function(event) {
+            inputText.addEventListener("keypress", function (event) {
                 if (event.key === "Enter") {
                     addButton.click();
                 }
@@ -322,12 +283,7 @@
 
         // Remove Blog Topic
         $(document).on('click', '.fa-xmark', function() {
-            var token = localStorage.getItem('authToken');
-            if (!token) {
-                console.error('Token not found in localStorage');
-                window.location.href = '/';
-            }
-
+        
             $('.msg_err').text('');
             var $this = $(this);
             var id = $this.attr('id');
@@ -335,12 +291,9 @@
 
             $.ajax({
                 url: baseUrl + '/deleteBlogTopicApi',
-                method: 'GET',
+                method: 'get',
                 data: {
                     'id': id
-                },
-                headers: {
-                    'Authorization': 'Bearer ' + token
                 },
                 dataType: 'json',
                 success: function(response) {

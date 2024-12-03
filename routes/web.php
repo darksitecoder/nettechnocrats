@@ -117,11 +117,15 @@ Route::get('/blogdetail', [TechController::class, 'blogdetail']);
 Route::middleware(['auth'])->group(function () {
     // Protected route for the admin dashboard
     Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']);
+
+    Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
+
+    
 });
 // for blog topic
 Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
-// Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
-Route::delete('deleteBlogTopicApi/{id}', [BlogTopicController::class, 'delete']);
+Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
+Route::get('deleteBlogTopicApi', [BlogTopicController::class, 'delete']);
 
 
 // for blogs
@@ -137,6 +141,14 @@ Route::post('updateBlogsForAdminApi', [blogController::class, 'updateBlogsForAdm
 Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
 Route::get('AddBlogsForAdmin', [blogController::class, 'AddBlogsForAdmin'])->name('AddBlogsForAdmin');
 Route::get('BlogsForAdmin/{role}', [blogController::class, 'AddBlogsForAdmin']);
+Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
+Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
+
+
+// Portfolio for Admin
+Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
+Route::get('AddBlogsForAdmin', [blogController::class, 'AddBlogsForAdmin'])->name('AddBlogsForAdmin');
+Route::get('PortfolioForAdmin', [PortfolioController::class, 'PortfolioForAdmin']);
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
 Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
 

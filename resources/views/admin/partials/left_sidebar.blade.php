@@ -16,7 +16,7 @@
 			</li>
 
 			<li class="sidebar-item">
-				<a class="sidebar-link" href="{{url('portfolio')}}">
+				<a class="sidebar-link" href="{{url('PortfolioForAdmin')}}">
 					<i class="align-middle" data-feather="user"></i> <span class="align-middle">PortFolio</span>
 				</a>
 			</li>
