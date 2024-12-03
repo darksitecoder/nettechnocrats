@@ -15,6 +15,6 @@ class PortfolioController extends Controller
 
     public function PortfolioForAdmin()
     {
-        return view('frontend/portfolio/index');
+        return view('admin/pages/portfolio/portfolio');
     }
 }
