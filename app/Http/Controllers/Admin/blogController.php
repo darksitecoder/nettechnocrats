@@ -118,18 +118,18 @@ class blogController extends Controller
     public function deleteBlogsForAdminApi(Request $request, $id)
     {
 
-        $user = Auth::guard('api')->user();
-        if (!in_array($user->role, ['Admin', 'b2b'])) {
-            return response()->json(['status' => '0', 'message' => 'Unauthorized users'], 200);
-        }
+       
 
-        $deletedBlog = Blog::where('id', $id)->where('created_by', $user->id)->delete();
+        $deletedBlog = Blog::where('id', $id)->delete();
 
         if ($deletedBlog) {
-            return response()->json(['success' => "Blog Deleted Successfully"]);
+            $request->session()->flash('success', 'Blog Deleted Successfully');
         } else {
-            return response()->json(['errors' => "Blog Not Deleted"]);
+            $request->session()->flash('error', 'Blog Not Deleted');
         }
+    
+        // Return response (redirect to the same page)
+        return redirect()->to('listBlogsForAdmin');
     }
 
 
@@ -244,17 +244,20 @@ class blogController extends Controller
     // Update blog details for Admin
     public function updateBlogsForAdminApi(Request $request)
     {
-        $user = Auth::guard('api')->user();
 
-        // Check if the user is authorized (Admin or B2B)
-        if (!in_array($user->role, ['Admin', 'b2b'])) {
-            return response()->json(['status' => '0', 'message' => 'Unauthorized users']);
-        }
+        $status = $request->input('action');
+        // dd($status);
+        // $user = Auth::guard('api')->user();
 
-        // Check if the request is AJAX
-        if (!$request->ajax()) {
-            return response()->json(['message' => 'Invalid request'], 400);
-        }
+        // // Check if the user is authorized (Admin or B2B)
+        // if (!in_array($user->role, ['Admin', 'b2b'])) {
+        //     return response()->json(['status' => '0', 'message' => 'Unauthorized users']);
+        // }
+
+        // // Check if the request is AJAX
+        // if (!$request->ajax()) {
+        //     return response()->json(['message' => 'Invalid request'], 400);
+        // }
 
         // Validate the incoming data
         $validatedData = $request->validate([
@@ -265,13 +268,13 @@ class blogController extends Controller
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
             'video' => 'nullable|mimes:mp4,mov,ogg,qt',
             'pdf' => 'nullable|mimes:pdf',
-            'status' => 'nullable|string|in:save,publish', // Optional: if you want to differentiate between save and publish
+            'action' => 'nullable|string|in:save,publish', // Optional: if you want to differentiate between save and publish
         ]);
 
 
         $id = $validatedData['blogId'];
         // Find the blog for the given id created by the user
-        $blog = Blog::where('id', $id)->where('created_by', $user->id)->first();
+        $blog = Blog::where('id', $id)->first();
 
         if (!$blog) {
             return response()->json(['status' => '0', 'message' => 'Blog not found!']);
@@ -306,6 +309,7 @@ class blogController extends Controller
             $pdfPath = $request->file('pdf')->store('blogs/pdfs', 'public');
         }
 
+        // dd($validatedData['action']);
         // Update blog fields
         $blog->update([
             'topic' => $validatedData['topic'],
@@ -314,15 +318,15 @@ class blogController extends Controller
             'image' => $imagePath,
             'video' => $videoPath,
             'pdf' => $pdfPath,
-            'status' => $validatedData['status'] ?? 'save', // Default to 'save' if not provided
+            'status' => $validatedData['action'] ?? 'save', // Default to 'save' if not provided
         ]);
 
-        // Return JSON response
-        return response()->json([
-            'status' => '1',
-            'message' => 'Blog ' . ($blog->status === 'publish' ? 'updated and published' : 'updated and saved') . ' successfully!',
-            'blog' => $blog
-        ], 200);
+       
+        // Store success message in session
+        session()->flash('success', 'Blog ' . ($status == 'Published' ? 'Published' : 'saved') . ' successfully!');
+
+        // Optionally, return the blog ID or any other data if needed
+        return redirect()->to('editBlogsForAdmin/' . $id); // Redirect to the blogs index page or your desired page
     }
 
 

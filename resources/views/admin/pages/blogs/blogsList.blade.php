@@ -82,6 +82,17 @@
             </div>
           </div>
 
+            <!-- Display success or error message from session -->
+        @if (session('success'))
+            <div class="alert alert-success">
+                {{ session('success') }}
+            </div>
+        @elseif (session('error'))
+            <div class="alert alert-danger">
+                {{ session('error') }}
+            </div>
+        @endif
+
           <div class="row">
             <div class="col-12 col-lg-12 col-xxl-12 d-flex">
               <div class="card flex-fill">
@@ -121,7 +132,7 @@
                           </button>
                         </a>
                       </td>
-                      <td class="d-none d-md-table-cell"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></td>
+                      <td class="d-none d-md-table-cell"><a href="{{ url('/deleteBlogsForAdminApi/' . $blog->id) }}"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
                     </tr>
                     @endforeach
 
