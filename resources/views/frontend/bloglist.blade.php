@@ -258,73 +258,40 @@
       <div class="container">
          <section class="main__blog__recent">
             <div class="row">
-               <div class="col-lg-6">
 
+               <div class="col-lg-6">
                   <div class="main-blog-post ">
-                     <a href="{{url('/blogdetail/')}}"> <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing </h2>
+                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
+                        <h2>{{$blogLTS[0]->heading}}</h2>
                      </a>
-                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi doloribus laudantium repellendus atque, nemo in ducimus ipsa cupiditate, qui at quae, odio perspiciatis optio?</p>
+                     <p><pre>{{$blogLTS[0]->content}}</pre></p>
 
                      <div class="author__date d-flex">
                         <b>Nettechnocrats </b>&nbsp;&nbsp;
-                        <p> 28/09/2024</p>
+                        <p>{{ $blogLTS[0]->created_at->format('d-m-Y') }}</p>
                      </div>
                   </div>
-
                </div>
+
                <div class="col-lg-6">
                   <div class="recent-blog-lists">
                      <h3>Featured Posts</h3>
                      <hr style="color: #5CE1D5; height:5px;" />
-                     <div class="list">
-                        <a href="#">
-                           <div class="list__heading d-flex justify-content-between">
-                              <h4>Lorem ipsum dolor sit amet.</h4> <span style="color: #5CE1D5;">[New]</span>
+
+                     @foreach($blogLTS as $data)
+                        <div class="list">
+                           <a href="#">
+                              <div class="list__heading d-flex justify-content-between">
+                                 <h4>Lorem ipsum dolor sit amet.</h4> <span style="color: #5CE1D5;">[New]</span>
+                              </div>
+                           </a>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> 28/09/2024</p>
                            </div>
-                        </a>
-                        <div class="author__date d-flex justify-content-between">
-                           <b>Nettechnocrats </b>&nbsp;&nbsp;
-                           <p> 28/09/2024</p>
+                           <hr />
                         </div>
-                        <hr />
-                     </div>
-                     <div class="list">
-                        <a href="#">
-                           <div class="list__heading d-flex justify-content-between">
-                              <h4>Lorem ipsum dolor sit amet.</h4> <span style="color: #5CE1D5;">[New]</span>
-                           </div>
-                        </a>
-                        <div class="author__date d-flex justify-content-between">
-                           <b>Nettechnocrats </b>&nbsp;&nbsp;
-                           <p> 28/09/2024</p>
-                        </div>
-                        <hr />
-                     </div>
-                     <div class="list">
-                        <a href="#">
-                           <div class="list__heading d-flex justify-content-between">
-                              <h4>Lorem ipsum dolor sit amet.</h4> <span style="color: #5CE1D5;">[New]</span>
-                           </div>
-                        </a>
-                        <div class="author__date d-flex justify-content-between">
-                           <b>Nettechnocrats </b>&nbsp;&nbsp;
-                           <p> 28/09/2024</p>
-                        </div>
-                        <hr />
-                     </div>
-                     <div class="list">
-                        <a href="#">
-                           <div class="list__heading d-flex justify-content-between">
-                              <h4>Lorem ipsum dolor sit amet.</h4> <span style="color: #5CE1D5;">[New]</span>
-                           </div>
-                        </a>
-                        <div class="author__date d-flex justify-content-between">
-                           <b>Nettechnocrats </b>&nbsp;&nbsp;
-                           <p> 28/09/2024</p>
-                        </div>
-                        <hr />
-                     </div>
+                     @endforeach
                   </div>
                </div>
             </div>
