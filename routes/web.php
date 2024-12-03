@@ -116,6 +116,10 @@ Route::get('/blogdetail', [TechController::class, 'blogdetail']);
 Route::middleware(['auth'])->group(function () {
     // Protected route for the admin dashboard
     Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']);
+
+    Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
+
+    
 });
 // for blog topic
 Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
