@@ -294,7 +294,7 @@
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <!-- Display Heading Validation Error -->
               <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="heading" name="heading" class="blog__heading" value="{{ $Blogs[0]->company_name }}" placeholder="Enter Heading Here...">
+                <input type="text" id="company_name" name="company_name" class="blog__heading" value="{{ $Blogs[0]->company_name }}" placeholder="Enter Heading Here...">
               </div>
             </div>
 
