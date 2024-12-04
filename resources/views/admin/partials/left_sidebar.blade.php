@@ -33,7 +33,7 @@
 				</a>
 			</li>
 
-			<li class="sidebar-item">
+			<li class="sidebar-item enquires">
 				<a class="sidebar-link" href="{{url('listEnquiriesForAdmin')}}">
 					<i class="align-middle" data-feather="user-plus"></i> <span class="align-middle">Enquires</span>
 				</a>

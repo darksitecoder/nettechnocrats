@@ -18,7 +18,7 @@
  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
  <script src="https://kit.fontawesome.com/e1528f4468.js" crossorigin="anonymous"></script>
  <!-- Fonts -->
- <title>Blog list</title>
+ <title>Contact Enquires</title>
 
  <link href="{{ asset('/dashboard_theme/css/app.css') }}" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -134,10 +134,7 @@
    <main class="content">
     <div class="container-fluid p-0">
      <div class="d-flex justify-content-between mb-4">
-      <h1 class="h3 mb-3"><strong>Enquiry List</strong></h1>
-      <div class="buttons">
-       <a href="{{url('/listContactEnquiriesForAdmin')}}" class=" btn">Contact Enquires <i class="fa-solid fa-circle-plus"></i></a>
-      </div>
+      <h1 class="h3 mb-3"><strong>Contact enquiry List</strong></h1>
      </div>
 
      <!-- Display success or error message from session -->
@@ -201,49 +198,71 @@
    <table>
     <tr>
      <th>Enquiry Id</th>
-     <td></td>
+     <td>
+      <p></p>
+     </td>
     </tr>
     <tr>
      <th>Date</th>
-     <td></td>
+     <td>
+      <p></p>
+     </td>
     </tr>
     <tr>
      <th>Name</th>
-     <td></td>
+     <td>
+      <p></p>
+     </td>
     </tr>
     <tr>
      <th>Subject</th>
-     <td></td>
+     <td>
+      <p></p>
+     </td>
     </tr>
     <tr>
      <th>Email</th>
-     <td></td>
+     <td>
+      <p></p>
+     </td>
     </tr>
     <tr>
      <th>Phone </th>
-     <td></td>
-    </tr>
-    <!-- <tr>
-     <td>Company Size </td>
-     <td></td>
+     <td>
+      <p></p>
+     </td>
     </tr>
     <tr>
-     <td>Company Name </td>
-     <td></td>
+     <th>Company Size </th>
+     <td>
+      <p></p>
+     </td>
     </tr>
     <tr>
-     <td>Company Website </td>
-     <td></td>
+     <th>Company Name </th>
+     <td>
+      <p></p>
+     </td>
     </tr>
     <tr>
-     <td>Project Title </td>
-     <td></td>
-    </tr> -->
+     <th>Company Website </th>
+     <td>
+      <p></p>
+     </td>
+    </tr>
+    <tr>
+     <th>Project Title </th>
+     <td>
+      <p></p>
+     </td>
+    </tr>
     <tr>
      <th colspan="2">Message :</th>
     </tr>
     <tr>
-     <td colspan="2"></td>
+     <td colspan="2">
+      <p></p>
+     </td>
     </tr>
    </table>
   </div>
