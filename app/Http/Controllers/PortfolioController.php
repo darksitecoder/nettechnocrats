@@ -27,18 +27,16 @@ class PortfolioController extends Controller
         return view('admin/pages/portfolio/portfoliodetail');
     }
 
-    public function PortfolioController(Request $request)
+    public function savePortfolioForAdminApi(Request $request)
     {
         $status = $request->input('action');
         // dd($status);
         // Validate the incoming data
         $validatedData = $request->validate([
-            'topic' => 'required|string',
-            'heading' => 'required|string|max:255',
-            'content' => 'required|string|max:100000',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
-            'video' => 'nullable|mimes:mp4,mov,ogg,qt',
-            'pdf' => 'nullable|mimes:pdf',
+            'heading' => 'required|string|max:255',
+            'company_name' => 'required|string',
+            'content' => 'required|string|max:100000',
             'status' => 'nullable|string|in:save,publish',
         ]);
         
