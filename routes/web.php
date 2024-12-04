@@ -14,7 +14,7 @@ use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\Admin\blogController;
 use App\Http\Controllers\Admin\BlogCommentController;
 use App\Http\Controllers\Admin\BlogTopicController;
-
+use App\Http\Controllers\admin\enquiresController;
 
 /*
 |--------------------------------------------------------------------------
@@ -112,7 +112,7 @@ Route::get('/e-wallet-app-development', [TechController::class, 'wallet']);
 Route::get('/ui-ux-design-services', [TechController::class, 'uiux']);
 
 
-Route::get('/bloglist', [TechController::class, 'bloglist']);
+Route::get('/bloglist', [blogController::class, 'listBlogsFrontEnd']);
 Route::get('/blogdetail', [TechController::class, 'blogdetail']);
 
 Route::middleware(['auth'])->group(function () {
@@ -120,6 +120,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']);
 
     Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
+
+    Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
 
     
 });
