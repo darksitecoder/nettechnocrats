@@ -120,7 +120,8 @@
     <div class="col-lg-6">
      <h2 class="pt-4">Get a Project Idea for a Startup or Enterprise Business</h2>
      <p>We guarantee a response within one business day—fast, reliable, no waiting around.</p>
-     <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+     <form action="{{ url('/contact_enquiryFormSubmit')}}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+        @csrf
       <div class="row gy-4">
 
        <div class="col-md-6">
@@ -155,15 +156,15 @@
        </div>
        <div class="col-md-4">
         <label for="email-field" class="pb-2">Company Name</label>
-        <input type="email" class="form-control" name="email" id="email-field" required="">
+        <input type="text" class="form-control" name="email" id="email-field" required="">
        </div>
        <div class="col-md-4">
         <label for="email-field" class="pb-2">Company Website</label>
-        <input type="email" class="form-control" name="email" id="email-field" required="">
+        <input type="text" class="form-control" name="email" id="email-field" required="">
        </div>
        <div class="col-md-4">
         <label for="email-field" class="pb-2">Project Title</label>
-        <input type="email" class="form-control" name="email" id="email-field" required="">
+        <input type="text" class="form-control" name="email" id="email-field" required="">
        </div>
 
 

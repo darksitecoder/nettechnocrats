@@ -5,7 +5,7 @@ namespace App\Http\Controllers\admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Enquiry;
-use App\Models\ContactEnquiry;
+use App\Models\contact_enquiry;
 
 class enquiresController extends Controller
 {
@@ -63,7 +63,7 @@ class enquiresController extends Controller
     ]);
 
     // Save the enquiry data into the database
-    ContactEnquiry::create([
+    $save =  contact_enquiry::create([
         'name' => $request->name,
         'email' => $request->email,
         'phone' => $request->phone,
@@ -75,8 +75,8 @@ class enquiresController extends Controller
         'requirement' => $request->requirement,
     ]);
 
-    // Set a success message and redirect back
-    return redirect()->back()->with('success', 'Your enquiry has been submitted successfully.');
-
+    if ($save) {
+        echo 'OK';
     }
+}
 }
