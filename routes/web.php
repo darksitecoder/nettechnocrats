@@ -122,8 +122,6 @@ Route::middleware(['auth'])->group(function () {
     Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
 
     Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
-
-    
 });
 // for blog topic
 Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
@@ -151,9 +149,8 @@ Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
 // Portfolio for Admin
 Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
 Route::post('savePortfolioForAdminApi', [PortfolioController::class, 'savePortfolioForAdminApi'])->name('savePortfolioForAdminApi');
-Route::get('deletePortfolioForAdminApi/{id}', [PortfolioController::class, 'deletePortfolioForAdminApi']);
-
 Route::get('PortfolioForAdmin', [PortfolioController::class, 'PortfolioForAdmin']);
+Route::get('/createportfolio', [PortfolioController::class, 'createportfolio']);
 Route::get('editPortfolioForAdmin/{id}', [PortfolioController::class, 'editPortfolioForAdmin']);
 Route::get('/createportfolio', [PortfolioController::class, 'createportfolio'])->name('createportfolio');
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
