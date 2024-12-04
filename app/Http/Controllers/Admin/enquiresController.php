@@ -16,6 +16,21 @@ class enquiresController extends Controller
         return view('admin/pages/enquires/enquiresList', compact('enquiry'));
     }
 
+    
+    public function deleteEnquiriesForAdmin(Request $request, $id)
+    {
+        $deletedBlog = Enquiry::where('id', $id)->delete();
+        if ($deletedBlog) {
+            $request->session()->flash('success', "Enquiry ID - $id deleted successfully");
+        } else {
+            $request->session()->flash('error', "Enquiry ID - $id not deleted");
+        }
+    
+        // Return response (redirect to the same page)
+        return redirect()->back();
+    }
+
+
     public function listContactEnquiriesForAdmin()
     {
         return view('admin/pages/enquires/ContactEnquiresList');
