@@ -40,7 +40,7 @@ class PortfolioController extends Controller
     }
     public function portfoliodetail($id)
     {
-        $portfolio = portfolio:: select()->where('id',$id)->take(10);
+        $portfolio = portfolio:: select()->where('id',$id)->get();
 
         return view('admin/pages/portfolio/portfoliodetail')->with(compact('portfolio'));
     }
