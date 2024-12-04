@@ -49,17 +49,18 @@ class enquiresController extends Controller
 
     public function contact_enquiryFormSubmit(Request $request)
     {
+        
        // Validate the form data
        $validated = $request->validate([
         'name' => 'required|string|max:255',
         'email' => 'required|email|max:255',
         'phone' => 'required|string|max:255',
         'country' => 'required|string|max:255',
-        'company_size' => 'required|string|max:255',
-        'company_name' => 'required|string|max:255',
-        'company_website' => 'required|url|max:255',
-        'project_title' => 'required|string|max:255',
-        'requirement' => 'required|string',
+        // 'company_size' => 'required|string|max:255',
+        // 'company_name' => 'required|string|max:255',
+        // 'company_website' => 'required|url|max:255',
+        // 'project_title' => 'required|string|max:255',
+        // 'requirement' => 'required|string',
     ]);
 
     // Save the enquiry data into the database

@@ -135,42 +135,42 @@
        </div>
        <div class="col-md-6">
         <label for="name-field" class="pb-2">Phone</label>
-        <input type="text" name="name" id="name-field" class="form-control" required="">
+        <input type="text" name="phone" id="phone" class="form-control" required="">
        </div>
 
        <div class="col-md-6">
         <label for="email-field" class="pb-2">Company Size</label>
-        <select class="form-control" name="" id="" required="">
-         <option value="">Company Size</option>
-         <option value="">1-10 Employees</option>
-         <option value="">11-50 Employees</option>
-         <option value="">51-200 Employees</option>
-         <option value="">201-500 Employees</option>
-         <option value="">500+ Employees</option>
+        <select class="form-control" name="company_size" id="company_size" required="">
+         <option value="Company Size">Company Size</option>
+         <option value="1-10 Employees">1-10 Employees</option>
+         <option value="11-50 Employees">11-50 Employees</option>
+         <option value="51-200 Employees">51-200 Employees</option>
+         <option value="201-500 Employees">201-500 Employees</option>
+         <option value="500+ Employees">500+ Employees</option>
         </select>
        </div>
 
        <div class="col-md-12">
         <label for="subject-field" class="pb-2">Country</label>
-        <select id="country" class="form-control" required></select>
+        <select id="country" name="country" class="form-control" required></select>
        </div>
        <div class="col-md-4">
         <label for="email-field" class="pb-2">Company Name</label>
-        <input type="text" class="form-control" name="email" id="email-field" required="">
+        <input type="text" class="form-control" name="company_name" id="company_name" required="">
        </div>
        <div class="col-md-4">
         <label for="email-field" class="pb-2">Company Website</label>
-        <input type="text" class="form-control" name="email" id="email-field" required="">
+        <input type="text" class="form-control" name="company_website" id="company_website" required="">
        </div>
        <div class="col-md-4">
         <label for="email-field" class="pb-2">Project Title</label>
-        <input type="text" class="form-control" name="email" id="email-field" required="">
+        <input type="text" class="form-control" name="project_title" id="project_title" required="">
        </div>
 
 
        <div class="col-md-12">
         <label for="message-field" class="pb-2">Message</label>
-        <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+        <textarea class="form-control"  rows="10" name="requirement" id="requirement" required=""></textarea>
        </div>
 
        <div class="col-md-12 text-center">
