@@ -420,6 +420,27 @@
         .digital__marketing__funnel .content {
             background-color: transparent !important;
         }
+
+        .home__address img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        .home__address .address {
+            border: 1px solid black;
+            border-radius: 70px;
+        }
+
+        .home__address .address .col-md-4 {
+            padding: 3rem 0rem;
+            transition: 0.5s ease-in-out;
+            cursor: pointer;
+
+        }
+
+        /* .home__address .address .col-md-4:hover {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        } */
     </style>
 </head>
 
@@ -807,6 +828,29 @@
                                     <i class="fa-solid fa-arrow-down"></i>
                                 </button>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home__address py-5 my-5 d-flex justify-content-center">
+                <div class="container">
+                    <div class="row address">
+                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:70px 0px 0px 70px;"><img src="{{ asset('assets/web/taj-mahal.png') }}" class="image-with-shadow" alt="" srcset="">
+                            <p class="text-center fw-bold fs-7">G-75, Sec-63, Noida, Delhi (NCR) India <br>
+                                For Sales: +91-9711411002 <br>
+                                For HR: +91-8510091128</p>
+                        </div>
+                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/web/statue-liberty.png') }}" class="image-with-shadow" alt="" srcset="">
+                            <p class="text-center fw-bold fs-7">9240 SW 72nd St Miami, FL 33173 <br>
+                                For Sales: +1-786-753-7516 <br>
+                                Email: sales@nettechnocrats.com</p>
+                        </div>
+                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:0px 70px 70px 0px;"><img src="{{ asset('assets/web/sydney-opera-house.png') }}" class="image-with-shadow" alt="" srcset="">
+                            <p class="text-center fw-bold fs-7">
+                                6 Satinay Court Oxenford, QLD 4210, Australia <br>
+                                Email: sales@nettechnocrats.com
+                            </p>
                         </div>
                     </div>
                 </div>
