@@ -82,7 +82,17 @@
             </div>
           </div>
 
-          <!-- Display success or error message from session -->
+       <!-- Display success or error message from session -->
+       @if (session('success'))
+            <div class="alert alert-success">
+                {{ session('success') }}
+            </div>
+        @elseif (session('error'))
+            <div class="alert alert-danger">
+                {{ session('error') }}
+            </div>
+        @endif
+
 
           <div class="row">
             <div class="col-12 col-lg-12 col-xxl-12 d-flex">
@@ -118,7 +128,7 @@ bg-warning
                         {{ $blog->status }}
                       </span>
                     </td>
-                    <td class="d-none d-md-table-cell"><a href="{{ url('/editBlogsForAdmin/' . $blog->id) }}">
+                    <td class="d-none d-md-table-cell"><a href="{{ url('/editPortfolioForAdmin/' . $blog->id) }}">
                         <button class="badge px-2 py-1 fs-6 edit">
                           Edit <i class="fa-solid fa-pen-to-square"></i>
                         </button>
