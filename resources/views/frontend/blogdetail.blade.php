@@ -365,7 +365,7 @@
           <div class="col-lg-9">
 
             <div class="main-blog-post ">
-              <a href="#"> <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
+              <a href="#"> <img src="{{ asset('storage/'.$blogFND->image) }}" alt="Blogs Images" srcset="">
                 <h2 class="pt-4">{{$blogFND->heading}}</h2>
               </a>
               <pre>{{$blogFND->content}}</pre>
@@ -435,7 +435,7 @@
               <div class="col-lg-6">
                 <div class="users__comments">
                   <div class="d-flex justify-content-between align-items-center">
-                    <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="" srcset="">
+                    <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="Blogs Images" srcset="">
                     <p class="name">User Name</p>
                   </div>
                   <p class="comment pt-2">
@@ -449,7 +449,7 @@
               <div class="col-lg-6">
                 <div class="users__comments">
                   <div class="d-flex justify-content-between align-items-center">
-                    <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="" srcset="">
+                    <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="Blogs Images" srcset="">
                     <p class="name">User Name</p>
                   </div>
                   <p class="comment pt-2">
