@@ -127,10 +127,11 @@ Route::middleware(['auth'])->group(function () {
     Route::get('listContactEnquiriesForAdmin', [enquiresController::class, 'listContactEnquiriesForAdmin']);
 
     Route::post('enquiryFormSubmit', [enquiresController::class, 'enquiryFormSubmit']);
+    Route::post('contact_enquiryFormSubmit', [enquiresController::class, 'contact_enquiryFormSubmit']);
 
 
 });
-Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
+// Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
 // for blog topic
 Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
 Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
