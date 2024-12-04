@@ -124,10 +124,9 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
     Route::get('deleteEnquiriesForAdmin/{id}', [enquiresController::class, 'deleteEnquiriesForAdmin']);
-
+    
     Route::get('listContactEnquiriesForAdmin', [enquiresController::class, 'listContactEnquiriesForAdmin']);
-
-
+    Route::get('deleteContactEnquiriesForAdmin/{id}', [enquiresController::class, 'deleteContactEnquiriesForAdmin']);
 
 });
 // Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);

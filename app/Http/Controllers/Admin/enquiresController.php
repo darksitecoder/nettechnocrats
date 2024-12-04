@@ -33,7 +33,21 @@ class enquiresController extends Controller
 
     public function listContactEnquiriesForAdmin()
     {
-        return view('admin/pages/enquires/ContactEnquiresList');
+        $enquiry = contact_enquiry::orderby('created_at', 'desc')->get();
+        return view('admin/pages/enquires/ContactEnquiresList', compact('enquiry'));
+    }
+
+    public function deleteContactEnquiriesForAdmin(Request $request, $id)
+    {
+        $deletedBlog = contact_enquiry::where('id', $id)->delete();
+        if ($deletedBlog) {
+            $request->session()->flash('success', "Contact enquiry ID - $id deleted successfully");
+        } else {
+            $request->session()->flash('error', "Contact enquiry ID - $id not deleted");
+        }
+    
+        // Return response (redirect to the same page)
+        return redirect()->back();
     }
 
     public function enquiryFormSubmit(Request $request)
