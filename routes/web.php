@@ -127,7 +127,6 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('listContactEnquiriesForAdmin', [enquiresController::class, 'listContactEnquiriesForAdmin']);
 
-    Route::post('enquiryFormSubmit', [enquiresController::class, 'enquiryFormSubmit']);
 
 
 });
@@ -182,4 +181,6 @@ Route::get('blogDetails/{id}/{shop_id?}', [blogController::class, 'blogDetails']
 
 
 // enquires for Admin
-Route::post('contact_enquiryFormSubmit', [enquiresController::class, 'contact_enquiryFormSubmit']);
+Route::post('/contact_enquiryFormSubmit', [enquiresController::class, 'contact_enquiryFormSubmit']);
+
+Route::post('/enquiryFormSubmit', [enquiresController::class, 'enquiryFormSubmit']);

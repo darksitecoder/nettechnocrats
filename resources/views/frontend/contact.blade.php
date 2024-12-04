@@ -120,7 +120,7 @@
     <div class="col-lg-6">
      <h2 class="pt-4">Get a Project Idea for a Startup or Enterprise Business</h2>
      <p>We guarantee a response within one business day—fast, reliable, no waiting around.</p>
-     <form action="{{ url('/contact_enquiryFormSubmit')}}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+     <form action="{{ url('contact_enquiryFormSubmit')}}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
         @csrf
       <div class="row gy-4">
 
