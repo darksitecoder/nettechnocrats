@@ -154,9 +154,11 @@ Route::post('savePortfolioForAdminApi', [PortfolioController::class, 'savePortfo
 Route::get('deletePortfolioForAdminApi/{id}', [PortfolioController::class, 'deletePortfolioForAdminApi']);
 
 Route::get('PortfolioForAdmin', [PortfolioController::class, 'PortfolioForAdmin']);
+Route::get('editPortfolioForAdmin/{id}', [PortfolioController::class, 'editPortfolioForAdmin']);
 Route::get('/createportfolio', [PortfolioController::class, 'createportfolio'])->name('createportfolio');
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
-Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
+Route::post('updatePortfolioForAdminApi/{id}', [PortfolioController::class, 'updatePortfolioForAdminApi']);
+
 
 
 // Blogs comments
