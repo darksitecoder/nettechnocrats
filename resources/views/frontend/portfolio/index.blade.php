@@ -208,7 +208,7 @@
             <div class="showcase">
                 <div class="thumbnail thumbnail--awesome" style="background: url('{{ asset('assets/web/banner1.png') }}'); background-repeat:no-repeat; background-size:cover;">
                     <div class=" thumbnail__overlay">
-                        <a class="btn" href="#0">VIEW CASE STUDY</a>
+                        <a class="btn" href="{{url('/portfoliodetails')}}">VIEW CASE STUDY</a>
                     </div>
                 </div>
                 <div class="desc">
@@ -239,7 +239,7 @@
                 </div>
                 <div class="thumbnail">
                     <div class="thumbnail__overlay">
-                        <a class="btn" href="#0">VIEW CASE STUDY</a>
+                        <a class="btn" href="{{url('/portfoliodetails')}}">VIEW CASE STUDY</a>
                     </div>
                 </div>
             </div>
