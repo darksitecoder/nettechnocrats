@@ -112,7 +112,7 @@ Route::get('/e-wallet-app-development', [TechController::class, 'wallet']);
 Route::get('/ui-ux-design-services', [TechController::class, 'uiux']);
 
 
-Route::get('/bloglist', [TechController::class, 'bloglist']);
+Route::get('/bloglist', [blogController::class, 'listBlogsFrontEnd']);
 Route::get('/blogdetail', [TechController::class, 'blogdetail']);
 
 Route::middleware(['auth'])->group(function () {

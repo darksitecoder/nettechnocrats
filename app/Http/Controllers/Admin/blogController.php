@@ -64,7 +64,7 @@ class blogController extends Controller
         }
 
         // Fetch all blogs (you can add further query filters if needed)
-        $blogs = Blog::select('*')->get();
+        $blogs = Blog::select('*')->orderby('created_at', 'desc')->get();
         // dd($blogs);
 
         // Return the view with the list of blogs
@@ -329,6 +329,16 @@ class blogController extends Controller
         return redirect()->to('editBlogsForAdmin/' . $id); // Redirect to the blogs index page or your desired page
     }
 
+
+        // For showing in front end with compact
+        function listBlogsFrontEnd(Request $request)
+        {
+            $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
+            $blogRND = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
+            $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->distinct('topic')->take(3)->get();
+    
+            return view('frontend.bloglist', compact('blogLTS', 'blogRND', 'blogTPC'));
+        }
 
 
     // For showing in front end with API

@@ -282,7 +282,7 @@
                 <!-- Display Image Validation Error -->
               </div>
 
-              <!-- Video Upload Section -->
+              {{--<!-- Video Upload Section -->
               <div class="col-md-6 stretch-card grid-margin d-flex flex-column">
                 <div class="video-uploader">
                   <input type="file" id="video" name="video" accept="video/mp4,video/quicktime" style="display: none;">
@@ -318,7 +318,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>--}}
 
             <!-- Topic Select Section -->
             <div class="row pt-1 my-3 d-flex justify-content-center">
@@ -390,112 +390,111 @@
     }
   </script>
 
-  <!-- <script>
-  document.addEventListener('DOMContentLoaded', function() {
-   // Image Uploader
-   const image = document.getElementById('image');
-   const uploadedImage = document.getElementById('uploadedImage');
-   const imageLabel = document.getElementById('imageLabel');
-   const imageUploader = document.querySelector('.image-uploader');
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Image Uploader
+      const image = document.getElementById('image');
+      const uploadedImage = document.getElementById('uploadedImage');
+      const imageLabel = document.getElementById('imageLabel');
+      const imageUploader = document.querySelector('.image-uploader');
 
-   imageUploader.addEventListener('click', function() {
-    image.click();
-   });
+      imageUploader.addEventListener('click', function() {
+        image.click();
+      });
 
-   image.addEventListener('change', function(event) {
-    const file = event.target.files[0];
-    if (file) {
-     const reader = new FileReader();
-     reader.onload = function(e) {
-      uploadedImage.src = e.target.result;
-      uploadedImage.style.display = 'block';
-      imageLabel.style.display = 'none';
-     };
-     reader.readAsDataURL(file);
-    }
-   });
+      image.addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = function(e) {
+            uploadedImage.src = e.target.result;
+            uploadedImage.style.display = 'block';
+            imageLabel.style.display = 'none';
+          };
+          reader.readAsDataURL(file);
+        }
+      });
 
-   uploadedImage.addEventListener('click', function() {
-    image.value = ''; // Clear the input to allow re-upload
-    imageLabel.style.display = 'block'; // Show the label again
-    uploadedImage.style.display = 'none'; // Hide the image
-    imageUploader.click(); // Trigger file input click
-   });
+      uploadedImage.addEventListener('click', function() {
+        image.value = ''; // Clear the input to allow re-upload
+        imageLabel.style.display = 'block'; // Show the label again
+        uploadedImage.style.display = 'none'; // Hide the image
+        imageUploader.click(); // Trigger file input click
+      });
 
-   // Video Uploader
-   const video = document.getElementById('video');
-   const uploadedVideo = document.getElementById('uploadedVideo');
-   const videoLabel = document.getElementById('videoLabel');
-   const videoUploader = document.querySelector('.video-uploader');
+      // Video Uploader
+      const video = document.getElementById('video');
+      const uploadedVideo = document.getElementById('uploadedVideo');
+      const videoLabel = document.getElementById('videoLabel');
+      const videoUploader = document.querySelector('.video-uploader');
 
-   videoUploader.addEventListener('click', function() {
-    video.click();
-   });
+      videoUploader.addEventListener('click', function() {
+        video.click();
+      });
 
-   video.addEventListener('change', function(event) {
-    const file = event.target.files[0];
-    if (file) {
-     const fileType = file.type;
-     const validVideoTypes = ['video/mp4', 'video/quicktime'];
+      video.addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+          const fileType = file.type;
+          const validVideoTypes = ['video/mp4', 'video/quicktime'];
 
-     if (validVideoTypes.includes(fileType)) {
-      const reader = new FileReader();
-      reader.onload = function(e) {
-       uploadedVideo.src = e.target.result;
-       uploadedVideo.style.display = 'block';
-       videoLabel.style.display = 'none';
-      };
-      reader.readAsDataURL(file);
-     } else {
-      alert('Please upload a valid video file (MP4 or MOV).');
-      video.value = ''; // Clear the input
-     }
-    }
-   });
+          if (validVideoTypes.includes(fileType)) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+              uploadedVideo.src = e.target.result;
+              uploadedVideo.style.display = 'block';
+              videoLabel.style.display = 'none';
+            };
+            reader.readAsDataURL(file);
+          } else {
+            alert('Please upload a valid video file (MP4 or MOV).');
+            video.value = ''; // Clear the input
+          }
+        }
+      });
 
-   uploadedVideo.addEventListener('click', function() {
-    video.value = ''; // Clear the input to allow re-upload
-    videoLabel.style.display = 'block'; // Show the label again
-    uploadedVideo.style.display = 'none'; // Hide the video
-    videoUploader.click(); // Trigger file input click
-   });
+      uploadedVideo.addEventListener('click', function() {
+        video.value = ''; // Clear the input to allow re-upload
+        videoLabel.style.display = 'block'; // Show the label again
+        uploadedVideo.style.display = 'none'; // Hide the video
+        videoUploader.click(); // Trigger file input click
+      });
 
-   // PDF Uploader
-   const pdf = document.getElementById('pdf');
-   const pdfName = document.getElementById('pdfName');
-   const pdfLabel = document.getElementById('pdfLabel');
-   const pdfUploader = document.querySelector('.pdf-uploader');
+      // PDF Uploader
+      const pdf = document.getElementById('pdf');
+      const pdfName = document.getElementById('pdfName');
+      const pdfLabel = document.getElementById('pdfLabel');
+      const pdfUploader = document.querySelector('.pdf-uploader');
 
-   pdfUploader.addEventListener('click', function() {
-    pdf.click();
-   });
+      pdfUploader.addEventListener('click', function() {
+        pdf.click();
+      });
 
-   pdf.addEventListener('change', function(event) {
-    const file = event.target.files[0];
-    if (file) {
-     const fileType = file.type;
-     const validFileType = 'application/pdf';
+      pdf.addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+          const fileType = file.type;
+          const validFileType = 'application/pdf';
 
-     if (fileType === validFileType) {
-      pdfName.textContent = file.name;
-      pdfName.style.display = 'block';
-      pdfLabel.style.display = 'none';
-     } else {
-      alert('Please upload a valid PDF file.');
-      pdf.value = ''; // Clear the input
-     }
-    }
-   });
+          if (fileType === validFileType) {
+            pdfName.textContent = file.name;
+            pdfName.style.display = 'block';
+            pdfLabel.style.display = 'none';
+          } else {
+            alert('Please upload a valid PDF file.');
+            pdf.value = ''; // Clear the input
+          }
+        }
+      });
 
-   pdfName.addEventListener('click', function() {
-    pdf.value = ''; // Clear the input to allow re-upload
-    pdfLabel.style.display = 'block'; // Show the label again
-    pdfName.style.display = 'none'; // Hide the PDF name
-    pdfUploader.click(); // Trigger file input click
-   });
-  });
- </script> -->
-
+      pdfName.addEventListener('click', function() {
+        pdf.value = ''; // Clear the input to allow re-upload
+        pdfLabel.style.display = 'block'; // Show the label again
+        pdfName.style.display = 'none'; // Hide the PDF name
+        pdfUploader.click(); // Trigger file input click
+      });
+    });
+  </script>
 
 </body>
 

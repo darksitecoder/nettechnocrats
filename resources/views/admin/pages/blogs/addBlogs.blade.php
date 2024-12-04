@@ -276,7 +276,7 @@
                 @enderror
               </div>
 
-              <!-- Video Upload Section -->
+              {{--<!-- Video Upload Section -->
               <div class="col-md-6 stretch-card grid-margin d-flex flex-column">
                 <div class="video-uploader">
                   <input type="file" id="video" name="video" accept="video/mp4,video/quicktime" style="display: none;">
@@ -307,7 +307,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>--}}
 
             <!-- Topic Select Section -->
             <div class="row pt-1 my-3 d-flex justify-content-center">
