@@ -75,14 +75,14 @@
       <main class="content">
         <div class="container-fluid p-0">
           <div class="d-flex justify-content-between mb-4">
-            <h1 class="h3 mb-3"><strong>Blog List</strong></h1>
+            <h1 class="h3 mb-3"><strong>Portfolio List</strong></h1>
             <div class="buttons">
-              
+
               <a href="{{url('/createportfolio')}}" class=" btn">Create Portfolio <i class="fa-solid fa-circle-plus"></i></a>
             </div>
           </div>
 
-            <!-- Display success or error message from session -->
+          <!-- Display success or error message from session -->
 
           <div class="row">
             <div class="col-12 col-lg-12 col-xxl-12 d-flex">
@@ -107,7 +107,7 @@
                       <td class="d-none d-xl-table-cell">vbc</td>
                       <td class="d-none d-xl-table-cell">nvb</td>
                       <td>
-                        <span class="badge fs-6"> 
+                        <span class="badge fs-6">
                         </span>
                       </td>
                       <td class="d-none d-md-table-cell"><a href="">
