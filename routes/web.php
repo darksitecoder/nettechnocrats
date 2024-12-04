@@ -123,6 +123,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
 
     Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
+    Route::get('deleteEnquiriesForAdmin/{id}', [enquiresController::class, 'deleteEnquiriesForAdmin']);
 
     Route::get('listContactEnquiriesForAdmin', [enquiresController::class, 'listContactEnquiriesForAdmin']);
 
