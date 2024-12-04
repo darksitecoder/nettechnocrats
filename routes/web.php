@@ -14,7 +14,7 @@ use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\Admin\blogController;
 use App\Http\Controllers\Admin\BlogCommentController;
 use App\Http\Controllers\Admin\BlogTopicController;
-use App\Http\Controllers\admin\enquiresController;
+use App\Http\Controllers\Admin\enquiresController;
 
 /*
 |--------------------------------------------------------------------------
