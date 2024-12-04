@@ -60,6 +60,58 @@
    background-color: transparent;
    color: #3B7DDD;
   }
+
+  /* Modal */
+
+  .modal {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   opacity: 0;
+   visibility: hidden;
+   transform: scale(1.1);
+   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  }
+
+  .modal-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: white;
+   padding: 1rem 1.5rem;
+   width: 24rem;
+   border-radius: 0.5rem;
+  }
+
+  .modal-content table tr td {
+   font-size: 16px;
+   line-height: 50px;
+  }
+
+  .close-button {
+   float: right;
+   width: 1.5rem;
+   line-height: 1.5rem;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 0.25rem;
+   background-color: lightgray;
+  }
+
+  .close-button:hover {
+   background-color: darkgray;
+  }
+
+  .show-modal {
+   opacity: 1;
+   visibility: visible;
+   transform: scale(1.0);
+   transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+  }
  </style>
 </head>
 
@@ -90,26 +142,27 @@
            <th>Date</th>
            <th class="d-none d-xl-table-cell">Name</th>
            <th class="d-none d-xl-table-cell">Subject</th>
-           <th>Status</th>
+           <th class="d-none d-md-table-cell">Email</th>
+           <th class="d-none d-md-table-cell">Phone</th>
            <th class="d-none d-md-table-cell"></th>
            <th class="d-none d-md-table-cell"></th>
           </tr>
          </thead>
          <tbody>
           <tr>
-           <td></td>
-           <td></td>
-           <td class="d-none d-xl-table-cell"></td>
-           <td class="d-none d-xl-table-cell"></td>
-           <td>
-           </td>
-           <td class="d-none d-md-table-cell"><a href="{{ url('/editBlogsForAdmin/' . $blog->id) }}">
-             <button class="badge px-2 py-1 fs-6 edit">
-              Edit <i class="fa-solid fa-pen-to-square"></i>
+           <td>EN - 1522</td>
+           <td>04/12/2024</td>
+           <td>Ramesh</td>
+           <td>Hello this is</td>
+           <td>djfknjd@gmail.com</td>
+           <td>9798465445</td>
+           <td class="d-none d-md-table-cell"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+             <button class="badge px-2 py-1 fs-6 edit trigger">
+              View Blog <i class="fa-regular fa-eye"></i>
              </button>
             </a>
            </td>
-           <td class="d-none d-md-table-cell"><a href="{{ url('/deleteBlogsForAdminApi/' . $blog->id) }}"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
+           <td class="d-none d-md-table-cell"><a href="{{ url('') }}"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
           </tr>
 
 
@@ -129,11 +182,87 @@
   </div>
  </div>
 
+
+ <!-- Modal -->
+ <div class="modal">
+  <div class="modal-content">
+   <span class="close-button"><i class="fa-solid fa-xmark"></i></span>
+   <h1 class="fw-bolder">Enquiry detail</h1>
+   <table>
+    <tr>
+     <td>Enquiry Id</td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>Date</td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>Name</td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>Subject</td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>Email</td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>Phone </td>
+     <td></td>
+    </tr>
+    <!-- <tr>
+     <td>Company Size </td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>Company Name </td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>Company Website </td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>Project Title </td>
+     <td></td>
+    </tr> -->
+    <tr>
+     <td colspan="2">Message :</td>
+    </tr>
+    <tr>
+     <td colspan="2"></td>
+    </tr>
+   </table>
+  </div>
+ </div>
+ <script>
+  var modal = document.querySelector(".modal");
+  var trigger = document.querySelector(".trigger");
+  var closeButton = document.querySelector(".close-button");
+
+  function toggleModal() {
+   modal.classList.toggle("show-modal");
+  }
+
+  function windowOnClick(event) {
+   if (event.target === modal) {
+    toggleModal();
+   }
+  }
+
+  trigger.addEventListener("click", toggleModal);
+  closeButton.addEventListener("click", toggleModal);
+  window.addEventListener("click", windowOnClick);
+ </script>
  <script src="{{ asset('dashboard_theme/js/app.js') }}"></script>
  <script>
-  const childElement = document.querySelector('.portfolio');
+  const childElement = document.querySelector('.enquires');
   childElement.classList.add('active');
  </script>
+
 
 </body>
 

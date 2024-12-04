@@ -121,9 +121,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']);
 
     Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
-
-    Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
 });
+Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
 // for blog topic
 Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
 Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
