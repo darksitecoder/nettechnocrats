@@ -764,25 +764,25 @@
                     <div class="col-lg-12">
                         <div class="slider-container">
                             <div class="left-slide">
-                                <div style="background-color: #7f7856;">
-                                    <h1>Nature Flower</h1>
-                                    <p>All in pink</p>
-                                    <a href="#" class="case__study">Read Case Study</a>
+                                <div style="background-color: #1F184E;">
+                                    <h1 class="text-center">Crypto Web Application</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, veritatis!</p>
+                                    <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
-                                <div style="background-color: #6d6b9f;">
-                                    <h1>Nature Flower</h1>
-                                    <p>All in pink</p>
-                                    <a href="#" class="case__study">Read Case Study</a>
+                                <div style="background-color: #FFA809;">
+                                    <h1 class="text-center">Resturent app development</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ea?</p>
+                                    <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
-                                <div style="background-color: #252e33;">
-                                    <h1>Nature Flower</h1>
-                                    <p>All in pink</p>
-                                    <a href="#" class="case__study">Read Case Study</a>
+                                <div style="background-color: #0A0A0A;">
+                                    <h1>E-wallet application</h1>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
-                                <div style="background-color: #739c10;">
-                                    <h1>Nature Garden</h1>
-                                    <p>All in Green</p>
-                                    <a href="#" class="case__study">Read Case Study</a>
+                                <div style="background-color: #22272D;">
+                                    <h1 class="text-center">Artificial Inteligence Project</h1>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
                             </div>
                             <div class="right-slide">
@@ -792,10 +792,10 @@
                                 <div style="background:url('{{ asset('assets/web/aplle-wallet-1-removebg-preview.webp') }}'); ">
 
                                 </div>
-                                <div style="background: url('https://images.unsplash.com/photo-1547327195-59a16bed035e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdpZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60')">
+                                <div style="background: url('{{ asset('assets/web/resturent__app.jpg') }}');">
 
                                 </div>
-                                <div style="background: url('https://images.unsplash.com/photo-1500067737767-0276d2605978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHdpZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60')">
+                                <div style="background: url('{{ asset('assets/web/645ec0260359a13ac1404bd1_keplr-crypto-wallet-website-design-inspiration.jpg') }}');">
 
                                 </div>
                             </div>
