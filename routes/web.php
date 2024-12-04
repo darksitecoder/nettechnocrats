@@ -75,6 +75,7 @@ Route::get('/ai-application-development-company', [TechController::class, 'ai'])
 
 Route::get('/about-us', [TechController::class, 'about']);
 Route::get('/clients', [TechController::class, 'client']);
+Route::get('/contact-us', [TechController::class, 'contact']);
 
 
 Route::get('/industries', [IndustriesController::class, 'index']);
@@ -113,7 +114,7 @@ Route::get('/ui-ux-design-services', [TechController::class, 'uiux']);
 
 
 Route::get('/bloglist', [blogController::class, 'listBlogsFrontEnd']);
-Route::get('/blogdetail', [TechController::class, 'blogdetail']);
+Route::get('/blogdetail/{id}', [blogController::class, 'blogDetailFrontEnd']);
 
 Route::middleware(['auth'])->group(function () {
     // Protected route for the admin dashboard

@@ -261,10 +261,10 @@
 
                <div class="col-lg-6">
                   <div class="main-blog-post ">
-                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                        <h2>{{$blogLTS[0]->heading}}</h2>
+                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('storage/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="">
+                        <h2>{{ strlen($blogLTS[0]->heading) > 25 ? substr($blogLTS[0]->heading, 0, 25) . '...' : $blogLTS[0]->heading }}</h2>
                      </a>
-                     <p><pre>{{$blogLTS[0]->content}}</pre></p>
+                     <p>{{ strlen($blogLTS[0]->content) > 60 ? substr($blogLTS[0]->content, 0, 60) . '...' : $blogLTS[0]->content }}</pre></p>
 
                      <div class="author__date d-flex">
                         <b>Nettechnocrats </b>&nbsp;&nbsp;
@@ -278,16 +278,16 @@
                      <h3>Featured Posts</h3>
                      <hr style="color: #5CE1D5; height:5px;" />
 
-                     @foreach($blogLTS as $data)
+                     @foreach($blogLTS->skip('1') as $data)
                         <div class="list">
-                           <a href="#">
+                           <a href="{{url('blogdetail/'.$data->id)}}">
                               <div class="list__heading d-flex justify-content-between">
-                                 <h4>Lorem ipsum dolor sit amet.</h4> <span style="color: #5CE1D5;">[New]</span>
+                                 <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
                               </div>
                            </a>
                            <div class="author__date d-flex justify-content-between">
                               <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> 28/09/2024</p>
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
                            </div>
                            <hr />
                         </div>
@@ -295,227 +295,49 @@
                   </div>
                </div>
             </div>
+
             <div class="row pt-4">
-               <div class="col-lg-3">
-                  <div class="blog__list">
-                     <a href="#">
-                        <div class="blog">
-                           <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                           <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
-                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> 28/09/2024</p>
+               @foreach($blogRAN as $data)
+                  <div class="col-lg-3">
+                     <div class="blog__list">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <div class="blog">
+                              <img src="{{ asset('storage/'.$data->image) }}" alt="Blogs Images" srcset="">
+                              <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
+                              <p>{{ strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content }}</p>
+                              <div class="author__date d-flex justify-content-between">
+                                 <b>Nettechnocrats </b>&nbsp;&nbsp;
+                                 <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                              </div>
                            </div>
-                        </div>
-                     </a>
+                        </a>
+                     </div>
                   </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="blog__list">
-                     <a href="#">
-                        <div class="blog">
-                           <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                           <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
-                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> 28/09/2024</p>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="blog__list">
-                     <a href="#">
-                        <div class="blog">
-                           <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                           <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
-                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> 28/09/2024</p>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="blog__list">
-                     <a href="#">
-                        <div class="blog">
-                           <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                           <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
-                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> 28/09/2024</p>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-               </div>
+               @endforeach
             </div>
 
          </section>
 
          <div class="container">
-            <!-- <section class="blog__pdf pt-5">
-         <div class="heading d-flex justify-content-between align-items-center">
-            <hr style="color:#5CE1D5; width:30%; height:5px;" />
-            <h1>BLOG PDF FILES</h1>
-            <hr style="color:#5CE1D5; width:30%; height:5px;" />
-         </div>
-         <div class="row">
-            <div class="col-lg-3">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam cum culpa fugiat </p>
-                  <div class="pdf__btn d-flex justify-content-between align-items-center">
-                     <a href="#" class="preview">Preview</a>
-                     <a href="#" class="download">Download</a>
-                  </div>
-                  <div class="author__date d-flex justify-content-between align-items-center">
-                     <b>5 min watch </b>
-                     <span> 28/09/2024</span>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam cum culpa fugiat </p>
-                  <div class="pdf__btn d-flex justify-content-between align-items-center">
-                     <a href="#" class="preview">Preview</a>
-                     <a href="#" class="download">Download</a>
-                  </div>
-                  <div class="author__date d-flex justify-content-between align-items-center">
-                     <b>5 min watch </b>
-                     <span> 28/09/2024</span>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam cum culpa fugiat </p>
-                  <div class="pdf__btn d-flex justify-content-between align-items-center">
-                     <a href="#" class="preview">Preview</a>
-                     <a href="#" class="download">Download</a>
-                  </div>
-                  <div class="author__date d-flex justify-content-between align-items-center">
-                     <b>5 min watch </b>
-                     <span> 28/09/2024</span>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam cum culpa fugiat </p>
-                  <div class="pdf__btn d-flex justify-content-between align-items-center">
-                     <a href="#" class="preview">Preview</a>
-                     <a href="#" class="download">Download</a>
-                  </div>
-                  <div class="author__date d-flex justify-content-between align-items-center">
-                     <b>5 min watch </b>
-                     <span> 28/09/2024</span>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row pt-4">
-            <div class="col-lg-3">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam cum culpa fugiat </p>
-                  <div class="pdf__btn d-flex justify-content-between align-items-center">
-                     <a href="#" class="preview">Preview</a>
-                     <a href="#" class="download">Download</a>
-                  </div>
-                  <div class="author__date d-flex justify-content-between align-items-center">
-                     <b>5 min watch </b>
-                     <span> 28/09/2024</span>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam cum culpa fugiat </p>
-                  <div class="pdf__btn d-flex justify-content-between align-items-center">
-                     <a href="#" class="preview">Preview</a>
-                     <a href="#" class="download">Download</a>
-                  </div>
-                  <div class="author__date d-flex justify-content-between align-items-center">
-                     <b>5 min watch </b>
-                     <span> 28/09/2024</span>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam cum culpa fugiat </p>
-                  <div class="pdf__btn d-flex justify-content-between align-items-center">
-                     <a href="#" class="preview">Preview</a>
-                     <a href="#" class="download">Download</a>
-                  </div>
-                  <div class="author__date d-flex justify-content-between align-items-center">
-                     <b>5 min watch </b>
-                     <span> 28/09/2024</span>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3">
-               <div class="pdf__card">
-                  <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam cum culpa fugiat </p>
-                  <div class="pdf__btn d-flex justify-content-between align-items-center">
-                     <a href="#" class="preview">Preview</a>
-                     <a href="#" class="download">Download</a>
-                  </div>
-                  <div class="author__date d-flex justify-content-between align-items-center">
-                     <b>5 min watch </b>
-                     <span> 28/09/2024</span>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section> -->
-
             <section class="blog__more__topics pt-5">
                <div class="heading d-flex justify-content-between align-items-center">
                   <hr style="color:#5CE1D5; width:20%; height:5px;" />
                   <h1>EXPLORE MORE TOPICS</h1>
                   <hr style="color:#5CE1D5; width:20%; height:5px;" />
                </div>
-               <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam ipsum neque molestiae eum! Recusandae.</p>
+               <!-- <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam ipsum neque molestiae eum! Recusandae.</p> -->
                <div class="row">
-                  <div class="col-lg-4">
-                     <div class="pdf__card">
-                        <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                        <p class="text-center">Lorem ipsum</p>
-
+                  @foreach($blogTPC as $data)
+                     <div class="col-lg-4">
+                        <div class="pdf__card">
+                           <a href="{{url('blogdetail/'.$data->id)}}">
+                              <img src="{{ asset('storage/'.$data->image) }}" alt="Blogs Images" srcset="">
+                           </a>
+                           <p class="text-center">{{ strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic }}</p>
+                        </div>
                      </div>
-                  </div>
-                  <div class="col-lg-4">
-                     <div class="pdf__card">
-                        <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                        <p class="text-center">Lorem ipsum</p>
-                     </div>
-                  </div>
-                  <div class="col-lg-4">
-                     <div class="pdf__card">
-                        <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                        <p class="text-center">Lorem ipsum</p>
-
-                     </div>
-                  </div>
-
+                  @endforeach
                </div>
-
             </section>
 
             <section class="subscribe pt-5">
