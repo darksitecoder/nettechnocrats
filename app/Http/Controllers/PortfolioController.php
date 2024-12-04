@@ -12,7 +12,9 @@ class PortfolioController extends Controller
     //
     public function index()
     {
-        return view('frontend/portfolio/index');
+        $portfolio = portfolio:: select()->where('status','publish')->get();
+        // dd($portfolio);
+        return view('frontend/portfolio/index')->with(compact('portfolio'));
     }
 
 
@@ -36,9 +38,11 @@ class PortfolioController extends Controller
     {
         return view('admin/pages/portfolio/creaportfolio');
     }
-    public function portfoliodetail()
+    public function portfoliodetail($id)
     {
-        return view('admin/pages/portfolio/portfoliodetail');
+        $portfolio = portfolio:: select()->where('id',$id)->get();
+
+        return view('admin/pages/portfolio/portfoliodetail')->with(compact('portfolio'));
     }
 
     public function savePortfolioForAdminApi(Request $request)
