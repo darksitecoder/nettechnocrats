@@ -163,6 +163,8 @@ Route::get('/createportfolio', [PortfolioController::class, 'createportfolio'])-
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
 Route::post('updatePortfolioForAdminApi', [PortfolioController::class, 'updatePortfolioForAdminApi']);
 
+Route::get('deletePortfolioForAdminApi/{id}', [PortfolioController::class, 'deletePortfolioForAdminApi']);
+
 
 
 // Blogs comments

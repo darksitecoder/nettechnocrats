@@ -71,8 +71,16 @@ class PortfolioController extends Controller
         
         // Handle Image Upload
         if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('portfolio/images', 'public');
+            // Generate a unique name for the image
+            $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
+        
+            // Save the image to the 'public/backend/portfolio' directory under the 'public' folder
+            $imagePath = $request->file('image')->move(public_path('backend/portfolio'), $imageName);
+        
+            // Store the relative path in the database, e.g., 'backend/portfolio/1733316243.png'
+            $imageRelativePath = 'backend/portfolio/' . $imageName;
         }
+        
        
         // Create the blog entry
         $blog = portfolio::create([
