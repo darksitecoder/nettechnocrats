@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'Default Title')</title>
 
     <!-- Meta tags for SEO -->
@@ -238,7 +237,7 @@
                 </div>
                 <!-- menu end here -->
                 <div class="header-item item-right">
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=9711411002&amp;text=I checked the website, and I have a few questions to ask" title="WhatsApp" class="phone__number"><i class="fa-solid fa-phone"></i>+91-9711411002</a>
+                    <a href="#" class="phone__number"><i class="fa-solid fa-phone"></i>+91-9711411002</a>
                     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="{{ url('contact-us')}}"><span class="get__in__touch">Get In Touch</span></a>
                     <a href="{{ url('login_page')}}"><span class="get__in__touch">Login</span></a>
@@ -343,8 +342,6 @@
         @yield('content')
     </main>
 
-
-    @include('partial/footer')
 
 
     <!-- Vendor JS Files -->
