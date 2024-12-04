@@ -94,7 +94,7 @@
 
                                         <!-- Show Login Button after Success -->
                                         <div class="text-center mt-3">
-                                            <a href="{{ url('login') }}" class="btn btn-lg btn-success">Go to Login</a>
+                                            <a href="{{ url('login_page') }}" class="btn btn-lg btn-success">Go to Login</a>
                                         </div>
                                         @endif
 

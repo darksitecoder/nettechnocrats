@@ -38,7 +38,7 @@
 						
 							
 
-						<div class="col-xl-12 col-xxl-7">
+						<div class="col-xl-12 col-xxl-12">
 							<div class="card flex-fill w-100">
 								<div class="card-header">
 
