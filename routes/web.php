@@ -14,7 +14,7 @@ use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\Admin\blogController;
 use App\Http\Controllers\Admin\BlogCommentController;
 use App\Http\Controllers\Admin\BlogTopicController;
-
+use App\Http\Controllers\admin\enquiresController;
 
 /*
 |--------------------------------------------------------------------------
@@ -120,6 +120,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin_dashboard', [DashboardController::class, 'admin_dashboard']);
 
     Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
+
+    Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
 
     
 });
