@@ -100,24 +100,34 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
+                   
 
-                      <td>sdf</td>
-                      <td>bn</td>
-                      <td class="d-none d-xl-table-cell">vbc</td>
-                      <td class="d-none d-xl-table-cell">nvb</td>
-                      <td>
-                        <span class="badge fs-6">
-                        </span>
-                      </td>
-                      <td class="d-none d-md-table-cell"><a href="">
-                          <button class="badge px-2 py-1 fs-6 edit">
-                            Edit <i class="fa-solid fa-pen-to-square"></i>
-                          </button>
-                        </a>
-                      </td>
-                      <td class="d-none d-md-table-cell"><a href=""><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
+                    @foreach($portfolio as $blog)
+
+                    <td>{{$blog->id}}</td>
+                    <td>{{ $blog->created_at->format('Y-m-d') }}</td>
+                    <td class="d-none d-xl-table-cell">{{$blog->company_name}}</td>
+                    <td class="d-none d-xl-table-cell">{{$blog->heading}}</td>
+                    <td>
+                      <span class="badge fs-6 
+@if($blog->status === 'publish') 
+bg-success 
+@else 
+bg-warning 
+@endif">
+                        {{ $blog->status }}
+                      </span>
+                    </td>
+                    <td class="d-none d-md-table-cell"><a href="{{ url('/editBlogsForAdmin/' . $blog->id) }}">
+                        <button class="badge px-2 py-1 fs-6 edit">
+                          Edit <i class="fa-solid fa-pen-to-square"></i>
+                        </button>
+                      </a>
+                    </td>
+                    <td class="d-none d-md-table-cell"><a href="{{ url('/deletePortfolioForAdminApi/' . $blog->id) }}"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
                     </tr>
+                    @endforeach
+
 
 
 
