@@ -113,9 +113,10 @@ class PortfolioController extends Controller
     }
 
 
-    public function updatePortfolioForAdminApi(Request $request, $id, )
+    public function updatePortfolioForAdminApi(Request $request)
     {
-       
+        
+        // dd($request->all());
         $status = $request->input('action');
         // dd($status);
         // $user = Auth::guard('api')->user();
@@ -140,6 +141,7 @@ class PortfolioController extends Controller
            
             'action' => 'nullable|string|in:save,publish', // Optional: if you want to differentiate between save and publish
         ]);
+
 
 
         $id = $validatedData['blogId'];
