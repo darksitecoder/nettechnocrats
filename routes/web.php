@@ -75,6 +75,7 @@ Route::get('/ai-application-development-company', [TechController::class, 'ai'])
 
 Route::get('/about-us', [TechController::class, 'about']);
 Route::get('/clients', [TechController::class, 'client']);
+Route::get('/contact-us', [TechController::class, 'contact']);
 
 
 Route::get('/industries', [IndustriesController::class, 'index']);
@@ -154,7 +155,7 @@ Route::get('/createportfolio', [PortfolioController::class, 'createportfolio']);
 Route::get('editPortfolioForAdmin/{id}', [PortfolioController::class, 'editPortfolioForAdmin']);
 Route::get('/createportfolio', [PortfolioController::class, 'createportfolio'])->name('createportfolio');
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
-Route::post('updatePortfolioForAdminApi/{id}', [PortfolioController::class, 'updatePortfolioForAdminApi']);
+Route::post('updatePortfolioForAdminApi', [PortfolioController::class, 'updatePortfolioForAdminApi']);
 
 
 
