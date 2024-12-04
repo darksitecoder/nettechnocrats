@@ -36,7 +36,7 @@
             <div class="row v-center">
                 <div class="header-item item-left">
                     <div class="logo">
-                        <a href="#"><img src="{{ asset('assets/web/nettechnocrats-logo.png') }}" alt="" srcset=""></a>
+                        <a href="{{ url('/')}}"><img src="{{ asset('assets/web/nettechnocrats-logo.png') }}" alt="" srcset=""></a>
                     </div>
                 </div>
                 <!-- menu start here -->
