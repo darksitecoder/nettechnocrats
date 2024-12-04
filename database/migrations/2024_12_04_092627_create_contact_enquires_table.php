@@ -16,8 +16,13 @@ return new class extends Migration
         
             $table->string('name', 255); // Heading
             $table->string('email', 255); // Heading
-            $table->text('subject'); // Content
-            $table->text('message'); // Content
+            $table->string('phone', 255); // Heading
+            $table->string('country', 255); // Heading
+            $table->string('company_size', 255); // Heading
+            $table->string('company_name', 255); // Heading
+            $table->string('company_website', 255); // Heading
+            $table->string('project_title', 255); // Heading 
+            $table->text('requirement'); // Content
             $table->timestamps(); // Created at & Updated at
         });
     }
