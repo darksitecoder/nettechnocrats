@@ -365,22 +365,13 @@
           <div class="col-lg-9">
 
             <div class="main-blog-post ">
-              <a href="#"> <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                <h2 class="pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing </h2>
+              <a href="#"> <img src="{{ asset('storage/'.$blogFND->image) }}" alt="Blogs Images" srcset="">
+                <h2 class="pt-4">{{$blogFND->heading}}</h2>
               </a>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi doloribus laudantium repellendus atque, nemo in ducimus ipsa cupiditate, qui at quae, odio perspiciatis optio?</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste eligendi ipsa, eius ducimus esse non sapiente in sit eum numquam doloribus quae, delectus pariatur vitae voluptatem culpa. Magnam distinctio praesentium suscipit voluptate minima aliquam vitae repellat recusandae vero consectetur pariatur quas illum unde provident, nihil dolor repudiandae? Numquam, porro possimus itaque odio tenetur ullam perspiciatis error placeat, hic nisi consectetur obcaecati vel sequi dolorum praesentium repudiandae. Tenetur pariatur nemo alias itaque. Dignissimos labore necessitatibus soluta sit voluptas ullam quae fugit voluptate sunt maxime alias delectus, possimus expedita pariatur dolorum accusamus sed laboriosam tempora eveniet consequuntur libero. Libero, voluptatem ullam.</p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi doloribus laudantium repellendus atque, nemo in ducimus ipsa cupiditate, qui at quae, odio perspiciatis optio?</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste eligendi ipsa, eius ducimus esse non sapiente in sit eum numquam doloribus quae, delectus pariatur vitae voluptatem culpa. Magnam distinctio praesentium suscipit voluptate minima aliquam vitae repellat recusandae vero consectetur pariatur quas illum unde provident, nihil dolor repudiandae? Numquam, porro possimus itaque odio tenetur ullam perspiciatis error placeat, hic nisi consectetur obcaecati vel sequi dolorum praesentium repudiandae. Tenetur pariatur nemo alias itaque. Dignissimos labore necessitatibus soluta sit voluptas ullam quae fugit voluptate sunt maxime alias delectus, possimus expedita pariatur dolorum accusamus sed laboriosam tempora eveniet consequuntur libero. Libero, voluptatem ullam.</p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi doloribus laudantium repellendus atque, nemo in ducimus ipsa cupiditate, qui at quae, odio perspiciatis optio?</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste eligendi ipsa, eius ducimus esse non sapiente in sit eum numquam doloribus quae, delectus pariatur vitae voluptatem culpa. Magnam distinctio praesentium suscipit voluptate minima aliquam vitae repellat recusandae vero consectetur pariatur quas illum unde provident, nihil dolor repudiandae? Numquam, porro possimus itaque odio tenetur ullam perspiciatis error placeat, hic nisi consectetur obcaecati vel sequi dolorum praesentium repudiandae. Tenetur pariatur nemo alias itaque. Dignissimos labore necessitatibus soluta sit voluptas ullam quae fugit voluptate sunt maxime alias delectus, possimus expedita pariatur dolorum accusamus sed laboriosam tempora eveniet consequuntur libero. Libero, voluptatem ullam.</p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi doloribus laudantium repellendus atque, nemo in ducimus ipsa cupiditate, qui at quae, odio perspiciatis optio?</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste eligendi ipsa, eius ducimus esse non sapiente in sit eum numquam doloribus quae, delectus pariatur vitae voluptatem culpa. Magnam distinctio praesentium suscipit voluptate minima aliquam vitae repellat recusandae vero consectetur pariatur quas illum unde provident, nihil dolor repudiandae? Numquam, porro possimus itaque odio tenetur ullam perspiciatis error placeat, hic nisi consectetur obcaecati vel sequi dolorum praesentium repudiandae. Tenetur pariatur nemo alias itaque. Dignissimos labore necessitatibus soluta sit voluptas ullam quae fugit voluptate sunt maxime alias delectus, possimus expedita pariatur dolorum accusamus sed laboriosam tempora eveniet consequuntur libero. Libero, voluptatem ullam.</p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi doloribus laudantium repellendus atque, nemo in ducimus ipsa cupiditate, qui at quae, odio perspiciatis optio?</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste eligendi ipsa, eius ducimus esse non sapiente in sit eum numquam doloribus quae, delectus pariatur vitae voluptatem culpa. Magnam distinctio praesentium suscipit voluptate minima aliquam vitae repellat recusandae vero consectetur pariatur quas illum unde provident, nihil dolor repudiandae? Numquam, porro possimus itaque odio tenetur ullam perspiciatis error placeat, hic nisi consectetur obcaecati vel sequi dolorum praesentium repudiandae. Tenetur pariatur nemo alias itaque. Dignissimos labore necessitatibus soluta sit voluptas ullam quae fugit voluptate sunt maxime alias delectus, possimus expedita </p>
+              <pre>{{$blogFND->content}}</pre>
               <div class="author__date pt-5 d-flex justify-content-between">
                 <b>Nettechnocrats </b>&nbsp;&nbsp;
-                <p> 28/09/2024</p>
+                <p> {{ $blogFND->created_at->format('d-m-Y') }} </p>
               </div>
             </div>
 
@@ -389,87 +380,38 @@
             <div class="recent-blog-lists">
               <h3>Featured Posts</h3>
               <hr style="color: var(--blue); height:5px;" />
-              <div class="list">
-                <a href="#">
-                  <div class="list__heading d-flex justify-content-between">
-                    <h4>Lorem ipsum dolor sit amet.</h4> <span style="color: var(--blue);">[New]</span>
-                  </div>
-                </a>
-                <div class="author__date d-flex justify-content-between">
-                  <b>Nettechnocrats </b>&nbsp;&nbsp;
-                  <p> 28/09/2024</p>
+              @foreach($blogLTS as $data)
+                <div class="list">
+                    <a href="{{url('blogdetail/'.$data->id)}}">
+                      <div class="list__heading d-flex justify-content-between">
+                          <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
+                      </div>
+                    </a>
+                    <div class="author__date d-flex justify-content-between">
+                      <b>Nettechnocrats </b>&nbsp;&nbsp;
+                      <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                    </div>
+                    <hr />
                 </div>
-                <hr />
-              </div>
-              <div class="list">
-                <a href="#">
-                  <div class="list__heading d-flex justify-content-between">
-                    <h4>Lorem ipsum dolor sit amet.</h4> <span style="color: var(--blue);">[New]</span>
-                  </div>
-                </a>
-                <div class="author__date d-flex justify-content-between">
-                  <b>Nettechnocrats </b>&nbsp;&nbsp;
-                  <p> 28/09/2024</p>
-                </div>
-                <hr />
-              </div>
-              <div class="list">
-                <a href="#">
-                  <div class="list__heading d-flex justify-content-between">
-                    <h4>Lorem ipsum dolor sit amet.</h4> <span style="color: var(--blue);">[New]</span>
-                  </div>
-                </a>
-                <div class="author__date d-flex justify-content-between">
-                  <b>Nettechnocrats </b>&nbsp;&nbsp;
-                  <p> 28/09/2024</p>
-                </div>
-                <hr />
-              </div>
-              <div class="list">
-                <a href="#">
-                  <div class="list__heading d-flex justify-content-between">
-                    <h4>Lorem ipsum dolor sit amet.</h4> <span style="color: var(--blue);">[New]</span>
-                  </div>
-                </a>
-                <div class="author__date d-flex justify-content-between">
-                  <b>Nettechnocrats </b>&nbsp;&nbsp;
-                  <p> 28/09/2024</p>
-                </div>
-                <hr />
-              </div>
+              @endforeach
             </div>
             <section class="blog__more__topics pt-5">
               <div class="heading">
                 <h6>EXPLORE MORE TOPICS</h6>
               </div>
-              <div class="pdf__card mt-3">
-                <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                <p class="text-center">Lorem ipsum</p>
-              </div>
-              <div class="pdf__card mt-3">
-                <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                <p class="text-center">Lorem ipsum</p>
-              </div>
-              <div class="pdf__card mt-3">
-                <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                <p class="text-center">Lorem ipsum</p>
-              </div>
-              <div class="pdf__card mt-3">
-                <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                <p class="text-center">Lorem ipsum</p>
-              </div>
-              <div class="pdf__card mt-3">
-                <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                <p class="text-center">Lorem ipsum</p>
-              </div>
-              <div class="pdf__card mt-3">
-                <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                <p class="text-center">Lorem ipsum</p>
-              </div>
+              @foreach($blogTPC as $data)
+                <div class="pdf__card mt-3">
+                  <a href="{{url('blogdetail/'.$data->id)}}">
+                    <img src="{{ asset('storage/'.$data->image) }}" alt="Blogs Images" srcset="">
+                  </a>
+                  <p class="text-center">{{ strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic }}</p>
+                </div>
+              @endforeach
             </section>
           </div>
         </div>
 
+        {{--
         <section class="reviews">
           <div class="row mt-4 mb-4" id="SCREEN_VIEW_CONTAINER">
             <div class="col-md-9">
@@ -493,7 +435,7 @@
               <div class="col-lg-6">
                 <div class="users__comments">
                   <div class="d-flex justify-content-between align-items-center">
-                    <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="" srcset="">
+                    <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="Blogs Images" srcset="">
                     <p class="name">User Name</p>
                   </div>
                   <p class="comment pt-2">
@@ -507,7 +449,7 @@
               <div class="col-lg-6">
                 <div class="users__comments">
                   <div class="d-flex justify-content-between align-items-center">
-                    <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="" srcset="">
+                    <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="Blogs Images" srcset="">
                     <p class="name">User Name</p>
                   </div>
                   <p class="comment pt-2">
@@ -521,72 +463,30 @@
             </div>
           </div>
         </section>
+        --}}
         <div class="row pt-4">
           <div class="heading d-flex justify-content-between align-items-center pb-4">
             <hr style="color:var(--blue); width:20%; height:5px;" />
             <h1>VIEW MORE BLOGS</h1>
             <hr style="color:var(--blue); width:20%; height:5px;" />
           </div>
-          <div class="col-lg-3">
-            <div class="blog__list">
-              <a href="#">
-                <div class="blog">
-                  <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                  <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                  <div class="author__date d-flex justify-content-between">
-                    <b>Nettechnocrats </b>&nbsp;&nbsp;
-                    <p> 28/09/2024</p>
-                  </div>
+          @foreach($blogRAN as $data)
+            <div class="col-lg-3">
+                <div class="blog__list">
+                  <a href="{{url('blogdetail/'.$data->id)}}">
+                      <div class="blog">
+                        <img src="{{ asset('storage/'.$data->image) }}" alt="Blogs Images" srcset="">
+                        <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
+                        <p>{{ strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content }}</p>
+                        <div class="author__date d-flex justify-content-between">
+                            <b>Nettechnocrats </b>&nbsp;&nbsp;
+                            <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                        </div>
+                      </div>
+                  </a>
                 </div>
-              </a>
             </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="blog__list">
-              <a href="#">
-                <div class="blog">
-                  <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                  <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                  <div class="author__date d-flex justify-content-between">
-                    <b>Nettechnocrats </b>&nbsp;&nbsp;
-                    <p> 28/09/2024</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="blog__list">
-              <a href="#">
-                <div class="blog">
-                  <img src="{{ asset('assets/web/banner1.png') }}" alt="" srcset="">
-                  <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                  <div class="author__date d-flex justify-content-between">
-                    <b>Nettechnocrats </b>&nbsp;&nbsp;
-                    <p> 28/09/2024</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="blog__list">
-              <a href="#">
-                <div class="blog">
-                  <img src="{{ asset('assets/web/banner2.png') }}" alt="" srcset="">
-                  <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                  <div class="author__date d-flex justify-content-between">
-                    <b>Nettechnocrats </b>&nbsp;&nbsp;
-                    <p> 28/09/2024</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
+          @endforeach
         </div>
 
       </section>

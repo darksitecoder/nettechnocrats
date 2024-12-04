@@ -333,11 +333,27 @@ class blogController extends Controller
         // For showing in front end with compact
         function listBlogsFrontEnd(Request $request)
         {
+
             $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
-            $blogRND = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
+            $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
+            $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->distinct('topic')->take(5)->get();
+    
+            // dd($blogLTS, $blogRAN, $blogTPC);
+            return view('frontend.bloglist', compact('blogLTS', 'blogRAN', 'blogTPC'));
+        }
+
+
+        // For showing in front end with compact
+        function blogDetailFrontEnd(Request $request, $id)
+        {
+
+            $blogFND = Blog::where('status', 'publish')->whereNotNull('image')->where('id', $id)->first();
+            $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
+            $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
             $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->distinct('topic')->take(3)->get();
     
-            return view('frontend.bloglist', compact('blogLTS', 'blogRND', 'blogTPC'));
+            // dd($blogFND, $blogLTS, $blogRAN, $blogTPC);
+            return view('frontend.blogdetail', compact('blogFND', 'blogLTS', 'blogRAN', 'blogTPC'));
         }
 
 

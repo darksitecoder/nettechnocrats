@@ -225,25 +225,33 @@
    </div>
   </div>
  </div>
- <div class="container-fluid about py-5">
-  <div class="container p-0">
-   <div class="row">
-    <div class="col-md-12 d-flex justify-content-center case__study__banner">
-     <img src="{{ asset('assets/web/smm-banner.png') }}" alt="" srcset="">
-    </div>
-   </div>
-   <div class="row">
-    <div class="col-md-12 case__study">
-     <h1 class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, officiis.</h1>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ab magni, officia fugit officiis dolorem repellendus quae eveniet facere? Labore velit error dicta deleniti ex provident dolorum asperiores molestiae vero.</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente error possimus illo! Aspernatur, ad. Animi pariatur eaque eius deserunt at, cumque illo molestiae odit quos voluptatem quisquam. Ratione expedita sapiente aspernatur sunt similique voluptates cupiditate adipisci natus. Nobis possimus, optio quos doloremque, totam error harum cumque fugit, quis architecto sapiente?</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laudantium nostrum sint consectetur mollitia in quod itaque explicabo magnam, ducimus facilis quibusdam doloribus, vel dolores! Beatae deserunt perspiciatis architecto, saepe iste accusamus suscipit inventore quis incidunt corporis. Dolorum, assumenda earum! Voluptate amet rem ad dolores eos, quidem temporibus adipisci distinctio similique, eum ea excepturi! Molestiae libero voluptate, tenetur in quo laudantium, nostrum debitis eum accusantium, hic cumque quidem repellat culpa voluptatibus deserunt. Animi minus debitis illum amet tempora blanditiis nemo, delectus recusandae incidunt non architecto quia quo magni cum itaque error! Veniam dolorem sapiente ex dolores magnam voluptatibus cum enim!</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fugiat laboriosam et aspernatur praesentium repellendus, sed cum deserunt facilis aperiam veniam! Ipsum, incidunt modi explicabo nulla dignissimos nam dolor. Omnis quia unde totam ad consequuntur tenetur placeat laborum doloribus delectus quod aperiam autem natus facere, inventore veritatis necessitatibus perspiciatis eum magni eos amet cumque quo quae quas? Fugit praesentium nobis voluptatem molestias quam, inventore fuga quo perferendis! Fuga vitae, doloremque, perferendis numquam ipsam commodi cupiditate veniam, quam alias in earum vel modi iure voluptatem? Eius sapiente, harum itaque deleniti minus consectetur earum laborum eaque cum voluptate cumque ullam dolorum saepe praesentium nesciunt dolor voluptatem perferendis culpa sint adipisci asperiores? Impedit similique, velit quia at alias est sequi eaque vitae quisquam ad quos non libero quibusdam illo fugit ipsa, magni hic necessitatibus assumenda vero! Expedita nostrum numquam error eaque illo aperiam dolores a, quos omnis fugit sequi autem nihil officia non vel nemo, quod voluptatum voluptate tempore enim. Eligendi dolor nulla animi libero, quidem, aliquam pariatur incidunt sit nemo quaerat non, cumque praesentium optio eveniet quas nihil aperiam cum officiis atque culpa a iusto debitis et facere. Doloremque dolorum itaque voluptates corporis ut maiores deserunt voluptatem unde nisi id. Ipsum sint consectetur nostrum culpa asperiores dignissimos quos eum, veniam eaque ex, delectus amet modi atque quis quia. Laboriosam nihil rem tenetur ipsum voluptates debitis iste a labore quae molestiae, dolores minima rerum accusantium voluptatibus soluta ullam natus! Ea possimus neque in fuga delectus quos, at perspiciatis aspernatur itaque odio, quam cumque.</p>
 
-     <button class="btn">View More Case studies <i class="fa-solid fa-angles-right"></i></button>
+
+
+@foreach($portfolio as $blog)
+    <div class="container-fluid about py-5">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center case__study__banner">
+                    <!-- Correct image URL using Storage::url() -->
+                    <img src="{{ Storage::url($blog->image) }}" alt="{{ $blog->heading }}">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 case__study">
+                    <h1 class="py-4">{{ $blog->heading }}</h1>
+                    <p>{{ $blog->content }}</p>
+
+                    <!-- View More button with a link to portfolio details -->
+                    <a href="{{ url('/portfolio')}}" class="btn">
+                        View More Case Studies <i class="fa-solid fa-angles-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-   </div>
-  </div>
+@endforeach
+
  </div>
  <!-- About End -->
 

@@ -205,45 +205,30 @@
     </div>
     <div class="container-fluid about py-5">
         <div class="container1 py-5">
-            <div class="showcase">
-                <div class="thumbnail thumbnail--awesome" style="background: url('{{ asset('assets/web/banner1.png') }}'); background-repeat:no-repeat; background-size:cover;">
-                    <div class=" thumbnail__overlay">
-                        <a class="btn" href="{{url('/portfoliodetails')}}">VIEW CASE STUDY</a>
-                    </div>
-                </div>
-                <div class="desc">
-                    <p>Case Study</p>
-                    <h2>Project 1</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minima voluptatum adipisci doloribus nostrum ad.</p>
-                </div>
-            </div>
-            <!-- <div class="showcase">
-                <div class="thumbnail">
-                    <div class="thumbnail__overlay">
-                        <a class="btn" href="#0">DETAILS</a>
-                    </div>
-                </div>
-                <div class="desc">
-                    <p>Case Study</p>
-                    <h2>Awesome Project 2</h2>
-                    <p>This project is even more awesome!
-                    </p>
-                </div>
-            </div> -->
-            <div class="showcase showcase--inverted" tyle="background: url('{{ asset('assets/web/banner1.png') }}'); background-repeat:no-repeat; background-size:cover;">
-                <div class=" desc">
-                    <p>Case Study</p>
-                    <h2>Project 2</h2>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l
-                    </p>
-                </div>
-                <div class="thumbnail">
-                    <div class="thumbnail__overlay">
-                        <a class="btn" href="{{url('/portfoliodetails')}}">VIEW CASE STUDY</a>
-                    </div>
-                </div>
+
+
+        
+      
+ 
+        @foreach($portfolio as $blog)
+    <div class="showcase">
+        <div class="thumbnail thumbnail--awesome" style="background: url('{{ Storage::url($blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
+            <div class=" thumbnail__overlay">
+            <a class="btn" href="{{ url('/portfoliodetails/' . $blog->id) }}">VIEW CASE STUDY</a>
             </div>
         </div>
+        <div class="desc">
+            <p>Case Study</p>
+            <h2>{{ $blog->heading }}</h2>
+
+            <!-- Limit content to 20 words -->
+            <p>{{ \Illuminate\Support\Str::words($blog->content, 20) }}</p>
+        </div>
+    </div>
+@endforeach
+
+           
+            
     </div>
     <!-- About End -->
 
