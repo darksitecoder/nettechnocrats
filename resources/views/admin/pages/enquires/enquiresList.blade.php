@@ -139,6 +139,7 @@
        <a href="{{url('/listContactEnquiriesForAdmin')}}" class=" btn">Contact Enquires <i class="fa-solid fa-circle-plus"></i></a>
       </div>
      </div>
+     {{$enquiry}}
 
      <!-- Display success or error message from session -->
 
@@ -153,30 +154,31 @@
            <th class="d-none d-xl-table-cell">Name</th>
            <th class="d-none d-xl-table-cell">Subject</th>
            <th class="d-none d-md-table-cell">Email</th>
-           <th class="d-none d-md-table-cell">Phone</th>
+           <!-- <th class="d-none d-md-table-cell">Phone</th> -->
            <th class="d-none d-md-table-cell"></th>
            <th class="d-none d-md-table-cell"></th>
           </tr>
          </thead>
          <tbody>
-          <tr>
-           <td>EN - 1522</td>
-           <td>04/12/2024</td>
-           <td>Ramesh</td>
-           <td>Hello this is</td>
-           <td>djfknjd@gmail.com</td>
-           <td>9798465445</td>
-           <td class="d-none d-md-table-cell"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
-             <button class="badge px-2 py-1 fs-6 edit trigger">
-              View enquiry <i class="fa-regular fa-eye"></i>
-             </button>
-            </a>
-           </td>
-           <td class="d-none d-md-table-cell"><a href="{{ url('') }}"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
-          </tr>
 
-
-
+         
+         @foreach($enquiry as $data)
+            <tr>
+              <td>{{$data->id}}</td>
+              <td>{{$data->created_at->format('d-m-Y')}}</td>
+              <td>{{$data->name}}</td>
+              <td>{{$data->subject}}</td>
+              <td>{{$data->email}}</td>
+              <!-- <td>9798465445</td> -->
+              <td class="d-none d-md-table-cell"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button class="badge px-2 py-1 fs-6 edit trigger">
+                  View enquiry <i class="fa-regular fa-eye"></i>
+                </button>
+                </a>
+              </td>
+              <td class="d-none d-md-table-cell"><a href="{{ url('deleteEnquiriesForAdmin/'.$data->id) }}"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
+            </tr>
+          @endforeach
          </tbody>
         </table>
        </div>
@@ -219,11 +221,11 @@
      <th>Email</th>
      <td></td>
     </tr>
-    <tr>
+    <!-- <tr>
      <th>Phone </th>
      <td></td>
     </tr>
-    <!-- <tr>
+    <tr>
      <td>Company Size </td>
      <td></td>
     </tr>
@@ -237,8 +239,8 @@
     </tr>
     <tr>
      <td>Project Title </td>
-     <td></td>
-    </tr> -->
+     <td></td> -->
+    </tr>
     <tr>
      <th colspan="2">Message :</th>
     </tr>
