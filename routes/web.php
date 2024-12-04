@@ -80,7 +80,7 @@ Route::get('/contact-us', [TechController::class, 'contact']);
 
 Route::get('/industries', [IndustriesController::class, 'index']);
 Route::get('/portfolio', [PortfolioController::class, 'index']);
-Route::get('/portfoliodetails', [PortfolioController::class, 'portfoliodetail']);
+Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
 
 
 Route::get('/seo-services', [DigitalMarketingController::class, 'seo']);
