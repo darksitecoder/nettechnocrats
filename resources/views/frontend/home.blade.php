@@ -518,7 +518,7 @@
                                 </div>
 
                             </div>
-                            <div class="row pt-5">
+                            <div class="row">
                                 <div class="col-lg-3">
                                     <div class="cards__details">
                                         <img src="{{ asset('assets/web/webd.png') }}" alt="" srcset="">
@@ -564,78 +564,78 @@
                     </div>
                 </section>
 
-                <section class="digital__marketing__funnel">
+                <!-- <section class="digital__marketing__funnel">
 
                     <div class="funnel-container">
                         <h2 class=" text-center fw-bolder fs-1 pb-3">Digital Marketing Stages</h2>
                         <p class="text-center pb-3"> This approach involves dividing the funnel into three stages - Awareness, Consideration, and Conversion - and sometimes adding a fourth stage - Customer Retention. By optimizing campaigns for each stage of the funnel, businesses can reach potential and existing customers at every stage of their journey, building trust and credibility. </p>
                         <div class="funnel-titles">
                             <div>
-                                <!-- <h3>Funnel Top</h3> -->
-                                <p>Generate initial interest through social media ads, blog posts, and SEO to reach potential customers not actively seeking solutions.</p>
-                            </div>
-                            <div>
-                                <p>
-                                    Customers research options by reading reviews, watching demos, and engaging with detailed content like case studies.</p>
-                            </div>
-                            <div>
-                                <p>Prospects compare features and pricing, influenced by strong calls-to-action and compelling offers to decide.</p>
-                            </div>
-                            <div>
-                                <p>Potential customers take desired actions like purchasing, signing up for newsletters, or downloading trials.</p>
-                            </div>
-                            <div>
-                                <p>The loyalty stage builds long-term relationships with excellent service, relevant content, and loyalty programs.</p>
-                            </div>
-                        </div>
+                               
+                <p>Generate initial interest through social media ads, blog posts, and SEO to reach potential customers not actively seeking solutions.</p>
+            </div>
+            <div>
+                <p>
+                    Customers research options by reading reviews, watching demos, and engaging with detailed content like case studies.</p>
+            </div>
+            <div>
+                <p>Prospects compare features and pricing, influenced by strong calls-to-action and compelling offers to decide.</p>
+            </div>
+            <div>
+                <p>Potential customers take desired actions like purchasing, signing up for newsletters, or downloading trials.</p>
+            </div>
+            <div>
+                <p>The loyalty stage builds long-term relationships with excellent service, relevant content, and loyalty programs.</p>
+            </div>
+        </div>
 
-                        <div class="funnel-wrap">
-                            <ul>
-                                <li>
-                                    <span class="before"></span>
-                                    <span class="content">
-                                        <h3>Awareness</h3>
-                                    </span>
-                                    <span class="after"></span>
-                                </li>
-                                <li>
-                                    <span class="before"></span>
-                                    <span class="content">
-                                        <h3>Consideration</h3>
-                                    </span>
-                                    <span class="after"></span>
-                                </li>
-                                <li>
-                                    <span class="before"></span>
-                                    <span class="content">
-                                        <h3>Evaluation</h3>
+        <div class="funnel-wrap">
+            <ul>
+                <li>
+                    <span class="before"></span>
+                    <span class="content">
+                        <h3>Awareness</h3>
+                    </span>
+                    <span class="after"></span>
+                </li>
+                <li>
+                    <span class="before"></span>
+                    <span class="content">
+                        <h3>Consideration</h3>
+                    </span>
+                    <span class="after"></span>
+                </li>
+                <li>
+                    <span class="before"></span>
+                    <span class="content">
+                        <h3>Evaluation</h3>
 
-                                    </span>
-                                    <span class="after"></span>
-                                </li>
-                                <li>
-                                    <span class="before"></span>
-                                    <span class="content">
-                                        <h3>Conversion</h3>
-                                    </span>
-                                    <span class="after"></span>
-                                </li>
-                                <li>
-                                    <span class="before"></span>
-                                    <span class="content">
-                                        <h3>Loyalty</h3>
-                                    </span>
-                                    <span class="after"></span>
-                                </li>
+                    </span>
+                    <span class="after"></span>
+                </li>
+                <li>
+                    <span class="before"></span>
+                    <span class="content">
+                        <h3>Conversion</h3>
+                    </span>
+                    <span class="after"></span>
+                </li>
+                <li>
+                    <span class="before"></span>
+                    <span class="content">
+                        <h3>Loyalty</h3>
+                    </span>
+                    <span class="after"></span>
+                </li>
 
-                            </ul>
+            </ul>
 
-                            <div class="funnel-before"></div>
-                            <div class="funnel-after"></div>
+            <div class="funnel-before"></div>
+            <div class="funnel-after"></div>
 
-                        </div>
-                    </div>
-                </section>
+        </div>
+    </div>
+    </section> -->
 
 
                 <section class="testimonial__video">
@@ -786,10 +786,10 @@
                                 </div>
                             </div>
                             <div class="right-slide">
-                                <div style="background: url('https://plus.unsplash.com/premium_photo-1661963972388-1da70b60752b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHdpZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60')">
+                                <div style="background: url('{{ asset('assets/web/ilya-pavlov-OqtafYT5kTw-unsplash.jpg') }}');">
 
                                 </div>
-                                <div style="background: url('https://images.unsplash.com/photo-1565432629946-62b4a2311557?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdpZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60')">
+                                <div style="background:url('{{ asset('assets/web/aplle-wallet-1-removebg-preview.webp') }}'); ">
 
                                 </div>
                                 <div style="background: url('https://images.unsplash.com/photo-1547327195-59a16bed035e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdpZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60')">

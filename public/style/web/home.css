@@ -402,8 +402,9 @@ p {
 
 .spectrum__services .services__cards .row .col-lg-3 {
   padding: 1rem 0.5rem;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   transition: 0.20s ease-in-out;
+  border: 1px solid var(--black);
 }
 
 .spectrum__services .services__cards .row .col-lg-3:hover {
