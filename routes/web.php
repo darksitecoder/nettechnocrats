@@ -113,7 +113,7 @@ Route::get('/ui-ux-design-services', [TechController::class, 'uiux']);
 
 
 Route::get('/bloglist', [blogController::class, 'listBlogsFrontEnd']);
-Route::get('/blogdetail', [TechController::class, 'blogdetail']);
+Route::get('/blogdetail/{id}', [blogController::class, 'blogDetailFrontEnd']);
 
 Route::middleware(['auth'])->group(function () {
     // Protected route for the admin dashboard
