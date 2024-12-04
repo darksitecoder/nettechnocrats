@@ -232,8 +232,23 @@
 
       <main class="content">
         <div class="container-fluid p-0">
-          <form action="{{ url('/saveBlogsForAdminApi') }}" method="POST" enctype="multipart/form-data">
+          <form action="{{ url('/savePortfolioForAdminApi') }}" method="POST" enctype="multipart/form-data">
+            @csrf
 
+
+            @if(session('success'))
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+              {{ session('success') }}
+              <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            @endif
+
+            @if(session('error'))
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              {{ session('error') }}
+              <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            @endif
 
 
             <!-- Form Content -->
@@ -258,6 +273,10 @@
                 </div>
               </div>
 
+              @error('image')
+              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+              @enderror
+
             </div>
 
 
@@ -267,21 +286,33 @@
               <div class="col-md-12 stretch-card grid-margin">
                 <input type="text" id="heading" name="heading" class="blog__heading" value="" placeholder="Enter Heading Here...">
               </div>
+              @error('heading')
+              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+              @enderror
+
             </div>
 
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <!-- Display Heading Validation Error -->
               <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="heading" name="heading" class="blog__heading" value="" placeholder="Enter Company Name">
+                <input type="text" id="heading" name="company_name" class="blog__heading" value="" placeholder="Enter Company Name">
               </div>
+              @error('company_name')
+              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+              @enderror
+
             </div>
 
             <!-- Content Textarea Section -->
             <div class="row pt-1 d-flex justify-content-center">
               <!-- Display Content Validation Error -->
               <div class="col-md-12 stretch-card grid-margin blog__content">
-                <textarea name="content" id="editor"></textarea>
+                <textarea name="content" id="content"></textarea>
               </div>
+              @error('content')
+              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+              @enderror
+
             </div>
 
           </form>

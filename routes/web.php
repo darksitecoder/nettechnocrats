@@ -150,7 +150,7 @@ Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
 
 // Portfolio for Admin
 Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
-Route::get('AddBlogsForAdmin', [blogController::class, 'AddBlogsForAdmin'])->name('AddBlogsForAdmin');
+Route::post('savePortfolioForAdminApi', [PortfolioController::class, 'savePortfolioForAdminApi'])->name('savePortfolioForAdminApi');
 Route::get('PortfolioForAdmin', [PortfolioController::class, 'PortfolioForAdmin']);
 Route::get('/createportfolio', [PortfolioController::class, 'createportfolio']);
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
