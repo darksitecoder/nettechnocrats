@@ -12,14 +12,24 @@
   color: var(--accent-color);
   background:
    color-mix(in srgb, var(--accent-color), transparent 92%);
-  width: 44px;
-  height: 44px;
+  width: 10px !important;
+  height: 10px !important;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 10px !important;
   transition: all 0.3s ease-in-out;
   margin-right: 0px;
+ }
+
+ .contact select {
+  background-color: var(--white) !important;
+  color: var(--black);
+ }
+
+ .contact select option {
+  background-color: var(--white) !important;
+  color: var(--black);
  }
 </style>
 @section('content')
@@ -122,11 +132,40 @@
         <label for="email-field" class="pb-2">Your Email</label>
         <input type="email" class="form-control" name="email" id="email-field" required="">
        </div>
+       <div class="col-md-6">
+        <label for="name-field" class="pb-2">Phone</label>
+        <input type="text" name="name" id="name-field" class="form-control" required="">
+       </div>
+
+       <div class="col-md-6">
+        <label for="email-field" class="pb-2">Company Size</label>
+        <select class="form-control" name="" id="" required="">
+         <option value="">Company Size</option>
+         <option value="">1-10 Employees</option>
+         <option value="">11-50 Employees</option>
+         <option value="">51-200 Employees</option>
+         <option value="">201-500 Employees</option>
+         <option value="">500+ Employees</option>
+        </select>
+       </div>
 
        <div class="col-md-12">
-        <label for="subject-field" class="pb-2">Subject</label>
-        <input type="text" class="form-control" name="subject" id="subject-field" required="">
+        <label for="subject-field" class="pb-2">Country</label>
+        <select id="country" class="form-control" required></select>
        </div>
+       <div class="col-md-4">
+        <label for="email-field" class="pb-2">Company Name</label>
+        <input type="email" class="form-control" name="email" id="email-field" required="">
+       </div>
+       <div class="col-md-4">
+        <label for="email-field" class="pb-2">Company Website</label>
+        <input type="email" class="form-control" name="email" id="email-field" required="">
+       </div>
+       <div class="col-md-4">
+        <label for="email-field" class="pb-2">Project Title</label>
+        <input type="email" class="form-control" name="email" id="email-field" required="">
+       </div>
+
 
        <div class="col-md-12">
         <label for="message-field" class="pb-2">Message</label>
@@ -155,3 +194,46 @@
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 @endsection
+
+<script>
+ // List of country names
+ const countries = [
+  "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia",
+  "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium",
+  "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria",
+  "Burkina Faso", "Burundi", "Cabo Verde", "Cambodia", "Cameroon", "Canada", "Central African Republic", "Chad",
+  "Chile", "China", "Colombia", "Comoros", "Congo", "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czech Republic",
+  "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea",
+  "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia",
+  "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Honduras",
+  "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", "Italy", "Jamaica", "Japan",
+  "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Korea (North)", "Korea (South)", "Kosovo", "Kuwait", "Kyrgyzstan",
+  "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg",
+  "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius",
+  "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar",
+  "Namibia", "Nauru", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Macedonia",
+  "Norway", "Oman", "Pakistan", "Palau", "Palestine", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines",
+  "Poland", "Portugal", "Qatar", "Romania", "Russia", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines",
+  "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone",
+  "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Sudan", "Spain", "Sri Lanka",
+  "Sudan", "Suriname", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Timor-Leste",
+  "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine",
+  "United Arab Emirates", "United Kingdom", "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City",
+  "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"
+ ];
+
+ // Function to populate the select field
+ function populateCountrySelect() {
+  const countrySelect = document.getElementById('country');
+
+  countries.forEach(country => {
+   const option = document.createElement('option');
+   option.value = country;
+   option.textContent = country;
+   countrySelect.appendChild(option);
+  });
+ }
+
+ // Populate the select field on page load
+ document.addEventListener('DOMContentLoaded', populateCountrySelect);
+</script>
