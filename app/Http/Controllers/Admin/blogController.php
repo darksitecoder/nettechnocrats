@@ -193,7 +193,7 @@ class blogController extends Controller
         ]);
     
         // Store success message in session
-        session()->flash('success', 'Blog ' . ($status == 'Published' ? 'Published' : 'saved') . ' successfully!');
+        session()->flash('success', 'Blog ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
 
         // Optionally, return the blog ID or any other data if needed
         return redirect()->route('AddBlogsForAdmin'); // Redirect to the blogs index page or your desired page
@@ -246,19 +246,7 @@ class blogController extends Controller
     {
 
         $status = $request->input('action');
-        // dd($status);
-        // $user = Auth::guard('api')->user();
-
-        // // Check if the user is authorized (Admin or B2B)
-        // if (!in_array($user->role, ['Admin', 'b2b'])) {
-        //     return response()->json(['status' => '0', 'message' => 'Unauthorized users']);
-        // }
-
-        // // Check if the request is AJAX
-        // if (!$request->ajax()) {
-        //     return response()->json(['message' => 'Invalid request'], 400);
-        // }
-
+        
         // Validate the incoming data
         $validatedData = $request->validate([
             'blogId' => 'required',
@@ -323,7 +311,7 @@ class blogController extends Controller
 
        
         // Store success message in session
-        session()->flash('success', 'Blog ' . ($status == 'Published' ? 'Published' : 'saved') . ' successfully!');
+        session()->flash('success', 'Blog ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
 
         // Optionally, return the blog ID or any other data if needed
         return redirect()->to('editBlogsForAdmin/' . $id); // Redirect to the blogs index page or your desired page

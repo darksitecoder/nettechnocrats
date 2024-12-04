@@ -83,11 +83,18 @@
    transform: translate(-50%, -50%);
    background-color: white;
    padding: 1rem 1.5rem;
-   width: 24rem;
+   width: 50%;
    border-radius: 0.5rem;
+   height: 500px;
+   overflow-y: scroll;
   }
 
   .modal-content table tr td {
+   font-size: 16px;
+   line-height: 50px;
+  }
+
+  .modal-content table tr th {
    font-size: 16px;
    line-height: 50px;
   }
@@ -128,6 +135,9 @@
     <div class="container-fluid p-0">
      <div class="d-flex justify-content-between mb-4">
       <h1 class="h3 mb-3"><strong>Enquiry List</strong></h1>
+      <div class="buttons">
+       <a href="{{url('/listContactEnquiriesForAdmin')}}" class=" btn">Contact Enquires <i class="fa-solid fa-circle-plus"></i></a>
+      </div>
      </div>
 
      <!-- Display success or error message from session -->
@@ -158,7 +168,7 @@
            <td>9798465445</td>
            <td class="d-none d-md-table-cell"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
              <button class="badge px-2 py-1 fs-6 edit trigger">
-              View Blog <i class="fa-regular fa-eye"></i>
+              View enquiry <i class="fa-regular fa-eye"></i>
              </button>
             </a>
            </td>
@@ -190,27 +200,27 @@
    <h1 class="fw-bolder">Enquiry detail</h1>
    <table>
     <tr>
-     <td>Enquiry Id</td>
+     <th>Enquiry Id</th>
      <td></td>
     </tr>
     <tr>
-     <td>Date</td>
+     <th>Date</th>
      <td></td>
     </tr>
     <tr>
-     <td>Name</td>
+     <th>Name</th>
      <td></td>
     </tr>
     <tr>
-     <td>Subject</td>
+     <th>Subject</th>
      <td></td>
     </tr>
     <tr>
-     <td>Email</td>
+     <th>Email</th>
      <td></td>
     </tr>
     <tr>
-     <td>Phone </td>
+     <th>Phone </th>
      <td></td>
     </tr>
     <!-- <tr>
@@ -230,7 +240,7 @@
      <td></td>
     </tr> -->
     <tr>
-     <td colspan="2">Message :</td>
+     <th colspan="2">Message :</th>
     </tr>
     <tr>
      <td colspan="2"></td>

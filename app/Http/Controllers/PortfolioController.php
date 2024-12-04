@@ -86,7 +86,7 @@ class PortfolioController extends Controller
         ]);
     
         // Store success message in session
-        session()->flash('success', 'Portfolio ' . ($status == 'Published' ? 'Published' : 'saved') . ' successfully!');
+        session()->flash('success', 'Portfolio ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
 
         // Optionally, return the blog ID or any other data if needed
         return redirect()->route('createportfolio'); // Redirect to the blogs index page or your desired page
@@ -183,7 +183,7 @@ class PortfolioController extends Controller
 
        
         // Store success message in session
-        session()->flash('success', 'Portfolio ' . ($status == 'Published' ? 'Published' : 'saved') . ' successfully!');
+        session()->flash('success', 'Portfolio ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
 
         // Optionally, return the blog ID or any other data if needed
         return redirect()->to('editPortfolioForAdmin/' . $id); // Redirect to the blogs index page or your desired page
