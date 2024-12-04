@@ -344,6 +344,8 @@
     </main>
 
 
+    @include('partial/footer')
+
 
     <!-- Vendor JS Files -->
     <script src="{{ asset('js/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
