@@ -14,7 +14,7 @@ use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\Admin\blogController;
 use App\Http\Controllers\Admin\BlogCommentController;
 use App\Http\Controllers\Admin\BlogTopicController;
-use App\Http\Controllers\admin\enquiresController;
+use App\Http\Controllers\Admin\enquiresController;
 
 /*
 |--------------------------------------------------------------------------
@@ -124,11 +124,9 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
     Route::get('deleteEnquiriesForAdmin/{id}', [enquiresController::class, 'deleteEnquiriesForAdmin']);
-
+    
     Route::get('listContactEnquiriesForAdmin', [enquiresController::class, 'listContactEnquiriesForAdmin']);
-
-    Route::post('enquiryFormSubmit', [enquiresController::class, 'enquiryFormSubmit']);
-
+    Route::get('deleteContactEnquiriesForAdmin/{id}', [enquiresController::class, 'deleteContactEnquiriesForAdmin']);
 
 });
 // Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
@@ -182,4 +180,6 @@ Route::get('blogDetails/{id}/{shop_id?}', [blogController::class, 'blogDetails']
 
 
 // enquires for Admin
-Route::post('contact_enquiryFormSubmit', [enquiresController::class, 'contact_enquiryFormSubmit']);
+Route::post('/contact_enquiryFormSubmit', [enquiresController::class, 'contact_enquiryFormSubmit']);
+
+Route::post('/enquiryFormSubmit', [enquiresController::class, 'enquiryFormSubmit']);
