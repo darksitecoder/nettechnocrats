@@ -5,7 +5,7 @@ namespace App\Http\Controllers\admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Enquiry;
-use App\Models\ContactEnquiry;
+use App\Models\contact_enquiry;
 
 class enquiresController extends Controller
 {
@@ -49,21 +49,22 @@ class enquiresController extends Controller
 
     public function contact_enquiryFormSubmit(Request $request)
     {
+        
        // Validate the form data
        $validated = $request->validate([
         'name' => 'required|string|max:255',
         'email' => 'required|email|max:255',
         'phone' => 'required|string|max:255',
         'country' => 'required|string|max:255',
-        'company_size' => 'required|string|max:255',
-        'company_name' => 'required|string|max:255',
-        'company_website' => 'required|url|max:255',
-        'project_title' => 'required|string|max:255',
-        'requirement' => 'required|string',
+        // 'company_size' => 'required|string|max:255',
+        // 'company_name' => 'required|string|max:255',
+        // 'company_website' => 'required|url|max:255',
+        // 'project_title' => 'required|string|max:255',
+        // 'requirement' => 'required|string',
     ]);
 
     // Save the enquiry data into the database
-    ContactEnquiry::create([
+    $save =  contact_enquiry::create([
         'name' => $request->name,
         'email' => $request->email,
         'phone' => $request->phone,
@@ -75,8 +76,8 @@ class enquiresController extends Controller
         'requirement' => $request->requirement,
     ]);
 
-    // Set a success message and redirect back
-    return redirect()->back()->with('success', 'Your enquiry has been submitted successfully.');
-
+    if ($save) {
+        echo 'OK';
     }
+}
 }
