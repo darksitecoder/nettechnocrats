@@ -238,7 +238,7 @@
 
                     $.ajax({
                         type: 'POST',
-                        url: '/addBlogTopicApi',
+                        url: 'addBlogTopicApi',
                         headers: {
                             'X-CSRF-TOKEN': csrfToken // Add the CSRF token to the headers
                         },
