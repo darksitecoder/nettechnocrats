@@ -89,6 +89,12 @@ Route::get('/ppc-services', [DigitalMarketingController::class, 'ppc']);
 Route::get('/local-seo-services', [DigitalMarketingController::class, 'local']);
 Route::get('/online-reputation-management', [DigitalMarketingController::class, 'orm']);
 
+Route::get('/healthcare-seo-services', [DigitalMarketingController::class, 'healthcare']);
+Route::get('/limo-seo-services', [DigitalMarketingController::class, 'limoseo']);
+Route::get('/law-firm-seo', [DigitalMarketingController::class, 'lawseo']);
+
+
+
 Route::get('/about', [DigitalMarketingController::class, 'aboutus']);
 
 
@@ -124,10 +130,9 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
     Route::get('deleteEnquiriesForAdmin/{id}', [enquiresController::class, 'deleteEnquiriesForAdmin']);
-    
+
     Route::get('listContactEnquiriesForAdmin', [enquiresController::class, 'listContactEnquiriesForAdmin']);
     Route::get('deleteContactEnquiriesForAdmin/{id}', [enquiresController::class, 'deleteContactEnquiriesForAdmin']);
-
 });
 // Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
 // for blog topic

@@ -40,10 +40,22 @@ class DigitalMarketingController extends Controller
     {
         return view('frontend.digital-marketing.orm');
     }
-
     public function aboutus()
     {
 
         return view('frontend/new/aboutus');
+    }
+
+    public function healthcare()
+    {
+        return view('frontend.digital-marketing.healthcare');
+    }
+    public function limoseo()
+    {
+        return view('frontend.digital-marketing.limoseo');
+    }
+    public function lawseo()
+    {
+        return view('frontend.digital-marketing.lawseo');
     }
 }

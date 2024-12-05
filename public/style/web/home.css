@@ -14550,7 +14550,7 @@ footer .row h5 {
   flex-wrap: wrap;
   gap: 20px;
   /* Adjust the gap as needed */
-  justify-content: center;
+  justify-content: start;
   /* Center the items horizontally */
   padding: 10px;
   /* Optional padding */

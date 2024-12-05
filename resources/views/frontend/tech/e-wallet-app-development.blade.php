@@ -55,7 +55,6 @@
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
           <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
             <img src="{{ asset('assets/web/mobile-wallet.webp') }}" class="img-fluid rounded w-100" alt="">
-            <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
           </div>
         </div>
       </div>
