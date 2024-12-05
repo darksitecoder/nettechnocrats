@@ -12,16 +12,18 @@ class PortfolioController extends Controller
     //
     public function index()
     {
-        $portfolio = portfolio:: select()->where('status','publish')->get();
-        // dd($portfolio);
+        $portfolio = portfolio::where('status', 'publish')
+            ->orderBy('created_at', 'desc')
+            ->paginate(10);  // Paginate results, showing 10 per page
+
         return view('frontend/portfolio/index')->with(compact('portfolio'));
     }
 
 
     public function PortfolioForAdmin(Request $request)
     {
-           // Check if the user is authenticated
-           if (!Auth::check()) {
+        // Check if the user is authenticated
+        if (!Auth::check()) {
             // If not authenticated, redirect to login page
             return redirect()->route('login')->with('error', 'Please log in to access this page.');
         }
@@ -32,7 +34,6 @@ class PortfolioController extends Controller
 
         // Return the view with the list of blogs
         return view('admin/pages/portfolio/portfolio')->with(compact('portfolio'));
-
     }
     public function createportfolio()
     {
@@ -40,17 +41,15 @@ class PortfolioController extends Controller
     }
     public function portfoliodetail($id)
     {
-        $portfolio = portfolio:: select()->where('id',$id)->get();
+        $portfolio = portfolio::select()->where('id', $id)->get();
 
         return view('admin/pages/portfolio/portfoliodetail')->with(compact('portfolio'));
     }
 
     public function savePortfolioForAdminApi(Request $request)
     {
-
-     
         $status = $request->input('status');
-       
+
         // Validate the incoming data
         $validatedData = $request->validate([
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
@@ -59,46 +58,45 @@ class PortfolioController extends Controller
             'content' => 'required|string|max:100000',
             'status' => 'nullable|string|in:save,publish',
         ]);
-        
-        // dd($request->all());
-        $user = Auth::user(); // Get the authenticated user
-        
-        // dd($user);
-        // Initialize file paths
-        $imagePath = null;
-    
 
-        
+        // Get the authenticated user
+        $user = Auth::user();
+
+        // Initialize image path variable
+        $imagePath = null;
+
         // Handle Image Upload
         if ($request->hasFile('image')) {
             // Generate a unique name for the image
             $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
-        
-            // Save the image to the 'public/backend/portfolio' directory under the 'public' folder
+
+            // Save the image to the 'public/backend/portfolio' directory
+            // $imagePath = $request->file('image')->storeAs('public/backend/portfolio', $imageName);
+
             $imagePath = $request->file('image')->move(public_path('backend/portfolio'), $imageName);
-        
-            // Store the relative path in the database, e.g., 'backend/portfolio/1733316243.png'
+
+            // The 'storeAs' method returns the relative path, e.g., 'public/backend/portfolio/1733316243.png'
+            // Now we need to get the relative path without the "public" directory.
             $imageRelativePath = 'backend/portfolio/' . $imageName;
         }
-        
-       
-        // Create the blog entry
-        $blog = portfolio::create([
-       
+
+        // Create the portfolio entry
+        $portfolio = portfolio::create([
             'heading' => $validatedData['heading'],
             'content' => $validatedData['content'],
             'company_name' => $validatedData['company_name'],
-            'image' => $imagePath,
-            'status' => $status, 
+            'image' => $imageRelativePath,
+            'status' => $status,
             'created_by' => $user->id
         ]);
-    
+
         // Store success message in session
         session()->flash('success', 'Portfolio ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
 
-        // Optionally, return the blog ID or any other data if needed
-        return redirect()->route('createportfolio'); // Redirect to the blogs index page or your desired page
+        // Redirect to portfolio creation page
+        return redirect()->route('createportfolio');
     }
+
 
     public function deletePortfolioForAdminApi(Request $request, $id)
     {
@@ -110,15 +108,15 @@ class PortfolioController extends Controller
         } else {
             $request->session()->flash('error', 'Portfolio Not Deleted');
         }
-    
+
         // Return response (redirect to the same page)
         return redirect()->to('PortfolioForAdmin');
     }
 
 
-    public function editPortfolioForAdmin(Request $request, $id, )
+    public function editPortfolioForAdmin(Request $request, $id,)
     {
-       
+
 
         $Blogs = portfolio::select()->where('id', $id)->get();
         return view('admin/pages/portfolio/editPortfolio')->with(compact('Blogs'));
@@ -127,7 +125,7 @@ class PortfolioController extends Controller
 
     public function updatePortfolioForAdminApi(Request $request)
     {
-        
+
         // dd($request->all());
         $status = $request->input('action');
         // dd($status);
@@ -150,7 +148,7 @@ class PortfolioController extends Controller
             'heading' => 'required|string|max:255',
             'content' => 'required|string|max:100000',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
-           
+
             'action' => 'nullable|string|in:save,publish', // Optional: if you want to differentiate between save and publish
         ]);
 
@@ -166,7 +164,7 @@ class PortfolioController extends Controller
 
         // Initialize file paths
         $imagePath = $blog->image;
-     
+
 
         // Handle Image Upload (delete old file if new image is uploaded)
         if ($request->hasFile('image')) {
@@ -176,7 +174,7 @@ class PortfolioController extends Controller
             $imagePath = $request->file('image')->store('blogs/images', 'public');
         }
 
-       
+
 
         // dd($validatedData['action']);
         // Update blog fields
@@ -185,16 +183,15 @@ class PortfolioController extends Controller
             'heading' => $validatedData['heading'],
             'content' => $validatedData['content'],
             'image' => $imagePath,
-            
+
             'status' => $validatedData['action'] ?? 'save', // Default to 'save' if not provided
         ]);
 
-       
+
         // Store success message in session
         session()->flash('success', 'Portfolio ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
 
         // Optionally, return the blog ID or any other data if needed
         return redirect()->to('editPortfolioForAdmin/' . $id); // Redirect to the blogs index page or your desired page
     }
-
 }

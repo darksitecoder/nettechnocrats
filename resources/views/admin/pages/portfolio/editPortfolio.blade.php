@@ -269,12 +269,12 @@
                   <div class="upload-container">
     <label for="image" id="imageLabel">Upload Image</label>
     <img id="uploadedImage"
-         src="{{ asset('backend/portfolio/' . $Blogs[0]->image) }}"
+         src="{{ asset('/' . $Blogs[0]->image) }}"
          alt="Uploaded Image"
          style="display: block;">
 </div>
 
-                </div>
+                </div>  
                 <!-- Display Image Validation Error -->
               </div>
 
