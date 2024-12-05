@@ -55,25 +55,25 @@
                                     <div class="list-item">
                                         <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
                                         <h5 class="title  m-0 fw-bolder">About Nettechnocrats</h5>
-                                        <p class=" m-0">We design and build world class websites and mobile app that understands your business and help our client to grow</p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <p class=" m-0">We design and build world class websites and mobile app that understands your business and help our client to grow</p><a href="{{url('/about-us')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
                                     <div class="list-item">
                                         <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
                                         <h5 class="title m-0 fw-bolder">Awards & Accolades</h5>
-                                        <p class="m-0">The biggest awards we have achieved are the many friendships and relationships that we have discovered while doing business with you. It is our pride to see you smile.</p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <p class="m-0">The biggest awards we have achieved are the many friendships and relationships that we have discovered while doing business with you. It is our pride to see you smile.</p><a href="{{url('#')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
                                     <div class="list-item">
                                         <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded" alt="" style="width: 250px; height:100px;">
                                         <h5 class="title m-0 fw-bolder">Client’s Words</h5>
-                                        <p class="m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <p class="m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p><a href="{{url('/clients')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
 
                                     <div class="list-item">
                                         <h5 class="title ps-3 m-0 fw-bolder">How we work and Function</h5>
                                         <p class="ps-3 m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile
-                                        </p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        </p><a href="{{url('#')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                         <h5 class="title ps-3 m-0 fw-bolder">Clientele</h5>
-                                        <p class="ps-3 m-0">We’re proud to be globally acknowledged</p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <p class="ps-3 m-0">We’re proud to be globally acknowledged</p><a href="{{url('#')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
 
                                 </div>
@@ -95,55 +95,55 @@
                                             <li><a href="{{url('/online-reputation-management/')}}" data-image="">ORM</a></li>
                                             <li><a href="" data-image="">AEO</a></li>
                                             <li><a href="{{url('/local-seo-services/')}}" data-image="">Local SEO</a></li>
-                                            <li><a href="" data-image="">SEO Reseller</a></li>
+                                            <li><a href="{{url('/#/')}}" data-image="">SEO Reseller</a></li>
                                         </ul>
                                         <h4 class="title fw-bold ps-4">Mobile App</h4>
                                         <ul>
-                                            <li><a href="{{url('/microsoft-dynamic-crm')}}" data-image="">UI/UX/Product Design</a></li>
-                                            <li><a href="{{url('/salesforce-development')}}" data-image="">PWA</a></li>
+                                            <li><a href="{{url('/ui-ux-design-services')}}" data-image="">UI/UX/Product Design</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">PWA</a></li>
                                         </ul>
 
                                     </div>
                                     <div class="list-item">
                                         <h4 class="title fw-bold ps-4">Software Development</h4>
                                         <ul>
-                                            <li><a href="{{url('/asp-net-development')}}" data-image="">Customer Software Development</a></li>
-                                            <li><a href="{{url('/c-sharp-development')}}" data-image="">ERP Software Development</a></li>
-                                            <li><a href="{{url('/share-point')}}" data-image="">CRM Development</a></li>
-                                            <li><a href="{{url('/share-point')}}" data-image="">Salesforce Development</a></li>
-                                            <li><a href="{{url('/share-point')}}" data-image="">Iot
+                                            <li><a href="{{url('#')}}" data-image="">Customer Software Development</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">ERP Software Development</a></li>
+                                            <li><a href="{{url('/microsoft-dynamic-crm')}}" data-image="">CRM Development</a></li>
+                                            <li><a href="{{url('/salesforce-development')}}" data-image="">Salesforce Development</a></li>
+                                            <li><a href="{{url('/iot-applications-development-company')}}" data-image="">Iot
                                                 </a></li>
                                         </ul>
                                         <h4 class="title fw-bold ps-4">Cloud Service</h4>
                                         <ul>
-                                            <li><a href="{{url('/microsoft-dynamic-crm')}}" data-image="">Cloud Computing</a></li>
+                                            <li><a href="{{url('/cloud-computing')}}" data-image="">Cloud Computing</a></li>
                                         </ul>
                                         <h4 class="title fw-bold ps-4">ML/AI</h4>
                                         <ul>
-                                            <li><a href="" data-image="">Generative AI</a></li>
-                                            <li><a href="" data-image="">Google Vision</a></li>
-                                            <li><a href="" data-image="">Chatbot</a></li>
+                                            <li><a href="#" data-image="">Generative AI</a></li>
+                                            <li><a href="#" data-image="">Google Vision</a></li>
+                                            <li><a href="{{url('/chatbot-development-company')}}" data-image="">Chatbot</a></li>
                                         </ul>
                                     </div>
                                     <div class="list-item">
                                         <h4 class="title fw-bold ps-4">Web Development</h4>
                                         <ul>
-                                            <li><a href="{{url('/android-app-development')}}" data-image="">Python</a></li>
-                                            <li><a href="{{url('/iphone-ios-development-company')}}" data-image="">WordPress</a></li>
-                                            <li><a href="{{url('/swift-platform-development')}}" data-image="">Magento</a></li>
-                                            <li><a href="{{url('/wearable-app-development')}}" data-image="">Joomla</a></li>
-                                            <li><a href="{{url('/wearable-app-development')}}" data-image="">Drupal</a></li>
+                                            <li><a href="{{url('/python-django-development-company')}}" data-image="">Python</a></li>
+                                            <li><a href="{{url('/wordpress-development-services')}}" data-image="">WordPress</a></li>
+                                            <li><a href="{{url('/magento-web-development')}}" data-image="">Magento</a></li>
+                                            <li><a href="{{url('/joomla-web-development')}}" data-image="">Joomla</a></li>
+                                            <li><a href="{{url('/drupal-web-development')}}" data-image="">Drupal</a></li>
                                         </ul>
                                         <h4 class="title fw-bold ps-4">Quality Analysis</h4>
                                         <ul>
-                                            <li><a href="{{url('/php-development')}}" data-image="}">QA</a></li>
+                                            <li><a href="{{url('/#')}}" data-image="}">QA</a></li>
                                         </ul>
                                         <h4 class="title fw-bold ps-4">Others</h4>
                                         <ul>
-                                            <li><a href="" data-image="}">Big Data</a></li>
-                                            <li><a href="" data-image="}">IBeacon</a></li>
-                                            <li><a href="" data-image="}">Blockchain</a></li>
-                                            <li><a href="" data-image="}">Data Science</a></li>
+                                            <li><a href="{{url('/big-data-analytics')}}" data-image="}">Big Data</a></li>
+                                            <li><a href="{{url('/ibeacon-app-development-company')}}" data-image="}">IBeacon</a></li>
+                                            <li><a href="{{url('/blockchain-application-development-company')}}" data-image="}">Blockchain</a></li>
+                                            <li><a href="{{url('/data-science')}}" data-image="}">Data Science</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -171,29 +171,29 @@
                                     <div class="list-item">
                                         <h4 class="title fw-bold ps-4">Digital Marketing</h4>
                                         <ul>
-                                            <li><a href="{{url('/seo-services/')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Healthcare</a></li>
-                                            <li><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">Limo</a></li>
-                                            <li><a href="{{url('/ppc-services/')}}" data-image="">E-commerece</a></li>
-                                            <li><a href="{{url('/online-reputation-management/')}}" data-image="">Law</a></li>
+                                            <li><a href="{{url('/#/')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Healthcare</a></li>
+                                            <li><a href="{{url('/#/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">Limo</a></li>
+                                            <li><a href="{{url('/#/')}}" data-image="">E-commerece</a></li>
+                                            <li><a href="{{url('/#/')}}" data-image="">Law</a></li>
                                         </ul>
 
                                     </div>
                                     <div class="list-item">
                                         <h4 class="title fw-bold ps-4">Technology</h4>
                                         <ul>
-                                            <li><a href="{{url('/asp-net-development')}}" data-image="">E-Wallet</a></li>
-                                            <li><a href="{{url('/c-sharp-development')}}" data-image="">Banking</a></li>
-                                            <li><a href="{{url('/share-point')}}" data-image="">Multi-Vendor</a></li>
-                                            <li><a href="{{url('/share-point')}}" data-image="">Affiliate</a></li>
-                                            <li><a href="{{url('/')}}" data-image="">On demand</a></li>
-                                            <li><a href="{{url('/')}}" data-image="">Taxi Booking</a></li>
-                                            <li><a href="{{url('/')}}" data-image="">Job Portal</a></li>
-                                            <li><a href="{{url('/')}}" data-image="">Food Delivery</a></li>
-                                            <li><a href="{{url('/')}}" data-image="">Real Estate</a></li>
-                                            <li><a href="{{url('/')}}" data-image="">Social Media</a></li>
-                                            <li><a href="{{url('/')}}" data-image="">OTT</a></li>
-                                            <li><a href="{{url('/')}}" data-image="">Education</a></li>
-                                            <li><a href="{{url('/')}}" data-image="">Travel and Tourism</a></li>
+                                            <li><a href="{{url('/e-wallet-app-development')}}" data-image="">E-Wallet</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Banking</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Multi-Vendor</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Affiliate</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">On demand</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Taxi Booking</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Job Portal</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Food Delivery</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Real Estate</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Social Media</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">OTT</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Education</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Travel and Tourism</a></li>
                                         </ul>
                                     </div>
                                     <!-- <div class="list-item">
@@ -228,7 +228,7 @@
                                     <div class="list-item">
                                         <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
                                         <h5 class="title  m-0 fw-bolder pt-3">Nettechnocrats Blog</h5>
-                                        <a href="{{url('/bloglist/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <a href="{{url('/bloglist/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder" style="color:var(--green);">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
                                 </div>
                             </li>
@@ -238,7 +238,7 @@
                 <!-- menu end here -->
                 <div class="header-item item-right">
                     <a href="#" class="phone__number"><i class="fa-solid fa-phone"></i>+91-9711411002</a>
-                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=9711411002&amp;text=I checked the website, and I have a few questions to ask" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="{{ url('contact-us')}}"><span class="get__in__touch">Get In Touch</span></a>
                     <a href="{{ url('login_page')}}"><span class="get__in__touch">Login</span></a>
                     <!-- mobile menu trigger -->
