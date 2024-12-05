@@ -164,7 +164,10 @@ class blogController extends Controller
         
         // Handle Image Upload
         if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('blogs/images', 'public');
+            // Generate a unique name for the image
+            $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
+            $imagePath = $request->file('image')->move(public_path('backend/blog/images'), $imageName);
+            $imagePath = 'backend/blog/images/' . $imageName;
         }
         
         // Handle Video Upload
@@ -273,12 +276,12 @@ class blogController extends Controller
         $videoPath = $blog->video;
         $pdfPath = $blog->pdf;
 
-        // Handle Image Upload (delete old file if new image is uploaded)
+        // Handle Image Upload
         if ($request->hasFile('image')) {
-            if ($imagePath && Storage::disk('public')->exists($imagePath)) {
-                Storage::disk('public')->delete($imagePath);  // Delete the old image
-            }
-            $imagePath = $request->file('image')->store('blogs/images', 'public');
+            // Generate a unique name for the image
+            $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
+            $imagePath = $request->file('image')->move(public_path('backend/blog/images'), $imageName);
+            $imagePath = 'backend/blog/images/' . $imageName;
         }
 
         // Handle Video Upload (delete old file if new video is uploaded)
