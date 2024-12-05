@@ -269,7 +269,7 @@
                   <div class="upload-container">
                     <label for="image" id="imageLabel">Upload Image</label>
                     <img id="uploadedImage"
-                      src="{{ asset(public/'.$Blogs[0]->image) }}"
+                      src="{{ asset('public/'.$Blogs[0]->image) }}"
                       alt="Uploaded Image"
                       style="display: block;">
 
