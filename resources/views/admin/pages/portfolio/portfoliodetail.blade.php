@@ -241,7 +241,7 @@
             <div class="row">
                 <div class="col-md-12 case__study">
                     <h1 class="py-4">{{ $blog->heading }}</h1>
-                    <p>{{ $blog->content }}</p>
+                    <p>{!! $blog->content !!}</p>
 
                     <!-- View More button with a link to portfolio details -->
                     <a href="{{ url('/portfolio')}}" class="btn">
