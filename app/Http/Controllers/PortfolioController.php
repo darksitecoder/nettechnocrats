@@ -163,15 +163,22 @@ class PortfolioController extends Controller
         }
 
         // Initialize file paths
-        $imagePath = $blog->image;
+        $imageRelativePath = $blog->image;
 
 
         // Handle Image Upload (delete old file if new image is uploaded)
         if ($request->hasFile('image')) {
-            if ($imagePath && Storage::disk('public')->exists($imagePath)) {
-                Storage::disk('public')->delete($imagePath);  // Delete the old image
-            }
-            $imagePath = $request->file('image')->store('blogs/images', 'public');
+             // Generate a unique name for the image
+             $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
+
+             // Save the image to the 'public/backend/portfolio' directory
+             // $imagePath = $request->file('image')->storeAs('public/backend/portfolio', $imageName);
+ 
+             $imagePath = $request->file('image')->move(public_path('backend/portfolio'), $imageName);
+ 
+             // The 'storeAs' method returns the relative path, e.g., 'public/backend/portfolio/1733316243.png'
+             // Now we need to get the relative path without the "public" directory.
+             $imageRelativePath = 'backend/portfolio/' . $imageName;
         }
 
 
@@ -182,7 +189,7 @@ class PortfolioController extends Controller
             'company_name' => $validatedData['company_name'],
             'heading' => $validatedData['heading'],
             'content' => $validatedData['content'],
-            'image' => $imagePath,
+            'image' => $imageRelativePath,
 
             'status' => $validatedData['action'] ?? 'save', // Default to 'save' if not provided
         ]);
