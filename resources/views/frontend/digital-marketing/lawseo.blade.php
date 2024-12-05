@@ -151,16 +151,16 @@
     <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
      <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
       <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-       <h5 class="mb-0">Mobile-First Approach</h5>
+       <h5 class="mb-0">Visibility</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
-       <h5 class="mb-0">Local Keyword Optimization</h5>
+       <h5 class="mb-0">Trust</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-       <h5 class="mb-0">Consistent Blogging</h5>
+       <h5 class="mb-0">Client Growth</h5>
       </a>
       <a class="accordion-link p-4" data-bs-toggle="pill" href="#collapseFour">
-       <h5 class="mb-0">Build an Online Network</h5>
+       <h5 class="mb-0">Long-term Benefits</h5>
       </a>
      </div>
     </div>
@@ -169,38 +169,39 @@
       <div id="collapseOne" class="tab-pane fade show p-0 active">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Mobile-First Approach</h1>
-         <p class="mb-4">In a digital age dominated by mobile searches, ensuring your site is responsive is crucial. Stay ahead with our Limo SEO techniques tailored for mobile optimization.</p>
+         <h1 class="display-5 mb-4">Visibility</h1>
+         <p class="mb-4">Elevate your firm’s online presence and rank higher on search results.</p>
         </div>
        </div>
       </div>
       <div id="collapseTwo" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Local Keyword Optimization</h1>
-         <p class="mb-4">Dive deep into Limo SEO strategies by targeting local keywords, such as “[city] limo”. This approach ensures you’re always on the radar of local clients.</p>
+         <h1 class="display-5 mb-4">Trust</h1>
+         <p class="mb-4">Position yourself as the go-to expert in your legal niche.</p>
         </div>
        </div>
       </div>
       <div id="collapseThree" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Consistent Blogging</h1>
-         <p class="mb-4">Elevate your online presence with regular blog updates, tailored to resonate with your audience. If writing isn’t your forte, our Limo SEO Services can fill the gap.</p>
+         <h1 class="display-5 mb-4">Client Growth</h1>
+         <p class="mb-4">Drive quality leads and convert potential clients with ease.</p>
         </div>
        </div>
       </div>
       <div id="collapseFour" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Build an Online Network</h1>
-         <p class="mb-4">Expand your reach by cultivating a robust online network. From local directories to relevant guest posts, each backlink propels your brand’s visibility further.</p>
+         <h1 class="display-5 mb-4">Long-term Benefits</h1>
+         <p class="mb-4">With the right SEO strategies, enjoy sustained growth and visibility.</p>
         </div>
        </div>
       </div>
      </div>
     </div>
    </div>
+   <p class="py-5">For those eager to reshape their digital journey, it’s pivotal to embrace Law Firm SEO. A strategic partner like Thrive can be your beacon, guiding you through tailored strategies that amplify your online presence. With a dedicated focus on SEO for Lawyers, chart a course towards undeniable digital growth and a future teeming with potential clients.</p>
   </div>
  </div>
  <!-- Offer End -->
@@ -208,9 +209,9 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <h3 class="mb-4 fw-bolder fs-1 text-center">Boost Your Limousine Business with 4 Key Limo
-    SEO Tactics</h3>
-   <p class="mb-4  text-center">From audience insights to digital prominence, we steer your limousine brand to online success.</p>
+   <h3 class="mb-4 fw-bolder fs-1 text-center">Law Firm SEO Services</h3>
+   <p class="mb-4  text-center fw-bold">Broaden Your Horizons with Expert Digital Marketing for Lawyers</p>
+   <p class="mb-4  text-center ">Law firms are inherently focused on serving clients, but a forward-thinking Digital Marketing for Law Firms strategy is indispensable for sustained growth. Partnering with Thrive isn’t just about choosing another SEO agency; it’s a commitment to the future success of your firm. Our specialized Law Firm SEO services are tailored to tackle the digital challenges legal professionals face today.</p>
    <div class="row g-4">
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
@@ -218,8 +219,9 @@
        <i class="fa-solid fa-microchip"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Audience-Centric Approach:</a>
-       <p class="mb-4">Before mapping out Limo SEO strategies, we delve deep into understanding your clientele. Whether it is corporate rendezvous, romantic weddings, or gala events, our keen insights shape SEO efforts that truly resonate. Central to this approach is keyword research, pinpointing exactly how customers seek out premier limo services.</p>
+       <a href="#" class="h4 d-inline-block mb-4">
+       Keyword Research & Strategy</a>
+       <p class="mb-4">Target your audience precisely by understanding the search terms they use. Leveraging the right keywords, we position your firm prominently for potential clients, reinforcing our prowess in SEO for Lawyers.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -230,8 +232,8 @@
        <i class="fa-solid fa-tachograph-digital"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Web Mastery:</a>
-       <p class="mb-4">Your website is your digital storefront. We ensure it’s not just visually appealing but is also swift, mobile-responsive, and intuitively navigable. Through strategic placement of keywords across content, meta tags, and URLs, we make your brand voice clear to both users and search engines.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Link Building</a>
+       <p class="mb-4">Strengthen your Digital Marketing for Lawyers foundation with our strategic link building, securing valuable backlinks from authoritative sources, a vital component for climbing search rankings.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -242,8 +244,8 @@
        <i class="fa-solid fa-clock"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Localized Brilliance with Limo SEO</a>
-       <p class="mb-4">Your limo service is inherently local. Our localized Limo SEO Services ensure that whenever luxury transport is sought in your locale, your brand emerges at the forefront. From accurate listings to glowing client reviews, we position you as the local limo luminary.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Content Writing</a>
+       <p class="mb-4">Content is king in Digital Marketing for Law Firms. Our dedicated team crafts SEO-optimized content that resonates with your audience, fulfilling all your marketing requisites.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -254,8 +256,8 @@
        <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Thought Leadership & Robust Linking</a>
-       <p class="mb-4">Content is king, and we help you wear the crown. Through informative blog posts and insightful articles, we position your limo service as the go-to authority. Complementing this is our robust link-building strategy, leveraging quality backlinks for search engine dominance.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Landing Page Conversion</a>
+       <p class="mb-4">It’s not just about attracting traffic; it’s about making that traffic count. With our expertise, we refine landing pages for the ultimate conversion, making every click a potential client.</p>
       </div>
      </div>
     </div>
@@ -265,28 +267,64 @@
        <i class="fa-brands fa-creative-commons-remix"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Engaging Social Integration</a>
-       <p class="mb-4">In today’s digital age, social media isn’t just an option; it’s a requisite. We seamlessly fuse Limo SEO with social strategies, offering a holistic approach to engage, enchant, and convert your digital audience. Showcase your luxury fleet and exceptional testimonials to a wider, engaged audience.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Local SEO</a>
+       <p class="mb-4">Boost your local footprint. Our strategies, like optimizing Google My Business listings, ensure your firm shines in local searches, showcasing our proficiency as a leading Law Firm SEO Company.</p>
       </div>
      </div>
     </div>
-    <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
      <div class="service-item">
       <div class="service-img">
        <i class="fa-solid fa-coins"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">COST SAVING</a>
-       <p class="mb-4">The improvement in productivity, asset utilization, and process efficiencies can drive down the maintenance costs and save huge expenditure..</p>
+       <a href="#" class="h4 d-inline-block mb-4">
+       Technical SEO</a>
+       <p class="mb-4">In our digital-centric era, a rapid, seamless website is non-negotiable. With our technical SEO for Lawyers, we offer an unmatched, swift user experience, all set to convert.</p>
       </div>
      </div>
-    </div> -->
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-coins"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">
+       Social Media Management</a>
+       <p class="mb-4">Embrace a holistic approach that encapsulates top-tier social media management. Our strategies fine-tune and enhance your online interactions, pushing the boundaries of what Digital Marketing for Law Firms can achieve.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-coins"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">
+       On-Page SEO</a>
+       <p class="mb-4">Ensure your legal services stand out on search engine results pages (SERPs). Our meticulous on-page Law Firm SEO practices guarantee your firm remains a top choice in relevant searches.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-coins"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">Web Design and Development</a>
+       <p class="mb-4">Reflect your firm’s professionalism with a sleek, functional online presence. Work with our expert designers to craft a conversion-centric website, amplifying your Digital Marketing for Lawyers efforts.</p>
+      </div>
+     </div>
+    </div>
    </div>
   </div>
  </div>
  <!-- Services End -->
 
- <div class="container-fluid about py-5">
+ <!-- <div class="container-fluid about py-5">
   <div class="container py-5">
 
    <div class=" mx-auto wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="">
@@ -295,7 +333,6 @@
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-12 wow fadeInLeft">
      <div>
-      <!-- <h4 class="text-primary1">About Us</h4> -->
       <p class="mb-4 text-center">In a fast-paced limo industry, outpacing competitors is pivotal for continuous triumph. Incorporating Limo SEO as a cornerstone once your Limo Website Design is in place amplifies online visibility and paves the way for a constant influx of clientele, solidifying your brand as the premier luxury transport service.</p>
       <p class="mb-4 text-center">To truly stand out, one must understand the audience, optimize the website intricately, harness Limo SEO Services for local prominence, craft compelling content, and merge seamlessly with social media, all to bolster the limo brand’s digital stature.</p>
 
@@ -318,11 +355,12 @@
     </div>
    </div>
   </div>
- </div>
+ </div> -->
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for IOT Application Development Services?</h2>
+   <h2>Navigating the Digital Path: Making Sense with SEO.</h2>
+   <p>SEO is the key that makes your website shine brighter in the vast universe of search engines. In the bustling online space where everyone is searching for something, SEO ensures they find what they need—directing them to suitable websites, ventures, and insights.</p>
 
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
