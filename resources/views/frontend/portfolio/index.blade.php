@@ -212,7 +212,11 @@
  
         @foreach($portfolio as $blog)
     <div class="showcase">
-        <div class="thumbnail thumbnail--awesome" style="background: url('{{ Storage::url($blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
+    <div class="thumbnail thumbnail--awesome" style="background: url('{{ asset( $blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
+
+
+        
+
             <div class=" thumbnail__overlay">
             <a class="btn" href="{{ url('/portfoliodetails/' . $blog->id) }}">VIEW CASE STUDY</a>
             </div>
@@ -227,7 +231,10 @@
     </div>
 @endforeach
 
-           
+           <!-- Pagination links -->
+<div class="pagination">
+    {{ $portfolio->links() }}
+</div>
             
     </div>
     <!-- About End -->
