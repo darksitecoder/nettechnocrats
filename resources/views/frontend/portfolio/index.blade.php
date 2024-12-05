@@ -212,7 +212,8 @@
  
         @foreach($portfolio as $blog)
     <div class="showcase">
-    <div class="thumbnail thumbnail--awesome" style="background: url('{{ asset( $blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
+    <div class="thumbnail thumbnail--awesome" style="background: url('{{ asset('public/' . $blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
+
 
 
         
@@ -231,10 +232,7 @@
     </div>
 @endforeach
 
-           <!-- Pagination links -->
-<div class="pagination">
-    {{ $portfolio->links() }}
-</div>
+           
             
     </div>
     <!-- About End -->

@@ -234,7 +234,7 @@
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center case__study__banner">
                     <!-- Correct image URL using Storage::url() -->
-                    <img src="{{ asset( $blog->image) }}" alt="{{ $blog->heading }}">
+                    <img src="{{ asset('public/' . $blog->image) }}" alt="{{ $blog->heading }}">
 
                 </div>
             </div>
