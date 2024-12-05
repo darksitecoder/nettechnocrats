@@ -46,59 +46,56 @@ class PortfolioController extends Controller
     }
 
     public function savePortfolioForAdminApi(Request $request)
-    {
-
-     
-        $status = $request->input('status');
-       
-        // Validate the incoming data
-        $validatedData = $request->validate([
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
-            'heading' => 'required|string|max:255',
-            'company_name' => 'required|string',
-            'content' => 'required|string|max:100000',
-            'status' => 'nullable|string|in:save,publish',
-        ]);
-        
-        // dd($request->all());
-        $user = Auth::user(); // Get the authenticated user
-        
-        // dd($user);
-        // Initialize file paths
-        $imagePath = null;
+{
+    $status = $request->input('status');
+   
+    // Validate the incoming data
+    $validatedData = $request->validate([
+        'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
+        'heading' => 'required|string|max:255',
+        'company_name' => 'required|string',
+        'content' => 'required|string|max:100000',
+        'status' => 'nullable|string|in:save,publish',
+    ]);
     
-
-        
-        // Handle Image Upload
-        if ($request->hasFile('image')) {
-            // Generate a unique name for the image
-            $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
-        
-            // Save the image to the 'public/backend/portfolio' directory under the 'public' folder
-            $imagePath = $request->file('image')->move(public_path('backend/portfolio'), $imageName);
-        
-            // Store the relative path in the database, e.g., 'backend/portfolio/1733316243.png'
-            $imageRelativePath = 'backend/portfolio/' . $imageName;
-        }
-        
-       
-        // Create the blog entry
-        $blog = portfolio::create([
-       
-            'heading' => $validatedData['heading'],
-            'content' => $validatedData['content'],
-            'company_name' => $validatedData['company_name'],
-            'image' => $imagePath,
-            'status' => $status, 
-            'created_by' => $user->id
-        ]);
+    // Get the authenticated user
+    $user = Auth::user();
     
-        // Store success message in session
-        session()->flash('success', 'Portfolio ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
+    // Initialize image path variable
+    $imagePath = null;
 
-        // Optionally, return the blog ID or any other data if needed
-        return redirect()->route('createportfolio'); // Redirect to the blogs index page or your desired page
+    // Handle Image Upload
+    if ($request->hasFile('image')) {
+        // Generate a unique name for the image
+        $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
+        
+        // Save the image to the 'public/backend/portfolio' directory
+        // $imagePath = $request->file('image')->storeAs('public/backend/portfolio', $imageName);
+
+        $imagePath = $request->file('image')->move(public_path('backend/portfolio'), $imageName);
+
+        // The 'storeAs' method returns the relative path, e.g., 'public/backend/portfolio/1733316243.png'
+        // Now we need to get the relative path without the "public" directory.
+        $imageRelativePath = 'backend/portfolio/' . $imageName;
     }
+    
+    // Create the portfolio entry
+    $portfolio = portfolio::create([
+        'heading' => $validatedData['heading'],
+        'content' => $validatedData['content'],
+        'company_name' => $validatedData['company_name'],
+        'image' => $imageRelativePath,
+        'status' => $status, 
+        'created_by' => $user->id
+    ]);
+
+    // Store success message in session
+    session()->flash('success', 'Portfolio ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
+
+    // Redirect to portfolio creation page
+    return redirect()->route('createportfolio');
+}
+
 
     public function deletePortfolioForAdminApi(Request $request, $id)
     {
