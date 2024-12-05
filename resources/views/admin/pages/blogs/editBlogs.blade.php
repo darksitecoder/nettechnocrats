@@ -492,6 +492,27 @@
     });
   </script>
 
+
+
+  <!-- CKEditor 5 CDN -->
+  <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+
+  <!-- Initialize CKEditor -->
+  <script>
+    let editorInstance;
+
+    ClassicEditor
+      .create(document.querySelector('#editor'), {
+        toolbar: ['bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote']
+      })
+      .then(editor => {
+        editorInstance = editor;
+      })
+      .catch(error => {
+        console.error('Error initializing CKEditor:', error);
+      });
+  </script>
+
 </body>
 
 </html>

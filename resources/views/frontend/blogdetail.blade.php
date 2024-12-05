@@ -368,7 +368,7 @@
               <a href="#"> <img src="{{ asset('public/'.$blogFND->image) }}" alt="Blogs Images" srcset="">
                 <h2 class="pt-4">{{$blogFND->heading}}</h2>
               </a>
-              <pre>{{$blogFND->content}}</pre>
+              <pre>{!! $blogFND->content !!}</pre>
               <div class="author__date pt-5 d-flex justify-content-between">
                 <b>Nettechnocrats </b>&nbsp;&nbsp;
                 <p> {{ $blogFND->created_at->format('d-m-Y') }} </p>
@@ -404,7 +404,7 @@
                   <a href="{{url('blogdetail/'.$data->id)}}">
                     <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="">
                   </a>
-                  <p class="text-center">{{ strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic }}</p>
+                  <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
                 </div>
               @endforeach
             </section>
@@ -477,7 +477,7 @@
                       <div class="blog">
                         <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="">
                         <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
-                        <p>{{ strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content }}</p>
+                        <p>{!! strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content !!}</p>
                         <div class="author__date d-flex justify-content-between">
                             <b>Nettechnocrats </b>&nbsp;&nbsp;
                             <p> {{ $data->created_at->format('d-m-Y') }} </p>

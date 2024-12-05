@@ -227,7 +227,7 @@
             <h2>{{ $blog->heading }}</h2>
 
             <!-- Limit content to 20 words -->
-            <p>{{ \Illuminate\Support\Str::words($blog->content, 20) }}</p>
+            <p>{!! \Illuminate\Support\Str::words($blog->content, 20) !!}</p>
         </div>
     </div>
 @endforeach
