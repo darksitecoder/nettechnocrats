@@ -365,7 +365,7 @@
           <div class="col-lg-9">
 
             <div class="main-blog-post ">
-              <a href="#"> <img src="{{ asset('storage/'.$blogFND->image) }}" alt="Blogs Images" srcset="">
+              <a href="#"> <img src="{{ asset($blogFND->image) }}" alt="Blogs Images" srcset="">
                 <h2 class="pt-4">{{$blogFND->heading}}</h2>
               </a>
               <pre>{{$blogFND->content}}</pre>
@@ -402,7 +402,7 @@
               @foreach($blogTPC as $data)
                 <div class="pdf__card mt-3">
                   <a href="{{url('blogdetail/'.$data->id)}}">
-                    <img src="{{ asset('storage/'.$data->image) }}" alt="Blogs Images" srcset="">
+                    <img src="{{ asset($data->image) }}" alt="Blogs Images" srcset="">
                   </a>
                   <p class="text-center">{{ strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic }}</p>
                 </div>
@@ -475,7 +475,7 @@
                 <div class="blog__list">
                   <a href="{{url('blogdetail/'.$data->id)}}">
                       <div class="blog">
-                        <img src="{{ asset('storage/'.$data->image) }}" alt="Blogs Images" srcset="">
+                        <img src="{{ asset($data->image) }}" alt="Blogs Images" srcset="">
                         <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
                         <p>{{ strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content }}</p>
                         <div class="author__date d-flex justify-content-between">
