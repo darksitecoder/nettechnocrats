@@ -269,7 +269,7 @@
                   <div class="upload-container">
                     <label for="image" id="imageLabel">Upload Image</label>
                     <img id="uploadedImage"
-                      src="{{ asset('storage/' . $Blogs[0]->image) }}"
+                      src="{{ asset('public/'.$Blogs[0]->image) }}"
                       alt="Uploaded Image"
                       style="display: block;">
 
@@ -490,6 +490,27 @@
         pdfUploader.click(); // Trigger file input click
       });
     });
+  </script>
+
+
+
+  <!-- CKEditor 5 CDN -->
+  <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+
+  <!-- Initialize CKEditor -->
+  <script>
+    let editorInstance;
+
+    ClassicEditor
+      .create(document.querySelector('#editor'), {
+        toolbar: ['bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote']
+      })
+      .then(editor => {
+        editorInstance = editor;
+      })
+      .catch(error => {
+        console.error('Error initializing CKEditor:', error);
+      });
   </script>
 
 </body>

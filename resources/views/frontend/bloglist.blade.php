@@ -261,10 +261,10 @@
 
                <div class="col-lg-6">
                   <div class="main-blog-post ">
-                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('storage/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="">
+                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('public/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="">
                         <h2>{{ strlen($blogLTS[0]->heading) > 25 ? substr($blogLTS[0]->heading, 0, 25) . '...' : $blogLTS[0]->heading }}</h2>
                      </a>
-                     <p>{{ strlen($blogLTS[0]->content) > 60 ? substr($blogLTS[0]->content, 0, 60) . '...' : $blogLTS[0]->content }}</pre></p>
+                     <p>{!! strlen($blogLTS[0]->content) > 60 ? substr($blogLTS[0]->content, 0, 60) . '...' : $blogLTS[0]->content !!}</p>
 
                      <div class="author__date d-flex">
                         <b>Nettechnocrats </b>&nbsp;&nbsp;
@@ -302,9 +302,9 @@
                      <div class="blog__list">
                         <a href="{{url('blogdetail/'.$data->id)}}">
                            <div class="blog">
-                              <img src="{{ asset('storage/'.$data->image) }}" alt="Blogs Images" srcset="">
+                              <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="">
                               <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
-                              <p>{{ strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content }}</p>
+                              <p>{!! strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content !!}</p>
                               <div class="author__date d-flex justify-content-between">
                                  <b>Nettechnocrats </b>&nbsp;&nbsp;
                                  <p> {{ $data->created_at->format('d-m-Y') }} </p>
@@ -331,9 +331,9 @@
                      <div class="col-lg-4">
                         <div class="pdf__card">
                            <a href="{{url('blogdetail/'.$data->id)}}">
-                              <img src="{{ asset('storage/'.$data->image) }}" alt="Blogs Images" srcset="">
+                              <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="">
                            </a>
-                           <p class="text-center">{{ strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic }}</p>
+                           <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
                         </div>
                      </div>
                   @endforeach

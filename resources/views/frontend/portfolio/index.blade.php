@@ -212,7 +212,8 @@
  
         @foreach($portfolio as $blog)
     <div class="showcase">
-    <div class="thumbnail thumbnail--awesome" style="background: url('{{ asset( $blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
+    <div class="thumbnail thumbnail--awesome" style="background: url('{{ asset('public/' . $blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
+
 
 
         
@@ -226,15 +227,12 @@
             <h2>{{ $blog->heading }}</h2>
 
             <!-- Limit content to 20 words -->
-            <p>{{ \Illuminate\Support\Str::words($blog->content, 20) }}</p>
+            <p>{!! \Illuminate\Support\Str::words($blog->content, 20) !!}</p>
         </div>
     </div>
 @endforeach
 
-           <!-- Pagination links -->
-<div class="pagination">
-    {{ $portfolio->links() }}
-</div>
+           
             
     </div>
     <!-- About End -->

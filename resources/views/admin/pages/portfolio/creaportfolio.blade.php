@@ -307,7 +307,7 @@
             <div class="row pt-1 d-flex justify-content-center">
               <!-- Display Content Validation Error -->
               <div class="col-md-12 stretch-card grid-margin blog__content">
-                <textarea name="content" id="content"></textarea>
+                <textarea name="content" id="editor"></textarea>
               </div>
               @error('content')
               <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
@@ -437,6 +437,26 @@
         pdfUploader.click(); // Trigger file input click
       });
     });
+  </script>
+
+  
+  <!-- CKEditor 5 CDN -->
+  <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+
+  <!-- Initialize CKEditor -->
+  <script>
+    let editorInstance;
+
+    ClassicEditor
+      .create(document.querySelector('#editor'), {
+        toolbar: ['bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote']
+      })
+      .then(editor => {
+        editorInstance = editor;
+      })
+      .catch(error => {
+        console.error('Error initializing CKEditor:', error);
+      });
   </script>
 
 

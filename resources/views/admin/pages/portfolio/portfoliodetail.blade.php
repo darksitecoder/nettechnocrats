@@ -234,14 +234,14 @@
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center case__study__banner">
                     <!-- Correct image URL using Storage::url() -->
-                    <img src="{{ asset( $blog->image) }}" alt="{{ $blog->heading }}">
+                    <img src="{{ asset('public/' . $blog->image) }}" alt="{{ $blog->heading }}">
 
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 case__study">
                     <h1 class="py-4">{{ $blog->heading }}</h1>
-                    <p>{{ $blog->content }}</p>
+                    <p>{!! $blog->content !!}</p>
 
                     <!-- View More button with a link to portfolio details -->
                     <a href="{{ url('/portfolio')}}" class="btn">
