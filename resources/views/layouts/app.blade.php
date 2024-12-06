@@ -171,10 +171,10 @@
                                     <div class="list-item">
                                         <h4 class="title fw-bold ps-4">Digital Marketing</h4>
                                         <ul>
-                                            <li><a href="{{url('/#/')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Healthcare</a></li>
-                                            <li><a href="{{url('/#/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">Limo</a></li>
-                                            <li><a href="{{url('/#/')}}" data-image="">E-commerece</a></li>
-                                            <li><a href="{{url('/#/')}}" data-image="">Law</a></li>
+                                            <li><a href="{{url('/healthcare-seo-services')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Healthcare</a></li>
+                                            <li><a href="{{url('/limo-seo-services')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">Limo</a></li>
+                                            <li><a href="{{url('/e-commerce-seo-services')}}" data-image="">E-commerece</a></li>
+                                            <li><a href="{{url('/law-firm-seo')}}" data-image="">Law</a></li>
                                         </ul>
 
                                     </div>

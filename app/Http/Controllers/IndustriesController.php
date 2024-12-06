@@ -11,4 +11,8 @@ class IndustriesController extends Controller
     {
         return view('frontend.industries.index');
     }
+    public function banking()
+    {
+        return view('frontend.industries.banking');
+    }
 }

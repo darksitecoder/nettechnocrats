@@ -79,6 +79,10 @@ Route::get('/contact-us', [TechController::class, 'contact']);
 
 
 Route::get('/industries', [IndustriesController::class, 'index']);
+Route::get('/banking-and-finance-app-development', [IndustriesController::class, 'banking']);
+
+
+
 Route::get('/portfolio', [PortfolioController::class, 'index']);
 Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
 
