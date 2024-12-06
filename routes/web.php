@@ -92,6 +92,7 @@ Route::get('/online-reputation-management', [DigitalMarketingController::class, 
 Route::get('/healthcare-seo-services', [DigitalMarketingController::class, 'healthcare']);
 Route::get('/limo-seo-services', [DigitalMarketingController::class, 'limoseo']);
 Route::get('/law-firm-seo', [DigitalMarketingController::class, 'lawseo']);
+Route::get('/e-commerce-seo-services', [DigitalMarketingController::class, 'ecommerce']);
 
 
 

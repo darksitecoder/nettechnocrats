@@ -58,4 +58,8 @@ class DigitalMarketingController extends Controller
     {
         return view('frontend.digital-marketing.lawseo');
     }
+    public function ecommerce()
+    {
+        return view('frontend.digital-marketing.ecommerce');
+    }
 }
