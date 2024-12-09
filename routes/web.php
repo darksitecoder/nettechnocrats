@@ -78,7 +78,6 @@ Route::get('/clients', [TechController::class, 'client']);
 Route::get('/contact-us', [TechController::class, 'contact']);
 
 
-Route::get('/industries', [IndustriesController::class, 'index']);
 Route::get('/banking-and-finance-app-development', [IndustriesController::class, 'banking']);
 Route::get('/multi-vendor-marketplace', [IndustriesController::class, 'vendor']);
 Route::get('/affiliate-marketplace', [IndustriesController::class, 'affiliate']);
@@ -208,3 +207,39 @@ Route::get('blogDetails/{id}/{shop_id?}', [blogController::class, 'blogDetails']
 Route::post('/contact_enquiryFormSubmit', [enquiresController::class, 'contact_enquiryFormSubmit']);
 
 Route::post('/enquiryFormSubmit', [enquiresController::class, 'enquiryFormSubmit']);
+
+
+
+// Routs for static pages
+
+// tech
+Route::view('/tech-stack', 'frontend.tech.tech-stack');
+Route::view('/wordpress-seo-agency', 'frontend.tech.wordpress-seo-agency');
+Route::view('/about-us/certificate', 'frontend.tech.certificate');
+Route::view('/automobile-software-solutions', 'frontend.tech.automobile-software-solutions');
+Route::view('/about-us/methodology', 'frontend.tech.methodology');
+Route::view('/about-us/testimonial', 'frontend.tech.testimonial');
+Route::view('/content-writing-services', 'frontend.tech.content-writing-services');
+Route::view('/landing-page-development', 'frontend.tech.landing-page-development');
+// Route::view('/ott-video-app-development', 'frontend.tech.ott-video-app-development');
+Route::view('/mobile-app-development', 'frontend.tech.mobile-app-development');
+Route::view('/privacy-policy', 'frontend.tech.privacy-policy');
+Route::view('/resources', 'frontend.tech.resources');
+Route::view('/retailer-wholeseller', 'frontend.tech.retailer-wholeseller');
+
+
+// industries
+Route::view('/industries', 'frontend.industries.industries');
+
+
+
+// digital-marketing
+// Route::view('/affiliate-marketplace', 'frontend.digital-marketing.affiliate-marketplace');
+Route::view('/amazon-ppc-services', 'frontend.digital-marketing.amazon-ppc-services');
+Route::view('/amazon-seo-services', 'frontend.digital-marketing.amazon-seo-services');
+Route::view('/amazon-web-services', 'frontend.digital-marketing.amazon-web-services');
+Route::view('/email-marketing', 'frontend.digital-marketing.email-marketing');
+Route::view('/finance-banking-software-development', 'frontend.digital-marketing.finance-banking-software-development');
+Route::view('/instagram-marketing-services', 'frontend.digital-marketing.instagram-marketing-services');
+Route::view('/media-advertisement', 'frontend.digital-marketing.media-advertisement');
+Route::view('/real-state-portal-development-company', 'frontend.digital-marketing.real-state-portal-development-company');
