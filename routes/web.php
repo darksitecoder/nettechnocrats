@@ -243,3 +243,4 @@ Route::view('/finance-banking-software-development', 'frontend.digital-marketing
 Route::view('/instagram-marketing-services', 'frontend.digital-marketing.instagram-marketing-services');
 Route::view('/media-advertisement', 'frontend.digital-marketing.media-advertisement');
 Route::view('/real-state-portal-development-company', 'frontend.digital-marketing.real-state-portal-development-company');
+Route::view('/seo-for-banks', 'frontend.digital-marketing.seo-for-banks');
