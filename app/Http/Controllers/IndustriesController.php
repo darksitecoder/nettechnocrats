@@ -15,6 +15,10 @@ class IndustriesController extends Controller
     {
         return view('frontend.industries.vendor');
     }
+    public function banking()
+    {
+        return view('frontend.industries.banking');
+    }
     public function affiliate()
     {
         return view('frontend.industries.affiliate');
