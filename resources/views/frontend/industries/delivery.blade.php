@@ -4,7 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>The Next-Generation Software Service Providers Of Future Fintech Leaders</title>
+ <title>Automate Order Management, Delivery Dispatch & Marketing Campaigns to scale your business</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -29,7 +29,7 @@
 
  <style>
   .service .service-item {
-   height: 300px;
+   height: 550px;
   }
 
   .design-features .service-item {
@@ -47,8 +47,8 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">The Next-Generation Software Service Providers Of Future Fintech Leaders</h1>
-      <p class="mb-4 text-white">Build top-notch Fintech Apps for your business by transforming the way your customers make investments, execute trades, or make payments​.​</p>
+      <h1 class="display-5 mb-4 text-white">Automate Order Management, Delivery Dispatch & Marketing Campaigns to scale your business</h1>
+      <p class="mb-4 text-white">Seamlessly connect foodies with restaurants nearby with a branded food ordering app like GrubHub with custom features and integrations as per your requirements.</p>
      </div>
     </div>
    </div>
@@ -76,12 +76,10 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4">The banking and financial industries are witnessing changes in technology and user demand as per the current software competition. Hence, to upgrade themselves, the financial institutions are looking forward to financing and banking software whereby they can gain customers loyalty and improve functional efficiency. Among the flooded IT firms offering finance and banking software, Nettechnocrats is a trusted name among IT, service provider, to provide banking and financial solutions. For many local, national as well as international small, medium and large finance and banking institutions, they have leveraged their technical expertise for fulfilling specific IT needs. Their service covers a wide range of finance and banking software for a wide range of business-like, banking, loan and financing, payment, investment, trade, tax. Nettechnocrats understands that there no single solution can fit for any and every banking and financial institution, hence through the backup by expert professionals and management, they provide unique banking and financial solutions.</p>
+      <p class="mb-4">Have you feeling hungry and you want to order your favorite dish online? Well, we are making apps that will help you connect to the best restaurants in town. The food delivery applications are going to benefit the travels, hosters, serve city dwellers, and various users who just do not want to cook at the moment. We understand what a customer needs and how they are going to order their favorite products. We know their usage patterns and the latest trends that will frame their mobile screens. We are going to provide the users with a user interface that is both rich with appearance as well as features.</p>
 
-      <h2 class="display-5 mb-4">How they excel in their service?</h2>
-      <p class="mb-0">Years of experience and successful project delivery-Although many factors bring light on choosing Nettechnocrats to seek finance and banking software solutions, but the major one is their experience driven by successful projects. At a side where the experience helps them improve day by day and bring the best solution, their successful delivery of projects and clients appreciation motivates them to help financial and banking institutions grow through the current software and technical usage.</p>
-      <p class="mb-0">Quality IT solution-Their frameworks, tools, platforms developed with rich project experience help them deliver quality banking IT Solutions to the customers.</p>
-      <p class="mb-5">Financial and banking companies can gain efficiency through high-quality service that is delivered on time, compiled with security, etc. Nettechnocrats always fulfill multiple IT needs for various banking and financial companies. Also, they bridge the gap in the market that sets them apart from other service providers by combining all banking and financial sector needs by creating flexible financial software.</p>
+      <p class="mb-0">Our experts are a team of individuals that are working for the most customer-oriented app development organization. Our team consists of esteemed experts who have startup experience and have made apps for multiple food chains. We can easily provide them with complete restaurant app development services.</p>
+      <p class="mb-5">As we are a team of active designers, developers, marketers, and testers, we are very much ready to collaborate with you and help you expand your business. Our mobile app development team at Nettechnocrats is qualified and experienced in making Android, iOS, and other hybrid mobile and web apps. Work with us to make apps that are designed for experience and built for success. Discuss your on-demand food delivery app IoT-applications-development-company with our experts and start right now.</p>
 
       <div class="row g-4">
 
@@ -160,9 +158,9 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <h2 class="">Challenges in
-    banking, finance & insurance</h2>
-   <p class=" pb-2">Nettechnocrats offers feature-rich and fully-protected Banking and Finance Application Development Services for Android, iPhone and Wearable Devices.</p>
+   <h2 class="">Make the
+    Food delivery Easier</h2>
+   <p class=" pb-2">Our experts are working to make a food delivery app that is optimized and customized according to the latest trends in food app development. This will enhance the user experience and will give them an attractive user interface. We are going to help you with-</p>
 
    <div class="row g-4">
     <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
@@ -175,8 +173,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Managing Customer Data</a>
-       <p class="mb-4">Today, a lot of analytics insight and business intelligence is required to analyze, manage and store the large amounts of customer data generated.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Food Delivery Startups</a>
+       <p class="mb-4">Have you been looking to start a food delivery output? Well, if you are then we have an amazing app for you.</p>
       </div>
      </div>
     </div>
@@ -184,8 +182,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Accessibility & Customer Service</a>
-       <p class="mb-4">We understand the importance of eye-catchy UX/UI of an application, and therefore we first design the wireframe & then implement trendy designing elements in the app. We ensure you high-end and pixel perfect eWallet app designs</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Restaurant Chains</a>
+       <p class="mb-4">Are you running a restaurant chain? Well, do not worry as we are going to provide you with profitable solutions to expand your business.</p>
       </div>
      </div>
     </div>
@@ -206,8 +204,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Regulation</a>
-       <p class="mb-4">Most bankers cite tightening regulatory requirements as costly, ineffective and excessive. The rising regulatory requirements impact the innovation and diversity that bankers strive to implement to cater to escalating demands. Being compliant is tougher as it forces the companies to compromise with creativity in the industry.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Single Restaurants</a>
+       <p class="mb-4">Are you the owner of a single restaurant? Well, we will provide you with the exclusive food delivery app for you.</p>
       </div>
      </div>
     </div>
@@ -215,8 +213,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Technology Risk</a>
-       <p class="mb-4">Millennial ordering from a cellular wallet that is not open to those paying cash will often take advantage of incentives such as cash return or customer loyalty points. These incentives function as a credit card scheme; however, as explained above, paying from a mobile wallet is much faster and simpler.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Aggregator Model</a>
+       <p class="mb-4">We are going to tie up with the restaurants across the cities and manage the business easily.</p>
       </div>
      </div>
     </div>
@@ -297,7 +295,7 @@
  <!-- Services End -->
 
  <!-- Offer Start -->
- <div class="container-fluid offer-section pb-5">
+ <!-- <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
    <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
     <h3 class="display-5 mb-4">Elevate Your Healthcare Brand with Prime Search Rankings</h3>
@@ -366,20 +364,127 @@
         </div>
        </div>
       </div>
-      <!-- <div id="collapseSeven" class="tab-pane fade show p-0">
+      <div id="collapseSeven" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
          <h1 class="display-5 mb-4">Data Sync</h1>
          <p class="mb-4">The cloud connectivity with mobile wallet apps enables highly secured, reliable & rapid transactions.</p>
         </div>
        </div>
-      </div> -->
+      </div> 
+     </div>
+    </div>
+   </div>
+  </div>
+ </div> -->
+ <!-- Offer End -->
+
+ <div class="container-fluid service pb-5">
+  <div class="container pb-5">
+   <!-- <h2 class="">Understanding Medical SEO: How It Stands Apart from Traditional SEO</h2>
+   <p class="pb-2">Medical SEO, uniquely tailored by experts, is a specific branch of search engine optimization crafted for websites within the medical domain. While the foundational principles of SEO remain, the approach for medical websites demands added precision.</p>
+   <p class="pb-5">The distinction is evident in how search engines, particularly Google, rank and evaluate medical websites. These platforms expect such sites to consistently exhibit expertise, authority, and trustworthiness in their content. Medical SEO Services from Nettechnocrats ensure that these elevated criteria are not just met, but exceeded.</p>
+   <h2 class="pb-5">Why Choose a Dedicated Medical SEO Services Provider?</h2> -->
+   <div class="row g-4">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-disease"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">ONLINE ORDERING IS THE LATEST TREND</a>
+       <p class="mb-4">There is a big demand for online food ordering, and the most important point has been mentioned above. It is the value addition of comfort and convenience which makes many customers go in for it. Hotels and restaurants also would like to order the food directly because it could reduce their overheads such as having a quality restaurant, employing people there and so on. Instead, these restaurants would be happy paying something for these app service providers so that they can concentrate more on the variety and quality of food and also plan further business expansion. This is why having a mobile POS system and software can make your restaurant more successful. Most people order online and with an integrated POS system, you can streamline all locations to easily accept orders and continue to meet customer’s needs.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-gauge-high"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">BETTER CHOICE FOR CUSTOMERS:</a>
+       <p class="mb-4">When customers do some research and choose the right to deliver anything app, they also end up having better choices. They can use the app and check out at least ten to twelve restaurants and then decide as to which the best option is. They can choose the right food, and it could be either vegan or non-vegan foods. The category of foods could also be quite large when compared to a single restaurant. They could choose between continental and Chinese, Italian to Mexican, Indian to Russian menu amongst others. Hence this certainly is a big advantage for customers in more ways than one.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-shield-halved"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">MORE BUSINESS FOR RESTAURANTS:</a>
+       <p class="mb-4">When you offer online ordering facilities through such apps, you can be sure that the guests will be able to order conveniently. They will not be in a tearing hurry to wrap up the order based on the menu card offered to them by the waiters. Hence, they can spend some time exploring all the options and then choose whatever appeals to their taste buds, needs, and requirements. This will work wonderfully well for both the customers and the restaurants. Restaurants that are using such apps to their customers often end up having higher revenues and their bottoms lines are also healthier.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-item">
+      <div class="service-img">
+
+       <i class="fa-solid fa-award"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">WIDER AUDIENCE REACH:</a>
+       <p class="mb-4">On-demand apps help you reach a wider target audience so you can expand your customer base and serve your customers better. An important point here is that on-demand apps are mostly focused on the young audience who are more likely to use apps for getting everything they need. Younger audiences are more open to new ideas and you can reach them easily with the help of on-demand apps.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-item">
+      <div class="service-img">
+
+       <i class="fa-solid fa-award"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">FEEDBACK:</a>
+       <p class="mb-4">On-demand delivery apps have built-in feedback systems that help providers find out the gaps where they are lacking and improve their services accordingly to serve their customers in a much better way and provide them a good customer experience.</p>
+      </div>
      </div>
     </div>
    </div>
   </div>
  </div>
- <!-- Offer End -->
+ <div class="container-fluid service pb-5">
+  <div class="container pb-5">
+   <div class="row g-4">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="service-img">
+       <i class="fa-solid fa-disease"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">ONLINE ORDERING IS THE LATEST TREND</a>
+       <p class="mb-4">There is a big demand for online food ordering, and the most important point has been mentioned above. It is the value addition of comfort and convenience which makes many customers go in for it. Hotels and restaurants also would like to order the food directly because it could reduce their overheads such as having a quality restaurant, employing people there and so on. Instead, these restaurants would be happy paying something for these app service providers so that they can concentrate more on the variety and quality of food and also plan further business expansion. This is why having a mobile POS system and software can make your restaurant more successful. Most people order online and with an integrated POS system, you can streamline all locations to easily accept orders and continue to meet customer’s needs.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="service-img">
+       <i class="fa-solid fa-disease"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">ONLINE ORDERING IS THE LATEST TREND</a>
+       <p class="mb-4">There is a big demand for online food ordering, and the most important point has been mentioned above. It is the value addition of comfort and convenience which makes many customers go in for it. Hotels and restaurants also would like to order the food directly because it could reduce their overheads such as having a quality restaurant, employing people there and so on. Instead, these restaurants would be happy paying something for these app service providers so that they can concentrate more on the variety and quality of food and also plan further business expansion. This is why having a mobile POS system and software can make your restaurant more successful. Most people order online and with an integrated POS system, you can streamline all locations to easily accept orders and continue to meet customer’s needs.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="service-img">
+       <i class="fa-solid fa-disease"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">ONLINE ORDERING IS THE LATEST TREND</a>
+       <p class="mb-4">There is a big demand for online food ordering, and the most important point has been mentioned above. It is the value addition of comfort and convenience which makes many customers go in for it. Hotels and restaurants also would like to order the food directly because it could reduce their overheads such as having a quality restaurant, employing people there and so on. Instead, these restaurants would be happy paying something for these app service providers so that they can concentrate more on the variety and quality of food and also plan further business expansion. This is why having a mobile POS system and software can make your restaurant more successful. Most people order online and with an integrated POS system, you can streamline all locations to easily accept orders and continue to meet customer’s needs.</p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
  <div class="container-fluid about hero__banner__tech py-5">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">

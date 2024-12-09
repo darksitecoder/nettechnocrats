@@ -4,7 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>The Next-Generation Software Service Providers Of Future Fintech Leaders</title>
+ <title>LAMP Application Development Services</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -26,16 +26,6 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
-
- <style>
-  .service .service-item {
-   height: 300px;
-  }
-
-  .design-features .service-item {
-   height: 550px !important;
-  }
- </style>
 </head>
 
 <body>
@@ -44,45 +34,36 @@
  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-12 wow fadeInLeft">
+    <div class="col-xl-7 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">The Next-Generation Software Service Providers Of Future Fintech Leaders</h1>
-      <p class="mb-4 text-white">Build top-notch Fintech Apps for your business by transforming the way your customers make investments, execute trades, or make payments​.​</p>
+      <h1 class="display-5 mb-4 text-white">LAMP Application Development Services </h1>
+      <p class="mb-4 text-white">A combination of popular development platforms and languages acronym LAMP, which stands for Linux, Apache, MySQL/MariaDB/MongoDB, and PHP/Python/Perl. LAMP is a complete package of free and open-source technologies currently used by millions of web developers to handle complex requirements to provide Scalable, Secure and Robust Solutions.</p>
+     </div>
+    </div>
+    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
+      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="">
+      <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="container-fluid pt-5">
-  <div class="container py-2">
-   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-12 wow fadeInLeft">
-     <div class=" rounded d-flex justify-content-center">
-      <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="container-fluid about py-1">
+ <div class="container-fluid about py-5">
   <div class="container py-5">
 
-   <!-- <div class=" mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="">
-    <h2 class="display-5 mb-4">Healthcare SEO Company</h2>
-    <p class="mb-0">Craft Excellence with Nettechnocrats</p>
-   </div> -->
-   <div class="row align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-12 wow fadeInLeft">
+   <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+    <h2 class="display-5 mb-4">LAMP Web Development Services</h2>
+    <p class="mb-0">LAMP (Linux + Apache + MySQL/MariaDB/MongoDB + PHP/Python/Perl) is an open-source technology used to design and develop the most Robust, Secure and Scalable dynamic web sites and web applications to fulfil the requirements of different business verticles</p>
+   </div>
+   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="col-xl-6 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4">The banking and financial industries are witnessing changes in technology and user demand as per the current software competition. Hence, to upgrade themselves, the financial institutions are looking forward to financing and banking software whereby they can gain customers loyalty and improve functional efficiency. Among the flooded IT firms offering finance and banking software, Nettechnocrats is a trusted name among IT, service provider, to provide banking and financial solutions. For many local, national as well as international small, medium and large finance and banking institutions, they have leveraged their technical expertise for fulfilling specific IT needs. Their service covers a wide range of finance and banking software for a wide range of business-like, banking, loan and financing, payment, investment, trade, tax. Nettechnocrats understands that there no single solution can fit for any and every banking and financial institution, hence through the backup by expert professionals and management, they provide unique banking and financial solutions.</p>
+      <p class="mb-4">A combination of popular development technology stack i.e Linux, Apache, MySQL/MariaDB/MongoDB, and PHP/Python/Perl the acronym LAMP refers to a more model currently used by millions of developers to implement the complex system and logics to fulfil the needs of businesses. Using the LAMP, we can develop websites for businesses like eCommerce/Marketplace, Real-estate, eLearning, Banking system, Voting System, Social Media Platforms and other dynamic websites to handle the large database.</p>
 
-      <h2 class="display-5 mb-4">How they excel in their service?</h2>
-      <p class="mb-0">Years of experience and successful project delivery-Although many factors bring light on choosing Nettechnocrats to seek finance and banking software solutions, but the major one is their experience driven by successful projects. At a side where the experience helps them improve day by day and bring the best solution, their successful delivery of projects and clients appreciation motivates them to help financial and banking institutions grow through the current software and technical usage.</p>
-      <p class="mb-0">Quality IT solution-Their frameworks, tools, platforms developed with rich project experience help them deliver quality banking IT Solutions to the customers.</p>
-      <p class="mb-5">Financial and banking companies can gain efficiency through high-quality service that is delivered on time, compiled with security, etc. Nettechnocrats always fulfill multiple IT needs for various banking and financial companies. Also, they bridge the gap in the market that sets them apart from other service providers by combining all banking and financial sector needs by creating flexible financial software.</p>
-
+      <p class="mb-4">The LAMP technology is open-sourced and highly secure while running on a LINUX operating system. The LAMP stack can be acquired at a comparatively low price compared to other software architecture bundles. LAMP stacks are constantly updated to incorporate new updates and improvements and can run on many platforms giving flexibility of use to its users.</p>
       <div class="row g-4">
 
        <div class="col-sm-6">
@@ -91,7 +72,12 @@
 
       </div>
      </div>
+    </div>
+    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+     <div class="rounded position-relative overflow-hidden">
+      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
 
+     </div>
     </div>
    </div>
   </div>
@@ -99,198 +85,78 @@
  <!-- About End -->
 
  <!-- Services Start -->
- <!-- <div class="container-fluid service pb-5">
-  <div class="container pb-5">
-   <h2 class="">Understanding Medical SEO: How It Stands Apart from Traditional SEO</h2>
-   <p class="pb-2">Medical SEO, uniquely tailored by experts, is a specific branch of search engine optimization crafted for websites within the medical domain. While the foundational principles of SEO remain, the approach for medical websites demands added precision.</p>
-   <p class="pb-5">The distinction is evident in how search engines, particularly Google, rank and evaluate medical websites. These platforms expect such sites to consistently exhibit expertise, authority, and trustworthiness in their content. Medical SEO Services from Nettechnocrats ensure that these elevated criteria are not just met, but exceeded.</p>
-   <h2 class="pb-5">Why Choose a Dedicated Medical SEO Services Provider?</h2>
-   <div class="row g-4">
-    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-disease"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Precision-Crafted Content</a>
-       <p class="mb-4">Choosing experts for your Medical SEO needs ensures access to expertly curated content. Our specialized in-house writers craft content that satisfies Google's rigorous standards for medical portals.</p>
- </div>
- </div>
- </div>
- <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-  <div class="service-item">
-   <div class="service-img">
-    <i class="fa-solid fa-gauge-high"></i>
-   </div>
-   <div class="rounded-bottom p-4">
-    <a href="#" class="h4 d-inline-block mb-4">Medically Relevant Backlinking</a>
-    <p class="mb-4">With our Medical SEO Services, benefit from strategic backlinks that bolster your website's credibility. Google values the quality, relevance, and number of these links, and we ensure they always work in your favour.</p>
-   </div>
-  </div>
- </div>
- <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-  <div class="service-item">
-   <div class="service-img">
-    <i class="fa-solid fa-shield-halved"></i>
-   </div>
-   <div class="rounded-bottom p-4">
-    <a href="#" class="h4 d-inline-block mb-4">
-     Industry-Connected Guest Posting</a>
-    <p class="mb-4">Our expertise in Medical SEO extends to robust networking within the healthcare community. We can secure guest posts and backlinks from influential entities in the medical online space, reinforcing your site's industry authority.</p>
-   </div>
-  </div>
- </div>
- <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-  <div class="service-item">
-   <div class="service-img">
-
-    <i class="fa-solid fa-award"></i>
-   </div>
-   <div class="rounded-bottom p-4">
-    <a href="#" class="h4 d-inline-block mb-4">By aligning with Nettechnocrats</a>
-    <p class="mb-4">a top-notch healthcare SEO Company, you ensure your medical website is optimized for top rankings while delivering trustworthy and authoritative content to users.</p>
-   </div>
-  </div>
- </div>
- </div>
- </div>
- </div> -->
- <!-- Services End -->
-
- <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <h2 class="">Challenges in
-    banking, finance & insurance</h2>
-   <p class=" pb-2">Nettechnocrats offers feature-rich and fully-protected Banking and Finance Application Development Services for Android, iPhone and Wearable Devices.</p>
-
    <div class="row g-4">
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-brands fa-mendeley"></i>
+      </div>
       <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+       <a href="#" class="h4 d-inline-block mb-4">ENTERPRISE APPLICATIONS</a>
+       <p class="mb-4">Our adept LAMP web development team has rich experience in LAMP development. We take advantage of time and cost-saving open-source technology and deliver fully-featured, scalable and cost-effective web solutions.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-brands fa-searchengin"></i>
+      </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Managing Customer Data</a>
-       <p class="mb-4">Today, a lot of analytics insight and business intelligence is required to analyze, manage and store the large amounts of customer data generated.</p>
+       <a href="#" class="h4 d-inline-block mb-4">ENTERPRISE APPLICATIONS</a>
+       <p class="mb-4">We focus on developing innovative, customer-centric enterprise applications that leverage new technologies and suitable for all kinds of simple to complex projects for businesses, corporates or companies.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-globe"></i>
+      </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Accessibility & Customer Service</a>
-       <p class="mb-4">We understand the importance of eye-catchy UX/UI of an application, and therefore we first design the wireframe & then implement trendy designing elements in the app. We ensure you high-end and pixel perfect eWallet app designs</p>
+       <a href="#" class="h4 d-inline-block mb-4">LAMP SERVER DEVELOPMENT</a>
+       <p class="mb-4">Get the best custom LAMP Server Development services developed with a special focus on the dynamics of the website with the advanced PHP frameworks. Moreover, our PHP LAMP developers always help them abreast with the new technologies that make us the pioneer in LAMP server development.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-chart-simple"></i>
+      </div>
       <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+       <a href="#" class="h4 d-inline-block mb-4">E-COMMERCE WEBSITES</a>
+       <p class="mb-4">Whether you’re looking to develop an e-Commerce website from scratch or beginning, our LAMP developers provide you eCommerce websites tailored to meet the needs of your business in terms of design, functionality and future growth.</p>
       </div>
      </div>
     </div>
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-brands fa-creative-commons-remix"></i>
+      </div>
       <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+       <a href="#" class="h4 d-inline-block mb-4">LAMP APPLICATION PORTING/MIGRATION</a>
+       <p class="mb-4">By gathering the relevant details about the product, current platform/stack, and current language/locale, our experts provide advanced LAMP application porting and migrations services to benefit broad access across platforms.</p>
       </div>
      </div>
     </div>
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-link"></i>
+      </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Regulation</a>
-       <p class="mb-4">Most bankers cite tightening regulatory requirements as costly, ineffective and excessive. The rising regulatory requirements impact the innovation and diversity that bankers strive to implement to cater to escalating demands. Being compliant is tougher as it forces the companies to compromise with creativity in the industry.</p>
+       <a href="#" class="h4 d-inline-block mb-4">LAMP APPLICATION MAINTENANCE & SUPPORT</a>
+       <p class="mb-4">Outsourcing of application maintenance and support not only reduce overall cost but also help to increase productivity. We at Nettechnocrats ensures that this critical service is handled with clearly defined expectations.</p>
       </div>
      </div>
     </div>
-
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Technology Risk</a>
-       <p class="mb-4">Millennial ordering from a cellular wallet that is not open to those paying cash will often take advantage of incentives such as cash return or customer loyalty points. These incentives function as a credit card scheme; however, as explained above, paying from a mobile wallet is much faster and simpler.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div>
-    <!--<div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div>
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Local SEO:</a>
-       <p class="mb-4">Localized searches are pivotal in healthcare. We fortify your local presence, fostering personal connections with your patient community through relevant content and engagement.</p>
-      </div>
-     </div>
-    </div>
-
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">
-        Technical SEO:</a>
-       <p class="mb-4">Ensure search engines navigate your website seamlessly. We meticulously optimize site elements, ensuring optimal indexing and future-proofing your online presence.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div>
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div>
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Franchise SEO:</a>
-       <p class="mb-4">Expand your healthcare services with amplified visibility across multiple locations. We champion your brand's unique identity, optimizing for mobile users and harnessing the power of customer reviews.</p>
-      </div>
-     </div>
-    </div> -->
-
-    <!-- <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Link Building:</a>
-       <p class="mb-4">Ascend search engine rankings by engaging the right audience through potent platforms. We craft compelling content and establish connections with healthcare industry pioneers, amplifying your online footprint.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div> -->
-
    </div>
   </div>
  </div>
@@ -299,28 +165,31 @@
  <!-- Offer Start -->
  <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
-   <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
-    <h3 class="display-5 mb-4">Elevate Your Healthcare Brand with Prime Search Rankings</h3>
-    <p class="mb-4">In an age where billions actively surf the web every month, healthcare search engine optimization is not just complex, but also pivotal. With ever-evolving search algorithms and fluctuating industry norms, ensuring your healthcare brand remains at the forefront is crucial.</p>
-    <h4 class="display-5 mb-4 fs-2 fw-bold">Choosing us means you are in for unparalleled growth. Here is a glimpse into what our Healthcare SEO Services promise:</h4>
+   <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+    <h3 class="display-5 mb-4 fw-bolder">The Benefits Of Choosing Lamp Technology</h3>
+    <p class="mb-0 fw-bold">The most effective way to develop a simple to the complex enterprise-level web application is by using
+     LAMP technology as it provides customization, cost-effective, and powerful security features.</p>
    </div>
    <div class="row g-5 align-items-center">
     <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
      <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
       <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-       <h5 class="mb-0">Proficient Healthcare SEO Maestros</h5>
+       <h5 class="mb-0">Scalability</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
+       <h5 class="mb-0">Platform Independent</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-       <h5 class="mb-0">Building Trust and Credibility</h5>
+       <h5 class="mb-0">Fast Development</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
-       <h5 class="mb-0">Optimized Mobile SEO</h5>
+       <h5 class="mb-0">Highly Secure</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
-       <h5 class="mb-0">ROI-Focused SEO Approaches</h5>
+       <h5 class="mb-0">Easy Customizations</h5>
       </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseSix">
-       <h5 class="mb-0">Affordable SEO Paradigms</h5>
+      <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseSix">
+       <h5 class="mb-0">Economical Savvy</h5>
       </a>
      </div>
     </div>
@@ -329,119 +198,62 @@
       <div id="collapseOne" class="tab-pane fade show p-0 active">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Proficient Healthcare SEO Maestros</h1>
-         <p class="mb-4">Beyond mere medical SEO terminologies, we delve deep into industry nuances, continually enhancing our expertise via rigorous training and industry conferences. Partner with us, and together, we’ll chart your path to success.</p>
+         <h1 class="display-5 mb-4">Scalability</h1>
+         <p class="mb-4">In a growing business, it becomes vital to have a platform that provides scalability to your application or website. Apps or websites built with mobile technologies can shrink or grow with the required demands. As we know that when any business grows then we also require to enhance their feature so their system can meet the future requirements without any limitation in terms of design, customization etc.</p>
+        </div>
+       </div>
+      </div>
+      <div id="collapseTwo" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">Platform Independent</h1>
+         <p class="mb-4">The LAMP stack is not dependent on a single platform. The code can run flawlessly on different operating systems together with Windows, Linux, Android, and iOS. As its open source and freely available so most of the people are using it so it has a large community support to help in the development phase.</p>
         </div>
        </div>
       </div>
       <div id="collapseThree" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Building Trust and Credibility</h1>
-         <p class="mb-4">Since its inception in 2005, We have been the epitome of trust in the digital realm. Our ethos revolves around placing consumers at the heart of our ventures. Rest assured; we're geared to cultivate a similar trust quotient for your brand</p>
+         <h1 class="display-5 mb-4">Fast Development</h1>
+         <p class="mb-4">With the prepared availableness of open supply libraries and frameworks that cut back coding times (and costs), we help you with the fast and high-quality LAMP website development. In this way, we are implement the large solution in less time with verified and tested libraries.</p>
         </div>
        </div>
       </div>
       <div id="collapseFour" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Optimized Mobile SEO</h1>
-         <p class="mb-4">In a mobile-centric era, it's imperative to be mobile-optimized. Our adept team ensures your website not only resonates with aesthetics but is also robust, secure, and seamlessly accessible across devices.</p>
+         <h1 class="display-5 mb-4">Highly Secure</h1>
+         <p class="mb-4">The LAMP technology has regular updates, the latest encryption tools, secure architecture that makes this technology incredibly safe. So, it cab be used in the development of payment integrated websites to provide a secure platform to the users.</p>
         </div>
        </div>
       </div>
       <div id="collapseFive" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">ROI-Focused SEO Approaches</h1>
-         <p class="mb-4">At Nettechnocrats, we don’t just aim for visibility; we aim for tangible results. Harnessing competitive insights and data-driven methodologies, we guarantee your SEO endeavours resonate with growth and conversions.</p>
+         <h1 class="display-5 mb-4">Easy Customizations</h1>
+         <p class="mb-4">With the prepared availableness of open supply libraries and frameworks that cut back coding times (and costs), we help you with the fast and high-quality LAMP website development. In this way, we are implement the large solution in less time with verified and tested libraries.</p>
         </div>
        </div>
       </div>
       <div id="collapseSix" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Affordable SEO Paradigms</h1>
-         <p class="mb-4">Excellence needn't be exorbitant. We curate bespoke SEO solutions, designed to align with your financial framework and business goals. Every strategy we devise is a reflection of your brand's aspirations, molded to ensure optimum ROI.</p>
+         <h1 class="display-5 mb-4">Economical Savvy</h1>
+         <p class="mb-4">Compared to other software, LAMP stack is economically savvy as it can be gained at a comparatively low price. It has been the most cost-effective solution to develop enterprise.</p>
         </div>
        </div>
       </div>
-      <!-- <div id="collapseSeven" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Data Sync</h1>
-         <p class="mb-4">The cloud connectivity with mobile wallet apps enables highly secured, reliable & rapid transactions.</p>
-        </div>
-       </div>
-      </div> -->
      </div>
     </div>
    </div>
   </div>
  </div>
  <!-- Offer End -->
- <div class="container-fluid about hero__banner__tech py-5">
-  <div class="container py-5">
-   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/10-3-transformed.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
-     </div>
-    </div>
-    <div class="col-xl-6 wow fadeInLeft">
-     <div>
-      <h4 class="text-primary1 fw-bolder">Fueling Growth Through SEO</h4>
-      <!-- <h3 class="display-5 mb-4 "></h3> -->
-      <p class="mb-4 ">At Nettechnocrats, we pride ourselves on being a top-tier Healthcare SEO Company. Our journey has seen us empower numerous providers, treatment centers, nursing establishments, and niche medical practices, catapulting them to superior search rankings and facilitating an influx of new patients. Our SEO strategies aren’t just about numbers; they’re about impactful growth. Join us and witness a transformative ascent in the digital realm.
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-
- <!-- Services Start -->
-
- <!-- Services End -->
-
-
- <div class="container-fluid about py-5">
-  <div class="container py-5">
-
-   <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-    <h2 class="display-5 mb-4">Tour and Travel App Development Samples
-    </h2>
-    <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Tour and Travel App development case studies here:</p>
-   </div>
-   <div id="call-to-action" class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100" style=" background-color: var(-accent-color) !important;">
-
-
-    <div class="col-xl-6 wow fadeInLeft">
-     <div>
-
-      <h4 class="text-primary1 fw-bolder">Beycome Real Estate</h4>
-      <p class="mb-4">Beycome is the first and only real estate company and listing platform that realizes 100% of your home transactions online; helping homeowners, buyers, and renters close a deal on their home, without the assistance of a real estate agent or broker. In turn, by cutting out agents, this saves homeowners from paying the 6% commission fee involved in a home sale (or 10% commission fee due in a rental transaction). And when the owner saves, buyers and renters get more negotiation power for a better deal.</p>
-      <img src="{{ asset('assets/web/progress.png') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
-     </div>
-    </div>
-    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-     <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/1-beycome.webp') }}" class="img-fluid rounded w-100" alt="">
-
-     </div>
-    </div>
-
-   </div>
-  </div>
- </div>
-
- <!--  -->
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Android App Development Services?</h2>
-   <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
+   <h2>Why Nettechnocrats for Lamp Development Services?</h2>
+
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
      <div class="row mt-3">
@@ -486,16 +298,6 @@
      </div>
      <div class="row">
       <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="600">5+ years of average experience
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="600">On time project delivery guaranteed
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
        <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Integrity & transparency
        </p>
       </div>
@@ -517,8 +319,8 @@
     </div>
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gif">
-      <div class="rounded-4 position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/android-image.webp') }}" class="img-fluid w-100" alt="">
+      <div class="rounded position-relative overflow-hidden">
+       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
 
       </div>
      </div>
