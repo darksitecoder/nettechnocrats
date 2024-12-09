@@ -4,7 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>The Next-Generation Software Service Providers Of Future Fintech Leaders</title>
+ <title>Nettechnocrats helps to create a ground of innovation OTT Platform</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -47,8 +47,8 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">The Next-Generation Software Service Providers Of Future Fintech Leaders</h1>
-      <p class="mb-4 text-white">Build top-notch Fintech Apps for your business by transforming the way your customers make investments, execute trades, or make payments​.​</p>
+      <h1 class="display-5 mb-4 text-white">Nettechnocrats helps to create a ground of innovation OTT Platform</h1>
+      <p class="mb-4 text-white">Grab end-to-end video streaming app development services and furnish impeccable TV viewing experiences to your users over frictionless channels. Fit all your VOD (Video On Demand Platform) business requirements with our OTT app development solutions which offers you scalable video streaming applications for fabulous OTT platforms like Apple TV, Roku, Amazon Fire TV and so on.</p>
      </div>
     </div>
    </div>
@@ -76,12 +76,12 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4">The banking and financial industries are witnessing changes in technology and user demand as per the current software competition. Hence, to upgrade themselves, the financial institutions are looking forward to financing and banking software whereby they can gain customers loyalty and improve functional efficiency. Among the flooded IT firms offering finance and banking software, Nettechnocrats is a trusted name among IT, service provider, to provide banking and financial solutions. For many local, national as well as international small, medium and large finance and banking institutions, they have leveraged their technical expertise for fulfilling specific IT needs. Their service covers a wide range of finance and banking software for a wide range of business-like, banking, loan and financing, payment, investment, trade, tax. Nettechnocrats understands that there no single solution can fit for any and every banking and financial institution, hence through the backup by expert professionals and management, they provide unique banking and financial solutions.</p>
+      <p class="mb-4">In our services the customer support and project work go on synchronously and enable OTT app development with better ideas too. Excellent delivery supported by insights of customers requiring for its project. The developer team at the company is aiming for a futuristic view. Future oriented design and development provide a customizable range of app and software that enable the client to make changes accordingly in the future.</p>
 
-      <h2 class="display-5 mb-4">How they excel in their service?</h2>
-      <p class="mb-0">Years of experience and successful project delivery-Although many factors bring light on choosing Nettechnocrats to seek finance and banking software solutions, but the major one is their experience driven by successful projects. At a side where the experience helps them improve day by day and bring the best solution, their successful delivery of projects and clients appreciation motivates them to help financial and banking institutions grow through the current software and technical usage.</p>
-      <p class="mb-0">Quality IT solution-Their frameworks, tools, platforms developed with rich project experience help them deliver quality banking IT Solutions to the customers.</p>
-      <p class="mb-5">Financial and banking companies can gain efficiency through high-quality service that is delivered on time, compiled with security, etc. Nettechnocrats always fulfill multiple IT needs for various banking and financial companies. Also, they bridge the gap in the market that sets them apart from other service providers by combining all banking and financial sector needs by creating flexible financial software.</p>
+      <!-- <h2 class="display-5 mb-4">How they excel in their service?</h2> -->
+      <p class="mb-0">Grab the high-end OTT video application development services from the globally established company trusted for the best live streaming experience supported by AWS servers. We develop an OTT platform that serves as a frictionless channel to your audience and Fits all your VOD (Video on Demand Platform) business requirements. Agile OTT app development solutions like Apple TV, Roku, Amazon Fire TV, and so on. All are inspired by robust, interactive, and scalable video streaming ideas.</p>
+      <p class="mb-0">Being a prominent OTT Video app Development Company, we are offering all new ideas and strategic phenomenon enhancing viewing experience over the app. the company holds an integrative responsibility for CDN integration, cloud integration & hosting.</p>
+      <p class="mb-5">Our amazing OTT platform development will make your business reach the extent of success and high ROI. If you are willing to start up an on-demand video, audio, messaging, VOIP streaming business you are on the right platform to kick start now.</p>
 
       <div class="row g-4">
 
@@ -160,9 +160,8 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <h2 class="">Challenges in
-    banking, finance & insurance</h2>
-   <p class=" pb-2">Nettechnocrats offers feature-rich and fully-protected Banking and Finance Application Development Services for Android, iPhone and Wearable Devices.</p>
+   <h2 class="">OTT App Development Services We Provide</h2>
+   <p class=" pb-2">Nettechnocrats is the leading white label OTT platform Development Company, converging technology on digital landscape to serve mobile entertainment experience.</p>
 
    <div class="row g-4">
     <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
@@ -175,8 +174,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Managing Customer Data</a>
-       <p class="mb-4">Today, a lot of analytics insight and business intelligence is required to analyze, manage and store the large amounts of customer data generated.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">OTT App Development</a>
+       <p class="mb-4">We develop an OTT app that is highly functional and customization can be done as per the requirements of your business</p>
       </div>
      </div>
     </div>
@@ -184,8 +183,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Accessibility & Customer Service</a>
-       <p class="mb-4">We understand the importance of eye-catchy UX/UI of an application, and therefore we first design the wireframe & then implement trendy designing elements in the app. We ensure you high-end and pixel perfect eWallet app designs</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Exceptional UI/UX Design</a>
+       <p class="mb-4">We provide a smooth UI/UX design that offers seamless streaming experience to your users including best viewing experience</p>
       </div>
      </div>
     </div>
@@ -206,8 +205,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Regulation</a>
-       <p class="mb-4">Most bankers cite tightening regulatory requirements as costly, ineffective and excessive. The rising regulatory requirements impact the innovation and diversity that bankers strive to implement to cater to escalating demands. Being compliant is tougher as it forces the companies to compromise with creativity in the industry.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">OTT APP Management</a>
+       <p class="mb-4">Our technical experts consistently update your apps with innovative tools/technologies to ensure your app that meets current market standard</p>
       </div>
      </div>
     </div>
@@ -215,40 +214,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Technology Risk</a>
-       <p class="mb-4">Millennial ordering from a cellular wallet that is not open to those paying cash will often take advantage of incentives such as cash return or customer loyalty points. These incentives function as a credit card scheme; however, as explained above, paying from a mobile wallet is much faster and simpler.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div>
-    <!--<div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div>
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Local SEO:</a>
-       <p class="mb-4">Localized searches are pivotal in healthcare. We fortify your local presence, fostering personal connections with your patient community through relevant content and engagement.</p>
-      </div>
-     </div>
-    </div>
-
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">
-        Technical SEO:</a>
-       <p class="mb-4">Ensure search engines navigate your website seamlessly. We meticulously optimize site elements, ensuring optimal indexing and future-proofing your online presence.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">OTT App Testing</a>
+       <p class="mb-4">We do manual & automotive testing for your OTT apps regressively to ensure the functioning of apps every time for all use cases</p>
       </div>
      </div>
     </div>
@@ -269,17 +236,17 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Franchise SEO:</a>
-       <p class="mb-4">Expand your healthcare services with amplified visibility across multiple locations. We champion your brand's unique identity, optimizing for mobile users and harnessing the power of customer reviews.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">OTT APP Navigation</a>
+       <p class="mb-4">To offer an updated browsing & streaming experience to the users, we provide a complete navigation of OTT apps</p>
       </div>
      </div>
-    </div> -->
+    </div>
 
-    <!-- <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Link Building:</a>
-       <p class="mb-4">Ascend search engine rankings by engaging the right audience through potent platforms. We craft compelling content and establish connections with healthcare industry pioneers, amplifying your online footprint.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Optimal Performance</a>
+       <p class="mb-4">We optimize & enhance the performance of the TV streaming app to ensure that the OTT app is running smoothly and offers a seamless experience to users.</p>
       </div>
      </div>
     </div>
@@ -289,7 +256,131 @@
        <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
       </div>
      </div>
-    </div> -->
+    </div>
+
+
+    <h2 class="">OTT Video App Admin Features</h2>
+    <p class=" pb-2">From custom social network website design to extensive development process, our social app developers are skilled in connecting the world.</p>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Android & IOS Platform</a>
+       <p class="mb-4">The video streaming apps we provide support both iOS and Android. Being an admin, you can offer your OTT apps to your users on both Android and iOS platforms.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Multiple Payment Gateway</a>
+       <p class="mb-4">Through this multi-payment gateway, the admin let their users to pick their desired payment gateway to pay their bills.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Powerful Admin Panel</a>
+       <p class="mb-4">Our OTT app video streaming upholds a powerful admin panel which lets the admin for the superior control over the user, account and content.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Custom Requirements</a>
+       <p class="mb-4">We deliver your video streaming app with all the stunning features. As well, we are ready to include any traits, if you need to fit your requirements.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Integrated GPS</a>
+       <p class="mb-4">The OTT app you buy from us is GPS integrated, with this the admin has control over his hand to restrict the viewers from the specific regions and countries.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">User Management</a>
+       <p class="mb-4">With this, the admin will have constant supervision of their user profiles as well as the efficient management of the customer database.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Videos, Category and Users Management</a>
+       <p class="mb-4">Admin can manage the videos, category, and users easily as it is highly scalable and user-friendly</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">SEO Friendly Design</a>
+       <p class="mb-4">Your OTT app will show up on the first page while searching. as it is configured in an SEO-friendly manner.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
 
    </div>
   </div>
@@ -297,7 +388,7 @@
  <!-- Services End -->
 
  <!-- Offer Start -->
- <div class="container-fluid offer-section pb-5">
+ <!-- <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
    <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
     <h3 class="display-5 mb-4">Elevate Your Healthcare Brand with Prime Search Rankings</h3>
@@ -366,19 +457,19 @@
         </div>
        </div>
       </div>
-      <!-- <div id="collapseSeven" class="tab-pane fade show p-0">
+      <div id="collapseSeven" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
          <h1 class="display-5 mb-4">Data Sync</h1>
          <p class="mb-4">The cloud connectivity with mobile wallet apps enables highly secured, reliable & rapid transactions.</p>
         </div>
        </div>
-      </div> -->
+      </div> 
      </div>
     </div>
    </div>
   </div>
- </div>
+ </div> -->
  <!-- Offer End -->
  <div class="container-fluid about hero__banner__tech py-5">
   <div class="container py-5">
@@ -391,10 +482,11 @@
     </div>
     <div class="col-xl-6 wow fadeInLeft">
      <div>
-      <h4 class="text-primary1 fw-bolder">Fueling Growth Through SEO</h4>
+      <h4 class="text-primary1 fw-bolder">Why Nettechnocrats for your next project?</h4>
       <!-- <h3 class="display-5 mb-4 "></h3> -->
-      <p class="mb-4 ">At Nettechnocrats, we pride ourselves on being a top-tier Healthcare SEO Company. Our journey has seen us empower numerous providers, treatment centers, nursing establishments, and niche medical practices, catapulting them to superior search rankings and facilitating an influx of new patients. Our SEO strategies aren’t just about numbers; they’re about impactful growth. Join us and witness a transformative ascent in the digital realm.
+      <p class="mb-4 ">We are not your standard dev shop. Our human-centric approach puts your customer experience at the center of our design.
       </p>
+      <p class="mb-4 ">We challenge our clients to think differently by asking the right questions, how can we leverage tech differently? Where are consumers talking and when, because the experience matters.</p>
      </div>
     </div>
    </div>
@@ -409,10 +501,9 @@
  <div class="container-fluid about py-5">
   <div class="container py-5">
 
-   <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-    <h2 class="display-5 mb-4">Tour and Travel App Development Samples
-    </h2>
-    <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Tour and Travel App development case studies here:</p>
+   <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
+    <h2 class="display-5 mb-4">OTT Video App Development Samples</h2>
+    <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Mobile App development case studies here:</p>
    </div>
    <div id="call-to-action" class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100" style=" background-color: var(-accent-color) !important;">
 
@@ -420,8 +511,8 @@
     <div class="col-xl-6 wow fadeInLeft">
      <div>
 
-      <h4 class="text-primary1 fw-bolder">Beycome Real Estate</h4>
-      <p class="mb-4">Beycome is the first and only real estate company and listing platform that realizes 100% of your home transactions online; helping homeowners, buyers, and renters close a deal on their home, without the assistance of a real estate agent or broker. In turn, by cutting out agents, this saves homeowners from paying the 6% commission fee involved in a home sale (or 10% commission fee due in a rental transaction). And when the owner saves, buyers and renters get more negotiation power for a better deal.</p>
+      <h4 class="text-primary1 fw-bolder">Preapps</h4>
+      <p class="mb-4">Pre App is a premier mobile app marketing and discovery platform specially designed for app developers, publishers, and the enterprise. With over a total of 90 million client downloads, this tool is mainly used to do market research and validate your application idea. As well as, the tool is also helpful to track app’s downloads, revenue analytics, and usage.</p>
       <img src="{{ asset('assets/web/progress.png') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
      </div>
     </div>
@@ -440,7 +531,7 @@
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Android App Development Services?</h2>
+   <h2>Why Nettechnocrats for OTT App Development Services?</h2>
    <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
