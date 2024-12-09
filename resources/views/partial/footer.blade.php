@@ -48,20 +48,20 @@
    <h5>INDUSTRIES THAT WE SERVED:</h5>
    <div class="keywords__footer">
 
-    <a href="#">E-Wallet App Development </a>
-    <a href="#">Banking App Development </a>
-    <a href="#">Multi-Vendor Marketplace Development </a>
-    <a href="#">Affiliate marketplace </a>
-    <a href="#">On demand App Development </a>
-    <a href="#">Taxi Booking App Development </a>
-    <a href="#">Job Portal Development </a>
-    <a href="#">Food Delivery App </a>
-    <a href="#">Real Estate App Development </a>
-    <a href="#">LAMP Development </a>
-    <a href="#">Social Media App Development </a>
-    <a href="#">OTT Video App Development </a>
-    <a href="#">Education Portal Development </a>
-    <a href="#">Travel and Tourism </a>
+    <a href="/e-wallet-app-development">E-Wallet App Development </a>
+    <a href="/banking-and-finance-app-development">Banking App Development </a>
+    <a href="/multi-vendor-marketplace'">Multi-Vendor Marketplace Development </a>
+    <a href="/affiliate-marketplace">Affiliate marketplace </a>
+    <a href="/on-demand-app-development">On demand App Development </a>
+    <a href="/taxi-booking-app">Taxi Booking App Development </a>
+    <a href="/job-portal-development">Job Portal Development </a>
+    <a href="/food-delivery-app">Food Delivery App </a>
+    <a href="/real-estate-app-development">Real Estate App Development </a>
+    <a href="/lamp-development">LAMP Development </a>
+    <a href="/social-media-app-development">Social Media App Development </a>
+    <a href="/ott-video-app-development">OTT Video App Development </a>
+    <a href="/education-portal-development">Education Portal Development </a>
+    <a href="/tour-travel-app-development">Travel and Tourism </a>
    </div>
   </div>
  </div>

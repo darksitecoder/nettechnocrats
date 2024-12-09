@@ -182,18 +182,18 @@
                                         <h4 class="title fw-bold ps-4">Technology</h4>
                                         <ul>
                                             <li><a href="{{url('/e-wallet-app-development')}}" data-image="">E-Wallet</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">Banking</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">Multi-Vendor</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">Affiliate</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">On demand</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">Taxi Booking</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">Job Portal</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">Food Delivery</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">Real Estate</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">Social Media</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">OTT</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">Education</a></li>
-                                            <li><a href="{{url('#')}}" data-image="">Travel and Tourism</a></li>
+                                            <li><a href="{{url('/banking-and-finance-app-development')}}" data-image="">Banking</a></li>
+                                            <li><a href="{{url('/multi-vendor-marketplace')}}" data-image="">Multi-Vendor</a></li>
+                                            <li><a href="{{url('/affiliate-marketplace')}}" data-image="">Affiliate</a></li>
+                                            <li><a href="{{url('/on-demand-app-development')}}" data-image="">On demand</a></li>
+                                            <li><a href="{{url('/taxi-booking-app')}}" data-image="">Taxi Booking</a></li>
+                                            <li><a href="{{url('/job-portal-development')}}" data-image="">Job Portal</a></li>
+                                            <li><a href="{{url('/food-delivery-app')}}" data-image="">Food Delivery</a></li>
+                                            <li><a href="{{url('/real-estate-app-development')}}" data-image="">Real Estate</a></li>
+                                            <li><a href="{{url('/social-media-app-development')}}" data-image="">Social Media</a></li>
+                                            <li><a href="{{url('/ott-video-app-development')}}" data-image="">OTT</a></li>
+                                            <li><a href="{{url('/education-portal-development')}}" data-image="">Education</a></li>
+                                            <li><a href="{{url('/tour-travel-app-development')}}" data-image="">Travel and Tourism</a></li>
                                         </ul>
                                     </div>
                                     <!-- <div class="list-item">

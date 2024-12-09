@@ -80,6 +80,18 @@ Route::get('/contact-us', [TechController::class, 'contact']);
 
 Route::get('/industries', [IndustriesController::class, 'index']);
 Route::get('/banking-and-finance-app-development', [IndustriesController::class, 'banking']);
+Route::get('/multi-vendor-marketplace', [IndustriesController::class, 'vendor']);
+Route::get('/affiliate-marketplace', [IndustriesController::class, 'affiliate']);
+Route::get('/on-demand-app-development', [IndustriesController::class, 'demand']);
+Route::get('/taxi-booking-app', [IndustriesController::class, 'taxi']);
+Route::get('/job-portal-development', [IndustriesController::class, 'job']);
+Route::get('/food-delivery-app', [IndustriesController::class, 'delivery']);
+Route::get('/real-estate-app-development', [IndustriesController::class, 'realestate']);
+Route::get('/lamp-development', [IndustriesController::class, 'lamb']);
+Route::get('/social-media-app-development', [IndustriesController::class, 'socialmedia']);
+Route::get('/ott-video-app-development', [IndustriesController::class, 'ott']);
+Route::get('/education-portal-development', [IndustriesController::class, 'education']);
+Route::get('/tour-travel-app-development', [IndustriesController::class, 'travel']);
 
 
 
