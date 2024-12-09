@@ -4,7 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>The Next-Generation Software Service Providers Of Future Fintech Leaders</title>
+ <title>Education Portal Development Services</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -29,7 +29,7 @@
 
  <style>
   .service .service-item {
-   height: 300px;
+   height: 430px;
   }
 
   .design-features .service-item {
@@ -47,14 +47,19 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">The Next-Generation Software Service Providers Of Future Fintech Leaders</h1>
-      <p class="mb-4 text-white">Build top-notch Fintech Apps for your business by transforming the way your customers make investments, execute trades, or make payments​.​</p>
+      <h1 class="display-5 mb-4 text-white">Education Portal Development Services</h1>
+      <p class="mb-4 text-white">It’s not only the businesses that can take advantage of the portal;
+       the education can also use an online portal to educate others too. Almost
+       all universities/colleges/schools are implementing their portal to provide
+       a strong platform to connect teacher and students digitally. Processes
+       like online classes, learning material sharing, grade submission, enrollment,
+       exams, assignment and many more can be done in e-learning portal.​</p>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="container-fluid pt-5">
+ <!-- <div class="container-fluid pt-5">
   <div class="container py-2">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-12 wow fadeInLeft">
@@ -64,7 +69,7 @@
     </div>
    </div>
   </div>
- </div>
+ </div> -->
  <div class="container-fluid about py-1">
   <div class="container py-5">
 
@@ -75,21 +80,22 @@
    <div class="row align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-12 wow fadeInLeft">
      <div>
-      <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4">The banking and financial industries are witnessing changes in technology and user demand as per the current software competition. Hence, to upgrade themselves, the financial institutions are looking forward to financing and banking software whereby they can gain customers loyalty and improve functional efficiency. Among the flooded IT firms offering finance and banking software, Nettechnocrats is a trusted name among IT, service provider, to provide banking and financial solutions. For many local, national as well as international small, medium and large finance and banking institutions, they have leveraged their technical expertise for fulfilling specific IT needs. Their service covers a wide range of finance and banking software for a wide range of business-like, banking, loan and financing, payment, investment, trade, tax. Nettechnocrats understands that there no single solution can fit for any and every banking and financial institution, hence through the backup by expert professionals and management, they provide unique banking and financial solutions.</p>
+      <h4 class="text-primary1 fw-bolder text-center fs-2">E-learning solutions for the Education Sector</h4>
+      <p class="mb-4">
+       The education Sector is now fast turning to IT solutions to simplify the management of the entire process of the education system starting from admission to examinations and also to make the teaching/learning process more interesting and interactive. The involvement of this technology in this sector has led to private schools and colleges utilizing e-books, e-learning classes, online quizzes and test, Olympiad, Talent hunt, Fun activities and different types of digital media for educational purposes.</p>
 
-      <h2 class="display-5 mb-4">How they excel in their service?</h2>
+      <!-- <h2 class="display-5 mb-4">How they excel in their service?</h2>
       <p class="mb-0">Years of experience and successful project delivery-Although many factors bring light on choosing Nettechnocrats to seek finance and banking software solutions, but the major one is their experience driven by successful projects. At a side where the experience helps them improve day by day and bring the best solution, their successful delivery of projects and clients appreciation motivates them to help financial and banking institutions grow through the current software and technical usage.</p>
       <p class="mb-0">Quality IT solution-Their frameworks, tools, platforms developed with rich project experience help them deliver quality banking IT Solutions to the customers.</p>
-      <p class="mb-5">Financial and banking companies can gain efficiency through high-quality service that is delivered on time, compiled with security, etc. Nettechnocrats always fulfill multiple IT needs for various banking and financial companies. Also, they bridge the gap in the market that sets them apart from other service providers by combining all banking and financial sector needs by creating flexible financial software.</p>
+      <p class="mb-5">Financial and banking companies can gain efficiency through high-quality service that is delivered on time, compiled with security, etc. Nettechnocrats always fulfill multiple IT needs for various banking and financial companies. Also, they bridge the gap in the market that sets them apart from other service providers by combining all banking and financial sector needs by creating flexible financial software.</p> -->
 
-      <div class="row g-4">
+      <!-- <div class="row g-4">
 
        <div class="col-sm-6">
         <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
-      </div>
+      </div> -->
      </div>
 
     </div>
@@ -99,66 +105,89 @@
  <!-- About End -->
 
  <!-- Services Start -->
- <!-- <div class="container-fluid service pb-5">
+ <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <h2 class="">Understanding Medical SEO: How It Stands Apart from Traditional SEO</h2>
+   <!-- <h2 class="">Understanding Medical SEO: How It Stands Apart from Traditional SEO</h2>
    <p class="pb-2">Medical SEO, uniquely tailored by experts, is a specific branch of search engine optimization crafted for websites within the medical domain. While the foundational principles of SEO remain, the approach for medical websites demands added precision.</p>
-   <p class="pb-5">The distinction is evident in how search engines, particularly Google, rank and evaluate medical websites. These platforms expect such sites to consistently exhibit expertise, authority, and trustworthiness in their content. Medical SEO Services from Nettechnocrats ensure that these elevated criteria are not just met, but exceeded.</p>
-   <h2 class="pb-5">Why Choose a Dedicated Medical SEO Services Provider?</h2>
+   <p class="pb-5">The distinction is evident in how search engines, particularly Google, rank and evaluate medical websites. These platforms expect such sites to consistently exhibit expertise, authority, and trustworthiness in their content. Medical SEO Services from Nettechnocrats ensure that these elevated criteria are not just met, but exceeded.</p> -->
+   <h2 class="pb-5">Our Agile It Solutions For The Automobile Industry</h2>
    <div class="row g-4">
-    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
        <i class="fa-solid fa-disease"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Precision-Crafted Content</a>
-       <p class="mb-4">Choosing experts for your Medical SEO needs ensures access to expertly curated content. Our specialized in-house writers craft content that satisfies Google's rigorous standards for medical portals.</p>
- </div>
- </div>
- </div>
- <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-  <div class="service-item">
-   <div class="service-img">
-    <i class="fa-solid fa-gauge-high"></i>
-   </div>
-   <div class="rounded-bottom p-4">
-    <a href="#" class="h4 d-inline-block mb-4">Medically Relevant Backlinking</a>
-    <p class="mb-4">With our Medical SEO Services, benefit from strategic backlinks that bolster your website's credibility. Google values the quality, relevance, and number of these links, and we ensure they always work in your favour.</p>
-   </div>
-  </div>
- </div>
- <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-  <div class="service-item">
-   <div class="service-img">
-    <i class="fa-solid fa-shield-halved"></i>
-   </div>
-   <div class="rounded-bottom p-4">
-    <a href="#" class="h4 d-inline-block mb-4">
-     Industry-Connected Guest Posting</a>
-    <p class="mb-4">Our expertise in Medical SEO extends to robust networking within the healthcare community. We can secure guest posts and backlinks from influential entities in the medical online space, reinforcing your site's industry authority.</p>
-   </div>
-  </div>
- </div>
- <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-  <div class="service-item">
-   <div class="service-img">
+       <a href="#" class="h4 d-inline-block mb-4">Learning Management Systems (LMS)s</a>
+       <p class="mb-4">With rich experience and high domain expertise, we provide you a new way to create or develop training programs, schedule training, review learner performance, and much more in tune with the latest industry standards.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-gauge-high"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">Learning Content Management Systems (LCMS)</a>
+       <p class="mb-4">Achieve faster and better results with our LCMS solutions that enable you to host, schedule, manage registrations, assess, test, and track online training activities in a more easy way. So, whether you need to create it from scratch or want a new one, we can help you.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-shield-halved"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">Student Information Systems (SIS)</a>
+       <p class="mb-4">Keeping in mind all your specifications, we provide you a single platform where you can easily store and track all student information, including grades, attendance records, and more. This will be helpful in increasing communication between divisions.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-item">
+      <div class="service-img">
 
-    <i class="fa-solid fa-award"></i>
-   </div>
-   <div class="rounded-bottom p-4">
-    <a href="#" class="h4 d-inline-block mb-4">By aligning with Nettechnocrats</a>
-    <p class="mb-4">a top-notch healthcare SEO Company, you ensure your medical website is optimized for top rankings while delivering trustworthy and authoritative content to users.</p>
+       <i class="fa-solid fa-award"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">School ERP</a>
+       <p class="mb-4">We are one the best leading company which develops strong ERP systems for schools, colleges, and universities. ERP systems help us to process the data. Our ERP system helps students to learn in the most perfect learning environment as well as a well-organized environment.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-item">
+      <div class="service-img">
+
+       <i class="fa-solid fa-award"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">Web-based Training</a>
+       <p class="mb-4">The learning process has been easier with the emergence of web-based training. Our experts provide different training solutions to colleges, businesses, and other institutions to help them achieve more and improve their performance in their domain.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-item">
+      <div class="service-img">
+
+       <i class="fa-solid fa-award"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">Student Information Systems (SIS)</a>
+       <p class="mb-4">Our company develops mobile apps for parents which they can easily interact with faculties and know time to time and status of their children. It also helps to create an accessible teaching environment for students. Using mobile apps students can learn everything on their smartphones and also access essential resources anytime and anywhere.</p>
+      </div>
+     </div>
+    </div>
    </div>
   </div>
  </div>
- </div>
- </div>
- </div> -->
  <!-- Services End -->
 
  <!-- Services Start -->
- <div class="container-fluid service pb-5">
+ <!-- <div class="container-fluid service pb-5">
   <div class="container pb-5">
    <h2 class="">Challenges in
     banking, finance & insurance</h2>
@@ -227,7 +256,7 @@
       </div>
      </div>
     </div>
-    <!--<div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
        <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
@@ -275,7 +304,7 @@
      </div>
     </div> -->
 
-    <!-- <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+ <!-- <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
        <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Link Building:</a>
@@ -289,38 +318,48 @@
        <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
       </div>
      </div>
-    </div> -->
+    </div>
 
    </div>
   </div>
- </div>
+ </div> -->
  <!-- Services End -->
 
  <!-- Offer Start -->
  <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
    <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
-    <h3 class="display-5 mb-4">Elevate Your Healthcare Brand with Prime Search Rankings</h3>
-    <p class="mb-4">In an age where billions actively surf the web every month, healthcare search engine optimization is not just complex, but also pivotal. With ever-evolving search algorithms and fluctuating industry norms, ensuring your healthcare brand remains at the forefront is crucial.</p>
-    <h4 class="display-5 mb-4 fs-2 fw-bold">Choosing us means you are in for unparalleled growth. Here is a glimpse into what our Healthcare SEO Services promise:</h4>
+    <h3 class="display-5 mb-4 text-center fw-bolder">Features of our e-learning solutions</h3>
+    <!-- <p class="mb-4">In an age where billions actively surf the web every month, healthcare search engine optimization is not just complex, but also pivotal. With ever-evolving search algorithms and fluctuating industry norms, ensuring your healthcare brand remains at the forefront is crucial.</p>
+    <h4 class="display-5 mb-4 fs-2 fw-bold">Choosing us means you are in for unparalleled growth. Here is a glimpse into what our Healthcare SEO Services promise:</h4> -->
    </div>
    <div class="row g-5 align-items-center">
     <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
      <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
       <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-       <h5 class="mb-0">Proficient Healthcare SEO Maestros</h5>
+       <h5 class="mb-0">INTUITIVE USER-INTERFACE</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-       <h5 class="mb-0">Building Trust and Credibility</h5>
+       <h5 class="mb-0">ROBUST REPORTING</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
-       <h5 class="mb-0">Optimized Mobile SEO</h5>
+       <h5 class="mb-0">BRAND INTEGRATION</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
-       <h5 class="mb-0">ROI-Focused SEO Approaches</h5>
+       <h5 class="mb-0">RESPONSIVE DESIGN</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseSix">
-       <h5 class="mb-0">Affordable SEO Paradigms</h5>
+       <h5 class="mb-0">
+        EASY API INTEGRATION IN MOBILE APP</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseSeven">
+       <h5 class="mb-0">SHARING KNOWLEDGE</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseEight">
+       <h5 class="mb-0">COLLABORATION</h5>
+      </a>
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseNine">
+       <h5 class="mb-0">PORTALS ARE USER-FRIENDLY</h5>
       </a>
      </div>
     </div>
@@ -329,58 +368,74 @@
       <div id="collapseOne" class="tab-pane fade show p-0 active">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Proficient Healthcare SEO Maestros</h1>
-         <p class="mb-4">Beyond mere medical SEO terminologies, we delve deep into industry nuances, continually enhancing our expertise via rigorous training and industry conferences. Partner with us, and together, we’ll chart your path to success.</p>
+         <h1 class="display-5 mb-4">INTUITIVE USER-INTERFACE</h1>
+         <p class="mb-4">A learning management system is not very helpful if one can’t use the LMS features and functions. We, at Nettechnocrats always try to deliver e-learning solutions which are user-friendly and intuitive with different aspects of your eLearning course.</p>
         </div>
        </div>
       </div>
       <div id="collapseThree" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Building Trust and Credibility</h1>
-         <p class="mb-4">Since its inception in 2005, We have been the epitome of trust in the digital realm. Our ethos revolves around placing consumers at the heart of our ventures. Rest assured; we're geared to cultivate a similar trust quotient for your brand</p>
+         <h1 class="display-5 mb-4">ROBUST REPORTING</h1>
+         <p class="mb-4">When you choose our custom LMS, we give you the facility to monitor every aspect of your e-learning strategy that includes a complete picture of online learner performance, engagement, and satisfaction ratings.</p>
         </div>
        </div>
       </div>
       <div id="collapseFour" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Optimized Mobile SEO</h1>
-         <p class="mb-4">In a mobile-centric era, it's imperative to be mobile-optimized. Our adept team ensures your website not only resonates with aesthetics but is also robust, secure, and seamlessly accessible across devices.</p>
+         <h1 class="display-5 mb-4">BRAND INTEGRATION</h1>
+         <p class="mb-4">With our e-learning solutions, you can easily integrate your brand logo or customize the e-learning templates and other assets that convey your brand messaging. Doing this help you to build credibility among your learners.</p>
         </div>
        </div>
       </div>
       <div id="collapseFive" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">ROI-Focused SEO Approaches</h1>
-         <p class="mb-4">At Nettechnocrats, we don’t just aim for visibility; we aim for tangible results. Harnessing competitive insights and data-driven methodologies, we guarantee your SEO endeavours resonate with growth and conversions.</p>
+         <h1 class="display-5 mb-4">RESPONSIVE DESIGN</h1>
+         <p class="mb-4">All the modern learners want access to their courses anytime and anywhere. Keeping this in mind, we design our LMS that can deliver mobile-friendly content and most importantly with the same viewing experience and benefits as on desktop.</p>
         </div>
        </div>
       </div>
       <div id="collapseSix" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Affordable SEO Paradigms</h1>
-         <p class="mb-4">Excellence needn't be exorbitant. We curate bespoke SEO solutions, designed to align with your financial framework and business goals. Every strategy we devise is a reflection of your brand's aspirations, molded to ensure optimum ROI.</p>
+         <h1 class="display-5 mb-4">EASY API INTEGRATION IN MOBILE APP</h1>
+         <p class="mb-4">We build portal where you can easily create API for mobile app on both platform i.e. android and iOS.</p>
         </div>
        </div>
       </div>
-      <!-- <div id="collapseSeven" class="tab-pane fade show p-0">
+      <div id="collapseSeven" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Data Sync</h1>
-         <p class="mb-4">The cloud connectivity with mobile wallet apps enables highly secured, reliable & rapid transactions.</p>
+         <h1 class="display-5 mb-4">SHARING KNOWLEDGE</h1>
+         <p class="mb-4">Most of the education portals are designed to share knowledge in the form of text, audio, video, and images. As you know mostly education portals are internet-based, so it allows faculty members to share their lectures, notes, and other important information anywhere, anytime using an internet connection.</p>
         </div>
        </div>
-      </div> -->
+      </div>
+      <div id="collapseEight" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">COLLABORATION</h1>
+         <p class="mb-4">Education portal is one of the most popular tools for collaboration across all education sectors such as schools, colleges, universities, and education institutions. Using collaboration tools, students who have similar interests in a particular subject can talk together, work together, discuss on the subject, and solve queries easily.</p>
+        </div>
+       </div>
+      </div>
+      <div id="collapseNine" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">PORTALS ARE USER-FRIENDLY</h1>
+         <p class="mb-4">Education portals are user-friendly. Both technical as well as non-technical users can use education portals easily.</p>
+        </div>
+       </div>
+      </div>
      </div>
     </div>
    </div>
   </div>
  </div>
  <!-- Offer End -->
- <div class="container-fluid about hero__banner__tech py-5">
+ <!-- <div class="container-fluid about hero__banner__tech py-5">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
 
@@ -392,21 +447,20 @@
     <div class="col-xl-6 wow fadeInLeft">
      <div>
       <h4 class="text-primary1 fw-bolder">Fueling Growth Through SEO</h4>
-      <!-- <h3 class="display-5 mb-4 "></h3> -->
       <p class="mb-4 ">At Nettechnocrats, we pride ourselves on being a top-tier Healthcare SEO Company. Our journey has seen us empower numerous providers, treatment centers, nursing establishments, and niche medical practices, catapulting them to superior search rankings and facilitating an influx of new patients. Our SEO strategies aren’t just about numbers; they’re about impactful growth. Join us and witness a transformative ascent in the digital realm.
       </p>
      </div>
     </div>
    </div>
   </div>
- </div>
+ </div> -->
 
  <!-- Services Start -->
 
  <!-- Services End -->
 
 
- <div class="container-fluid about py-5">
+ <!-- <div class="container-fluid about py-5">
   <div class="container py-5">
 
    <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
@@ -434,13 +488,13 @@
 
    </div>
   </div>
- </div>
+ </div> -->
 
  <!--  -->
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Android App Development Services?</h2>
+   <h2>Why Nettechnocrats for Education Portal Development Services?</h2>
    <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">

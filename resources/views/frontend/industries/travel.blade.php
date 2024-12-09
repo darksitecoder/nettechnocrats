@@ -4,7 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>The Next-Generation Software Service Providers Of Future Fintech Leaders</title>
+ <title>Travel Website Development Company</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -47,8 +47,10 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">The Next-Generation Software Service Providers Of Future Fintech Leaders</h1>
-      <p class="mb-4 text-white">Build top-notch Fintech Apps for your business by transforming the way your customers make investments, execute trades, or make payments​.​</p>
+      <h1 class="display-5 mb-4 text-white">Travel Website Development Company</h1>
+      <p class="mb-4 text-white">World’s best travel development company providing custom solutions for your travel business!
+
+       ​</p>
      </div>
     </div>
    </div>
@@ -76,12 +78,11 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4">The banking and financial industries are witnessing changes in technology and user demand as per the current software competition. Hence, to upgrade themselves, the financial institutions are looking forward to financing and banking software whereby they can gain customers loyalty and improve functional efficiency. Among the flooded IT firms offering finance and banking software, Nettechnocrats is a trusted name among IT, service provider, to provide banking and financial solutions. For many local, national as well as international small, medium and large finance and banking institutions, they have leveraged their technical expertise for fulfilling specific IT needs. Their service covers a wide range of finance and banking software for a wide range of business-like, banking, loan and financing, payment, investment, trade, tax. Nettechnocrats understands that there no single solution can fit for any and every banking and financial institution, hence through the backup by expert professionals and management, they provide unique banking and financial solutions.</p>
+      <p class="mb-4">Travel technology is an all-time boom industry and there is a lot of competition. The customers are always looking for the best fares, best offers, faster results as well as an easy online booking process. The online development of travel booking has been totally redefined the means of travel for customers.</p>
+      <p class="mb-4">The travel companies are also ready for cost-effective and innovative ways to market travel packages and their products. We at Nettechnocrats are committed to providing our clients with the best travel solutions for clients and their families. We will help you manage your clients with the travel business will full transparency and efficacy.</p>
 
-      <h2 class="display-5 mb-4">How they excel in their service?</h2>
-      <p class="mb-0">Years of experience and successful project delivery-Although many factors bring light on choosing Nettechnocrats to seek finance and banking software solutions, but the major one is their experience driven by successful projects. At a side where the experience helps them improve day by day and bring the best solution, their successful delivery of projects and clients appreciation motivates them to help financial and banking institutions grow through the current software and technical usage.</p>
-      <p class="mb-0">Quality IT solution-Their frameworks, tools, platforms developed with rich project experience help them deliver quality banking IT Solutions to the customers.</p>
-      <p class="mb-5">Financial and banking companies can gain efficiency through high-quality service that is delivered on time, compiled with security, etc. Nettechnocrats always fulfill multiple IT needs for various banking and financial companies. Also, they bridge the gap in the market that sets them apart from other service providers by combining all banking and financial sector needs by creating flexible financial software.</p>
+      <h2 class="display-5 mb-4">Specialized Travel Booking Solutions</h2>
+      <p class="mb-0">We are going to help you build an app that will take care of ticket planning and hotel booking. With our app solutions, you can help your clients with a stress-free vacation. Currently, we have formulated more than 50 apps for our clients</p>
 
       <div class="row g-4">
 
@@ -160,9 +161,8 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <h2 class="">Challenges in
-    banking, finance & insurance</h2>
-   <p class=" pb-2">Nettechnocrats offers feature-rich and fully-protected Banking and Finance Application Development Services for Android, iPhone and Wearable Devices.</p>
+   <h2 class="">Benefits of the Travel app and website Solutions</h2>
+   <!-- <p class=" pb-2">Nettechnocrats offers feature-rich and fully-protected Banking and Finance Application Development Services for Android, iPhone and Wearable Devices.</p> -->
 
    <div class="row g-4">
     <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
@@ -175,8 +175,9 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Managing Customer Data</a>
-       <p class="mb-4">Today, a lot of analytics insight and business intelligence is required to analyze, manage and store the large amounts of customer data generated.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">
+        24X7 ACCESS:</a>
+       <p class="mb-4">Imagine a moment in time when travelers had to physically visit a travel agent’s office to check for ticket availability and wait for their turn to book their tickets. There were no hotel bookings attached to the travel agent’s services and travel plans were made in a haphazard manner. Limited working hours and inaccessibility were issues that had no apparent solution. A rather irritating beginning to the travel process. Well, we have definitely accelerated a great deal from then. Be it booking information or tour plans, they are all just a few clicks away from the potential traveler. Travel portals have the best possible deals (standards with regard to cost and quality maintained) listed and this saves both the time and money of the traveler.</p>
       </div>
      </div>
     </div>
@@ -184,8 +185,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Accessibility & Customer Service</a>
-       <p class="mb-4">We understand the importance of eye-catchy UX/UI of an application, and therefore we first design the wireframe & then implement trendy designing elements in the app. We ensure you high-end and pixel perfect eWallet app designs</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">HOTEL BOOKINGS</a>
+       <p class="mb-4">A travel portal must have a module for hotel booking as well. We integrate your apps or website with different options for booking hotels along with all the associated amenities and price tags.</p>
       </div>
      </div>
     </div>
@@ -206,8 +207,9 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Regulation</a>
-       <p class="mb-4">Most bankers cite tightening regulatory requirements as costly, ineffective and excessive. The rising regulatory requirements impact the innovation and diversity that bankers strive to implement to cater to escalating demands. Being compliant is tougher as it forces the companies to compromise with creativity in the industry.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">
+        CUSTOMER SUPPORT</a>
+       <p class="mb-4">Traveling these days isn’t limited to a certain time of the day and one may face a lot many issues while traveling across latitudes and longitudes. There is a constant need for quality customer support and this possible only if travel agents develop and maintain a standardized travel portal that has a strong response rate. From support at the time of booking tickets to the check-out time for a package tour customer, it is mandatory for travel agents to be there all the time at the service of their customers.</p>
       </div>
      </div>
     </div>
@@ -215,8 +217,39 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Technology Risk</a>
-       <p class="mb-4">Millennial ordering from a cellular wallet that is not open to those paying cash will often take advantage of incentives such as cash return or customer loyalty points. These incentives function as a credit card scheme; however, as explained above, paying from a mobile wallet is much faster and simpler.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">COST BENEFITS:</a>
+       <p class="mb-4">Deploying a travel portal may be a heavy investment yet it wouldn’t be wrong for one to point out the rate of return the investment attracts. From a customer’s point of view, it is easier for them to select a package or a flight ticket after comparing every probability. From a cheap round trip to a single flight with a stay at a 3-star hotel, there are great deals customers can search from. For a travel agent, it is possible to cater to the needs of a vast crowd based on cost as well as quality. Discounts, value packages, and loyalty programs; there are many ways in which an agent can pass cost benefits to their customers.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">INCREASE CUSTOMER BASE:</a>
+       <p class="mb-4">With a lot many opportunities floating in the travel industry, it is common for a lot many to be attracted to this lucrative business option. It takes a lot of effort for one to sustain the competition. The travel business has to do everything possible to attract, service, retain, and convert a customer into a loyalist. With a travel portal in place, it’s easier for the agent to track the customer’s previous travel details and preferences, the frequency of travel, and a lot more. The information received via the system may be used to design a customized offer for the most frequent passengers and it is also a lot easier to plan a loyalty program or a discount plan. With a perfect tracking system in place, it’s possible for an agent to provide specialized services for a category based customer base.</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">BRAND IMAGE:</a>
+       <p class="mb-4">With a well-developed travel portal in place, it is possible for a business unit to convert itself into a brand. Be it a portal like ‘Makemytrip.com’, they have evolved into a brand over the years and the common key to their success is the strong web support and consistency in maintaining their plan to become the best brand in their field. There is a lot that is involved in the making of a brand; from a plethora of deals to fabulous customer support and customized offers. Travel agents simply have to employ these tools to their benefit to become one of the trusted brand names in the field. Developing a travel portal isn’t a big deal. What is important here is the quality and the level of consistency one maintains. A strong system combined with all the other elements of cost, support, and additional benefits makes it a perfect travel solution to the customers.</p>
       </div>
      </div>
     </div>
@@ -228,38 +261,6 @@
      </div>
     </div>
     <!--<div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div>
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Local SEO:</a>
-       <p class="mb-4">Localized searches are pivotal in healthcare. We fortify your local presence, fostering personal connections with your patient community through relevant content and engagement.</p>
-      </div>
-     </div>
-    </div>
-
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">
-        Technical SEO:</a>
-       <p class="mb-4">Ensure search engines navigate your website seamlessly. We meticulously optimize site elements, ensuring optimal indexing and future-proofing your online presence.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div>
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
        <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
@@ -297,7 +298,7 @@
  <!-- Services End -->
 
  <!-- Offer Start -->
- <div class="container-fluid offer-section pb-5">
+ <!-- <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
    <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
     <h3 class="display-5 mb-4">Elevate Your Healthcare Brand with Prime Search Rankings</h3>
@@ -366,40 +367,13 @@
         </div>
        </div>
       </div>
-      <!-- <div id="collapseSeven" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Data Sync</h1>
-         <p class="mb-4">The cloud connectivity with mobile wallet apps enables highly secured, reliable & rapid transactions.</p>
-        </div>
-       </div>
-      </div> -->
      </div>
     </div>
    </div>
   </div>
- </div>
+ </div> -->
  <!-- Offer End -->
- <div class="container-fluid about hero__banner__tech py-5">
-  <div class="container py-5">
-   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
 
-    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/10-3-transformed.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
-     </div>
-    </div>
-    <div class="col-xl-6 wow fadeInLeft">
-     <div>
-      <h4 class="text-primary1 fw-bolder">Fueling Growth Through SEO</h4>
-      <!-- <h3 class="display-5 mb-4 "></h3> -->
-      <p class="mb-4 ">At Nettechnocrats, we pride ourselves on being a top-tier Healthcare SEO Company. Our journey has seen us empower numerous providers, treatment centers, nursing establishments, and niche medical practices, catapulting them to superior search rankings and facilitating an influx of new patients. Our SEO strategies aren’t just about numbers; they’re about impactful growth. Join us and witness a transformative ascent in the digital realm.
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
 
  <!-- Services Start -->
 
@@ -409,9 +383,8 @@
  <div class="container-fluid about py-5">
   <div class="container py-5">
 
-   <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-    <h2 class="display-5 mb-4">Tour and Travel App Development Samples
-    </h2>
+   <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
+    <h2 class="display-5 mb-4">Tour and Travel App Development Samples</h2>
     <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Tour and Travel App development case studies here:</p>
    </div>
    <div id="call-to-action" class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100" style=" background-color: var(-accent-color) !important;">
@@ -438,9 +411,29 @@
 
  <!--  -->
 
+ <div class="container-fluid about hero__banner__tech py-5">
+  <div class="container py-5">
+   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
+      <img src="{{ asset('assets/web/10-3-transformed.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+     </div>
+    </div>
+    <div class="col-xl-6 wow fadeInLeft">
+     <div>
+      <h4 class="text-primary1 fw-bolder">Why Nettechnocrats for your next project?</h4>
+      <p class="mb-4 ">We are not your standard dev shop. Our human-centric approach puts your customer experience at the center of our design.</p>
+      <p class="mb-4 ">We challenge our clients to think differently by asking the right questions, how can we leverage tech differently? Where are consumers talking and when, because the experience matters.</p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Android App Development Services?</h2>
+   <h2>Why Nettechnocrats for Tour & Travel App Development Services?</h2>
    <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
