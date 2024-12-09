@@ -1,1 +1,0 @@
-<h1>affiliate-marketplace</h1>

@@ -27,11 +27,11 @@
 				</a>
 			</li>
 
-			<li class="sidebar-item blog">
+			<!-- <li class="sidebar-item blog">
 				<a class="sidebar-link" href="{{url('listBlogsForAdmin')}}">
 					<i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Blog Comment</span>
 				</a>
-			</li>
+			</li> -->
 
 			<li class="sidebar-item enquires">
 				<a class="sidebar-link" href="{{url('listEnquiriesForAdmin')}}">

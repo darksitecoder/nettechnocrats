@@ -4,7 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>The Next-Generation Software Service Providers Of Future Fintech Leaders</title>
+ <title>Exceptional Digital Solution For The Real Estate Business</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -47,8 +47,8 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">The Next-Generation Software Service Providers Of Future Fintech Leaders</h1>
-      <p class="mb-4 text-white">Build top-notch Fintech Apps for your business by transforming the way your customers make investments, execute trades, or make payments​.​</p>
+      <h1 class="display-5 mb-4 text-white">Exceptional Digital Solution For The Real Estate Business</h1>
+      <p class="mb-4 text-white">Have you been searching for the best one-stop solution for your real estate mobile and web solutions? With our service, our only sole purpose is to help you reach a wider audience. We are going to make you a top-notch web development technologies. The developers will provide you with an amazing real estate business solution.</p>
      </div>
     </div>
    </div>
@@ -76,12 +76,10 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4">The banking and financial industries are witnessing changes in technology and user demand as per the current software competition. Hence, to upgrade themselves, the financial institutions are looking forward to financing and banking software whereby they can gain customers loyalty and improve functional efficiency. Among the flooded IT firms offering finance and banking software, Nettechnocrats is a trusted name among IT, service provider, to provide banking and financial solutions. For many local, national as well as international small, medium and large finance and banking institutions, they have leveraged their technical expertise for fulfilling specific IT needs. Their service covers a wide range of finance and banking software for a wide range of business-like, banking, loan and financing, payment, investment, trade, tax. Nettechnocrats understands that there no single solution can fit for any and every banking and financial institution, hence through the backup by expert professionals and management, they provide unique banking and financial solutions.</p>
+      <p class="mb-4">We are going to utilize the potential to offer you the service for various property enthusiasts in the market. We help our clients by building them the official websites in order to display the real-time buyers. We will help them have the best experience in buying the property. With our mobile and web development services, we are catering to the best online experience for our clients and further to their customers.</p>
+      <p class="mb-4">We are going to with the holistic approach to have a real estate website design that supports various multiple locations and clients. Ou team of developers will help you design a first-rate user interface that will make it very easy for the visitor to sort the online listing of properties. We have the best technology. It will be used to create and render a unique website for every customer.</p>
 
-      <h2 class="display-5 mb-4">How they excel in their service?</h2>
-      <p class="mb-0">Years of experience and successful project delivery-Although many factors bring light on choosing Nettechnocrats to seek finance and banking software solutions, but the major one is their experience driven by successful projects. At a side where the experience helps them improve day by day and bring the best solution, their successful delivery of projects and clients appreciation motivates them to help financial and banking institutions grow through the current software and technical usage.</p>
-      <p class="mb-0">Quality IT solution-Their frameworks, tools, platforms developed with rich project experience help them deliver quality banking IT Solutions to the customers.</p>
-      <p class="mb-5">Financial and banking companies can gain efficiency through high-quality service that is delivered on time, compiled with security, etc. Nettechnocrats always fulfill multiple IT needs for various banking and financial companies. Also, they bridge the gap in the market that sets them apart from other service providers by combining all banking and financial sector needs by creating flexible financial software.</p>
+      <p class="mb-5">With the development services of the real estate industry, we will also deal with digital marketing, email marketing, promotion, various services, and much more.</p>
 
       <div class="row g-4">
 
@@ -160,9 +158,8 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <h2 class="">Challenges in
-    banking, finance & insurance</h2>
-   <p class=" pb-2">Nettechnocrats offers feature-rich and fully-protected Banking and Finance Application Development Services for Android, iPhone and Wearable Devices.</p>
+   <h2 class="">What are the key features of a Real Estate software development service?</h2>
+   <p class=" pb-2">As we are in the real estate industry, we know how important it is to have a real estate app and website. This is going to help you fight the competition. More than 90 percent of real estate has a website but most of the real estate business owners do not have a responsive website so they look forward to recreating a new one or renovate the old website. Being a service provider for real estate websites as well as mobile application development, we see the advantages clients seek in their business. This is all because of the key features our development team adds to their website. Find below some of the interesting key features we add to the website of our customers from the real estate industry.</p>
 
    <div class="row g-4">
     <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
@@ -175,8 +172,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Managing Customer Data</a>
-       <p class="mb-4">Today, a lot of analytics insight and business intelligence is required to analyze, manage and store the large amounts of customer data generated.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Excellent design:</a>
+       <p class="mb-4">When we say a great design and visually pleasing, we mean a website that is attractive. Your website will probably be the place of the first contact with your customers, so it’s very important to make a good first impression. Let’s say that a good real estate website should reflect the key qualities of a good agency with efficiency and reliability. The website design should enable a flawless user experience that ensures that users can easily navigate the website and find all they need. Also, it’s crucial for the website to be responsive (to look good on all devices). The absence of this feature will be a disappointment both for users and for search engines (responsiveness is an important ranking factor).</p>
       </div>
      </div>
     </div>
@@ -184,8 +181,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Accessibility & Customer Service</a>
-       <p class="mb-4">We understand the importance of eye-catchy UX/UI of an application, and therefore we first design the wireframe & then implement trendy designing elements in the app. We ensure you high-end and pixel perfect eWallet app designs</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Advanced Options for search:</a>
+       <p class="mb-4">We know that an advanced search is the spine of every good real estate website. Our team of expert developers uses the best software to make it possible for users to search the website with ease.</p>
       </div>
      </div>
     </div>
@@ -206,8 +203,9 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Regulation</a>
-       <p class="mb-4">Most bankers cite tightening regulatory requirements as costly, ineffective and excessive. The rising regulatory requirements impact the innovation and diversity that bankers strive to implement to cater to escalating demands. Being compliant is tougher as it forces the companies to compromise with creativity in the industry.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Image gallery:</a>
+       <p class="mb-4">We all know that an image is worth a thousand words. So, if you want to attract users’ attention and tell an interesting story, the one that will put you above the average, give your best to improve listings with beautiful and optimized images.</p>
+       <p class="mb-4">Images make the most impactful content on a real estate website as it affects impressions for a potential buyer. Clean images presented in a beautiful manner, dramatically increases the chances of potential buyers wish listing the property.</p>
       </div>
      </div>
     </div>
@@ -215,40 +213,8 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Technology Risk</a>
-       <p class="mb-4">Millennial ordering from a cellular wallet that is not open to those paying cash will often take advantage of incentives such as cash return or customer loyalty points. These incentives function as a credit card scheme; however, as explained above, paying from a mobile wallet is much faster and simpler.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div>
-    <!--<div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
-      </div>
-     </div>
-    </div>
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Local SEO:</a>
-       <p class="mb-4">Localized searches are pivotal in healthcare. We fortify your local presence, fostering personal connections with your patient community through relevant content and engagement.</p>
-      </div>
-     </div>
-    </div>
-
-    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
-     <div class="service-items">
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">
-        Technical SEO:</a>
-       <p class="mb-4">Ensure search engines navigate your website seamlessly. We meticulously optimize site elements, ensuring optimal indexing and future-proofing your online presence.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Up-to-date information:</a>
+       <p class="mb-4">It’s very important to have verified, reliable and up-to-date information on your website. Also, it is important to have them in the right places. Make them easily accessible and transparent. Let your customers know everything they need to know about properties, agents, and agencies.</p>
       </div>
      </div>
     </div>
@@ -269,17 +235,17 @@
     <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Franchise SEO:</a>
-       <p class="mb-4">Expand your healthcare services with amplified visibility across multiple locations. We champion your brand's unique identity, optimizing for mobile users and harnessing the power of customer reviews.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Support:</a>
+       <p class="mb-4">You’ve managed to get users interested in listings and properties on your website? Then give them the opportunity to easily contact you and ask questions or discuss details. Don’t let them wander around in search of contact forms or information. Also, it would be good to give them the opportunity to join your mailing list, so you can send them important notifications, news, etc.</p>
       </div>
      </div>
-    </div> -->
+    </div>
 
-    <!-- <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
      <div class="service-items">
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Link Building:</a>
-       <p class="mb-4">Ascend search engine rankings by engaging the right audience through potent platforms. We craft compelling content and establish connections with healthcare industry pioneers, amplifying your online footprint.</p>
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Integration of IDX/MLS:</a>
+       <p class="mb-4">IDX, also known as Internet Data Exchange is a software standard or set of rules and policies which is used for displaying MLS (multiple listing services) properties on real estate websites. Thanks to IDX, you can have up-to-date information about a wide range of listings. Consequently, you can also generate more leads for your business.</p>
       </div>
      </div>
     </div>
@@ -289,7 +255,38 @@
        <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
       </div>
      </div>
-    </div> -->
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-1.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">More SEO friendly:</a>
+       <p class="mb-4">WordPress itself provides an SEO-friendly framework to work on. All you need to do is to make sure you are putting content with the correct hierarchical structure. The relevance of the information you’re providing is also crucial. More relevant information more will be the interactions of customers with the pages, and better will be the ranking. If you’re using a plugin to create and manage your real estate website, make sure it’s SEO-friendly so that opportunities to get better search engine rankings don’t get compromised.</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-9 col-lg-9 wow fadeInUp  d-flex align-items-center" data-wow-delay="0.4s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4 fw-bolder">Mobile Responsiveness:</a>
+       <p class="mb-4">58% of site visits happened through mobile in 2018. The preference for using mobile to access the internet is clearly established. If your real estate website isn’t mobile-responsiveness, you are lagging behind the trend and missing out on a big market share. To make sure that’s taken care of you can use a WordPress Mobile Responsive Plugin. Blending your efforts keeping customers behavior in mind will always help you get ahead in the very competitive sphere of real estate.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-items">
+      <div class="rounded-bottom p-4">
+       <img src="{{ asset('assets/web/get-2.webp') }}" class="img-fluid rounded" alt="" style="width: 100%;">
+      </div>
+     </div>
+    </div>
 
    </div>
   </div>
@@ -297,7 +294,7 @@
  <!-- Services End -->
 
  <!-- Offer Start -->
- <div class="container-fluid offer-section pb-5">
+ <!-- <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
    <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
     <h3 class="display-5 mb-4">Elevate Your Healthcare Brand with Prime Search Rankings</h3>
@@ -366,19 +363,19 @@
         </div>
        </div>
       </div>
-      <!-- <div id="collapseSeven" class="tab-pane fade show p-0">
+       <div id="collapseSeven" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
          <h1 class="display-5 mb-4">Data Sync</h1>
          <p class="mb-4">The cloud connectivity with mobile wallet apps enables highly secured, reliable & rapid transactions.</p>
         </div>
        </div>
-      </div> -->
+      </div>
      </div>
     </div>
    </div>
   </div>
- </div>
+ </div> -->
  <!-- Offer End -->
  <div class="container-fluid about hero__banner__tech py-5">
   <div class="container py-5">
@@ -391,10 +388,10 @@
     </div>
     <div class="col-xl-6 wow fadeInLeft">
      <div>
-      <h4 class="text-primary1 fw-bolder">Fueling Growth Through SEO</h4>
+      <h4 class="text-primary1 fw-bolder">Why Nettechnocrats for your next project?</h4>
       <!-- <h3 class="display-5 mb-4 "></h3> -->
-      <p class="mb-4 ">At Nettechnocrats, we pride ourselves on being a top-tier Healthcare SEO Company. Our journey has seen us empower numerous providers, treatment centers, nursing establishments, and niche medical practices, catapulting them to superior search rankings and facilitating an influx of new patients. Our SEO strategies aren’t just about numbers; they’re about impactful growth. Join us and witness a transformative ascent in the digital realm.
-      </p>
+      <p class="mb-4 ">We are not your standard dev shop. Our human-centric approach puts your customer experience at the center of our design.</p>
+      <p class="mb-4 ">We challenge our clients to think differently by asking the right questions, how can we leverage tech differently? Where are consumers talking and when, because the experience matters.</p>
      </div>
     </div>
    </div>
@@ -406,7 +403,7 @@
  <!-- Services End -->
 
 
- <div class="container-fluid about py-5">
+ <!-- <div class="container-fluid about py-5">
   <div class="container py-5">
 
    <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
@@ -434,13 +431,13 @@
 
    </div>
   </div>
- </div>
+ </div> -->
 
  <!--  -->
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Android App Development Services?</h2>
+   <h2>Why Nettechnocrats for Real estate App Development Services?</h2>
    <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
