@@ -62,9 +62,9 @@
 											@error('password')
                                             <div class="alert alert-danger mt-2" style="color:red">{{ $message }}</div> <!-- Red Error Message -->
                                             @enderror
-											<small>
+											<!-- <small>
 												<a href="{{ url('register')}}">Register ?</a>
-											</small>
+											</small> -->
 										</div>
 										<div>
 											<label class="form-check">
