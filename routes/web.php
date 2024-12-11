@@ -258,3 +258,5 @@ Route::view('/seo-services-chandigarh', 'frontend.digital-marketing.seo-services
 Route::view('/seo-company-chennai', 'frontend.digital-marketing.seo-company-chennai');
 Route::view('/seo-for-real-estate', 'frontend.digital-marketing.seo-for-real-estate');
 Route::view('/seo-company-ghaziabad', 'frontend.digital-marketing.seo-company-ghaziabad');
+Route::view('/seo-for-colleges-university', 'frontend.digital-marketing.seo-for-colleges-university');
+Route::view('/seo-services-for-hotels-and-restaurants', 'frontend.digital-marketing.seo-services-for-hotels-and-restaurants');
