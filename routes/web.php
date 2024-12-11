@@ -219,13 +219,17 @@ Route::view('/about-us/certificate', 'frontend.tech.certificate');
 Route::view('/automobile-software-solutions', 'frontend.tech.automobile-software-solutions');
 Route::view('/about-us/methodology', 'frontend.tech.methodology');
 Route::view('/about-us/testimonial', 'frontend.tech.testimonial');
+Route::view('/about-us/partners', 'frontend.tech.partners');
 Route::view('/content-writing-services', 'frontend.tech.content-writing-services');
 Route::view('/landing-page-development', 'frontend.tech.landing-page-development');
+Route::view('/thank-you', 'frontend.tech.thank-you');
 // Route::view('/ott-video-app-development', 'frontend.tech.ott-video-app-development');
 Route::view('/mobile-app-development', 'frontend.tech.mobile-app-development');
 Route::view('/privacy-policy', 'frontend.tech.privacy-policy');
 Route::view('/resources', 'frontend.tech.resources');
 Route::view('/retailer-wholeseller', 'frontend.tech.retailer-wholeseller');
+Route::view('/web-development', 'frontend.tech.web-development');
+Route::view('/location', 'frontend.tech.location');
 
 
 // industries
@@ -244,3 +248,13 @@ Route::view('/instagram-marketing-services', 'frontend.digital-marketing.instagr
 Route::view('/media-advertisement', 'frontend.digital-marketing.media-advertisement');
 Route::view('/real-state-portal-development-company', 'frontend.digital-marketing.real-state-portal-development-company');
 Route::view('/seo-for-banks', 'frontend.digital-marketing.seo-for-banks');
+Route::view('/seo-reseller', 'frontend.digital-marketing.seo-reseller');
+Route::view('/seo-political-campaigns-management', 'frontend.digital-marketing.seo-political-campaigns-management');
+Route::view('/social-media-marketing-services', 'frontend.digital-marketing.social-media-marketing-services');
+Route::view('/seo-company-ahmedabad', 'frontend.digital-marketing.seo-company-ahmedabad');
+Route::view('/seo-company-delhi', 'frontend.digital-marketing.seo-company-delhi');
+Route::view('/seo-company-bangalore', 'frontend.digital-marketing.seo-company-bangalore');
+Route::view('/seo-services-chandigarh', 'frontend.digital-marketing.seo-services-chandigarh');
+Route::view('/seo-company-chennai', 'frontend.digital-marketing.seo-company-chennai');
+Route::view('/seo-for-real-estate', 'frontend.digital-marketing.seo-for-real-estate');
+Route::view('/seo-company-ghaziabad', 'frontend.digital-marketing.seo-company-ghaziabad');
