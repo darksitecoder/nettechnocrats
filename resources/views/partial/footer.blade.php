@@ -50,7 +50,7 @@
 
     <a href="/e-wallet-app-development">E-Wallet App Development </a>
     <a href="/banking-and-finance-app-development">Banking App Development </a>
-    <a href="/multi-vendor-marketplace'">Multi-Vendor Marketplace Development </a>
+    <a href="/multi-vendor-marketplace">Multi-Vendor Marketplace Development </a>
     <a href="/affiliate-marketplace">Affiliate marketplace </a>
     <a href="/on-demand-app-development">On demand App Development </a>
     <a href="/taxi-booking-app">Taxi Booking App Development </a>
