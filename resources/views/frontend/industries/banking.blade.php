@@ -29,7 +29,7 @@
 
       <style>
             .service .service-item {
-                  height: 300px;
+                  height: 400px;
             }
 
             .design-features .service-item {
@@ -296,89 +296,108 @@
       </div>
       <!-- Services End -->
 
-      <!-- Offer Start -->
-      <div class="container-fluid offer-section pb-5">
+      <!-- Services Start -->
+      <div class="container-fluid service pb-5">
             <div class="container pb-5">
-                  <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
-                        <h3 class="display-5 mb-4">Elevate Your Healthcare Brand with Prime Search Rankings</h3>
-                        <p class="mb-4">In an age where billions actively surf the web every month, healthcare search engine optimization is not just complex, but also pivotal. With ever-evolving search algorithms and fluctuating industry norms, ensuring your healthcare brand remains at the forefront is crucial.</p>
-                        <h4 class="display-5 mb-4 fs-2 fw-bold">Choosing us means you are in for unparalleled growth. Here is a glimpse into what our Healthcare SEO Services promise:</h4>
-                  </div>
-                  <div class="row g-5 align-items-center">
-                        <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
-                              <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
-                                    <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-                                          <h5 class="mb-0">Proficient Healthcare SEO Maestros</h5>
-                                    </a>
-                                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-                                          <h5 class="mb-0">Building Trust and Credibility</h5>
-                                    </a>
-                                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
-                                          <h5 class="mb-0">Optimized Mobile SEO</h5>
-                                    </a>
-                                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
-                                          <h5 class="mb-0">ROI-Focused SEO Approaches</h5>
-                                    </a>
-                                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseSix">
-                                          <h5 class="mb-0">Affordable SEO Paradigms</h5>
-                                    </a>
+                  <h3>Customized Nettechnocrats
+                        Banking & Finance App Solutions</h3>
+                  <p>At Nettechnocrats, We enable Fintech companies and banks digitize their offline operations – providing a large variety of services like digital payments, broking, financial management, investing etc. We also help in Mobile first strategy to make online finance both easier and comfortable for the users.</p>
+                  <div class="row g-4">
+                        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                              <div class="service-item">
+                                    <div class="service-img">
+                                          <i class="fa-brands fa-laravel"></i>
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                          <a href="#" class="h4 d-inline-block mb-4">Insurance Apps</a>
+                                          <p class="mb-4">We have developed mobile apps for insurance companies, providing a more efficient way to connect with customers, and to increase the productivity of their insurance agents.​</p>
+                                          <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                                    </div>
                               </div>
                         </div>
-                        <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
-                              <div class="tab-content">
-                                    <div id="collapseOne" class="tab-pane fade show p-0 active">
-                                          <div class="row g-4">
-                                                <div class="col-md-12">
-                                                      <h1 class="display-5 mb-4">Proficient Healthcare SEO Maestros</h1>
-                                                      <p class="mb-4">Beyond mere medical SEO terminologies, we delve deep into industry nuances, continually enhancing our expertise via rigorous training and industry conferences. Partner with us, and together, we’ll chart your path to success.</p>
-                                                </div>
-                                          </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                              <div class="service-item">
+                                    <div class="service-img">
+                                          <i class="fa-brands fa-searchengin"></i>
                                     </div>
-                                    <div id="collapseThree" class="tab-pane fade show p-0">
-                                          <div class="row g-4">
-                                                <div class="col-md-12">
-                                                      <h1 class="display-5 mb-4">Building Trust and Credibility</h1>
-                                                      <p class="mb-4">Since its inception in 2005, We have been the epitome of trust in the digital realm. Our ethos revolves around placing consumers at the heart of our ventures. Rest assured; we're geared to cultivate a similar trust quotient for your brand</p>
-                                                </div>
-                                          </div>
+                                    <div class="rounded-bottom p-4">
+                                          <a href="#" class="h4 d-inline-block mb-4">Forex Apps</a>
+                                          <p class="mb-4">Our fintech app development solutions can help you deliver the latest technologies within the forex trading space. We have developed forex apps, bringing all the features of a full-fledged trading platform to a small mobile screen without any glitches.</p>
+                                          <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
                                     </div>
-                                    <div id="collapseFour" class="tab-pane fade show p-0">
-                                          <div class="row g-4">
-                                                <div class="col-md-12">
-                                                      <h1 class="display-5 mb-4">Optimized Mobile SEO</h1>
-                                                      <p class="mb-4">In a mobile-centric era, it's imperative to be mobile-optimized. Our adept team ensures your website not only resonates with aesthetics but is also robust, secure, and seamlessly accessible across devices.</p>
-                                                </div>
-                                          </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                              <div class="service-item">
+                                    <div class="service-img">
+                                          <i class="fa-solid fa-globe"></i>
                                     </div>
-                                    <div id="collapseFive" class="tab-pane fade show p-0">
-                                          <div class="row g-4">
-                                                <div class="col-md-12">
-                                                      <h1 class="display-5 mb-4">ROI-Focused SEO Approaches</h1>
-                                                      <p class="mb-4">At Nettechnocrats, we don’t just aim for visibility; we aim for tangible results. Harnessing competitive insights and data-driven methodologies, we guarantee your SEO endeavours resonate with growth and conversions.</p>
-                                                </div>
-                                          </div>
+                                    <div class="rounded-bottom p-4">
+                                          <a href="#" class="h4 d-inline-block mb-4">Investment Apps</a>
+                                          <p class="mb-4">We can help you create high quality investment apps that would let your customers manage their spends, portfolio values, and even invest in mutual funds with utmost ease.​</p>
+                                          <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
                                     </div>
-                                    <div id="collapseSix" class="tab-pane fade show p-0">
-                                          <div class="row g-4">
-                                                <div class="col-md-12">
-                                                      <h1 class="display-5 mb-4">Affordable SEO Paradigms</h1>
-                                                      <p class="mb-4">Excellence needn't be exorbitant. We curate bespoke SEO solutions, designed to align with your financial framework and business goals. Every strategy we devise is a reflection of your brand's aspirations, molded to ensure optimum ROI.</p>
-                                                </div>
-                                          </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                              <div class="service-item">
+                                    <div class="service-img">
+                                          <i class="fa-solid fa-chart-simple"></i>
                                     </div>
-                                    <!-- <div id="collapseSeven" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Data Sync</h1>
-         <p class="mb-4">The cloud connectivity with mobile wallet apps enables highly secured, reliable & rapid transactions.</p>
-        </div>
-       </div>
-      </div> -->
+                                    <div class="rounded-bottom p-4">
+                                          <a href="#" class="h4 d-inline-block mb-4">Cryptocurrency Apps</a>
+                                          <p class="mb-4">Our team of Blockchain experts have expertise in developing cryptocurrency exchange apps and wallet apps that could allow the seamless transfer of multiple currencies from mobile phones.</p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                              <div class="service-item">
+                                    <div class="service-img">
+                                          <i class="fa-brands fa-creative-commons-remix"></i>
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                          <a href="#" class="h4 d-inline-block mb-4">Mobile Banking Apps</a>
+                                          <p class="mb-4">Our mobile banking solutions can integrate all with regulations like CCPA​ of features into one single application in order to drive a seamless online banking experience for the customers of our clients.​</p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                              <div class="service-item">
+                                    <div class="service-img">
+                                          <i class="fa-solid fa-link"></i>
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                          <a href="#" class="h4 d-inline-block mb-4">POS Solutions</a>
+                                          <p class="mb-4">Our fintech app development expertise also extends to creating digital wallet apps that allow users to transfer money from their mobile phones to their wallets using debit or credit cards, QR codes, mobile number and NFC. </p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                              <div class="service-item">
+                                    <div class="service-img">
+                                          <i class="fa-solid fa-link"></i>
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                          <a href="#" class="h4 d-inline-block mb-4">Digital Wallet Solutions</a>
+                                          <p class="mb-4">We have all the desired capabilities for developing complex lending and mortgage solutions for our clients. Our expert team of developers can build and design a number of features centered around lending & mortgage like mortgage calculators, advisory platforms and EMI planning.</p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                              <div class="service-item">
+                                    <div class="service-img">
+                                          <i class="fa-solid fa-link"></i>
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                          <a href="#" class="h4 d-inline-block mb-4">Regtech Apps</a>
+                                          <p class="mb-4">Reach out to us for regtech solutions to help you comply with all the regulatory standards. We can design solutions like customer identity verification, risk scores & robust data-protection mechanisms etc.</p>
+                                    </div>
                               </div>
                         </div>
                   </div>
             </div>
       </div>
+      <!-- Services End -->
       <!-- Offer End -->
       <div class="container-fluid about hero__banner__tech py-5">
             <div class="container py-5">
@@ -391,10 +410,10 @@
                         </div>
                         <div class="col-xl-6 wow fadeInLeft">
                               <div>
-                                    <h4 class="text-primary1 fw-bolder">Fueling Growth Through SEO</h4>
+                                    <h4 class="text-primary1 fw-bolder">Why Nettechnocrats for your next project?</h4>
                                     <!-- <h3 class="display-5 mb-4 "></h3> -->
-                                    <p class="mb-4 ">At Nettechnocrats, we pride ourselves on being a top-tier Healthcare SEO Company. Our journey has seen us empower numerous providers, treatment centers, nursing establishments, and niche medical practices, catapulting them to superior search rankings and facilitating an influx of new patients. Our SEO strategies aren’t just about numbers; they’re about impactful growth. Join us and witness a transformative ascent in the digital realm.
-                                    </p>
+                                    <p class="mb-4 ">We are not your standard dev shop. Our human-centric approach puts your customer experience at the center of our design.</p>
+                                    <p class="mb-4 ">We challenge our clients to think differently by asking the right questions, how can we leverage tech differently? Where are consumers talking and when, because the experience matters.</p>
                               </div>
                         </div>
                   </div>
@@ -409,9 +428,8 @@
       <div class="container-fluid about py-5">
             <div class="container py-5">
 
-                  <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-                        <h2 class="display-5 mb-4">Tour and Travel App Development Samples
-                        </h2>
+                  <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
+                        <h2 class="display-5 mb-4">Banking & Finance App Development Samples</h2>
                         <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Tour and Travel App development case studies here:</p>
                   </div>
                   <div id="call-to-action" class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100" style=" background-color: var(-accent-color) !important;">
@@ -420,8 +438,8 @@
                         <div class="col-xl-6 wow fadeInLeft">
                               <div>
 
-                                    <h4 class="text-primary1 fw-bolder">Beycome Real Estate</h4>
-                                    <p class="mb-4">Beycome is the first and only real estate company and listing platform that realizes 100% of your home transactions online; helping homeowners, buyers, and renters close a deal on their home, without the assistance of a real estate agent or broker. In turn, by cutting out agents, this saves homeowners from paying the 6% commission fee involved in a home sale (or 10% commission fee due in a rental transaction). And when the owner saves, buyers and renters get more negotiation power for a better deal.</p>
+                                    <h4 class="text-primary1 fw-bolder">Hubrisone Digital Currency</h4>
+                                    <p class="mb-4">We make it easy to manage your cryptocurrency assets by combining crypto wallets, fiat currency accounts and smart analytics in one app. We’re making cryptocurrencies and blockchain technology mainstream.</p>
                                     <img src="{{ asset('assets/web/progress.png') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
                               </div>
                         </div>
@@ -440,7 +458,7 @@
 
       <section class="light-background why__choose__Net">
             <div class="container">
-                  <h2>Why Nettechnocrats for Android App Development Services?</h2>
+                  <h2>Why Nettechnocrats for Banking & Finance App Development Services?</h2>
                   <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
                   <div class="row pt-2">
                         <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">

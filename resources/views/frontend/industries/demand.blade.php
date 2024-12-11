@@ -29,7 +29,7 @@
 
       <style>
             .service .service-item {
-                  height: 300px;
+                  height: 400px;
             }
 
             .design-features .service-item {
@@ -300,8 +300,7 @@
       <!-- Services Start -->
       <div class="container-fluid service pb-5">
             <div class="container pb-5">
-                  <h3>On-demand
-                        solutions for other businesses:</h3>
+                  <h3 class="fw-bold">On-demand solutions for other businesses:</h3>
                   <p>The beginning of the on-demand application has changed various traditional services. There are various industries that are re-inventing themselves such as taxi app development and the food industry. These both have re-invented themselves and hs led to a revolution. There are on-demand services such as logistics and couriers which has also been influenced by E-commerce.</p>
                   <p>This concept is a trending one and is serving every platform for unique services such as grocery & fuel delivery.</p>
                   <div class="row g-4">
@@ -311,9 +310,8 @@
                                           <i class="fa-brands fa-laravel"></i>
                                     </div>
                                     <div class="rounded-bottom p-4">
-                                          <a href="#" class="h4 d-inline-block mb-4">
-                                                JOOMLA WEBSITE DEVELOPMENT</a>
-                                          <p class="mb-4">Joomla CMS web design & development is one of our core capabilities. All our developers are skillfully proficient and experienced with the Joomla CMS and its latest versions.</p>
+                                          <a href="#" class="h4 d-inline-block mb-4">Couriers and logistics</a>
+                                          <p class="mb-4">Couriers and logistics: There are on-demand applications that have made the delivery of the packages very convenient for everyone. This is used by the industry for the shipment, e-commerce, and delivery to the people.</p>
                                           <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
                                     </div>
                               </div>
@@ -324,8 +322,8 @@
                                           <i class="fa-brands fa-searchengin"></i>
                                     </div>
                                     <div class="rounded-bottom p-4">
-                                          <a href="#" class="h4 d-inline-block mb-4">COMPONENTS DEVELOPMENT</a>
-                                          <p class="mb-4">If you want to add any new Joomla component to your websites like blog, directory, image gallery, forum or anything else, we can develop bespoke components whenever you require.</p>
+                                          <a href="#" class="h4 d-inline-block mb-4">Food delivery</a>
+                                          <p class="mb-4">There are various food delivery apps that will help you get your favorite cuisines at your doorsteps. When you are feeling lazy to cook or are somewhere out, then you can get your food in no time.</p>
                                           <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
                                     </div>
                               </div>
@@ -336,8 +334,8 @@
                                           <i class="fa-solid fa-globe"></i>
                                     </div>
                                     <div class="rounded-bottom p-4">
-                                          <a href="#" class="h4 d-inline-block mb-4">JOOMLA CUSTOM DEVELOPMENT</a>
-                                          <p class="mb-4">Our web developers have the experience to develop a whole range of custom web applications ranging from simple websites to complex website to suit individual client’s requirements.</p>
+                                          <a href="#" class="h4 d-inline-block mb-4">Grocery delivery</a>
+                                          <p class="mb-4">There are some applications that will deliver you the groceries at any place you are willing to. These apps have been created with the on-demand app development services that will help you save some time. You just need to order your grocery and it will be there on time.</p>
                                           <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
                                     </div>
                               </div>
@@ -348,8 +346,8 @@
                                           <i class="fa-solid fa-chart-simple"></i>
                                     </div>
                                     <div class="rounded-bottom p-4">
-                                          <a href="#" class="h4 d-inline-block mb-4">CUSTOM MODULES DEVELOPMENT</a>
-                                          <p class="mb-4">If your website needs more than what the existing modules offer, we provide unique custom Joomla development service to our clients in a great expert and professional circumstances.</p>
+                                          <a href="#" class="h4 d-inline-block mb-4">Fuel delivery</a>
+                                          <p class="mb-4">There can be some times when you are stuck and you are not able to find any refill station nearby. At this time, you can get help from the fuel delivery services. They are going to deliver the amount of fuel you need at the place you want instantly.</p>
                                     </div>
                               </div>
                         </div>
@@ -359,12 +357,12 @@
                                           <i class="fa-brands fa-creative-commons-remix"></i>
                                     </div>
                                     <div class="rounded-bottom p-4">
-                                          <a href="#" class="h4 d-inline-block mb-4">JOOMLA THEME CUSTOMIZATION</a>
-                                          <p class="mb-4">Get exclusive Joomla themes which are ready to use in an instant, enhancing the durability of your website to result in a completely satisfied customer.</p>
+                                          <a href="#" class="h4 d-inline-block mb-4">Features of professional SEO</a>
+                                          <p class="mb-4">There can be some times when you are stuck and you are not able to find any refill station nearby. At this time, you can get help from the fuel delivery services. They are going to deliver the amount of fuel you need at the place you want instantly.</p>
                                     </div>
                               </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                               <div class="service-item">
                                     <div class="service-img">
                                           <i class="fa-solid fa-link"></i>
@@ -374,95 +372,11 @@
                                           <p class="mb-4">Our adept team of offshore Joomla developers provides scalable and customized solutions that smoothly support your workflows without compromising any feature or functionality.</p>
                                     </div>
                               </div>
-                        </div>
+                        </div> -->
                   </div>
             </div>
       </div>
       <!-- Services End -->
-      <!-- Offer Start -->
-      <div class="container-fluid offer-section pb-5">
-            <div class="container pb-5">
-                  <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
-                        <h3 class="display-5 mb-4">Elevate Your Healthcare Brand with Prime Search Rankings</h3>
-                        <p class="mb-4">In an age where billions actively surf the web every month, healthcare search engine optimization is not just complex, but also pivotal. With ever-evolving search algorithms and fluctuating industry norms, ensuring your healthcare brand remains at the forefront is crucial.</p>
-                        <h4 class="display-5 mb-4 fs-2 fw-bold">Choosing us means you are in for unparalleled growth. Here is a glimpse into what our Healthcare SEO Services promise:</h4>
-                  </div>
-                  <div class="row g-5 align-items-center">
-                        <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
-                              <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
-                                    <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-                                          <h5 class="mb-0">Proficient Healthcare SEO Maestros</h5>
-                                    </a>
-                                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-                                          <h5 class="mb-0">Building Trust and Credibility</h5>
-                                    </a>
-                                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
-                                          <h5 class="mb-0">Optimized Mobile SEO</h5>
-                                    </a>
-                                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
-                                          <h5 class="mb-0">ROI-Focused SEO Approaches</h5>
-                                    </a>
-                                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseSix">
-                                          <h5 class="mb-0">Affordable SEO Paradigms</h5>
-                                    </a>
-                              </div>
-                        </div>
-                        <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
-                              <div class="tab-content">
-                                    <div id="collapseOne" class="tab-pane fade show p-0 active">
-                                          <div class="row g-4">
-                                                <div class="col-md-12">
-                                                      <h1 class="display-5 mb-4">Proficient Healthcare SEO Maestros</h1>
-                                                      <p class="mb-4">Beyond mere medical SEO terminologies, we delve deep into industry nuances, continually enhancing our expertise via rigorous training and industry conferences. Partner with us, and together, we’ll chart your path to success.</p>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <div id="collapseThree" class="tab-pane fade show p-0">
-                                          <div class="row g-4">
-                                                <div class="col-md-12">
-                                                      <h1 class="display-5 mb-4">Building Trust and Credibility</h1>
-                                                      <p class="mb-4">Since its inception in 2005, We have been the epitome of trust in the digital realm. Our ethos revolves around placing consumers at the heart of our ventures. Rest assured; we're geared to cultivate a similar trust quotient for your brand</p>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <div id="collapseFour" class="tab-pane fade show p-0">
-                                          <div class="row g-4">
-                                                <div class="col-md-12">
-                                                      <h1 class="display-5 mb-4">Optimized Mobile SEO</h1>
-                                                      <p class="mb-4">In a mobile-centric era, it's imperative to be mobile-optimized. Our adept team ensures your website not only resonates with aesthetics but is also robust, secure, and seamlessly accessible across devices.</p>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <div id="collapseFive" class="tab-pane fade show p-0">
-                                          <div class="row g-4">
-                                                <div class="col-md-12">
-                                                      <h1 class="display-5 mb-4">ROI-Focused SEO Approaches</h1>
-                                                      <p class="mb-4">At Nettechnocrats, we don’t just aim for visibility; we aim for tangible results. Harnessing competitive insights and data-driven methodologies, we guarantee your SEO endeavours resonate with growth and conversions.</p>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <div id="collapseSix" class="tab-pane fade show p-0">
-                                          <div class="row g-4">
-                                                <div class="col-md-12">
-                                                      <h1 class="display-5 mb-4">Affordable SEO Paradigms</h1>
-                                                      <p class="mb-4">Excellence needn't be exorbitant. We curate bespoke SEO solutions, designed to align with your financial framework and business goals. Every strategy we devise is a reflection of your brand's aspirations, molded to ensure optimum ROI.</p>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <!-- <div id="collapseSeven" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Data Sync</h1>
-         <p class="mb-4">The cloud connectivity with mobile wallet apps enables highly secured, reliable & rapid transactions.</p>
-        </div>
-       </div>
-      </div> -->
-                              </div>
-                        </div>
-                  </div>
-            </div>
-      </div>
-      <!-- Offer End -->
       <div class="container-fluid about hero__banner__tech py-5">
             <div class="container py-5">
                   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
@@ -474,10 +388,10 @@
                         </div>
                         <div class="col-xl-6 wow fadeInLeft">
                               <div>
-                                    <h4 class="text-primary1 fw-bolder">Fueling Growth Through SEO</h4>
+                                    <h4 class="text-primary1 fw-bolder">Why Nettechnocrats for your next project?</h4>
                                     <!-- <h3 class="display-5 mb-4 "></h3> -->
-                                    <p class="mb-4 ">At Nettechnocrats, we pride ourselves on being a top-tier Healthcare SEO Company. Our journey has seen us empower numerous providers, treatment centers, nursing establishments, and niche medical practices, catapulting them to superior search rankings and facilitating an influx of new patients. Our SEO strategies aren’t just about numbers; they’re about impactful growth. Join us and witness a transformative ascent in the digital realm.
-                                    </p>
+                                    <p class="mb-4 ">We are not your standard dev shop. Our human-centric approach puts your customer experience at the center of our design.</p>
+                                    <p class="mb-4 ">We challenge our clients to think differently by asking the right questions, how can we leverage tech differently? Where are consumers talking and when, because the experience matters.</p>
                               </div>
                         </div>
                   </div>
@@ -492,10 +406,9 @@
       <div class="container-fluid about py-5">
             <div class="container py-5">
 
-                  <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-                        <h2 class="display-5 mb-4">Tour and Travel App Development Samples
-                        </h2>
-                        <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Tour and Travel App development case studies here:</p>
+                  <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
+                        <h2 class="display-5 mb-4">On demand App Development Samples</h2>
+                        <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Mobile App development case studies here</p>
                   </div>
                   <div id="call-to-action" class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100" style=" background-color: var(-accent-color) !important;">
 
@@ -503,8 +416,8 @@
                         <div class="col-xl-6 wow fadeInLeft">
                               <div>
 
-                                    <h4 class="text-primary1 fw-bolder">Beycome Real Estate</h4>
-                                    <p class="mb-4">Beycome is the first and only real estate company and listing platform that realizes 100% of your home transactions online; helping homeowners, buyers, and renters close a deal on their home, without the assistance of a real estate agent or broker. In turn, by cutting out agents, this saves homeowners from paying the 6% commission fee involved in a home sale (or 10% commission fee due in a rental transaction). And when the owner saves, buyers and renters get more negotiation power for a better deal.</p>
+                                    <h4 class="text-primary1 fw-bolder">Preapps</h4>
+                                    <p class="mb-4">Pre App is a premier mobile app marketing and discovery platform specially designed for app developers, publishers, and the enterprise. With over a total of 90 million client downloads, this tool is mainly used to do market research and validate your application idea. As well as, the tool is also helpful to track app’s downloads, revenue analytics, and usage.</p>
                                     <img src="{{ asset('assets/web/progress.png') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
                               </div>
                         </div>
@@ -523,7 +436,7 @@
 
       <section class="light-background why__choose__Net">
             <div class="container">
-                  <h2>Why Nettechnocrats for Android App Development Services?</h2>
+                  <h2>Why Nettechnocrats for On demand App Development Services?</h2>
                   <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
                   <div class="row pt-2">
                         <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
