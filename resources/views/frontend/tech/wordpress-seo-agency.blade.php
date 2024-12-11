@@ -500,7 +500,7 @@
  <!-- Services End -->
 
  <!-- Offer Start -->
- <div class="container-fluid offer-section pb-5">
+ <!-- <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
     <h3 class="display-5 mb-4">Advanced & Strong
@@ -585,7 +585,7 @@
     </div>
    </div>
   </div>
- </div>
+ </div> -->
  <!-- Offer End -->
 
 
@@ -799,7 +799,7 @@
  <!-- Services End -->
 
 
- <div class="container-fluid about py-5">
+ <!-- <div class="container-fluid about py-5">
   <div class="container py-5">
 
    <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
@@ -826,13 +826,32 @@
 
    </div>
   </div>
- </div>
+ </div> -->
+ <div class="container-fluid about hero__banner__tech py-5">
+  <div class="container py-5">
+   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
 
+    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
+      <img src="{{ asset('assets/web/10-3-transformed.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+     </div>
+    </div>
+    <div class="col-xl-6 wow fadeInLeft">
+     <div>
+      <h4 class="text-primary1 fw-bolder">Why Nettechnocrats for your next project?</h4>
+      <!-- <h3 class="display-5 mb-4 "></h3> -->
+      <p class="mb-4 ">We are not your standard dev shop. Our human-centric approach puts your customer experience at the center of our design.</p>
+      <p class="mb-4 ">We challenge our clients to think differently by asking the right questions, how can we leverage tech differently? Where are consumers talking and when, because the experience matters.</p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
  <!--  -->
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Android App Development Services?</h2>
+   <h2>Why Nettechnocrats for Wordpress SEO Services?</h2>
    <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
