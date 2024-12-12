@@ -4,7 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>SEO For Educational Institutions, Colleges And University</title>
+ <title>SEO Reseller Excellence </title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -28,7 +28,7 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
  <style>
   .service .service-item {
-   height: 550px;
+   height: 330px;
   }
  </style>
 </head>
@@ -42,8 +42,8 @@
     <div class="col-xl-7 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">SEO For Educational Institutions, Colleges And University</h1>
-      <p class="mb-4 text-white">SEO campaign for educational institutions, Colleges and University on your fingure print</p>
+      <h1 class="display-5 mb-4 text-white">SEO Reseller Excellence</h1>
+      <p class="mb-4 text-white">Boost Agency Revenue with Our Trusted White Label Services</p>
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -59,16 +59,23 @@
   <div class="container py-5">
 
    <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-    <h2 class="display-5 mb-4">Increase Higher Educational Enrollment with SEO for Educational Institutions</h2>
+    <h2 class="display-5 mb-4">SEO Reseller Services Mastery</h2>
+    <p>Elevate Your Online Reach with the Top White Label SEO Reseller</p>
    </div>
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-6 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <!-- <p class="mb-4 fw-bold fs-3">What is Laravel Web Development ?</p> -->
-      <p class="mb-4">SEO has become crucial for colleges, schools and universities. The reason behind its importance is reaching out to aspiring students, joining new students and make people know about the various courses offered. For educational institutions and universities who are in need of SEO service looks forward to a trusted place that offers effective SEO, there are many options. However, choosing the best always makes a bigger difference.</p>
-      <p class="mb-4">Nettechnocrats is one of the leading companies that have come up with several SEO projects for colleges and universities. Our team has effectively handled various SEO projects-online as well as offline and hence we are capable to help our clients get better online visibility along with an improved enrollment.</p>
-      <p class="mb-4">Our indifferent strategy helps to position educational institutions along with the universities on search engines as well as other digital marketing platforms. Apart from this, we have greater SEO approach for educational institutions and universities.</p>
+      <p class="mb-4">Today, many business owners search online before buying products or services. In fact, 93% of online searches start on a search engine. By teaming up with Nettechnocrats, you get:</p>
+      <ul>
+       <li><b>Dedicated Team: </b>Work with a friendly team that knows SEO inside out.</li>
+       <li><b>More Website Visitors: </b>We help get more people to visit your site.</li>
+       <li><b>Honest Methods: </b>We use only the right and fairways to improve SEO.</li>
+       <li><b>Good Prices: </b>We offer great services that won’t break the bank.</li>
+       <li><b>Clear Updates: </b>We keep you in the loop with regular, easy-to-understand reports.</li>
+      </ul>
+      <p class="mb-4">As a leading SEO Reseller Services Company in India, we help you to help you improve your SEO without any stress or hassle. We also make sure our work stays in the background, so your clients only see you. If you’re looking for SEO reseller packages that fit just right, chat with us!</p>
 
       <div class="row g-4">
 
@@ -93,6 +100,11 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
+   <h2 class="text-center">What is all included in our White Label SEO Reseller Services?</h2>
+   <p class="text-center py-4">
+    <b>Empower Your Business with Our SEO Reseller Expertise</b> <br />
+    Dive into a comprehensive suite of SEO solutions with Nettechnocrats. As a trusted SEO reseller, we provide services tailored to elevate your client’s digital presence while maximizing your revenue potential.
+   </p>
    <div class="row g-4">
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
@@ -100,8 +112,9 @@
        <i class="fa-brands fa-laravel"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">COMPETITOR ANALYSIS</a>
-       <p class="mb-4">The educational institution’s industry has a lot of competition. Hence, as the leading SEO Company, we primarily analyze market competition through the core study. When we are done with the analysis, we proceed for the further step.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Website Audits</a>
+       <p class="mb-4">Spot Opportunities and Issues Efficiently
+        With our SEO audits, we delve deep into technical, on-page, and off-page aspects while also scoping out your competitors.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -112,8 +125,9 @@
        <i class="fa-brands fa-searchengin"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">ROAD MAP FOR BUSINESS GROWTH</a>
-       <p class="mb-4">Once we analyze the real-time competition, our leaders develop a road map for the best educational institutions business growth through digital marketing. Further, the team follows the map to reach the objective and provide the best business growth to clients. The map is followed under guidance.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Keyword Research & Analysis</a>
+       <p class="mb-4">Unlock the Power of Effective Keywords
+        In the vast SEO landscape, there are browsing keywords and buying keywords. We focus on the latter, ensuring a successful SEO campaign.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -124,8 +138,9 @@
        <i class="fa-solid fa-globe"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CONTENT CREATION</a>
-       <p class="mb-4">Educational institutions face challenges to keep the website consistently updated with fresh content. This failure affects SEO and their website ranking. Therefore, for the client our team structure unique and fresh content with the latest tactics. This work brings the institutions website on top of the search engine. Our content team is capable enough to optimize the requirement of the esteemed client. They use the most suitable keyword to write unique content.</p>
+       <a href="#" class="h4 d-inline-block mb-4">On-Page Optimization</a>
+       <p class="mb-4">Boost Every Web Page's Performance
+        We fine-tune each page of your website according to Google's guidelines, aiming for optimal search engine rankings.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -136,8 +151,9 @@
        <i class="fa-solid fa-chart-simple"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">LINK BUILDING</a>
-       <p class="mb-4">Link building is one of the prominent parts of successful SEO practice. We build the internal as well as an external link. This makes a great SEO effort for the institutions.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Analytics Tracking</a>
+       <p class="mb-4">Measure to Improve Every Strategy
+        What's quantified gets improved. With our tracking tools, keep an eye on rankings, referrals, links, and more to refine your SEO tactics.</p>
       </div>
      </div>
     </div>
@@ -147,8 +163,9 @@
        <i class="fa-solid fa-chart-simple"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">SETUP SEARCH CONSOLE AND ANALYTICS</a>
-       <p class="mb-4">Google runs a plethora of sites that help website owners rank their websites. We use Google and follow the rule to set up search console and analytics.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Content Creation</a>
+       <p class="mb-4">Engage, Inform, and Convert
+        Our expert copywriters craft content that not only captivates readers but also converts them into loyal customers.</p>
       </div>
      </div>
     </div>
@@ -158,12 +175,13 @@
        <i class="fa-solid fa-chart-simple"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">GLOBAL AND MULTILANGUAGE SEO</a>
-       <p class="mb-4">When it comes to educational institutions SEO, we think beyond the boundaries and offer our service to clients all across the globe. Our team is expert to understand multiple languages and this makes us provide the best educational institutions SEO at the global level. We use effective SEO tactics to drive organic traffic for educational institutions as well as restaurants. Choose us to experience great traffic and unexpected benefit in your business.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Organic Link Building</a>
+       <p class="mb-4">Build Meaningful Web Connections
+        Our specialists weave a link-building strategy that's grounded in compelling, shareable content, driving organic links back to your website.</p>
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+    <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
        <i class="fa-solid fa-chart-simple"></i>
@@ -184,7 +202,7 @@
        <p class="mb-4">Getting updates of the latest SEO tactics is the strength that we carry day by day. We use the latest tactics to do the educational institutions SEO. Starting with keyword research, placing the brand name, tagging and targeting the main keyword, we create a great link structure.</p>
       </div>
      </div>
-    </div>
+    </div> -->
    </div>
   </div>
  </div>
@@ -194,27 +212,27 @@
  <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-    <h3 class="display-5 mb-4 fw-bolder">Advantages of Choosing Us</h3>
-    <p class="mb-0 fw-bold">There is no shortage of SEO consultants and experts in India, but only a few of them are skilled and experienced to match with the clients or customers requirement. We at Nettechnocrats are one among the skilled and experienced ones. Choosing us brings benefits like:</p>
+    <h3 class="display-5 mb-4 fw-bolder">Why Choose SEO Reseller Services from Nettechnocrats?</h3>
+    <p class="mb-0 fw-bold">Partnering with Nettechnocrats for SEO Reseller Services offers distinct advantages that position both you and your clients at the forefront of the digital landscape. Here’s why our services stand out:</p>
    </div>
    <div class="row g-5 align-items-center">
     <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
      <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
       <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-       <h5 class="mb-0">Proficiency</h5>
+       <h5 class="mb-0">Save Time</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
-       <h5 class="mb-0">Affordable Charges</h5>
+       <h5 class="mb-0">Effective Results</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-       <h5 class="mb-0">Hundred Percent-Guaranteed Results</h5>
+       <h5 class="mb-0">Hip To Google’s Newest Tricks</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
-       <h5 class="mb-0">Transparency</h5>
+       <h5 class="mb-0">Keep Away from Wasting Money</h5>
       </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
+      <!-- <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
        <h5 class="mb-0">Time to Time Update</h5>
-      </a>
+      </a> -->
       <!-- <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseSix">
        <h5 class="mb-0">Guaranteed Results</h5>
       </a>
@@ -231,16 +249,28 @@
       <div id="collapseOne" class="tab-pane fade show p-0 active">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Proficiency</h1>
-         <p class="mb-4">We have the highest technical proficiency because we pick the candidate based on their talent, work, and skills. Choosing us will make you proficient in the educational industry.</p>
+         <h1 class="display-5 mb-4">Save Time</h1>
+         <p class="mb-4">
+         <ul>
+          <li><b>Efficiency:</b> Our streamlined processes and experienced team ensure that SEO tasks are completed swiftly.
+          </li>
+          <li><b>Focus on Core Activities:</b> With us handling the SEO, you can direct your energy towards what you do best - managing and growing your business.</li>
+         </ul>
+         </p>
         </div>
        </div>
       </div>
       <div id="collapseTwo" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Affordable Charges</h1>
-         <p class="mb-4">As the market leader, we do not make a hole in the customer’s pocket. To safeguard them from the unusual cost, we have a complete educational institutions SEO package for client and customers that too at the affordable cost.</p>
+         <h1 class="display-5 mb-4">Effective Results</h1>
+         <p class="mb-4">
+         <ul>
+          <li><b>Data-Driven Strategies:</b> We rely on in-depth analytics and insights to craft strategies that yield measurable outcomes.
+          </li>
+          <li><b>Continuous Monitoring:</b> Our ongoing performance checks ensure that we're always on the right track to achieve the desired results.</li>
+         </ul>
+         </p>
         </div>
        </div>
       </div>
