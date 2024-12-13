@@ -28,7 +28,7 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
  <style>
   .service .service-item {
-   height: 330px;
+   height: 500px;
   }
 
   ul li {
@@ -63,7 +63,7 @@
   <div class="container py-5">
 
    <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
-    <h2 class="display-5 mb-4">Effective Politicians SEO to “UNLOCK” Crucial Digital Marketing Voters</h2>
+    <h2 class="display-5 mb-4">Well-organized SEO Services to Boost Hotel and Restaurants Organic Image</h2>
     <!-- <p>Elevate Your Online Reach with the Top White Label SEO Reseller</p> -->
    </div>
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
@@ -71,11 +71,11 @@
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <!-- <p class="mb-4 fw-bold fs-3">What is Laravel Web Development ?</p> -->
-      <p class="mb-4">SEO is standard practice for large, medium or small organizations. It is an attempt to drive the traffic from search engines. Along with the big and small company of various sectors, Search Engine Optimization is now an important practice for political sector.</p>
-      <p class="mb-4 fw-bolder fs-5">Why Politicians SEO?</p>
-      <p class="mb-4">Politician campaign is now a business and the target audience is the voter. A political campaign when crafted rightly according to the voter’s requirement, it deliberates the real power. Many politicians tend to choose SEO for political campaigns. However, for others, SEO appears as an afterthought. It is looked like a part of politician campaign, but in reality, it holds the key to reach voters. SEO for politicians can easily control the identity, issues related to bad image, and much more.</p>
-      <p class="mb-4">While many candidates begin to make inroads by adopting digital strategies from the top firms, the organization seems to neglect the main ingredient of online marketing, i.e. Search Engine Optimization or SEO. However, we at Nettechnocrats have the best team with expertise in digital marketing and hence offer extensive politicians SEO.</p>
-      <p class="mb-4">Our politicians SEO with digital marketing hold a true phenomenon at all level. From local council election to high-profile nationally recognized Parliament Elections, our SEO team makes a great strategy that works like a pro. The team recognizes the requirement of promotion for politics along with other works to do for political campaign.</p>
+      <p class="mb-4">SEO is one of the most powerful tools to generate cost-effective traffic on the hotel’s website. The beauty of SEO lies in its continuous practice whereby it drives the traffic, generates the revenue, brings a better, and improved marketing. SEO or search engine optimization is consistently getting high in demand by various industries because of the trending digital marketing approach and its probable advantages. After IT, hospital, educational and political, hotel industry (hotel or hotel chain) have now switched to SEO for an improved marketing approach.</p>
+      <p class="mb-4 fw-bolder fs-5">Why Hotel and Restaurant SEO?</p>
+      <p class="mb-4">Hotel or hotel chain or restaurant or restaurant chain is greatly competing against their online ranking day by day. They choose the SEO service and start marketing through the latest tactics. However, SEO can be a very complex area to navigate therefore hoteliers might hesitate to jump in.</p>
+      <p class="mb-4">Choosing the right company for the service can prove beneficial. When you are thinking to grow your hotel business in an organic manner, Nettechnocrats is always there for you. Starting from the root level, we bring the unexpected organic ranking through our SEO services for hotels and restaurants.</p>
+      <p class="mb-4">Our indifferent strategy helps to position hotels along with the restaurants on search engines as well as other digital marketing platforms.</p>
 
       <div class="row g-4">
 
@@ -112,8 +112,8 @@
        <i class="fa-brands fa-laravel"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">KEYWORD RESEARCH</a>
-       <p class="mb-4">Enlisting the keyword according to the requirement is the first step we take. Our expert researches the most profitable keywords for the pre-election campaign using the ideal tricks and extracts out the best-related keyword for donning politicians SEO.</p>
+       <a href="#" class="h4 d-inline-block mb-4">COMPETITOR ANALYSIS</a>
+       <p class="mb-4">The hotel industry has a lot of competition. Hence, as the leading SEO Company, we primarily analyze market competition through the core study. When we are done with the analysis, we proceed for the further step.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -124,8 +124,8 @@
        <i class="fa-brands fa-searchengin"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">SOCIAL MEDIA STRATEGY</a>
-       <p class="mb-4">Social media strategy is one of the best-considered strategies for political campaigns. We use social networks like Facebook, Twitter, YouTube, and Instagram for developing an impactful politician’s face among targeted and non-targeted audiences.</p>
+       <a href="#" class="h4 d-inline-block mb-4">ROAD MAP FOR BUSINESS GROWTH</a>
+       <p class="mb-4">Once we analyze the real-time competition, our leaders develop a road map for the best hotel business growth through digital marketing in SEO. Further, the team follows the map to reach the objective and provide the best business growth to clients.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -136,8 +136,8 @@
        <i class="fa-solid fa-globe"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CONTENT CREATION</a>
-       <p class="mb-4">Nettechnocrats is a leading PHP application development company in India & USA offering eCommerce solutions that widens our client’s business online in a very efficient manner. Our web developers help you to build a strong online presence with a user-friendly eCommerce website.</p>
+       <a href="#" class="h4 d-inline-block mb-4">CONTENT OPTIMIZATION</a>
+       <p class="mb-4">Hoteliers face challenges to keep their hotel website consistently updated with fresh content. This failure affects SEO and their website ranking. Therefore, for the client our team structure unique and fresh content with the latest tactics. This work brings the hotelier’s website on top of the search engine. Our content team are capable enough to optimize the requirement of the esteemed client. They use the most suitable keyword to write unique content</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -148,9 +148,8 @@
        <i class="fa-solid fa-chart-simple"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">
-        RIVALRY ANALYSIS</a>
-       <p class="mb-4">Many parties compete in an election. We analyze the tricks and strategy of the rival party and decide on the step to take. Our expert uses a competition analysis process to attract probable supporter.</p>
+       <a href="#" class="h4 d-inline-block mb-4">LINK BUILDING</a>
+       <p class="mb-4">Link building is one of the prominent parts of successful SEO practice. We build the internal as well as external link and post it.</p>
       </div>
      </div>
     </div>
@@ -160,24 +159,23 @@
        <i class="fa-solid fa-chart-simple"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">DAILY TRACKING</a>
-       <p class="mb-4">Tracking on a daily basis is helpful. We track the daily basis response of the supports and manage the political campaign.</p>
+       <a href="#" class="h4 d-inline-block mb-4">SETUP SEARCH CONSOLE AND ANALYTICS</a>
+       <p class="mb-4">Google runs a plethora of sites that help website owners ranking their websites. We follow the rule and setup search console and analytics.</p>
       </div>
      </div>
     </div>
-    <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
        <i class="fa-solid fa-chart-simple"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Organic Link Building</a>
-       <p class="mb-4">Build Meaningful Web Connections
-        Our specialists weave a link-building strategy that's grounded in compelling, shareable content, driving organic links back to your website.</p>
+       <a href="#" class="h4 d-inline-block mb-4">GLOBAL AND MULTILANGUAGE SEO</a>
+       <p class="mb-4">When it comes to hotel and restaurant SEO, we think beyond the boundaries and offer our service to clients all across the globe. Our team are expert to understand multiple languages and this makes us provide the best hotel SEO at the global level. We use effective SEO tactics to drive organic traffic for hotels as well as restaurants. Choose us to experience great traffic and unexpected benefit in your business.</p>
       </div>
      </div>
-    </div> -->
-    <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
        <i class="fa-solid fa-chart-simple"></i>
@@ -198,7 +196,7 @@
        <p class="mb-4">Getting updates of the latest SEO tactics is the strength that we carry day by day. We use the latest tactics to do the educational institutions SEO. Starting with keyword research, placing the brand name, tagging and targeting the main keyword, we create a great link structure.</p>
       </div>
      </div>
-    </div> -->
+    </div>
    </div>
   </div>
  </div>
@@ -215,20 +213,20 @@
     <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
      <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
       <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-       <h5 class="mb-0">Reduced Cost and Improved Reputation</h5>
+       <h5 class="mb-0">Proficiency</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
-       <h5 class="mb-0">A Well-Planned Set For The Campaign</h5>
+       <h5 class="mb-0">Affordable Charges</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-       <h5 class="mb-0">Better Ranking</h5>
+       <h5 class="mb-0">Transparency</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
-       <h5 class="mb-0">Time</h5>
+       <h5 class="mb-0">Time To Time Update</h5>
       </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
+      <!-- <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
        <h5 class="mb-0">Best Result</h5>
-      </a>
+      </a> -->
       <!-- <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseSix">
        <h5 class="mb-0">Guaranteed Results</h5>
       </a>
@@ -245,32 +243,32 @@
       <div id="collapseOne" class="tab-pane fade show p-0 active">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Reduced Cost and Improved Reputation</h1>
-         <p class="mb-4">Search Engine Optimization is now crucial for political parties and politician. Today, every political party faces competition and we help them reach potential voters. Hiring us lets our team manage your reputation. We implement the techniques that are crucial for enhancing your visibility in the searches. Donning this improves the chances of reaching potential voters. It also benefits with a significant reduction of amount required to invest in marketing strategy.</p>
+         <h1 class="display-5 mb-4">Proficiency</h1>
+         <p class="mb-4">We have the highest technical proficiency because we pick the candidate based on their talent, work, and skills. Choosing us will make you proficient in the industry.</p>
         </div>
        </div>
       </div>
       <div id="collapseTwo" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">A Well-Planned Set For The Campaign</h1>
-         <p class="mb-4">The campaign needs a good set with prior planning and we look at the demand of voters and situation. By choosing us, you get to look at your party and name as the politician on another level. This is because we create a perspective for voters that ensure your party has a good agenda for the forthcoming years.functions with minimal costing involved.</p>
+         <h1 class="display-5 mb-4">Affordable Charges</h1>
+         <p class="mb-4">As the market leader, we do not make a hole in the customer’s pocket. To safeguard them from the unusual cost, we have a complete hotel SEO package for client and customers that too at the affordable cost.</p>
         </div>
        </div>
       </div>
       <div id="collapseThree" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Better Ranking</h1>
-         <p class="mb-4">The web experiments show that political campaigns have modernizing effects. In addition, our work speaks through its ranking.</p>
+         <h1 class="display-5 mb-4">Transparency</h1>
+         <p class="mb-4">We are transparent about our SEO services. From discussing the work with the client and customer to payment and the result, we manage everything in a very smooth manner. We make everything clear with our esteemed clients whereby they rely upon us for the service.</p>
         </div>
        </div>
       </div>
       <div id="collapseFour" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Time</h1>
-         <p class="mb-4">Politicians have a great responsibility for the people. As a result, they have very less time to concentrate on the upcoming election. During that moment, our SEO team make sure to maintain the image or rather build a better one. Choosing us helps in maintaining the service for people, without any fear of gathering potential voters.</p>
+         <h1 class="display-5 mb-4">Time To Time Update</h1>
+         <p class="mb-4">Even if the client does not ask for the report while we work, we keep them updated with the work. The best result can be seen through the website ranking. Our hotel and restaurant SEO processes for hoteliers</p>
         </div>
        </div>
       </div>
@@ -316,11 +314,6 @@
  <section class="light-background why__choose__Net">
   <div class="container">
    <h2>Why Nettechnocrats for SEO Services?</h2>
-   <p class="py-3">As one of the leading SEO company, we at Nettechnocrats come together and work for the political campaign. Our team uses Search Engine Optimization that brings a way to define and control the candidate message throughout the campaign. Reputation management is one of the rising trends in politics. This is because not every politician has a clear image. For all those politicians who have filed their nomination for the upcoming election, we drive an online campaign and promote a different image. We use SEO, social media and online marketing strategy for promotion, and target the audience by implementing an effective approach. Implementation of SEO strategies for political campaigns is something not everyone has heard. We start the promotion from the local city to the town and districts.</p>
-   <p class="py-1 fw-bold fs-3">SEO Consulting For Political Campaigns</p>
-   <p class="py-1">In case of politics, traffic means to vote and vote means a win in the election. As the leading SEO Company, we at Nettechnocrats put forth the best effort to build and optimize SEO strategy to make a wonderful political campaign. Hence, our true management is capable to manage the image of the political party and its candidate.</p>
-   <p class="py-1">A bad online reputation can cost a lot. Moreover, every politician understands the need for a clean image and hence looks for an effective solution online. For all the political parties and politicians, Search Engine Optimization and its various strategies work like a pro. We ensure that through SEO, digital marketing and content marketing we can reach every voting group within the sphere of influence.</p>
-   <p class="py-1">An election with Search Engine Optimization consultation makes a huge difference. Many leaders who did not choose online promotion witnessed a big defeat in the elections. Now Search Engine Optimization makes a perfect sense to make a big political difference.</p>
 
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
