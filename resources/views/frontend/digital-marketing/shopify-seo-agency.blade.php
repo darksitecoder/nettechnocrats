@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>WIX SEO SERVICES</title>
+ <title>SHOPIFY SEO AGENCY</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -47,11 +47,8 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">Join Us to Get Premium SEO Services on The Wix Platform</h1>
-      <p class="mb-4 text-white">Let your local business thrive under extreme pressure and work against your competitors now!
-
-
-</p>
+      <h1 class="display-5 mb-4 text-white">Assured Conversions with a Trusted Shopify SEO AgencyTaxi Business</h1>
+      <p class="mb-4 text-white">The best of Shopify SEO experts at your service</p>
      </div>
     </div>
    </div>
@@ -72,25 +69,21 @@
   <div class="container py-5">
 
    <div class=" mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="">
-    <h2 class="display-5 mb-4">Elevate Your Online Presence with the leading Squarespace SEO expert in India</h2>
+    <h2 class="display-5 mb-4">This vibrant metropolis is home to numerous multinational corporations, small and medium-sized businesses, and start-ups.</h2>
    </div>
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4">Well, it is a known fact that most of the website visitors are currently driven by major search engines like Bing, Google, and even Yahoo! If these commercial engines fail to find your website within the mix, or fail to add information to their system, then you are missing out on best opportunities to catch up with potential customers.
+      <p class="mb-4">Are you hunting for Shopify SEO services that can help you win higher conversions and bring top rankings on the web? If yes, you’ve landed at the right destination. Nettechnocrats take great pride in introducing themselves as a credible Shopify SEO company with a proven record of assisting diverse clients with the best-in-class Shopify SEO services.
 
-Our team from Nettechnocrats knows the importance of WIX SEO services. Being a popular Wix SEO agency, you will receive the best Wix-centric SEO tools from us. Thanks to our hard-working WIX SEO specialists, we will help you grow your current online presence. They will be using the main tools that your business needs to be found online
+Here, at Nettechnocrats, we function as a close-knit team of Shopify SEO experts to deliver our clients’ finest Shopify SEO services. We vouch for our team’s dedication to offering the best in e-commerce search marketing. In addition to this, our Shopify SEO experts are imparted regular pieces of training, which encourages them to use proven techniques and advanced strategies for upgrading your online store.
 
-Follow us as we provide you with some nifty tricks and tips to help boost the current website ranking and get more visitors with our WIX SEO package.</p>
+Feel free to get in touch with us to discuss, brainstorm and avail the best of what we have to offer as a leading Shopify SEO company. We promise that you won’t regret your choice to bank on us for availing of the most dependable Shopify SEO agency services from us.</p>
 
- <div class=" mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="">
-    <h2 class="display-5 mb-4">Delivering results all the way through:</h2>
-   </div>
-<p>If you are a WIX user, you must be looking for more visibility. So, for that, our Wix SEO agency has created services to help you get a higher client base! Our main goal is to optimize the present website to cover all the ranking needs.
-</p>
+
      <div class=" mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="">
-    <h2 class="display-5 mb-4">Contact us for the best SEO-friendly site</h2>   </div>
+    <h2 class="display-5 mb-4">SHOPIFY SEO: The process we follow!Get to know about SEO Service</h2>   </div>
    
       <div class="row g-4">
 
@@ -110,7 +103,7 @@ Follow us as we provide you with some nifty tricks and tips to help boost the cu
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
-    <h2 class="pb-5">>Optimizing Your Wix Website: Our Strategy Unveiled</h2>
+    <h2 class="pb-5">>What makes Nettechnocrats a credible Shopify SEO company?</h2>
 
    <div class="row g-4">
     <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -119,8 +112,9 @@ Follow us as we provide you with some nifty tricks and tips to help boost the cu
        <i class="fa-solid fa-disease"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">SEO</a>
-       <p class="mb-4">We will use our resources to create attractive SEO websites to help boost your current Google rankings.
+       <a href="#" class="h4 d-inline-block mb-4">TAILORED SHOPIFY SEO SERVICES:</a>
+       <p class="mb-4">Nettechnocrats has been appreciated for extending proven strategies for Shopify SEO services. Having experience in working with a varied client base, the company holds expertise in handling diverse requirements.
+
 </p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
@@ -132,55 +126,27 @@ Follow us as we provide you with some nifty tricks and tips to help boost the cu
        <i class="fa-solid fa-gauge-high"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">KEYWORD RESEARCH</a>
-       <p class="mb-4">We work with the best SEO-friendly keywords to help you get the top ranking. We will choose the right keyword depending on your business niche and the latest trends moving forward.
+       <a href="#" class="h4 d-inline-block mb-4">WE HELP YOU STAY COMPETITIVE</a>
+       <p class="mb-4">Our Shopify SEO experts will help you fully utilize the Shopify marketing platform, which is one of the most potent e-commerce channels. Rely on our experts to build a lasting customer relationship while adding value to the brand experience that you’ll gain. Shopify SEO agency service range that we bring encompasses unique storefront themes, secure transactions, built-in app support features, and easy backend administration.
 </p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-	
     <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
      <div class="service-item">
       <div class="service-img">
        <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">HIGH-END USABILITY</a>
-       <p class="mb-4">You can always expect the best experience from us, no matter what device your website is on. So, whether you have a website on a mobile or PC, we can work on different projects with same level of expertise.
+       <a href="#" class="h4 d-inline-block mb-4">IDENTIFYING THE BEST SHOPIFY SEO AGENCY CAMPAIGN:</a>
+       <p class="mb-4">We understand the client requirements well and help them identify their fit for availing of a specific Shopify SEO expert solution. In addition, our experts are availing 24*7 to extend full-time support at all times.
 </p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
 	
- <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-shield-halved"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">OFF-PAGE OPTIMIZATION:</a>
-       <p class="mb-4">We are ready to improve all the signals that Google and other search engines use for ranking your website. We will craft links to the site and increase mentions across the internet world.
-</p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
-	
-	 <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-shield-halved"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">MOBILE OPTIMIZATION</a>
-       <p class="mb-4">With us, you can capture top search engine placements using some proven strategies related to mobile SEO practices.
-</p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
 
 		
 	</div>
