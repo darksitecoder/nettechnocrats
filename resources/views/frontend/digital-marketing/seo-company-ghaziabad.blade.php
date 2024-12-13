@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Amazon Web Services- Certified Consulting Partner</title>
+ <title>SEO COMPANY GHAZIABAD</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -26,6 +26,16 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+ <style>
+  .service .service-item {
+   height: 300px;
+  }
+
+  .design-features .service-item {
+   height: 550px !important;
+  }
+ </style>
 </head>
 
 <body>
@@ -34,16 +44,22 @@
  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-6 wow fadeInLeft">
+    <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">Amazon Web Services- Certified Consulting Partner</h1>
+      <h1 class="display-5 mb-4 text-white">SEO Ghaziabad</h1>
+      <p class="mb-4 text-white">We help clients to improve their search rankings and ensure they appear on Google’s first page.</p>
      </div>
     </div>
-    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="">
-      <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
+   </div>
+  </div>
+ </div>
+ <div class="container-fluid ">
+  <div class="container py-2">
+   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="col-xl-12 wow fadeInLeft">
+     <div class=" rounded d-flex justify-content-center">
+      <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
      </div>
     </div>
    </div>
@@ -52,9 +68,28 @@
  <div class="container-fluid about py-5">
   <div class="container py-5">
 
-   <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-    <h2 class="display-5 mb-4">Eliminate all the planned and unplanned downtime with the best AWS solutions</h2>
-    <p>As an Amazon Web Services certified partner and managed services provider, Nettechnocrats help you optimize your spend, manage security risks and get the full benefits of Amazon Web Services.</p>
+   <div class=" mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="">
+    <h2 class="display-5 mb-4">SEO GHAZIABAD</h2>
+   </div>
+   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="col-xl-12 wow fadeInLeft">
+     <div>
+      <!-- <h4 class="text-primary1">About Us</h4> -->
+      <p class="mb-4">SEO has developed a reputation in Ghaziabad, helping customers grow their business and making the most effective use of the digital platform in this highly competitive area. These days the consumer has gotten more and more influential through digital media.</p>
+     <div class=" mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="">
+    <h2 class="display-5 mb-4">Why SEO for Real Estate?</h2>   </div>
+   
+	  <p class="mb-4">SEO professionals are altering the industry with their highly effective and productive ways of managing SEO firms in Ghaziabad. They have been in the market for many years and help businesses worldwide manage their digital campaigns. Search engine optimisation is highly crucial for every business. When you are in the first few results of a search engine, it ultimately brings the most organic traffic to your website. These prospects will likely be transferred to your firm in the long run or with immediate effects. SEO is one of the top-rated digital marketing agencies in the Ghaziabad region, helping clients expand their business.
+      <div class="row g-4">
+
+       <div class="col-sm-6">
+        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+       </div>
+
+      </div>
+     </div>
+
+    </div>
    </div>
   </div>
  </div>
@@ -63,62 +98,121 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
+    <h2 class="pb-5">OUR quality SEO process which lead your website in search engine</h2>
    <div class="row g-4">
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-battle-net"></i>
+       <i class="fa-solid fa-disease"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">AWS Development</a>
-       <p class="mb-4">With great industry knowledge & years of expertise, we provide business-critical solutions that scale dynamically to meet your global business needs. </p>
+       <a href="#" class="h4 d-inline-block mb-4">On-Page Optimisation</a>
+       <p class="mb-4">We follow the webmaster rules provided by Google and optimise each individual page of your website.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-searchengin"></i>
+       <i class="fa-solid fa-gauge-high"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">AWS Consulting</a>
-       <p class="mb-4">We specialize in offering cloud solutions, cloud managed services and cloud consulting services in SysOps, DevOps, and other cloud managed services on AWS Platform.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Analytics Tracking</a>
+       <p class="mb-4">Collect and analyse critical analytical data, such as the number of visits, the number of impressions, and the rate of conversion.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-globe"></i>
+       <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">AWS Integration</a>
-       <p class="mb-4">By analyzing requirements for AWS, we offer AWS cloud integration services that make organization's journey towards cloud hassle-free.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Content Creation</a>
+       <p class="mb-4">We make content that gets consideration drives traffic, and changes over readers into paying clients.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-chart-simple"></i>
+
+       <i class="fa-solid fa-award"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">AWS Migration</a>
-       <p class="mb-4">With your business goals in mind, our AWS specialists help through every stage of migration, accelerating results by providing personnel and tools in the form of professional services.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Website Audits</a>
+       <p class="mb-4">Free Website Audits to help you with figuring out how our services can improve your webpage’s performance.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-   </div>
+	<div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-item">
+      <div class="service-img">
+
+       <i class="fa-solid fa-award"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">Organic Links</a>
+       <p class="mb-4">If you have an excellent link-building strategy and unique, convincing, and shareable content, people will link to your site.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+      </div>
+     </div>
+    </div>
+	</div>
   </div>
  </div>
  <!-- Services End -->
+
+    <h2 class="pb-5">Ghaziabad's Best SEO Services</h2>
+	<p class="mb-4">Ghaziabad’s Best SEO Services boost organic traffic by helping your website rank on the first page of search engine results at the top. For this reason, our team of Ghaziabad’s SEO services will work together to develop methods. It is based on successful tactics to improve your website for startup SEO services.</p>
+	
+	<p class="mb-4">Increasing your company’s profitability by implementing a more up-to-date and cutting-edge. At Nettechnocrats, we recognise the importance of small-scale businesses and innovative startups.</p>
+
+	<p class="mb-4">Small and medium-sized businesses and startups can rely on our player’s years of experience. We focus on organic SEO and content marketing to help grow your startup’s online presence and brand awareness.</p>
+
+	<p class="mb-4">Many Ghaziabad-based businesses rely on us for their SEO needs. Our strong client retention rate is further proof of our high-quality work in this city’s search engine marketing industry. The most brilliant option you can make for your organisation is to hire the top SEO firm in Ghaziabad.</p>
+
+
+ <div class="container-fluid about py-5">
+  <div class="container py-5">
+
+   <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+    <h2 class="display-5 mb-4">Real Estate App Development Samples
+    </h2>
+    <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Tour and Travel App development case studies here:</p>
+   </div>
+   <div id="call-to-action" class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100" style=" background-color: var(-accent-color) !important;">
+
+
+    <div class="col-xl-6 wow fadeInLeft">
+     <div>
+
+      <h4 class="text-primary1 fw-bolder">Beycome Real Estate</h4>
+      <p class="mb-4">Beycome is the first and only real estate company and listing platform that realizes 100% of your home transactions online; helping homeowners, buyers, and renters close a deal on their home, without the assistance of a real estate agent or broker. In turn, by cutting out agents, this saves homeowners from paying the 6% commission fee involved in a home sale (or 10% commission fee due in a rental transaction). And when the owner saves, buyers and renters get more negotiation power for a better deal.</p>
+      <img src="{{ asset('assets/web/progress.png') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+     </div>
+    </div>
+    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+     <div class="rounded position-relative overflow-hidden">
+      <img src="{{ asset('assets/web/1-beycome.webp') }}" class="img-fluid rounded w-100" alt="">
+
+     </div>
+    </div>
+
+   </div>
+  </div>
+ </div>
+
+ <!--  -->
+
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Amazon Web Services?</h2>
-
+   <h2>Why Nettechnocrats for Android App Development Services?</h2>
+   <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
      <div class="row mt-3">
@@ -194,8 +288,8 @@
     </div>
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gif">
-      <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+      <div class="rounded-4 position-relative overflow-hidden">
+       <img src="{{ asset('assets/web/android-image.webp') }}" class="img-fluid w-100" alt="">
 
       </div>
      </div>

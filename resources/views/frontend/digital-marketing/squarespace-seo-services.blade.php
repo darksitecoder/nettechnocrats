@@ -1,1 +1,0 @@
-<h1>squarespace-seo-services</h1>

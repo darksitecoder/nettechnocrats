@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Salesforce Development</title>
+ <title>SEO Services For Real Estate</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -26,6 +26,16 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+ <style>
+  .service .service-item {
+   height: 300px;
+  }
+
+  .design-features .service-item {
+   height: 550px !important;
+  }
+ </style>
 </head>
 
 <body>
@@ -34,17 +44,22 @@
  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-6 wow fadeInLeft">
+    <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">Amazon SEO Services
-      </h1>
+      <h1 class="display-5 mb-4 text-white">SEO Services For Real Estate</h1>
+      <p class="mb-4 text-white">SEO campaign for real estate on your fingure print</p>
      </div>
     </div>
-    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="">
-      <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
+   </div>
+  </div>
+ </div>
+ <div class="container-fluid ">
+  <div class="container py-2">
+   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="col-xl-12 wow fadeInLeft">
+     <div class=" rounded d-flex justify-content-center">
+      <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
      </div>
     </div>
    </div>
@@ -53,15 +68,23 @@
  <div class="container-fluid about py-5">
   <div class="container py-5">
 
-   <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-    <h2 class="display-5 mb-4">The best Amazon SEO Services for your business</h2>
+   <div class=" mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="">
+    <h2 class="display-5 mb-4">Take Your Site to The Next Level With Proven Real Estate SEO Services</h2>
    </div>
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-6 wow fadeInLeft">
+    <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4">Many of us might not have heard about Amazon SEO since SEO means search engine optimization and Amazon is not a search engine for many of us. Amazon does not provide answers/results to service-related categories and many other types of queries. But, if we search for a product on Amazon, it provides you results.</p>
-      <p class="mb-4">Hence, Amazon is a search engine for products that is even better than Google. With more than 310 million active users worldwide, it has become extremely necessary for every seller to optimize the product in every possible way. Here at Nettechnocrats, we understand the importance of Amazon advertising for a seller. We offer our clients a unique methodology for getting your products ranked on Amazon. We have good experience with advanced on-page Amazon SEO, external optimization and we can drive your product to the top of the listings.</p>
+      <p class="mb-4">An improperly maintained website has the capability to breakdown the search engine rankings and there rise the need for SEO or Search Engine Optimization. Now, SEO is the primary and basic need for companies from various sectors. Unlike others, real estate sectors also have the need for SEO services and reasons might vary from the company to the company.</p>
+     <div class=" mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="">
+    <h2 class="display-5 mb-4">Why SEO for Real Estate?</h2>   </div>
+   
+	  <p class="mb-4">Politician campaign is now a business and the target audience is the voter. A political campaign when crafted rightly according to the voter’s requirement, it deliberates the real power. Many politicians tend to choose SEO for political campaigns. However, for others, SEO appears as an afterthought. It is looked like a part of politician campaign, but in reality, it holds the key to reach voters. SEO for politicians can easily control the identity, issues related to bad image, and much more.
+
+						While many candidates begin to make inroads by adopting digital strategies from the top firms, the organization seems to neglect the main ingredient of online marketing, i.e. Search Engine Optimization or SEO. However, we at Nettechnocrats have the best team with expertise in digital marketing and hence offer extensive politicians SEO.
+
+						Our politicians SEO with digital marketing hold a true phenomenon at all level. From local council election to high-profile nationally recognized Parliament Elections, our SEO team makes a great strategy that works like a pro. The team recognizes the requirement of promotion for politics along with other works to do for political campaign.</p>
+
       <div class="row g-4">
 
        <div class="col-sm-6">
@@ -70,12 +93,7 @@
 
       </div>
      </div>
-    </div>
-    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-     <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
 
-     </div>
     </div>
    </div>
   </div>
@@ -85,73 +103,93 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
+    <h2 class="pb-5">Why you Choose Nettechnocrats for your Real Estate Business?</h2>
    <div class="row g-4">
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-battle-net"></i>
+       <i class="fa-solid fa-disease"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">AMAZON SEO AUDIT</a>
-       <p class="mb-4">Amazon SEO audit is the very first step of Amazon SEO services. Our experts check for your products from head to toe, to fetch the actual scenario of your product on Amazon. Is the brand properly established on the platform? Are the products both competitively priced and in-stock? </p>
+       <a href="#" class="h4 d-inline-block mb-4">CONDUCT AN SEO AUDIT</a>
+       <p class="mb-4">The audit is necessary to optimize the real estate site for local search. We at Nettechnocrats run an SEO audit for real estate client and this is the smartest thing our team does. For audit, we pay attention to the following things: • Site Structuring • Page Structuring • Content • Link</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-searchengin"></i>
+       <i class="fa-solid fa-gauge-high"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">KEYWORD RESEARCH & ANALYSIS</a>
-       <p class="mb-4">Keyword research is a very crucial part of your Amazon product listing or launch. Our Amazon SEO experts research the most profitable keywords your product should rank for, including long-tail keywords that your competitor has not found.</p>
+       <a href="#" class="h4 d-inline-block mb-4">OPTIMIZE THE WEBSITE</a>
+       <p class="mb-4">A perfectly optimized website is requiring bringing the local result. After pinpointing the main areas of the real estate company’s website, our team further invest adequate time into looking out the problems.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-globe"></i>
+       <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">PRODUCT OPTIMIZATION</a>
-       <p class="mb-4">If you are starting from scratch, then also you don’t have to worry! We have amazon experts all lined for an SEO amazon listing and optimize products in the best possible way. Following the best practice guidelines for each element of your product listing, we assure you to improve and optimize.</p>
+       <a href="#" class="h4 d-inline-block mb-4">CONTENT CREATION</a>
+       <p class="mb-4">We understand that like other industries, even real estate agencies require properly optimized content that speaks to the needs of the audience. We know that you need content that is capable enough to dominate the search engine results. Hence, our content team pen down:</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-chart-simple"></i>
+
+       <i class="fa-solid fa-award"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">COMPETITION ANALYSIS</a>
-       <p class="mb-4">Analyzing the potential profitability of the market is essential and will determine how many sales are needed per day to rank for pre-determined keywords. Our experts use a competition analysis process that essentially allows us to reverse engineer how many sales competitors receive and what they do well.</p>
+       <a href="#" class="h4 d-inline-block mb-4">INFORMATIVE ARTICLES</a>
+       <p class="mb-4">Our team knows that articles are meant to be informative and they pen it down accordingly. They bring out a unique perspective through research and describe advantages, disadvantages of choosing their real estate client. Moreover, they pen down information about the services provided via the web pages.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+	<div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-creative-commons-remix"></i>
+
+       <i class="fa-solid fa-award"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">ENHANCED BRAND CONTENT</a>
-       <p class="mb-4">Along with on-page optimization, we write copy that converts. Sometimes, many Amazon consultant will miss the key element and write only for search engines. We offer rich content with HD images, charts, narratives copy to give visitors a better idea about the product.</p>
+       <a href="#" class="h4 d-inline-block mb-4">INFORMATIVE BLOG</a>
+       <p class="mb-4">Apart from the articles, our content team creates a unique blog as per the real-time rating and reviews of the client and customers.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+	<div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-link"></i>
+
+       <i class="fa-solid fa-award"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">REGULAR REPORTING</a>
-       <p class="mb-4">Monthly reporting of Amazon SEO service is also a crucial part of our Amazon SEO solutions. We provide faithful insights into your contemporary sales and product execution. With these insights, you can judge the services on your own and how we put our best efforts to stimulate your bottom-most online.</p>
+       <a href="#" class="h4 d-inline-block mb-4">PRESS RELEASES</a>
+       <p class="mb-4">The press releases are written to bring the latest offers and services in limelight.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+      </div>
+     </div>
+    </div>
+	<div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+     <div class="service-item">
+      <div class="service-img">
+
+       <i class="fa-solid fa-award"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">SOCIAL MEDIA CONNECTIVITY</a>
+       <p class="mb-4">We at Nettechnocrats have masters in social media presence. We know that social media brings real colours to our real-time SEO efforts. Although, social media tactics do not affect organic traffic a lot, to some extent, being active on social media brings a great effect online.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
@@ -160,87 +198,44 @@
  </div>
  <!-- Services End -->
 
- <!-- Offer Start -->
- <div class="container-fluid offer-section pb-5">
-  <div class="container pb-5">
-   <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-    <h3 class="display-5 mb-4 fw-bold">Benefits of hiring Amazon SEO services</h3>
 
+
+ <div class="container-fluid about py-5">
+  <div class="container py-5">
+
+   <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+    <h2 class="display-5 mb-4">Real Estate App Development Samples
+    </h2>
+    <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Tour and Travel App development case studies here:</p>
    </div>
-   <div class="row g-5 align-items-center">
-    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
-     <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
-      <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-       <h5 class="mb-0">Data-Driven Strategies</h5>
-      </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
-       <h5 class="mb-0">Transparent Rates</h5>
-      </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-       <h5 class="mb-0">Personalized Approaches</h5>
-      </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
-       <h5 class="mb-0">Bestseller Rankings</h5>
-      </a>
-      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
-       <h5 class="mb-0">Measurable Results</h5>
-      </a>
+   <div id="call-to-action" class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100" style=" background-color: var(-accent-color) !important;">
+
+
+    <div class="col-xl-6 wow fadeInLeft">
+     <div>
+
+      <h4 class="text-primary1 fw-bolder">Beycome Real Estate</h4>
+      <p class="mb-4">Beycome is the first and only real estate company and listing platform that realizes 100% of your home transactions online; helping homeowners, buyers, and renters close a deal on their home, without the assistance of a real estate agent or broker. In turn, by cutting out agents, this saves homeowners from paying the 6% commission fee involved in a home sale (or 10% commission fee due in a rental transaction). And when the owner saves, buyers and renters get more negotiation power for a better deal.</p>
+      <img src="{{ asset('assets/web/progress.png') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
      </div>
     </div>
-    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
-     <div class="tab-content">
-      <div id="collapseOne" class="tab-pane fade show p-0 active">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Data-Driven Strategies</h1>
-         <p class="mb-4">We stand apart from other companies by offering a data-driven approach to our clients. Our specific strategy helps you to increase your product orders and revenue.</p>
-        </div>
-       </div>
-      </div>
-      <div id="collapseTwo" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Transparent Rates</h1>
-         <p class="mb-4">We always help you get the best results for your investment as a true partner and assure in transparent deals with no hidden charges</p>
-        </div>
-       </div>
-      </div>
-      <div id="collapseThree" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Personalized Approaches</h1>
-         <p class="mb-4">We don’t believe in a one-size-fits-all approach. Our dedicated manager assures you to provide you only tailor-made Amazon SEO approaches and stand strong in the Amazon webstore.</p>
-        </div>
-       </div>
-      </div>
-      <div id="collapseFour" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Bestseller Rankings</h1>
-         <p class="mb-4">Our professional Amazon SEO services in India will help you to win the best seller badge. They know all the techniques to help you increase your sales dramatically.</p>
-        </div>
-       </div>
-      </div>
-      <div id="collapseFive" class="tab-pane fade show p-0">
-       <div class="row g-4">
-        <div class="col-md-12">
-         <h1 class="display-5 mb-4">Measurable Results</h1>
-         <p class="mb-4">Our business is built on delivering a solid and consistent ROI to our clients. Whether you want to see your conversions, organic search traffic, or more- we cal always show you.</p>
-        </div>
-       </div>
-      </div>
+    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+     <div class="rounded position-relative overflow-hidden">
+      <img src="{{ asset('assets/web/1-beycome.webp') }}" class="img-fluid rounded w-100" alt="">
 
      </div>
     </div>
+
    </div>
   </div>
  </div>
- <!-- Offer End -->
+
+ <!--  -->
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Amazon SEO Services?</h2>
-
+   <h2>Why Nettechnocrats for Android App Development Services?</h2>
+   <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
      <div class="row mt-3">
@@ -316,8 +311,8 @@
     </div>
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gif">
-      <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+      <div class="rounded-4 position-relative overflow-hidden">
+       <img src="{{ asset('assets/web/android-image.webp') }}" class="img-fluid w-100" alt="">
 
       </div>
      </div>
