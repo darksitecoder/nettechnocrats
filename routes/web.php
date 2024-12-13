@@ -260,3 +260,6 @@ Route::view('/seo-for-real-estate', 'frontend.digital-marketing.seo-for-real-est
 Route::view('/seo-company-ghaziabad', 'frontend.digital-marketing.seo-company-ghaziabad');
 Route::view('/seo-for-colleges-university', 'frontend.digital-marketing.seo-for-colleges-university');
 Route::view('/seo-services-for-hotels-and-restaurants', 'frontend.digital-marketing.seo-services-for-hotels-and-restaurants');
+Route::view('/shopify-seo-agency', 'frontend.digital-marketing.shopify-seo-agency');
+Route::view('/squarespace-seo-services', 'frontend.digital-marketing.squarespace-seo-services');
+Route::view('/wix-seo-agency', 'frontend.digital-marketing.wix-seo-agency');
