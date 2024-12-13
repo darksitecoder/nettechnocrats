@@ -160,13 +160,12 @@
        <i class="fa-solid fa-chart-simple"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Content Creation</a>
-       <p class="mb-4">Engage, Inform, and Convert
-        Our expert copywriters craft content that not only captivates readers but also converts them into loyal customers.</p>
+       <a href="#" class="h4 d-inline-block mb-4">DAILY TRACKING</a>
+       <p class="mb-4">Tracking on a daily basis is helpful. We track the daily basis response of the supports and manage the political campaign.</p>
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+    <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
        <i class="fa-solid fa-chart-simple"></i>
@@ -177,7 +176,7 @@
         Our specialists weave a link-building strategy that's grounded in compelling, shareable content, driving organic links back to your website.</p>
       </div>
      </div>
-    </div>
+    </div> -->
     <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
@@ -209,27 +208,27 @@
  <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-    <h3 class="display-5 mb-4 fw-bolder">Why Choose SEO Reseller Services from Nettechnocrats?</h3>
-    <p class="mb-0 fw-bold">Partnering with Nettechnocrats for SEO Reseller Services offers distinct advantages that position both you and your clients at the forefront of the digital landscape. Here’s why our services stand out:</p>
+    <h3 class="display-5 mb-4 fw-bolder">Benefits of Hiring for Politicians SEO</h3>
+    <!-- <p class="mb-0 fw-bold">Partnering with Nettechnocrats for SEO Reseller Services offers distinct advantages that position both you and your clients at the forefront of the digital landscape. Here’s why our services stand out:</p> -->
    </div>
    <div class="row g-5 align-items-center">
     <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
      <div class="nav nav-pills rounded p-5" style="background-color: rgb(212 241 228);">
       <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-       <h5 class="mb-0">Save Time</h5>
+       <h5 class="mb-0">Reduced Cost and Improved Reputation</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
-       <h5 class="mb-0">Effective Results</h5>
+       <h5 class="mb-0">A Well-Planned Set For The Campaign</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-       <h5 class="mb-0">Hip To Google’s Newest Tricks</h5>
+       <h5 class="mb-0">Better Ranking</h5>
       </a>
       <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
-       <h5 class="mb-0">Keep Away from Wasting Money</h5>
+       <h5 class="mb-0">Time</h5>
       </a>
-      <!-- <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
-       <h5 class="mb-0">Time to Time Update</h5>
-      </a> -->
+      <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
+       <h5 class="mb-0">Best Result</h5>
+      </a>
       <!-- <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseSix">
        <h5 class="mb-0">Guaranteed Results</h5>
       </a>
@@ -246,67 +245,43 @@
       <div id="collapseOne" class="tab-pane fade show p-0 active">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Save Time</h1>
-         <p class="mb-4">
-         <ul>
-          <li><b>Efficiency:</b> Our streamlined processes and experienced team ensure that SEO tasks are completed swiftly.
-          </li>
-          <li><b>Focus on Core Activities:</b> With us handling the SEO, you can direct your energy towards what you do best - managing and growing your business.</li>
-         </ul>
-         </p>
+         <h1 class="display-5 mb-4">Reduced Cost and Improved Reputation</h1>
+         <p class="mb-4">Search Engine Optimization is now crucial for political parties and politician. Today, every political party faces competition and we help them reach potential voters. Hiring us lets our team manage your reputation. We implement the techniques that are crucial for enhancing your visibility in the searches. Donning this improves the chances of reaching potential voters. It also benefits with a significant reduction of amount required to invest in marketing strategy.</p>
         </div>
        </div>
       </div>
       <div id="collapseTwo" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Effective Results</h1>
-         <p class="mb-4">
-         <ul>
-          <li><b>Data-Driven Strategies:</b> We rely on in-depth analytics and insights to craft strategies that yield measurable outcomes.
-          </li>
-          <li><b>Continuous Monitoring:</b> Our ongoing performance checks ensure that we're always on the right track to achieve the desired results.</li>
-         </ul>
-         </p>
+         <h1 class="display-5 mb-4">A Well-Planned Set For The Campaign</h1>
+         <p class="mb-4">The campaign needs a good set with prior planning and we look at the demand of voters and situation. By choosing us, you get to look at your party and name as the politician on another level. This is because we create a perspective for voters that ensure your party has a good agenda for the forthcoming years.functions with minimal costing involved.</p>
         </div>
        </div>
       </div>
       <div id="collapseThree" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Hundred Percent-Guaranteed Results</h1>
-         <p class="mb-4">
-         <ul>
-          <li><b>Stay Updated</b> We're always in sync with the latest Google algorithm updates, ensuring that your strategies are never outdated.
-          </li>
-          <li><b>Innovative Techniques:</b> Our team invests time in research, equipping themselves with cutting-edge SEO practices.</li>
-         </ul>
-         </p>
+         <h1 class="display-5 mb-4">Better Ranking</h1>
+         <p class="mb-4">The web experiments show that political campaigns have modernizing effects. In addition, our work speaks through its ranking.</p>
         </div>
        </div>
       </div>
       <div id="collapseFour" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Keep Away from Wasting Money</h1>
-         <p class="mb-4">
-         <ul>
-          <li><b>Cost-Effective Solutions:</b> Our SEO reseller packages are designed to give you the best ROI.
-          </li>
-          <li><b>Transparent Pricing:</b>No hidden costs. You pay for what you get, ensuring optimal value for your investment.</li>
-         </ul>
-         </p>
+         <h1 class="display-5 mb-4">Time</h1>
+         <p class="mb-4">Politicians have a great responsibility for the people. As a result, they have very less time to concentrate on the upcoming election. During that moment, our SEO team make sure to maintain the image or rather build a better one. Choosing us helps in maintaining the service for people, without any fear of gathering potential voters.</p>
         </div>
        </div>
       </div>
-      <!-- <div id="collapseFive" class="tab-pane fade show p-0">
-              <div class="row g-4">
-                <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Time to Time Update</h1>
-                  <p class="mb-4">Even if the client does not ask for the report while we work, we keep them updated with the work. The best result can be seen through the website rankings.</p>
-                </div>
-              </div>
-            </div> -->
+      <div id="collapseFive" class="tab-pane fade show p-0">
+       <div class="row g-4">
+        <div class="col-md-12">
+         <h1 class="display-5 mb-4">Measurable Results</h1>
+         <p class="mb-4">Our business is built on delivering a solid and consistent ROI to our clients. Whether you want to see your conversions, organic search traffic, or more- we cal always show you.</p>
+        </div>
+       </div>
+      </div>
       <!-- <div id="collapseSix" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
@@ -340,7 +315,12 @@
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Digital Marketing Services?</h2>
+   <h2>Why Nettechnocrats for SEO Services?</h2>
+   <p class="py-3">As one of the leading SEO company, we at Nettechnocrats come together and work for the political campaign. Our team uses Search Engine Optimization that brings a way to define and control the candidate message throughout the campaign. Reputation management is one of the rising trends in politics. This is because not every politician has a clear image. For all those politicians who have filed their nomination for the upcoming election, we drive an online campaign and promote a different image. We use SEO, social media and online marketing strategy for promotion, and target the audience by implementing an effective approach. Implementation of SEO strategies for political campaigns is something not everyone has heard. We start the promotion from the local city to the town and districts.</p>
+   <p class="py-1 fw-bold fs-3">SEO Consulting For Political Campaigns</p>
+   <p class="py-1">In case of politics, traffic means to vote and vote means a win in the election. As the leading SEO Company, we at Nettechnocrats put forth the best effort to build and optimize SEO strategy to make a wonderful political campaign. Hence, our true management is capable to manage the image of the political party and its candidate.</p>
+   <p class="py-1">A bad online reputation can cost a lot. Moreover, every politician understands the need for a clean image and hence looks for an effective solution online. For all the political parties and politicians, Search Engine Optimization and its various strategies work like a pro. We ensure that through SEO, digital marketing and content marketing we can reach every voting group within the sphere of influence.</p>
+   <p class="py-1">An election with Search Engine Optimization consultation makes a huge difference. Many leaders who did not choose online promotion witnessed a big defeat in the elections. Now Search Engine Optimization makes a perfect sense to make a big political difference.</p>
 
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
