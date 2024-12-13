@@ -263,3 +263,4 @@ Route::view('/seo-services-for-hotels-and-restaurants', 'frontend.digital-market
 Route::view('/shopify-seo-agency', 'frontend.digital-marketing.shopify-seo-agency');
 Route::view('/squarespace-seo-services', 'frontend.digital-marketing.squarespace-seo-services');
 Route::view('/wix-seo-agency', 'frontend.digital-marketing.wix-seo-agency');
+Route::view('/video-marketing', 'frontend.digital-marketing.video-marketing');
