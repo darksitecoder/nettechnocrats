@@ -513,6 +513,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             /* Safari */
             transition: width 0.2s, transform 0.4s, box-shadow 0.4s;
             height: inherit;
+            margin: 0rem 0rem;
+            border-radius: ;
         }
 
         .hide {

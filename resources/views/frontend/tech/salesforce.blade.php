@@ -34,7 +34,7 @@
  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-5 wow fadeInLeft">
+    <div class="col-xl-6 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Salesforce Development Services
@@ -44,9 +44,9 @@
       </p>
      </div>
     </div>
-    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.2s">
+    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="">
+      <img src="{{ asset('assets/web/salesforce.webp') }}" class="img-fluid rounded w-100" alt="">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
@@ -67,12 +67,11 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <p class="mb-4">Nettechnocrats shines as prominent Salesforce development company with remarkable expertise in serving profit-driven solutions for strategic planning, designing, & implementation of key concepts. Let’s take your business sales to the next level by speeding up the in-house operations & leveraging Salesforce CRM for streamlined & managed interaction with customers, partners, products, & employees engaged in your business. With a team of skilled & pro-efficient developers, Nettechnocrats intends to unleash that competency to make more of Salesforce solutions.
       </p>
-      <p class="mb-4">We aim to cater to varied industries with business-centric Salesforce app development focused on the core aspects of the clients’ business. Our brilliance in delivering custom-built solutions based on Salesforce technology led to the expansion of various organizations. With an award-winning track record in the integration of multiple customizations & creation of feature-loaded platforms and products like marketing cloud, sales cloud, service cloud, & more.</p>
       <p class="mb-4">Our expertise beholds exceptional innovation & industry experience to get entitled as a credible salesforce developer. Nettechnocrats emerged as the fastest-growing Salesforce application development firm trusted by the global clientele.</p>
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+
        </div>
 
       </div>
@@ -80,11 +79,14 @@
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
+      <img src="{{ asset('assets/web/a-complete-guide-to-salesforce-qa-testing-transformed.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
      </div>
     </div>
    </div>
+   <p class="mb-4">We aim to cater to varied industries with business-centric Salesforce app development focused on the core aspects of the clients’ business. Our brilliance in delivering custom-built solutions based on Salesforce technology led to the expansion of various organizations. With an award-winning track record in the integration of multiple customizations & creation of feature-loaded platforms and products like marketing cloud, sales cloud, service cloud, & more.</p>
+
+   <a href="{{url('/contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
   </div>
  </div>
  <!-- About End -->
@@ -174,8 +176,8 @@
  <!-- Offer Start -->
  <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
-   <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-    <h3 class="display-5 mb-4">Why Invest in Salesforce Development Services?</h3>
+   <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
+    <h3 class="display-5 mb-4 fw-bolder">Why Invest in Salesforce Development Services?</h3>
     <p class="mb-0">The concept of Salesforce development focuses on the major facets of project building platform for managed sales operations. Being a top-notch salesforce development company, Nettechnocrats has been serving the global clientele with CRM tool based on cloud integration.</p>
    </div>
    <div class="row g-5 align-items-center">
@@ -339,9 +341,9 @@
      </div>
     </div>
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-     <div class="seo__animation__gif">
+     <div class="seo__animation__gifs">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+       <img src="{{ asset('assets/web/salesforce-process.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
       </div>
      </div>
