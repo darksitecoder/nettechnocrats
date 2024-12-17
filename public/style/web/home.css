@@ -14629,5 +14629,5 @@ footer .row img {
 
 .form-control:focus {
   border-color: var(--black) !important;
-  box-shadow: 0 0 0 .25rem transparent;
+  box-shadow: 0 0 0 .25rem transparent !important;
 }
