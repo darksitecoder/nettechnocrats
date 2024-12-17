@@ -17,6 +17,7 @@ class BlogTopicController extends Controller
     public function blogTopics(Request $request, $encryptedUserId, $page_type = null)
     {
         $topics = BlogTopic::select('topic','id')->get();
+        // dd($topics);
         return view('admin/pages/blogs/blogTopics')->with(compact('topics'));
     }
 

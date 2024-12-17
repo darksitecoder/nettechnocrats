@@ -1,31 +1,13 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
 
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Online Reputation Management</title>
+@section('title', 'Online Reputation Management')
 
- <link rel="preconnect" href="https://fonts.gstatic.com">
- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
-  referrerpolicy="no-referrer" />
- <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
+@section('meta_description', 'This is a brief description of the home page for SEO purposes.')
 
- <!-- Vendor CSS Files -->
- <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
- <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
- <link href="{{ asset('js/vendor/aos/aos.css') }}" rel="stylesheet">
- <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
- <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+@section('meta_keywords', 'laravel, home, keywords')
 
- <!-- Main CSS File -->
- <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
-
-</head>
-
-<body>
- @include('partial/header')
+@section('content')
  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
  <main class="main">
@@ -512,32 +494,11 @@
 
   </section><!-- /Contact Section -->
 
+  
  </main>
  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+ @endsection
 
- @include('partial/footer')
-
-
- <!-- <script src=""></script>
-  <script src="{{ asset('js/digital-marketing/jquery/jquery.js') }}"></script>
-  <script src="{{ asset('js/digital-marketing/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('js/digital-marketing/owl-carousel.js') }}"></script>
-  <script src="{{ asset('js/digital-marketing/animation.js') }}"></script>
-  <script src="{{ asset('js/digital-marketing/imagesloaded.js') }}"></script>
-  <script src="{{ asset('js/digital-marketing/custom.js') }}"></script> -->
-
- <!-- Vendor JS Files -->
- <script src="{{ asset('js/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
- <script src="{{ asset('js/vendor/php-email-form/validate.js') }}"></script>
- <script src="{{ asset('js/vendor/aos/aos.js') }}"></script>
- <script src="{{ asset('js/vendor/glightbox/js/glightbox.min.js') }}"></script>
- <script src="{{ asset('js/vendor/purecounter/purecounter_vanilla.js') }}"></script>
- <script src="{{ asset('js/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
- <script src="{{ asset('js/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
- <script src="{{ asset('js/vendor/swiper/swiper-bundle.min.js') }}"></script>
-
- <!-- Main JS File -->
- <script src="{{ asset('js/vendor/main.js') }}"></script>
 
 </body>
 

@@ -155,6 +155,7 @@
 
                     <div class="row pt-3">
 
+                        <span class="msg_err" id="success_msg" style="color:green; font-size:15px;"></span>
                         <div class="col-lg-12">
                             <div id="input-container" class="d-flex justify-content-start">
                                 <!-- Display success or error messages from session -->
@@ -195,9 +196,10 @@
 
             // Fetch Blog Topics
             $.ajax({
-                url: baseUrl + '/fetchBlogTopicApi',
+                url: 'fetchBlogTopicApi',
                 method: 'GET',
                 dataType: 'json',
+                    
                 success: function(response) {
                     $.each(response.data, function(index, item) {
                         var element = document.createElement("div");
@@ -252,6 +254,7 @@
                             }
 
                             if (response.success) {
+                                $('#success_msg').html(response.success);
                                 var element = document.createElement("div");
                                 element.className = "element";
                                 element.textContent = text;
@@ -290,14 +293,14 @@
             var baseUrl = window.location.origin;
 
             $.ajax({
-                url: baseUrl + '/deleteBlogTopicApi',
+                url: 'deleteBlogTopicApi',
                 method: 'get',
                 data: {
                     'id': id
                 },
                 dataType: 'json',
                 success: function(response) {
-                    $('#success_msg').html('<img src="' + baseUrl + '/assets/frontEnd/web/images/checkmark.gif" alt="Success Image" width="50px" height="50px">' + response.success);
+                    $('#success_msg').html(response.success);
                     $this.closest('.element').remove();
                 },
                 error: function(xhr, status, error) {

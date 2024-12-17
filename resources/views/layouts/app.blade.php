@@ -9,23 +9,43 @@
     <!-- Meta tags for SEO -->
     <meta name="description" content="@yield('meta_description', 'Default description here.')">
     <meta name="keywords" content="@yield('meta_keywords', 'default, keywords')">
+    <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
         referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
 
     <!-- Vendor CSS Files -->
     <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('js/vendor/aos/aos.css') }}" rel="stylesheet">
+    
     <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
     <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
     <!-- Main CSS File -->
     <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
+
+
+ <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer" />
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+  referrerpolicy="no-referrer" />
+
+
+
+ <!-- Libraries Stylesheet -->
+ <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+ <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+ <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 
 </head>
 
@@ -356,108 +376,8 @@
 
     <!-- Main JS File -->
     <script src="{{ asset('js/vendor/main.js') }}"></script>
-    <!-- <footer>
-        <div class="row">
-            <div class="col-lg-2">
-                <h5>Experties</h5>
-                <p><a href="#">SEO Services</a></p>
-                <p><a href="#">SEO Services</a></p>
-                <p><a href="#">SEO Services</a></p>
-                <p><a href="#">SEO Services</a></p>
-                <p><a href="#">SEO Services</a></p>
-            </div>
-            <div class="col-lg-2">
-                <h5>Experties</h5>
-                <p><a href="#">SEO Services</a></p>
-                <p> <a href="#">SEO Services</a></p>
-                <p><a href="#">SEO Services</a></p>
-                <p> <a href="#">SEO Services</a></p>
-                <p><a href="#">SEO Services</a></p>
-            </div>
-            <div class="col-lg-2">
-                <h5 class="invisible">More Links</h5>
-                <p><a href="#">SEO Services</a></p>
-                <p><a href="#">SEO Services</a></p>
-                <p><a href="#">SEO Services</a></p>
-                <p><a href="#">SEO Services</a></p>
-                <p><a href="#">SEO Services</a></p>
-            </div>
-            <div class="col-lg-6">
-                <h5>About Company</h5>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <p><a href="#">About Us</a></p>
-                        <p><a href="#">Certifications</a></p>
-                    </div>
-                    <div class="col-lg-6">
-                        <p> <a href="#">Testimonials</a></p>
-                        <p> <a href="#">Methodology</a></p>
-                    </div>
-                </div>
-                <h5>Resources</h5>
-                <p>The Greatest Benefits Of Joining Hands With A Custom Web Design Company</p>
-                <p>How To Identify A Quality Mobile App Development Company India?</p>
-            </div>
-        </div>
-        <div class="row pt-4">
-            <div class="col-lg-12">
-                <h5>INDUSTRIES THAT WE SERVED:</h5>
-                <div class="keywords__footer">
-                    <a href="#">E-Wallet App Development </a>
-                    <a href="#">Banking App Development </a>
-                    <a href="#">Multi-Vendor Marketplace Development </a>
-                    <a href="#">Affiliate marketplace </a>
-                    <a href="#">On demand App Development </a>
-                    <a href="#">Taxi Booking App Development </a>
-                    <a href="#">Job Portal Development </a>
-                    <a href="#">Food Delivery App </a>
-                    <a href="#">Real Estate App Development </a>
-                    <a href="#">LAMP Development </a>
-                    <a href="#">Social Media App Development </a>
-                    <a href="#">OTT Video App Development </a>
-                    <a href="#">Education Portal Development </a>
-                    <a href="#">Travel and Tourism </a>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-4">
-            <div class="col-lg-3">
-                <h5>Follow us</h5>
-                <div class="social__media__icons pt-3">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <h5>CLIENT 1ST</h5>
-                <a href="#"><img src="{{ asset('assets/web/footer-images/client-partners-verified-300x91-1.webp') }}" alt="" srcset="" style="width:200px;"></a>
-            </div>
-            <div class="col-lg-6">
-                <h5>PARTNER & CERTIFICATIONS</h5>
-                <div class="certificates">
-                    <div class="row">
-                        <div class="col-lg-3"><a href="#"><img src="{{ asset('assets/web/footer-images/google_certified.webp') }}" alt="" srcset=""></a></div>
-                        <div class="col-lg-3"><a href="#"><img src="{{ asset('assets/web/footer-images/9001_certified.webp') }}" alt="" srcset=""></a></div>
-                        <div class="col-lg-3"><a href="#"><img src="{{ asset('assets/web/footer-images/amazon_services.webp') }}" alt="" srcset=""></a></div>
-                        <div class="col-lg-3"><a href="#"><img src="{{ asset('assets/web/footer-images/paypal.webp') }}" alt="" srcset=""></a></div>
-                    </div>
-
-
-
-
-                </div>
-            </div>
-        </div>
-        <div class="row pt-4">
-            <div class="col-lg-12">
-   <p class="text-center">Copyright © 2024 Nettechnocrats IT Services Pvt. Ltd</p>
-  </div>
-        </div>
-    </footer> -->
+  
 </body>
-<!-- @include('partial/footer') -->
+@include('partial/footer')
 
 </html>

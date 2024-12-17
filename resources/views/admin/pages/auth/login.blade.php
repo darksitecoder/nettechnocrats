@@ -37,7 +37,7 @@
 
 						<div class="card">
 							<div class="card-body">
-							<!-- @if(session('success'))
+								<!-- @if(session('success'))
                                 <div class="alert alert-success" style="color:green; font: size 20px;">
                                     {{ session('success') }}
                                 </div>
@@ -45,23 +45,23 @@
 								<div class="m-sm-4">
 									<div class="text-center">
 										<a href="{{url('/')}}">
-										<img src="{{ asset('/dashboard_theme/img/avatars/nettechnocrats-logo.png')}}" alt="Charles Hall" class="img-fluid rounded-ci5cle" width="152" height="152" /></a>
+											<img src="{{ asset('/dashboard_theme/img/avatars/nettechnocrats-logo.png')}}" alt="Charles Hall" class="img-fluid rounded-ci5cle" width="152" height="152" /></a>
 									</div>
 									<form method="POST" action="{{ url('credentials_check') }}">
-									@csrf
+										@csrf
 										<div class="mb-3">
 											<label class="form-label">Email</label>
 											<input class="form-control form-control-lg" type="email" name="email" placeholder="Enter your email" />
 											@error('email')
-                                            <div class="alert alert-danger mt-2" style="color:red">{{ $message }}</div> <!-- Red Error Message -->
-                                            @enderror
+											<div class="alert alert-danger mt-2" style="color:red">{{ $message }}</div> <!-- Red Error Message -->
+											@enderror
 										</div>
 										<div class="mb-3">
 											<label class="form-label">Password</label>
 											<input class="form-control form-control-lg" type="password" name="password" placeholder="Enter your password" />
 											@error('password')
-                                            <div class="alert alert-danger mt-2" style="color:red">{{ $message }}</div> <!-- Red Error Message -->
-                                            @enderror
+											<div class="alert alert-danger mt-2" style="color:red">{{ $message }}</div> <!-- Red Error Message -->
+											@enderror
 											<!-- <small>
 												<a href="{{ url('register')}}">Register ?</a>
 											</small> -->
