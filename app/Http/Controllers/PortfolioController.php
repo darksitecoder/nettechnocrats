@@ -52,11 +52,17 @@ class PortfolioController extends Controller
 
         // Validate the incoming data
         $validatedData = $request->validate([
+            'category_1' => 'required',
+            'category_2' => 'required',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
             'heading' => 'required|string|max:255',
             'company_name' => 'required|string',
             'content' => 'required|string|max:100000',
             'status' => 'nullable|string|in:save,publish',
+            'inputs.*.POS' => 'required|numeric|min:1',
+            'inputs.*.Keywords' => 'required|string|max:255',
+            'inputs.*.RatingBefore' => 'required|numeric|min:0',
+            'inputs.*.RatingAfter' => 'required|numeric|min:0',
         ]);
 
         // Get the authenticated user
