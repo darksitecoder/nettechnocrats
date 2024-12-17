@@ -18,12 +18,7 @@
           <p class="mb-4 text-white">We at Nettechnocrats help you with custom WordPress theme development</p>
         </div>
 
-        <section id="contact" class="contact__section">
-
-          <!-- Section Title -->
-          <div class="container section-title" data-aos="fade-up">
-
-          </div><!-- End Section Title -->
+        <div id="contact" class="contact__section">
 
           <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -60,11 +55,11 @@
 
           </div>
 
-        </section>
+        </div>
       </div>
       <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
         <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-          <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="">
+          <img src="{{ asset('assets/web/wordpress-logo.webp') }}" class="img-fluid rounded w-95 image-with-shadow" alt="">
           <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
         </div>
       </div>
@@ -85,23 +80,24 @@
           <!-- <h4 class="text-primary1">About Us</h4> -->
           <p class="mb-4 fw-bold fs-3">What is WordPress Development?</p>
           <p class="mb-4">Nettechnocrats is a leading WordPress development company in India offering cutting edge solutions in building, customizing and implementing a WooCommerce platform for diverse industries. WordPress is an open source blogging platform that uses PHP coding and enormously popular among developers and users due to their functionalities and features. We have a great understanding of WooCommerce plug-ins and extensions along with some essential factors of e-commerce that includes UX and interaction design. Using the power, scalability, and flexibility that WordPress offers, our veteran team of custom WordPress development professionals delivers a customized solution that makes you stand out from your competitors.</p>
-          <p class="mb-4">We at Nettechnocrats help you with custom WordPress theme development to meet all your design expectations and also stay consistent with your brand goals. Moreover, by offering World Class WordPress website design solutions for all your business needs, with prompt service and an added value, we assure 100% clients’ satisfaction.</p>
 
-          <div class="row g-4">
-
-            <div class="col-sm-6">
-              <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
-            </div>
-
-          </div>
         </div>
       </div>
       <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
         <div class="rounded position-relative overflow-hidden">
-          <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
+          <img src="{{ asset('assets/web/wordpress-mid.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
         </div>
       </div>
+    </div>
+    <p class="mb-4">We at Nettechnocrats help you with custom WordPress theme development to meet all your design expectations and also stay consistent with your brand goals. Moreover, by offering World Class WordPress website design solutions for all your business needs, with prompt service and an added value, we assure 100% clients’ satisfaction.</p>
+
+    <div class="row g-4">
+
+      <div class="col-sm-6">
+        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+      </div>
+
     </div>
   </div>
 </div>
@@ -341,9 +337,9 @@
         </div>
       </div>
       <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-        <div class="seo__animation__gif">
+        <div class="seo__animation__gifs">
           <div class="rounded position-relative overflow-hidden">
-            <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+            <img src="{{ asset('assets/web/wordpress-last.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
           </div>
         </div>
