@@ -261,6 +261,46 @@
               </div>
             </div>
 
+            <!-- category_1 Input Section -->
+            <div class="row pt-1 my-3 d-flex justify-content-center">
+              <div class="col-md-12 stretch-card grid-margin">
+                <select id="category_1" name="category_1">
+                  <option value="">-Select Category 1-</option>
+                  <option value="Digital_Marketing">Digital Marketing</option>
+                  <option value="Software_Development">Software Development</option>
+                </select>
+              </div>
+              @error('category_1')
+              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+              @enderror
+            </div>
+
+            <!-- category_2 Input Section -->
+            <div class="row pt-1 my-3 d-flex justify-content-center">
+              <div class="col-md-12 stretch-card grid-margin">
+                <select id="category_2" name="category_2">
+                  <option value="">-Select Category 2-</option>
+                  <!-- Options for Digital Marketing -->
+                  <option data-parent="Digital_Marketing" value="SEO">SEO</option>
+                  <option data-parent="Digital_Marketing" value="SMO">SMO</option>
+                  <option data-parent="Digital_Marketing" value="PPC">PPC</option>
+                  <option data-parent="Digital_Marketing" value="ORM">ORM</option>
+                  <option data-parent="Digital_Marketing" value="AEO">AEO</option>
+                  <option data-parent="Digital_Marketing" value="Local SEO">Local SEO</option>
+                  <option data-parent="Digital_Marketing" value="SEO Reseller">SEO Reseller</option>
+
+                  <!-- Options for Software Development -->
+                  <option data-parent="Software_Development" value="Customer Software Development">Customer Software Development</option>
+                  <option data-parent="Software_Development" value="ERP Software Development">ERP Software Development</option>
+                  <option data-parent="Software_Development" value="CRM Development">CRM Development</option>
+                  <option data-parent="Software_Development" value="Salesforce Development">Salesforce Development</option>
+                  <option data-parent="Software_Development" value="Iot">Iot</option>
+                </select>
+              </div>
+              @error('category_2')
+              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+              @enderror
+            </div>
             <!-- Image Upload Section -->
             <div class="row pt-3 d-flex justify-content-center">
               <div class="col-md-12 stretch-card grid-margin d-flex flex-column">
@@ -315,6 +355,52 @@
 
             </div>
 
+
+            <div>
+              <div class="table-responsive">
+                <table class="table" id="table" style="border: none;">
+                  <thead>
+                    <tr>
+                      <th>Sr. No.</th>
+                      <th>Keywords</th>
+                      <th>Rating Before</th>
+                      <th>Rating After</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Hidden Template Row -->
+                    <tr class="hidden" id="template-row">
+                      <td>
+                        <input type="text" class="lastPOS" name="inputs[0][POS]" value="1" placeholder="#" /><br>
+                        <span class="msg_err" style="color: red; font-size: 13px;"></span>
+                      </td>
+                      <td>
+                        <input type="text" name="inputs[0][Keywords]" placeholder="Enter Keyword" />
+                        <br><span class="msg_err" style="color: red; font-size: 13px;"></span>
+                      </td>
+                      <td>
+                        <input type="text" name="inputs[0][RatingBefore]" placeholder="Enter Rating Before" />
+                        <br><span class="msg_err" style="color: red; font-size: 13px;"></span>
+                      </td>
+                      <td>
+                        <input type="text" name="inputs[0][RatingAfter]" placeholder="Enter Rating After" />
+                        <br><span class="msg_err" style="color: red; font-size: 13px;"></span>
+                      </td>
+                      <td>
+                        <button type="button" class="remove-table-row">Delete &nbsp;<i class="fa-solid fa-trash-can"></i></button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <br>
+            <!-- Add Row Button -->
+            <button id="add" type="button" name="add" class="head__foot__btn" style="width: 50%;">
+              Add New&nbsp;<img src="{{ asset('assets/frontEnd/web/images/icons/add-circled-outline.svg') }}" alt="Add Icon" class="logo-img">
+            </button>
           </form>
 
 
@@ -327,6 +413,116 @@
   </div>
 
   <script src="{{ asset('dashboard_theme/js/app.js') }}"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- jQuery Script -->
+  <script>
+    $(document).ready(function() {
+      // On change of category_1
+      $('#category_1').change(function() {
+        let selectedCategory = $(this).val();
+
+        // Reset category_2 dropdown
+        $('#category_2').val('');
+        $('#category_2 option').hide(); // Hide all options first
+
+        if (selectedCategory) {
+          // Show only the options that match the selected category_1
+          $('#category_2 option[data-parent="' + selectedCategory + '"]').show();
+        } else {
+          // Show default placeholder option if nothing is selected
+          $('#category_2 option[value=""]').show();
+        }
+      });
+
+      // Trigger change event on page load to hide irrelevant options
+      $('#category_1').trigger('change');
+    });
+  </script>
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let rowCount = 0; // To track row index
+
+      // Add New Row
+      document.getElementById("add").addEventListener("click", function() {
+        rowCount++;
+        const tableBody = document.querySelector("#table tbody");
+        const templateRow = document.getElementById("template-row");
+
+        // Clone the hidden template row and make it visible
+        const newRow = templateRow.cloneNode(true);
+        newRow.classList.remove("hidden");
+
+        // Update names, IDs, and values dynamically
+        updateRowAttributes(newRow, rowCount);
+
+        // Append the new row to the table
+        tableBody.appendChild(newRow);
+        resetNumbering(); // Reset numbering after adding
+      });
+
+      // Remove Row
+      document.addEventListener("click", function(event) {
+        if (event.target.classList.contains("remove-table-row")) {
+          // Confirm before deleting
+          if (confirm("Are you sure you want to delete this row?")) {
+            event.target.closest("tr").remove();
+            resetNumbering(); // Reset numbering after removal
+          }
+        }
+      });
+
+      // Function to update row attributes dynamically
+      function updateRowAttributes(row, index) {
+        row.querySelectorAll("input, span").forEach((element) => {
+          if (element.hasAttribute("name")) {
+            let newName = element.getAttribute("name").replace(/\[\d+\]/, `[${index}]`);
+            element.setAttribute("name", newName);
+          }
+
+          if (element.hasAttribute("id")) {
+            let newId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
+            element.setAttribute("id", newId);
+          }
+
+          if (element.hasAttribute("onkeyup")) {
+            let newOnkeyup = element
+              .getAttribute("onkeyup")
+              .replace(/\('\d+'\)/, `('${index}')`);
+            element.setAttribute("onkeyup", newOnkeyup);
+          }
+
+          if (element.classList.contains("lastPOS")) {
+            element.value = index + 1; // Update Sr. No.
+          }
+        });
+      }
+
+      // Reset numbering function
+      function resetNumbering() {
+        document.querySelectorAll("#table tbody tr").forEach((row, index) => {
+          row.querySelector(".lastPOS").value = index + 1; // Update Sr. No.
+
+          row.querySelectorAll("input, span").forEach((element) => {
+            if (element.hasAttribute("name")) {
+              let updatedName = element
+                .getAttribute("name")
+                .replace(/\[\d+\]/, `[${index}]`);
+              element.setAttribute("name", updatedName);
+            }
+
+            if (element.hasAttribute("id")) {
+              let updatedId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
+              element.setAttribute("id", updatedId);
+            }
+          });
+        });
+      }
+    });
+  </script>
+
   <script>
     const childElement = document.querySelector('.portfolio');
     childElement.classList.add('active');
@@ -439,7 +635,6 @@
     });
   </script>
 
-  
   <!-- CKEditor 5 CDN -->
   <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
 
