@@ -481,22 +481,22 @@
 we want the selected tab to be the biggest and the other equally smaller.
 Let's say we want the selected one to fill a 40% of the container; so we have a 60% left to cover . this is 60/3 = 20% */
         #panel-1 {
-            width: 20%;
+            width: 16%;
             background: #ef002f;
         }
 
         #panel-2 {
-            width: 20%;
+            width: 16%;
             background: #d10029;
         }
 
         #panel-3 {
-            width: 20%;
+            width: 16%;
             background: #760017;
         }
 
         #panel-4 {
-            width: 20%;
+            width: 16%;
             background: #690015;
         }
 
@@ -513,8 +513,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             /* Safari */
             transition: width 0.2s, transform 0.4s, box-shadow 0.4s;
             height: inherit;
-            margin: 0rem 0rem;
-            border-radius: ;
+            margin: 1rem 1rem;
+            border-radius: 20px;
         }
 
         .hide {
@@ -841,21 +841,45 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
 
 
-                <section>
-                    <div class="container-fluid fluid-tabs">
 
-                        <div class="row tab-group">
-                            <!-- FIRST BOX -->
-                            <div class="panel selected" id="panel-1" onclick="changeSelected(1);">
 
-                                <div class="vertical-center">
-                                    <div class="sm-icon icon" id="icon-1">
 
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 462.589 462.589"
-                                            style="enable-background:new 0 0 462.589 462.589;" xml:space="preserve">
+                <section class="testimonial__video">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/f-MAIzGxWc0?si=GkZPmhg-MKDbM0Dl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>We Are Ranked Among the Top Global Leaders in Digital Marketing</h2>
+                            <p>Nettechnocrats quickly ascended to digital prominence, catering to a diverse clientele across various business sectors. Partner with the best in digital innovation.</p>
+
+                            <div class="slider-wrapper left">
+                                <div class="item item1"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="" srcset=""></div>
+                                <div class="item item2"><img src="{{ asset('assets/web/appfuture.png') }}" alt="" srcset=""></div>
+                                <div class="item item3"><img src="{{ asset('assets/web/upwork.png') }}" alt="" srcset=""></div>
+                                <div class="item item4"><img src="{{ asset('assets/web/extract.png') }}" alt="" srcset=""></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="">
+                <div class="container-fluid fluid-tabs">
+
+                    <div class="row tab-group">
+                        <!-- FIRST BOX -->
+                        <div class="panel selected" id="panel-1" onclick="changeSelected(1);">
+
+                            <div class="vertical-center">
+                                <div class="sm-icon icon" id="icon-1">
+
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 462.589 462.589"
+                                        style="enable-background:new 0 0 462.589 462.589;" xml:space="preserve">
+                                        <g>
                                             <g>
-                                                <g>
-                                                    <path d="M422.16,116.31c0,0,0.08-0.32,0-0.48l-0.48-0.48C358.019,36.142,242.2,23.538,162.992,87.199
+                                                <path d="M422.16,116.31c0,0,0.08-0.32,0-0.48l-0.48-0.48C358.019,36.142,242.2,23.538,162.992,87.199
         c-3.277,2.634-6.463,5.379-9.552,8.231H16c-8.837,0-16,7.163-16,16v130.32c0,8.837,7.163,16,16,16h79.6
         c14.512,100.847,108.029,170.834,208.876,156.322c46.077-6.631,87.943-30.436,117.204-66.642l0.48-0.4c0,0,0,0,0-0.56
         C476.066,279.219,476.066,183.562,422.16,116.31z M270.08,63.59v87.84c-17.466-0.422-34.852-2.511-51.92-6.24v-34.24
@@ -879,34 +903,34 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         c16.676-17.392,29.489-38.111,37.6-60.8c10.255,3.968,20.112,8.897,29.44,14.72C385.338,364.019,362.325,379.837,336.56,389.51z
          M413.705,331.315c-10.812-7.09-22.32-13.056-34.345-17.805c7.198-24.058,11.126-48.975,11.68-74.08h55.36
         C444.856,272.624,433.475,304.608,413.705,331.315z" />
-                                                </g>
                                             </g>
-                                        </svg>
-                                    </div>
-
-                                    <h1 id="title-1" class="text-center title ">Chat Anyone</h1>
-
-
+                                        </g>
+                                    </svg>
                                 </div>
-                                <div id="content-panel-1" class="container tab-container justify-content">
 
-                                    <!--content goes here-->
-                                    <h4>...in the world</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis.
-                                    </p>
-                                </div>
+                                <h1 id="title-1" class="text-center title ">Chat Anyone</h1>
+
+
                             </div>
-                            <!-- SECOND BOX -->
-                            <div class="panel" id="panel-2" onclick="changeSelected(2);">
+                            <div id="content-panel-1" class="container tab-container justify-content">
 
-                                <div class="icon rotate ri" id="icon-2">
+                                <!--content goes here-->
+                                <h4>...in the world</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- SECOND BOX -->
+                        <div class="panel" id="panel-2" onclick="changeSelected(2);">
 
-                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 450.685 450.685"
-                                        style="enable-background:new 0 0 450.685 450.685;" xml:space="preserve">
+                            <div class="icon rotate ri" id="icon-2">
+
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 450.685 450.685"
+                                    style="enable-background:new 0 0 450.685 450.685;" xml:space="preserve">
+                                    <g>
                                         <g>
-                                            <g>
-                                                <path d="M154.912,209.5c1.17,0.935,2.232,1.998,3.168,3.168c2.765,3.446,7.8,3.999,11.246,1.234
+                                            <path d="M154.912,209.5c1.17,0.935,2.232,1.998,3.168,3.168c2.765,3.446,7.8,3.999,11.246,1.234
         c1.902-1.526,3.004-3.836,2.994-6.274v-60.4c0-4.418-3.581-8-8-8c-0.027,0-0.054,0-0.08,0H119.6c1.852-4.407,2.804-9.14,2.8-13.92
         c-0.941-20.037-17.947-35.517-37.984-34.576c-18.719,0.879-33.697,15.856-34.576,34.576c-0.004,4.78,0.948,9.513,2.8,13.92H8
         c-4.418,0-8,3.582-8,8v60.48c-0.019,4.418,3.548,8.015,7.966,8.034c2.438,0.01,4.748-1.092,6.274-2.994
@@ -924,12 +948,12 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         s19.763-10.251,28.55-3.27c8.787,6.981,10.251,19.763,3.27,28.55c-0.962,1.211-2.059,2.308-3.27,3.27
         c-3.446,2.765-3.999,7.8-1.234,11.246c1.526,1.902,3.836,3.004,6.274,2.994h52.48l0.16,36.64c-4.405-1.859-9.139-2.811-13.92-2.8
         c-20.037-0.941-37.043,14.539-37.984,34.576C103.395,243.681,118.875,260.687,138.912,261.628z" />
-                                            </g>
                                         </g>
+                                    </g>
+                                    <g>
                                         <g>
                                             <g>
-                                                <g>
-                                                    <path d="M426.469,190.188c-3.902-1.38-8.01-2.084-12.149-2.08c-4.116-0.001-8.201,0.703-12.08,2.08v-43.92c0-4.418-3.582-8-8-8
+                                                <path d="M426.469,190.188c-3.902-1.38-8.01-2.084-12.149-2.08c-4.116-0.001-8.201,0.703-12.08,2.08v-43.92c0-4.418-3.582-8-8-8
             h-60.48c-4.418,0.035-7.971,3.646-7.936,8.064c0.019,2.36,1.079,4.591,2.896,6.096c8.804,6.959,10.301,19.737,3.342,28.542
             c-6.959,8.804-19.737,10.301-28.542,3.342s-10.301-19.737-3.342-28.542c0.98-1.24,2.102-2.362,3.342-3.342
             c3.446-2.765,3.999-7.8,1.234-11.246c-1.526-1.902-3.836-3.004-6.274-2.994H238c-4.418,0-8,3.582-8,8v44.64
@@ -947,203 +971,181 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             c-1.911,4.476-2.891,9.293-2.88,14.16c-0.941,20.037,14.539,37.043,34.576,37.984s37.043-14.539,37.984-34.576
             c0.053-1.135,0.053-2.273,0-3.408c0.004-4.78-0.948-9.513-2.8-13.92h36.64v50.24c0.019,4.418,3.615,7.985,8.034,7.966
             c2.121-0.009,4.153-0.86,5.646-2.366c7.909-7.9,20.724-7.892,28.624,0.017C436.363,218.274,436.356,231.089,428.447,238.989z" />
-                                                    <polygon points="414.32,188.108 414.32,188.108 414.32,188.108 			" />
-                                                </g>
+                                                <polygon points="414.32,188.108 414.32,188.108 414.32,188.108 			" />
                                             </g>
                                         </g>
+                                    </g>
+                                </svg>
+
+                            </div>
+
+                            <h1 id="title-2" class="text-center title rt rotate">Work Smarter</h1>
+
+                            <div id="content-panel-2" class="container tab-container hide justify-content">
+                                <h4>Avoid extra work</h4>
+                                <p>
+                                    Proin sed massa nisi. Praesent ut elit et diam laoreet rutrum. Morbi hendrerit lobortis nisl, et suscipit elit tempus tincidunt. Curabitur a sapien egestas, bibendum sem ut, viverra nisl. Donec in accumsan metus. Ut aliquam metus quis augue posuere pretium. Nullam ornare, ex id ullamcorper efficitur, leo massa semper leo, vitae eleifend eros lectus nec nisl. Sed elementum convallis enim, id posuere odio vulputate eget. Suspendisse a massa sed lectus dignissim consequat. Etiam ac tempor felis. Nunc interdum est sit amet ipsum commodo, et vestibulum mi tempor.
+
+                                <h4>What can you expect? </h4>
+                                <p>
+                                    Quisque tristique efficitur purus. Mauris nisl massa, dictum nec ullamcorper non, lacinia in ex. Ut hendrerit rutrum ante eu facilisis. Fusce aliquam justo ante, sit amet tempor sem bibendum fermentum. Cras malesuada, lectus a volutpat tempus, odio nibh tempus velit, ut ultricies tortor magna at dui. Etiam in lacus viverra, auctor dui non, fringilla tellus. Curabitur tortor odio, fermentum id lobortis eget, faucibus nec orci. Cras eget nisi a ligula lobortis ultricies in eget enim. Nullam commodo finibus dignissim. Integer eget pellentesque magna. Duis interdum ipsum sed odio semper, sit amet condimentum est facilisis. Vestibulum lacinia ligula sit amet massa laoreet, id venenatis mauris bibendum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- THIRD BOX -->
+                        <div class="panel" id="panel-3" onclick="changeSelected(3);">
+
+                            <div class="vertical-center">
+                                <div class="icon rotate ri" id="icon-3">
+
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 424 424" style="enable-background:new 0 0 424 424;" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path d="M212,126.56c-46.88,0-76,24-76,62.88c0,4.418,3.582,8,8,8h136c4.418,0,8-3.582,8-8C288,150.64,258.88,126.56,212,126.56z
+         M152.56,181.44c5.28-35.92,46.32-38.88,59.44-38.88s54.16,2.96,59.44,38.88H152.56z" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M212,42.56c-20.987,0-38,17.013-38,38c0.044,20.969,17.031,37.956,38,38c20.987,0,38-17.013,38-38
+        S232.987,42.56,212,42.56z M212,102.56c-12.15,0-22-9.85-22-22s9.85-22,22-22s22,9.85,22,22S224.15,102.56,212,102.56z" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M76,310.56c-46.88,0-76,24-76,62.88c0,4.418,3.582,8,8,8h136c4.418,0,8-3.582,8-8C152,334.64,122.88,310.56,76,310.56z
+         M16.56,365.44c5.28-35.92,46.24-38.88,59.44-38.88s54.16,2.96,59.44,38.88H16.56z" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M76,226.56c-20.987,0-38,17.013-38,38c0.044,20.969,17.031,37.956,38,38c20.987,0,38-17.013,38-38
+        S96.987,226.56,76,226.56z M76,286.56c-12.15,0-22-9.85-22-22s9.85-22,22-22s22,9.85,22,22S88.15,286.56,76,286.56z" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M348,310.56c-46.88,0-76,24-76,62.88c0,4.418,3.582,8,8,8h136c4.418,0,8-3.582,8-8C424,334.64,394.88,310.56,348,310.56z
+         M288.56,365.44c5.28-35.92,46.24-38.88,59.44-38.88s54.16,2.96,59.44,38.88H288.56z" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M348,226.56c-20.987,0-38,17.013-38,38c0.044,20.969,17.031,37.956,38,38c20.987,0,38-17.013,38-38
+        S368.987,226.56,348,226.56z M348,286.56c-12.15,0-22-9.85-22-22s9.85-22,22-22s22,9.85,22,22S360.15,286.56,348,286.56z" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M253.36,296.72L220,263.2V216c0-4.418-3.582-8-8-8s-8,3.582-8,8v47.2l-33.36,33.36c-3.159,3.115-3.195,8.201-0.08,11.36
+        s8.201,3.195,11.36,0.08L212,277.84L242.08,308c3.356,2.874,8.406,2.483,11.28-0.873
+        C255.925,304.132,255.925,299.715,253.36,296.72z" />
+                                            </g>
+                                        </g>
+
                                     </svg>
 
                                 </div>
+                                <h1 id="title-3" class="text-center title rt rotate">Connect </h1>
 
-                                <h1 id="title-2" class="text-center title rt rotate">Work Smarter</h1>
-
-                                <div id="content-panel-2" class="container tab-container hide justify-content">
-                                    <h4>Avoid extra work</h4>
-                                    <p>
-                                        Proin sed massa nisi. Praesent ut elit et diam laoreet rutrum. Morbi hendrerit lobortis nisl, et suscipit elit tempus tincidunt. Curabitur a sapien egestas, bibendum sem ut, viverra nisl. Donec in accumsan metus. Ut aliquam metus quis augue posuere pretium. Nullam ornare, ex id ullamcorper efficitur, leo massa semper leo, vitae eleifend eros lectus nec nisl. Sed elementum convallis enim, id posuere odio vulputate eget. Suspendisse a massa sed lectus dignissim consequat. Etiam ac tempor felis. Nunc interdum est sit amet ipsum commodo, et vestibulum mi tempor.
-
-                                    <h4>What can you expect? </h4>
-                                    <p>
-                                        Quisque tristique efficitur purus. Mauris nisl massa, dictum nec ullamcorper non, lacinia in ex. Ut hendrerit rutrum ante eu facilisis. Fusce aliquam justo ante, sit amet tempor sem bibendum fermentum. Cras malesuada, lectus a volutpat tempus, odio nibh tempus velit, ut ultricies tortor magna at dui. Etiam in lacus viverra, auctor dui non, fringilla tellus. Curabitur tortor odio, fermentum id lobortis eget, faucibus nec orci. Cras eget nisi a ligula lobortis ultricies in eget enim. Nullam commodo finibus dignissim. Integer eget pellentesque magna. Duis interdum ipsum sed odio semper, sit amet condimentum est facilisis. Vestibulum lacinia ligula sit amet massa laoreet, id venenatis mauris bibendum.
-                                    </p>
-                                </div>
                             </div>
 
-                            <!-- THIRD BOX -->
-                            <div class="panel" id="panel-3" onclick="changeSelected(3);">
-
-                                <div class="vertical-center">
-                                    <div class="icon rotate ri" id="icon-3">
-
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                            viewBox="0 0 424 424" style="enable-background:new 0 0 424 424;" xml:space="preserve">
-                                            <g>
-                                                <g>
-                                                    <path d="M212,126.56c-46.88,0-76,24-76,62.88c0,4.418,3.582,8,8,8h136c4.418,0,8-3.582,8-8C288,150.64,258.88,126.56,212,126.56z
-         M152.56,181.44c5.28-35.92,46.32-38.88,59.44-38.88s54.16,2.96,59.44,38.88H152.56z" />
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <path d="M212,42.56c-20.987,0-38,17.013-38,38c0.044,20.969,17.031,37.956,38,38c20.987,0,38-17.013,38-38
-        S232.987,42.56,212,42.56z M212,102.56c-12.15,0-22-9.85-22-22s9.85-22,22-22s22,9.85,22,22S224.15,102.56,212,102.56z" />
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <path d="M76,310.56c-46.88,0-76,24-76,62.88c0,4.418,3.582,8,8,8h136c4.418,0,8-3.582,8-8C152,334.64,122.88,310.56,76,310.56z
-         M16.56,365.44c5.28-35.92,46.24-38.88,59.44-38.88s54.16,2.96,59.44,38.88H16.56z" />
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <path d="M76,226.56c-20.987,0-38,17.013-38,38c0.044,20.969,17.031,37.956,38,38c20.987,0,38-17.013,38-38
-        S96.987,226.56,76,226.56z M76,286.56c-12.15,0-22-9.85-22-22s9.85-22,22-22s22,9.85,22,22S88.15,286.56,76,286.56z" />
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <path d="M348,310.56c-46.88,0-76,24-76,62.88c0,4.418,3.582,8,8,8h136c4.418,0,8-3.582,8-8C424,334.64,394.88,310.56,348,310.56z
-         M288.56,365.44c5.28-35.92,46.24-38.88,59.44-38.88s54.16,2.96,59.44,38.88H288.56z" />
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <path d="M348,226.56c-20.987,0-38,17.013-38,38c0.044,20.969,17.031,37.956,38,38c20.987,0,38-17.013,38-38
-        S368.987,226.56,348,226.56z M348,286.56c-12.15,0-22-9.85-22-22s9.85-22,22-22s22,9.85,22,22S360.15,286.56,348,286.56z" />
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <path d="M253.36,296.72L220,263.2V216c0-4.418-3.582-8-8-8s-8,3.582-8,8v47.2l-33.36,33.36c-3.159,3.115-3.195,8.201-0.08,11.36
-        s8.201,3.195,11.36,0.08L212,277.84L242.08,308c3.356,2.874,8.406,2.483,11.28-0.873
-        C255.925,304.132,255.925,299.715,253.36,296.72z" />
-                                                </g>
-                                            </g>
-
-                                        </svg>
-
-                                    </div>
-                                    <h1 id="title-3" class="text-center title rt rotate">Connect </h1>
-
-                                </div>
-
-                                <div id="content-panel-3" class="container tab-container hide justify-content">
-                                    <h4>And share your work</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis. </p>
-                                </div>
+                            <div id="content-panel-3" class="container tab-container hide justify-content">
+                                <h4>And share your work</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis. </p>
                             </div>
+                        </div>
 
-                            <!-- FOURTH BOX -->
-                            <div class="panel" id="panel-4" onclick="changeSelected(4);">
-                                <div class="vertical-center">
-                                    <div class="icon rotate ri" id="icon-4">
+                        <!-- FOURTH BOX -->
+                        <div class="panel" id="panel-4" onclick="changeSelected(4);">
+                            <div class="vertical-center">
+                                <div class="icon rotate ri" id="icon-4">
 
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                            viewBox="0 0 431.76 431.76" style="enable-background:new 0 0 431.76 431.76;" xml:space="preserve">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 431.76 431.76" style="enable-background:new 0 0 431.76 431.76;" xml:space="preserve">
+                                        <g>
                                             <g>
-                                                <g>
-                                                    <path d="M215.88,85.12C153.556,85.164,103.044,135.676,103,198c0.557,40.682,20.351,78.696,53.36,102.48V382
+                                                <path d="M215.88,85.12C153.556,85.164,103.044,135.676,103,198c0.557,40.682,20.351,78.696,53.36,102.48V382
         c0.027,0.932,0.216,1.853,0.56,2.72v0.64c0.138,0.33,0.299,0.651,0.48,0.96l28.16,41.92c1.49,2.205,3.979,3.524,6.64,3.52h46.56
         c2.661,0.004,5.15-1.315,6.64-3.52l28.16-41.92c0.181-0.309,0.342-0.63,0.48-0.96v-0.64c0.344-0.867,0.533-1.788,0.56-2.72v-81.52
         c33.01-23.784,52.803-61.798,53.36-102.48C327.918,135.987,277.891,85.603,215.88,85.12z M234.92,416h-38.08l-17.44-25.92h72.88
         L234.92,416z M172.44,374.08v-21.2h86.88l0.08,21.2H172.44z M263,289.52l0,0.24c-2.259,1.487-3.613,4.015-3.6,6.72v40.64h-86.96
         V296c0.013-2.705-1.341-5.233-3.6-6.72c-30.628-20.467-49.233-54.687-49.76-91.52c1.537-53.483,46.14-95.594,99.623-94.057
         c51.323,1.475,92.582,42.734,94.057,94.057C312.312,234.679,293.697,269.005,263,289.52z" />
-                                                </g>
                                             </g>
+                                        </g>
+                                        <g>
                                             <g>
-                                                <g>
-                                                    <path d="M219.08,121.36c-4.418,0-8,3.582-8,8s3.582,8,8,8c33.251,0.044,60.196,26.989,60.24,60.24c0,4.418,3.582,8,8,8
+                                                <path d="M219.08,121.36c-4.418,0-8,3.582-8,8s3.582,8,8,8c33.251,0.044,60.196,26.989,60.24,60.24c0,4.418,3.582,8,8,8
         s8-3.582,8-8C295.276,155.512,261.168,121.404,219.08,121.36z" />
-                                                </g>
                                             </g>
+                                        </g>
+                                        <g>
                                             <g>
-                                                <g>
-                                                    <path d="M81.48,189.6h-57.6c-4.418,0-8,3.582-8,8s3.582,8,8,8h57.6c4.418,0,8-3.582,8-8c0,0,0,0,0,0
+                                                <path d="M81.48,189.6h-57.6c-4.418,0-8,3.582-8,8s3.582,8,8,8h57.6c4.418,0,8-3.582,8-8c0,0,0,0,0,0
         C89.48,193.182,85.898,189.6,81.48,189.6z" />
-                                                </g>
                                             </g>
+                                        </g>
+                                        <g>
                                             <g>
-                                                <g>
-                                                    <path d="M407.88,189.6h-57.6c-4.418,0-8,3.582-8,8s3.582,8,8,8h57.6c4.418,0,8-3.582,8-8S412.298,189.6,407.88,189.6z" />
-                                                </g>
+                                                <path d="M407.88,189.6h-57.6c-4.418,0-8,3.582-8,8s3.582,8,8,8h57.6c4.418,0,8-3.582,8-8S412.298,189.6,407.88,189.6z" />
                                             </g>
+                                        </g>
+                                        <g>
                                             <g>
-                                                <g>
-                                                    <path d="M127.313,287.12c-2.874-3.356-7.924-3.747-11.28-0.873c-0.313,0.268-0.605,0.56-0.873,0.873v-0.16L74.28,328
+                                                <path d="M127.313,287.12c-2.874-3.356-7.924-3.747-11.28-0.873c-0.313,0.268-0.605,0.56-0.873,0.873v-0.16L74.28,328
         c-3.356,2.874-3.747,7.924-0.873,11.28c2.874,3.356,7.924,3.747,11.28,0.873c0.313-0.268,0.605-0.56,0.873-0.873l40.88-40.88
         C129.796,295.526,130.187,290.476,127.313,287.12z" />
-                                                </g>
                                             </g>
+                                        </g>
+                                        <g>
                                             <g>
-                                                <g>
-                                                    <path d="M356.607,56c-2.995-2.565-7.412-2.565-10.407,0l-40.88,40.88c-3.137,3.111-3.158,8.177-0.047,11.314
+                                                <path d="M356.607,56c-2.995-2.565-7.412-2.565-10.407,0l-40.88,40.88c-3.137,3.111-3.158,8.177-0.047,11.314
         c1.513,1.526,3.577,2.379,5.727,2.366l-0.08-0.08c2.126,0.012,4.17-0.823,5.68-2.32l40.88-40.88
         C360.354,63.924,359.963,58.874,356.607,56z" />
-                                                </g>
                                             </g>
+                                        </g>
+                                        <g>
                                             <g>
-                                                <g>
-                                                    <path d="M359.067,329.609c-0.45-0.609-0.984-1.151-1.587-1.609l-40.88-41.04c-2.874-3.356-7.924-3.747-11.28-0.873
+                                                <path d="M359.067,329.609c-0.45-0.609-0.984-1.151-1.587-1.609l-40.88-41.04c-2.874-3.356-7.924-3.747-11.28-0.873
         c-3.356,2.874-3.747,7.924-0.873,11.28c0.268,0.313,0.56,0.605,0.873,0.873l40.88,40.88c2.626,3.553,7.636,4.304,11.189,1.678
         S361.693,333.162,359.067,329.609z" />
-                                                </g>
                                             </g>
+                                        </g>
+                                        <g>
                                             <g>
-                                                <g>
-                                                    <path d="M126.44,96.88L85.56,56c-3.356-2.874-8.406-2.483-11.28,0.873c-2.565,2.995-2.565,7.412,0,10.407l40.88,40.88
+                                                <path d="M126.44,96.88L85.56,56c-3.356-2.874-8.406-2.483-11.28,0.873c-2.565,2.995-2.565,7.412,0,10.407l40.88,40.88
         c3.356,2.874,8.406,2.483,11.28-0.873C129.005,104.292,129.005,99.875,126.44,96.88z" />
-                                                </g>
                                             </g>
+                                        </g>
+                                        <g>
                                             <g>
-                                                <g>
-                                                    <path d="M215.88,0c-4.418,0-8,3.582-8,8v57.84c-0.133,4.416,3.34,8.104,7.756,8.236c0.081,0.002,0.162,0.004,0.244,0.004
+                                                <path d="M215.88,0c-4.418,0-8,3.582-8,8v57.84c-0.133,4.416,3.34,8.104,7.756,8.236c0.081,0.002,0.162,0.004,0.244,0.004
         c4.418,0,8-3.582,8-8V8C223.88,3.582,220.298,0,215.88,0z" />
-                                                </g>
                                             </g>
-                                        </svg>
-
-
-                                    </div>
-                                    <h1 id="title-4" class="text-center title rt rotate">Be creative</h1>
+                                        </g>
+                                    </svg>
 
 
                                 </div>
+                                <h1 id="title-4" class="text-center title rt rotate">Be creative</h1>
 
-                                <div id="content-panel-4" class="container tab-container hide justify-content">
-                                    <h4>Don't waste your time</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis. </p>
-                                </div>
+
                             </div>
-                        </div>
 
-                    </div>
-                </section>
-
-
-                <section class="testimonial__video">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/f-MAIzGxWc0?si=GkZPmhg-MKDbM0Dl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-lg-6">
-                            <h2>We Are Ranked Among the Top Global Leaders in Digital Marketing</h2>
-                            <p>Nettechnocrats quickly ascended to digital prominence, catering to a diverse clientele across various business sectors. Partner with the best in digital innovation.</p>
-
-                            <div class="slider-wrapper left">
-                                <div class="item item1"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="" srcset=""></div>
-                                <div class="item item2"><img src="{{ asset('assets/web/appfuture.png') }}" alt="" srcset=""></div>
-                                <div class="item item3"><img src="{{ asset('assets/web/upwork.png') }}" alt="" srcset=""></div>
-                                <div class="item item4"><img src="{{ asset('assets/web/extract.png') }}" alt="" srcset=""></div>
-
+                            <div id="content-panel-4" class="container tab-container hide justify-content">
+                                <h4>Don't waste your time</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis. </p>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+
+                </div>
+            </section>
             <section class="sample__banner" style="background: url('{{ asset('assets/web/sample__banner.png') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat;">
                 <div class="row">
                     <div class="col-lg-12">
