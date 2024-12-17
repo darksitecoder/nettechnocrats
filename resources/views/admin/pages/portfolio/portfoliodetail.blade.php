@@ -229,6 +229,7 @@
 
 
     @foreach($portfolio as $blog)
+
     <div class="container-fluid about py-5">
         <div class="container p-0">
             <div class="row">
@@ -251,6 +252,7 @@
             </div>
         </div>
     </div>
+    
     @endforeach
 
     </div>

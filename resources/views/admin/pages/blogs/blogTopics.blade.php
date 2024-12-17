@@ -198,6 +198,7 @@
                 url: baseUrl + '/fetchBlogTopicApi',
                 method: 'GET',
                 dataType: 'json',
+                    
                 success: function(response) {
                     $.each(response.data, function(index, item) {
                         var element = document.createElement("div");
