@@ -6,6 +6,8 @@ use App\Models\portfolio;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
+
 
 class PortfolioController extends Controller
 {
@@ -37,7 +39,38 @@ class PortfolioController extends Controller
     }
     public function createportfolio()
     {
-        return view('admin/pages/portfolio/creaportfolio');
+
+           // Find the row with the largest Angebots_Nr
+           $lastOffer = portfolio::select('portfolio_no')
+           ->get()
+           ->map(function ($item) {
+               // Extract the numeric part from Angebots_Nr
+               return (int) Str::after($item->portfolio_no, 'PF-');
+           })
+           ->max();
+
+       if ($lastOffer) {
+           $lastOffer = 'PF-' . $lastOffer;
+           // $lastOffer = $lastOffer->Angebots_Nr;
+           // Assuming $lastOffer is 'AN-12345'
+           // $lastOffer = 'AN-12345';
+
+           // Split the string into an array based on the dash
+           $parts = explode('-', $lastOffer);
+           $parts = $parts[1];
+
+           // Increment the numeric part
+           $newNumericPart = $parts + 1;
+
+           // Create the new offerNo
+           $newPortfolioNo = 'PF-' . $newNumericPart;
+
+           // $newOfferNo will be 'AN-12346'
+       } else {
+           $newPortfolioNo = 'PF-1234';
+       }
+
+        return view('admin/pages/portfolio/creaportfolio')->with(compact('newPortfolioNo'));
     }
     public function portfoliodetail($id)
     {
@@ -52,11 +85,17 @@ class PortfolioController extends Controller
 
         // Validate the incoming data
         $validatedData = $request->validate([
+            'category_1' => 'required',
+            'category_2' => 'required',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
             'heading' => 'required|string|max:255',
             'company_name' => 'required|string',
             'content' => 'required|string|max:100000',
             'status' => 'nullable|string|in:save,publish',
+            'inputs.*.POS' => 'required|numeric|min:1',
+            'inputs.*.Keywords' => 'required|string|max:255',
+            'inputs.*.RatingBefore' => 'required|numeric|min:0',
+            'inputs.*.RatingAfter' => 'required|numeric|min:0',
         ]);
 
         // Get the authenticated user

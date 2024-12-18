@@ -16,7 +16,6 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Data Science Services</h1>
       <p class="mb-4 text-white">Create quality apps with Data Science to ensure your apps performs at a higher scale
-
       </p>
      </div>
     </div>
