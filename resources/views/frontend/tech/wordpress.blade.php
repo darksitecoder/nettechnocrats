@@ -7,142 +7,182 @@
 @section('meta_keywords', 'laravel, home, keywords')
 
 @section('content')
- <!-- Abvout Start -->
- <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+<!-- Abvout Start -->
+<div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
-   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-7 wow fadeInLeft">
-     <div>
-      <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">WordPress Development Services</h1>
-      <p class="mb-4 text-white">We at Nettechnocrats help you with custom WordPress theme development</p>
-     </div>
+    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-xl-7 wow fadeInLeft">
+        <div>
+          <!-- <h4 class="text-primary1">About Us</h4> -->
+          <h1 class="display-5 mb-4 text-white">WordPress Development Services</h1>
+          <p class="mb-4 text-white">We at Nettechnocrats help you with custom WordPress theme development</p>
+        </div>
+
+        <div id="contact" class="contact__section">
+
+          <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4">
+
+
+
+              <div class="col-lg-12">
+                <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                  <div class="row gy-4">
+
+                    <div class="col-md-6">
+                      <input type="text" name="name" id="name-field" class="form-control" placeholder="Your Name">
+                    </div>
+
+                    <div class="col-md-6">
+                      <input type="email" class="form-control" name="email" id="email-field" placeholder="Your Email" required="">
+                    </div>
+
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" name="subject" id="subject-field" placeholder="Request For...." required="">
+                    </div>
+
+                    <div class="col-md-6 text-center">
+                      <button type="submit">Send Me a Proposal <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </form>
+              </div><!-- End Contact Form -->
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+        <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
+          <img src="{{ asset('assets/web/wordpress-logo.webp') }}" class="img-fluid rounded w-95 image-with-shadow" alt="">
+          <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
+        </div>
+      </div>
     </div>
-    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
-     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="">
-      <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
-     </div>
-    </div>
-   </div>
   </div>
- </div>
- <div class="container-fluid about py-5">
+</div>
+<div class="container-fluid about py-5">
   <div class="container py-5">
 
-   <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
-    <h2 class="display-5 mb-4">WordPress Development Services</h2>
-    <p class="mb-0">Nettechnocrats is a leading WordPress development company in India offering cutting edge solutions
-     in building, customizing and implementing a WooCommerce platform for diverse industries.</p>
-   </div>
-   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-6 wow fadeInLeft">
-     <div>
-      <!-- <h4 class="text-primary1">About Us</h4> -->
-      <p class="mb-4 fw-bold fs-3">What is WordPress Development?</p>
-      <p class="mb-4">Nettechnocrats is a leading WordPress development company in India offering cutting edge solutions in building, customizing and implementing a WooCommerce platform for diverse industries. WordPress is an open source blogging platform that uses PHP coding and enormously popular among developers and users due to their functionalities and features. We have a great understanding of WooCommerce plug-ins and extensions along with some essential factors of e-commerce that includes UX and interaction design. Using the power, scalability, and flexibility that WordPress offers, our veteran team of custom WordPress development professionals delivers a customized solution that makes you stand out from your competitors.</p>
-      <p class="mb-4">We at Nettechnocrats help you with custom WordPress theme development to meet all your design expectations and also stay consistent with your brand goals. Moreover, by offering World Class WordPress website design solutions for all your business needs, with prompt service and an added value, we assure 100% clients’ satisfaction.</p>
+    <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+      <h2 class="display-5 mb-4">WordPress Development Services</h2>
+      <p class="mb-0">Nettechnocrats is a leading WordPress development company in India offering cutting edge solutions
+        in building, customizing and implementing a WooCommerce platform for diverse industries.</p>
+    </div>
+    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-xl-6 wow fadeInLeft">
+        <div>
+          <!-- <h4 class="text-primary1">About Us</h4> -->
+          <p class="mb-4 fw-bold fs-3">What is WordPress Development?</p>
+          <p class="mb-4">Nettechnocrats is a leading WordPress development company in India offering cutting edge solutions in building, customizing and implementing a WooCommerce platform for diverse industries. WordPress is an open source blogging platform that uses PHP coding and enormously popular among developers and users due to their functionalities and features. We have a great understanding of WooCommerce plug-ins and extensions along with some essential factors of e-commerce that includes UX and interaction design. Using the power, scalability, and flexibility that WordPress offers, our veteran team of custom WordPress development professionals delivers a customized solution that makes you stand out from your competitors.</p>
 
-      <div class="row g-4">
+        </div>
+      </div>
+      <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+        <div class="rounded position-relative overflow-hidden">
+          <img src="{{ asset('assets/web/wordpress-mid.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
-       <div class="col-sm-6">
+        </div>
+      </div>
+    </div>
+    <p class="mb-4">We at Nettechnocrats help you with custom WordPress theme development to meet all your design expectations and also stay consistent with your brand goals. Moreover, by offering World Class WordPress website design solutions for all your business needs, with prompt service and an added value, we assure 100% clients’ satisfaction.</p>
+
+    <div class="row g-4">
+
+      <div class="col-sm-6">
         <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
-       </div>
-
       </div>
-     </div>
-    </div>
-    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-     <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
 
-     </div>
     </div>
-   </div>
   </div>
- </div>
- <!-- About End -->
+</div>
+<!-- About End -->
 
- <!-- Services Start -->
- <div class="container-fluid service pb-5">
+<!-- Services Start -->
+<div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <div class="row g-4">
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-brands fa-laravel"></i>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="service-item">
+          <div class="service-img">
+            <i class="fa-brands fa-laravel"></i>
+          </div>
+          <div class="rounded-bottom p-4">
+            <a href="#" class="h4 d-inline-block mb-4">TEMPLATE INTEGRATION</a>
+            <p class="mb-4">Choosing the right WooCommerce theme will naturally be very subjective. Experienced website designers at Nettehnocrats offer you bespoke WordPress theme development solution, especially for your business.</p>
+            <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+          </div>
+        </div>
       </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">TEMPLATE INTEGRATION</a>
-       <p class="mb-4">Choosing the right WooCommerce theme will naturally be very subjective. Experienced website designers at Nettehnocrats offer you bespoke WordPress theme development solution, especially for your business.</p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="service-item">
+          <div class="service-img">
+            <i class="fa-brands fa-wordpress"></i>
+          </div>
+          <div class="rounded-bottom p-4">
+            <a href="#" class="h4 d-inline-block mb-4">WORDPRESS IMPLEMENTATION</a>
+            <p class="mb-4">WordPress implementation is all about creating things with WordPress, so you have the right configuration and the best tool to grow your blog. Choose unique custom WordPress themes and plugins to get a custom website.</p>
+            <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+          </div>
+        </div>
       </div>
-     </div>
+      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="service-item">
+          <div class="service-img">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="rounded-bottom p-4">
+            <a href="#" class="h4 d-inline-block mb-4">WORDPRESS EXISTING MODIFICATION</a>
+            <p class="mb-4">Embed new WordPress website design into your existing one and create a richer and more enjoyable experience. Let us help you get a robust and secure website that meet your projects’ demands as closely as possible.</p>
+            <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="service-item">
+          <div class="service-img">
+            <i class="fa-solid fa-chart-simple"></i>
+          </div>
+          <div class="rounded-bottom p-4">
+            <a href="#" class="h4 d-inline-block mb-4">CUSTOM PLUGIN DEVELOPMENT</a>
+            <p class="mb-4">Ensure great profits through smart and well-placed plugins that are of high impact as well as productivity. We provide versatile and significant WordPress Plugin development services that can take your website to the next level.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="service-item">
+          <div class="service-img">
+            <i class="fa-solid fa-swatchbook"></i>
+          </div>
+          <div class="rounded-bottom p-4">
+            <a href="#" class="h4 d-inline-block mb-4">DEVELOPMENT & DESIGN</a>
+            <p class="mb-4">Increase your operative competence with a well-designed and functional CMS that uses proper functions, advanced technology, and trends for the CMS development work. We can assist you in making the most of this platform.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="service-item">
+          <div class="service-img">
+            <i class="fa-solid fa-link"></i>
+          </div>
+          <div class="rounded-bottom p-4">
+            <a href="#" class="h4 d-inline-block mb-4">PSD TO WORDPRESS</a>
+            <p class="mb-4">PSD to WordPress web development assistance ushers the way for a fully-functional and striking website. We ensure a seamless conversion for this and provide a fully functional and custom website at an affordable cost.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-brands fa-wordpress"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">WORDPRESS IMPLEMENTATION</a>
-       <p class="mb-4">WordPress implementation is all about creating things with WordPress, so you have the right configuration and the best tool to grow your blog. Choose unique custom WordPress themes and plugins to get a custom website.</p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-globe"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">WORDPRESS EXISTING MODIFICATION</a>
-       <p class="mb-4">Embed new WordPress website design into your existing one and create a richer and more enjoyable experience. Let us help you get a robust and secure website that meet your projects’ demands as closely as possible.</p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-chart-simple"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CUSTOM PLUGIN DEVELOPMENT</a>
-       <p class="mb-4">Ensure great profits through smart and well-placed plugins that are of high impact as well as productivity. We provide versatile and significant WordPress Plugin development services that can take your website to the next level.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-swatchbook"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">DEVELOPMENT & DESIGN</a>
-       <p class="mb-4">Increase your operative competence with a well-designed and functional CMS that uses proper functions, advanced technology, and trends for the CMS development work. We can assist you in making the most of this platform.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-link"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">PSD TO WORDPRESS</a>
-       <p class="mb-4">PSD to WordPress web development assistance ushers the way for a fully-functional and striking website. We ensure a seamless conversion for this and provide a fully functional and custom website at an affordable cost.</p>
-      </div>
-     </div>
-    </div>
-   </div>
   </div>
- </div>
- <!-- Services End -->
+</div>
+<!-- Services End -->
 
- <!-- Offer Start -->
- <!-- <div class="container-fluid offer-section pb-5">
+<!-- Offer Start -->
+<!-- <div class="container-fluid offer-section pb-5">
   <div class="container pb-5">
    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
     <h3 class="display-5 mb-4 fw-bolder">Why choose PHP Laravel Framework?</h3>
@@ -226,132 +266,132 @@
    </div>
   </div>
  </div> -->
- <!-- Offer End -->
+<!-- Offer End -->
 
- <section class="light-background why__choose__Net">
+<section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for WordPress Development Services?
-   </h2>
+    <h2>Why Nettechnocrats for WordPress Development Services?
+    </h2>
 
-   <div class="row pt-2">
-    <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
-     <div class="row mt-3">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="200">5+ years of average experience
-       </p>
+    <div class="row pt-2">
+      <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
+        <div class="row mt-3">
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="200">5+ years of average experience
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="200">On time project delivery guaranteed
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="300">High sealed security
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="300">Dedicated Project Managers
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="400">24*7 Support
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="400">Hassle free communication
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="500">Maintenance Service
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="500">User-Friendly Data Structure
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Integrity & transparency
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Free no-obligation quote
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Flexible Engagement Models
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Non-Discloser Agreement
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="200">On time project delivery guaranteed
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="300">High sealed security
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="300">Dedicated Project Managers
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="400">24*7 Support
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="400">Hassle free communication
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="500">Maintenance Service
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="500">User-Friendly Data Structure
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Integrity & transparency
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Free no-obligation quote
-       </p>
-      </div>
-     </div>
-     <div class="row">
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Flexible Engagement Models
-       </p>
-      </div>
-      <div class="col-lg-6">
-       <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Non-Discloser Agreement
-       </p>
-      </div>
-     </div>
-    </div>
-    <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-     <div class="seo__animation__gif">
-      <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+      <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="seo__animation__gifs">
+          <div class="rounded position-relative overflow-hidden">
+            <img src="{{ asset('assets/web/wordpress-last.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
+          </div>
+        </div>
       </div>
-     </div>
     </div>
-   </div>
   </div>
- </section>
+</section>
 
- <!--  -->
+<!--  -->
 
- <section class="brand__images py-4">
+<section class="brand__images py-4">
   <div class="container">
-   <h3 class="text-center">Count On Our Passion For Technology</h3>
-   <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
-   </div>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
-   </div>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
-   </div>
+    <h3 class="text-center">Count On Our Passion For Technology</h3>
+    <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
+    <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
+    </div>
+    <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
+    </div>
+    <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
+    </div>
   </div>
- </section>
+</section>
 
- <!-- Call To Action Section -->
- <section id="call-to-action" class="call-to-action section accent-background">
+<!-- Call To Action Section -->
+<section id="call-to-action" class="call-to-action section accent-background">
 
   <div class="container">
-   <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-    <div class="col-xl-10">
-     <div class="text-center">
-      <h3>Ready To Get Started?</h3>
-      <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="#">Contact Us</a>
-     </div>
+    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-xl-10">
+        <div class="text-center">
+          <h3>Ready To Get Started?</h3>
+          <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
+          <a class="cta-btn" href="#">Contact Us</a>
+        </div>
+      </div>
     </div>
-   </div>
   </div>
 
- </section><!-- /Call To Action Section -->
- @endsection
+</section><!-- /Call To Action Section -->
+@endsection

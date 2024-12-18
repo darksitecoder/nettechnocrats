@@ -232,24 +232,8 @@
 
       <main class="content">
         <div class="container-fluid p-0">
-          <form action="{{ url('/savePortfolioForAdminApi') }}" method="POST" enctype="multipart/form-data">
+          <form id="portfolioForm" action="{{ url('/savePortfolioForAdminApi') }}" method="POST" enctype="multipart/form-data">
             @csrf
-
-
-            @if(session('success'))
-            <div class="alert alert-success alert-dismissible fade show" role="alert">
-              {{ session('success') }}
-              <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            @endif
-
-            @if(session('error'))
-            <div class="alert alert-danger alert-dismissible fade show" role="alert">
-              {{ session('error') }}
-              <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            @endif
-
 
             <!-- Form Content -->
             <div class="d-flex justify-content-between mb-4 mt-4">
@@ -272,9 +256,7 @@
                   <option value="Software_Development">Software Development</option>
                 </select>
               </div>
-              @error('category_1')
-              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
-              @enderror
+              <span class="text-danger" id="category_1_err" style="font-size:13px;"></span>
             </div>
 
             <!-- category_2 Input Section -->
@@ -299,9 +281,7 @@
                   <option data-parent="Software_Development" value="Iot">Iot</option>
                 </select>
               </div>
-              @error('category_2')
-              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
-              @enderror
+              <span class="text-danger" id="category_2_err" style="font-size:13px;"></span>
             </div>
             <!-- Image Upload Section -->
             <div class="row pt-3 d-flex justify-content-center">
@@ -315,10 +295,7 @@
                 </div>
               </div>
 
-              @error('image')
-              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
-              @enderror
-
+              <span class="text-danger" style="font-size:13px;"></span>
             </div>
 
 
@@ -328,21 +305,15 @@
               <div class="col-md-12 stretch-card grid-margin">
                 <input type="text" id="heading" name="heading" class="blog__heading" value="" placeholder="Enter Heading Here...">
               </div>
-              @error('heading')
-              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
-              @enderror
-
+              <span class="text-danger" id="heading_err" style="font-size:13px;"></span>
             </div>
 
             <div class="row pt-1 my-3 d-flex justify-content-center">
-              <!-- Display Heading Validation Error -->
+              <!-- Display company_name Validation Error -->
               <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="heading" name="company_name" class="blog__heading" value="" placeholder="Enter Company Name">
+                <input type="text" id="company_name" name="company_name" class="blog__company_name" value="" placeholder="Enter Company Name">
               </div>
-              @error('company_name')
-              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
-              @enderror
-
+              <span class="text-danger" id="company_name_err" style="font-size:13px;"></span>
             </div>
 
             <!-- Content Textarea Section -->
@@ -351,14 +322,11 @@
               <div class="col-md-12 stretch-card grid-margin blog__content">
                 <textarea name="content" id="editor"></textarea>
               </div>
-              @error('content')
-              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
-              @enderror
-
+              <span class="text-danger" id="content_err" style="font-size:13px;"></span>
             </div>
 
 
-            <div>
+            <div id="showTableTR">
               <div class="table-responsive">
                 <table class="table" id="table" style="border: none;">
                   <thead>
@@ -375,19 +343,19 @@
                     <tr class="hidden" id="template-row">
                       <td>
                         <input type="text" class="lastPOS" name="inputs[0][POS]" value="1" placeholder="#" /><br>
-                        <span class="msg_err" style="color: red; font-size: 13px;"></span>
+                        <span class="msg_err" id="POS_0_err" style="color: red; font-size: 13px;"></span>
                       </td>
                       <td>
                         <input type="text" name="inputs[0][Keywords]" placeholder="Enter Keyword" />
-                        <br><span class="msg_err" style="color: red; font-size: 13px;"></span>
+                        <br><span class="msg_err" id="Keywords_0_err" style="color: red; font-size: 13px;"></span>
                       </td>
                       <td>
                         <input type="text" name="inputs[0][RatingBefore]" placeholder="Enter Rating Before" />
-                        <br><span class="msg_err" style="color: red; font-size: 13px;"></span>
+                        <br><span class="msg_err" id="RatingBefore_0_err" style="color: red; font-size: 13px;"></span>
                       </td>
                       <td>
                         <input type="text" name="inputs[0][RatingAfter]" placeholder="Enter Rating After" />
-                        <br><span class="msg_err" style="color: red; font-size: 13px;"></span>
+                        <br><span class="msg_err" id="RatingAfter_0_err" style="color: red; font-size: 13px;"></span>
                       </td>
                       <td>
                         <button type="button" class="remove-table-row">Delete &nbsp;<i class="fa-solid fa-trash-can"></i></button>
@@ -396,16 +364,14 @@
                   </tbody>
                 </table>
               </div>
+              <br>
+              <!-- Add Row Button -->
+              <button id="add" type="button" name="add" class="head__foot__btn" style="width: 50%;">
+                Add New&nbsp;<img src="{{ asset('assets/frontEnd/web/images/icons/add-circled-outline.svg') }}" alt="Add Icon" class="logo-img">
+              </button>
             </div>
 
-            <br>
-            <!-- Add Row Button -->
-            <button id="add" type="button" name="add" class="head__foot__btn" style="width: 50%;">
-              Add New&nbsp;<img src="{{ asset('assets/frontEnd/web/images/icons/add-circled-outline.svg') }}" alt="Add Icon" class="logo-img">
-            </button>
           </form>
-
-
         </div>
       </main>
 
@@ -417,6 +383,32 @@
   <script src="{{ asset('dashboard_theme/js/app.js') }}"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- jQuery Script -->
+  <script>
+    $(document).ready(function() {
+      // On change of category_1
+      $('#category_1').change(function() {
+        let selectedCategory = $(this).val();
+
+        // Reset category_2 dropdown
+        $('#category_2').val('');
+        $('#category_2 option').hide(); // Hide all options first
+
+        if (selectedCategory) {
+          // Show only the options that match the selected category_1
+          $('#category_2 option[data-parent="' + selectedCategory + '"]').show();
+        } else {
+          // Show default placeholder option if nothing is selected
+          $('#category_2 option[value=""]').show();
+        }
+      });
+
+      // Trigger change event on page load to hide irrelevant options
+      $('#category_1').trigger('change');
+    });
+  </script>
+
+
+
   <script>
   document.addEventListener("DOMContentLoaded", function() {
     let rowCount = 0; // To track row index
@@ -497,16 +489,15 @@
             element.setAttribute("name", updatedName);
           }
 
-          if (element.hasAttribute("id")) {
-            let updatedId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
-            element.setAttribute("id", updatedId);
-          }
+            if (element.hasAttribute("id")) {
+              let updatedId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
+              element.setAttribute("id", updatedId);
+            }
+          });
         });
-      });
-    }
-  });
-</script>
-
+      }
+    });
+  </script>
 
   <script>
     const childElement = document.querySelector('.portfolio');
@@ -640,6 +631,70 @@
   </script>
 
 
+  <script>
+    $(document).ready(function() {
+      // Handle form submission for "Save"
+      $(".save").on("click", function(e) {
+        jQuery('.text-danger').empty();
+        e.preventDefault(); // Prevent default form submission
+
+        // Serialize form data
+        let formData = new FormData($("#portfolioForm")[0]);
+        const content = editorInstance.getData();
+        formData.append("status", "save"); // Add status manually for "Save"
+        formData.append('content', content);
+
+        // AJAX request
+        $.ajax({
+          url: "{{ url('/savePortfolioForAdminApi') }}", // Laravel route
+          type: "POST",
+          data: formData,
+          contentType: false,
+          processData: false,
+          headers: {
+            "X-CSRF-TOKEN": "{{ csrf_token() }}" // CSRF Token for Laravel
+          },
+          beforeSend: function() {
+            // Optional: Show a loader or disable buttons
+            if (status === 'save') {
+              message = 'Saving';
+            } else if (status === 'publish') {
+              message = 'Publishing';
+            }
+            $statusBtn.prop('disabled', true);
+            $statusBtn.html(`${message} &nbsp;<i class="fas fa-spinner fa-spin"></i>`);
+          },
+          success: function(response) {
+            // Show success alert
+            $(".alert-success").html("Portfolio saved successfully!").show();
+            $(".alert-danger").hide();
+          },
+          error: function(response) {
+            // Show error alert
+            let errors = response.responseJSON.errors || {};
+
+            $.each(errors, function(field, messages) {
+              // Append error messages to your HTML
+              $('#' + field + '_err').text(messages[0]);
+
+              // Extract the index and field name from the error key
+              var parts = field.split('.');
+              var index = parts[1];
+              var fieldName = parts[2];
+              // Construct the error span ID dynamically
+              var errorSpanId = '#' + fieldName + '_' + index + '_err';
+              // Set the error message
+              $(errorSpanId).text(fieldName + ' is required');
+              // $(errorSpanId).text(messages[0]);
+            });
+          },
+          complete: function() {
+            $(".save").attr("disabled", false); // Re-enable save button
+          }
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
