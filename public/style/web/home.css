@@ -946,6 +946,13 @@ p {
   color: var(--accent-color);
 }
 
+.btn.btn-primary:active {
+  background: var(--bs-dark);
+  color: var(--accent-color) !important;
+}
+
+
+
 .btn.btn-light {
   color: var(--accent-color);
   border: none;
@@ -14630,4 +14637,11 @@ footer .row img {
 .form-control:focus {
   border-color: var(--black) !important;
   box-shadow: 0 0 0 .25rem transparent !important;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .header svg {
+    display: none;
+  }
 }
