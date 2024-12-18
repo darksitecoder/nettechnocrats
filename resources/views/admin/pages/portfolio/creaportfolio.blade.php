@@ -261,6 +261,8 @@
               </div>
             </div>
 
+            <input type="text" name= "portfolio_no" id="portfolio_no" value="{{$newPortfolioNo}}" />
+
             <!-- category_1 Input Section -->
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <div class="col-md-12 stretch-card grid-margin">
@@ -416,112 +418,95 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- jQuery Script -->
   <script>
-    $(document).ready(function() {
-      // On change of category_1
-      $('#category_1').change(function() {
-        let selectedCategory = $(this).val();
+  document.addEventListener("DOMContentLoaded", function() {
+    let rowCount = 0; // To track row index
 
-        // Reset category_2 dropdown
-        $('#category_2').val('');
-        $('#category_2 option').hide(); // Hide all options first
+    // Add New Row
+    document.getElementById("add").addEventListener("click", function() {
+      rowCount++;
+      const tableBody = document.querySelector("#table tbody");
+      const templateRow = document.getElementById("template-row");
 
-        if (selectedCategory) {
-          // Show only the options that match the selected category_1
-          $('#category_2 option[data-parent="' + selectedCategory + '"]').show();
-        } else {
-          // Show default placeholder option if nothing is selected
-          $('#category_2 option[value=""]').show();
-        }
-      });
+      // Clone the hidden template row and make it visible
+      const newRow = templateRow.cloneNode(true);
+      newRow.classList.remove("hidden");
 
-      // Trigger change event on page load to hide irrelevant options
-      $('#category_1').trigger('change');
+      // Clear input values and update names, IDs, and values dynamically
+      clearAndUpdateRowAttributes(newRow, rowCount);
+
+      // Append the new row to the table
+      tableBody.appendChild(newRow);
+      resetNumbering(); // Reset numbering after adding
     });
-  </script>
 
+    // Remove Row
+    document.addEventListener("click", function(event) {
+      if (event.target.classList.contains("remove-table-row")) {
+        // Confirm before deleting
+        if (confirm("Are you sure you want to delete this row?")) {
+          event.target.closest("tr").remove();
+          resetNumbering(); // Reset numbering after removal
+        }
+      }
+    });
 
+    // Function to clear and update row attributes dynamically
+    function clearAndUpdateRowAttributes(row, index) {
+      row.querySelectorAll("input, span, select").forEach((element) => {
+        if (element.tagName === "INPUT") {
+          element.value = ""; // Clear input fields
+        } else if (element.tagName === "SELECT") {
+          element.selectedIndex = 0; // Reset select to default value
+        } else if (element.tagName === "SPAN") {
+          element.textContent = ""; // Clear span content
+        }
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      let rowCount = 0; // To track row index
+        if (element.hasAttribute("name")) {
+          let newName = element.getAttribute("name").replace(/\[\d+\]/, `[${index}]`);
+          element.setAttribute("name", newName);
+        }
 
-      // Add New Row
-      document.getElementById("add").addEventListener("click", function() {
-        rowCount++;
-        const tableBody = document.querySelector("#table tbody");
-        const templateRow = document.getElementById("template-row");
+        if (element.hasAttribute("id")) {
+          let newId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
+          element.setAttribute("id", newId);
+        }
 
-        // Clone the hidden template row and make it visible
-        const newRow = templateRow.cloneNode(true);
-        newRow.classList.remove("hidden");
+        if (element.hasAttribute("onkeyup")) {
+          let newOnkeyup = element
+            .getAttribute("onkeyup")
+            .replace(/\('\d+'\)/, `('${index}')`);
+          element.setAttribute("onkeyup", newOnkeyup);
+        }
 
-        // Update names, IDs, and values dynamically
-        updateRowAttributes(newRow, rowCount);
-
-        // Append the new row to the table
-        tableBody.appendChild(newRow);
-        resetNumbering(); // Reset numbering after adding
-      });
-
-      // Remove Row
-      document.addEventListener("click", function(event) {
-        if (event.target.classList.contains("remove-table-row")) {
-          // Confirm before deleting
-          if (confirm("Are you sure you want to delete this row?")) {
-            event.target.closest("tr").remove();
-            resetNumbering(); // Reset numbering after removal
-          }
+        if (element.classList.contains("lastPOS")) {
+          element.value = index + 1; // Update Sr. No.
         }
       });
+    }
 
-      // Function to update row attributes dynamically
-      function updateRowAttributes(row, index) {
+    // Reset numbering function
+    function resetNumbering() {
+      document.querySelectorAll("#table tbody tr").forEach((row, index) => {
+        row.querySelector(".lastPOS").value = index + 1; // Update Sr. No.
+
         row.querySelectorAll("input, span").forEach((element) => {
           if (element.hasAttribute("name")) {
-            let newName = element.getAttribute("name").replace(/\[\d+\]/, `[${index}]`);
-            element.setAttribute("name", newName);
+            let updatedName = element
+              .getAttribute("name")
+              .replace(/\[\d+\]/, `[${index}]`);
+            element.setAttribute("name", updatedName);
           }
 
           if (element.hasAttribute("id")) {
-            let newId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
-            element.setAttribute("id", newId);
-          }
-
-          if (element.hasAttribute("onkeyup")) {
-            let newOnkeyup = element
-              .getAttribute("onkeyup")
-              .replace(/\('\d+'\)/, `('${index}')`);
-            element.setAttribute("onkeyup", newOnkeyup);
-          }
-
-          if (element.classList.contains("lastPOS")) {
-            element.value = index + 1; // Update Sr. No.
+            let updatedId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
+            element.setAttribute("id", updatedId);
           }
         });
-      }
+      });
+    }
+  });
+</script>
 
-      // Reset numbering function
-      function resetNumbering() {
-        document.querySelectorAll("#table tbody tr").forEach((row, index) => {
-          row.querySelector(".lastPOS").value = index + 1; // Update Sr. No.
-
-          row.querySelectorAll("input, span").forEach((element) => {
-            if (element.hasAttribute("name")) {
-              let updatedName = element
-                .getAttribute("name")
-                .replace(/\[\d+\]/, `[${index}]`);
-              element.setAttribute("name", updatedName);
-            }
-
-            if (element.hasAttribute("id")) {
-              let updatedId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
-              element.setAttribute("id", updatedId);
-            }
-          });
-        });
-      }
-    });
-  </script>
 
   <script>
     const childElement = document.querySelector('.portfolio');

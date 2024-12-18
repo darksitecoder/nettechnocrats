@@ -13,12 +13,15 @@ class portfolio extends Model
     protected $table = 'portfolio';
 
     protected $fillable = [
-       
+        'portfolio_no',
         'heading',
         'content',
         'image',
         'company_name',
-        
+        'POS',
+        'Keywords',
+        'RatingBefore',
+        'RatingAfter',
         'status',
         'created_by',
     ];
