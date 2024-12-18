@@ -695,6 +695,71 @@
       });
     });
   </script>
+
+<script>
+    $(document).ready(function() {
+      // Handle form submission for "Save"
+      $(".save").on("click", function(e) {
+        jQuery('.text-danger').empty();
+        e.preventDefault(); // Prevent default form submission
+
+        // Serialize form data
+        let formData = new FormData($("#portfolioForm")[0]);
+        const content = editorInstance.getData();
+        formData.append("status", "save"); // Add status manually for "Save"
+        formData.append('content', content);
+
+        // AJAX request
+        $.ajax({
+          url: "{{ url('/savePortfolioForAdminApi') }}", // Laravel route
+          type: "POST",
+          data: formData,
+          contentType: false,
+          processData: false,
+          headers: {
+            "X-CSRF-TOKEN": "{{ csrf_token() }}" // CSRF Token for Laravel
+          },
+          beforeSend: function() {
+            // Optional: Show a loader or disable buttons
+            if (status === 'save') {
+              message = 'Saving';
+            } else if (status === 'publish') {
+              message = 'Publishing';
+            }
+            $statusBtn.prop('disabled', true);
+            $statusBtn.html(`${message} &nbsp;<i class="fas fa-spinner fa-spin"></i>`);
+          },
+          success: function(response) {
+            // Show success alert
+            $(".alert-success").html("Portfolio saved successfully!").show();
+            $(".alert-danger").hide();
+          },
+          error: function(response) {
+            // Show error alert
+            let errors = response.responseJSON.errors || {};
+
+            $.each(errors, function(field, messages) {
+              // Append error messages to your HTML
+              $('#' + field + '_err').text(messages[0]);
+
+              // Extract the index and field name from the error key
+              var parts = field.split('.');
+              var index = parts[1];
+              var fieldName = parts[2];
+              // Construct the error span ID dynamically
+              var errorSpanId = '#' + fieldName + '_' + index + '_err';
+              // Set the error message
+              $(errorSpanId).text(fieldName + ' is required');
+              // $(errorSpanId).text(messages[0]);
+            });
+          },
+          complete: function() {
+            $(".save").attr("disabled", false); // Re-enable save button
+          }
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
