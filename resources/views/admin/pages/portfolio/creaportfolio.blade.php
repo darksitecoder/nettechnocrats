@@ -230,22 +230,27 @@
 
       @include('admin/partials/header')
 
+
+
       <main class="content">
         <div class="container-fluid p-0">
           <form id="portfolioForm" action="{{ url('/savePortfolioForAdminApi') }}" method="POST" enctype="multipart/form-data">
             @csrf
+            <span class="text" id="success_msg" style="font-size:13px;"></span>
 
             <!-- Form Content -->
             <div class="d-flex justify-content-between mb-4 mt-4">
               <h1 class="h3 mb-3"><strong>Add Portfolio</strong></h1>
 
               <div class="buttons">
-                <button class="mx-3 btn save" name="status" value="save" type="Submit">Save <i class="fa-solid fa-bookmark"></i></button>
-                <button class="btn published" name="status" value="publish" type="Submit">Published <i class="fa-solid fa-inbox"></i></button>
+              <input type="button" class="mx-3 btn save" name="status" value="save" />
+              <input type="button" class="btn published" name="status" value="publish" />
               </div>
             </div>
 
             <input type="text" name= "portfolio_no" id="portfolio_no" value="{{$newPortfolioNo}}" />
+            <span class="text-danger" id="portfolio_no_err" style="font-size:13px;"></span>
+
 
             <!-- category_1 Input Section -->
             <div class="row pt-1 my-3 d-flex justify-content-center">
@@ -634,16 +639,22 @@
   <script>
     $(document).ready(function() {
       // Handle form submission for "Save"
-      $(".save").on("click", function(e) {
+      $(".save, .published").on("click", function(e) {
+        // alert('hi');
         jQuery('.text-danger').empty();
         e.preventDefault(); // Prevent default form submission
+
+
+             // Detect the clicked button's status
+      let status = $(this).val();
 
         // Serialize form data
         let formData = new FormData($("#portfolioForm")[0]);
         const content = editorInstance.getData();
-        formData.append("status", "save"); // Add status manually for "Save"
+     // Add status manually for "Save"
+     formData.append("status", status); // Append status dynamically
         formData.append('content', content);
-
+console.log(formData);
         // AJAX request
         $.ajax({
           url: "{{ url('/savePortfolioForAdminApi') }}", // Laravel route
@@ -661,13 +672,13 @@
             } else if (status === 'publish') {
               message = 'Publishing';
             }
-            $statusBtn.prop('disabled', true);
-            $statusBtn.html(`${message} &nbsp;<i class="fas fa-spinner fa-spin"></i>`);
+          
           },
           success: function(response) {
             // Show success alert
-            $(".alert-success").html("Portfolio saved successfully!").show();
+            $("#success_msg").html(response.success).show();
             $(".alert-danger").hide();
+                      $('#portfolioForm')[0].reset();
           },
           error: function(response) {
             // Show error alert
@@ -696,70 +707,7 @@
     });
   </script>
 
-<script>
-    $(document).ready(function() {
-      // Handle form submission for "Save"
-      $(".save").on("click", function(e) {
-        jQuery('.text-danger').empty();
-        e.preventDefault(); // Prevent default form submission
 
-        // Serialize form data
-        let formData = new FormData($("#portfolioForm")[0]);
-        const content = editorInstance.getData();
-        formData.append("status", "save"); // Add status manually for "Save"
-        formData.append('content', content);
-
-        // AJAX request
-        $.ajax({
-          url: "{{ url('/savePortfolioForAdminApi') }}", // Laravel route
-          type: "POST",
-          data: formData,
-          contentType: false,
-          processData: false,
-          headers: {
-            "X-CSRF-TOKEN": "{{ csrf_token() }}" // CSRF Token for Laravel
-          },
-          beforeSend: function() {
-            // Optional: Show a loader or disable buttons
-            if (status === 'save') {
-              message = 'Saving';
-            } else if (status === 'publish') {
-              message = 'Publishing';
-            }
-            $statusBtn.prop('disabled', true);
-            $statusBtn.html(`${message} &nbsp;<i class="fas fa-spinner fa-spin"></i>`);
-          },
-          success: function(response) {
-            // Show success alert
-            $(".alert-success").html("Portfolio saved successfully!").show();
-            $(".alert-danger").hide();
-          },
-          error: function(response) {
-            // Show error alert
-            let errors = response.responseJSON.errors || {};
-
-            $.each(errors, function(field, messages) {
-              // Append error messages to your HTML
-              $('#' + field + '_err').text(messages[0]);
-
-              // Extract the index and field name from the error key
-              var parts = field.split('.');
-              var index = parts[1];
-              var fieldName = parts[2];
-              // Construct the error span ID dynamically
-              var errorSpanId = '#' + fieldName + '_' + index + '_err';
-              // Set the error message
-              $(errorSpanId).text(fieldName + ' is required');
-              // $(errorSpanId).text(messages[0]);
-            });
-          },
-          complete: function() {
-            $(".save").attr("disabled", false); // Re-enable save button
-          }
-        });
-      });
-    });
-  </script>
 </body>
 
 </html>
