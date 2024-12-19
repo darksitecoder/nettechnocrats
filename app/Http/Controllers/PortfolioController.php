@@ -173,7 +173,7 @@ class PortfolioController extends Controller
     public function deletePortfolioForAdminApi(Request $request, $id)
     {
 
-        $deletedBlog = portfolio::where('id', $id)->delete();
+        $deletedBlog = portfolio::where('portfolio_no', $id)->delete();
 
         if ($deletedBlog) {
             $request->session()->flash('success', 'Portfolio Deleted Successfully');
