@@ -82,16 +82,16 @@
             </div>
           </div>
 
-       <!-- Display success or error message from session -->
-       @if (session('success'))
-            <div class="alert alert-success">
-                {{ session('success') }}
-            </div>
-        @elseif (session('error'))
-            <div class="alert alert-danger">
-                {{ session('error') }}
-            </div>
-        @endif
+          <!-- Display success or error message from session -->
+          @if (session('success'))
+          <div class="alert alert-success">
+            {{ session('success') }}
+          </div>
+          @elseif (session('error'))
+          <div class="alert alert-danger">
+            {{ session('error') }}
+          </div>
+          @endif
 
 
           <div class="row">
@@ -110,31 +110,31 @@
                     </tr>
                   </thead>
                   <tbody>
-                   
+
 
                     @foreach($portfolio as $blog)
 
-                    <td>{{$blog->id}}</td>
+                    <td>{{$blog->portfolio_no}}</td>
                     <td>{{ $blog->created_at->format('Y-m-d') }}</td>
                     <td class="d-none d-xl-table-cell">{{$blog->company_name}}</td>
                     <td class="d-none d-xl-table-cell">{{$blog->heading}}</td>
                     <td>
                       <span class="badge fs-6 
-@if($blog->status === 'publish') 
-bg-success 
-@else 
-bg-warning 
-@endif">
+                          @if($blog->status === 'publish') 
+                          bg-success 
+                          @else 
+                          bg-warning 
+                          @endif">
                         {{ $blog->status }}
                       </span>
                     </td>
-                    <td class="d-none d-md-table-cell"><a href="{{ url('/editPortfolioForAdmin/' . $blog->id) }}">
+                    <td class="d-none d-md-table-cell"><a href="{{ url('/editPortfolioForAdmin/' . $blog->portfolio_no) }}">
                         <button class="badge px-2 py-1 fs-6 edit">
                           Edit <i class="fa-solid fa-pen-to-square"></i>
                         </button>
                       </a>
                     </td>
-                    <td class="d-none d-md-table-cell"><a href="{{ url('/deletePortfolioForAdminApi/' . $blog->id) }}"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
+                    <td class="d-none d-md-table-cell"><a href="{{ url('/deletePortfolioForAdminApi/' . $blog->portfolio_no) }}"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
                     </tr>
                     @endforeach
 

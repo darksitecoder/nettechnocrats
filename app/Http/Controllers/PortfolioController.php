@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\DB;
 
 
 class PortfolioController extends Controller
@@ -31,8 +32,17 @@ class PortfolioController extends Controller
         }
 
         // Fetch all blogs (you can add further query filters if needed)
-        $portfolio = portfolio::select('*')->orderby('created_at', 'desc')->get();
-        // dd($blogs);
+        $portfolio = portfolio::select('portfolio_no', 'heading', 'company_name', 'content', 'image', 'created_at','status')
+        ->whereIn(
+            'id',
+            portfolio::select(DB::raw('MAX(id) as id'))
+                ->groupBy('portfolio_no')
+                ->pluck('id')
+        )
+        ->orderBy('created_at', 'desc')
+        ->get();
+    
+        // dd($portfolio);
 
         // Return the view with the list of blogs
         return view('admin/pages/portfolio/portfolio')->with(compact('portfolio'));
@@ -81,10 +91,12 @@ class PortfolioController extends Controller
 
     public function savePortfolioForAdminApi(Request $request)
     {
+        // dd($request->all());
         $status = $request->input('status');
 
         // Validate the incoming data
         $validatedData = $request->validate([
+            'portfolio_no' => 'required|unique:portfolio', 
             'category_1' => 'required',
             'category_2' => 'required',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
@@ -97,6 +109,9 @@ class PortfolioController extends Controller
             'inputs.*.RatingBefore' => 'required|numeric|min:0',
             'inputs.*.RatingAfter' => 'required|numeric|min:0',
         ]);
+
+   
+
 
         // Get the authenticated user
         $user = Auth::user();
@@ -119,28 +134,46 @@ class PortfolioController extends Controller
             $imageRelativePath = 'backend/portfolio/' . $imageName;
         }
 
-        // Create the portfolio entry
-        $portfolio = portfolio::create([
-            'heading' => $validatedData['heading'],
-            'content' => $validatedData['content'],
-            'company_name' => $validatedData['company_name'],
-            'image' => $imageRelativePath,
-            'status' => $status,
-            'created_by' => $user->id
-        ]);
+      
+    
 
-        // Store success message in session
-        session()->flash('success', 'Portfolio ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
 
-        // Redirect to portfolio creation page
-        return redirect()->route('createportfolio');
+        $dynamicFields = $request->input('inputs');
+
+        // Set dynamic fields on the offer
+        foreach ($dynamicFields as $dynamicField) {
+            $portfolio = new portfolio();
+            $portfolio->portfolio_no = $validatedData['portfolio_no'];
+            $portfolio->heading = $validatedData['heading'];
+            $portfolio->content = $validatedData['content'];
+            $portfolio->company_name = $validatedData['company_name'];
+            $portfolio->image = $imageRelativePath;
+            $portfolio->status = $status;
+            $portfolio->created_by = $user->id;
+
+           
+
+            $portfolio->POS = $dynamicField['POS'];
+            $portfolio->Keywords = $dynamicField['Keywords'];
+            $portfolio->RatingBefore = $dynamicField['RatingBefore'];
+            $portfolio->RatingAfter = $dynamicField['RatingAfter'];
+           
+            $portfolio->save();
+        }
+
+
+        return response()->json(['success' => 'Portfolio ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!' ]);
+
+   
+
+       
     }
 
 
     public function deletePortfolioForAdminApi(Request $request, $id)
     {
 
-        $deletedBlog = portfolio::where('id', $id)->delete();
+        $deletedBlog = portfolio::where('portfolio_no', $id)->delete();
 
         if ($deletedBlog) {
             $request->session()->flash('success', 'Portfolio Deleted Successfully');
@@ -157,7 +190,7 @@ class PortfolioController extends Controller
     {
 
 
-        $Blogs = portfolio::select()->where('id', $id)->get();
+        $Blogs = portfolio::select()->where('portfolio_no', $id)->get();
         return view('admin/pages/portfolio/editPortfolio')->with(compact('Blogs'));
     }
 
