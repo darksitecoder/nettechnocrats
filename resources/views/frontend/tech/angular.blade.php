@@ -46,6 +46,7 @@
             <h1 class="display-5 mb-4 text-white">Angularjs Development</h1>
             <p class="mb-4 text-white">Open-Source Solutions To Build Your Business Websites</p>
           </div>
+          @include('partial/proposal')
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
           <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
@@ -58,7 +59,6 @@
   </div>
   <div class="container-fluid about py-5">
     <div class="container py-5">
-
       <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
         <h2 class="display-5 mb-4">Angularjs Web Development Services</h2>
         <p class="mb-0">Our Angularjs developers are specialized in a wide array of industry verticals catering to all kinds of

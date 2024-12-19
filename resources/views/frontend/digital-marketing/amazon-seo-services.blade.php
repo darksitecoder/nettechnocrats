@@ -354,7 +354,7 @@
      </div>
     </div>
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-     <div class="seo__animation__gif">
+     <div class="seo__animation__gifs">
       <div class="rounded position-relative overflow-hidden">
        <img src="{{ asset('assets/web/Premium-Amazon-SEO-Services.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
