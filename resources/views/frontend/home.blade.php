@@ -515,6 +515,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             height: inherit;
             margin: 1rem 1rem;
             border-radius: 20px;
+            height: 500px;
         }
 
         .hide {
