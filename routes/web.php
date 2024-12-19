@@ -230,6 +230,13 @@ Route::view('/resources', 'frontend.tech.resources');
 Route::view('/retailer-wholeseller', 'frontend.tech.retailer-wholeseller');
 Route::view('/web-development', 'frontend.tech.web-development');
 Route::view('/location', 'frontend.tech.location');
+Route::view('/pwa', 'frontend.tech.pwa');
+Route::view('/customer_software_development', 'frontend.tech.customer_software_development');
+Route::view('/erp_software_development', 'frontend.tech.erp_software_development');
+Route::view('/crm_development', 'frontend.tech.crm_development');
+Route::view('/generative_ai', 'frontend.tech.generative_ai');
+Route::view('/google_vision', 'frontend.tech.google_vision');
+Route::view('/quality_analysis', 'frontend.tech.quality_analysis');
 
 
 // industries
