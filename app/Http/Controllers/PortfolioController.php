@@ -91,27 +91,36 @@ class PortfolioController extends Controller
 
     public function savePortfolioForAdminApi(Request $request)
     {
-        // dd($request->all());
+        // Get the status from the request
         $status = $request->input('status');
-
-        // Validate the incoming data
-        $validatedData = $request->validate([
-            'portfolio_no' => 'required|unique:portfolio', 
+    
+        // Base validation rules
+        $rules = [
+            'portfolio_no' => 'required|unique:portfolio',
             'category_1' => 'required',
             'category_2' => 'required',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
-            'heading' => 'required|string|max:255',
-            'company_name' => 'required|string',
-            'content' => 'required|string|max:100000',
             'status' => 'nullable|string|in:save,publish',
-            'inputs.*.POS' => 'required|numeric|min:1',
-            'inputs.*.Keywords' => 'required|string|max:255',
-            'inputs.*.RatingBefore' => 'required|numeric|min:0',
-            'inputs.*.RatingAfter' => 'required|numeric|min:0',
-        ]);
-
-   
-
+        ];
+    
+        // Add additional validation rules based on category_1
+        if ($request->category_1 == 'Digital_Marketing') {
+            $rules = array_merge($rules, [
+                'inputs.*.POS' => 'required|numeric|min:1',
+                'inputs.*.Keywords' => 'required|string|max:255',
+                'inputs.*.RatingBefore' => 'required|numeric|min:0',
+                'inputs.*.RatingAfter' => 'required|numeric|min:0',
+            ]);
+        } else {
+            $rules = array_merge($rules, [
+                'heading' => 'required|string|max:255',
+                'company_name' => 'required|string',
+                'content' => 'required|string|max:100000',
+            ]);
+        }
+    
+        // Validate the incoming data
+        $validatedData = $request->validate($rules);
 
         // Get the authenticated user
         $user = Auth::user();
@@ -143,10 +152,10 @@ class PortfolioController extends Controller
         // Set dynamic fields on the offer
         foreach ($dynamicFields as $dynamicField) {
             $portfolio = new portfolio();
-            $portfolio->portfolio_no = $validatedData['portfolio_no'];
-            $portfolio->heading = $validatedData['heading'];
-            $portfolio->content = $validatedData['content'];
-            $portfolio->company_name = $validatedData['company_name'];
+            $portfolio->portfolio_no = $request->portfolio_no;
+            $portfolio->heading = $request->heading;
+            $portfolio->content = $request->content;
+            $portfolio->company_name = $request->company_name;
             $portfolio->image = $imageRelativePath;
             $portfolio->status = $status;
             $portfolio->created_by = $user->id;
@@ -189,9 +198,13 @@ class PortfolioController extends Controller
     public function editPortfolioForAdmin(Request $request, $id,)
     {
 
-
         $Blogs = portfolio::select()->where('portfolio_no', $id)->get();
-        return view('admin/pages/portfolio/editPortfolio')->with(compact('Blogs'));
+        if (count($Blogs)) {
+            $newPortfolioNo = $id;
+            return view('admin/pages/portfolio/editPortfolio')->with(compact('Blogs', 'newPortfolioNo'));
+        }else {
+            echo 'Inccorect Pertfolio ID';
+        }
     }
 
 

@@ -13,22 +13,22 @@ return new class extends Migration
     {
         Schema::create('portfolio', function (Blueprint $table) {
             $table->id(); // Primary key
-            $table->string('portfolio_no', 255); // Heading
+            $table->string('portfolio_no', 255);
         
-            $table->text('heading'); // Heading
-            $table->text('company_name'); // Heading
-            $table->text('content'); // Content
+            $table->text('heading')->nullable();
+            $table->text('company_name')->nullable();
+            $table->text('content')->nullable();
             $table->string('image')->nullable(); // Image path
 
-            $table->text('POS')->nullable(); // Heading
-            $table->text('Keywords')->nullable(); // Heading
-            $table->text('RatingBefore')->nullable(); // Heading
-            $table->text('RatingAfter')->nullable(); // Heading
+            $table->text('POS')->nullable();
+            $table->text('Keywords')->nullable();
+            $table->text('RatingBefore')->nullable();
+            $table->text('RatingAfter')->nullable();
 
 
             $table->enum('status', ['save', 'publish'])->nullable(); // Status
-            $table->string('created_by', 255); // created_by
-            $table->timestamps(); // Created at & Updated at
+            $table->string('created_by', 255);
+            $table->timestamps();
         });
     }
 
