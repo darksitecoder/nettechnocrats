@@ -95,7 +95,7 @@
     <div class="row g-4">
 
       <div class="col-sm-6">
-        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{url('/contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
       </div>
 
     </div>
@@ -110,7 +110,7 @@
       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
         <div class="service-item">
           <div class="service-img">
-            <i class="fa-brands fa-laravel"></i>
+            <i class="fa-brands fa-wordpress-simple"></i>
           </div>
           <div class="rounded-bottom p-4">
             <a href="#" class="h4 d-inline-block mb-4">TEMPLATE INTEGRATION</a>
@@ -168,7 +168,7 @@
       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
         <div class="service-item">
           <div class="service-img">
-            <i class="fa-solid fa-link"></i>
+            <i class="fa-solid fa-code"></i>
           </div>
           <div class="rounded-bottom p-4">
             <a href="#" class="h4 d-inline-block mb-4">PSD TO WORDPRESS</a>
@@ -387,7 +387,7 @@
         <div class="text-center">
           <h3>Ready To Get Started?</h3>
           <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-          <a class="cta-btn" href="#">Contact Us</a>
+          <a class="cta-btn" href="{{url('/contact-us')}}">Contact Us</a>
         </div>
       </div>
     </div>
