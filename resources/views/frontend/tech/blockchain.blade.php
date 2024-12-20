@@ -183,6 +183,7 @@
           <img src="{{ asset('assets/web/blockchain-technology.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
         </div>
       </div>
+
       <div class="col-xl-6 wow fadeInLeft">
         <div>
           <!-- <h4 class="text-primary1">About Us</h4> -->

@@ -261,7 +261,7 @@
 
                <div class="col-lg-6">
                   <div class="main-blog-post ">
-                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('public/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="">
+                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="" style="height:330px; width:100%;">
                         <h2>{{ strlen($blogLTS[0]->heading) > 25 ? substr($blogLTS[0]->heading, 0, 25) . '...' : $blogLTS[0]->heading }}</h2>
                      </a>
                      <p>{!! strlen($blogLTS[0]->content) > 60 ? substr($blogLTS[0]->content, 0, 60) . '...' : $blogLTS[0]->content !!}</p>
@@ -279,18 +279,18 @@
                      <hr style="color: #5CE1D5; height:5px;" />
 
                      @foreach($blogLTS->skip('1') as $data)
-                        <div class="list">
-                           <a href="{{url('blogdetail/'.$data->id)}}">
-                              <div class="list__heading d-flex justify-content-between">
-                                 <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
-                              </div>
-                           </a>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                     <div class="list">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <div class="list__heading d-flex justify-content-between">
+                              <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
                            </div>
-                           <hr />
+                        </a>
+                        <div class="author__date d-flex justify-content-between">
+                           <b>Nettechnocrats </b>&nbsp;&nbsp;
+                           <p> {{ $data->created_at->format('d-m-Y') }} </p>
                         </div>
+                        <hr />
+                     </div>
                      @endforeach
                   </div>
                </div>
@@ -298,21 +298,21 @@
 
             <div class="row pt-4">
                @foreach($blogRAN as $data)
-                  <div class="col-lg-3">
-                     <div class="blog__list">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <div class="blog">
-                              <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="">
-                              <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
-                              <p>{!! strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content !!}</p>
-                              <div class="author__date d-flex justify-content-between">
-                                 <b>Nettechnocrats </b>&nbsp;&nbsp;
-                                 <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                              </div>
+               <div class="col-lg-12 d-flex">
+                  <div class="blog__list">
+                     <a href="{{url('blogdetail/'.$data->id)}}">
+                        <div class="blog">
+                           <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="" style="height: 200px; width:250px;">
+                           <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
+                           <p>{!! strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content !!}</p>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
                            </div>
-                        </a>
-                     </div>
+                        </div>
+                     </a>
                   </div>
+               </div>
                @endforeach
             </div>
 
@@ -328,14 +328,14 @@
                <!-- <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam ipsum neque molestiae eum! Recusandae.</p> -->
                <div class="row">
                   @foreach($blogTPC as $data)
-                     <div class="col-lg-4">
-                        <div class="pdf__card">
-                           <a href="{{url('blogdetail/'.$data->id)}}">
-                              <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="">
-                           </a>
-                           <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
-                        </div>
+                  <div class="col-lg-4">
+                     <div class="pdf__card">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="">
+                        </a>
+                        <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
                      </div>
+                  </div>
                   @endforeach
                </div>
             </section>
