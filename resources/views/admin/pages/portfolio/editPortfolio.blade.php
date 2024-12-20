@@ -247,6 +247,7 @@
             </div>
 
             <input type="text" name="portfolio_no" id="portfolio_no" value="{{$newPortfolioNo}}" />
+            <input type="hidden" name="page_type" value="update">
             <span class="text-danger" id="portfolio_no_err" style="font-size:13px;"></span>
 
 
@@ -293,7 +294,7 @@
                   <input type="file" id="image" name="image" accept="image/*" style="display: none;">
                   <div class="upload-container">
                     <label for="image" id="imageLabel">Upload Image</label>
-                    <img id="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
+                    <img id="uploadedImage" src="{{ asset( 'public/' . $Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
                   </div>
                 </div>
               </div>
@@ -306,7 +307,7 @@
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <!-- Display Heading Validation Error -->
               <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="heading" name="heading" class="blog__heading" value="" placeholder="Enter Heading Here...">
+                <input type="text" id="heading" name="heading" class="blog__heading" value="{{$Blogs[0]->heading}}" placeholder="Enter Heading Here...">
               </div>
               <span class="text-danger" id="heading_err" style="font-size:13px;"></span>
             </div>
@@ -314,7 +315,7 @@
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <!-- Display company_name Validation Error -->
               <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="company_name" name="company_name" class="blog__company_name" value="" placeholder="Enter Company Name">
+                <input type="text" id="company_name" name="company_name" class="blog__company_name" value="{{$Blogs[0]->company_name}}" placeholder="Enter Company Name">
               </div>
               <span class="text-danger" id="company_name_err" style="font-size:13px;"></span>
             </div>
@@ -323,7 +324,7 @@
             <div class="row pt-1 d-flex justify-content-center">
               <!-- Display Content Validation Error -->
               <div class="col-md-12 stretch-card grid-margin blog__content">
-                <textarea name="content" id="editor"></textarea>
+                <textarea name="content" id="editor">{{$Blogs[0]->content}}</textarea>
               </div>
               <span class="text-danger" id="content_err" style="font-size:13px;"></span>
             </div>
@@ -343,27 +344,29 @@
                   </thead>
                   <tbody>
                     <!-- Hidden Template Row -->
-                    <tr class="hidden" id="template-row">
-                      <td>
-                        <input type="number" min="1" class="lastPOS" name="inputs[0][POS]" value="1" placeholder="#" /><br>
-                        <span class="msg_err" id="POS_0_err" style="color: red; font-size: 13px;"></span>
-                      </td>
-                      <td>
-                        <input type="text" name="inputs[0][Keywords]" placeholder="Enter Keyword" />
-                        <br><span class="msg_err" id="Keywords_0_err" style="color: red; font-size: 13px;"></span>
-                      </td>
-                      <td>
-                        <input type="number" min="0" name="inputs[0][RatingBefore]" placeholder="Enter Rating Before" />
-                        <br><span class="msg_err" id="RatingBefore_0_err" style="color: red; font-size: 13px;"></span>
-                      </td>
-                      <td>
-                        <input type="number" min="0" name="inputs[0][RatingAfter]" placeholder="Enter Rating After" />
-                        <br><span class="msg_err" id="RatingAfter_0_err" style="color: red; font-size: 13px;"></span>
-                      </td>
-                      <td>
-                        <button type="button" class="remove-table-row">Delete &nbsp;<i class="fa-solid fa-trash-can"></i></button>
-                      </td>
-                    </tr>
+                    @foreach($Blogs as $index => $data)
+                      <tr class="hidden" id="template-row">
+                        <td>
+                          <input type="number" min="1" class="lastPOS" name="inputs[{{ $index }}][POS]" value="{{$data->POS}}" placeholder="#" /><br>
+                          <span class="msg_err" id="POS_0_err" style="color: red; font-size: 13px;"></span>
+                        </td>
+                        <td>
+                          <input type="text" name="inputs[{{ $index }}][Keywords]" value="{{$data->Keywords}}" placeholder="Enter Keyword" />
+                          <br><span class="msg_err" id="Keywords_0_err" style="color: red; font-size: 13px;"></span>
+                        </td>
+                        <td>
+                          <input type="number" min="0" name="inputs[{{ $index }}][RatingBefore]" value="{{$data->RatingBefore}}" placeholder="Enter Rating Before" />
+                          <br><span class="msg_err" id="RatingBefore_0_err" style="color: red; font-size: 13px;"></span>
+                        </td>
+                        <td>
+                          <input type="number" min="0" name="inputs[{{ $index }}][RatingAfter]" value="{{$data->RatingAfter}}" placeholder="Enter Rating After" />
+                          <br><span class="msg_err" id="RatingAfter_0_err" style="color: red; font-size: 13px;"></span>
+                        </td>
+                        <td>
+                          <button type="button" class="remove-table-row">Delete &nbsp;<i class="fa-solid fa-trash-can"></i></button>
+                        </td>
+                      </tr>
+                    @endforeach
                   </tbody>
                 </table>
               </div>
@@ -387,33 +390,76 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- jQuery Script -->
   <script>
+    // $(document).ready(function() {
+    //   // On change of category_1
+    //   $('#category_1').change(function() {
+    //     let selectedCategory = $(this).val();
+
+    //     // Reset category_2 dropdown
+    //     jQuery('.text-danger').empty();
+    //     $('#category_2').val('');
+    //     $('#category_2 option').hide(); // Hide all options first
+    //     $('#showTableTR').hide();
+
+    //     if (selectedCategory) {
+    //       // Show only the options that match the selected category_1
+    //       $('#category_2 option[data-parent="' + selectedCategory + '"]').show();
+    //     } else {
+    //       // Show default placeholder option if nothing is selected
+    //       $('#category_2 option[value=""]').show();
+    //     }
+
+    //     if (selectedCategory == 'Digital_Marketing') {
+    //       $('#showTableTR').show();
+    //     }
+    //   });
+
+    //   // Trigger change event on page load to hide irrelevant options
+    //   $('#category_1').trigger('change');
+    // });
+
     $(document).ready(function() {
-      // On change of category_1
-      $('#category_1').change(function() {
-        let selectedCategory = $(this).val();
+        // Pre-selected values
+        const selectedCategory1 = '{{ $Blogs[0]->category_1 ?? "" }}';
+        const selectedCategory2 = '{{ $Blogs[0]->category_2 ?? "" }}';
 
-        // Reset category_2 dropdown
-        jQuery('.text-danger').empty();
-        $('#category_2').val('');
-        $('#category_2 option').hide(); // Hide all options first
-        $('#showTableTR').hide();
-
-        if (selectedCategory) {
-          // Show only the options that match the selected category_1
-          $('#category_2 option[data-parent="' + selectedCategory + '"]').show();
-        } else {
-          // Show default placeholder option if nothing is selected
-          $('#category_2 option[value=""]').show();
-        }
-
-        if (selectedCategory == 'Digital_Marketing') {
+        if (selectedCategory1 == 'Digital_Marketing') {
           $('#showTableTR').show();
         }
-      });
 
-      // Trigger change event on page load to hide irrelevant options
-      $('#category_1').trigger('change');
-    });
+        // Initialize dropdowns on page load
+        function initializeDropdowns() {
+          if (selectedCategory1) {
+            $('#category_1').val(selectedCategory1).trigger('change');
+          }
+          if (selectedCategory2) {
+            $(`#category_2 option[value="${selectedCategory2}"]`).prop('selected', true);
+          }
+        }
+
+        // On change of category_1
+        $('#category_1').on('change', function() {
+          const selectedCategory = $(this).val();
+          $('#showTableTR').hide();
+
+          if (selectedCategory == 'Digital_Marketing') {
+            $('#showTableTR').show();
+          }
+
+          // Reset category_2
+          $('#category_2').val('');
+          $('#category_2 option').hide();
+          $('#category_2 option[value=""]').show(); // Show placeholder option
+
+          if (selectedCategory) {
+            // Show options that match the selected category_1
+            $(`#category_2 option[data-parent="${selectedCategory}"]`).show();
+          }
+        });
+
+        // Trigger initialization
+        initializeDropdowns();
+      });
   </script>
 
   <script>
@@ -543,78 +589,6 @@
         uploadedImage.style.display = 'none'; // Hide the image
         imageUploader.click(); // Trigger file input click
       });
-
-      // Video Uploader
-      const video = document.getElementById('video');
-      const uploadedVideo = document.getElementById('uploadedVideo');
-      const videoLabel = document.getElementById('videoLabel');
-      const videoUploader = document.querySelector('.video-uploader');
-
-      videoUploader.addEventListener('click', function() {
-        video.click();
-      });
-
-      video.addEventListener('change', function(event) {
-        const file = event.target.files[0];
-        if (file) {
-          const fileType = file.type;
-          const validVideoTypes = ['video/mp4', 'video/quicktime'];
-
-          if (validVideoTypes.includes(fileType)) {
-            const reader = new FileReader();
-            reader.onload = function(e) {
-              uploadedVideo.src = e.target.result;
-              uploadedVideo.style.display = 'block';
-              videoLabel.style.display = 'none';
-            };
-            reader.readAsDataURL(file);
-          } else {
-            alert('Please upload a valid video file (MP4 or MOV).');
-            video.value = ''; // Clear the input
-          }
-        }
-      });
-
-      uploadedVideo.addEventListener('click', function() {
-        video.value = ''; // Clear the input to allow re-upload
-        videoLabel.style.display = 'block'; // Show the label again
-        uploadedVideo.style.display = 'none'; // Hide the video
-        videoUploader.click(); // Trigger file input click
-      });
-
-      // PDF Uploader
-      const pdf = document.getElementById('pdf');
-      const pdfName = document.getElementById('pdfName');
-      const pdfLabel = document.getElementById('pdfLabel');
-      const pdfUploader = document.querySelector('.pdf-uploader');
-
-      pdfUploader.addEventListener('click', function() {
-        pdf.click();
-      });
-
-      pdf.addEventListener('change', function(event) {
-        const file = event.target.files[0];
-        if (file) {
-          const fileType = file.type;
-          const validFileType = 'application/pdf';
-
-          if (fileType === validFileType) {
-            pdfName.textContent = file.name;
-            pdfName.style.display = 'block';
-            pdfLabel.style.display = 'none';
-          } else {
-            alert('Please upload a valid PDF file.');
-            pdf.value = ''; // Clear the input
-          }
-        }
-      });
-
-      pdfName.addEventListener('click', function() {
-        pdf.value = ''; // Clear the input to allow re-upload
-        pdfLabel.style.display = 'block'; // Show the label again
-        pdfName.style.display = 'none'; // Hide the PDF name
-        pdfUploader.click(); // Trigger file input click
-      });
     });
   </script>
 
@@ -680,7 +654,6 @@
             // Show success alert
             $("#success_msg").html(response.success).show();
             $(".alert-danger").hide();
-            $('#portfolioForm')[0].reset();
           },
           error: function(response) {
             // Show error alert
