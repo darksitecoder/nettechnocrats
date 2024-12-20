@@ -88,24 +88,32 @@ class PortfolioController extends Controller
 
         return view('admin/pages/portfolio/portfoliodetail')->with(compact('portfolio'));
     }
-
     public function savePortfolioForAdminApi(Request $request)
     {
         // Get the status from the request
         $status = $request->input('status');
-    
+        
         // Base validation rules
         $rules = [
-            'portfolio_no' => 'required|unique:portfolio',
+            'portfolio_no' => 'required',
             'category_1' => 'required',
             'category_2' => 'required',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
             'status' => 'nullable|string|in:save,publish',
         ];
+
+
+        if ($request->page_type != 'update') {
+            $rules = array_merge($rules, [
+                'portfolio_no' => 'required|unique:portfolio,portfolio_no',
+                'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
+            ]);
+        }
     
         // Add additional validation rules based on category_1
         if ($request->category_1 == 'Digital_Marketing') {
             $rules = array_merge($rules, [
+                'inputs' => 'required|array',
                 'inputs.*.POS' => 'required|numeric|min:1',
                 'inputs.*.Keywords' => 'required|string|max:255',
                 'inputs.*.RatingBefore' => 'required|numeric|min:0',
@@ -121,63 +129,48 @@ class PortfolioController extends Controller
     
         // Validate the incoming data
         $validatedData = $request->validate($rules);
-
+    
         // Get the authenticated user
         $user = Auth::user();
-
-        // Initialize image path variable
-        $imagePath = null;
-
+    
+        // Check and delete existing portfolio if it exists
+        $existingPortfolio = portfolio::where('portfolio_no', $request->portfolio_no)->first();
+        if ($existingPortfolio) {
+            portfolio::where('portfolio_no', $request->portfolio_no)->delete();
+        }
+        $imagePath = $existingPortfolio?->image ?? null;
+    
         // Handle Image Upload
         if ($request->hasFile('image')) {
-            // Generate a unique name for the image
             $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
-
-            // Save the image to the 'public/backend/portfolio' directory
-            // $imagePath = $request->file('image')->storeAs('public/backend/portfolio', $imageName);
-
-            $imagePath = $request->file('image')->move(public_path('backend/portfolio'), $imageName);
-
-            // The 'storeAs' method returns the relative path, e.g., 'public/backend/portfolio/1733316243.png'
-            // Now we need to get the relative path without the "public" directory.
-            $imageRelativePath = 'backend/portfolio/' . $imageName;
+            $request->file('image')->move(public_path('backend/portfolio'), $imageName);
+            $imagePath = 'backend/portfolio/' . $imageName;
         }
-
-      
     
 
-
-        $dynamicFields = $request->input('inputs');
-
-        // Set dynamic fields on the offer
-        foreach ($dynamicFields as $dynamicField) {
-            $portfolio = new portfolio();
-            $portfolio->portfolio_no = $request->portfolio_no;
-            $portfolio->heading = $request->heading;
-            $portfolio->content = $request->content;
-            $portfolio->company_name = $request->company_name;
-            $portfolio->image = $imageRelativePath;
-            $portfolio->status = $status;
-            $portfolio->created_by = $user->id;
-
-           
-
-            $portfolio->POS = $dynamicField['POS'];
-            $portfolio->Keywords = $dynamicField['Keywords'];
-            $portfolio->RatingBefore = $dynamicField['RatingBefore'];
-            $portfolio->RatingAfter = $dynamicField['RatingAfter'];
-           
-            $portfolio->save();
+        foreach ($request->input('inputs') as $dynamicField) {
+            portfolio::create([
+                'portfolio_no' => $request->portfolio_no,
+                'category_1' => $request->category_1,
+                'category_2' => $request->category_2,
+                'image' => $imagePath,
+                'heading' => $request->heading,
+                'content' => $request->content,
+                'company_name' => $request->company_name,
+                'status' => $status,
+                'created_by' => $user->id,
+                'POS' => $dynamicField['POS'],
+                'Keywords' => $dynamicField['Keywords'],
+                'RatingBefore' => $dynamicField['RatingBefore'],
+                'RatingAfter' => $dynamicField['RatingAfter'],
+            ]);
         }
-
-
-        return response()->json(['success' => 'Portfolio ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!' ]);
-
-   
-
-       
-    }
-
+    
+        // Return success response
+        return response()->json([
+            'success' => 'Portfolio ' . ($status === 'publish' ? 'published' : 'saved') . ' successfully!',
+        ]);
+    }    
 
     public function deletePortfolioForAdminApi(Request $request, $id)
     {
@@ -198,7 +191,7 @@ class PortfolioController extends Controller
     public function editPortfolioForAdmin(Request $request, $id,)
     {
 
-        $Blogs = portfolio::select()->where('portfolio_no', $id)->get();
+        $Blogs = portfolio::select()->where('portfolio_no', $id)->orderby('POS', 'ASC')->get();
         if (count($Blogs)) {
             $newPortfolioNo = $id;
             return view('admin/pages/portfolio/editPortfolio')->with(compact('Blogs', 'newPortfolioNo'));

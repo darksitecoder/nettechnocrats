@@ -15,6 +15,9 @@ return new class extends Migration
             $table->id(); // Primary key
             $table->string('portfolio_no', 255);
         
+            $table->string('category_1');
+            $table->string('category_2');
+    
             $table->text('heading')->nullable();
             $table->text('company_name')->nullable();
             $table->text('content')->nullable();
