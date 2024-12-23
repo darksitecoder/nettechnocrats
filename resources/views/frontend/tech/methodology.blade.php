@@ -50,10 +50,11 @@
       <h1 class="display-5 mb-4 text-white">Multi-Disciplinary Project Development</h1>
       <p class="mb-4 text-white">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p>
      </div>
+     @include('partial/proposal')
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="">
+      <img src="{{ asset('assets/web/app-web-method.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
@@ -304,9 +305,9 @@
      </div>
     </div>
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-     <div class="seo__animation__gif">
+     <div class="seo__animation__gifs">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+       <img src="{{ asset('assets/web/app-mobile.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
       </div>
      </div>
