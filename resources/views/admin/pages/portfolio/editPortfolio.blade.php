@@ -232,89 +232,152 @@
 
       <main class="content">
         <div class="container-fluid p-0">
-          <form action="{{ url('/updatePortfolioForAdminApi') }}" method="POST" enctype="multipart/form-data">
+          <form id="portfolioForm" action="{{ url('/savePortfolioForAdminApi') }}" method="POST" enctype="multipart/form-data">
             @csrf
-
-
-            <!-- Flash Messages (Success or Error) -->
-            @if(session('success'))
-            <div class="alert alert-success alert-dismissible fade show" role="alert">
-              {{ session('success') }}
-              <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            @endif
-
-            @if(session('error'))
-            <div class="alert alert-danger alert-dismissible fade show" role="alert">
-              {{ session('error') }}
-              <button type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            @endif
+            <span class="text" id="success_msg" style="font-size:13px;"></span>
 
             <!-- Form Content -->
             <div class="d-flex justify-content-between mb-4 mt-4">
-              <h1 class="h3 mb-3"><strong>Edit Portfolio</strong></h1>
+              <h1 class="h3 mb-3"><strong>Add Portfolio</strong></h1>
 
               <div class="buttons">
-                <button class="mx-3 btn save" name="action" value="save" type="Submit">Save<i class="fa-solid fa-bookmark"></i></button>
-                <button class="btn published" name="action" value="publish" type="Submit">Published <i class="fa-solid fa-inbox"></i></button>
+                <input type="button" class="mx-3 btn save" name="status" value="save" />
+                <input type="button" class="btn published" name="status" value="publish" />
               </div>
             </div>
 
+            <input type="text" name="portfolio_no" id="portfolio_no" value="{{$newPortfolioNo}}" />
+            <input type="hidden" name="page_type" value="update">
+            <span class="text-danger" id="portfolio_no_err" style="font-size:13px;"></span>
+
+
+            <!-- category_1 Input Section -->
+            <div class="row pt-1 my-3 d-flex justify-content-center">
+              <div class="col-md-12 stretch-card grid-margin">
+                <select id="category_1" name="category_1">
+                  <option value="">-Select Category 1-</option>
+                  <option value="Digital_Marketing">Digital Marketing</option>
+                  <option value="Software_Development">Software Development</option>
+                </select>
+              </div>
+              <span class="text-danger" id="category_1_err" style="font-size:13px;"></span>
+            </div>
+
+            <!-- category_2 Input Section -->
+            <div class="row pt-1 my-3 d-flex justify-content-center">
+              <div class="col-md-12 stretch-card grid-margin">
+                <select id="category_2" name="category_2">
+                  <option value="">-Select Category 2-</option>
+                  <!-- Options for Digital Marketing -->
+                  <option data-parent="Digital_Marketing" value="SEO">SEO</option>
+                  <option data-parent="Digital_Marketing" value="SMO">SMO</option>
+                  <option data-parent="Digital_Marketing" value="PPC">PPC</option>
+                  <option data-parent="Digital_Marketing" value="ORM">ORM</option>
+                  <option data-parent="Digital_Marketing" value="AEO">AEO</option>
+                  <option data-parent="Digital_Marketing" value="Local SEO">Local SEO</option>
+                  <option data-parent="Digital_Marketing" value="SEO Reseller">SEO Reseller</option>
+
+                  <!-- Options for Software Development -->
+                  <option data-parent="Software_Development" value="Customer Software Development">Customer Software Development</option>
+                  <option data-parent="Software_Development" value="ERP Software Development">ERP Software Development</option>
+                  <option data-parent="Software_Development" value="CRM Development">CRM Development</option>
+                  <option data-parent="Software_Development" value="Salesforce Development">Salesforce Development</option>
+                  <option data-parent="Software_Development" value="Iot">Iot</option>
+                </select>
+              </div>
+              <span class="text-danger" id="category_2_err" style="font-size:13px;"></span>
+            </div>
             <!-- Image Upload Section -->
             <div class="row pt-3 d-flex justify-content-center">
-              <div class="col-md-6 stretch-card grid-margin d-flex flex-column">
+              <div class="col-md-12 stretch-card grid-margin d-flex flex-column">
                 <div class="image-uploader">
                   <input type="file" id="image" name="image" accept="image/*" style="display: none;">
                   <div class="upload-container">
-    <label for="image" id="imageLabel">Upload Image</label>
-    <img id="uploadedImage"
-         src="{{ asset( 'public/' . $Blogs[0]->image) }}"
-         alt="Uploaded Image"
-         style="display: block;">
-</div>
-    
-                </div>  
-                <!-- Display Image Validation Error -->
+                    <label for="image" id="imageLabel">Upload Image</label>
+                    <img id="uploadedImage" src="{{ asset( 'public/' . $Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
+                  </div>
+                </div>
               </div>
 
-             
-
-           
-
-            
-            <div class="" style="display:none">
-              <input name="blogId" value="{{$Blogs[0]->id}}"></input>
+              <span class="text-danger" id="image_err" style="font-size:13px;"></span>
             </div>
-
-            <div class="row pt-1 my-3 d-flex justify-content-center">
-              <!-- Display Heading Validation Error -->
-              <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="company_name" name="company_name" class="blog__heading" value="{{ $Blogs[0]->company_name }}" placeholder="Enter Heading Here...">
-              </div>
-            </div>
-
 
 
             <!-- Heading Input Section -->
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <!-- Display Heading Validation Error -->
               <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="heading" name="heading" class="blog__heading" value="{{ $Blogs[0]->heading }}" placeholder="Enter Heading Here...">
+                <input type="text" id="heading" name="heading" class="blog__heading" value="{{$Blogs[0]->heading}}" placeholder="Enter Heading Here...">
               </div>
+              <span class="text-danger" id="heading_err" style="font-size:13px;"></span>
+            </div>
+
+            <div class="row pt-1 my-3 d-flex justify-content-center">
+              <!-- Display company_name Validation Error -->
+              <div class="col-md-12 stretch-card grid-margin">
+                <input type="text" id="company_name" name="company_name" class="blog__company_name" value="{{$Blogs[0]->company_name}}" placeholder="Enter Company Name">
+              </div>
+              <span class="text-danger" id="company_name_err" style="font-size:13px;"></span>
             </div>
 
             <!-- Content Textarea Section -->
             <div class="row pt-1 d-flex justify-content-center">
               <!-- Display Content Validation Error -->
               <div class="col-md-12 stretch-card grid-margin blog__content">
-                <textarea name="content" id="editor" value="">{{ $Blogs[0]->content }}</textarea>
+                <textarea name="content" id="editor">{{$Blogs[0]->content}}</textarea>
               </div>
+              <span class="text-danger" id="content_err" style="font-size:13px;"></span>
+            </div>
+
+
+            <div id="showTableTR" style="display: none;">
+              <div class="table-responsive">
+                <table class="table" id="table" style="border: none;">
+                  <thead>
+                    <tr>
+                      <th>Sr. No.</th>
+                      <th>Keywords</th>
+                      <th>Rating Before</th>
+                      <th>Rating After</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Hidden Template Row -->
+                    @foreach($Blogs as $index => $data)
+                      <tr class="hidden" id="template-row">
+                        <td>
+                          <input type="number" min="1" class="lastPOS" name="inputs[{{ $index }}][POS]" value="{{$data->POS}}" placeholder="#" /><br>
+                          <span class="msg_err" id="POS_0_err" style="color: red; font-size: 13px;"></span>
+                        </td>
+                        <td>
+                          <input type="text" name="inputs[{{ $index }}][Keywords]" value="{{$data->Keywords}}" placeholder="Enter Keyword" />
+                          <br><span class="msg_err" id="Keywords_0_err" style="color: red; font-size: 13px;"></span>
+                        </td>
+                        <td>
+                          <input type="number" min="0" name="inputs[{{ $index }}][RatingBefore]" value="{{$data->RatingBefore}}" placeholder="Enter Rating Before" />
+                          <br><span class="msg_err" id="RatingBefore_0_err" style="color: red; font-size: 13px;"></span>
+                        </td>
+                        <td>
+                          <input type="number" min="0" name="inputs[{{ $index }}][RatingAfter]" value="{{$data->RatingAfter}}" placeholder="Enter Rating After" />
+                          <br><span class="msg_err" id="RatingAfter_0_err" style="color: red; font-size: 13px;"></span>
+                        </td>
+                        <td>
+                          <button type="button" class="remove-table-row">Delete &nbsp;<i class="fa-solid fa-trash-can"></i></button>
+                        </td>
+                      </tr>
+                    @endforeach
+                  </tbody>
+                </table>
+              </div>
+              <br>
+              <!-- Add Row Button -->
+              <button id="add" type="button" name="add" class="head__foot__btn" style="width: 50%;">
+                Add New&nbsp;<img src="{{ asset('assets/frontEnd/web/images/icons/add-circled-outline.svg') }}" alt="Add Icon" class="logo-img">
+              </button>
             </div>
 
           </form>
-
-
         </div>
       </main>
 
@@ -324,28 +387,176 @@
   </div>
 
   <script src="{{ asset('dashboard_theme/js/app.js') }}"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- jQuery Script -->
   <script>
-    const childElement = document.querySelector('.blog');
+    // $(document).ready(function() {
+    //   // On change of category_1
+    //   $('#category_1').change(function() {
+    //     let selectedCategory = $(this).val();
+
+    //     // Reset category_2 dropdown
+    //     jQuery('.text-danger').empty();
+    //     $('#category_2').val('');
+    //     $('#category_2 option').hide(); // Hide all options first
+    //     $('#showTableTR').hide();
+
+    //     if (selectedCategory) {
+    //       // Show only the options that match the selected category_1
+    //       $('#category_2 option[data-parent="' + selectedCategory + '"]').show();
+    //     } else {
+    //       // Show default placeholder option if nothing is selected
+    //       $('#category_2 option[value=""]').show();
+    //     }
+
+    //     if (selectedCategory == 'Digital_Marketing') {
+    //       $('#showTableTR').show();
+    //     }
+    //   });
+
+    //   // Trigger change event on page load to hide irrelevant options
+    //   $('#category_1').trigger('change');
+    // });
+
+    $(document).ready(function() {
+        // Pre-selected values
+        const selectedCategory1 = '{{ $Blogs[0]->category_1 ?? "" }}';
+        const selectedCategory2 = '{{ $Blogs[0]->category_2 ?? "" }}';
+
+        if (selectedCategory1 == 'Digital_Marketing') {
+          $('#showTableTR').show();
+        }
+
+        // Initialize dropdowns on page load
+        function initializeDropdowns() {
+          if (selectedCategory1) {
+            $('#category_1').val(selectedCategory1).trigger('change');
+          }
+          if (selectedCategory2) {
+            $(`#category_2 option[value="${selectedCategory2}"]`).prop('selected', true);
+          }
+        }
+
+        // On change of category_1
+        $('#category_1').on('change', function() {
+          const selectedCategory = $(this).val();
+          $('#showTableTR').hide();
+
+          if (selectedCategory == 'Digital_Marketing') {
+            $('#showTableTR').show();
+          }
+
+          // Reset category_2
+          $('#category_2').val('');
+          $('#category_2 option').hide();
+          $('#category_2 option[value=""]').show(); // Show placeholder option
+
+          if (selectedCategory) {
+            // Show options that match the selected category_1
+            $(`#category_2 option[data-parent="${selectedCategory}"]`).show();
+          }
+        });
+
+        // Trigger initialization
+        initializeDropdowns();
+      });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let rowCount = 0; // To track row index
+
+      // Add New Row
+      document.getElementById("add").addEventListener("click", function() {
+        rowCount++;
+        const tableBody = document.querySelector("#table tbody");
+        const templateRow = document.getElementById("template-row");
+
+        // Clone the hidden template row and make it visible
+        const newRow = templateRow.cloneNode(true);
+        newRow.classList.remove("hidden");
+
+        // Clear input values and update names, IDs, and values dynamically
+        clearAndUpdateRowAttributes(newRow, rowCount);
+
+        // Append the new row to the table
+        tableBody.appendChild(newRow);
+        resetNumbering(); // Reset numbering after adding
+      });
+
+      // Remove Row
+      document.addEventListener("click", function(event) {
+        if (event.target.classList.contains("remove-table-row")) {
+          // Confirm before deleting
+          if (confirm("Are you sure you want to delete this row?")) {
+            event.target.closest("tr").remove();
+            resetNumbering(); // Reset numbering after removal
+          }
+        }
+      });
+
+      // Function to clear and update row attributes dynamically
+      function clearAndUpdateRowAttributes(row, index) {
+        row.querySelectorAll("input, span, select").forEach((element) => {
+          if (element.tagName === "INPUT") {
+            element.value = ""; // Clear input fields
+          } else if (element.tagName === "SELECT") {
+            element.selectedIndex = 0; // Reset select to default value
+          } else if (element.tagName === "SPAN") {
+            element.textContent = ""; // Clear span content
+          }
+
+          if (element.hasAttribute("name")) {
+            let newName = element.getAttribute("name").replace(/\[\d+\]/, `[${index}]`);
+            element.setAttribute("name", newName);
+          }
+
+          if (element.hasAttribute("id")) {
+            let newId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
+            element.setAttribute("id", newId);
+          }
+
+          if (element.hasAttribute("onkeyup")) {
+            let newOnkeyup = element
+              .getAttribute("onkeyup")
+              .replace(/\('\d+'\)/, `('${index}')`);
+            element.setAttribute("onkeyup", newOnkeyup);
+          }
+
+          if (element.classList.contains("lastPOS")) {
+            element.value = index + 1; // Update Sr. No.
+          }
+        });
+      }
+
+      // Reset numbering function
+      function resetNumbering() {
+        document.querySelectorAll("#table tbody tr").forEach((row, index) => {
+          row.querySelector(".lastPOS").value = index + 1; // Update Sr. No.
+
+          row.querySelectorAll("input, span").forEach((element) => {
+            if (element.hasAttribute("name")) {
+              let updatedName = element
+                .getAttribute("name")
+                .replace(/\[\d+\]/, `[${index}]`);
+              element.setAttribute("name", updatedName);
+            }
+
+            if (element.hasAttribute("id")) {
+              let updatedId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
+              element.setAttribute("id", updatedId);
+            }
+          });
+        });
+      }
+    });
+  </script>
+
+  <script>
+    const childElement = document.querySelector('.portfolio');
     childElement.classList.add('active');
   </script>
 
-  <script>
-    function showSelectedFile() {
-      var fileInput = document.getElementById('pdf');
-      var fileName = fileInput.files[0] ? fileInput.files[0].name : ''; // Get the file name
-
-      var fileNameDisplay = document.getElementById('pdfName');
-
-      if (fileName) {
-        // Display the new file name when a file is selected
-        fileNameDisplay.textContent = 'Selected file: ' + fileName;
-        fileNameDisplay.style.display = 'block'; // Show the file name
-      } else {
-        // Hide file name if no file is selected
-        fileNameDisplay.style.display = 'none';
-      }
-    }
-  </script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -378,82 +589,9 @@
         uploadedImage.style.display = 'none'; // Hide the image
         imageUploader.click(); // Trigger file input click
       });
-
-      // Video Uploader
-      const video = document.getElementById('video');
-      const uploadedVideo = document.getElementById('uploadedVideo');
-      const videoLabel = document.getElementById('videoLabel');
-      const videoUploader = document.querySelector('.video-uploader');
-
-      videoUploader.addEventListener('click', function() {
-        video.click();
-      });
-
-      video.addEventListener('change', function(event) {
-        const file = event.target.files[0];
-        if (file) {
-          const fileType = file.type;
-          const validVideoTypes = ['video/mp4', 'video/quicktime'];
-
-          if (validVideoTypes.includes(fileType)) {
-            const reader = new FileReader();
-            reader.onload = function(e) {
-              uploadedVideo.src = e.target.result;
-              uploadedVideo.style.display = 'block';
-              videoLabel.style.display = 'none';
-            };
-            reader.readAsDataURL(file);
-          } else {
-            alert('Please upload a valid video file (MP4 or MOV).');
-            video.value = ''; // Clear the input
-          }
-        }
-      });
-
-      uploadedVideo.addEventListener('click', function() {
-        video.value = ''; // Clear the input to allow re-upload
-        videoLabel.style.display = 'block'; // Show the label again
-        uploadedVideo.style.display = 'none'; // Hide the video
-        videoUploader.click(); // Trigger file input click
-      });
-
-      // PDF Uploader
-      const pdf = document.getElementById('pdf');
-      const pdfName = document.getElementById('pdfName');
-      const pdfLabel = document.getElementById('pdfLabel');
-      const pdfUploader = document.querySelector('.pdf-uploader');
-
-      pdfUploader.addEventListener('click', function() {
-        pdf.click();
-      });
-
-      pdf.addEventListener('change', function(event) {
-        const file = event.target.files[0];
-        if (file) {
-          const fileType = file.type;
-          const validFileType = 'application/pdf';
-
-          if (fileType === validFileType) {
-            pdfName.textContent = file.name;
-            pdfName.style.display = 'block';
-            pdfLabel.style.display = 'none';
-          } else {
-            alert('Please upload a valid PDF file.');
-            pdf.value = ''; // Clear the input
-          }
-        }
-      });
-
-      pdfName.addEventListener('click', function() {
-        pdf.value = ''; // Clear the input to allow re-upload
-        pdfLabel.style.display = 'block'; // Show the label again
-        pdfName.style.display = 'none'; // Hide the PDF name
-        pdfUploader.click(); // Trigger file input click
-      });
     });
   </script>
 
-  
   <!-- CKEditor 5 CDN -->
   <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
 
@@ -473,6 +611,76 @@
       });
   </script>
 
+
+  <script>
+    $(document).ready(function() {
+      // Handle form submission for "Save"
+      $(".save, .published").on("click", function(e) {
+        // alert('hi');
+        jQuery('.text-danger').empty();
+        e.preventDefault(); // Prevent default form submission
+
+
+        // Detect the clicked button's status
+        let status = $(this).val();
+
+        // Serialize form data
+        let formData = new FormData($("#portfolioForm")[0]);
+        const content = editorInstance.getData();
+        // Add status manually for "Save"
+        formData.append("status", status); // Append status dynamically
+        formData.append('content', content);
+        console.log(formData);
+        // AJAX request
+        $.ajax({
+          url: "{{ url('/savePortfolioForAdminApi') }}", // Laravel route
+          type: "POST",
+          data: formData,
+          contentType: false,
+          processData: false,
+          headers: {
+            "X-CSRF-TOKEN": "{{ csrf_token() }}" // CSRF Token for Laravel
+          },
+          beforeSend: function() {
+            // Optional: Show a loader or disable buttons
+            if (status === 'save') {
+              message = 'Saving';
+            } else if (status === 'publish') {
+              message = 'Publishing';
+            }
+
+          },
+          success: function(response) {
+            // Show success alert
+            $("#success_msg").html(response.success).show();
+            $(".alert-danger").hide();
+          },
+          error: function(response) {
+            // Show error alert
+            let errors = response.responseJSON.errors || {};
+
+            $.each(errors, function(field, messages) {
+              // Append error messages to your HTML
+              $('#' + field + '_err').text(messages[0]);
+
+              // Extract the index and field name from the error key
+              var parts = field.split('.');
+              var index = parts[1];
+              var fieldName = parts[2];
+              // Construct the error span ID dynamically
+              var errorSpanId = '#' + fieldName + '_' + index + '_err';
+              // Set the error message
+              $(errorSpanId).text(fieldName + ' is required');
+              // $(errorSpanId).text(messages[0]);
+            });
+          },
+          complete: function() {
+            $(".save").attr("disabled", false); // Re-enable save button
+          }
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>

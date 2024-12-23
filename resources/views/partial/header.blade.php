@@ -1,6 +1,4 @@
-﻿
-
-<!-- header start -->
+﻿<!-- header start -->
 <header class="header">
   <div class="nav_container">
     <div class="row v-center">
@@ -219,13 +217,6 @@
     </div>
   </div>
 
-  <svg width="0" height="0">
-    <defs>
-      <filter id="corner-shadow" x="0" y="0">
-        <feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="black" flood-opacity="0.8" />
-      </filter>
-    </defs>
-  </svg>
 </header>
 <!-- header end -->
 

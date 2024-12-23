@@ -49,10 +49,48 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Amazon PPC</h1>
      </div>
+     <div id="contact" class="contact__section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+       <div class="row gy-4">
+
+
+
+        <div class="col-lg-12">
+         <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+
+           <div class="col-md-6">
+            <input type="text" name="name" id="name-field" class="form-control" placeholder="Your Name">
+           </div>
+
+           <div class="col-md-6">
+            <input type="email" class="form-control" name="email" id="email-field" placeholder="Your Email" required="">
+           </div>
+
+           <div class="col-md-6">
+            <input type="text" class="form-control" name="subject" id="subject-field" placeholder="Request For...." required="">
+           </div>
+
+           <div class="col-md-6 text-center">
+            <button type="submit">Send Me a Proposal <i class="fa-solid fa-arrow-right"></i>
+            </button>
+           </div>
+
+          </div>
+         </form>
+        </div><!-- End Contact Form -->
+
+       </div>
+
+      </div>
+
+     </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="">
+      <img src="{{ asset('assets/web/amazonppc.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
@@ -72,24 +110,28 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <p class="mb-4">Amazon PPC is a well-known advertising platform that helps sellers amplify online sales. It is a correct podium to explore your products sells online. With appropriate management of Amazon PPC, for sure you are going to rank high and get good advertising sells for your product.</p>
       <p class="mb-4">When the ad platform is created, managed and executed properly, it helps to increase the sales. For Amazon PPC options based on your strategy, it is most likely to choose campaigns that start out to collect data as Amazon will trigger your products for search terms. This lets you know which one converts the best.</p>
-      <p class="mb-4">Running Amazon Sponsored Products ads to compete and gain the optimum result can be extremely lucrative for your e-commerce business. However, competing on sales and website traffic with competitors is now easier with Nettechnocrats Amazon PPC. We have experience in performance driven Amazon PPC management whereby we create a unique blend between innovative technology and support system to help drive traffic on the website along with an increase in sales. Our focus is to optimize advertising and manage its services through a consultation.</p>
-      <div class="row g-4">
 
-       <div class="col-sm-6">
-        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Get In Touch</a>
-       </div>
 
-      </div>
      </div>
     </div>
+
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
+      <img src="{{ asset('assets/web/amazon__ppc.webp.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
      </div>
+    </div>
+
+   </div>
+   <p class="mb-4">Running Amazon Sponsored Products ads to compete and gain the optimum result can be extremely lucrative for your e-commerce business. However, competing on sales and website traffic with competitors is now easier with Nettechnocrats Amazon PPC. We have experience in performance driven Amazon PPC management whereby we create a unique blend between innovative technology and support system to help drive traffic on the website along with an increase in sales. Our focus is to optimize advertising and manage its services through a consultation.</p>
+   <div class="row g-4">
+
+    <div class="col-sm-6">
+     <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Get In Touch</a>
     </div>
    </div>
   </div>
+
  </div>
  <!-- About End -->
 
@@ -316,9 +358,9 @@
      </div>
     </div>
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-     <div class="seo__animation__gif">
+     <div class="seo__animation__gifs">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+       <img src="{{ asset('assets/web/amazon__ppc__lower.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
       </div>
      </div>
@@ -366,7 +408,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="#">Contact Us</a>
+      <a class="cta-btn" href="{{url('/contact-us')}}">Contact Us</a>
      </div>
     </div>
    </div>

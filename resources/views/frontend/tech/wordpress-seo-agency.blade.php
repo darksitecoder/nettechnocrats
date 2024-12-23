@@ -48,6 +48,7 @@
 </head>
 
 <body>
+
   @include('partial/header')
   <!-- Abvout Start -->
   <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
@@ -279,7 +280,7 @@
             <hr />
             <div class="col-md-12 col-lg-5 wow fadeInUp" data-wow-delay="0.2s">
               <div class="service-img">
-                <img src="{{ asset('assets/web/3728455.webp') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                <img src="{{ asset('assets/web/content-creation.webp') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
               </div>
             </div>
             <div class="col-md-12 col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
@@ -297,7 +298,7 @@
             <hr />
             <div class="col-md-12 col-lg-5 wow fadeInUp" data-wow-delay="0.2s">
               <div class="service-img">
-                <img src="{{ asset('assets/web/3728455.webp') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                <img src="{{ asset('assets/web/wordpress-plugin.webp') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
               </div>
             </div>
             <div class="col-md-12 col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
@@ -315,7 +316,7 @@
             <hr />
             <div class="col-md-12 col-lg-5 wow fadeInUp" data-wow-delay="0.2s">
               <div class="service-img">
-                <img src="{{ asset('assets/web/3728455.webp') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                <img src="{{ asset('assets/web/wordPress-security.webp') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
               </div>
             </div>
             <div class="col-md-12 col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
@@ -333,7 +334,7 @@
             <hr />
             <div class="col-md-12 col-lg-5 wow fadeInUp" data-wow-delay="0.2s">
               <div class="service-img">
-                <img src="{{ asset('assets/web/3728455.webp') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                <img src="{{ asset('assets/web/wordPress-website-migration.webp') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
               </div>
             </div>
             <div class="col-md-12 col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
@@ -378,7 +379,7 @@
         <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-              <i class="fa-solid fa-disease"></i>
+              <i class="fa-brands fa-soundcloud"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Site SEO Audit</a>
@@ -437,7 +438,7 @@
         <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-              <i class="fa-brands fa-bluetooth-b"></i>
+              <i class="fa-solid fa-fire-flame-curved"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Client Collaboration:</a>
@@ -485,8 +486,7 @@
         <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-arrows-split-up-and-left"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Agile SEO Team</a>
@@ -497,8 +497,7 @@
         <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-square-pen"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Transparent Updates</a>
@@ -521,8 +520,7 @@
         <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-memory"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Cutting-Edge Techniques</a>
@@ -676,8 +674,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-magnifying-glass-dollar"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Fund conversion or receipt</a>
@@ -688,8 +685,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-book-atlas"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">The Passbook e-wallet</a>
@@ -700,8 +696,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-piggy-bank"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Return capital to the bank</a>
@@ -712,8 +707,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-money-bill"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Payment or refill of the bill</a>
@@ -724,8 +718,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-regular fa-newspaper"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Insurance payment</a>
@@ -736,8 +729,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-tags"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Discount deals and discounts</a>
@@ -751,8 +743,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Rating and assessment</a>
@@ -766,8 +757,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-landmark-dome"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">History</a>
@@ -778,8 +768,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-spell-check"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Choosing the vocabulary of choice</a>
@@ -793,8 +782,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-business-time"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Round the clock Support </a>
@@ -807,8 +795,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-solid fa-asterisk"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">Refer</a>
@@ -822,8 +809,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="service-item">
             <div class="service-img">
-
-              <i class="fa-solid fa-person-circle-check"></i>
+              <i class="fa-brands fa-app-store"></i>
             </div>
             <div class="rounded-bottom p-4">
               <a href="#" class="h4 d-inline-block mb-4">App Setup</a>
@@ -965,9 +951,9 @@
           </div>
         </div>
         <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-          <div class="seo__animation__gif">
+          <div class="seo__animation__gifs">
             <div class="rounded-4 position-relative overflow-hidden">
-              <img src="{{ asset('assets/web/android-image.webp') }}" class="img-fluid w-100" alt="">
+              <img src="{{ asset('assets/web/wordpress-agencey-nettechnocrats.webp') }}" class="img-fluid w-100 image-with-shadow" alt="">
 
             </div>
           </div>

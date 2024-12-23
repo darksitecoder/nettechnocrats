@@ -46,10 +46,11 @@
       <h1 class="display-5 mb-4 text-white">Artificial Intelligence</h1>
       <p class="mb-4 text-white">Create quality apps with Artificial Intelligence to ensure your apps performs at a higher scale</p>
      </div>
+     @include('partial/proposal')
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="">
+      <img src="{{ asset('assets/web/ai-logo.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
@@ -71,12 +72,12 @@
       <p class="mb-4">Gone are the days when things are done manually, in today’s world that is full of technological advancement most of the work is taken over by software, machinery and various automated processes. In this regard, all the thanks go to Artificial intelligence, as most of the advancement made today is all due to this technology.</p>
       <p class="mb-4">We at Nettechnocrats are adamant to deliver best in performance to our valuable clients. We offer them automated solutions using AI-powered applications to drive growth and efficiency in their business processes and operations. Our distinguished panel of highly professional and certified professionals have expertise in an entire range of AI technologies like Machine learning, Image Processing speech reorganization, virtual assistance etc. The specifically designed solutions delivered by us to our client’s, are unique and catered according to their business goals.</p>
       <p class="mb-4">With our expertise and experience of working with various data visualization and analytics tools like Tableau, SAS, R, QlikView, QlikSense, IBM Cognos, Azure ML and more, is the main reason behind our popularity as leading Data Analytics Service Providers.</p>
-      <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+      <a href="{{url('/contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
      </div>
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
+      <img src="{{ asset('assets/web/robot.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
      </div>
     </div>
@@ -226,9 +227,9 @@
      </div>
     </div>
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-     <div class="seo__animation__gif">
+     <div class="seo__animation__gifs">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+       <img src="{{ asset('assets/web/artificial-inteligence.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
       </div>
      </div>
@@ -276,7 +277,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="#">Contact Us</a>
+      <a class="cta-btn" href="{{url('/contact-us')}}">Contact Us</a>
      </div>
     </div>
    </div>

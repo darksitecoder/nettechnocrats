@@ -100,5 +100,13 @@
   <!-- <div class="col-lg-12">
    <p class="text-center">Copyright © 2024 Nettechnocrats IT Services Pvt. Ltd</p>
   </div> -->
+
+  <svg width="0" height="0">
+   <defs>
+    <filter id="corner-shadow" x="0" y="0">
+     <feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="black" flood-opacity="0.8" />
+    </filter>
+   </defs>
+  </svg>
  </div>
 </footer>

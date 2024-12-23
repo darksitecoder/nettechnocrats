@@ -230,8 +230,6 @@
 
       @include('admin/partials/header')
 
-
-
       <main class="content">
         <div class="container-fluid p-0">
           <form id="portfolioForm" action="{{ url('/savePortfolioForAdminApi') }}" method="POST" enctype="multipart/form-data">
@@ -243,12 +241,12 @@
               <h1 class="h3 mb-3"><strong>Add Portfolio</strong></h1>
 
               <div class="buttons">
-              <input type="button" class="mx-3 btn save" name="status" value="save" />
-              <input type="button" class="btn published" name="status" value="publish" />
+                <input type="button" class="mx-3 btn save" name="status" value="save" />
+                <input type="button" class="btn published" name="status" value="publish" />
               </div>
             </div>
 
-            <input type="text" name= "portfolio_no" id="portfolio_no" value="{{$newPortfolioNo}}" />
+            <input type="text" name="portfolio_no" id="portfolio_no" value="{{$newPortfolioNo}}" />
             <span class="text-danger" id="portfolio_no_err" style="font-size:13px;"></span>
 
 
@@ -300,7 +298,7 @@
                 </div>
               </div>
 
-              <span class="text-danger" style="font-size:13px;"></span>
+              <span class="text-danger" id="image_err" style="font-size:13px;"></span>
             </div>
 
 
@@ -331,7 +329,7 @@
             </div>
 
 
-            <div id="showTableTR">
+            <div id="showTableTR" style="display: none;">
               <div class="table-responsive">
                 <table class="table" id="table" style="border: none;">
                   <thead>
@@ -347,7 +345,7 @@
                     <!-- Hidden Template Row -->
                     <tr class="hidden" id="template-row">
                       <td>
-                        <input type="text" class="lastPOS" name="inputs[0][POS]" value="1" placeholder="#" /><br>
+                        <input type="number" min="1" class="lastPOS" name="inputs[0][POS]" value="1" placeholder="#" /><br>
                         <span class="msg_err" id="POS_0_err" style="color: red; font-size: 13px;"></span>
                       </td>
                       <td>
@@ -355,11 +353,11 @@
                         <br><span class="msg_err" id="Keywords_0_err" style="color: red; font-size: 13px;"></span>
                       </td>
                       <td>
-                        <input type="text" name="inputs[0][RatingBefore]" placeholder="Enter Rating Before" />
+                        <input type="number" min="0" name="inputs[0][RatingBefore]" placeholder="Enter Rating Before" />
                         <br><span class="msg_err" id="RatingBefore_0_err" style="color: red; font-size: 13px;"></span>
                       </td>
                       <td>
-                        <input type="text" name="inputs[0][RatingAfter]" placeholder="Enter Rating After" />
+                        <input type="number" min="0" name="inputs[0][RatingAfter]" placeholder="Enter Rating After" />
                         <br><span class="msg_err" id="RatingAfter_0_err" style="color: red; font-size: 13px;"></span>
                       </td>
                       <td>
@@ -395,8 +393,10 @@
         let selectedCategory = $(this).val();
 
         // Reset category_2 dropdown
+        jQuery('.text-danger').empty();
         $('#category_2').val('');
         $('#category_2 option').hide(); // Hide all options first
+        $('#showTableTR').hide();
 
         if (selectedCategory) {
           // Show only the options that match the selected category_1
@@ -405,6 +405,10 @@
           // Show default placeholder option if nothing is selected
           $('#category_2 option[value=""]').show();
         }
+
+        if (selectedCategory == 'Digital_Marketing') {
+          $('#showTableTR').show();
+        }
       });
 
       // Trigger change event on page load to hide irrelevant options
@@ -412,87 +416,85 @@
     });
   </script>
 
-
-
   <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    let rowCount = 0; // To track row index
+    document.addEventListener("DOMContentLoaded", function() {
+      let rowCount = 0; // To track row index
 
-    // Add New Row
-    document.getElementById("add").addEventListener("click", function() {
-      rowCount++;
-      const tableBody = document.querySelector("#table tbody");
-      const templateRow = document.getElementById("template-row");
+      // Add New Row
+      document.getElementById("add").addEventListener("click", function() {
+        rowCount++;
+        const tableBody = document.querySelector("#table tbody");
+        const templateRow = document.getElementById("template-row");
 
-      // Clone the hidden template row and make it visible
-      const newRow = templateRow.cloneNode(true);
-      newRow.classList.remove("hidden");
+        // Clone the hidden template row and make it visible
+        const newRow = templateRow.cloneNode(true);
+        newRow.classList.remove("hidden");
 
-      // Clear input values and update names, IDs, and values dynamically
-      clearAndUpdateRowAttributes(newRow, rowCount);
+        // Clear input values and update names, IDs, and values dynamically
+        clearAndUpdateRowAttributes(newRow, rowCount);
 
-      // Append the new row to the table
-      tableBody.appendChild(newRow);
-      resetNumbering(); // Reset numbering after adding
-    });
+        // Append the new row to the table
+        tableBody.appendChild(newRow);
+        resetNumbering(); // Reset numbering after adding
+      });
 
-    // Remove Row
-    document.addEventListener("click", function(event) {
-      if (event.target.classList.contains("remove-table-row")) {
-        // Confirm before deleting
-        if (confirm("Are you sure you want to delete this row?")) {
-          event.target.closest("tr").remove();
-          resetNumbering(); // Reset numbering after removal
-        }
-      }
-    });
-
-    // Function to clear and update row attributes dynamically
-    function clearAndUpdateRowAttributes(row, index) {
-      row.querySelectorAll("input, span, select").forEach((element) => {
-        if (element.tagName === "INPUT") {
-          element.value = ""; // Clear input fields
-        } else if (element.tagName === "SELECT") {
-          element.selectedIndex = 0; // Reset select to default value
-        } else if (element.tagName === "SPAN") {
-          element.textContent = ""; // Clear span content
-        }
-
-        if (element.hasAttribute("name")) {
-          let newName = element.getAttribute("name").replace(/\[\d+\]/, `[${index}]`);
-          element.setAttribute("name", newName);
-        }
-
-        if (element.hasAttribute("id")) {
-          let newId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
-          element.setAttribute("id", newId);
-        }
-
-        if (element.hasAttribute("onkeyup")) {
-          let newOnkeyup = element
-            .getAttribute("onkeyup")
-            .replace(/\('\d+'\)/, `('${index}')`);
-          element.setAttribute("onkeyup", newOnkeyup);
-        }
-
-        if (element.classList.contains("lastPOS")) {
-          element.value = index + 1; // Update Sr. No.
+      // Remove Row
+      document.addEventListener("click", function(event) {
+        if (event.target.classList.contains("remove-table-row")) {
+          // Confirm before deleting
+          if (confirm("Are you sure you want to delete this row?")) {
+            event.target.closest("tr").remove();
+            resetNumbering(); // Reset numbering after removal
+          }
         }
       });
-    }
 
-    // Reset numbering function
-    function resetNumbering() {
-      document.querySelectorAll("#table tbody tr").forEach((row, index) => {
-        row.querySelector(".lastPOS").value = index + 1; // Update Sr. No.
-
-        row.querySelectorAll("input, span").forEach((element) => {
-          if (element.hasAttribute("name")) {
-            let updatedName = element
-              .getAttribute("name")
-              .replace(/\[\d+\]/, `[${index}]`);
-            element.setAttribute("name", updatedName);
+      // Function to clear and update row attributes dynamically
+      function clearAndUpdateRowAttributes(row, index) {
+        row.querySelectorAll("input, span, select").forEach((element) => {
+          if (element.tagName === "INPUT") {
+            element.value = ""; // Clear input fields
+          } else if (element.tagName === "SELECT") {
+            element.selectedIndex = 0; // Reset select to default value
+          } else if (element.tagName === "SPAN") {
+            element.textContent = ""; // Clear span content
           }
+
+          if (element.hasAttribute("name")) {
+            let newName = element.getAttribute("name").replace(/\[\d+\]/, `[${index}]`);
+            element.setAttribute("name", newName);
+          }
+
+          if (element.hasAttribute("id")) {
+            let newId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
+            element.setAttribute("id", newId);
+          }
+
+          if (element.hasAttribute("onkeyup")) {
+            let newOnkeyup = element
+              .getAttribute("onkeyup")
+              .replace(/\('\d+'\)/, `('${index}')`);
+            element.setAttribute("onkeyup", newOnkeyup);
+          }
+
+          if (element.classList.contains("lastPOS")) {
+            element.value = index + 1; // Update Sr. No.
+          }
+        });
+      }
+
+      // Reset numbering function
+      function resetNumbering() {
+        document.querySelectorAll("#table tbody tr").forEach((row, index) => {
+          row.querySelector(".lastPOS").value = index + 1; // Update Sr. No.
+
+          row.querySelectorAll("input, span").forEach((element) => {
+            if (element.hasAttribute("name")) {
+              let updatedName = element
+                .getAttribute("name")
+                .replace(/\[\d+\]/, `[${index}]`);
+              element.setAttribute("name", updatedName);
+            }
 
             if (element.hasAttribute("id")) {
               let updatedId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
@@ -541,78 +543,6 @@
         uploadedImage.style.display = 'none'; // Hide the image
         imageUploader.click(); // Trigger file input click
       });
-
-      // Video Uploader
-      const video = document.getElementById('video');
-      const uploadedVideo = document.getElementById('uploadedVideo');
-      const videoLabel = document.getElementById('videoLabel');
-      const videoUploader = document.querySelector('.video-uploader');
-
-      videoUploader.addEventListener('click', function() {
-        video.click();
-      });
-
-      video.addEventListener('change', function(event) {
-        const file = event.target.files[0];
-        if (file) {
-          const fileType = file.type;
-          const validVideoTypes = ['video/mp4', 'video/quicktime'];
-
-          if (validVideoTypes.includes(fileType)) {
-            const reader = new FileReader();
-            reader.onload = function(e) {
-              uploadedVideo.src = e.target.result;
-              uploadedVideo.style.display = 'block';
-              videoLabel.style.display = 'none';
-            };
-            reader.readAsDataURL(file);
-          } else {
-            alert('Please upload a valid video file (MP4 or MOV).');
-            video.value = ''; // Clear the input
-          }
-        }
-      });
-
-      uploadedVideo.addEventListener('click', function() {
-        video.value = ''; // Clear the input to allow re-upload
-        videoLabel.style.display = 'block'; // Show the label again
-        uploadedVideo.style.display = 'none'; // Hide the video
-        videoUploader.click(); // Trigger file input click
-      });
-
-      // PDF Uploader
-      const pdf = document.getElementById('pdf');
-      const pdfName = document.getElementById('pdfName');
-      const pdfLabel = document.getElementById('pdfLabel');
-      const pdfUploader = document.querySelector('.pdf-uploader');
-
-      pdfUploader.addEventListener('click', function() {
-        pdf.click();
-      });
-
-      pdf.addEventListener('change', function(event) {
-        const file = event.target.files[0];
-        if (file) {
-          const fileType = file.type;
-          const validFileType = 'application/pdf';
-
-          if (fileType === validFileType) {
-            pdfName.textContent = file.name;
-            pdfName.style.display = 'block';
-            pdfLabel.style.display = 'none';
-          } else {
-            alert('Please upload a valid PDF file.');
-            pdf.value = ''; // Clear the input
-          }
-        }
-      });
-
-      pdfName.addEventListener('click', function() {
-        pdf.value = ''; // Clear the input to allow re-upload
-        pdfLabel.style.display = 'block'; // Show the label again
-        pdfName.style.display = 'none'; // Hide the PDF name
-        pdfUploader.click(); // Trigger file input click
-      });
     });
   </script>
 
@@ -645,16 +575,16 @@
         e.preventDefault(); // Prevent default form submission
 
 
-             // Detect the clicked button's status
-      let status = $(this).val();
+        // Detect the clicked button's status
+        let status = $(this).val();
 
         // Serialize form data
         let formData = new FormData($("#portfolioForm")[0]);
         const content = editorInstance.getData();
-     // Add status manually for "Save"
-     formData.append("status", status); // Append status dynamically
+        // Add status manually for "Save"
+        formData.append("status", status); // Append status dynamically
         formData.append('content', content);
-console.log(formData);
+        console.log(formData);
         // AJAX request
         $.ajax({
           url: "{{ url('/savePortfolioForAdminApi') }}", // Laravel route
@@ -672,13 +602,13 @@ console.log(formData);
             } else if (status === 'publish') {
               message = 'Publishing';
             }
-          
+
           },
           success: function(response) {
             // Show success alert
             $("#success_msg").html(response.success).show();
             $(".alert-danger").hide();
-                      $('#portfolioForm')[0].reset();
+            $('#portfolioForm')[0].reset();
           },
           error: function(response) {
             // Show error alert
@@ -706,8 +636,6 @@ console.log(formData);
       });
     });
   </script>
-
-
 </body>
 
 </html>

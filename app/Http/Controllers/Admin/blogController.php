@@ -74,7 +74,7 @@ class blogController extends Controller
 
     public function AddBlogsForAdmin(Request $request,)
     {
-        $topics = BlogTopic::select('topic','id')->get();
+        $topics = BlogTopic::select('topic', 'id')->get();
         return view('admin/pages/blogs/addBlogs')->with(compact('topics'));
     }
 
@@ -118,7 +118,7 @@ class blogController extends Controller
     public function deleteBlogsForAdminApi(Request $request, $id)
     {
 
-       
+
 
         $deletedBlog = Blog::where('id', $id)->delete();
 
@@ -127,7 +127,7 @@ class blogController extends Controller
         } else {
             $request->session()->flash('error', 'Blog Not Deleted');
         }
-    
+
         // Return response (redirect to the same page)
         return redirect()->to('listBlogsForAdmin');
     }
@@ -148,20 +148,20 @@ class blogController extends Controller
             'pdf' => 'nullable|mimes:pdf',
             'status' => 'nullable|string|in:save,publish',
         ]);
-        
+
         // dd($request->all());
         $user = Auth::user(); // Get the authenticated user
-        
+
         // dd($user);
         // Initialize file paths
         $imagePath = null;
         $videoPath = null;
         $pdfPath = null;
 
-        
-        
-        
-        
+
+
+
+
         // Handle Image Upload
         if ($request->hasFile('image')) {
             // Generate a unique name for the image
@@ -169,20 +169,20 @@ class blogController extends Controller
             $imagePath = $request->file('image')->move(public_path('backend/blog/images'), $imageName);
             $imagePath = 'backend/blog/images/' . $imageName;
         }
-        
+
         // Handle Video Upload
         if ($request->hasFile('video')) {
             $videoPath = $request->file('video')->store('blogs/videos', 'public');
         }
-        
+
         // Handle PDF Upload
         if ($request->hasFile('pdf')) {
             $pdfPath = $request->file('pdf')->store('blogs/pdfs', 'public');
         }
-        
+
         // // Determine the status
         // $status = $validatedData['status'] ?? 'save'; // Default to 'save' if not provided
-        
+
         // Create the blog entry
         $blog = Blog::create([
             'topic' => $validatedData['topic'],
@@ -191,22 +191,22 @@ class blogController extends Controller
             'image' => $imagePath,
             'video' => $videoPath,
             'pdf' => $pdfPath,
-            'status' => $status, 
+            'status' => $status,
             'created_by' => $user->id
         ]);
-    
+
         // Store success message in session
         session()->flash('success', 'Blog ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
 
         // Optionally, return the blog ID or any other data if needed
         return redirect()->route('AddBlogsForAdmin'); // Redirect to the blogs index page or your desired page
     }
-    
 
 
-    public function editBlogsForAdmin(Request $request, $id, )
+
+    public function editBlogsForAdmin(Request $request, $id,)
     {
-        $topics = BlogTopic::select('topic','id')->get();
+        $topics = BlogTopic::select('topic', 'id')->get();
         // dd($topic);
 
         $Blogs = Blog::select()->where('id', $id)->get();
@@ -249,7 +249,7 @@ class blogController extends Controller
     {
 
         $status = $request->input('action');
-        
+
         // Validate the incoming data
         $validatedData = $request->validate([
             'blogId' => 'required',
@@ -312,7 +312,7 @@ class blogController extends Controller
             'status' => $validatedData['action'] ?? 'save', // Default to 'save' if not provided
         ]);
 
-       
+
         // Store success message in session
         session()->flash('success', 'Blog ' . ($status == 'publish' ? 'published' : 'saved') . ' successfully!');
 
@@ -321,31 +321,31 @@ class blogController extends Controller
     }
 
 
-        // For showing in front end with compact
-        function listBlogsFrontEnd(Request $request)
-        {
+    // For showing in front end with compact
+    function listBlogsFrontEnd(Request $request)
+    {
 
-            $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
-            $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
-            $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->distinct('topic')->take(5)->get();
-    
-            // dd($blogLTS, $blogRAN, $blogTPC);
-            return view('frontend.bloglist', compact('blogLTS', 'blogRAN', 'blogTPC'));
-        }
+        $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
+        $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
+        $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->take(5)->get()->unique('topic');
+
+        // dd($blogLTS, $blogRAN, $blogTPC);
+        return view('frontend.bloglist', compact('blogLTS', 'blogRAN', 'blogTPC'));
+    }
 
 
-        // For showing in front end with compact
-        function blogDetailFrontEnd(Request $request, $id)
-        {
+    // For showing in front end with compact
+    function blogDetailFrontEnd(Request $request, $id)
+    {
 
-            $blogFND = Blog::where('status', 'publish')->whereNotNull('image')->where('id', $id)->first();
-            $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
-            $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
-            $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->distinct('topic')->take(3)->get();
-    
-            // dd($blogFND, $blogLTS, $blogRAN, $blogTPC);
-            return view('frontend.blogdetail', compact('blogFND', 'blogLTS', 'blogRAN', 'blogTPC'));
-        }
+        $blogFND = Blog::where('status', 'publish')->whereNotNull('image')->where('id', $id)->first();
+        $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
+        $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
+        $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->take(5)->get()->unique('topic');
+
+        // dd($blogFND, $blogLTS, $blogRAN, $blogTPC);
+        return view('frontend.blogdetail', compact('blogFND', 'blogLTS', 'blogRAN', 'blogTPC'));
+    }
 
 
     // For showing in front end with API
