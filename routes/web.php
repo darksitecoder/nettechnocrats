@@ -95,6 +95,7 @@ Route::get('/tour-travel-app-development', [IndustriesController::class, 'travel
 
 
 Route::get('/portfolio', [PortfolioController::class, 'index']);
+Route::get('/portfolio_seo', [PortfolioController::class, 'portfolio_seo']);
 Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
 
 
@@ -108,7 +109,7 @@ Route::get('/healthcare-seo-services', [DigitalMarketingController::class, 'heal
 Route::get('/limo-seo-services', [DigitalMarketingController::class, 'limoseo']);
 Route::get('/law-firm-seo', [DigitalMarketingController::class, 'lawseo']);
 Route::get('/e-commerce-seo-services', [DigitalMarketingController::class, 'ecommerce']);
-Route::get('/banking-and-finance-app-development', [DigitalMarketingController::class, 'banking']);
+// Route::get('/banking-and-finance-app-development', [DigitalMarketingController::class, 'banking']);
 
 
 
