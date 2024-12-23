@@ -108,7 +108,7 @@ Route::get('/healthcare-seo-services', [DigitalMarketingController::class, 'heal
 Route::get('/limo-seo-services', [DigitalMarketingController::class, 'limoseo']);
 Route::get('/law-firm-seo', [DigitalMarketingController::class, 'lawseo']);
 Route::get('/e-commerce-seo-services', [DigitalMarketingController::class, 'ecommerce']);
-Route::get('/banking-and-finance-app-development', [DigitalMarketingController::class, 'banking']);
+// Route::get('/banking-and-finance-app-development', [DigitalMarketingController::class, 'banking']);
 
 
 
