@@ -95,7 +95,9 @@ Route::get('/tour-travel-app-development', [IndustriesController::class, 'travel
 
 
 Route::get('/portfolio', [PortfolioController::class, 'index']);
-Route::get('/portfolio_seo', [PortfolioController::class, 'portfolio_seo']);
+Route::get('/portfolio_seo_list', [PortfolioController::class, 'portfolio_seo']);
+Route::get('/portfolio_seo_detail', [PortfolioController::class, 'portfolio_seo_detail']);
+
 Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
 
 

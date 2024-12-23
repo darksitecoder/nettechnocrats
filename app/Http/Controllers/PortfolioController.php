@@ -33,6 +33,16 @@ class PortfolioController extends Controller
     }
 
 
+    public function portfolio_seo_detail()
+    {
+        // $portfolio = portfolio::where('status', 'publish')
+        //     ->orderBy('created_at', 'desc')
+        //     ->paginate(10); 
+
+        return view('frontend/portfolio/portfolio_seo_detail');
+    }
+
+
     public function PortfolioForAdmin(Request $request)
     {
         // Check if the user is authenticated
