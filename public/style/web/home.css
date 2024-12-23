@@ -210,7 +210,7 @@ p {
 }
 
 .header .menu>ul>li .sub-menu.mega-menu-column-2 {
-  max-width: 600px;
+  max-width: 500px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;

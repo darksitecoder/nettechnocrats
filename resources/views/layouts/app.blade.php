@@ -245,7 +245,7 @@
                                     <div class="list-item">
                                         <h4 class="title fw-bold ps-4">Marketing</h4>
                                         <ul>
-                                            <li><a href="{{url('/seo-services/')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
+                                            <li><a href="{{url('#')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
 
                                         </ul>
                                     </div>
@@ -254,7 +254,7 @@
                                         <ul>
                                             <li><a href="{{url('#')}}" data-image="">Software Development</a></li>
                                             <li><a href="{{url('#')}}" data-image="">Web Development</a></li>
-                                            <li><a href="{{url('/microsoft-dynamic-crm')}}" data-image="">App Development</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">App Development</a></li>
 
                                         </ul>
                                     </div>
