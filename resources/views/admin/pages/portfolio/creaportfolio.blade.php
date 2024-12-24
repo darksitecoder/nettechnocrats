@@ -507,7 +507,7 @@
   </script>
 
   <script>
-    const childElement = document.querySelector('.portfolio');
+    const childElement = document.querySelector('.devlopment-portfolio');
     childElement.classList.add('active');
   </script>
 
