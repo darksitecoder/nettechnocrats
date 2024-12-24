@@ -18,6 +18,7 @@ class PortfolioController extends Controller
         $portfolio = portfolio::where('status', 'publish')
             ->orderBy('created_at', 'desc')
             ->paginate(10);  // Paginate results, showing 10 per page
+            // dd($portfolio);
 
         return view('frontend/portfolio/index')->with(compact('portfolio'));
     }
