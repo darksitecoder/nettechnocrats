@@ -109,8 +109,40 @@ class PortfolioController extends Controller
 
     public function createportfolio_seo()
     {
+         // Find the row with the largest Angebots_Nr
+         $lastOffer = portfolio::select('portfolio_no')
+         ->get()
+         ->map(function ($item) {
+             // Extract the numeric part from Angebots_Nr
+             return (int) Str::after($item->portfolio_no, 'PF-');
+         })
+         ->max();
+     // dd($portfolio);
+
+     if ($lastOffer) {
+         $lastOffer = 'PF-' . $lastOffer;
+         // $lastOffer = $lastOffer->Angebots_Nr;
+         // Assuming $lastOffer is 'AN-12345'
+         // $lastOffer = 'AN-12345';
+
+         // Split the string into an array based on the dash
+         $parts = explode('-', $lastOffer);
+         $parts = $parts[1];
+
+         // Increment the numeric part
+         $newNumericPart = $parts + 1;
+
+         // Create the new offerNo
+         $newPortfolioNo = 'PF-' . $newNumericPart;
+
+         // $newOfferNo will be 'AN-12346'
+     } else {
+         $newPortfolioNo = 'PF-1234';
+     }
+
+     return view('admin/pages/portfolio/creaportfolio_seo')->with(compact('newPortfolioNo'));
        
-        return view('admin/pages/portfolio/creaportfolio_seo');
+      
     }
 
 
