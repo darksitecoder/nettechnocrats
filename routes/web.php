@@ -183,6 +183,8 @@ Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
 Route::post('savePortfolioForAdminApi', [PortfolioController::class, 'savePortfolioForAdminApi'])->name('savePortfolioForAdminApi');
 Route::get('PortfolioForAdmin', [PortfolioController::class, 'PortfolioForAdmin']);
 Route::get('/createportfolio', [PortfolioController::class, 'createportfolio']);
+Route::get('/createportfolio_seo', [PortfolioController::class, 'createportfolio_seo']);
+
 Route::get('editPortfolioForAdmin/{id}', [PortfolioController::class, 'editPortfolioForAdmin']);
 Route::get('/createportfolio', [PortfolioController::class, 'createportfolio'])->name('createportfolio');
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);

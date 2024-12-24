@@ -106,6 +106,14 @@ class PortfolioController extends Controller
 
         return view('admin/pages/portfolio/creaportfolio')->with(compact('newPortfolioNo'));
     }
+
+    public function createportfolio_seo()
+    {
+       
+        return view('admin/pages/portfolio/creaportfolio_seo');
+    }
+
+
     public function portfoliodetail($id)
     {
         $portfolio = portfolio::select()->where('id', $id)->get();
