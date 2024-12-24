@@ -17,12 +17,12 @@
 				</a>
 			</li>
 
-			<li class="sidebar-item portfolio">
-				<a class="sidebar-link" data-bs-toggle="dropdown" href="#">
+			<!-- <li class="sidebar-item portfolio">
+				<a class="sidebar-link" data-bs-toggle="dropdown" href="{{url('PortfolioForAdmin')}}">
 					<i class="align-middle" data-feather="user"></i> <span class="align-middle">PortFolio</span>
 
 				</a>
-			</li>
+			</li> -->
 			<li class="sidebar-item">
 
 				<a class="nav-link" data-bs-toggle="collapse" href="#b2b-general-pages" aria-expanded="false"
@@ -37,14 +37,14 @@
 
 					<ul class="nav flex-column sub-menu">
 
-						<li class="nav-item b2b-shop-request-admin-page">
+						<li class="nav-item marketing-portfolio">
 							<a class="nav-link" href="" onclick="markVisited(this)"><i class="fa-solid fa-bullhorn me-2" style="color:#fff; padding:2px; margin-left:0px;"></i>
 								<span class="menu-title text-white">Marketing Portfolio</span>
 							</a>
 						</li>
 
-						<li class="nav-item b2b-shop-users">
-							<a class="nav-link" href="" onclick="markVisited(this)"><i class="fa-solid fa-code me-2" style="color:#fff; padding:2px; margin-left:0px;"></i>
+						<li class="nav-item devlopment-portfolio">
+							<a class="nav-link" href="{{url('PortfolioForAdmin')}}" onclick="markVisited(this)"><i class="fa-solid fa-code me-2" style="color:#fff; padding:2px; margin-left:0px;"></i>
 								<span class="menu-title text-white">Development PortFolio</span>
 							</a>
 						</li>
@@ -55,7 +55,7 @@
 				</div>
 
 			</li>
-			<li class="sidebar-item portfolio">
+			<!-- <li class="sidebar-item portfolio">
 				<a class="sidebar-link" href="{{url('PortfolioForAdmin')}}">
 					<i class="align-middle" data-feather="user"></i> <span class="align-middle">Marketing Portfolio</span>
 				</a>
@@ -64,7 +64,7 @@
 				<a class="sidebar-link" href="{{url('PortfolioForAdmin')}}">
 					<i class="align-middle" data-feather="user"></i> <span class="align-middle">Development PortFolio</span>
 				</a>
-			</li>
+			</li> -->
 
 			<li class="sidebar-item blog">
 				<a class="sidebar-link" href="{{url('listBlogsForAdmin')}}">
