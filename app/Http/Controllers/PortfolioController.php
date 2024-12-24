@@ -141,10 +141,9 @@ class PortfolioController extends Controller
      }
 
      return view('admin/pages/portfolio/creaportfolio_seo')->with(compact('newPortfolioNo'));
-       
+    
       
     }
-
 
     public function portfoliodetail($id)
     {
@@ -152,6 +151,7 @@ class PortfolioController extends Controller
 
         return view('admin/pages/portfolio/portfoliodetail')->with(compact('portfolio'));
     }
+    
     public function savePortfolioForAdminApi(Request $request)
     {
         // Get the status from the request
