@@ -188,7 +188,26 @@
               </div>
             </li>
             <li>
-              <a href="{{url('/portfolio/')}}">Portfolio</a>
+              <a href="{{url('/portfolio/')}}">Portfolio <i class="fa fa-angle-down"></i></a>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item">
+                  <h4 class="title fw-bold ps-4">Digital Marketing</h4>
+                  <ul>
+                    <li><a href="{{url('/seo-services/')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
+
+                  </ul>
+                </div>
+                <div class="list-item">
+                  <h4 class="title fw-bold ps-4">Development</h4>
+                  <ul>
+                    <li><a href="{{url('#')}}" data-image="">Software Development</a></li>
+                    <li><a href="{{url('#')}}" data-image="">Web Development</a></li>
+                    <li><a href="{{url('/microsoft-dynamic-crm')}}" data-image="">App Development</a></li>
+
+                  </ul>
+                </div>
+
+              </div>
             </li>
             <li class="menu-item-has-children">
               <a href="#">Resources <i class="fas fa-angle-down"></i></a>

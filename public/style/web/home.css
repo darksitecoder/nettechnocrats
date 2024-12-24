@@ -209,6 +209,32 @@ p {
   padding: 20px 15px;
 }
 
+.header .menu>ul>li .sub-menu.mega-menu-column-2 {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 15px;
+}
+
+.header .menu>ul>li .sub-menu.mega-menu-column-2>.list-item {
+  flex: 0 0 50%;
+  padding: 0 15px;
+}
+
+.header .menu>ul>li .sub-menu.mega-menu-column-2>.list-item .title {
+  font-size: 16px;
+  color: var(--green);
+  font-weight: 500;
+  line-height: 1;
+  padding: 10px 0;
+}
+
+.header .menu>ul>li .sub-menu.mega-menu-column-2>.list-item.text-center .title {
+  text-align: center;
+}
+
+
 .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item {
   flex: 0 0 25%;
   padding: 0 15px;

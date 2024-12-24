@@ -20,7 +20,7 @@
     <!-- Vendor CSS Files -->
     <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    
+
     <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
     <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
@@ -28,24 +28,24 @@
     <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
 
 
- <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer" />
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
-  referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
 
 
 
- <!-- Libraries Stylesheet -->
- <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
- <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
- <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 
 </head>
 
@@ -239,8 +239,27 @@
         </div> -->
                                 </div>
                             </li>
-                            <li>
-                                <a href="{{url('/portfolio/')}}">Portfolio</a>
+                            <li class="menu-item-has-children">
+                                <a href="">Portfolio <i class="fa fa-angle-down"></i></a>
+                                <div class="sub-menu mega-menu mega-menu-column-2">
+                                    <div class="list-item">
+                                        <h4 class="title fw-bold ps-4">Marketing</h4>
+                                        <ul>
+                                            <li><a href="{{url('#')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title fw-bold ps-4">Development</h4>
+                                        <ul>
+                                            <li><a href="{{url('#')}}" data-image="">Software Development</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">Web Development</a></li>
+                                            <li><a href="{{url('#')}}" data-image="">App Development</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">Resources <i class="fas fa-angle-down"></i></a>
@@ -376,7 +395,7 @@
 
     <!-- Main JS File -->
     <script src="{{ asset('js/vendor/main.js') }}"></script>
-  
+
 </body>
 @include('partial/footer')
 

@@ -46,23 +46,25 @@ class PortfolioController extends Controller
 
     public function PortfolioForAdmin(Request $request)
     {
+
         // Check if the user is authenticated
         if (!Auth::check()) {
             // If not authenticated, redirect to login page
             return redirect()->route('login')->with('error', 'Please log in to access this page.');
         }
+        // dd('$portfolio');
 
         // Fetch all blogs (you can add further query filters if needed)
-        $portfolio = portfolio::select('portfolio_no', 'heading', 'company_name', 'content', 'image', 'created_at','status')
-        ->whereIn(
-            'id',
-            portfolio::select(DB::raw('MAX(id) as id'))
-                ->groupBy('portfolio_no')
-                ->pluck('id')
-        )
-        ->orderBy('created_at', 'desc')
-        ->get();
-    
+        $portfolio = portfolio::select('portfolio_no', 'heading', 'company_name', 'content', 'image', 'created_at', 'status')
+            ->whereIn(
+                'id',
+                portfolio::select(DB::raw('MAX(id) as id'))
+                    ->groupBy('portfolio_no')
+                    ->pluck('id')
+            )
+            ->orderBy('created_at', 'desc')
+            ->get();
+
         // dd($portfolio);
 
         // Return the view with the list of blogs
@@ -71,35 +73,36 @@ class PortfolioController extends Controller
     public function createportfolio()
     {
 
-           // Find the row with the largest Angebots_Nr
-           $lastOffer = portfolio::select('portfolio_no')
-           ->get()
-           ->map(function ($item) {
-               // Extract the numeric part from Angebots_Nr
-               return (int) Str::after($item->portfolio_no, 'PF-');
-           })
-           ->max();
+        // Find the row with the largest Angebots_Nr
+        $lastOffer = portfolio::select('portfolio_no')
+            ->get()
+            ->map(function ($item) {
+                // Extract the numeric part from Angebots_Nr
+                return (int) Str::after($item->portfolio_no, 'PF-');
+            })
+            ->max();
+        // dd($portfolio);
 
-       if ($lastOffer) {
-           $lastOffer = 'PF-' . $lastOffer;
-           // $lastOffer = $lastOffer->Angebots_Nr;
-           // Assuming $lastOffer is 'AN-12345'
-           // $lastOffer = 'AN-12345';
+        if ($lastOffer) {
+            $lastOffer = 'PF-' . $lastOffer;
+            // $lastOffer = $lastOffer->Angebots_Nr;
+            // Assuming $lastOffer is 'AN-12345'
+            // $lastOffer = 'AN-12345';
 
-           // Split the string into an array based on the dash
-           $parts = explode('-', $lastOffer);
-           $parts = $parts[1];
+            // Split the string into an array based on the dash
+            $parts = explode('-', $lastOffer);
+            $parts = $parts[1];
 
-           // Increment the numeric part
-           $newNumericPart = $parts + 1;
+            // Increment the numeric part
+            $newNumericPart = $parts + 1;
 
-           // Create the new offerNo
-           $newPortfolioNo = 'PF-' . $newNumericPart;
+            // Create the new offerNo
+            $newPortfolioNo = 'PF-' . $newNumericPart;
 
-           // $newOfferNo will be 'AN-12346'
-       } else {
-           $newPortfolioNo = 'PF-1234';
-       }
+            // $newOfferNo will be 'AN-12346'
+        } else {
+            $newPortfolioNo = 'PF-1234';
+        }
 
         return view('admin/pages/portfolio/creaportfolio')->with(compact('newPortfolioNo'));
     }
@@ -113,7 +116,7 @@ class PortfolioController extends Controller
     {
         // Get the status from the request
         $status = $request->input('status');
-        
+
         // Base validation rules
         $rules = [
             'portfolio_no' => 'required',
@@ -130,7 +133,7 @@ class PortfolioController extends Controller
                 'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
             ]);
         }
-    
+
         // Add additional validation rules based on category_1
         if ($request->category_1 == 'Digital_Marketing') {
             $rules = array_merge($rules, [
@@ -147,27 +150,27 @@ class PortfolioController extends Controller
                 'content' => 'required|string|max:100000',
             ]);
         }
-    
+
         // Validate the incoming data
         $validatedData = $request->validate($rules);
-    
+
         // Get the authenticated user
         $user = Auth::user();
-    
+
         // Check and delete existing portfolio if it exists
         $existingPortfolio = portfolio::where('portfolio_no', $request->portfolio_no)->first();
         if ($existingPortfolio) {
             portfolio::where('portfolio_no', $request->portfolio_no)->delete();
         }
         $imagePath = $existingPortfolio?->image ?? null;
-    
+
         // Handle Image Upload
         if ($request->hasFile('image')) {
             $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
             $request->file('image')->move(public_path('backend/portfolio'), $imageName);
             $imagePath = 'backend/portfolio/' . $imageName;
         }
-    
+
 
         foreach ($request->input('inputs') as $dynamicField) {
             portfolio::create([
@@ -186,12 +189,12 @@ class PortfolioController extends Controller
                 'RatingAfter' => $dynamicField['RatingAfter'],
             ]);
         }
-    
+
         // Return success response
         return response()->json([
             'success' => 'Portfolio ' . ($status === 'publish' ? 'published' : 'saved') . ' successfully!',
         ]);
-    }    
+    }
 
     public function deletePortfolioForAdminApi(Request $request, $id)
     {
@@ -216,7 +219,7 @@ class PortfolioController extends Controller
         if (count($Blogs)) {
             $newPortfolioNo = $id;
             return view('admin/pages/portfolio/editPortfolio')->with(compact('Blogs', 'newPortfolioNo'));
-        }else {
+        } else {
             echo 'Inccorect Pertfolio ID';
         }
     }
@@ -267,17 +270,17 @@ class PortfolioController extends Controller
 
         // Handle Image Upload (delete old file if new image is uploaded)
         if ($request->hasFile('image')) {
-             // Generate a unique name for the image
-             $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
+            // Generate a unique name for the image
+            $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
 
-             // Save the image to the 'public/backend/portfolio' directory
-             // $imagePath = $request->file('image')->storeAs('public/backend/portfolio', $imageName);
- 
-             $imagePath = $request->file('image')->move(public_path('backend/portfolio'), $imageName);
- 
-             // The 'storeAs' method returns the relative path, e.g., 'public/backend/portfolio/1733316243.png'
-             // Now we need to get the relative path without the "public" directory.
-             $imageRelativePath = 'backend/portfolio/' . $imageName;
+            // Save the image to the 'public/backend/portfolio' directory
+            // $imagePath = $request->file('image')->storeAs('public/backend/portfolio', $imageName);
+
+            $imagePath = $request->file('image')->move(public_path('backend/portfolio'), $imageName);
+
+            // The 'storeAs' method returns the relative path, e.g., 'public/backend/portfolio/1733316243.png'
+            // Now we need to get the relative path without the "public" directory.
+            $imageRelativePath = 'backend/portfolio/' . $imageName;
         }
 
 
