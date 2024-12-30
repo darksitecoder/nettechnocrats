@@ -379,10 +379,6 @@
                       <span class="text-danger" id="content_err" style="font-size:13px;"></span>
                     </div>
 
-
-
-
-
                     <h1>The Results<h1>
 
                         <!-- <div class="row pt-3 d-flex justify-content-center">
