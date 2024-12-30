@@ -305,18 +305,14 @@
               </div>
             </div>
             <!-- Image Upload Section -->
-            <div class="row pt-3 d-flex justify-content-center">
-              <div class="col-md-12 stretch-card grid-margin d-flex flex-column">
-                <div class="image-uploader">
-                  <input type="file" id="image" name="image" accept="image/*" style="display: none;">
-                  <div class="upload-container">
-                    <label for="image" id="imageLabel">Upload Image</label>
-                    <img id="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
-                  </div>
+            <div class="col-md-12 stretch-card grid-margin d-flex flex-column">
+              <div class="image-uploader">
+                <input type="file" class="image-input" name="image" accept="image/*" style="display: none;">
+                <div class="upload-container">
+                  <label class="imageLabel">Upload Image</label>
+                  <img class="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
                 </div>
               </div>
-
-              <span class="text-danger" id="image_err" style="font-size:13px;"></span>
             </div>
 
 
@@ -363,16 +359,15 @@
               <h3 class="fw-bolder">When We Started</h3>
               <!-- Display Content Validation Error -->
               <div class="col-md-12 stretch-card grid-margin blog__content mt-3 pt-1 pb-3">
-                <div class="image-uploader">
-                  <input type="file" id="image_start" name="image_start" accept="image/*" style="display: none;">
-                  <div class="upload-container">
-                    <label for="image" id="imageLabel">Upload Image</label>
-                    <img id="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
-                  </div>
-                </div>
-                <span class="text-danger" id="image_start_err" style="font-size:13px;"></span>
-
-              </div>
+    <div class="image-uploader">
+      <input type="file" class="image-input" name="image_start" accept="image/*" style="display: none;">
+      <div class="upload-container">
+        <label class="imageLabel">Upload Image</label>
+        <img class="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
+      </div>
+    </div>
+    <span class="text-danger" id="image_start_err" style="font-size:13px;"></span>
+  </div>
               <div class="col-md-12 stretch-card grid-margin blog__content">
                 <textarea name="content_start" id="editor_2"></textarea>
               </div>
@@ -387,18 +382,15 @@
               <h3 class="fw-bolder">The Results</h3>
               <!-- Display Content Validation Error -->
               <div class="col-md-12 stretch-card grid-margin blog__content mt-3 pt-1 pb-3">
-                <div class="image-uploader">
-                  <input type="file" id="image_final" name="image_final" accept="image/*" style="display: none;">
-                  <div class="upload-container">
-                    <label for="image" id="imageLabel">Upload Image</label>
-                    <img id="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
-                  </div>
-                </div>
-                <span class="text-danger" id="image_final_err" style="font-size:13px;"></span>
-
-
-
-              </div>
+    <div class="image-uploader">
+      <input type="file" class="image-input" name="image_final" accept="image/*" style="display: none;">
+      <div class="upload-container">
+        <label class="imageLabel">Upload Image</label>
+        <img class="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
+      </div>
+    </div>
+    <span class="text-danger" id="image_final_err" style="font-size:13px;"></span>
+  </div>
               <div class="col-md-12 stretch-card grid-margin blog__content">
                 <textarea name="content_final" id="editor_3"></textarea>
               </div>
@@ -588,44 +580,43 @@
 
 
   <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Select all image uploaders
-    const imageUploaders = document.querySelectorAll('.image-uploader');
-    
-    imageUploaders.forEach((imageUploader, index) => {
-      const imageInput = imageUploader.querySelector('input[type="file"]');
-      const uploadedImage = imageUploader.querySelector('#uploadedImage');
-      const imageLabel = imageUploader.querySelector('#imageLabel');
-      
-      imageUploader.addEventListener('click', function() {
-        imageInput.click();
-      });
+    document.addEventListener('DOMContentLoaded', function() {
+      // Select all image uploaders
+      const imageUploaders = document.querySelectorAll('.image-uploader');
 
-      imageInput.addEventListener('change', function(event) {
-        const file = event.target.files[0];
-        if (file) {
-          const reader = new FileReader();
-          reader.onload = function(e) {
-            uploadedImage.src = e.target.result;
-            uploadedImage.style.display = 'block';
-            imageLabel.style.display = 'none';
-          };
-          reader.readAsDataURL(file);
-        }
-      });
+      imageUploaders.forEach((imageUploader) => {
+        const imageInput = imageUploader.querySelector('.image-input');
+        const uploadedImage = imageUploader.querySelector('.uploadedImage');
+        const imageLabel = imageUploader.querySelector('.imageLabel');
 
-      uploadedImage.addEventListener('click', function() {
-        imageInput.value = ''; // Clear the input to allow re-upload
-        imageLabel.style.display = 'block'; // Show the label again
-        uploadedImage.style.display = 'none'; // Hide the image
-        imageInput.click(); // Trigger file input click
+        imageUploader.addEventListener('click', function() {
+          imageInput.click(); // Trigger the file input click on image uploader click
+        });
+
+        imageInput.addEventListener('change', function(event) {
+          const file = event.target.files[0];
+          if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+              uploadedImage.src = e.target.result; // Set the image source to the uploaded file
+              uploadedImage.style.display = 'block'; // Show the uploaded image
+              imageLabel.style.display = 'none'; // Hide the label after image is uploaded
+            };
+            reader.readAsDataURL(file);
+          }
+        });
+
+        uploadedImage.addEventListener('click', function() {
+          imageInput.value = ''; // Clear the file input value to allow re-upload
+          imageLabel.style.display = 'block'; // Show the label again
+          uploadedImage.style.display = 'none'; // Hide the image
+          imageInput.click(); // Trigger the file input click again
+        });
       });
     });
-  });
-</script>
+  </script>
 
 
-  <!-- Initialize CKEditor -->
   <!-- CKEditor 5 CDN -->
   <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
 
@@ -700,31 +691,31 @@
             $('#portfolioForm')[0].reset();
           },
           error: function(response) {
-  // Show error alert
-  let errors = response.responseJSON.errors || {};
+            // Show error alert
+            let errors = response.responseJSON.errors || {};
 
-  $.each(errors, function(field, messages) {
-    // Handle content_1, content_2, content_3 separately
-    if (field === 'content_1' || field === 'content_2' || field === 'content_3') {
-      // For these fields, display the error message
-      $('#' + field + '_err').text(messages[0]);
-    } else {
-      // For other fields, handle them as before
-      $('#' + field + '_err').text(messages[0]);
+            $.each(errors, function(field, messages) {
+              // Handle content_1, content_2, content_3 separately
+              if (field === 'content_1' || field === 'content_2' || field === 'content_3') {
+                // For these fields, display the error message
+                $('#' + field + '_err').text(messages[0]);
+              } else {
+                // For other fields, handle them as before
+                $('#' + field + '_err').text(messages[0]);
 
-      // Extract the index and field name from the error key for dynamic IDs
-      var parts = field.split('.');
-      var index = parts[1];
-      var fieldName = parts[2];
+                // Extract the index and field name from the error key for dynamic IDs
+                var parts = field.split('.');
+                var index = parts[1];
+                var fieldName = parts[2];
 
-      // Construct the error span ID dynamically for other fields
-      var errorSpanId = '#' + fieldName + '_' + index + '_err';
+                // Construct the error span ID dynamically for other fields
+                var errorSpanId = '#' + fieldName + '_' + index + '_err';
 
-      // Set the error message
-      $(errorSpanId).text(fieldName + ' is required');
-    }
-  });
-},
+                // Set the error message
+                $(errorSpanId).text(fieldName + ' is required');
+              }
+            });
+          },
 
           complete: function() {
             $(".save").attr("disabled", false); // Re-enable save button
