@@ -21,13 +21,13 @@ return new class extends Migration
             $table->text('heading')->nullable();
             $table->text('company_name')->nullable();
             $table->text('content')->nullable();
-            $table->string('image')->nullable(); // Image path
+            $table->text('content_start')->nullable();
+            $table->text('content_final')->nullable();
 
-            $table->text('POS')->nullable();
-            $table->text('Keywords')->nullable();
-            $table->text('RatingBefore')->nullable();
-            $table->text('RatingAfter')->nullable();
 
+            $table->string('image')->nullable(); 
+            $table->string('image_start')->nullable(); 
+            $table->string('image_final')->nullable(); 
 
             $table->enum('status', ['save', 'publish'])->nullable(); // Status
             $table->string('created_by', 255);

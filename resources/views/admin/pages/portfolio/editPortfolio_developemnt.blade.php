@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
   <meta name="author" content="AdminKit">
   <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
@@ -232,7 +233,7 @@
 
       <main class="content">
         <div class="container-fluid p-0">
-          <form id="portfolioForm" action="{{ url('/savePortfolioForAdminApi') }}" method="POST" enctype="multipart/form-data">
+          <form id="portfolioForm"  method="POST" enctype="multipart/form-data">
             @csrf
             <span class="text" id="success_msg" style="font-size:13px;"></span>
 
@@ -256,8 +257,9 @@
               <div class="col-md-12 stretch-card grid-margin">
                 <select id="category_1" name="category_1">
                   <option value="">-Select Category 1-</option>
-                  <option value="Digital_Marketing">Digital Marketing</option>
-                  <option value="Software_Development">Software Development</option>
+                  <option value="Web_Development" @if($Blogs[0]->category_1 == 'Web_Development') selected @endif>Web Development</option>
+                  <option value="Apps_Development" @if($Blogs[0]->category_1 == 'Apps_Development') selected @endif>Apps Development</option>
+                  <option value="Software_Development" @if($Blogs[0]->category_1 == 'Software_Development') selected @endif>Software Development</option>
                 </select>
               </div>
               <span class="text-danger" id="category_1_err" style="font-size:13px;"></span>
@@ -268,25 +270,18 @@
               <div class="col-md-12 stretch-card grid-margin">
                 <select id="category_2" name="category_2">
                   <option value="">-Select Category 2-</option>
-                  <!-- Options for Digital Marketing -->
-                  <option data-parent="Digital_Marketing" value="SEO">SEO</option>
-                  <option data-parent="Digital_Marketing" value="SMO">SMO</option>
-                  <option data-parent="Digital_Marketing" value="PPC">PPC</option>
-                  <option data-parent="Digital_Marketing" value="ORM">ORM</option>
-                  <option data-parent="Digital_Marketing" value="AEO">AEO</option>
-                  <option data-parent="Digital_Marketing" value="Local SEO">Local SEO</option>
-                  <option data-parent="Digital_Marketing" value="SEO Reseller">SEO Reseller</option>
 
                   <!-- Options for Software Development -->
-                  <option data-parent="Software_Development" value="Customer Software Development">Customer Software Development</option>
-                  <option data-parent="Software_Development" value="ERP Software Development">ERP Software Development</option>
-                  <option data-parent="Software_Development" value="CRM Development">CRM Development</option>
-                  <option data-parent="Software_Development" value="Salesforce Development">Salesforce Development</option>
-                  <option data-parent="Software_Development" value="Iot">Iot</option>
+                  <option data-parent="Software_Development" value="Customer Software Development" @if($Blogs[0]->category_2 == 'Customer Software Development') selected @endif>Customer Software Development</option>
+                  <option data-parent="Software_Development" value="ERP Software Development" @if($Blogs[0]->category_2 == 'ERP Software Development') selected @endif>ERP Software Development</option>
+                  <option data-parent="Software_Development" value="CRM Development" @if($Blogs[0]->category_2 == 'CRM Development') selected @endif>CRM Development</option>
+                  <option data-parent="Software_Development" value="Salesforce Development" @if($Blogs[0]->category_2 == 'Salesforce Development') selected @endif>Salesforce Development</option>
+                  <option data-parent="Software_Development" value="Iot" @if($Blogs[0]->category_2 == 'Iot') selected @endif>Iot</option>
                 </select>
               </div>
               <span class="text-danger" id="category_2_err" style="font-size:13px;"></span>
             </div>
+
             <!-- Image Upload Section -->
             <div class="row pt-3 d-flex justify-content-center">
               <div class="col-md-12 stretch-card grid-margin d-flex flex-column">
@@ -294,7 +289,7 @@
                   <input type="file" id="image" name="image" accept="image/*" style="display: none;">
                   <div class="upload-container">
                     <label for="image" id="imageLabel">Upload Image</label>
-                    <img id="uploadedImage" src="{{ asset( 'public/' . $Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
+                    <img id="uploadedImage" src="{{ asset( '/' . $Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
                   </div>
                 </div>
               </div>
@@ -345,27 +340,27 @@
                   <tbody>
                     <!-- Hidden Template Row -->
                     @foreach($Blogs as $index => $data)
-                      <tr class="hidden" id="template-row">
-                        <td>
-                          <input type="number" min="1" class="lastPOS" name="inputs[{{ $index }}][POS]" value="{{$data->POS}}" placeholder="#" /><br>
-                          <span class="msg_err" id="POS_0_err" style="color: red; font-size: 13px;"></span>
-                        </td>
-                        <td>
-                          <input type="text" name="inputs[{{ $index }}][Keywords]" value="{{$data->Keywords}}" placeholder="Enter Keyword" />
-                          <br><span class="msg_err" id="Keywords_0_err" style="color: red; font-size: 13px;"></span>
-                        </td>
-                        <td>
-                          <input type="number" min="0" name="inputs[{{ $index }}][RatingBefore]" value="{{$data->RatingBefore}}" placeholder="Enter Rating Before" />
-                          <br><span class="msg_err" id="RatingBefore_0_err" style="color: red; font-size: 13px;"></span>
-                        </td>
-                        <td>
-                          <input type="number" min="0" name="inputs[{{ $index }}][RatingAfter]" value="{{$data->RatingAfter}}" placeholder="Enter Rating After" />
-                          <br><span class="msg_err" id="RatingAfter_0_err" style="color: red; font-size: 13px;"></span>
-                        </td>
-                        <td>
-                          <button type="button" class="remove-table-row">Delete &nbsp;<i class="fa-solid fa-trash-can"></i></button>
-                        </td>
-                      </tr>
+                    <tr class="hidden" id="template-row">
+                      <td>
+                        <input type="number" min="1" class="lastPOS" name="inputs[{{ $index }}][POS]" value="{{$data->POS}}" placeholder="#" /><br>
+                        <span class="msg_err" id="POS_0_err" style="color: red; font-size: 13px;"></span>
+                      </td>
+                      <td>
+                        <input type="text" name="inputs[{{ $index }}][Keywords]" value="{{$data->Keywords}}" placeholder="Enter Keyword" />
+                        <br><span class="msg_err" id="Keywords_0_err" style="color: red; font-size: 13px;"></span>
+                      </td>
+                      <td>
+                        <input type="number" min="0" name="inputs[{{ $index }}][RatingBefore]" value="{{$data->RatingBefore}}" placeholder="Enter Rating Before" />
+                        <br><span class="msg_err" id="RatingBefore_0_err" style="color: red; font-size: 13px;"></span>
+                      </td>
+                      <td>
+                        <input type="number" min="0" name="inputs[{{ $index }}][RatingAfter]" value="{{$data->RatingAfter}}" placeholder="Enter Rating After" />
+                        <br><span class="msg_err" id="RatingAfter_0_err" style="color: red; font-size: 13px;"></span>
+                      </td>
+                      <td>
+                        <button type="button" class="remove-table-row">Delete &nbsp;<i class="fa-solid fa-trash-can"></i></button>
+                      </td>
+                    </tr>
                     @endforeach
                   </tbody>
                 </table>
@@ -389,168 +384,8 @@
   <script src="{{ asset('dashboard_theme/js/app.js') }}"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- jQuery Script -->
-  <script>
-    // $(document).ready(function() {
-    //   // On change of category_1
-    //   $('#category_1').change(function() {
-    //     let selectedCategory = $(this).val();
 
-    //     // Reset category_2 dropdown
-    //     jQuery('.text-danger').empty();
-    //     $('#category_2').val('');
-    //     $('#category_2 option').hide(); // Hide all options first
-    //     $('#showTableTR').hide();
 
-    //     if (selectedCategory) {
-    //       // Show only the options that match the selected category_1
-    //       $('#category_2 option[data-parent="' + selectedCategory + '"]').show();
-    //     } else {
-    //       // Show default placeholder option if nothing is selected
-    //       $('#category_2 option[value=""]').show();
-    //     }
-
-    //     if (selectedCategory == 'Digital_Marketing') {
-    //       $('#showTableTR').show();
-    //     }
-    //   });
-
-    //   // Trigger change event on page load to hide irrelevant options
-    //   $('#category_1').trigger('change');
-    // });
-
-    $(document).ready(function() {
-        // Pre-selected values
-        const selectedCategory1 = '{{ $Blogs[0]->category_1 ?? "" }}';
-        const selectedCategory2 = '{{ $Blogs[0]->category_2 ?? "" }}';
-
-        if (selectedCategory1 == 'Digital_Marketing') {
-          $('#showTableTR').show();
-        }
-
-        // Initialize dropdowns on page load
-        function initializeDropdowns() {
-          if (selectedCategory1) {
-            $('#category_1').val(selectedCategory1).trigger('change');
-          }
-          if (selectedCategory2) {
-            $(`#category_2 option[value="${selectedCategory2}"]`).prop('selected', true);
-          }
-        }
-
-        // On change of category_1
-        $('#category_1').on('change', function() {
-          const selectedCategory = $(this).val();
-          $('#showTableTR').hide();
-
-          if (selectedCategory == 'Digital_Marketing') {
-            $('#showTableTR').show();
-          }
-
-          // Reset category_2
-          $('#category_2').val('');
-          $('#category_2 option').hide();
-          $('#category_2 option[value=""]').show(); // Show placeholder option
-
-          if (selectedCategory) {
-            // Show options that match the selected category_1
-            $(`#category_2 option[data-parent="${selectedCategory}"]`).show();
-          }
-        });
-
-        // Trigger initialization
-        initializeDropdowns();
-      });
-  </script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      let rowCount = 0; // To track row index
-
-      // Add New Row
-      document.getElementById("add").addEventListener("click", function() {
-        rowCount++;
-        const tableBody = document.querySelector("#table tbody");
-        const templateRow = document.getElementById("template-row");
-
-        // Clone the hidden template row and make it visible
-        const newRow = templateRow.cloneNode(true);
-        newRow.classList.remove("hidden");
-
-        // Clear input values and update names, IDs, and values dynamically
-        clearAndUpdateRowAttributes(newRow, rowCount);
-
-        // Append the new row to the table
-        tableBody.appendChild(newRow);
-        resetNumbering(); // Reset numbering after adding
-      });
-
-      // Remove Row
-      document.addEventListener("click", function(event) {
-        if (event.target.classList.contains("remove-table-row")) {
-          // Confirm before deleting
-          if (confirm("Are you sure you want to delete this row?")) {
-            event.target.closest("tr").remove();
-            resetNumbering(); // Reset numbering after removal
-          }
-        }
-      });
-
-      // Function to clear and update row attributes dynamically
-      function clearAndUpdateRowAttributes(row, index) {
-        row.querySelectorAll("input, span, select").forEach((element) => {
-          if (element.tagName === "INPUT") {
-            element.value = ""; // Clear input fields
-          } else if (element.tagName === "SELECT") {
-            element.selectedIndex = 0; // Reset select to default value
-          } else if (element.tagName === "SPAN") {
-            element.textContent = ""; // Clear span content
-          }
-
-          if (element.hasAttribute("name")) {
-            let newName = element.getAttribute("name").replace(/\[\d+\]/, `[${index}]`);
-            element.setAttribute("name", newName);
-          }
-
-          if (element.hasAttribute("id")) {
-            let newId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
-            element.setAttribute("id", newId);
-          }
-
-          if (element.hasAttribute("onkeyup")) {
-            let newOnkeyup = element
-              .getAttribute("onkeyup")
-              .replace(/\('\d+'\)/, `('${index}')`);
-            element.setAttribute("onkeyup", newOnkeyup);
-          }
-
-          if (element.classList.contains("lastPOS")) {
-            element.value = index + 1; // Update Sr. No.
-          }
-        });
-      }
-
-      // Reset numbering function
-      function resetNumbering() {
-        document.querySelectorAll("#table tbody tr").forEach((row, index) => {
-          row.querySelector(".lastPOS").value = index + 1; // Update Sr. No.
-
-          row.querySelectorAll("input, span").forEach((element) => {
-            if (element.hasAttribute("name")) {
-              let updatedName = element
-                .getAttribute("name")
-                .replace(/\[\d+\]/, `[${index}]`);
-              element.setAttribute("name", updatedName);
-            }
-
-            if (element.hasAttribute("id")) {
-              let updatedId = element.getAttribute("id").replace(/_\d+/, `_${index}`);
-              element.setAttribute("id", updatedId);
-            }
-          });
-        });
-      }
-    });
-  </script>
 
   <script>
     const childElement = document.querySelector('.portfolio');
@@ -623,6 +458,7 @@
 
         // Detect the clicked button's status
         let status = $(this).val();
+        var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
         // Serialize form data
         let formData = new FormData($("#portfolioForm")[0]);
@@ -631,16 +467,19 @@
         formData.append("status", status); // Append status dynamically
         formData.append('content', content);
         console.log(formData);
-        // AJAX request
+        var baseUrl = window.location.origin;
+        var url = baseUrl + '/savePortfolioForAdminApi';
+        // alert(url);
         $.ajax({
-          url: "{{ url('/savePortfolioForAdminApi') }}", // Laravel route
+          url: url,
           type: "POST",
           data: formData,
           contentType: false,
           processData: false,
           headers: {
-            "X-CSRF-TOKEN": "{{ csrf_token() }}" // CSRF Token for Laravel
-          },
+                            'X-CSRF-TOKEN': csrfToken // Add the CSRF token to the headers
+                        },
+        
           beforeSend: function() {
             // Optional: Show a loader or disable buttons
             if (status === 'save') {

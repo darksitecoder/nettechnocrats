@@ -38,15 +38,18 @@
 					<ul class="nav flex-column sub-menu">
 
 						<li class="nav-item marketing-portfolio">
-							<a class="nav-link" href="" onclick="markVisited(this)"><i class="fa-solid fa-bullhorn me-2" style="color:#fff; padding:2px; margin-left:0px;"></i>
+							<a class="nav-link" href="{{ url('PortfolioForAdmin/Digital_Marketing') }}" onclick="markVisited(this)">
+								<i class="fa-solid fa-bullhorn me-2" style="color:#fff; padding:2px; margin-left:0px;"></i>
 								<span class="menu-title text-white">Marketing Portfolio</span>
 							</a>
+
 						</li>
 
 						<li class="nav-item devlopment-portfolio">
-							<a class="nav-link" href="{{url('PortfolioForAdmin')}}" onclick="markVisited(this)"><i class="fa-solid fa-code me-2" style="color:#fff; padding:2px; margin-left:0px;"></i>
+							<a class="nav-link" href="{{ url('PortfolioForAdmin/Development') }}" onclick=" markVisited(this)"><i class="fa-solid fa-code me-2" style="color:#fff; padding:2px; margin-left:0px;"></i>
 								<span class="menu-title text-white">Development PortFolio</span>
 							</a>
+							
 						</li>
 
 

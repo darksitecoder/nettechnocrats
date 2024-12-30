@@ -75,10 +75,14 @@
       <main class="content">
         <div class="container-fluid p-0">
           <div class="d-flex justify-content-between mb-4">
-            <h1 class="h3 mb-3"><strong>Portfolio List</strong></h1>
+            <h1 class="h3 mb-3"><strong>Portfolio List ( {{$category_1}})</strong></h1>
             <div class="buttons">
 
-              <a href="{{url('/createportfolio')}}" class=" btn">Create Portfolio <i class="fa-solid fa-circle-plus"></i></a>
+            @if($category_1 == 'Digital_Marketing')
+              <a href="{{url('/createportfolio_Seo')}}" class=" btn">Create Portfolio <i class="fa-solid fa-circle-plus"></i></a>
+              @elseif($category_1 == 'Development')
+              <a href="{{url('/createportfolio_Developemnt')}}" class=" btn">Create Portfolio <i class="fa-solid fa-circle-plus"></i></a>
+              @endif
             </div>
           </div>
 
@@ -128,12 +132,25 @@
                         {{ $blog->status }}
                       </span>
                     </td>
-                    <td class="d-none d-md-table-cell"><a href="{{ url('/editPortfolioForAdmin/' . $blog->portfolio_no) }}">
+
+                    @if($category_1 == 'Digital_Marketing')
+                    <td class="d-none d-md-table-cell"><a href="{{ url('/editPortfolioForAdmin_Digital_Marketing/' . $blog->portfolio_no) }}">
                         <button class="badge px-2 py-1 fs-6 edit">
                           Edit <i class="fa-solid fa-pen-to-square"></i>
                         </button>
                       </a>
                     </td>
+              @elseif($category_1 == 'Development')
+              <td class="d-none d-md-table-cell"><a href="{{ url('/editPortfolioForAdmin_Development/' . $blog->portfolio_no) }}">
+                        <button class="badge px-2 py-1 fs-6 edit">
+                          Edit <i class="fa-solid fa-pen-to-square"></i>
+                        </button>
+                      </a>
+                    </td>
+              @endif
+
+
+                  
                     <td class="d-none d-md-table-cell"><a href="{{ url('/deletePortfolioForAdminApi/' . $blog->portfolio_no) }}"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
                     </tr>
                     @endforeach

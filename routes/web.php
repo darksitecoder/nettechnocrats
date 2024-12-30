@@ -181,11 +181,16 @@ Route::get('blogTopics', [BlogTopicController::class, 'blogTopics']);
 // Portfolio for Admin
 Route::get('listBlogsForAdmin', [blogController::class, 'listBlogsForAdmin']);
 Route::post('savePortfolioForAdminApi', [PortfolioController::class, 'savePortfolioForAdminApi'])->name('savePortfolioForAdminApi');
-Route::get('PortfolioForAdmin', [PortfolioController::class, 'PortfolioForAdmin']);
-Route::get('/createportfolio', [PortfolioController::class, 'createportfolio']);
-Route::get('/createportfolio_seo', [PortfolioController::class, 'createportfolio_seo']);
 
-Route::get('editPortfolioForAdmin/{id}', [PortfolioController::class, 'editPortfolioForAdmin']);
+Route::post('savePortfolioForAdminApi_seo', [PortfolioController::class, 'savePortfolioForAdminApi_seo'])->name('savePortfolioForAdminApi_seo');
+
+Route::get('PortfolioForAdmin/{category_1}',[PortfolioController::class, 'PortfolioForAdmin']);
+Route::get('/createportfolio_Developemnt', [PortfolioController::class, 'createportfolio']);
+Route::get('/createportfolio_Seo', [PortfolioController::class, 'createportfolio_seo']);
+
+Route::get('editPortfolioForAdmin_Development/{id}', [PortfolioController::class, 'editPortfolioForAdmin_Development']);
+Route::get('editPortfolioForAdmin_Digital_Marketing/{id}', [PortfolioController::class, 'editPortfolioForAdmin_Digital_Marketing']);
+
 Route::get('/createportfolio', [PortfolioController::class, 'createportfolio'])->name('createportfolio');
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
 Route::post('updatePortfolioForAdminApi', [PortfolioController::class, 'updatePortfolioForAdminApi']);
