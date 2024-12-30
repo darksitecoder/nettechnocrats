@@ -187,9 +187,9 @@
         </div> -->
               </div>
             </li>
-            <li>
+            <li class="menu-item-has-children">
               <a href="{{url('/portfolio/')}}">Portfolio <i class="fa fa-angle-down"></i></a>
-              <div class="sub-menu mega-menu mega-menu-column-4">
+              <div class="sub-menu mega-menu mega-menu-column-2">
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
                   <ul>

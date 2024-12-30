@@ -61,7 +61,7 @@
                   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
                         <div class="col-xl-12 wow fadeInLeft">
                               <div class=" rounded d-flex justify-content-center">
-                                    <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                                    <img src="{{ asset('assets/web/Salinan dari Beige and Blue Modern Company Banner (5).webp') }}" class="img-fluid rounded image-with-shadow" alt="" style="width: 100%; height:500px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                               </div>
                         </div>
                   </div>
@@ -404,7 +404,7 @@
       <div class="container-fluid about py-5">
             <div class="container py-5">
 
-                  <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+                  <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
                         <h2 class="display-5 mb-4">Job Portal App Development Samples</h2>
                         <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Mobile App development case studies here:</p>
                   </div>
@@ -510,9 +510,9 @@
                               </div>
                         </div>
                         <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-                              <div class="seo__animation__gif">
+                              <div class="seo__animation__gifs">
                                     <div class="rounded-4 position-relative overflow-hidden">
-                                          <img src="{{ asset('assets/web/android-image.webp') }}" class="img-fluid w-100" alt="">
+                                          <img src="{{ asset('assets/web/job-portal-development.webp') }}" class="img-fluid w-100 image-with-shadow" alt="">
 
                                     </div>
                               </div>
