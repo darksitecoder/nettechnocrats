@@ -221,68 +221,83 @@ class PortfolioController extends Controller
     public function savePortfolioForAdminApi_seo(Request $request)
     {
 
+        // dd($request->all());
+     
         // Get the status from the request
         $status = $request->input('status');
-        // dd($status);
-        // dd($request->all()); 
-        
+    
         // Base validation rules
         $rules = [
             'portfolio_no' => 'required',
             'category_2' => 'required',
             'heading' => 'required|string|max:255',
             'company_name' => 'required|string',
-            // 'content' => 'required|max:2000',
             'content_0' => 'required|max:2000',
             'content_1' => 'required|max:2000',
+            'content_2' => 'required|max:2000',
             'status' => 'nullable|string|in:save,publish',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
-            'image_start' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
-            'image_final' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
+            'image_start' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
+            'image_final' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
         ];
-        
-        
+    
+        // Add unique validation for 'portfolio_no' when not updating
         if ($request->page_type != 'update') {
-            $rules = array_merge($rules, [
-                'portfolio_no' => 'required|unique:portfolio,portfolio_no',
-               
-            ]);
+            $rules['portfolio_no'] = 'required|unique:portfolio,portfolio_no';
         }
-        
-        
+    
         // Validate the incoming data
         $validatedData = $request->validate($rules);
-
-        
+    
         // Get the authenticated user
         $user = Auth::user();
-
-        // Check and delete existing portfolio if it exists
+    
+        // Check if portfolio exists (for update scenario)
         $existingPortfolio = portfolio::where('portfolio_no', $request->portfolio_no)->first();
-        if ($existingPortfolio) {
-            portfolio::where('portfolio_no', $request->portfolio_no)->delete();
-        }
-        $imagePath = $existingPortfolio?->image ?? null;
-
-        // Handle Image Upload
+    
+        // Handle Image Uploads (only if new files are uploaded)
         if ($request->hasFile('image')) {
-            $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
+            $imageName = time() . '-' . uniqid() . '.' . $request->file('image')->getClientOriginalExtension();
             $request->file('image')->move(public_path('backend/portfolio'), $imageName);
             $imagePath = 'backend/portfolio/' . $imageName;
+        } else {
+            $imagePath = $existingPortfolio ? $existingPortfolio->image : null;
         }
-
+    
         if ($request->hasFile('image_start')) {
-            $imageName = time() . '.' . $request->file('image_start')->getClientOriginalExtension();
-            $request->file('image_start')->move(public_path('backend/portfolio'), $imageName);
-            $imagePath_start = 'backend/portfolio/' . $imageName;
+            $imageNameStart = time() . '-' . uniqid() . '.' . $request->file('image_start')->getClientOriginalExtension();
+            $request->file('image_start')->move(public_path('backend/portfolio'), $imageNameStart);
+            $imagePath_start = 'backend/portfolio/' . $imageNameStart;
+        } else {
+            $imagePath_start = $existingPortfolio ? $existingPortfolio->image_start : null;
         }
-
+    
         if ($request->hasFile('image_final')) {
-            $imageName = time() . '.' . $request->file('image_final')->getClientOriginalExtension();
-            $request->file('image_final')->move(public_path('backend/portfolio'), $imageName);
-            $imagePath_final = 'backend/portfolio/' . $imageName;
+            $imageNameFinal = time() . '-' . uniqid() . '.' . $request->file('image_final')->getClientOriginalExtension();
+            $request->file('image_final')->move(public_path('backend/portfolio'), $imageNameFinal);
+            $imagePath_final = 'backend/portfolio/' . $imageNameFinal;
+        } else {
+            $imagePath_final = $existingPortfolio ? $existingPortfolio->image_final : null;
         }
-
+    
+        // If this is a new portfolio, create a new record; otherwise, update existing
+        if ($existingPortfolio) {
+            $existingPortfolio->update([
+                'category_1' => $request->category_1,
+                'category_2' => $request->category_2,
+                'image' => $imagePath,
+                'image_start' => $imagePath_start,
+                'image_final' => $imagePath_final,
+                'heading' => $request->heading,
+                'content' => $request->content_0,
+                'content_start' => $request->content_1,
+                'content_final' => $request->content_2,
+                'company_name' => $request->company_name,
+                'status' => $status,
+                'created_by' => $user->id,
+            ]);
+            $message = 'Portfolio updated successfully!';
+        } else {
             portfolio::create([
                 'portfolio_no' => $request->portfolio_no,
                 'category_1' => $request->category_1,
@@ -291,22 +306,23 @@ class PortfolioController extends Controller
                 'image_start' => $imagePath_start,
                 'image_final' => $imagePath_final,
                 'heading' => $request->heading,
-                'content' => $request->content,
-                'content_start' => $request->content_0,
-                'content_final' => $request->content_1,
-
+                'content' => $request->content_0,
+                'content_start' => $request->content_1,
+                'content_final' => $request->content_2,
                 'company_name' => $request->company_name,
                 'status' => $status,
                 'created_by' => $user->id,
-               
             ]);
-        
-
+            $message = 'Portfolio saved successfully!';
+        }
+    
         // Return success response
         return response()->json([
-            'success' => 'Portfolio ' . ($status === 'publish' ? 'published' : 'saved') . ' successfully!',
+            'success' => $message . ' ' . ($status === 'publish' ? 'and published' : ''),
         ]);
     }
+    
+    
 
 
 
@@ -331,6 +347,7 @@ class PortfolioController extends Controller
     {
 
         $Blogs = portfolio::select()->where('portfolio_no', $id)->get();
+
         if (count($Blogs)) {
             $newPortfolioNo = $id;
             return view('admin/pages/portfolio/editPortfolio_developemnt')->with(compact('Blogs', 'newPortfolioNo'));
@@ -344,6 +361,7 @@ class PortfolioController extends Controller
     {
 
         $Blogs = portfolio::select()->where('portfolio_no', $id)->get();
+        // dd($Blogs);
         if (count($Blogs)) {
             $newPortfolioNo = $id;
             return view('admin/pages/portfolio/editPortfolio_Digital_Marketing')->with(compact('Blogs', 'newPortfolioNo'));

@@ -460,27 +460,26 @@
   <!-- CKEditor 5 CDN -->
   <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
 
-  <!-- Initialize CKEditor -->
-  <script>
-    let editorInstances = [];
+<!-- Initialize CKEditor -->
+<script>
+  let editorInstances = [];
 
-    // Initialize each editor individually
-    const editors = ['#editor', '#editor_2', '#editor_3'];
+  // Initialize each editor individually
+  const editors = ['#editor', '#editor_2', '#editor_3'];
 
-    editors.forEach(selector => {
-      ClassicEditor
-        .create(document.querySelector(selector), {
-          toolbar: ['bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote']
-        })
-        .then(editor => {
-          editorInstances.push(editor); // Store each editor instance
-        })
-        .catch(error => {
-          console.error('Error initializing CKEditor:', error);
-        });
-    });
-  </script>
-
+  editors.forEach(selector => {
+    ClassicEditor
+      .create(document.querySelector(selector), {
+        toolbar: ['bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote']
+      })
+      .then(editor => {
+        editorInstances.push(editor); // Store each editor instance
+      })
+      .catch(error => {
+        console.error('Error initializing CKEditor:', error);
+      });
+  });
+</script>
 
 
 <script>
@@ -494,21 +493,18 @@
       let status = $(this).val();
       var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-      // Serialize form data
-      let formData = new FormData($("#portfolioForm")[0]);
+    // Serialize form data
+    let formData = new FormData($("#portfolioForm")[0]);
 
-      // Access CKEditor content from the specific instance
-      let content = ''; // Default empty content
-      editorInstances.forEach(function(editor, index) {
-        // For example, you can get the content from the first editor, or handle it based on index
-        if (index === 0) {  // Adjust this logic if needed for the specific editor
-          content = editor.getData();  // Get the content of the first editor (or whichever one you're targeting)
-        }
-      });
+// Loop through each editor and get its content
+editorInstances.forEach((editor, index) => {
+  const content = editor.getData(); // Get content from each editor
+  formData.append('content_' + index, content); // Append to formData with a unique name
+});
 
       // Add status and content to the formData
       formData.append("status", status);
-      formData.append('content', content);
+      // formData.append('content', content);
 
       console.log(formData); // Debug: Check form data being sent
       var baseUrl = window.location.origin;
