@@ -233,7 +233,7 @@
 
       <main class="content">
         <div class="container-fluid p-0">
-          <form id="portfolioForm"  method="POST" enctype="multipart/form-data">
+          <form id="portfolioForm" method="POST" enctype="multipart/form-data">
             @csrf
             <span class="text" id="success_msg" style="font-size:13px;"></span>
 
@@ -258,7 +258,7 @@
                 <select id="category_1" name="category_1">
                   <option value="">-Select Category 1-</option>
                   <option value="Digital_Marketing" @if($Blogs[0]->category_1 == 'Digital_Marketing') selected @endif>Digital_Marketing</option>
-                
+
                 </select>
               </div>
               <span class="text-danger" id="category_1_err" style="font-size:13px;"></span>
@@ -266,31 +266,31 @@
 
             <!-- category_2 Input Section -->
             <div class="col-md-4 stretch-card grid-margin">
-  <select id="category_2" name="category_2">
-    <option value="">-Select Category 2-</option>
+              <select id="category_2" name="category_2">
+                <option value="">-Select Category 2-</option>
 
-    <!-- Options for Digital Marketing -->
-    <option data-parent="Digital_Marketing" value="SEO" @if($Blogs[0]->category_2 == 'SEO') selected @endif>SEO</option>
-    <option data-parent="Digital_Marketing" value="SMO" @if($Blogs[0]->category_2 == 'SMO') selected @endif>SMO</option>
-    <option data-parent="Digital_Marketing" value="PPC" @if($Blogs[0]->category_2 == 'PPC') selected @endif>PPC</option>
-    <option data-parent="Digital_Marketing" value="ORM" @if($Blogs[0]->category_2 == 'ORM') selected @endif>ORM</option>
-    <option data-parent="Digital_Marketing" value="AEO" @if($Blogs[0]->category_2 == 'AEO') selected @endif>AEO</option>
-    <option data-parent="Digital_Marketing" value="Local SEO" @if($Blogs[0]->category_2 == 'Local SEO') selected @endif>Local SEO</option>
-    <option data-parent="Digital_Marketing" value="SEO Reseller" @if($Blogs[0]->category_2 == 'SEO Reseller') selected @endif>SEO Reseller</option>
+                <!-- Options for Digital Marketing -->
+                <option data-parent="Digital_Marketing" value="SEO" @if($Blogs[0]->category_2 == 'SEO') selected @endif>SEO</option>
+                <option data-parent="Digital_Marketing" value="SMO" @if($Blogs[0]->category_2 == 'SMO') selected @endif>SMO</option>
+                <option data-parent="Digital_Marketing" value="PPC" @if($Blogs[0]->category_2 == 'PPC') selected @endif>PPC</option>
+                <option data-parent="Digital_Marketing" value="ORM" @if($Blogs[0]->category_2 == 'ORM') selected @endif>ORM</option>
+                <option data-parent="Digital_Marketing" value="AEO" @if($Blogs[0]->category_2 == 'AEO') selected @endif>AEO</option>
+                <option data-parent="Digital_Marketing" value="Local SEO" @if($Blogs[0]->category_2 == 'Local SEO') selected @endif>Local SEO</option>
+                <option data-parent="Digital_Marketing" value="SEO Reseller" @if($Blogs[0]->category_2 == 'SEO Reseller') selected @endif>SEO Reseller</option>
 
-    <!-- Options for Software Development -->
-    <option data-parent="Software_Development" value="Customer Software Development" @if($Blogs[0]->category_2 == 'Customer Software Development') selected @endif>Customer Software Development</option>
-    <option data-parent="Software_Development" value="ERP Software Development" @if($Blogs[0]->category_2 == 'ERP Software Development') selected @endif>ERP Software Development</option>
-    <option data-parent="Software_Development" value="CRM Development" @if($Blogs[0]->category_2 == 'CRM Development') selected @endif>CRM Development</option>
-    <option data-parent="Software_Development" value="Salesforce Development" @if($Blogs[0]->category_2 == 'Salesforce Development') selected @endif>Salesforce Development</option>
-    <option data-parent="Software_Development" value="Iot" @if($Blogs[0]->category_2 == 'Iot') selected @endif>Iot</option>
-  </select>
-  <span class="text-danger" id="category_2_err" style="font-size:13px;"></span>
-</div>
+                <!-- Options for Software Development -->
+                <option data-parent="Software_Development" value="Customer Software Development" @if($Blogs[0]->category_2 == 'Customer Software Development') selected @endif>Customer Software Development</option>
+                <option data-parent="Software_Development" value="ERP Software Development" @if($Blogs[0]->category_2 == 'ERP Software Development') selected @endif>ERP Software Development</option>
+                <option data-parent="Software_Development" value="CRM Development" @if($Blogs[0]->category_2 == 'CRM Development') selected @endif>CRM Development</option>
+                <option data-parent="Software_Development" value="Salesforce Development" @if($Blogs[0]->category_2 == 'Salesforce Development') selected @endif>Salesforce Development</option>
+                <option data-parent="Software_Development" value="Iot" @if($Blogs[0]->category_2 == 'Iot') selected @endif>Iot</option>
+              </select>
+              <span class="text-danger" id="category_2_err" style="font-size:13px;"></span>
+            </div>
 
 
             <!-- Image Upload Section -->
-            <div class="row pt-3 d-flex justify-content-center">
+            <!-- <div class="row pt-3 d-flex justify-content-center">
               <div class="col-md-12 stretch-card grid-margin d-flex flex-column">
                 <div class="image-uploader">
                   <input type="file" id="image" name="image" accept="image/*" style="display: none;">
@@ -302,7 +302,18 @@
               </div>
 
               <span class="text-danger" id="image_err" style="font-size:13px;"></span>
+            </div> -->
+
+            <div class="col-md-12 stretch-card grid-margin d-flex flex-column">
+              <div class="image-uploader">
+                <input type="file" class="image-input" name="image" accept="image/*" style="display: none;">
+                <div class="upload-container">
+                  <label class="imageLabel">Upload Image</label>
+                  <img class="uploadedImage" id="uploadedImage" src="{{ asset( '/' . $Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
+                </div>
+              </div>
             </div>
+
 
 
             <!-- Heading Input Section -->
@@ -323,18 +334,18 @@
             </div>
 
             <!-- Content Textarea Section -->
-             <h1>About<h1>
-            <div class="row pt-1 d-flex justify-content-center">
-              <!-- Display Content Validation Error -->
-              <div class="col-md-12 stretch-card grid-margin blog__content">
-                <textarea name="content" id="editor">{{$Blogs[0]->content}}</textarea>
+            <h1>About<h1>
+                <div class="row pt-1 d-flex justify-content-center">
+                  <!-- Display Content Validation Error -->
+                  <div class="col-md-12 stretch-card grid-margin blog__content">
+                    <textarea name="content" id="editor">{{$Blogs[0]->content}}</textarea>
 
-              </div>
-              <span class="text-danger" id="content_err" style="font-size:13px;"></span>
-            </div>
-            <h1>Where we Started<h1>
+                  </div>
+                  <span class="text-danger" id="content_err" style="font-size:13px;"></span>
+                </div>
+                <h1>Where we Started<h1>
 
-            <div class="row pt-3 d-flex justify-content-center">
+                    <!-- <div class="row pt-3 d-flex justify-content-center">
               <div class="col-md-12 stretch-card grid-margin d-flex flex-column">
                 <div class="image-uploader">
                   <input type="file" id="image_start" name="image_start" accept="image/*" style="display: none;">
@@ -346,23 +357,35 @@
               </div>
 
               <span class="text-danger" id="image_err" style="font-size:13px;"></span>
-            </div>
+            </div> -->
 
-            <div class="row pt-1 d-flex justify-content-center">
-              <!-- Display Content Validation Error -->
-              <div class="col-md-12 stretch-card grid-margin blog__content">
-                <textarea name="content_start" id="editor_2">{{$Blogs[0]->content_start}}</textarea>
-              </div>
-              <span class="text-danger" id="content_err" style="font-size:13px;"></span>
-            </div>
+                    <div class="col-md-12 stretch-card grid-margin blog__content mt-3 pt-1 pb-3">
+                      <div class="image-uploader">
+                        <input type="file" class="image-input" name="image_start" accept="image/*" style="display: none;">
+                        <div class="upload-container">
+                          <label class="imageLabel">Upload Image</label>
+                          <img id="uploadedImage" class="uploadedImage" src="{{ asset( '/' . $Blogs[0]->image_start) }}" alt="Uploaded Image" style="display: block;">
+                        </div>
+                      </div>
+                      <span class="text-danger" id="image_start_err" style="font-size:13px;"></span>
+                    </div>
+
+
+                    <div class="row pt-1 d-flex justify-content-center">
+                      <!-- Display Content Validation Error -->
+                      <div class="col-md-12 stretch-card grid-margin blog__content">
+                        <textarea name="content_start" id="editor_2">{{$Blogs[0]->content_start}}</textarea>
+                      </div>
+                      <span class="text-danger" id="content_err" style="font-size:13px;"></span>
+                    </div>
 
 
 
 
 
-            <h1>The Results<h1>
+                    <h1>The Results<h1>
 
-            <div class="row pt-3 d-flex justify-content-center">
+                        <!-- <div class="row pt-3 d-flex justify-content-center">
               <div class="col-md-12 stretch-card grid-margin d-flex flex-column">
                 <div class="image-uploader">
                   <input type="file" id="image_final" name="image_final" accept="image/*" style="display: none;">
@@ -374,18 +397,31 @@
               </div>
 
               <span class="text-danger" id="image_err" style="font-size:13px;"></span>
-            </div>
+            </div> -->
 
-            <div class="row pt-1 d-flex justify-content-center">
-              <!-- Display Content Validation Error -->
-              <div class="col-md-12 stretch-card grid-margin blog__content">
-                <textarea name="content_final" id="editor_3">{{$Blogs[0]->content_final}}</textarea>
-              </div>
-              <span class="text-danger" id="content_err" style="font-size:13px;"></span>
-            </div>
+                        <div class="col-md-12 stretch-card grid-margin blog__content mt-3 pt-1 pb-3">
+                          <div class="image-uploader">
+                            <input type="file" class="image-input" name="image_final" accept="image/*" style="display: none;">
+                            <div class="upload-container">
+                              <label class="imageLabel">Upload Image</label>
+                              <img id="uploadedImage" class="uploadedImage" src="{{ asset( '/' . $Blogs[0]->image_final) }}" alt="Uploaded Image" style="display: block;">
+                            </div>
+                          </div>
+                          <span class="text-danger" id="image_final_err" style="font-size:13px;"></span>
+                        </div>
 
 
-           
+
+                        <div class="row pt-1 d-flex justify-content-center">
+                          <!-- Display Content Validation Error -->
+                          <div class="col-md-12 stretch-card grid-margin blog__content">
+                            <textarea name="content_final" id="editor_3">{{$Blogs[0]->content_final}}</textarea>
+                          </div>
+                          <span class="text-danger" id="content_err" style="font-size:13px;"></span>
+                        </div>
+
+
+
           </form>
         </div>
       </main>
@@ -407,160 +443,148 @@
   </script>
 
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Handle all image upload sections (for image, image_start, and image_final)
-    const imageUploaders = [
-      { inputId: 'image', labelId: 'imageLabel', imageId: 'uploadedImage', fileName: 'image' },
-      { inputId: 'image_start', labelId: 'imageLabel_start', imageId: 'uploadedImage_start', fileName: 'image_start' },
-      { inputId: 'image_final', labelId: 'imageLabel_final', imageId: 'uploadedImage_final', fileName: 'image_final' }
-    ];
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Select all image uploaders
+      const imageUploaders = document.querySelectorAll('.image-uploader');
 
-    imageUploaders.forEach(function(uploader) {
-      const image = document.getElementById(uploader.inputId);
-      const uploadedImage = document.getElementById(uploader.imageId);
-      const imageLabel = document.getElementById(uploader.labelId);
-      const imageUploader = document.querySelector(`#${uploader.inputId}`).parentElement;
+      imageUploaders.forEach((imageUploader) => {
+        const imageInput = imageUploader.querySelector('.image-input');
+        const uploadedImage = imageUploader.querySelector('.uploadedImage');
+        const imageLabel = imageUploader.querySelector('.imageLabel');
 
-      // Handle image uploader click
-      imageUploader.addEventListener('click', function() {
-        image.click();
-      });
+        imageUploader.addEventListener('click', function() {
+          imageInput.click(); // Trigger the file input click on image uploader click
+        });
 
-      // Handle image file selection
-      image.addEventListener('change', function(event) {
-        const file = event.target.files[0];
-        if (file) {
-          const reader = new FileReader();
-          reader.onload = function(e) {
-            uploadedImage.src = e.target.result;
-            uploadedImage.style.display = 'block';
-            imageLabel.style.display = 'none'; // Hide the upload label
-          };
-          reader.readAsDataURL(file);
-        }
-      });
+        imageInput.addEventListener('change', function(event) {
+          const file = event.target.files[0];
+          if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+              uploadedImage.src = e.target.result; // Set the image source to the uploaded file
+              uploadedImage.style.display = 'block'; // Show the uploaded image
+              imageLabel.style.display = 'none'; // Hide the label after image is uploaded
+            };
+            reader.readAsDataURL(file);
+          }
+        });
 
-      // Handle image click (reset)
-      uploadedImage.addEventListener('click', function() {
-        image.value = ''; // Clear the input value to allow re-upload
-        imageLabel.style.display = 'block'; // Show the label again
-        uploadedImage.style.display = 'none'; // Hide the uploaded image
-        imageUploader.click(); // Trigger the file input click
+        uploadedImage.addEventListener('click', function() {
+          imageInput.value = ''; // Clear the file input value to allow re-upload
+          imageLabel.style.display = 'block'; // Show the label again
+          uploadedImage.style.display = 'none'; // Hide the image
+          imageInput.click(); // Trigger the file input click again
+        });
       });
     });
-
-    
-
-    
-  });
-</script>
+  </script>
 
 
   <!-- CKEditor 5 CDN -->
   <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
 
-<!-- Initialize CKEditor -->
-<script>
-  let editorInstances = [];
+  <!-- Initialize CKEditor -->
+  <script>
+    let editorInstances = [];
 
-  // Initialize each editor individually
-  const editors = ['#editor', '#editor_2', '#editor_3'];
+    // Initialize each editor individually
+    const editors = ['#editor', '#editor_2', '#editor_3'];
 
-  editors.forEach(selector => {
-    ClassicEditor
-      .create(document.querySelector(selector), {
-        toolbar: ['bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote']
-      })
-      .then(editor => {
-        editorInstances.push(editor); // Store each editor instance
-      })
-      .catch(error => {
-        console.error('Error initializing CKEditor:', error);
-      });
-  });
-</script>
+    editors.forEach(selector => {
+      ClassicEditor
+        .create(document.querySelector(selector), {
+          toolbar: ['bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote']
+        })
+        .then(editor => {
+          editorInstances.push(editor); // Store each editor instance
+        })
+        .catch(error => {
+          console.error('Error initializing CKEditor:', error);
+        });
+    });
+  </script>
 
 
-<script>
-  $(document).ready(function() {
-    // Handle form submission for "Save" and "Publish"
-    $(".save, .published").on("click", function(e) {
-      jQuery('.text-danger').empty(); // Clear any previous error messages
-      e.preventDefault(); // Prevent default form submission
+  <script>
+    $(document).ready(function() {
+      // Handle form submission for "Save" and "Publish"
+      $(".save, .published").on("click", function(e) {
+        jQuery('.text-danger').empty(); // Clear any previous error messages
+        e.preventDefault(); // Prevent default form submission
 
-      // Detect the clicked button's status
-      let status = $(this).val();
-      var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+        // Detect the clicked button's status
+        let status = $(this).val();
+        var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-    // Serialize form data
-    let formData = new FormData($("#portfolioForm")[0]);
+        // Serialize form data
+        let formData = new FormData($("#portfolioForm")[0]);
 
-// Loop through each editor and get its content
-editorInstances.forEach((editor, index) => {
-  const content = editor.getData(); // Get content from each editor
-  formData.append('content_' + index, content); // Append to formData with a unique name
-});
+        // Loop through each editor and get its content
+        editorInstances.forEach((editor, index) => {
+          const content = editor.getData(); // Get content from each editor
+          formData.append('content_' + index, content); // Append to formData with a unique name
+        });
 
-      // Add status and content to the formData
-      formData.append("status", status);
-      // formData.append('content', content);
+        // Add status and content to the formData
+        formData.append("status", status);
+        // formData.append('content', content);
 
-      console.log(formData); // Debug: Check form data being sent
-      var baseUrl = window.location.origin;
-      var url = baseUrl + '/savePortfolioForAdminApi_seo'; // Replace with your actual endpoint
+        console.log(formData); // Debug: Check form data being sent
+        var baseUrl = window.location.origin;
+        var url = baseUrl + '/savePortfolioForAdminApi_seo'; // Replace with your actual endpoint
 
-      // Perform the AJAX request
-      $.ajax({
-        url: url,
-        type: "POST",
-        data: formData,
-        contentType: false,
-        processData: false,
-        headers: {
-          'X-CSRF-TOKEN': csrfToken // Add the CSRF token to the headers
-        },
-        beforeSend: function() {
-          // Optional: Show a loader or disable buttons
-          var message = '';
-          if (status === 'save') {
-            message = 'Saving';
-          } else if (status === 'publish') {
-            message = 'Publishing';
+        // Perform the AJAX request
+        $.ajax({
+          url: url,
+          type: "POST",
+          data: formData,
+          contentType: false,
+          processData: false,
+          headers: {
+            'X-CSRF-TOKEN': csrfToken // Add the CSRF token to the headers
+          },
+          beforeSend: function() {
+            // Optional: Show a loader or disable buttons
+            var message = '';
+            if (status === 'save') {
+              message = 'Saving';
+            } else if (status === 'publish') {
+              message = 'Publishing';
+            }
+          },
+          success: function(response) {
+            // Show success alert
+            $("#success_msg").html(response.success).show();
+            $(".alert-danger").hide();
+          },
+          error: function(response) {
+            // Show error alert
+            let errors = response.responseJSON.errors || {};
+
+            $.each(errors, function(field, messages) {
+              // Append error messages to the specific HTML element
+              $('#' + field + '_err').text(messages[0]);
+
+              // Extract the index and field name from the error key
+              var parts = field.split('.');
+              var index = parts[1];
+              var fieldName = parts[2];
+
+              // Construct the error span ID dynamically
+              var errorSpanId = '#' + fieldName + '_' + index + '_err';
+
+              // Set the error message
+              $(errorSpanId).text(fieldName + ' is required');
+            });
+          },
+          complete: function() {
+            $(".save").attr("disabled", false); // Re-enable the save button after the request completes
           }
-        },
-        success: function(response) {
-          // Show success alert
-          $("#success_msg").html(response.success).show();
-          $(".alert-danger").hide();
-        },
-        error: function(response) {
-          // Show error alert
-          let errors = response.responseJSON.errors || {};
-
-          $.each(errors, function(field, messages) {
-            // Append error messages to the specific HTML element
-            $('#' + field + '_err').text(messages[0]);
-
-            // Extract the index and field name from the error key
-            var parts = field.split('.');
-            var index = parts[1];
-            var fieldName = parts[2];
-
-            // Construct the error span ID dynamically
-            var errorSpanId = '#' + fieldName + '_' + index + '_err';
-
-            // Set the error message
-            $(errorSpanId).text(fieldName + ' is required');
-          });
-        },
-        complete: function() {
-          $(".save").attr("disabled", false); // Re-enable the save button after the request completes
-        }
+        });
       });
     });
-  });
-</script>
+  </script>
 
 </body>
 
