@@ -255,7 +255,8 @@
               <div class="col-md-12 stretch-card grid-margin">
                 <select id="category_1" name="category_1">
                   <option value="">-Select Category 1-</option>
-                  <option value="Digital_Marketing">Digital Marketing</option>
+                  <option value="Web_Development">Web Development</option>
+                  <option value="Apps_Development">Apps Development</option>
                   <option value="Software_Development">Software Development</option>
                 </select>
               </div>
@@ -267,14 +268,7 @@
               <div class="col-md-12 stretch-card grid-margin">
                 <select id="category_2" name="category_2">
                   <option value="">-Select Category 2-</option>
-                  <!-- Options for Digital Marketing -->
-                  <option data-parent="Digital_Marketing" value="SEO">SEO</option>
-                  <option data-parent="Digital_Marketing" value="SMO">SMO</option>
-                  <option data-parent="Digital_Marketing" value="PPC">PPC</option>
-                  <option data-parent="Digital_Marketing" value="ORM">ORM</option>
-                  <option data-parent="Digital_Marketing" value="AEO">AEO</option>
-                  <option data-parent="Digital_Marketing" value="Local SEO">Local SEO</option>
-                  <option data-parent="Digital_Marketing" value="SEO Reseller">SEO Reseller</option>
+                  
 
                   <!-- Options for Software Development -->
                   <option data-parent="Software_Development" value="Customer Software Development">Customer Software Development</option>
@@ -386,7 +380,7 @@
   <script src="{{ asset('dashboard_theme/js/app.js') }}"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- jQuery Script -->
-  <script>
+  <!-- <script>
     $(document).ready(function() {
       // On change of category_1
       $('#category_1').change(function() {
@@ -414,7 +408,7 @@
       // Trigger change event on page load to hide irrelevant options
       $('#category_1').trigger('change');
     });
-  </script>
+  </script> -->
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {

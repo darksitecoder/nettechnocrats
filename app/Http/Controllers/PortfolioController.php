@@ -18,7 +18,7 @@ class PortfolioController extends Controller
         $portfolio = portfolio::where('status', 'publish')
             ->orderBy('created_at', 'desc')
             ->paginate(10);  // Paginate results, showing 10 per page
-            // dd($portfolio);
+        // dd($portfolio);
 
         return view('frontend/portfolio/index')->with(compact('portfolio'));
     }
@@ -44,32 +44,34 @@ class PortfolioController extends Controller
     }
 
 
-    public function PortfolioForAdmin(Request $request)
+    public function PortfolioForAdmin($category_1)
     {
+        // dd($category_1);
+        // if (!is_array($category_1)) {
+        //     $category_1 = [$category_1];  // Wrap the string in an array
+        // }
+        // $category_1 = 'Development';
 
         // Check if the user is authenticated
         if (!Auth::check()) {
             // If not authenticated, redirect to login page
             return redirect()->route('login')->with('error', 'Please log in to access this page.');
         }
-        // dd('$portfolio');
 
         // Fetch all blogs (you can add further query filters if needed)
-        $portfolio = portfolio::select('portfolio_no', 'heading', 'company_name', 'content', 'image', 'created_at', 'status')
-            ->whereIn(
-                'id',
-                portfolio::select(DB::raw('MAX(id) as id'))
-                    ->groupBy('portfolio_no')
-                    ->pluck('id')
-            )
+        $portfolio = Portfolio::select('portfolio_no', 'heading', 'company_name', 'content', 'image', 'created_at', 'status')
+            // ->whereIn('category_1', $category_1)  // Ensure $category_1 is an array
+            ->Where('category_1', 'like', '%' . $category_1 . '%')
             ->orderBy('created_at', 'desc')
             ->get();
 
         // dd($portfolio);
-
-        // Return the view with the list of blogs
-        return view('admin/pages/portfolio/portfolio')->with(compact('portfolio'));
+        return view('admin/pages/portfolio/portfolio')->with(compact('portfolio', 'category_1'));
     }
+
+
+
+
     public function createportfolio()
     {
 
@@ -109,40 +111,38 @@ class PortfolioController extends Controller
 
     public function createportfolio_seo()
     {
-         // Find the row with the largest Angebots_Nr
-         $lastOffer = portfolio::select('portfolio_no')
-         ->get()
-         ->map(function ($item) {
-             // Extract the numeric part from Angebots_Nr
-             return (int) Str::after($item->portfolio_no, 'PF-');
-         })
-         ->max();
-     // dd($portfolio);
+        // Find the row with the largest Angebots_Nr
+        $lastOffer = portfolio::select('portfolio_no')
+            ->get()
+            ->map(function ($item) {
+                // Extract the numeric part from Angebots_Nr
+                return (int) Str::after($item->portfolio_no, 'PF-');
+            })
+            ->max();
+        // dd($portfolio);
 
-     if ($lastOffer) {
-         $lastOffer = 'PF-' . $lastOffer;
-         // $lastOffer = $lastOffer->Angebots_Nr;
-         // Assuming $lastOffer is 'AN-12345'
-         // $lastOffer = 'AN-12345';
+        if ($lastOffer) {
+            $lastOffer = 'PF-' . $lastOffer;
+            // $lastOffer = $lastOffer->Angebots_Nr;
+            // Assuming $lastOffer is 'AN-12345'
+            // $lastOffer = 'AN-12345';
 
-         // Split the string into an array based on the dash
-         $parts = explode('-', $lastOffer);
-         $parts = $parts[1];
+            // Split the string into an array based on the dash
+            $parts = explode('-', $lastOffer);
+            $parts = $parts[1];
 
-         // Increment the numeric part
-         $newNumericPart = $parts + 1;
+            // Increment the numeric part
+            $newNumericPart = $parts + 1;
 
-         // Create the new offerNo
-         $newPortfolioNo = 'PF-' . $newNumericPart;
+            // Create the new offerNo
+            $newPortfolioNo = 'PF-' . $newNumericPart;
 
-         // $newOfferNo will be 'AN-12346'
-     } else {
-         $newPortfolioNo = 'PF-1234';
-     }
+            // $newOfferNo will be 'AN-12346'
+        } else {
+            $newPortfolioNo = 'PF-1234';
+        }
 
-     return view('admin/pages/portfolio/creaportfolio_seo')->with(compact('newPortfolioNo'));
-    
-      
+        return view('admin/pages/portfolio/creaportfolio_seo')->with(compact('newPortfolioNo'));
     }
 
     public function portfoliodetail($id)
@@ -151,7 +151,7 @@ class PortfolioController extends Controller
 
         return view('admin/pages/portfolio/portfoliodetail')->with(compact('portfolio'));
     }
-    
+
     public function savePortfolioForAdminApi(Request $request)
     {
         // Get the status from the request
@@ -174,23 +174,7 @@ class PortfolioController extends Controller
             ]);
         }
 
-        // Add additional validation rules based on category_1
-        if ($request->category_1 == 'Digital_Marketing') {
-            $rules = array_merge($rules, [
-                'inputs' => 'required|array',
-                'inputs.*.POS' => 'required|numeric|min:1',
-                'inputs.*.Keywords' => 'required|string|max:255',
-                'inputs.*.RatingBefore' => 'required|numeric|min:0',
-                'inputs.*.RatingAfter' => 'required|numeric|min:0',
-            ]);
-        } else {
-            $rules = array_merge($rules, [
-                'heading' => 'required|string|max:255',
-                'company_name' => 'required|string',
-                'content' => 'required|string|max:100000',
-            ]);
-        }
-
+      
         // Validate the incoming data
         $validatedData = $request->validate($rules);
 
@@ -223,10 +207,7 @@ class PortfolioController extends Controller
                 'company_name' => $request->company_name,
                 'status' => $status,
                 'created_by' => $user->id,
-                'POS' => $dynamicField['POS'],
-                'Keywords' => $dynamicField['Keywords'],
-                'RatingBefore' => $dynamicField['RatingBefore'],
-                'RatingAfter' => $dynamicField['RatingAfter'],
+                
             ]);
         }
 
@@ -235,6 +216,100 @@ class PortfolioController extends Controller
             'success' => 'Portfolio ' . ($status === 'publish' ? 'published' : 'saved') . ' successfully!',
         ]);
     }
+
+
+    public function savePortfolioForAdminApi_seo(Request $request)
+    {
+
+        // Get the status from the request
+        $status = $request->input('status');
+        // dd($status);
+        // dd($request->all()); 
+        
+        // Base validation rules
+        $rules = [
+            'portfolio_no' => 'required',
+            'category_2' => 'required',
+            'heading' => 'required|string|max:255',
+            'company_name' => 'required|string',
+            // 'content' => 'required|max:2000',
+            'content_0' => 'required|max:2000',
+            'content_1' => 'required|max:2000',
+            'status' => 'nullable|string|in:save,publish',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
+            'image_start' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
+            'image_final' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
+        ];
+        
+        
+        if ($request->page_type != 'update') {
+            $rules = array_merge($rules, [
+                'portfolio_no' => 'required|unique:portfolio,portfolio_no',
+               
+            ]);
+        }
+        
+        
+        // Validate the incoming data
+        $validatedData = $request->validate($rules);
+
+        
+        // Get the authenticated user
+        $user = Auth::user();
+
+        // Check and delete existing portfolio if it exists
+        $existingPortfolio = portfolio::where('portfolio_no', $request->portfolio_no)->first();
+        if ($existingPortfolio) {
+            portfolio::where('portfolio_no', $request->portfolio_no)->delete();
+        }
+        $imagePath = $existingPortfolio?->image ?? null;
+
+        // Handle Image Upload
+        if ($request->hasFile('image')) {
+            $imageName = time() . '.' . $request->file('image')->getClientOriginalExtension();
+            $request->file('image')->move(public_path('backend/portfolio'), $imageName);
+            $imagePath = 'backend/portfolio/' . $imageName;
+        }
+
+        if ($request->hasFile('image_start')) {
+            $imageName = time() . '.' . $request->file('image_start')->getClientOriginalExtension();
+            $request->file('image_start')->move(public_path('backend/portfolio'), $imageName);
+            $imagePath_start = 'backend/portfolio/' . $imageName;
+        }
+
+        if ($request->hasFile('image_final')) {
+            $imageName = time() . '.' . $request->file('image_final')->getClientOriginalExtension();
+            $request->file('image_final')->move(public_path('backend/portfolio'), $imageName);
+            $imagePath_final = 'backend/portfolio/' . $imageName;
+        }
+
+            portfolio::create([
+                'portfolio_no' => $request->portfolio_no,
+                'category_1' => $request->category_1,
+                'category_2' => $request->category_2,
+                'image' => $imagePath,
+                'image_start' => $imagePath_start,
+                'image_final' => $imagePath_final,
+                'heading' => $request->heading,
+                'content' => $request->content,
+                'content_start' => $request->content_0,
+                'content_final' => $request->content_1,
+
+                'company_name' => $request->company_name,
+                'status' => $status,
+                'created_by' => $user->id,
+               
+            ]);
+        
+
+        // Return success response
+        return response()->json([
+            'success' => 'Portfolio ' . ($status === 'publish' ? 'published' : 'saved') . ' successfully!',
+        ]);
+    }
+
+
+
 
     public function deletePortfolioForAdminApi(Request $request, $id)
     {
@@ -252,17 +327,32 @@ class PortfolioController extends Controller
     }
 
 
-    public function editPortfolioForAdmin(Request $request, $id,)
+    public function editPortfolioForAdmin_Development(Request $request, $id,)
     {
 
-        $Blogs = portfolio::select()->where('portfolio_no', $id)->orderby('POS', 'ASC')->get();
+        $Blogs = portfolio::select()->where('portfolio_no', $id)->get();
         if (count($Blogs)) {
             $newPortfolioNo = $id;
-            return view('admin/pages/portfolio/editPortfolio')->with(compact('Blogs', 'newPortfolioNo'));
+            return view('admin/pages/portfolio/editPortfolio_developemnt')->with(compact('Blogs', 'newPortfolioNo'));
         } else {
             echo 'Inccorect Pertfolio ID';
         }
     }
+
+
+    public function editPortfolioForAdmin_Digital_Marketing(Request $request, $id,)
+    {
+
+        $Blogs = portfolio::select()->where('portfolio_no', $id)->get();
+        if (count($Blogs)) {
+            $newPortfolioNo = $id;
+            return view('admin/pages/portfolio/editPortfolio_Digital_Marketing')->with(compact('Blogs', 'newPortfolioNo'));
+        } else {
+            echo 'Inccorect Pertfolio ID';
+        }
+    }
+
+
 
 
     public function updatePortfolioForAdminApi(Request $request)

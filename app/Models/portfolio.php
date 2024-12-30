@@ -18,12 +18,13 @@ class portfolio extends Model
         'category_2',
         'heading',
         'content',
+        'content_start',
+        'content_final',
+
         'image',
+        'image_start',
+        'image_final',
         'company_name',
-        'POS',
-        'Keywords',
-        'RatingBefore',
-        'RatingAfter',
         'status',
         'created_by',
     ];
