@@ -193,16 +193,16 @@
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
                   <ul>
-                    <li><a href="{{url('/seo-services/')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
+                    <li><a href="{{url('/portfolio_seo_list')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
 
                   </ul>
                 </div>
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Development</h4>
                   <ul>
-                    <li><a href="{{url('#')}}" data-image="">Software Development</a></li>
-                    <li><a href="{{url('#')}}" data-image="">Web Development</a></li>
-                    <li><a href="{{url('/microsoft-dynamic-crm')}}" data-image="">App Development</a></li>
+                    <li><a href="{{url('/portfolio')}}" data-image="">Software Development</a></li>
+                    <li><a href="{{url('/portfolio')}}" data-image="">Web Development</a></li>
+                    <li><a href="{{url('/portfolio')}}" data-image="">App Development</a></li>
 
                   </ul>
                 </div>
