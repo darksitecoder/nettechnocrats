@@ -45,13 +45,14 @@ class PortfolioController extends Controller
     }
 
 
-    public function portfolio_seo_detail()
+    public function portfolio_seo_detail($id)
     {
-        // $portfolio = portfolio::where('status', 'publish')
-        //     ->orderBy('created_at', 'desc')
-        //     ->paginate(10); 
+        $portfolio = portfolio::where('status', 'publish')
+        ->Where('id', $id)
+          ->get(); 
 
-        return view('frontend/portfolio/portfolio_seo_detail');
+        // dd($portfolio);
+        return view('frontend/portfolio/portfolio_seo_detail')->with(compact('portfolio'));
     }
 
 
@@ -70,7 +71,7 @@ class PortfolioController extends Controller
         }
 
         // Fetch all blogs (you can add further query filters if needed)
-        $portfolio = Portfolio::select('portfolio_no', 'heading', 'company_name', 'content', 'image', 'created_at', 'status')
+        $portfolio = Portfolio::select('id','portfolio_no', 'heading', 'company_name','category_1', 'content', 'image', 'created_at', 'status')
             // ->whereIn('category_1', $category_1)  // Ensure $category_1 is an array
             ->Where('category_1', 'like', '%' . $category_1 . '%')
             ->orderBy('created_at', 'desc')
@@ -343,10 +344,11 @@ class PortfolioController extends Controller
 
 
 
-    public function deletePortfolioForAdminApi(Request $request, $id)
+    public function deletePortfolioForAdminApi(Request $request, $id, $category_1)
     {
 
-        $deletedBlog = portfolio::where('portfolio_no', $id)->delete();
+        // dd($request->all());
+        $deletedBlog = portfolio::where('id', $id)->delete();
 
         if ($deletedBlog) {
             $request->session()->flash('success', 'Portfolio Deleted Successfully');
@@ -354,8 +356,8 @@ class PortfolioController extends Controller
             $request->session()->flash('error', 'Portfolio Not Deleted');
         }
 
-        // Return response (redirect to the same page)
-        return redirect()->to('PortfolioForAdmin');
+         // Return redirect to the portfolio page based on the category
+    return redirect()->route('PortfolioForAdmin', ['category_1' => $category_1]);
     }
 
 

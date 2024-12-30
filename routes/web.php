@@ -96,7 +96,7 @@ Route::get('/tour-travel-app-development', [IndustriesController::class, 'travel
 
 Route::get('/portfolio', [PortfolioController::class, 'index']);
 Route::get('/portfolio_seo_list', [PortfolioController::class, 'portfolio_seo']);
-Route::get('/portfolio_seo_detail', [PortfolioController::class, 'portfolio_seo_detail']);
+Route::get('/portfolio_seo_detail/{id}', [PortfolioController::class, 'portfolio_seo_detail']);
 
 Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
 
@@ -184,9 +184,9 @@ Route::post('savePortfolioForAdminApi', [PortfolioController::class, 'savePortfo
 
 Route::post('savePortfolioForAdminApi_seo', [PortfolioController::class, 'savePortfolioForAdminApi_seo'])->name('savePortfolioForAdminApi_seo');
 
-Route::get('PortfolioForAdmin/{category_1}',[PortfolioController::class, 'PortfolioForAdmin']);
+Route::get('PortfolioForAdmin/{category_1}',[PortfolioController::class, 'PortfolioForAdmin'])->name('PortfolioForAdmin');
 Route::get('/createportfolio_Developemnt', [PortfolioController::class, 'createportfolio']);
-Route::get('/createportfolio_Seo', [PortfolioController::class, 'createportfolio_seo']);
+Route::get('/createportfolio_Seo', [PortfolioController::class, 'createportfolio_seo']);    
 
 Route::get('editPortfolioForAdmin_Development/{id}', [PortfolioController::class, 'editPortfolioForAdmin_Development']);
 Route::get('editPortfolioForAdmin_Digital_Marketing/{id}', [PortfolioController::class, 'editPortfolioForAdmin_Digital_Marketing']);
@@ -195,7 +195,7 @@ Route::get('/createportfolio', [PortfolioController::class, 'createportfolio'])-
 Route::get('editBlogsForAdmin/{id}', [blogController::class, 'editBlogsForAdmin']);
 Route::post('updatePortfolioForAdminApi', [PortfolioController::class, 'updatePortfolioForAdminApi']);
 
-Route::get('deletePortfolioForAdminApi/{id}', [PortfolioController::class, 'deletePortfolioForAdminApi']);
+Route::delete('deletePortfolioForAdminApi/{id}/{category_1}', [PortfolioController::class, 'deletePortfolioForAdminApi'])->name('deletePortfolioForAdminApi');
 
 
 
