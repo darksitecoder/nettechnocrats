@@ -16,8 +16,9 @@ class PortfolioController extends Controller
     public function index()
     {
         $portfolio = portfolio::where('status', 'publish')
+        ->Where('category_1', 'like', '%' . 'Development' . '%')
             ->orderBy('created_at', 'desc')
-            ->paginate(10);  // Paginate results, showing 10 per page
+            ->paginate(5);  // Paginate results, showing 10 per page
         // dd($portfolio);
 
         return view('frontend/portfolio/index')->with(compact('portfolio'));
@@ -30,7 +31,17 @@ class PortfolioController extends Controller
         //     ->orderBy('created_at', 'desc')
         //     ->paginate(10); 
 
-        return view('frontend/portfolio/seo_portfolio');
+      
+
+        $portfolio = portfolio::where('status', 'publish')
+        ->Where('category_1', 'like', '%' . 'Digital_Marketing' . '%')
+            ->orderBy('created_at', 'desc')
+            ->paginate(5);  
+        // dd($portfolio);
+
+        return view('frontend/portfolio/seo_portfolio')->with(compact('portfolio'));
+
+
     }
 
 
@@ -232,6 +243,7 @@ class PortfolioController extends Controller
             'category_2' => 'required',
             'heading' => 'required|string|max:255',
             'company_name' => 'required|string',
+            'industry' => 'required|string',
             'content_0' => 'required|max:2000',
             'content_1' => 'required|max:2000',
             'content_2' => 'required|max:2000',
@@ -293,6 +305,8 @@ class PortfolioController extends Controller
                 'content_start' => $request->content_1,
                 'content_final' => $request->content_2,
                 'company_name' => $request->company_name,
+                'industry' => $request->industry,
+
                 'status' => $status,
                 'created_by' => $user->id,
             ]);
@@ -310,6 +324,8 @@ class PortfolioController extends Controller
                 'content_start' => $request->content_1,
                 'content_final' => $request->content_2,
                 'company_name' => $request->company_name,
+                'industry' => $request->industry,
+
                 'status' => $status,
                 'created_by' => $user->id,
             ]);

@@ -323,6 +323,8 @@
                 <input type="text" id="heading" name="heading" class="blog__heading" value="" placeholder="Enter Heading Here...">
               </div>
               <span class="text-danger" id="heading_err" style="font-size:13px;"></span>
+
+              
             </div>
 
             <div class="row pt-1 my-3 d-flex justify-content-center">
@@ -331,7 +333,7 @@
                 <input type="text" id="company_name" name="company_name" class="blog__company_name input__feilds" value="" placeholder="Enter Company Name">
               </div>
               <div class="col-md-6 stretch-card grid-margin">
-                <input type="text" id="company_name" name="company_name" class="blog__company_name input__feilds" value="" placeholder="Enter Industry">
+                <input type="text" id="industry" name="industry" class="blog__company_name input__feilds" value="" placeholder="Enter Industry">
               </div>
               <span class="text-danger" id="company_name_err" style="font-size:13px;"></span>
             </div>

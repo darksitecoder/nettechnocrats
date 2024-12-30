@@ -17,6 +17,7 @@ class portfolio extends Model
         'category_1',
         'category_2',
         'heading',
+        'industry',
         'content',
         'content_start',
         'content_final',

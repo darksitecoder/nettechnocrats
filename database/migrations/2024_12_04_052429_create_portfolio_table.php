@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('category_2');
     
             $table->text('heading')->nullable();
+            $table->text('industry')->nullable();
+
             $table->text('company_name')->nullable();
             $table->text('content')->nullable();
             $table->text('content_start')->nullable();
