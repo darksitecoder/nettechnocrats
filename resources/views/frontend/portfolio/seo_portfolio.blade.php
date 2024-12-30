@@ -114,9 +114,12 @@
 
 
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.png') }}'); background-repeat:no-repeat; background-size:cover;">
+                <div class="service-item" style="background: url('{{ asset('/' . $blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
+                    
                     <div class="service-img">
-                        <img src="{{ asset('assets/web/nettechnocrats-logo.png') }}" alt="" srcset="">
+                        <!-- <img src="{{ asset('assets/web/nettechnocrats-logo.png') }}" alt="" srcset=""> -->
+
+                        
                     </div>
                     <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
                         <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>
@@ -126,7 +129,7 @@
                         </div>
                     </div>
                     <div class="rounded-bottom text-center pt-3">
-                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">SEE CASE STUDY</a>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="{{ url('/portfolio_seo_detail/' . $blog->id)}}">SEE CASE STUDY</a>  
                     </div>
                     <div class="rounded-bottom text-center pt-3">
                         <p class="text-center p-0 m-0 fw-bold text-white">{!! \Illuminate\Support\Str::words($blog->company_name, 20) !!}</p>

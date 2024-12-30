@@ -151,7 +151,16 @@
 
 
                   
-                    <td class="d-none d-md-table-cell"><a href="{{ url('/deletePortfolioForAdminApi/' . $blog->portfolio_no) }}"><button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button></a></td>
+              <td class="d-none d-md-table-cell">
+    <form action="{{ route('deletePortfolioForAdminApi', ['id' => $blog->id, 'category_1' => $blog->category_1]) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this portfolio?');">
+        @csrf
+        @method('DELETE') <!-- Use DELETE method if deleting an item -->
+        <button type="submit" class="badge bg-danger px-2 py-1 fs-6 delete">
+            Delete <i class="fa-solid fa-trash"></i>
+        </button>
+    </form>
+</td>
+
                     </tr>
                     @endforeach
 
