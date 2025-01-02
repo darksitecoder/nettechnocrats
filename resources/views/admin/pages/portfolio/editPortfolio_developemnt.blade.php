@@ -289,7 +289,7 @@
                   <input type="file" id="image" name="image" accept="image/*" style="display: none;">
                   <div class="upload-container">
                     <label for="image" id="imageLabel">Upload Image</label>
-                    <img id="uploadedImage" src="{{ asset( '/' . $Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
+                    <img id="uploadedImage" src="{{ asset( 'public/' . $Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
                   </div>
                 </div>
               </div>

@@ -13,10 +13,11 @@ use Illuminate\Support\Facades\DB;
 class PortfolioController extends Controller
 {
     //
-    public function index()
+    public function index($category_1)
     {
+        // dd($category_1);
         $portfolio = portfolio::where('status', 'publish')
-        ->Where('category_1', 'like', '%' . 'Development' . '%')
+        ->Where('category_1', 'like', '%' . $category_1 . '%')
             ->orderBy('created_at', 'desc')
             ->paginate(5);  // Paginate results, showing 10 per page
         // dd($portfolio);
@@ -30,6 +31,7 @@ class PortfolioController extends Controller
         // $portfolio = portfolio::where('status', 'publish')
         //     ->orderBy('created_at', 'desc')
         //     ->paginate(10); 
+
 
       
 
