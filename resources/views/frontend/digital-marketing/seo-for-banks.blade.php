@@ -83,7 +83,7 @@
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
+      <img src="{{ asset('assets/web/seo-for-banks.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
      </div>
     </div>
@@ -325,9 +325,9 @@
      </div>
     </div>
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-     <div class="seo__animation__gif">
+     <div class="seo__animation__gifs">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+       <img src="{{ asset('assets/web/Banks.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
       </div>
      </div>
