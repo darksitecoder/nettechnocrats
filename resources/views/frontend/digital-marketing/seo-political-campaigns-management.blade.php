@@ -74,16 +74,7 @@
             <p class="mb-4">SEO is standard practice for large, medium or small organizations. It is an attempt to drive the traffic from search engines. Along with the big and small company of various sectors, Search Engine Optimization is now an important practice for political sector.</p>
             <p class="mb-4 fw-bolder fs-5">Why Politicians SEO?</p>
             <p class="mb-4">Politician campaign is now a business and the target audience is the voter. A political campaign when crafted rightly according to the voter’s requirement, it deliberates the real power. Many politicians tend to choose SEO for political campaigns. However, for others, SEO appears as an afterthought. It is looked like a part of politician campaign, but in reality, it holds the key to reach voters. SEO for politicians can easily control the identity, issues related to bad image, and much more.</p>
-            <p class="mb-4">While many candidates begin to make inroads by adopting digital strategies from the top firms, the organization seems to neglect the main ingredient of online marketing, i.e. Search Engine Optimization or SEO. However, we at Nettechnocrats have the best team with expertise in digital marketing and hence offer extensive politicians SEO.</p>
-            <p class="mb-4">Our politicians SEO with digital marketing hold a true phenomenon at all level. From local council election to high-profile nationally recognized Parliament Elections, our SEO team makes a great strategy that works like a pro. The team recognizes the requirement of promotion for politics along with other works to do for political campaign.</p>
 
-            <div class="row g-4">
-
-              <div class="col-sm-6">
-                <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
-              </div>
-
-            </div>
           </div>
         </div>
         <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
@@ -92,6 +83,17 @@
 
           </div>
         </div>
+      </div>
+
+
+      <div class="row g-4">
+
+        <div class="col-sm-12">
+          <p class="mb-4">While many candidates begin to make inroads by adopting digital strategies from the top firms, the organization seems to neglect the main ingredient of online marketing, i.e. Search Engine Optimization or SEO. However, we at Nettechnocrats have the best team with expertise in digital marketing and hence offer extensive politicians SEO.</p>
+          <p class="mb-4">Our politicians SEO with digital marketing hold a true phenomenon at all level. From local council election to high-profile nationally recognized Parliament Elections, our SEO team makes a great strategy that works like a pro. The team recognizes the requirement of promotion for politics along with other works to do for political campaign.</p>
+          <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        </div>
+
       </div>
     </div>
   </div>
