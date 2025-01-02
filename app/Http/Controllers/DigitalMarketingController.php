@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\portfolio;
 
 class DigitalMarketingController extends Controller
 {
@@ -22,7 +23,9 @@ class DigitalMarketingController extends Controller
 
     public function seo()
     {
-        return view('frontend.digital-marketing.seo');
+        $datas = portfolio::where('category_2', 'SEO')->get();
+        // dd($datas);
+        return view('frontend.digital-marketing.seo', compact('datas'));
     }
     public function smo()
     {
