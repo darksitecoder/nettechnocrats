@@ -35,8 +35,8 @@
 					<h1 class="h3 mb-3"><strong>Analytics</strong> Dashboard</h1>
 
 					<div class="row">
-						
-							
+
+
 
 						<div class="col-xl-12 col-xxl-12">
 							<div class="card flex-fill w-100">
@@ -102,7 +102,6 @@
 						<div class="col-12 col-md-6 col-xxl-3 d-flex order-1 order-xxl-1">
 							<div class="card flex-fill">
 								<div class="card-header">
-
 									<h5 class="card-title mb-0">Calendar</h5>
 								</div>
 								<div class="card-body d-flex">
@@ -194,7 +193,7 @@
 								</table>
 							</div>
 						</div> -->
-						<!-- <div class="col-12 col-lg-4 col-xxl-3 d-flex">
+					<!-- <div class="col-12 col-lg-4 col-xxl-3 d-flex">
 							<div class="card flex-fill w-100">
 								<div class="card-header">
 
@@ -216,6 +215,13 @@
 
 		</div>
 	</div>
+
+	<!-- Include the necessary CSS and JS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+
 
 
 	<script>
@@ -437,10 +443,17 @@
 			});
 		});
 	</script>
+
+	
 	<script>
 		document.addEventListener("DOMContentLoaded", function() {
-			var date = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000);
-			var defaultDate = date.getUTCFullYear() + "-" + (date.getUTCMonth() + 1) + "-" + date.getUTCDate();
+			var date = new Date();
+			// alert(date);
+			var year = date.getUTCFullYear();
+			var month = ('0' + (date.getUTCMonth() + 1)).slice(-2);
+			var day = ('0' + date.getUTCDate()).slice(-2);
+			var defaultDate = year + "-" + month + "-" + day;
+
 			document.getElementById("datetimepicker-dashboard").flatpickr({
 				inline: true,
 				prevArrow: "<span title=\"Previous month\">&laquo;</span>",

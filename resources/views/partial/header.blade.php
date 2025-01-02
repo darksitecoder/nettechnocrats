@@ -188,7 +188,7 @@
               </div>
             </li>
             <li class="menu-item-has-children">
-              <a href="{{url('/portfolio/')}}">Portfolio <i class="fa fa-angle-down"></i></a>
+              <a href="{{url('/portfolio_seo_list')}}">Portfolio <i class="fa fa-angle-down"></i></a>
               <div class="sub-menu mega-menu mega-menu-column-2">
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
@@ -200,9 +200,9 @@
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Development</h4>
                   <ul>
-                    <li><a href="{{url('/portfolio')}}" data-image="">Software Development</a></li>
-                    <li><a href="{{url('/portfolio')}}" data-image="">Web Development</a></li>
-                    <li><a href="{{url('/portfolio')}}" data-image="">App Development</a></li>
+                    <li><a href="{{url('/portfolio/software_development')}}" data-image="">Software Development</a></li>
+                    <li><a href="{{url('/portfolio/web_development')}}" data-image="">Web Development</a></li>
+                    <li><a href="{{url('/portfolio/Apps_development')}}" data-image="">App Development</a></li>
 
                   </ul>
                 </div>

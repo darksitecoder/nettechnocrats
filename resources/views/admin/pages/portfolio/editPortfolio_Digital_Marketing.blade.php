@@ -309,7 +309,7 @@
                 <input type="file" class="image-input" name="image" accept="image/*" style="display: none;">
                 <div class="upload-container">
                   <label class="imageLabel">Upload Image</label>
-                  <img class="uploadedImage" id="uploadedImage" src="{{ asset( '/' . $Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
+                  <img class="uploadedImage" id="uploadedImage" src="{{ asset( 'public/' . $Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
                 </div>
               </div>
             </div>
@@ -364,7 +364,7 @@
                         <input type="file" class="image-input" name="image_start" accept="image/*" style="display: none;">
                         <div class="upload-container">
                           <label class="imageLabel">Upload Image</label>
-                          <img id="uploadedImage" class="uploadedImage" src="{{ asset( '/' . $Blogs[0]->image_start) }}" alt="Uploaded Image" style="display: block;">
+                          <img id="uploadedImage" class="uploadedImage" src="{{ asset( 'public/' . $Blogs[0]->image_start) }}" alt="Uploaded Image" style="display: block;">
                         </div>
                       </div>
                       <span class="text-danger" id="image_start_err" style="font-size:13px;"></span>
@@ -400,7 +400,7 @@
                             <input type="file" class="image-input" name="image_final" accept="image/*" style="display: none;">
                             <div class="upload-container">
                               <label class="imageLabel">Upload Image</label>
-                              <img id="uploadedImage" class="uploadedImage" src="{{ asset( '/' . $Blogs[0]->image_final) }}" alt="Uploaded Image" style="display: block;">
+                              <img id="uploadedImage" class="uploadedImage" src="{{ asset( 'public/' . $Blogs[0]->image_final) }}" alt="Uploaded Image" style="display: block;">
                             </div>
                           </div>
                           <span class="text-danger" id="image_final_err" style="font-size:13px;"></span>
