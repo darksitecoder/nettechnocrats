@@ -357,7 +357,7 @@
           </div>
         </div>
         <div class="rounded-bottom text-center pt-3">
-          <a class="btn btn-primary rounded-pill py-2 px-4" href="#">SEE CASE STUDY</a>
+          <a class="btn btn-primary rounded-pill py-2 px-4" href="{{url('portfolio_seo_detail/'.$data->id)}}">SEE CASE STUDY</a>
         </div>
         <div class="rounded-bottom text-center pt-3">
           <p class="text-center p-0 m-0 fw-bold text-white">{{$data->company_name}}</p>
@@ -367,6 +367,8 @@
       @endforeach
     </div>
   </section>
+
+  
   <section class="light-background why__choose__Net">
     <div class="container">
       <h2>Why Nettechnocrats for Digital Marketing Services?</h2>

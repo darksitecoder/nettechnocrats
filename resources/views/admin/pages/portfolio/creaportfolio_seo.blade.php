@@ -294,12 +294,8 @@
                   <option data-parent="Digital_Marketing" value="Local SEO">Local SEO</option>
                   <option data-parent="Digital_Marketing" value="SEO Reseller">SEO Reseller</option>
 
-                  <!-- Options for Software Development -->
-                  <option data-parent="Software_Development" value="Customer Software Development">Customer Software Development</option>
-                  <option data-parent="Software_Development" value="ERP Software Development">ERP Software Development</option>
-                  <option data-parent="Software_Development" value="CRM Development">CRM Development</option>
-                  <option data-parent="Software_Development" value="Salesforce Development">Salesforce Development</option>
-                  <option data-parent="Software_Development" value="Iot">Iot</option>
+
+                  
                 </select>
                 <span class="text-danger" id="category_2_err" style="font-size:13px;"></span>
               </div>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\portfolio;
 
 class TechController extends Controller
 {
@@ -45,14 +46,19 @@ class TechController extends Controller
     {
         return view('frontend/tech/codeigniter');
     }
+
     public function microsoftcrm()
     {
-        return view('frontend/tech/microsoftcrm');
+        $datas = portfolio::where('category_2', 'CRM Development')->get();
+        return view('frontend/tech/microsoftcrm', compact('datas'));
     }
+
     public function salesforce()
     {
-        return view('frontend/tech/salesforce');
+        $datas = portfolio::where('category_2', 'Salesforce Development')->get();
+        return view('frontend/tech/salesforce', compact('datas'));
     }
+
     public function android()
     {
         return view('frontend/tech/android');
@@ -109,10 +115,14 @@ class TechController extends Controller
     {
         return view('frontend/tech/ibeacon');
     }
+
+
     public function iot()
     {
-        return view('frontend/tech/iot');
+        $datas = portfolio::where('category_2', 'Iot')->get();
+        return view('frontend/tech/iot', compact('datas'));
     }
+
     public function blockchain()
     {
         return view('frontend/tech/blockchain');

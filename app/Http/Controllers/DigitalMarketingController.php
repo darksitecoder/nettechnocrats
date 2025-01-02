@@ -24,25 +24,33 @@ class DigitalMarketingController extends Controller
     public function seo()
     {
         $datas = portfolio::where('category_2', 'SEO')->get();
-        // dd($datas);
         return view('frontend.digital-marketing.seo', compact('datas'));
     }
+
     public function smo()
-    {
-        return view('frontend.digital-marketing.smo');
+    {        
+        $datas = portfolio::where('category_2', 'SMO')->get();
+        return view('frontend.digital-marketing.smo', compact('datas'));
     }
+   
     public function ppc()
     {
-        return view('frontend.digital-marketing.ppc');
+        $datas = portfolio::where('category_2', 'PPC')->get();
+        return view('frontend.digital-marketing.ppc', compact('datas'));
     }
+
     public function local()
     {
-        return view('frontend.digital-marketing.local');
+        $datas = portfolio::where('category_2', 'Local SEO')->get();
+        return view('frontend.digital-marketing.local', compact('datas'));
     }
+
     public function orm()
     {
-        return view('frontend.digital-marketing.orm');
+        $datas = portfolio::where('category_2', 'ORM')->get();
+        return view('frontend.digital-marketing.orm', compact('datas'));
     }
+
     public function aboutus()
     {
 
