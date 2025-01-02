@@ -5,114 +5,6 @@
 @section('meta_description', 'This is a brief description of the home page for SEO purposes.')
 
 @section('meta_keywords', 'laravel, home, keywords')
-
-<link rel="stylesheet" href="style.css">
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<style>
-  .portfolio-slider {
-    display: flex;
-    justify-content: center;
-  }
-
-  .slider {
-    max-width: 1100px;
-    display: flex;
-  }
-
-  .slider .card {
-    flex: 1;
-    margin: 0 10px;
-    background: #fff;
-  }
-
-  .slider .card .img {
-    height: 200px;
-    width: 100%;
-  }
-
-  .slider .card .img img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .slider .card .content {
-    padding: 10px 20px;
-  }
-
-  .service-item {
-    background: var(--bs-light);
-    border-radius: 10px;
-    padding-top: 2.5rem;
-    transition: 0.20s;
-    border: 1px solid var(--accent-color);
-    height: 400px;
-    width: 350px;
-  }
-
-
-  .service-item::after {
-    content: '';
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Adjust the opacity here */
-    z-index: 1;
-  }
-
-  .service-item .btn {
-    font-weight: 700;
-  }
-
-  .service-item:hover .btn {
-    font-weight: 700;
-    color: var(--white) !important;
-  }
-
-  .service-item .btn:hover {
-    color: var(--accent-color) !important;
-  }
-
-  .service .service-item:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .service-item:hover a {
-    color: black !important;
-  }
-
-  .service-item:hover i {
-    color: green !important;
-  }
-
-  .service-item .service-img {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0px 0px 0px;
-    transition: 0.20s;
-  }
-
-  .service-item i {
-    transition: 0.20s;
-    font-size: 70px;
-  }
-
-  .service-item:hover .service-img i {
-    transform: scale(1.2);
-  }
-
-  .service-item .h4 {
-    font-weight: 600;
-    font-size: 18px;
-    text-align: center;
-    cursor: default;
-  }
-</style>
 @section('content')
 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
@@ -455,23 +347,23 @@
   <section class="portfolio-slider">
     <div class="slider owl-carousel">
       @foreach($datas as $data)
-        <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.png') }}'); background-repeat:no-repeat; background-size:cover;">
+      <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.png') }}'); background-repeat:no-repeat; background-size:cover;">
 
-          <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
-            <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>
-            <div class="h4 text-center">
-              <p class="fs-1 m-0 p-0 text-white">320%</p>
-              <p class=" m-0 p-0 text-white">Website Leads</p>
-            </div>
-          </div>
-          <div class="rounded-bottom text-center pt-3">
-            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">SEE CASE STUDY</a>
-          </div>
-          <div class="rounded-bottom text-center pt-3">
-            <p class="text-center p-0 m-0 fw-bold text-white">{{$data->company_name}}</p>
-            <p class="mb-4 p-0 m-0 fw-bold text-white">| {{$data->industry}} |</p>
+        <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
+          <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>
+          <div class="h4 text-center">
+            <p class="fs-1 m-0 p-0 text-white">320%</p>
+            <p class=" m-0 p-0 text-white">Website Leads</p>
           </div>
         </div>
+        <div class="rounded-bottom text-center pt-3">
+          <a class="btn btn-primary rounded-pill py-2 px-4" href="#">SEE CASE STUDY</a>
+        </div>
+        <div class="rounded-bottom text-center pt-3">
+          <p class="text-center p-0 m-0 fw-bold text-white">{{$data->company_name}}</p>
+          <p class="mb-4 p-0 m-0 fw-bold text-white">| {{$data->industry}} |</p>
+        </div>
+      </div>
       @endforeach
     </div>
   </section>
@@ -567,12 +459,5 @@
 
 </main>
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-<script>
-  $(".slider").owlCarousel({
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 2000, //2000ms = 2s;
-    autoplayHoverPause: true,
-  });
-</script>
+
 @endsection

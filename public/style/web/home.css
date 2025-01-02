@@ -14671,3 +14671,107 @@ footer .row img {
     display: none;
   }
 } */
+
+
+/* Portfolio show */
+.portfolio-slider {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-slider .slider {
+  max-width: 1100px;
+  display: flex;
+}
+
+.portfolio-slider .slider .card {
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+
+.portfolio-slider .slider .card .img {
+  height: 200px;
+  width: 100%;
+}
+
+.portfolio-slider .slider .card .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio-slider .slider .card .content {
+  padding: 10px 20px;
+}
+
+.portfolio-slider .service-item {
+  background: var(--bs-light);
+  border-radius: 10px;
+  padding-top: 2.5rem;
+  transition: 0.20s;
+  border: 1px solid var(--accent-color);
+  height: 400px;
+  width: 350px;
+}
+
+
+.portfolio-slider .service-item::after {
+  content: '';
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust the opacity here */
+  z-index: 1;
+}
+
+.portfolio-slider .service-item .btn {
+  font-weight: 700;
+}
+
+.portfolio-slider .service-item:hover .btn {
+  font-weight: 700;
+  color: var(--white) !important;
+}
+
+.portfolio-slider .service-item .btn:hover {
+  color: var(--accent-color) !important;
+}
+
+.portfolio-slider .service .service-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.portfolio-slider .service-item:hover a {
+  color: black !important;
+}
+
+.portfolio-slider .service-item:hover i {
+  color: green !important;
+}
+
+.service-item .service-img {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 0px 0px;
+  transition: 0.20s;
+}
+
+.service-item i {
+  transition: 0.20s;
+  font-size: 70px;
+}
+
+.service-item:hover .service-img i {
+  transform: scale(1.2);
+}
+
+.service-item .h4 {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  cursor: default;
+}

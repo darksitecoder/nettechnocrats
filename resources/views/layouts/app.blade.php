@@ -17,6 +17,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
         referrerpolicy="no-referrer" />
 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
     <!-- Vendor CSS Files -->
     <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
@@ -240,27 +245,27 @@
                                 </div>
                             </li>
                             <li class="menu-item-has-children">
-              <a href="{{url('/portfolio_seo_list')}}">Portfolio <i class="fa fa-angle-down"></i></a>
-              <div class="sub-menu mega-menu mega-menu-column-2">
-                <div class="list-item">
-                  <h4 class="title fw-bold ps-4">Digital Marketing</h4>
-                  <ul>
-                    <li><a href="{{url('/portfolio_seo_list')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
+                                <a href="{{url('/portfolio_seo_list')}}">Portfolio <i class="fa fa-angle-down"></i></a>
+                                <div class="sub-menu mega-menu mega-menu-column-2">
+                                    <div class="list-item">
+                                        <h4 class="title fw-bold ps-4">Digital Marketing</h4>
+                                        <ul>
+                                            <li><a href="{{url('/portfolio_seo_list')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
 
-                  </ul>
-                </div>
-                <div class="list-item">
-                  <h4 class="title fw-bold ps-4">Development</h4>
-                  <ul>
-                    <li><a href="{{url('/portfolio/software_development')}}" data-image="">Software Development</a></li>
-                    <li><a href="{{url('/portfolio/web_development')}}" data-image="">Web Development</a></li>
-                    <li><a href="{{url('/portfolio/Apps_development')}}" data-image="">App Development</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title fw-bold ps-4">Development</h4>
+                                        <ul>
+                                            <li><a href="{{url('/portfolio/software_development')}}" data-image="">Software Development</a></li>
+                                            <li><a href="{{url('/portfolio/web_development')}}" data-image="">Web Development</a></li>
+                                            <li><a href="{{url('/portfolio/Apps_development')}}" data-image="">App Development</a></li>
 
-                  </ul>
-                </div>
+                                        </ul>
+                                    </div>
 
-              </div>
-            </li>
+                                </div>
+                            </li>
                             <li class="menu-item-has-children">
                                 <a href="#">Resources <i class="fas fa-angle-down"></i></a>
                                 <div class="sub-menu single-column-menu">
@@ -395,7 +400,14 @@
 
     <!-- Main JS File -->
     <script src="{{ asset('js/vendor/main.js') }}"></script>
-
+    <script>
+        $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+        });
+    </script>
 </body>
 @include('partial/footer')
 
