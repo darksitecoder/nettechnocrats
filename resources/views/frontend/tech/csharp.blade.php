@@ -253,7 +253,14 @@
                 <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="seo__animation__gifs">
 
-                        <img src="{{ asset('assets/web/c-sharp-img.png') }}" class="img-fluid image-with-shadow w-100" alt="">
+                        <img src="{{ asset('assets/web/c-sharp-img.png') }}" class="img-fluid image-with-shadow w-100
+                        
+                        
+                        
+                        
+                        
+                        
+                        " alt="">
                     </div>
                 </div>
             </div>
