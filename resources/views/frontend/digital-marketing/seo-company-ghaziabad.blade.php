@@ -54,7 +54,7 @@
    </div>
   </div>
  </div>
- <div class="container-fluid ">
+ <!-- <div class="container-fluid ">
   <div class="container py-2">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-12 wow fadeInLeft">
@@ -64,7 +64,7 @@
     </div>
    </div>
   </div>
- </div>
+ </div> -->
  <div class="container-fluid about py-5">
   <div class="container py-5">
 
@@ -166,7 +166,7 @@
   </div>
  </div>
  <!-- Services End -->
-
+<div class="container">
     <h2 class="pb-5">Ghaziabad's Best SEO Services</h2>
 	<p class="mb-4">Ghaziabad’s Best SEO Services boost organic traffic by helping your website rank on the first page of search engine results at the top. For this reason, our team of Ghaziabad’s SEO services will work together to develop methods. It is based on successful tactics to improve your website for startup SEO services.</p>
 	
@@ -175,7 +175,7 @@
 	<p class="mb-4">Small and medium-sized businesses and startups can rely on our player’s years of experience. We focus on organic SEO and content marketing to help grow your startup’s online presence and brand awareness.</p>
 
 	<p class="mb-4">Many Ghaziabad-based businesses rely on us for their SEO needs. Our strong client retention rate is further proof of our high-quality work in this city’s search engine marketing industry. The most brilliant option you can make for your organisation is to hire the top SEO firm in Ghaziabad.</p>
-
+  </div>
 
  <div class="container-fluid about py-5">
   <div class="container py-5">
@@ -289,7 +289,7 @@
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gif">
       <div class="rounded-4 position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/android-image.webp') }}" class="img-fluid w-100" alt="">
+       <img src="{{ asset('assets/web/images-removebg-preview.webp') }}" class="img-fluid w-100" alt="">
 
       </div>
      </div>
