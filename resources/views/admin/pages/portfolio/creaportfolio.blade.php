@@ -255,9 +255,9 @@
               <div class="col-md-12 stretch-card grid-margin">
                 <select id="category_1" name="category_1">
                   <option value="">-Select Category 1-</option>
+                  <option value="Software_Development">Software Development</option>
                   <option value="Web_Development">Web Development</option>
                   <option value="Apps_Development">Apps Development</option>
-                  <option value="Software_Development">Software Development</option>
                 </select>
               </div>
               <span class="text-danger" id="category_1_err" style="font-size:13px;"></span>
@@ -267,8 +267,18 @@
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <div class="col-md-12 stretch-card grid-margin">
                 <select id="category_2" name="category_2">
-                  <option value="">-Select Category 2-</option>
-                  
+                  <option value="">-Select Category 2-</option>                 
+
+                  <!-- Options for App Development -->
+                  <option data-parent="Apps_Development" value="UI/UX/Product Design">UI/UX/Product Design</option>
+                  <option data-parent="Apps_Development" value="PWA">PWA</option>
+
+                  <!-- Options for Web Development -->
+                  <option data-parent="Web_Development" value="Python">Python</option>
+                  <option data-parent="Web_Development" value="WordPress">WordPress</option>
+                  <option data-parent="Web_Development" value="Magento">Magento</option>
+                  <option data-parent="Web_Development" value="Joomla">Joomla</option>
+                  <option data-parent="Web_Development" value="Drupal">Drupal</option>
 
                   <!-- Options for Software Development -->
                   <option data-parent="Software_Development" value="Customer Software Development">Customer Software Development</option>
@@ -380,7 +390,7 @@
   <script src="{{ asset('dashboard_theme/js/app.js') }}"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- jQuery Script -->
-  <!-- <script>
+  <script>
     $(document).ready(function() {
       // On change of category_1
       $('#category_1').change(function() {
@@ -408,7 +418,7 @@
       // Trigger change event on page load to hide irrelevant options
       $('#category_1').trigger('change');
     });
-  </script> -->
+  </script>
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
