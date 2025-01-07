@@ -413,7 +413,7 @@
                   <div id="slider">
                      @foreach($blogRAN as $data)
                      <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
                         <a href="{{url('blogdetail/'.$data->id)}}">
                            <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
                            <div class="author__date d-flex justify-content-between">
@@ -421,7 +421,7 @@
                               <p> {{ $data->created_at->format('d-m-Y') }} </p>
                            </div>
                         </a>
-                     </div> 
+                     </div>
                      @endforeach
                   </div>
                   <span onclick="slideLeft()" class="btn"></span>
