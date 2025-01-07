@@ -448,7 +448,7 @@
         .fluid-tabs {
             /*change the following to the desired height*/
             /*best with 65vh*/
-            height: 100vh !important;
+            height: 100% !important;
         }
 
         .tab-group {
@@ -866,7 +866,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 </section>
             </div>
 
-            <section class="my-5">
+            <section class="my-1">
                 <div class="container-fluid fluid-tabs">
 
                     <div class="row tab-group">
