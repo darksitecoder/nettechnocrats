@@ -1276,8 +1276,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     <div class="col-lg-12">
                         <div class="slider-container">
                             <div class="left-slide">
-                                <div style="background-color: #1F184E;">
-                                    <h1 class="text-center">Crypto Web Application</h1>
+                                <div style="background-color: #5CE1D5;">
+                                    <h1 class="text-center">Spato M-commerce Application</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, veritatis!</p>
                                     <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
@@ -1291,14 +1291,14 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                     <p>Lorem ipsum dolor sit amet.</p>
                                     <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
-                                <div style="background-color: #22272D;">
-                                    <h1 class="text-center">Artificial Inteligence Project</h1>
+                                <div style="background-color: #5CE1D5;">
+                                    <h1 class="text-center">Spato E-commerce Project </h1>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                     <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
                             </div>
                             <div class="right-slide">
-                                <div style="background: url('{{ asset('assets/web/ilya-pavlov-OqtafYT5kTw-unsplash.jpg') }}');">
+                                <div style="background: url('{{ asset('assets/web/spatoweb.png') }}');">
 
                                 </div>
                                 <div style="background:url('{{ asset('assets/web/aplle-wallet-1-removebg-preview.webp') }}'); ">
@@ -1307,7 +1307,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 <div style="background: url('{{ asset('assets/web/resturent__app.jpg') }}');">
 
                                 </div>
-                                <div style="background: url('{{ asset('assets/web/645ec0260359a13ac1404bd1_keplr-crypto-wallet-website-design-inspiration.jpg') }}');">
+                                <div style="background: url('{{ asset('assets/web/spatomobile.png') }}');">
 
                                 </div>
                             </div>
