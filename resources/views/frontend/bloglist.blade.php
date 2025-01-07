@@ -248,6 +248,116 @@
          font-weight: 600;
 
       }
+
+      /* Slider */
+
+      #container {
+         height: 60vh;
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         display: grid;
+         place-items: center
+      }
+
+      #slider-container {
+         height: 100%;
+         width: 85vw;
+         max-width: 1400px;
+         position: relative;
+         overflow: hidden;
+         padding: 20px;
+      }
+
+      #slider-container .btn {
+         position: absolute;
+         top: calc(50% - 30px);
+         height: 30px;
+         width: 30px;
+         border-left: 8px solid var(--blue);
+         border-top: 8px solid var(--blue);
+      }
+
+      #slider-container .btn:hover {
+         transform: scale(1.2);
+      }
+
+      #slider-container .btn.inactive {
+         border-color: rgb(153, 121, 126)
+      }
+
+      #slider-container .btn:first-of-type {
+         transform: rotate(-45deg);
+         left: 10px
+      }
+
+      #slider-container .btn:last-of-type {
+         transform: rotate(135deg);
+         right: 10px;
+      }
+
+      #slider-container #slider {
+         display: flex;
+         width: 1000%;
+         height: 100%;
+         transition: all .5s;
+      }
+
+      #slider-container #slider .slide {
+         height: 100%;
+         margin: auto 10px;
+         /* background-color: ; */
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+         border-radius: 10px;
+         display: grid;
+         place-items: center;
+      }
+
+      #slider-container #slider .slide img {
+         border-radius: 10px;
+      }
+
+      #slider-container #slider .slide h6 {
+         font-weight: 600;
+         color: var(--black);
+      }
+
+      #slider-container #slider .slide span {
+         color: white;
+         font-size: 150px;
+      }
+
+      @media only screen and (min-width: 1100px) {
+
+         #slider-container #slider .slide {
+            width: calc(2.5% - 20px);
+         }
+
+      }
+
+      @media only screen and (max-width: 1100px) {
+
+         #slider-container #slider .slide {
+            width: calc(3.3333333% - 20px);
+         }
+
+      }
+
+      @media only screen and (max-width: 900px) {
+
+         #slider-container #slider .slide {
+            width: calc(5% - 20px);
+         }
+
+      }
+
+      @media only screen and (max-width: 550px) {
+
+         #slider-container #slider .slide {
+            width: calc(10% - 20px);
+         }
+
+      }
    </style>
 </head>
 
@@ -296,7 +406,7 @@
                </div>
             </div>
 
-            <div class="row pt-4">
+            <!-- <div class="row pt-4">
                @foreach($blogRAN as $data)
                <div class="col-lg-12 d-flex">
                   <div class="blog__list">
@@ -314,8 +424,126 @@
                   </div>
                </div>
                @endforeach
-            </div>
+            </div> -->
+            <div id="container">
+               <div id="slider-container">
+                  <span onclick="slideRight()" class="btn"></span>
+                  <div id="slider">
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
+                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <div class="author__date d-flex justify-content-between">
+                              <b>Nettechnocrats </b>&nbsp;&nbsp;
+                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
+                           </div>
+                        </a>
+                     </div>
 
+                  </div>
+                  <span onclick="slideLeft()" class="btn"></span>
+               </div>
+            </div>
          </section>
 
          <div class="container">
@@ -328,10 +556,10 @@
                <!-- <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam ipsum neque molestiae eum! Recusandae.</p> -->
                <div class="row">
                   @foreach($blogTPC as $data)
-                  <div class="col-lg-4">
+                  <div class="col-lg-4 mt-4">
                      <div class="pdf__card">
                         <a href="{{url('blogdetail/'.$data->id)}}">
-                           <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="">
+                           <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="" style="height: 260px;">
                         </a>
                         <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
                      </div>
@@ -390,7 +618,89 @@
       });
    </script>
 
+   <script>
+      var container = document.getElementById('container')
+      var slider = document.getElementById('slider');
+      var slides = document.getElementsByClassName('slide').length;
+      var buttons = document.getElementsByClassName('btn');
 
+
+      var currentPosition = 0;
+      var currentMargin = 0;
+      var slidesPerPage = 0;
+      var slidesCount = slides - slidesPerPage;
+      var containerWidth = container.offsetWidth;
+      var prevKeyActive = false;
+      var nextKeyActive = true;
+
+      window.addEventListener("resize", checkWidth);
+
+      function checkWidth() {
+         containerWidth = container.offsetWidth;
+         setParams(containerWidth);
+      }
+
+      function setParams(w) {
+         if (w < 551) {
+            slidesPerPage = 1;
+         } else {
+            if (w < 901) {
+               slidesPerPage = 2;
+            } else {
+               if (w < 1101) {
+                  slidesPerPage = 3;
+               } else {
+                  slidesPerPage = 4;
+               }
+            }
+         }
+         slidesCount = slides - slidesPerPage;
+         if (currentPosition > slidesCount) {
+            currentPosition -= slidesPerPage;
+         };
+         currentMargin = -currentPosition * (100 / slidesPerPage);
+         slider.style.marginLeft = currentMargin + '%';
+         if (currentPosition > 0) {
+            buttons[0].classList.remove('inactive');
+         }
+         if (currentPosition < slidesCount) {
+            buttons[1].classList.remove('inactive');
+         }
+         if (currentPosition >= slidesCount) {
+            buttons[1].classList.add('inactive');
+         }
+      }
+
+      setParams();
+
+      function slideRight() {
+         if (currentPosition != 0) {
+            slider.style.marginLeft = currentMargin + (100 / slidesPerPage) + '%';
+            currentMargin += (100 / slidesPerPage);
+            currentPosition--;
+         };
+         if (currentPosition === 0) {
+            buttons[0].classList.add('inactive');
+         }
+         if (currentPosition < slidesCount) {
+            buttons[1].classList.remove('inactive');
+         }
+      };
+
+      function slideLeft() {
+         if (currentPosition != slidesCount) {
+            slider.style.marginLeft = currentMargin - (100 / slidesPerPage) + '%';
+            currentMargin -= (100 / slidesPerPage);
+            currentPosition++;
+         };
+         if (currentPosition == slidesCount) {
+            buttons[1].classList.add('inactive');
+         }
+         if (currentPosition > 0) {
+            buttons[0].classList.remove('inactive');
+         }
+      };
+   </script>
 </body>
 
 </html>

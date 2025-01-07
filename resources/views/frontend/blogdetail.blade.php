@@ -353,6 +353,118 @@
       font-weight: 600;
 
     }
+
+
+
+    /* Slider */
+
+    #container {
+      height: 60vh;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      place-items: center
+    }
+
+    #slider-container {
+      height: 100%;
+      width: 85vw;
+      max-width: 1400px;
+      position: relative;
+      overflow: hidden;
+      padding: 20px;
+    }
+
+    #slider-container .btn {
+      position: absolute;
+      top: calc(50% - 30px);
+      height: 30px;
+      width: 30px;
+      border-left: 8px solid var(--blue);
+      border-top: 8px solid var(--blue);
+    }
+
+    #slider-container .btn:hover {
+      transform: scale(1.2);
+    }
+
+    #slider-container .btn.inactive {
+      border-color: rgb(153, 121, 126)
+    }
+
+    #slider-container .btn:first-of-type {
+      transform: rotate(-45deg);
+      left: 10px
+    }
+
+    #slider-container .btn:last-of-type {
+      transform: rotate(135deg);
+      right: 10px;
+    }
+
+    #slider-container #slider {
+      display: flex;
+      width: 1000%;
+      height: 100%;
+      transition: all .5s;
+    }
+
+    #slider-container #slider .slide {
+      height: 100%;
+      margin: auto 10px;
+      /* background-color: ; */
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 10px;
+      display: grid;
+      place-items: center;
+    }
+
+    #slider-container #slider .slide img {
+      border-radius: 10px;
+    }
+
+    #slider-container #slider .slide h6 {
+      font-weight: 600;
+      color: var(--black);
+    }
+
+    #slider-container #slider .slide span {
+      color: white;
+      font-size: 150px;
+    }
+
+    @media only screen and (min-width: 1100px) {
+
+      #slider-container #slider .slide {
+        width: calc(2.5% - 20px);
+      }
+
+    }
+
+    @media only screen and (max-width: 1100px) {
+
+      #slider-container #slider .slide {
+        width: calc(3.3333333% - 20px);
+      }
+
+    }
+
+    @media only screen and (max-width: 900px) {
+
+      #slider-container #slider .slide {
+        width: calc(5% - 20px);
+      }
+
+    }
+
+    @media only screen and (max-width: 550px) {
+
+      #slider-container #slider .slide {
+        width: calc(10% - 20px);
+      }
+
+    }
   </style>
 </head>
 
@@ -381,18 +493,18 @@
               <h3>Featured Posts</h3>
               <hr style="color: var(--blue); height:5px;" />
               @foreach($blogLTS as $data)
-                <div class="list">
-                    <a href="{{url('blogdetail/'.$data->id)}}">
-                      <div class="list__heading d-flex justify-content-between">
-                          <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
-                      </div>
-                    </a>
-                    <div class="author__date d-flex justify-content-between">
-                      <b>Nettechnocrats </b>&nbsp;&nbsp;
-                      <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                    </div>
-                    <hr />
+              <div class="list">
+                <a href="{{url('blogdetail/'.$data->id)}}">
+                  <div class="list__heading d-flex justify-content-between">
+                    <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
+                  </div>
+                </a>
+                <div class="author__date d-flex justify-content-between">
+                  <b>Nettechnocrats </b>&nbsp;&nbsp;
+                  <p> {{ $data->created_at->format('d-m-Y') }} </p>
                 </div>
+                <hr />
+              </div>
               @endforeach
             </div>
             <section class="blog__more__topics pt-5">
@@ -400,12 +512,12 @@
                 <h6>EXPLORE MORE TOPICS</h6>
               </div>
               @foreach($blogTPC as $data)
-                <div class="pdf__card mt-3">
-                  <a href="{{url('blogdetail/'.$data->id)}}">
-                    <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="">
-                  </a>
-                  <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
-                </div>
+              <div class="pdf__card mt-3">
+                <a href="{{url('blogdetail/'.$data->id)}}">
+                  <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="">
+                </a>
+                <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
+              </div>
               @endforeach
             </section>
           </div>
@@ -436,41 +548,41 @@
                 <div class="users__comments">
                   <div class="d-flex justify-content-between align-items-center">
                     <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="Blogs Images" srcset="">
-                    <p class="name">User Name</p>
-                  </div>
-                  <p class="comment pt-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore tenetur dolore? Corporis, perspiciatis iusto?
-                  </p>
-                  <div class="date d-flex justify-content-end">
-                    <p>02/10/2024</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="users__comments">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="Blogs Images" srcset="">
-                    <p class="name">User Name</p>
-                  </div>
-                  <p class="comment pt-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore tenetur dolore? Corporis, perspiciatis iusto?
-                  </p>
-                  <div class="date d-flex justify-content-end">
-                    <p>02/10/2024</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        --}}
-        <div class="row pt-4">
-          <div class="heading d-flex justify-content-between align-items-center pb-4">
-            <hr style="color:var(--blue); width:20%; height:5px;" />
-            <h1>VIEW MORE BLOGS</h1>
-            <hr style="color:var(--blue); width:20%; height:5px;" />
-          </div>
-          @foreach($blogRAN as $data)
+        <p class="name">User Name</p>
+    </div>
+    <p class="comment pt-2">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore tenetur dolore? Corporis, perspiciatis iusto?
+    </p>
+    <div class="date d-flex justify-content-end">
+      <p>02/10/2024</p>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="users__comments">
+        <div class="d-flex justify-content-between align-items-center">
+          <img src="{{ asset('assets/frontEnd/web/images/user.gif') }}" alt="Blogs Images" srcset="">
+          <p class="name">User Name</p>
+        </div>
+        <p class="comment pt-2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore tenetur dolore? Corporis, perspiciatis iusto?
+        </p>
+        <div class="date d-flex justify-content-end">
+          <p>02/10/2024</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  --}}
+  <div class="row pt-4">
+    <div class="heading d-flex justify-content-between align-items-center pb-4">
+      <hr style="color:var(--blue); width:20%; height:5px;" />
+      <h1>VIEW MORE BLOGS</h1>
+      <hr style="color:var(--blue); width:20%; height:5px;" />
+    </div>
+    <!-- @foreach($blogRAN as $data)
             <div class="col-lg-3">
                 <div class="blog__list">
                   <a href="{{url('blogdetail/'.$data->id)}}">
@@ -486,30 +598,150 @@
                   </a>
                 </div>
             </div>
-          @endforeach
+          @endforeach -->
+    <div id="container">
+      <div id="slider-container">
+        <span onclick="slideRight()" class="btn"></span>
+        <div id="slider">
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+            <a href="{{url('blogdetail/'.$data->id)}}">
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="author__date d-flex justify-content-between">
+                <b>Nettechnocrats </b>&nbsp;&nbsp;
+                <p> {{ $data->created_at->format('d-m-Y') }} </p>
+              </div>
+            </a>
+          </div>
+
         </div>
-
-      </section>
-
-      <div class="container">
-
-        <section class="subscribe pt-5">
-          <div class="heading d-flex justify-content-between align-items-center">
-            <hr style="color:var(--blue); width:8%; height:5px;" />
-            <h1>SUBSCRIBE TO GET UPDATE IN YOUR INBOX</h1>
-            <hr style="color:var(--blue); width:8%; height:5px;" />
-          </div>
-
-          <div class="inputs">
-
-            <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
-
-            <button class="btn mt-4">SUBSCRIBE</button>
-
-          </div>
-        </section>
+        <span onclick="slideLeft()" class="btn"></span>
 
       </div>
+    </div>
+  </div>
+
+  </section>
+
+  <div class="container">
+
+    <section class="subscribe pt-5">
+      <div class="heading d-flex justify-content-between align-items-center">
+        <hr style="color:var(--blue); width:8%; height:5px;" />
+        <h1>SUBSCRIBE TO GET UPDATE IN YOUR INBOX</h1>
+        <hr style="color:var(--blue); width:8%; height:5px;" />
+      </div>
+
+      <div class="inputs">
+
+        <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+        <button class="btn mt-4">SUBSCRIBE</button>
+
+      </div>
+    </section>
+
+  </div>
   </section>
 
   <!-- Footer -->
@@ -522,6 +754,90 @@
       autoplayTimeout: 2000, //2000ms = 2s;
       autoplayHoverPause: true,
     });
+  </script>
+
+  <script>
+    var container = document.getElementById('container')
+    var slider = document.getElementById('slider');
+    var slides = document.getElementsByClassName('slide').length;
+    var buttons = document.getElementsByClassName('btn');
+
+
+    var currentPosition = 0;
+    var currentMargin = 0;
+    var slidesPerPage = 0;
+    var slidesCount = slides - slidesPerPage;
+    var containerWidth = container.offsetWidth;
+    var prevKeyActive = false;
+    var nextKeyActive = true;
+
+    window.addEventListener("resize", checkWidth);
+
+    function checkWidth() {
+      containerWidth = container.offsetWidth;
+      setParams(containerWidth);
+    }
+
+    function setParams(w) {
+      if (w < 551) {
+        slidesPerPage = 1;
+      } else {
+        if (w < 901) {
+          slidesPerPage = 2;
+        } else {
+          if (w < 1101) {
+            slidesPerPage = 3;
+          } else {
+            slidesPerPage = 4;
+          }
+        }
+      }
+      slidesCount = slides - slidesPerPage;
+      if (currentPosition > slidesCount) {
+        currentPosition -= slidesPerPage;
+      };
+      currentMargin = -currentPosition * (100 / slidesPerPage);
+      slider.style.marginLeft = currentMargin + '%';
+      if (currentPosition > 0) {
+        buttons[0].classList.remove('inactive');
+      }
+      if (currentPosition < slidesCount) {
+        buttons[1].classList.remove('inactive');
+      }
+      if (currentPosition >= slidesCount) {
+        buttons[1].classList.add('inactive');
+      }
+    }
+
+    setParams();
+
+    function slideRight() {
+      if (currentPosition != 0) {
+        slider.style.marginLeft = currentMargin + (100 / slidesPerPage) + '%';
+        currentMargin += (100 / slidesPerPage);
+        currentPosition--;
+      };
+      if (currentPosition === 0) {
+        buttons[0].classList.add('inactive');
+      }
+      if (currentPosition < slidesCount) {
+        buttons[1].classList.remove('inactive');
+      }
+    };
+
+    function slideLeft() {
+      if (currentPosition != slidesCount) {
+        slider.style.marginLeft = currentMargin - (100 / slidesPerPage) + '%';
+        currentMargin -= (100 / slidesPerPage);
+        currentPosition++;
+      };
+      if (currentPosition == slidesCount) {
+        buttons[1].classList.add('inactive');
+      }
+      if (currentPosition > 0) {
+        buttons[0].classList.remove('inactive');
+      }
+    };
   </script>
 </body>
 
