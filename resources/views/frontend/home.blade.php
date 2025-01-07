@@ -459,20 +459,20 @@
         }
 
         .tab-container {
-            overflow-y: scroll;
-            -webkit-overflow-scrolling: touch;
+            /* overflow-y: scroll; */
+            /* -webkit-overflow-scrolling: touch; */
             /* iOS*/
-            overflow-x: hidden;
-            height: 50%;
+            /* overflow-x: hidden; */
+            height: 100%;
             -webkit-animation-name: text-appear;
             /* Safari 4.0 - 8.0 */
             -webkit-animation-duration: 1.6s;
             /* Safari 4.0 - 8.0 */
             animation-name: text-appear;
             animation-duration: 1.6s;
-            -webkit-box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6);
+            /* -webkit-box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6);
             -moz-box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6);
-            box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6);
+            box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6); */
         }
 
         /*if you need to add or remove a panel, you have to do some maths and rearrangements on this section.*/
@@ -482,22 +482,22 @@ we want the selected tab to be the biggest and the other equally smaller.
 Let's say we want the selected one to fill a 40% of the container; so we have a 60% left to cover . this is 60/3 = 20% */
         #panel-1 {
             width: 16%;
-            background: #ef002f;
+            background: var(--green);
         }
 
         #panel-2 {
             width: 16%;
-            background: #d10029;
+            background: var(--green);
         }
 
         #panel-3 {
             width: 16%;
-            background: #760017;
+            background: var(--green);
         }
 
         #panel-4 {
             width: 16%;
-            background: #690015;
+            background: var(--green);
         }
 
         .selected {
@@ -515,7 +515,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             height: inherit;
             margin: 1rem 1rem;
             border-radius: 20px;
-            height: 500px;
+            height: 580px;
         }
 
         .hide {
@@ -866,7 +866,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 </section>
             </div>
 
-            <section class="">
+            <section class="my-5">
                 <div class="container-fluid fluid-tabs">
 
                     <div class="row tab-group">
@@ -909,16 +909,20 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                     </svg>
                                 </div>
 
-                                <h1 id="title-1" class="text-center title ">Chat Anyone</h1>
+                                <h1 id="title-1" class="text-center title ">DCatalog</h1>
 
 
                             </div>
                             <div id="content-panel-1" class="container tab-container justify-content">
 
                                 <!--content goes here-->
-                                <h4>...in the world</h4>
+                                <h4>+ 214% Traffic & 300% Traffic Growth</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis.
+                                    Founded in 2008, DCatalog is the leader in the digital publishing industry. With the advanced HTML5 flip book technology, this platform empowers publishers, content creators, marketing and eCommerce professionals to easily create and publish engaging digital experiences. The website is formerly known by ePaperflip.
+
+
+                                    <br>
+                                    Results: With the rigorous efforts and amazing skills, experts from Nettechnocrats Team were able to provide 1st page ranking for those keywords and the traffic is still boosting. Mirit is very happy with the ranking and traffic.
                                 </p>
                             </div>
                         </div>
@@ -980,16 +984,18 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
                             </div>
 
-                            <h1 id="title-2" class="text-center title rt rotate">Work Smarter</h1>
+                            <h1 id="title-2" class="text-center title rt rotate">Men's USA Case Study</h1>
 
                             <div id="content-panel-2" class="container tab-container hide justify-content">
-                                <h4>Avoid extra work</h4>
+                                <h4>+ 800% Revenue & 300% Traffic Growth</h4>
                                 <p>
-                                    Proin sed massa nisi. Praesent ut elit et diam laoreet rutrum. Morbi hendrerit lobortis nisl, et suscipit elit tempus tincidunt. Curabitur a sapien egestas, bibendum sem ut, viverra nisl. Donec in accumsan metus. Ut aliquam metus quis augue posuere pretium. Nullam ornare, ex id ullamcorper efficitur, leo massa semper leo, vitae eleifend eros lectus nec nisl. Sed elementum convallis enim, id posuere odio vulputate eget. Suspendisse a massa sed lectus dignissim consequat. Etiam ac tempor felis. Nunc interdum est sit amet ipsum commodo, et vestibulum mi tempor.
-
-                                <h4>What can you expect? </h4>
+                                    Organic Search | keywords at first page successfully implemented SEO and PPC Strategies for Men;s USA, Resulting in remarkable outcomes.they achieved an impressive 800% increase in organic search, A significant 300% boost in organic revenue, attained first page rankings for 2000 keywords on google and generated over 10 million impressive within a span of just 3 months.
                                 <p>
-                                    Quisque tristique efficitur purus. Mauris nisl massa, dictum nec ullamcorper non, lacinia in ex. Ut hendrerit rutrum ante eu facilisis. Fusce aliquam justo ante, sit amet tempor sem bibendum fermentum. Cras malesuada, lectus a volutpat tempus, odio nibh tempus velit, ut ultricies tortor magna at dui. Etiam in lacus viverra, auctor dui non, fringilla tellus. Curabitur tortor odio, fermentum id lobortis eget, faucibus nec orci. Cras eget nisi a ligula lobortis ultricies in eget enim. Nullam commodo finibus dignissim. Integer eget pellentesque magna. Duis interdum ipsum sed odio semper, sit amet condimentum est facilisis. Vestibulum lacinia ligula sit amet massa laoreet, id venenatis mauris bibendum.
+                                    Digital Strategy we Used: <br />
+                                    – Targeted competitive and Low hanging keywords <br />
+                                    – Targeted multiple websites <br />
+                                    – Created high DA and PA backlinks <br />
+                                    – We have done content syndication and outreach
                                 </p>
                             </div>
                         </div>
@@ -1054,9 +1060,24 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             </div>
 
                             <div id="content-panel-3" class="container tab-container hide justify-content">
-                                <h4>And share your work</h4>
+                                <h4>150+ increase in leads & 100% Traffic Growth</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis. </p>
+                                    Whirlpool wstore is a Home Appliances website, you can purchase here online refrigerator, washing
+                                    machine, air conditioner , water purifier etc. <br />
+
+                                    Objective: <br />
+                                    To Increase maximum number of potential leads and increased number of budget spent. Being service provider the
+                                    requirement of campaign was quality of visitors with maximum quantity of users. <br />
+
+
+
+                                    Goals Achieved: <br />
+                                    We started our campaign for online shopping with Google Adwords by double the conversion rate. Google Results provide
+                                    business to client and Expand its business by major PPC Networks.
+
+                                    – Google Adwords <br />
+
+                                    – Yahoo Search Marketing</p>
                             </div>
                         </div>
 
@@ -1132,15 +1153,17 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
 
                                 </div>
-                                <h1 id="title-4" class="text-center title rt rotate">Be creative</h1>
+                                <h1 id="title-4" class="text-center title rt rotate">Seemless AI</h1>
 
 
                             </div>
 
                             <div id="content-panel-4" class="container tab-container hide justify-content">
-                                <h4>Don't waste your time</h4>
+                                <h4>+ Leading Data Finder Company</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis. </p>
+                                    Organic Search | keywords at first page successfully implemented SEO. Resulting in remarkable outcomes.they achieved an impressive increase in organic search, A significant boost in organic revenue.
+
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1160,7 +1183,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             <div class="container">
 
             </div>
-            <section class="industries py-5 my-5">
+            <section class="industries py-1 my-5">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="content">
