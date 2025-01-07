@@ -406,140 +406,23 @@
                </div>
             </div>
 
-            <!-- <div class="row pt-4">
-               @foreach($blogRAN as $data)
-               <div class="col-lg-12 d-flex">
-                  <div class="blog__list">
-                     <a href="{{url('blogdetail/'.$data->id)}}">
-                        <div class="blog">
-                           <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="" style="height: 200px; width:250px;">
-                           <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
-                           <p>{!! strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content !!}</p>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               @endforeach
-            </div> -->
+
             <div id="container">
                <div id="slider-container">
                   <span onclick="slideRight()" class="btn"></span>
                   <div id="slider">
+                     @foreach($blogRAN as $data)
                      <div class="slide">
                         <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
                         <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
+                           <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
                            <div class="author__date d-flex justify-content-between">
                               <b>Nettechnocrats </b>&nbsp;&nbsp;
                               <p> {{ $data->created_at->format('d-m-Y') }} </p>
                            </div>
                         </a>
-                     </div>
-                     <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="slide">
-                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%; background-color:red;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <h6>Lorem ipsum dolor sit amet.</h6>
-                           <div class="author__date d-flex justify-content-between">
-                              <b>Nettechnocrats </b>&nbsp;&nbsp;
-                              <p> {{ $data->created_at->format('d-m-Y') }} </p>
-                           </div>
-                        </a>
-                     </div>
-
+                     </div> 
+                     @endforeach
                   </div>
                   <span onclick="slideLeft()" class="btn"></span>
                </div>
