@@ -848,7 +848,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 <section class="testimonial__video">
                     <div class="row">
                         <div class="col-lg-6">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/f-MAIzGxWc0?si=GkZPmhg-MKDbM0Dl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/f-MAIzGxWc0?si=GkZPmhg-MKDbM0Dl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
                         </div>
                         <div class="col-lg-6">
                             <h2>We Are Ranked Among the Top Global Leaders in Digital Marketing</h2>
