@@ -623,6 +623,36 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         ::-webkit-scrollbar-thumb:hover {
             background: #b4edd2;
         }
+
+        .hero-slider .item img {
+            width: 90%;
+            height: 50px !important;
+            cursor: default;
+        }
+
+        .hero-slider .item:hover {
+            box-shadow: none;
+            cursor: default;
+        }
+
+        .hero-slider {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            border-radius: 20px;
+            background-color: var(--white);
+            height: 100px;
+            padding: 1.5rem 0rem;
+            margin-top: -3rem;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .roll-unroll-elements {
+                display: none;
+            }
+
+            .industries {
+                display: none;
+            }
+        }
     </style>
 </head>
 
@@ -645,6 +675,35 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     </div>
                 </div>
             </section>
+
+            <div class="container hero-slider">
+                <div class="slider-wrapper left">
+                    <div class="item item1"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item2"><img src="{{ asset('assets/web/common-img/1-removebg-preview-1-300x102.webp') }}" alt="" srcset=""></div>
+                    <div class="item item3"><img src="{{ asset('assets/web/common-img/2-removebg-preview-1-300x83.webp') }}" alt="" srcset=""></div>
+                    <div class="item item4"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item5"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item6"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item7"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item8"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item9"><img src="{{ asset('assets/web/common-img/10-removebg-preview-1-300x62.webp') }}" alt="" srcset=""></div>
+                    <div class="item item10"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item11"><img src="{{ asset('assets/web/common-img/11-removebg-preview-1-300x58.webp') }}" alt="" srcset=""></div>
+                    <div class="item item12"><img src="{{ asset('assets/web/common-img/20-removebg-preview-1-300x56.webp') }}" alt="" srcset=""></div>
+                    <div class="item item13"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item14"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
+                    <div class="item item15"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
+                    <div class="item item16"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
+                    <div class="item item17"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item18"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item19"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
+                    <div class="item item20"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
+
+                </div>
+            </div>
+
+
+
             <div class="container">
                 <section class="about__seo">
                     <div class="row">
@@ -848,7 +907,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 <section class="testimonial__video">
                     <div class="row">
                         <div class="col-lg-6">
-                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/f-MAIzGxWc0?si=GkZPmhg-MKDbM0Dl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                            <a href="https://youtu.be/f-MAIzGxWc0"><img src="{{ asset('assets/web/maxresdefault (1).png') }}" alt="" srcset="" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
+                            </a>
                         </div>
                         <div class="col-lg-6">
                             <h2>We Are Ranked Among the Top Global Leaders in Digital Marketing</h2>
@@ -866,7 +926,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 </section>
             </div>
 
-            <section class="my-1">
+            <section class="my-1 roll-unroll-elements">
                 <div class="container-fluid fluid-tabs">
 
                     <div class="row tab-group">
@@ -1328,17 +1388,17 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 <div class="container">
                     <div class="row address">
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:70px 0px 0px 70px;"><img src="{{ asset('assets/web/taj-mahal.png') }}" class="image-with-shadow" alt="" srcset="">
-                            <p class="text-center fw-bold fs-7">G-75, Sec-63, Noida, Delhi (NCR) India <br>
+                            <p class="text-center fw-bold" style="font-size: 17px;">G-75, Sec-63, Noida, Delhi (NCR) India <br>
                                 For Sales: +91-9711411002 <br>
                                 For HR: +91-8510091128</p>
                         </div>
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/web/statue-liberty.png') }}" class="image-with-shadow" alt="" srcset="">
-                            <p class="text-center fw-bold fs-7">9240 SW 72nd St Miami, FL 33173 <br>
+                            <p class="text-center fw-bold" style="font-size: 17px;">9240 SW 72nd St Miami, FL 33173 <br>
                                 For Sales: +1-786-753-7516 <br>
                                 Email: sales@nettechnocrats.com</p>
                         </div>
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:0px 70px 70px 0px;"><img src="{{ asset('assets/web/sydney-opera-house.png') }}" class="image-with-shadow" alt="" srcset="">
-                            <p class="text-center fw-bold fs-7">
+                            <p class="text-center fw-bold" style="font-size: 17px;">
                                 6 Satinay Court Oxenford, QLD 4210, Australia <br>
                                 Email: sales@nettechnocrats.com
                             </p>
