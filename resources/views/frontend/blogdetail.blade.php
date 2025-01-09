@@ -465,6 +465,14 @@
       }
 
     }
+
+    .content ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    .content li {
+      margin-bottom: 5px;
+    }
   </style>
 </head>
 
@@ -477,10 +485,12 @@
           <div class="col-lg-9">
 
             <div class="main-blog-post ">
-              <a href="#"> <img src="{{ asset('public/'.$blogFND->image) }}" alt="Blogs Images" srcset="">
+              <a href="#"> <img src="{{ asset('/'.$blogFND->image) }}" alt="Blogs Images" srcset="">
                 <h2 class="pt-4">{{$blogFND->heading}}</h2>
               </a>
-              <pre>{!! $blogFND->content !!}</pre>
+              <div class="content">
+                {!! $blogFND->content !!}
+              </div>
               <div class="author__date pt-5 d-flex justify-content-between">
                 <b>Nettechnocrats </b>&nbsp;&nbsp;
                 <p> {{ $blogFND->created_at->format('d-m-Y') }} </p>
@@ -494,7 +504,7 @@
               <hr style="color: var(--blue); height:5px;" />
               @foreach($blogLTS as $data)
               <div class="list">
-                <a href="{{url('blogdetail/'.$data->id)}}">
+                <a href="{{url('blogdetail/'.$data->slug) }}">
                   <div class="list__heading d-flex justify-content-between">
                     <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
                   </div>
@@ -513,8 +523,8 @@
               </div>
               @foreach($blogTPC as $data)
               <div class="pdf__card mt-3">
-                <a href="{{url('blogdetail/'.$data->id)}}">
-                  <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="">
+                <a href="{{url('blogdetail/'.$data->slug) }}">
+                  <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="">
                 </a>
                 <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
               </div>
@@ -587,7 +597,7 @@
                 <div class="blog__list">
                   <a href="{{url('blogdetail/'.$data->id)}}">
                       <div class="blog">
-                        <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="">
+                        <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="">
                         <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
                         <p>{!! strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content !!}</p>
                         <div class="author__date d-flex justify-content-between">
@@ -606,7 +616,7 @@
           @foreach($blogRAN as $data)
           <div class="slide">
             <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
-            <a href="{{url('blogdetail/'.$data->id)}}">
+            <a href="{{url('blogdetail/'.$data->slug) }}">
               <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
               <div class="author__date d-flex justify-content-between">
                 <b>Nettechnocrats </b>&nbsp;&nbsp;
