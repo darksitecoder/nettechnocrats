@@ -272,7 +272,7 @@
                                     <div class="list-item">
                                         <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
                                         <h5 class="title  m-0 fw-bolder pt-3">Nettechnocrats Blog</h5>
-                                        <a href="{{url('/bloglist/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder" style="color:var(--green);">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <a href="{{url('/blogs/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder" style="color:var(--green);">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
                                 </div>
                             </li>
@@ -284,7 +284,7 @@
                     <a href="#" class="phone__number"><i class="fa-solid fa-phone"></i>+91-9711411002</a>
                     <a target="_blank" href="https://api.whatsapp.com/send?phone=9711411002&amp;text=I checked the website, and I have a few questions to ask" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="{{ url('contact-us')}}"><span class="get__in__touch">Get In Touch</span></a>
-                    <a href="{{ url('login_page')}}"><span class="get__in__touch">Login</span></a>
+                    <!-- <a href="{{ url('login_page')}}"><span class="get__in__touch">Login</span></a> -->
                     <!-- mobile menu trigger -->
                     <div class="mobile-menu-trigger">
                         <span></span>
@@ -293,13 +293,6 @@
             </div>
         </div>
 
-        <svg width="0" height="0">
-            <defs>
-                <filter id="corner-shadow" x="0" y="0">
-                    <feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="black" flood-opacity="0.8" />
-                </filter>
-            </defs>
-        </svg>
     </header>
     <!-- header end -->
 
