@@ -367,11 +367,11 @@
    <section class="bloglist">
       <div class="container">
          <section class="main__blog__recent">
-            <div class="row">
+            <div class="row d-flex">
 
-               <div class="col-lg-6">
+               <div class="col-md-6">
                   <div class="main-blog-post ">
-                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="" style="height:330px; width:100%;">
+                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('s/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="" style="height:330px; width:100%;">
                         <h2>{{ strlen($blogLTS[0]->heading) > 25 ? substr($blogLTS[0]->heading, 0, 25) . '...' : $blogLTS[0]->heading }}</h2>
                      </a>
                      <p>{!! strlen($blogLTS[0]->content) > 60 ? substr($blogLTS[0]->content, 0, 60) . '...' : $blogLTS[0]->content !!}</p>
@@ -383,7 +383,7 @@
                   </div>
                </div>
 
-               <div class="col-lg-6">
+               <div class="col-md-6">
                   <div class="recent-blog-lists">
                      <h3>Featured Posts</h3>
                      <hr style="color: #5CE1D5; height:5px;" />
