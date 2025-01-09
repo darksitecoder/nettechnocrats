@@ -496,7 +496,7 @@
               <div class="list">
                 <a href="{{url('blogdetail/'.$data->id)}}">
                   <div class="list__heading d-flex justify-content-between">
-                    <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
+                    <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: var(--green);">[New]</span>
                   </div>
                 </a>
                 <div class="author__date d-flex justify-content-between">
