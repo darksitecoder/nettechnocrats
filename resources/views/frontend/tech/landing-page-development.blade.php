@@ -4,7 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>SQUARESPACE SEO SERVICES</title>
+ <title>Landing page design services</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -55,17 +55,17 @@
    </div>
   </div>
  </div>
- <!-- <div class="container-fluid ">
+ <div class="container-fluid ">
   <div class="container py-2">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-12 wow fadeInLeft">
      <div class=" rounded d-flex justify-content-center">
-      <img src="{{ asset('assets/web/squarespace.webp') }}" class="img-fluid rounded" alt="" style="width: 100%; height:500px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+      <img src="{{ asset('assets/web/landingpage-banner.png') }}" class="img-fluid rounded" alt="" style="width: 100%; height:500px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
      </div>
     </div>
    </div>
   </div>
- </div> -->
+ </div>
  <div class="container-fluid about py-5">
   <div class="container py-5">
 
@@ -101,10 +101,8 @@
        <i class="fa-solid fa-disease"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Speed: More Than Just Fast</a>
-       <p class="mb-4">User experience is paramount, and so is Google's love for quick sites. Being premier Squarespace SEO experts, we'll scrutinize your website, pinpointing areas to amplify its performance.
-
-       </p>
+       <a href="#" class="h4 d-inline-block mb-4">Pricing Policy</a>
+       <p class="mb-4">Pricing is a pivotal factor, so assess your budget and try free trials to match your financial constraints.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -115,9 +113,8 @@
        <i class="fa-solid fa-gauge-high"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Google Search Console: Your Digital Showcase</a>
-       <p class="mb-4">Integration is key. We ensure your site is perfectly synced with Google Search Console, priming it to be crawled and displayed prominently in search outcomes.
-       </p>
+       <a href="#" class="h4 d-inline-block mb-4">Features</a>
+       <p class="mb-4">Delve into core and specialized features, such as industry-specific solutions like account management and dynamic text.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -165,7 +162,7 @@
      </div>
     </div>
 
-    <h2 class="pb-5">>Unlock Your Squarespace’s True Potential with Nettechnocrats!</h2>
+    <h2 class="pb-5">Unlock Your Squarespace’s True Potential with Nettechnocrats!</h2>
 
     <p>The digital realm can sometimes feel like an unsolvable maze. But with the right partner, navigating through becomes a walk in the park. At Nettechnocrats, we pride ourselves on offering clarity, education, and a clear path to digital success. When SEO becomes part of your daily discourse, you’ll realize its power in bolstering your brand’s digital presence.
 
