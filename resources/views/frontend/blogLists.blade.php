@@ -26,7 +26,6 @@
    <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
    <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
    <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
-
    <style>
       .main-blog-post {
          background-color: #fff;
@@ -371,17 +370,18 @@
 
                <div class="col-md-6">
                   <div class="main-blog-post ">
-                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('public/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="" style="height:330px; width:100%;">
-                        <h2>{{ strlen($blogLTS[0]->heading) > 25 ? substr($blogLTS[0]->heading, 0, 25) . '...' : $blogLTS[0]->heading }}</h2>
+                     <a href="{{ url('blogdetail/'.$blogLTS[0]->slug) }}">
+                        <img src="{{ asset('/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="" style="height:330px; width:100%;">
+                        <h2>{{ $blogLTS[0]->heading }}</h2>
                      </a>
-                     <p>{!! strlen($blogLTS[0]->content) > 60 ? substr($blogLTS[0]->content, 0, 60) . '...' : $blogLTS[0]->content !!}
+                     {{--<p>{!! strlen($blogLTS[0]->content) > 60 ? substr($blogLTS[0]->content, 0, 60) . '...' : $blogLTS[0]->content !!}
                         </strong></strong></strong>
                         </i></i></i>
                         </b></b></b>
                         </a></a></a>
                         </ul></ul></ul>
                         </li></li></li>
-                     </p>
+                     </p>--}}
 
                      <div class="author__date d-flex">
                         <b>Nettechnocrats </b>&nbsp;&nbsp;
@@ -397,9 +397,9 @@
 
                      @foreach($blogLTS->skip('1') as $data)
                      <div class="list">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
+                        <a href="{{url('blogdetail/'.$data->slug) }}">
                            <div class="list__heading d-flex justify-content-between">
-                              <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
+                              <h4>{{ strlen($data->heading) > 45 ? substr($data->heading, 0, 45) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
                            </div>
                         </a>
                         <div class="author__date d-flex justify-content-between">
@@ -420,8 +420,8 @@
                   <div id="slider">
                      @foreach($blogRAN as $data)
                      <div class="slide">
-                        <img src="{{ asset('public/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+                        <a href="{{url('blogdetail/'.$data->slug) }}">
                            <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
                            <div class="author__date d-flex justify-content-between">
                               <b>Nettechnocrats </b>&nbsp;&nbsp;
@@ -448,8 +448,8 @@
                   @foreach($blogTPC as $data)
                   <div class="col-lg-4 mt-4">
                      <div class="pdf__card">
-                        <a href="{{url('blogdetail/'.$data->id)}}">
-                           <img src="{{ asset('public/'.$data->image) }}" alt="Blogs Images" srcset="" style="height: 260px;">
+                        <a href="{{url('blogdetail/'.$data->slug) }}">
+                           <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="" style="height: 260px;">
                         </a>
                         <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
                      </div>
