@@ -330,7 +330,7 @@ class blogController extends Controller
         $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->take(5)->get()->unique('topic');
 
         // dd($blogLTS, $blogRAN, $blogTPC);
-        return view('frontend.bloglist', compact('blogLTS', 'blogRAN', 'blogTPC'));
+        return view('frontend.blogLists', compact('blogLTS', 'blogRAN', 'blogTPC'));
     }
 
 
