@@ -216,7 +216,7 @@
                 <div class="list-item">
                   <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
                   <h5 class="title  m-0 fw-bolder pt-3">Nettechnocrats Blog</h5>
-                  <a href="{{url('/bloglist/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder" style="color:var(--green);">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                  <a href="{{url('/blogs/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder" style="color:var(--green);">Read more <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
               </div>
             </li>
