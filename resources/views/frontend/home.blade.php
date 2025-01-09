@@ -470,6 +470,7 @@
             /* Safari 4.0 - 8.0 */
             animation-name: text-appear;
             animation-duration: 1.6s;
+            color: var(--white) !important;
             /* -webkit-box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6);
             -moz-box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6);
             box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6); */
@@ -482,22 +483,22 @@ we want the selected tab to be the biggest and the other equally smaller.
 Let's say we want the selected one to fill a 40% of the container; so we have a 60% left to cover . this is 60/3 = 20% */
         #panel-1 {
             width: 16%;
-            background: var(--green);
+            background: var(--black);
         }
 
         #panel-2 {
             width: 16%;
-            background: var(--green);
+            background: var(--black);
         }
 
         #panel-3 {
             width: 16%;
-            background: var(--green);
+            background: var(--black);
         }
 
         #panel-4 {
             width: 16%;
-            background: var(--green);
+            background: var(--black);
         }
 
         .selected {
@@ -516,6 +517,10 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             margin: 1rem 1rem;
             border-radius: 20px;
             height: 580px;
+        }
+
+        .title {
+            color: var(--green);
         }
 
         .hide {
@@ -652,6 +657,31 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             .industries {
                 display: none;
             }
+        }
+
+        .home-form input {
+            border-radius: 6px;
+            margin: 1rem 0rem;
+            padding: 0.6rem;
+            border: none;
+            width: 90%;
+            outline: none;
+        }
+
+        .home-form .submit-btn {
+            margin-top: 1rem;
+            width: 200px !important;
+            border-radius: 5px;
+            background-color: var(--green);
+            border: 1px solid var(--green);
+            color: var(--white);
+            font-size: 18px;
+            font-weight: 600;
+            transition: 0.5s ease-in-out;
+        }
+
+        .home-form .submit-btn:hover {
+            background-color: transparent;
         }
     </style>
 </head>
@@ -1336,7 +1366,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     <div class="col-lg-12">
                         <div class="slider-container">
                             <div class="left-slide">
-                                <div style="background-color: #5CE1D5;">
+                                <div style="background-color: var(--green);">
                                     <h1 class="text-center">Spato M-commerce Application</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, veritatis!</p>
                                     <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
@@ -1351,7 +1381,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                     <p>Lorem ipsum dolor sit amet.</p>
                                     <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
-                                <div style="background-color: #5CE1D5;">
+                                <div style="background-color: var(--green);">
                                     <h1 class="text-center">Spato E-commerce Project </h1>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                     <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
@@ -1384,7 +1414,27 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 </div>
             </section>
 
-            <section class="home__address py-5 my-5 d-flex justify-content-center">
+            <section class="home__address py-2 my-3 d-flex justify-content-center">
+                <div class="container">
+                    <div class="row address py-5" style="background-color: var(--blue);">
+                        <div class="col-md-6"><img src="{{ asset('assets/web/Untitled-design-2024-02-13T102554.756.webp') }}" class="" alt="" srcset="" style="width: 100%; box-shadow:none;">
+                        </div>
+                        <div class="col-md-6 d-flex flex-column home-form">
+                            <h3 class="text-white fw-bold fs-1">Time to <span style="color: var(--green);">Craft Brilliance</span> Together</h3>
+                            <p class="text-white fw-bold fs-6">Fill this out so we can know more about your requirements.</p>
+
+                            <input type="text" name="Name" id="" placeholder="Name*" required>
+                            <input type="email" name="Email" id="" placeholder="Email*" required>
+                            <input type="text" name="Phone" id="" placeholder="Phone*" required>
+                            <input type="text" name="website" id="" placeholder="Website URL*" required>
+
+                            <button type="submit" class="submit-btn">Request a free quote</button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="home__address py-5 my-2 d-flex justify-content-center">
                 <div class="container">
                     <div class="row address">
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:70px 0px 0px 70px;"><img src="{{ asset('assets/web/taj-mahal.png') }}" class="image-with-shadow" alt="" srcset="">

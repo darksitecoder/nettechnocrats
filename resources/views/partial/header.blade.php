@@ -1,4 +1,5 @@
 ﻿<!-- header start -->
+<link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
 <header class="header">
   <div class="nav_container">
     <div class="row v-center">

@@ -175,7 +175,7 @@
       }
 
       .pdf__card .pdf__btn {
-         border: 2px solid #5CE1D5;
+         border: 2px solid var(--green);
          border-radius: 8px;
          margin: 10px 0px;
       }
@@ -190,7 +190,7 @@
       }
 
       .pdf__card .pdf__btn .preview {
-         color: #5CE1D5;
+         color: var(--green);
          background-color: #fff;
          border-radius: 6px 0px 0px 6px;
 
@@ -198,17 +198,17 @@
 
       .pdf__card .pdf__btn .preview:hover {
          color: #fff;
-         background-color: #5CE1D5;
+         background-color: var(--green);
       }
 
       .pdf__card .pdf__btn .download {
          color: #fff;
-         background-color: #5CE1D5;
+         background-color: var(--green);
          border-radius: 0px 6px 6px 0px;
       }
 
       .pdf__card .pdf__btn .download:hover {
-         color: #5CE1D5;
+         color: var(--green);
          background-color: #fff;
 
       }
@@ -231,7 +231,7 @@
 
       .subscribe .inputs input {
          height: 80px;
-         border: 1px solid #5CE1D5;
+         border: 1px solid var(--green);
          border-radius: 10px;
          font-size: 22px;
       }
@@ -240,8 +240,8 @@
          width: 100%;
          /* height: 50px; */
          color: #fff;
-         background-color: #5CE1D5;
-         border: 1px solid #5CE1D5;
+         background-color: var(--green);
+         border: 1px solid var(--green);
          border-radius: 10px;
          text-align: center;
          font-size: 27px;
@@ -386,13 +386,13 @@
                <div class="col-md-6">
                   <div class="recent-blog-lists">
                      <h3>Featured Posts</h3>
-                     <hr style="color: #5CE1D5; height:5px;" />
+                     <hr style="color: var(--green); height:5px;" />
 
                      @foreach($blogLTS->skip('1') as $data)
                      <div class="list">
                         <a href="{{url('blogdetail/'.$data->id)}}">
                            <div class="list__heading d-flex justify-content-between">
-                              <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
+                              <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: var(--green);">[New]</span>
                            </div>
                         </a>
                         <div class="author__date d-flex justify-content-between">
@@ -432,9 +432,9 @@
          <div class="container">
             <section class="blog__more__topics pt-5">
                <div class="heading d-flex justify-content-between align-items-center">
-                  <hr style="color:#5CE1D5; width:20%; height:5px;" />
+                  <hr style="color:var(--green); width:20%; height:5px;" />
                   <h1>EXPLORE MORE TOPICS</h1>
-                  <hr style="color:#5CE1D5; width:20%; height:5px;" />
+                  <hr style="color:var(--green); width:20%; height:5px;" />
                </div>
                <!-- <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam ipsum neque molestiae eum! Recusandae.</p> -->
                <div class="row">
@@ -453,9 +453,9 @@
 
             <section class="subscribe pt-5">
                <div class="heading d-flex justify-content-between align-items-center">
-                  <hr style="color:#5CE1D5; width:8%; height:5px;" />
+                  <hr style="color:var(--green); width:8%; height:5px;" />
                   <h1>SUBSCRIBE TO GET UPDATE IN YOUR INBOX</h1>
-                  <hr style="color:#5CE1D5; width:8%; height:5px;" />
+                  <hr style="color:var(--green); width:8%; height:5px;" />
                </div>
 
                <div class="inputs">
