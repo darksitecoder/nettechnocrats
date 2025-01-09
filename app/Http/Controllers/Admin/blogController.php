@@ -326,7 +326,7 @@ class blogController extends Controller
     {
 
         $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
-        $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
+        $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->get();
         $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->take(5)->get()->unique('topic');
 
         // dd($blogLTS, $blogRAN, $blogTPC);
@@ -340,7 +340,7 @@ class blogController extends Controller
 
         $blogFND = Blog::where('status', 'publish')->whereNotNull('image')->where('id', $id)->first();
         $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
-        $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
+        $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->get();
         $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->take(5)->get()->unique('topic');
 
         // dd($blogFND, $blogLTS, $blogRAN, $blogTPC);
