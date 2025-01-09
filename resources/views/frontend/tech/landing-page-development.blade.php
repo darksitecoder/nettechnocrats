@@ -79,10 +79,7 @@
       <p class="mb-2">Today, being online is super important. Landing pages are a big part of online promotion. They’re often the first thing visitors see on your website. Whether for ads or website improvement, choosing the right helper matters a lot.</p>
       <p class="mb-2">Our landing page design services go beyond the ordinary. We’re not just another landing page creator; we’re your pathway to maximizing conversions and ROI. With a focus on landing page optimization, we ensure your campaigns hit the mark.</p>
       <p class="mb-4">Partner with us, the leading Landing Page Development Services provider, to make your PPC campaigns stand out. Your success is our mission.</p>
-
-
      </div>
-
     </div>
    </div>
   </div>
@@ -126,9 +123,8 @@
        <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Domain: Crafting Your Digital Identity</a>
-       <p class="mb-4">A custom domain reinforces your brand's uniqueness, enhancing search visibility. Trust us to seamlessly bring your distinctive domain to life.
-       </p>
+       <a href="#" class="h4 d-inline-block mb-4">Integration</a>
+       <p class="mb-4">Seek seamless integration with top email marketing and CRM platforms for streamlined data transfer.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -140,9 +136,8 @@
        <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Security: Fortified and Trustworthy</a>
-       <p class="mb-4">Top-tier security is a dual benefit – safeguarding against threats and boosting Squarespace SEO. We pledge to fortify your site with the latest SSL certifications, encapsulating safety and trust.
-       </p>
+       <a href="#" class="h4 d-inline-block mb-4">Accountability</a>
+       <p class="mb-4">Prioritize data security, including domain protection and password security, for peace of mind.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -154,9 +149,8 @@
        <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Domain: Crafting Your Digital Identity</a>
-       <p class="mb-4">A custom domain reinforces your brand's uniqueness, enhancing search visibility. Trust us to seamlessly bring your distinctive domain to life.
-       </p>
+       <a href="#" class="h4 d-inline-block mb-4">Benefits</a>
+       <p class="mb-4">Landing page builders offer lead generation, conversion optimization, Quality Score enhancement, and more</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
