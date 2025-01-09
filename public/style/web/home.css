@@ -224,7 +224,7 @@ p {
 
 .header .menu>ul>li .sub-menu.mega-menu-column-2>.list-item .title {
   font-size: 16px;
-  color: var(--green);
+  color: var(--black);
   font-weight: 500;
   line-height: 1;
   padding: 10px 0;
@@ -246,7 +246,7 @@ p {
 
 .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item .title {
   font-size: 16px;
-  color: var(--green);
+  color: var(--black);
   font-weight: 500;
   line-height: 1;
   padding: 10px 0;
@@ -378,7 +378,7 @@ p {
 .about__seo .colored__text {
   font-size: 20px;
   font-weight: 700;
-  color: var(--green);
+  color: var(--black);
 }
 
 .about__seo h2 {
