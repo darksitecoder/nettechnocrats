@@ -7,7 +7,7 @@
       <title>Expand and Automate Your
             Job Portal Business</title>
       <!-- <link rel="stylesheet" href="style.css"> -->
-
+      <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
       <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
       <link
             rel="stylesheet"

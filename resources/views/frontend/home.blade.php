@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Marketing, Web Development & Mobile App Development Company</title>
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"

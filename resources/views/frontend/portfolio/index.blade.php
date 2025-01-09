@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
-
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
     <link
         rel="stylesheet"
@@ -207,41 +207,41 @@
         <div class="container1 py-5">
 
 
-        
-      
- 
-        @foreach($portfolio as $blog)
-    <div class="showcase">
-    <div class="thumbnail thumbnail--awesome" style="background: url('{{ asset('/' . $blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
 
 
 
-        
+            @foreach($portfolio as $blog)
+            <div class="showcase">
+                <div class="thumbnail thumbnail--awesome" style="background: url('{{ asset('/' . $blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
 
-            <div class=" thumbnail__overlay">
-            <a class="btn" href="{{ url('/portfoliodetails/' . $blog->id) }}">VIEW CASE STUDY</a>
+
+
+
+
+                    <div class=" thumbnail__overlay">
+                        <a class="btn" href="{{ url('/portfoliodetails/' . $blog->id) }}">VIEW CASE STUDY</a>
+                    </div>
+                </div>
+                <div class="desc">
+                    <p>Case Study</p>
+                    <h2>{{ $blog->heading }}</h2>
+
+                    <!-- Limit content to 20 words -->
+                    <p>{!! \Illuminate\Support\Str::words($blog->content, 20) !!}</p>
+                </div>
             </div>
+            @endforeach
+
+
+
         </div>
-        <div class="desc">
-            <p>Case Study</p>
-            <h2>{{ $blog->heading }}</h2>
-
-            <!-- Limit content to 20 words -->
-            <p>{!! \Illuminate\Support\Str::words($blog->content, 20) !!}</p>
+        <!-- About End -->
+        <!-- Pagination Links -->
+        <div class="pagination">
+            {{ $portfolio->links() }}
         </div>
-    </div>
-@endforeach
 
-           
-            
-    </div>
-    <!-- About End -->
-<!-- Pagination Links -->
-<div class="pagination">
-    {{ $portfolio->links() }}
-</div>
-
-    @include('partial/footer')
+        @include('partial/footer')
 </body>
 
 </html>

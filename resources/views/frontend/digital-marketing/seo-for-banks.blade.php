@@ -6,7 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>SEO Services For Bank And Financial Institues</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
-
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
   rel="stylesheet"

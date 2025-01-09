@@ -8,6 +8,7 @@
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
  <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"

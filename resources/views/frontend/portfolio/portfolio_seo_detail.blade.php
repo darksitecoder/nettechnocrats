@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEO portfolio details</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
-
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
     <link
         rel="stylesheet"
@@ -96,7 +96,7 @@
                     <div class=" rounded d-flex justify-content-center">
                         <img src="{{ asset('/' . $portfolio[0]->image_start) }}" class="img-fluid rounded" alt="" style="width: 100%; height:500px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     </div>
-                    
+
                 </div>
             </div>
             {!! $portfolio[0]->content_start !!}

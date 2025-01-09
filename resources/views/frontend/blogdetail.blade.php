@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog Details</title>
   <!-- <link rel="stylesheet" href="style.css"> -->
-
+  <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
   <link
     rel="stylesheet"
@@ -470,6 +470,7 @@
       list-style: disc;
       padding-left: 20px;
     }
+
     .content li {
       margin-bottom: 5px;
     }
