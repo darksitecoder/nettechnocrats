@@ -1413,7 +1413,14 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     </div>
                 </div>
             </section>
-
+            <section class="sample__banner my-3 " style="background: url('{{ asset('assets/web/sample__banner.png') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat; padding:10rem 0rem !important;">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Consistently Effective, Cutting-Edge SEO Solutions for Higher Conversion Rates</h2>
+                        <p>Experience the power of innovation with our consistently effective, cutting-edge SEO solutions designed to skyrocket your conversion rates. Our expert team combines the latest SEO techniques with deep industry insights to ensure your limo service not only ranks higher but also converts visitors into loyal customers. Elevate your online presence by our world-class </p>
+                    </div>
+                </div>
+            </section>
             <section class="home__address py-2 my-3 d-flex justify-content-center">
                 <div class="container">
                     <div class="row address py-5" style="background-color: var(--blue);">
