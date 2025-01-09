@@ -684,6 +684,36 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         .home-form .submit-btn:hover {
             background-color: transparent;
         }
+
+        .counters {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .counters .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 30px;
+            text-align: center;
+        }
+
+        .counters .counter {
+            font-size: 45px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 700px) {
+            .counters .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .counters .container>div:nth-of-type(1),
+            .counters .container>div:nth-of-type(2) {
+                border-bottom: 1px lightskyblue solid;
+                padding-bottom: 20px;
+            }
+        }
     </style>
 </head>
 
@@ -1419,6 +1449,35 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     <div class="col-lg-12">
                         <h2>Consistently Effective, Cutting-Edge SEO Solutions for Higher Conversion Rates</h2>
                         <p>Experience the power of innovation with our consistently effective, cutting-edge SEO solutions designed to skyrocket your conversion rates. Our expert team combines the latest SEO techniques with deep industry insights to ensure your limo service not only ranks higher but also converts visitors into loyal customers. Elevate your online presence by our world-class </p>
+
+                        <section class="counters">
+                            <div class="container">
+                                <div class="text-center">
+                                    <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                                        <div class="counter" data-target="200">0</div>k+
+                                    </span>
+                                    <h3>1st Page Rank</h3>
+                                </div>
+                                <div class="text-center">
+                                    <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                                        <div class="counter" data-target="12">0</div>+
+                                    </span>
+                                    <h3>Years</h3>
+                                </div>
+                                <div class="text-center">
+                                    <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                                        <div class="counter" data-target="4000">0</div>+
+                                    </span>
+                                    <h3>Clients</h3>
+                                </div>
+                                <div class="text-center">
+                                    <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                                        <div class="counter" data-target="12">0</div>+
+                                    </span>
+                                    <h3>Awards Winning</h3>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </section>
@@ -1576,6 +1635,33 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             document.getElementById("icon-" + i).classList.toggle("ri", id !== i);
         }
     }
+</script>
+
+<script>
+    const counters = document.querySelectorAll('.counter');
+    const speed = 30; // The lower the speed value, the slower the counter animation
+
+    counters.forEach(counter => {
+        const updateCount = () => {
+            const target = +counter.getAttribute('data-target');
+            const count = +counter.innerText;
+
+            // Calculate the increment step
+            const inc = Math.ceil(target / speed);
+
+            // Check if the current count is less than the target
+            if (count < target) {
+                // Increment the count and update the counter text
+                counter.innerText = count + inc > target ? target : count + inc;
+                // Call the function again after a short delay
+                setTimeout(updateCount, 100);
+            } else {
+                counter.innerText = target; // Ensure the counter ends at the target value
+            }
+        };
+
+        updateCount();
+    });
 </script>
 
 </html>
