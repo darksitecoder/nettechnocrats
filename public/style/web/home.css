@@ -1727,7 +1727,7 @@ p {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: var(--accent-color) !important;
+  background-color: #b3b2b2 !important;
   box-shadow: none !important;
 }
 
