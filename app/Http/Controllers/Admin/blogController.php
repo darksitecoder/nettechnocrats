@@ -328,7 +328,7 @@ class blogController extends Controller
 
         $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
         $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->get();
-        $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->take(5)->get()->unique('topic');
+        $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->get()->unique('topic')->take(5);
 
         // dd($blogLTS, $blogRAN, $blogTPC);
         return view('frontend.blogLists', compact('blogLTS', 'blogRAN', 'blogTPC'));
@@ -343,7 +343,7 @@ class blogController extends Controller
         if ($blogFND) {
             $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
             $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->get();
-            $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->take(5)->get()->unique('topic');
+            $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->get()->unique('topic')->take(5);
     
             // dd($blogFND, $blogLTS, $blogRAN, $blogTPC);
             return view('frontend.blogdetail', compact('blogFND', 'blogLTS', 'blogRAN', 'blogTPC'));
