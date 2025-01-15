@@ -29,11 +29,51 @@
 
  <style>
   .service .service-item {
-   height: 300px;
+   height: 350px;
+   text-align: center;
+  }
+
+  .service .service-item p {
+   text-align: left;
   }
 
   .design-features .service-item {
    height: 550px !important;
+  }
+
+  .brand__images .brands {
+   flex: 1 1 calc(40% - 10px);
+  }
+
+
+  .counters {
+   color: #000;
+   font-weight: 400;
+  }
+
+  .counters .container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 30px;
+   text-align: center;
+  }
+
+  .counters .counter {
+   font-size: 45px;
+   font-weight: 600;
+   margin: 10px 0;
+  }
+
+  @media (max-width: 700px) {
+   .counters .container {
+    grid-template-columns: repeat(2, 1fr);
+   }
+
+   .counters .container>div:nth-of-type(1),
+   .counters .container>div:nth-of-type(2) {
+    border-bottom: 1px lightskyblue solid;
+    padding-bottom: 20px;
+   }
   }
  </style>
 </head>
@@ -59,28 +99,111 @@
 
  <section class="brand__images py-4">
   <div class="container">
-   <h3 class="text-center">Count On Our Passion For Technology</h3>
-   <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
+   <h3 class="text-center">Recognition and Rewards motivate us to go the extra mile</h3>
+   <p class="text-center">Since 2010, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are certified partner to deliver the high quality results.</p>
+   <div class="row">
+    <div class="col-lg-6">
+     <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
+     </div>
+     <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
+     </div>
+     <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
+     </div>
+    </div>
+    <div class="col-lg-6" style="background-color: #F25423;"><img src="{{ asset('assets/web/certificate-showing.webp') }}" alt="" srcset="" style="width: 120%;">
+    </div>
    </div>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
-   </div>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
+
+  </div>
+ </section>
+
+
+ <section>
+  <div class="container-fluid service pb-5">
+   <div class="container pb-5">
+    <!-- <h2 class="text-center">A Quick Glance of Top Industries We Serve</h2>
+   <p class="text-center pb-5">Nettechnocrats is a leading chatbot development company that assist their clients to build bots which will provide an unparalleled experience to their customers and automate their collaborations tasks.</p> -->
+    <div class="row g-4">
+     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+      <div class="service-item">
+       <div class="service-img"><i class="fa-brands fa-angular"></i></div>
+       <div class="rounded-bottom p-4">
+        <a href="#" class="h4 d-inline-block mb-4">LATEST TECHNOLOGY</a>
+        <p class="mb-4">Our team of expert and experienced engineers help to create products and rendering services that cater to the client’s requirements using the latest technologies.</p>
+        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+       </div>
+      </div>
+     </div>
+     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+      <div class="service-item">
+       <div class="service-img">
+        <i class="fa-solid fa-cash-register"></i>
+       </div>
+       <div class="rounded-bottom p-4">
+        <a href="#" class="h4 d-inline-block mb-4">COMPLETE BUSINESS CONSULTANCY</a>
+        <p class="mb-4">Summing up our expertise in the technical background along with a perfect business growth strategy equates to us being an efficient consultant for your business requirements.</p>
+        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+       </div>
+      </div>
+     </div>
+     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+      <div class="service-item">
+       <div class="service-img">
+        <i class="fa-solid fa-laptop-code"></i>
+       </div>
+       <div class="rounded-bottom p-4">
+        <a href="#" class="h4 d-inline-block mb-4">NO QUALITY COMPROMISE</a>
+        <p class="mb-4">We believe in engineering a high-end quality product for our clients through our efficient business processes with minimizing risk factors at every step.</p>
+        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+       </div>
+      </div>
+     </div>
+
+     <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-microscope"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">MOBILE APP DEVELOPMENT USING ANGULAR JS</a>
+       <p class="mb-4">We are backed by a veteran team of Angular JS developers for Angular JS based products customization, extension, and integration.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+     <div class="service-item">
+      <div class="service-img">
+       <i class="fa-solid fa-cloud-arrow-up"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">MAINTENANCE & SUPPORT</a>
+       <p class="mb-4">Our expert consultants will guide your application development using best practices and rich expertise.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+     <div class="service-item">
+      <div class="service-img"><i class="fa-brands fa-nfc-directional"></i>
+      </div>
+      <div class="rounded-bottom p-4">
+       <a href="#" class="h4 d-inline-block mb-4">BEHAVIOR WITH DIRECTIVES</a>
+       <p class="mb-4">Angular provides extra functionality to the HTML with the use of directives. Have you ever wished that your browser would do new tricks for you? Well, now it can!</p>
+      </div>
+     </div>
+    </div> -->
+    </div>
    </div>
   </div>
  </section>
@@ -92,14 +215,41 @@
    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
     <div class="col-xl-10">
      <div class="text-center">
-      <h3>Ready To Get Started?</h3>
-      <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="#">Contact Us</a>
+      <h3>You have a vision.
+       We have a way to get you there.</h3>
+      <p>Estimations & Planning for Business Decisions with Coffee</p>
      </div>
     </div>
    </div>
   </div>
-
+  <section class="counters pb-5 pt-3">
+   <div class="container">
+    <div class="text-center">
+     <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+      <div class="counter" data-target="200">0</div>k+
+     </span>
+     <h3>1st Page Rank</h3>
+    </div>
+    <div class="text-center">
+     <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+      <div class="counter" data-target="12">0</div>+
+     </span>
+     <h3>Years</h3>
+    </div>
+    <div class="text-center">
+     <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+      <div class="counter" data-target="4000">0</div>+
+     </span>
+     <h3>Clients</h3>
+    </div>
+    <div class="text-center">
+     <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+      <div class="counter" data-target="12">0</div>+
+     </span>
+     <h3>Awards Winning</h3>
+    </div>
+   </div>
+  </section>
  </section><!-- /Call To Action Section -->
 
 
@@ -107,7 +257,32 @@
 </body>
 
 </html>
+<script>
+ const counters = document.querySelectorAll('.counter');
+ const speed = 30; // The lower the speed value, the slower the counter animation
 
+ counters.forEach(counter => {
+  const updateCount = () => {
+   const target = +counter.getAttribute('data-target');
+   const count = +counter.innerText;
+
+   // Calculate the increment step
+   const inc = Math.ceil(target / speed);
+
+   // Check if the current count is less than the target
+   if (count < target) {
+    // Increment the count and update the counter text
+    counter.innerText = count + inc > target ? target : count + inc;
+    // Call the function again after a short delay
+    setTimeout(updateCount, 100);
+   } else {
+    counter.innerText = target; // Ensure the counter ends at the target value
+   }
+  };
+
+  updateCount();
+ });
+</script>
 <script src="{{ asset('style/web/lib/wow/wow.min.js') }}"></script>
 <script src="{{ asset('style/web/lib/easing/easing.min.js') }}"></script>
 <script src="{{ asset('style/web/lib/waypoints/waypoints.min.js') }}"></script>

@@ -642,7 +642,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         }
 
         .hero-slider {
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             border-radius: 20px;
             background-color: var(--white);
             height: 100px;
@@ -745,8 +745,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     <div class="item item4"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
                     <div class="item item5"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
                     <div class="item item6"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
-                    <div class="item item7"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
-                    <div class="item item8"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
+                    <!-- <div class="item item7"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div> -->
+                    <!-- <div class="item item8"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
                     <div class="item item9"><img src="{{ asset('assets/web/common-img/10-removebg-preview-1-300x62.webp') }}" alt="" srcset=""></div>
                     <div class="item item10"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
                     <div class="item item11"><img src="{{ asset('assets/web/common-img/11-removebg-preview-1-300x58.webp') }}" alt="" srcset=""></div>
@@ -758,7 +758,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     <div class="item item17"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
                     <div class="item item18"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
                     <div class="item item19"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
-                    <div class="item item20"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item20"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div> -->
 
                 </div>
             </div>
@@ -806,7 +806,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Backed by expert marketers, we craft strategies that ensure your brand voice is heard, resonating with your audience seamlessly.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -816,7 +816,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Leading SEO company and digital marketing agency at your service. Boost traffic, garner customers, and elevate profits with our on-page and off-page expertise.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -826,7 +826,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>We recognize that every client campaign demands unique audience targeting on the right social media platforms.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -836,7 +836,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Specializing in PPC services that drive organic traffic and connect you with your target audience instantly. Our savvy strategies ensure maximum ROI on your investment.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
 
@@ -849,7 +849,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Responsive, sleek, and user-centric websites are our specialty. Experience the perfect blend of design and functionality with us.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -859,7 +859,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>User experience is at the heart of our apps. We bring innovation to your fingertips, promoting user engagement and satisfaction.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -869,7 +869,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>We are rated as one of the top multi-vendor marketplace development companies, we will help you build the application for B2C, B2B and suppliers multi-vendor eCommerce marketplace.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -879,7 +879,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Gain the control and confidence you need to securely run your organization with the most flexible and secure cloud computing environment available. </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>

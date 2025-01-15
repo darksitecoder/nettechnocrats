@@ -570,43 +570,33 @@ p {
 
 .left .item1,
 .right .item1 {
-  animation-delay: calc((-20s / 5.5) * 4);
+  animation-delay: calc((-20s / 5) * 4);
 }
 
 .left .item2,
 .right .item2 {
-  animation-delay: calc((-20s / 5.5) * 3);
+  animation-delay: calc((-20s / 5) * 3);
 }
 
 .left .item3,
 .right .item3 {
-  animation-delay: calc((-20s / 5.5) * 2);
+  animation-delay: calc((-20s / 5) * 2);
 }
 
 .left .item4,
 .right .item4 {
-  animation-delay: calc((-20s / 5.5) * 1);
+  animation-delay: calc((-20s / 5) * 1);
 }
 
 .left .item5,
 .right .item5 {
-  animation-delay: calc((-20s / 5.5) * 0);
+  animation-delay: calc((-20s / 5) * 0);
 }
 
-/* .left .item6,
+.left .item6,
 .right .item6 {
   animation-delay: calc((-20s / 8) * 2);
 }
-
-.left .item7,
-.right .item7 {
-  animation-delay: calc((-20s / 8) * 1);
-}
-
-.left .item8,
-.right .item8 {
-  animation-delay: calc((-20s / 8) * 0);
-} */
 
 /* Carousel ends */
 

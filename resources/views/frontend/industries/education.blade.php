@@ -30,6 +30,11 @@
   <style>
     .service .service-item {
       height: 430px;
+      text-align: center !important;
+    }
+
+    .service .service-item p {
+      text-align: left !important;
     }
 
     .design-features .service-item {
@@ -118,7 +123,7 @@
               <i class="fa-solid fa-disease"></i>
             </div>
             <div class="rounded-bottom p-4">
-              <a href="#" class="h4 d-inline-block mb-4">Learning Management Systems (LMS)s</a>
+              <a href="#" class="h4 d-inline-block mb-4 text-center">Learning Management Systems (LMS)s</a>
               <p class="mb-4">With rich experience and high domain expertise, we provide you a new way to create or develop training programs, schedule training, review learner performance, and much more in tune with the latest industry standards.</p>
             </div>
           </div>
@@ -129,7 +134,7 @@
               <i class="fa-solid fa-gauge-high"></i>
             </div>
             <div class="rounded-bottom p-4">
-              <a href="#" class="h4 d-inline-block mb-4">Learning Content Management Systems (LCMS)</a>
+              <a href="#" class="h4 d-inline-block mb-4 text-center">Learning Content Management Systems (LCMS)</a>
               <p class="mb-4">Achieve faster and better results with our LCMS solutions that enable you to host, schedule, manage registrations, assess, test, and track online training activities in a more easy way. So, whether you need to create it from scratch or want a new one, we can help you.</p>
             </div>
           </div>
@@ -140,7 +145,7 @@
               <i class="fa-solid fa-shield-halved"></i>
             </div>
             <div class="rounded-bottom p-4">
-              <a href="#" class="h4 d-inline-block mb-4">Student Information Systems (SIS)</a>
+              <a href="#" class="h4 d-inline-block mb-4 text-center">Student Information Systems (SIS)</a>
               <p class="mb-4">Keeping in mind all your specifications, we provide you a single platform where you can easily store and track all student information, including grades, attendance records, and more. This will be helpful in increasing communication between divisions.</p>
             </div>
           </div>
@@ -152,7 +157,7 @@
               <i class="fa-solid fa-award"></i>
             </div>
             <div class="rounded-bottom p-4">
-              <a href="#" class="h4 d-inline-block mb-4">School ERP</a>
+              <a href="#" class="h4 d-inline-block mb-4 text-center">School ERP</a>
               <p class="mb-4">We are one the best leading company which develops strong ERP systems for schools, colleges, and universities. ERP systems help us to process the data. Our ERP system helps students to learn in the most perfect learning environment as well as a well-organized environment.</p>
             </div>
           </div>
@@ -164,7 +169,7 @@
               <i class="fa-solid fa-award"></i>
             </div>
             <div class="rounded-bottom p-4">
-              <a href="#" class="h4 d-inline-block mb-4">Web-based Training</a>
+              <a href="#" class="h4 d-inline-block mb-4 text-center">Web-based Training</a>
               <p class="mb-4">The learning process has been easier with the emergence of web-based training. Our experts provide different training solutions to colleges, businesses, and other institutions to help them achieve more and improve their performance in their domain.</p>
             </div>
           </div>
@@ -176,7 +181,7 @@
               <i class="fa-solid fa-award"></i>
             </div>
             <div class="rounded-bottom p-4">
-              <a href="#" class="h4 d-inline-block mb-4">Student Information Systems (SIS)</a>
+              <a href="#" class="h4 d-inline-block mb-4 text-center">Student Information Systems (SIS)</a>
               <p class="mb-4">Our company develops mobile apps for parents which they can easily interact with faculties and know time to time and status of their children. It also helps to create an accessible teaching environment for students. Using mobile apps students can learn everything on their smartphones and also access essential resources anytime and anywhere.</p>
             </div>
           </div>
