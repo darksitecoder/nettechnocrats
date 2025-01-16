@@ -806,7 +806,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Backed by expert marketers, we craft strategies that ensure your brand voice is heard, resonating with your audience seamlessly.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/digital-marketing/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -816,7 +816,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Leading SEO company and digital marketing agency at your service. Boost traffic, garner customers, and elevate profits with our on-page and off-page expertise.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/seo-services/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -826,7 +826,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>We recognize that every client campaign demands unique audience targeting on the right social media platforms.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/smo-services/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -836,7 +836,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Specializing in PPC services that drive organic traffic and connect you with your target audience instantly. Our savvy strategies ensure maximum ROI on your investment.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/ppc-services/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
 
@@ -849,7 +849,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Responsive, sleek, and user-centric websites are our specialty. Experience the perfect blend of design and functionality with us.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/web-development/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -859,7 +859,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>User experience is at the heart of our apps. We bring innovation to your fingertips, promoting user engagement and satisfaction.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/mobile-app-development/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -869,7 +869,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>We are rated as one of the top multi-vendor marketplace development companies, we will help you build the application for B2C, B2B and suppliers multi-vendor eCommerce marketplace.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/multi-vendor-marketplace/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -879,7 +879,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Gain the control and confidence you need to securely run your organization with the most flexible and secure cloud computing environment available. </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="{{url('//')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/cloud-computing/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
