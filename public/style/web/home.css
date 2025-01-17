@@ -559,18 +559,18 @@ p {
 }
 
 .left .item {
-  left: max(calc(200px * 5), 100%);
-  animation: scrollLeft 18s linear infinite;
+  left: max(calc(170px * 5), 80%);
+  animation: scrollLeft 20s linear infinite;
 }
 
 .right .item {
-  right: max(calc(200px * 8), 100%);
-  animation: scrollRight 15s linear infinite;
+  right: max(calc(170px * 8), 800%);
+  animation: scrollRight 18s linear infinite;
 }
 
 .left .item1,
 .right .item1 {
-  animation-delay: calc((-20s / 5) * 4);
+  animation-delay: calc((-19s / 5) * 4);
 }
 
 .left .item2,
@@ -593,10 +593,10 @@ p {
   animation-delay: calc((-20s / 5) * 0);
 }
 
-.left .item6,
+/* .left .item6,
 .right .item6 {
-  animation-delay: calc((-20s / 8) * 2);
-}
+  animation-delay: calc((-20s / 8) * 3);
+} */
 
 /* Carousel ends */
 

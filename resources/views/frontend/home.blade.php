@@ -744,7 +744,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     <div class="item item3"><img src="{{ asset('assets/web/common-img/2-removebg-preview-1-300x83.webp') }}" alt="" srcset=""></div>
                     <div class="item item4"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
                     <div class="item item5"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
-                    <div class="item item6"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
+                    <!-- <div class="item item6"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div> -->
                     <!-- <div class="item item7"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div> -->
                     <!-- <div class="item item8"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
                     <div class="item item9"><img src="{{ asset('assets/web/common-img/10-removebg-preview-1-300x62.webp') }}" alt="" srcset=""></div>
@@ -879,7 +879,10 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Gain the control and confidence you need to securely run your organization with the most flexible and secure cloud computing environment available. </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="{{url('/cloud-computing/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="
+                                        
+                                        
+                                        " class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
