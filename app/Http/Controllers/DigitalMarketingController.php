@@ -16,7 +16,7 @@ class DigitalMarketingController extends Controller
 
     public function index()
     {
-        return view('frontend.digital-marketing.digitalmarketing');
+        return view('frontend.digital-marketing.digital-marketing');
     }
 
 
