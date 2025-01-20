@@ -241,6 +241,7 @@ Route::view('/crm_development', 'frontend.tech.crm_development');
 Route::view('/generative_ai', 'frontend.tech.generative_ai');
 Route::view('/google_vision', 'frontend.tech.google_vision');
 Route::view('/quality_analysis', 'frontend.tech.quality_analysis');
+Route::view('/software-development', 'frontend.tech.software-development');
 
 
 // industries
