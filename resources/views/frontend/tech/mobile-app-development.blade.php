@@ -63,7 +63,7 @@
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/male-web-developer-doing-research-on-development-illustration-download-in-svg-png-gif-file-formats--thinking-researching-and-pack-design-illustrations-4759504.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+      <img src="{{ asset('assets/web/male-web-developer-doing-research-on-development-illustration-download-in-svg-png-gif-file-formats--thinking-researching-and-pack-design-illustrations-4759504.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="Mobile App Development Agency">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
@@ -256,7 +256,7 @@
     </div>
     <div class="col-xl-6 d-flex justify-content-center wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/custom_app.webp') }}" class="img-fluid rounded image-with-shadow" alt="" style="width:150px;">
+      <img src="{{ asset('assets/web/custom_app.webp') }}" class="img-fluid rounded image-with-shadow" alt="Mobile App Development Agency" style="width:150px;">
 
      </div>
     </div>
@@ -264,7 +264,7 @@
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-6 d-flex justify-content-center wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/price_icon.webp') }}" class="img-fluid rounded image-with-shadow" alt="" style="width:150px;">
+      <img src="{{ asset('assets/web/price_icon.webp') }}" class="img-fluid rounded image-with-shadow" alt="Top Mobile App Development company" style="width:150px;">
 
      </div>
     </div>
@@ -288,7 +288,7 @@
     </div>
     <div class="col-xl-6 d-flex justify-content-center wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/custom_app.webp') }}" class="img-fluid rounded image-with-shadow" alt="" style="width:150px;">
+      <img src="{{ asset('assets/web/custom_app.webp') }}" class="img-fluid rounded image-with-shadow" alt="Mobile App Development Agency" style="width:150px;">
 
      </div>
     </div>
@@ -440,7 +440,7 @@
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gifs">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/ecommerce-nettechnocrats.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+       <img src="{{ asset('assets/web/ecommerce-nettechnocrats.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="Best Mobile App Development Agency">
 
       </div>
      </div>
@@ -456,25 +456,25 @@
    <h3 class="text-center">Count On Our Passion For Technology</h3>
    <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
    <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
    </div>
    <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
    </div>
    <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
    </div>
   </div>
  </section>

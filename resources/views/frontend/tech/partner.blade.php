@@ -4,8 +4,24 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>PHP Development Services</title>
- <!-- <link rel="stylesheet" href="style.css"> -->
+<title>We are Certified Partners -Nettechnocrats IT Services Pvt Ltd</title>
+	<meta name="description" content="We are proud to globally certified partner with Google, Amazon and PayPal. We are awarded by top-tier research firms and featured in premium magazines and journals." />
+	<link rel="canonical" href="https://www.nettechnocrats.com/about-us/partners/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="We are Certified Partners -Nettechnocrats IT Services Pvt Ltd" />
+	<meta property="og:description" content="We are proud to globally certified partner with Google, Amazon and PayPal. We are awarded by top-tier research firms and featured in premium magazines and journals." />
+	<meta property="og:url" content="https://www.nettechnocrats.com/about-us/partners/" />
+	<meta property="og:site_name" content="Nettechnocrats" />
+	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+	<meta property="article:modified_time" content="2024-09-09T09:42:12+00:00" />
+	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@nettechnocrats" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="3 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/about-us/partners/","url":"https://www.nettechnocrats.com/about-us/partners/","name":"We are Certified Partners -Nettechnocrats IT Services Pvt Ltd","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/about-us/partners/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/about-us/partners/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp","datePublished":"2023-08-25T05:49:25+00:00","dateModified":"2024-09-09T09:42:12+00:00","description":"We are proud to globally certified partner with Google, Amazon and PayPal. We are awarded by top-tier research firms and featured in premium magazines and journals.","breadcrumb":{"@id":"https://www.nettechnocrats.com/about-us/partners/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/about-us/partners/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/about-us/partners/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp","width":622,"height":422},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/about-us/partners/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Company","item":"https://www.nettechnocrats.com/about-us/"},{"@type":"ListItem","position":3,"name":"Partners"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
+	 <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
@@ -49,7 +65,7 @@
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="">
+      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="Sharepoint">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
@@ -81,7 +97,7 @@
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
+      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="Sharepoint">
 
      </div>
     </div>
@@ -398,7 +414,7 @@
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gif">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="Sharepoint">
 
       </div>
      </div>
@@ -414,25 +430,25 @@
    <h3 class="text-center">Count On Our Passion For Technology</h3>
    <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
    <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
    </div>
    <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
    </div>
    <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
    </div>
   </div>
  </section>

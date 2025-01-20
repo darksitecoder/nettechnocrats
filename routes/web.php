@@ -219,11 +219,11 @@ Route::post('/enquiryFormSubmit', [enquiresController::class, 'enquiryFormSubmit
 // tech
 Route::view('/tech-stack', 'frontend.tech.tech-stack');
 Route::view('/wordpress-seo-agency', 'frontend.tech.wordpress-seo-agency');
-Route::view('/about-us/certificate', 'frontend.tech.certificate');
+Route::view('/certificate', 'frontend.tech.certificate');
 Route::view('/automobile-software-solutions', 'frontend.tech.automobile-software-solutions');
-Route::view('/about-us/methodology', 'frontend.tech.methodology');
-Route::view('/about-us/testimonial', 'frontend.tech.testimonial');
-Route::view('/about-us/partners', 'frontend.tech.partners');
+Route::view('/methodology', 'frontend.tech.methodology');
+Route::view('/testimonial', 'frontend.tech.testimonial');
+Route::view('/partners', 'frontend.tech.partners');
 Route::view('/content-writing-services', 'frontend.tech.content-writing-services');
 Route::view('/landing-page-development', 'frontend.tech.landing-page-development');
 Route::view('/thank-you', 'frontend.tech.thank-you');

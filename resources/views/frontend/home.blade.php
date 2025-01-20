@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Marketing, Web Development & Mobile App Development Company</title>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0B6497GZPR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0B6497GZPR');
+</script>
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
     <link

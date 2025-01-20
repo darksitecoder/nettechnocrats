@@ -6,7 +6,24 @@
 @section('meta_description', 'This is a brief description of the home page for SEO purposes.')
 
 @section('meta_keywords', 'laravel, home, keywords')
-
+<title>Effective PPC Services | Expert PPC Management Company</title>
+	<meta name="description" content="Best PPC Services: We are Google certified PPC management agency in India &amp; USA that offers quality PPC campaign management services." />
+	<link rel="canonical" href="https://www.nettechnocrats.com/ppc-services/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Effective PPC Services | Expert PPC Management Company" />
+	<meta property="og:description" content="Best PPC Services: We are Google certified PPC management agency in India &amp; USA that offers quality PPC campaign management services." />
+	<meta property="og:url" content="https://www.nettechnocrats.com/ppc-services/" />
+	<meta property="og:site_name" content="Nettechnocrats" />
+	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+	<meta property="article:modified_time" content="2024-08-13T10:16:37+00:00" />
+	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/ppc_side_img.webp" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@nettechnocrats" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="8 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/ppc-services/","url":"https://www.nettechnocrats.com/ppc-services/","name":"Effective PPC Services | Expert PPC Management Company","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/ppc-services/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/ppc-services/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/ppc_side_img.webp","datePublished":"2023-08-22T07:45:45+00:00","dateModified":"2024-08-13T10:16:37+00:00","description":"Best PPC Services: We are Google certified PPC management agency in India & USA that offers quality PPC campaign management services.","breadcrumb":{"@id":"https://www.nettechnocrats.com/ppc-services/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/ppc-services/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/ppc-services/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/ppc_side_img.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/ppc_side_img.webp","width":500,"height":463,"caption":"ppc"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/ppc-services/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"PPC Services"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
+	
 @section('content')
 
 
@@ -25,7 +42,7 @@
         Click. Convert. Celebrate</h1>
       </div>
       <div class="col-lg-6 order-2 order-lg-1 d-flex justify-content-end" data-aos="fade-up">
-       <img class="hero__image pe-3" src="{{ asset('assets/web/smm-banner-img.png') }} " alt="" srcset="">
+       <img class="hero__image pe-3" src="{{ asset('assets/web/smm-banner-img.png') }} " alt="PPC Services" srcset="">
       </div>
 
      </div>
@@ -235,7 +252,7 @@
        <div class="icon">
         <i class="fa-solid fa-people-group"></i>
        </div>
-       <a href="service-details.html" class="stretched-link">
+       <a href="amazon-ppc-services.html" class="stretched-link">
         <h3>Amazon PPC</h3>
        </a>
        <p><strong>"Maximize Your Marketplace."</strong><br />

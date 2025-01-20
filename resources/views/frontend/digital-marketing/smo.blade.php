@@ -8,6 +8,24 @@
 @section('meta_keywords', 'laravel, home, keywords')
 
 @section('content')
+<title>Best SMO Services, SMO Company in India</title>
+	<meta name="description" content="Your Trusted Social Media Marketing Agency for SMO Services. Boost your online presence with our expert SMO and increase brand visibility." />
+	<link rel="canonical" href="https://www.nettechnocrats.com/smo-services/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Best SMO Services, SMO Company in India" />
+	<meta property="og:description" content="Your Trusted Social Media Marketing Agency for SMO Services. Boost your online presence with our expert SMO and increase brand visibility." />
+	<meta property="og:url" content="https://www.nettechnocrats.com/smo-services/" />
+	<meta property="og:site_name" content="Nettechnocrats" />
+	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+	<meta property="article:modified_time" content="2024-08-13T11:19:13+00:00" />
+	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@nettechnocrats" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="6 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/smo-services/","url":"https://www.nettechnocrats.com/smo-services/","name":"Best SMO Services, SMO Company in India","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/smo-services/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/smo-services/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","datePublished":"2023-08-24T07:23:45+00:00","dateModified":"2024-08-13T11:19:13+00:00","description":"Your Trusted Social Media Marketing Agency for SMO Services. Boost your online presence with our expert SMO and increase brand visibility.","breadcrumb":{"@id":"https://www.nettechnocrats.com/smo-services/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/smo-services/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/smo-services/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","width":155,"height":42,"caption":"button"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/smo-services/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"SMO Services"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
+	
 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
 <main class="main">
@@ -23,7 +41,7 @@
                                     <p>Hire Social media experts to increase brand awareness and loyalty</p>
                               </div>
                               <div class="col-lg-6 order-2 order-lg-1 d-flex justify-content-end" data-aos="fade-up">
-                                    <img class="hero__image pe-3" src="{{ asset('assets/web/smm-banner-img.png') }} " alt="" srcset="">
+                                    <img class="hero__image pe-3" src="{{ asset('assets/web/smm-banner-img.png') }} " alt="SMO Services" srcset="">
                               </div>
 
                         </div>

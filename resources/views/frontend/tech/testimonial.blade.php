@@ -709,7 +709,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
   <section class="testimonial__video">
     <div class="row">
       <div class="col-lg-6">
-        <a href="https://youtu.be/f-MAIzGxWc0"><img src="{{ asset('assets/web/maxresdefault (1).png') }}" alt="" srcset="" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
+        <a href="https://youtu.be/f-MAIzGxWc0"><img src="{{ asset('assets/web/maxresdefault (1).png') }}" alt="you tube" srcset="" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
         </a>
       </div>
       <div class="col-lg-6">
@@ -719,9 +719,9 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         <p class="fw-bolder fs-3 text-center">Imad</p>
         <p class=" text-center">Business Owner</p>
         <div class="slider-wrapper left">
-          <div class="item item1"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="" srcset=""></div>
-          <div class="item item2"><img src="{{ asset('assets/web/appfuture.png') }}" alt="" srcset=""></div>
-          <div class="item item3"><img src="{{ asset('assets/web/upwork.png') }}" alt="" srcset=""></div>
+          <div class="item item1"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="Clutch " srcset=""></div>
+          <div class="item item2"><img src="{{ asset('assets/web/appfuture.png') }}" alt="Appfutura" srcset=""></div>
+          <div class="item item3"><img src="{{ asset('assets/web/upwork.png') }}" alt="Upwork" srcset=""></div>
           <div class="item item4"></div>
 
         </div>
@@ -737,66 +737,66 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
       <div class="row">
         <div class="col-lg-6">
           <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ asset('assets/web/test-client.webp') }}" alt="" srcset="" style="border-radius: 100%; width:100px; height:100px;">
+            <img src="{{ asset('assets/web/test-client.webp') }}" alt="Client testimonial" srcset="" style="border-radius: 100%; width:100px; height:100px;">
             <p class="fw-bolder">Real Estate Deal Analyzer</p>
             <p>
               I contacted Nettechnocrates to create a Saas software application that's interactive, user friendly & filled with user permissions and restrictions. Their team took there time to understand what I wanted & delivered a product as described. Their response time was always reliable & the communication was great. This team is good at what they do!! I plan to use them again for a future project. Thanks for everything!!</p>
-            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="" srcset="" style="width: 20%;">
+            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="rating" srcset="" style="width: 20%;">
             <p class="fw-bolder">Rolonda Andrews</p>
             <p class="fw-bolder" style="color: #676767;">Senior Mortgage Consultant -Premier Solutions</p>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ asset('assets/web/person-icon-512x483-d7q8hqj4.png') }}" alt="" srcset="" style="border-radius: 100%; width:100px; height:100px;">
+            <img src="{{ asset('assets/web/person-icon-512x483-d7q8hqj4.png') }}" alt="Person" srcset="" style="border-radius: 100%; width:100px; height:100px;">
             <p class="fw-bolder">Mobile App Development for Mental Health Channel</p>
             <p>
 
               The app that Nettechnocrats built was well-received. The team corrected bugs quickly and responded equally as promptly to other concerns. While there were some delays, efficiency and quality of work generally won the day.</p>
-            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="" srcset="" style="width: 20%;">
+            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="Rating" srcset="" style="width: 20%;">
             <p class="fw-bolder">Haris</p>
             <p class="fw-bolder" style="color: #676767;">Business Consultant MHTV</p>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ asset('assets/web/person-icon-512x483-d7q8hqj4.png') }}" alt="" srcset="" style="border-radius: 100%; width:100px; height:100px;">
+            <img src="{{ asset('assets/web/person-icon-512x483-d7q8hqj4.png') }}" alt="Person" srcset="" style="border-radius: 100%; width:100px; height:100px;">
             <p class="fw-bolder">Website and Mobile App development for Food Business</p>
             <p>
               It was a great experience with team Nettechnocrats. They have a great development team with talented project managers who can deliver the project on time. Thank you Nettechnocrats.</p>
-            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="" srcset="" style="width: 20%;">
+            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="testimonial" srcset="" style="width: 20%;">
             <p class="fw-bolder">Fazal Khan</p>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ asset('assets/web/test-client2.webp') }}" alt="" srcset="" style="border-radius: 100%; width:100px; height:100px;">
+            <img src="{{ asset('assets/web/test-client2.webp') }}" alt="Client" srcset="" style="border-radius: 100%; width:100px; height:100px;">
             <p class="fw-bolder">Machine Learning & AI Product</p>
             <p>
               What I definitely like about Nettechnocrats is their versatility, their professionalism and their dedication to staying within the time-frame of the project. They had deadlines to meet; we agreed on them and they delivered.They look to understand what we want to achieve. They helped us think about how our end users would be using the product and how to make it better.</p>
-            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="" srcset="" style="width: 20%;">
+            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="Client" srcset="" style="width: 20%;">
             <p class="fw-bolder">Amer Siddiqui</p>
             <p class="fw-bolder" style="color: #676767;">Operation Manager, TC Group</p>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ asset('assets/web/test-client4-1.webp') }}" alt="" srcset="" style="border-radius: 100%; width:100px; height:100px;">
+            <img src="{{ asset('assets/web/test-client4-1.webp') }}" alt="Client" srcset="" style="border-radius: 100%; width:100px; height:100px;">
             <p class="fw-bolder">Good and Dependable Development Teamr</p>
             <p>
               I have worked with the team at Nettechnocrats on several projects. They did a good job with the development of the sites. They are very responsive and are able to execute the vision for the project. I highly recommend Anand and his team of Developers.</p>
-            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="" srcset="" style="width: 20%;">
+            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="Client" srcset="" style="width: 20%;">
             <p class="fw-bolder">Joseph Hathorn</p>
             <p class="fw-bolder" style="color: #676767;">Founder and CEO</p>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ asset('assets/web/test-client6-1.webp') }}" alt="" srcset="" style="border-radius: 100%; width:100px; height:100px;">
+            <img src="{{ asset('assets/web/test-client6-1.webp') }}" alt="Client" srcset="" style="border-radius: 100%; width:100px; height:100px;">
             <p class="fw-bolder">Team Work</p>
             <p>
               Local Authority Foster Carer at Bedfordshire Local Authority</p>
-            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="" srcset="" style="width: 20%;">
+            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="Client" srcset="" style="width: 20%;">
             <p class="fw-bolder"> Victoria Lewis</p>
             <p class="fw-bolder" style="color: #676767;">Operation Manager, TC Group</p>
           </div>
@@ -804,22 +804,22 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
         <div class="col-lg-6">
           <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ asset('assets/web/test-client7.webp') }}" alt="" srcset="" style="border-radius: 100%; width:100px; height:100px;">
+            <img src="{{ asset('assets/web/test-client7.webp') }}" alt="Client" srcset="" style="border-radius: 100%; width:100px; height:100px;">
             <p class="fw-bolder">Great Experience</p>
             <p>
               I been happy that Nettechnocrats has ability to develop my business's website in short time and logical rate comparing with other providers. For sure that will be only beginning for more projects will be relying on them to handle</p>
-            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="" srcset="" style="width: 20%;">
+            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="Client" srcset="" style="width: 20%;">
             <p class="fw-bolder">Sameer Maashi</p>
             <p class="fw-bolder" style="color: #676767;">IT Director at Armed Forces Hospitals-Southern Region</p>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ asset('assets/web/test-client8-1.webp') }}" alt="" srcset="" style="border-radius: 100%; width:100px; height:100px;">
+            <img src="{{ asset('assets/web/test-client8-1.webp') }}" alt="Client" srcset="" style="border-radius: 100%; width:100px; height:100px;">
             <p class="fw-bolder">Dynamic website</p>
             <p>
               We are very pleased with this Company to which we have asked to do a dynamic website and it has been done quite professionally.</p>
-            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="" srcset="" style="width: 20%;">
+            <img src="{{ asset('assets/web/rating-stars-web-signs-5-stars.webp') }}" alt="Client" srcset="" style="width: 20%;">
             <p class="fw-bolder">Claudio Gambarotta</p>
             <p class="fw-bolder" style="color: #676767;">Director at Exportier Limited</p>
           </div>
