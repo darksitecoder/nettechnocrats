@@ -246,7 +246,7 @@ class PortfolioController extends Controller
             'category_2' => 'required',
             'heading' => 'required|string|max:255',
             'company_name' => 'required|string',
-            'industry' => 'required|string',
+            // 'industry' => 'required|string',
             'content_0' => 'required|max:2000',
             'content_1' => 'required|max:2000',
             'content_2' => 'required|max:2000',
