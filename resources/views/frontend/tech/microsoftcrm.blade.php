@@ -211,6 +211,31 @@
 </div>
 <!-- Offer End -->
 
+
+    <section class="portfolio-slider">
+        <div class="slider owl-carousel">
+        @foreach($datas as $data)
+        <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.png') }}'); background-repeat:no-repeat; background-size:cover;">
+
+            <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
+            <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>
+            <div class="h4 text-center">
+                <p class="fs-1 m-0 p-0 text-white">320%</p>
+                <p class=" m-0 p-0 text-white">Website Leads</p>
+            </div>
+            </div>
+            <div class="rounded-bottom text-center pt-3">
+            <a class="btn btn-primary rounded-pill py-2 px-4" href="{{url('portfolio_seo_detail/'.$data->id)}}">SEE CASE STUDY</a>
+            </div>
+            <div class="rounded-bottom text-center pt-3">
+            <p class="text-center p-0 m-0 fw-bold text-white">{{$data->company_name}}</p>
+            <p class="mb-4 p-0 m-0 fw-bold text-white">| {{$data->industry}} |</p>
+            </div>
+        </div>
+        @endforeach
+        </div>
+    </section>
+
 <section class="light-background why__choose__Net">
     <div class="container">
         <h2>Why Nettechnocrats for Microsoft Dynamic CRM Solution?</h2>

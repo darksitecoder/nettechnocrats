@@ -6,7 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Blog List</title>
    <!-- <link rel="stylesheet" href="style.css"> -->
-
+   <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
    <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
    <link
       rel="stylesheet"
@@ -175,7 +175,7 @@
       }
 
       .pdf__card .pdf__btn {
-         border: 2px solid #5CE1D5;
+         border: 2px solid var(--green);
          border-radius: 8px;
          margin: 10px 0px;
       }
@@ -190,7 +190,7 @@
       }
 
       .pdf__card .pdf__btn .preview {
-         color: #5CE1D5;
+         color: var(--green);
          background-color: #fff;
          border-radius: 6px 0px 0px 6px;
 
@@ -198,17 +198,17 @@
 
       .pdf__card .pdf__btn .preview:hover {
          color: #fff;
-         background-color: #5CE1D5;
+         background-color: var(--green);
       }
 
       .pdf__card .pdf__btn .download {
          color: #fff;
-         background-color: #5CE1D5;
+         background-color: var(--green);
          border-radius: 0px 6px 6px 0px;
       }
 
       .pdf__card .pdf__btn .download:hover {
-         color: #5CE1D5;
+         color: var(--green);
          background-color: #fff;
 
       }
@@ -231,7 +231,7 @@
 
       .subscribe .inputs input {
          height: 80px;
-         border: 1px solid #5CE1D5;
+         border: 1px solid var(--green);
          border-radius: 10px;
          font-size: 22px;
       }
@@ -240,12 +240,122 @@
          width: 100%;
          /* height: 50px; */
          color: #fff;
-         background-color: #5CE1D5;
-         border: 1px solid #5CE1D5;
+         background-color: var(--green);
+         border: 1px solid var(--green);
          border-radius: 10px;
          text-align: center;
          font-size: 27px;
          font-weight: 600;
+
+      }
+
+      /* Slider */
+
+      #container {
+         height: 60vh;
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         display: grid;
+         place-items: center
+      }
+
+      #slider-container {
+         height: 100%;
+         width: 85vw;
+         max-width: 1400px;
+         position: relative;
+         overflow: hidden;
+         padding: 20px;
+      }
+
+      #slider-container .btn {
+         position: absolute;
+         top: calc(50% - 30px);
+         height: 30px;
+         width: 30px;
+         border-left: 8px solid var(--blue);
+         border-top: 8px solid var(--blue);
+      }
+
+      #slider-container .btn:hover {
+         transform: scale(1.2);
+      }
+
+      #slider-container .btn.inactive {
+         border-color: rgb(153, 121, 126)
+      }
+
+      #slider-container .btn:first-of-type {
+         transform: rotate(-45deg);
+         left: 10px
+      }
+
+      #slider-container .btn:last-of-type {
+         transform: rotate(135deg);
+         right: 10px;
+      }
+
+      #slider-container #slider {
+         display: flex;
+         width: 1000%;
+         height: 100%;
+         transition: all .5s;
+      }
+
+      #slider-container #slider .slide {
+         height: 100%;
+         margin: auto 10px;
+         /* background-color: ; */
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+         border-radius: 10px;
+         display: grid;
+         place-items: center;
+      }
+
+      #slider-container #slider .slide img {
+         border-radius: 10px;
+      }
+
+      #slider-container #slider .slide h6 {
+         font-weight: 600;
+         color: var(--black);
+      }
+
+      #slider-container #slider .slide span {
+         color: white;
+         font-size: 150px;
+      }
+
+      @media only screen and (min-width: 1100px) {
+
+         #slider-container #slider .slide {
+            width: calc(2.5% - 20px);
+         }
+
+      }
+
+      @media only screen and (max-width: 1100px) {
+
+         #slider-container #slider .slide {
+            width: calc(3.3333333% - 20px);
+         }
+
+      }
+
+      @media only screen and (max-width: 900px) {
+
+         #slider-container #slider .slide {
+            width: calc(5% - 20px);
+         }
+
+      }
+
+      @media only screen and (max-width: 550px) {
+
+         #slider-container #slider .slide {
+            width: calc(10% - 20px);
+         }
 
       }
    </style>
@@ -257,11 +367,11 @@
    <section class="bloglist">
       <div class="container">
          <section class="main__blog__recent">
-            <div class="row">
+            <div class="row d-flex">
 
-               <div class="col-lg-6">
+               <div class="col-md-6">
                   <div class="main-blog-post ">
-                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="" style="height:330px; width:100%;">
+                     <a href="{{url('blogdetail/'.$blogLTS[0]->id)}}"> <img src="{{ asset('s/'.$blogLTS[0]->image) }}" alt="Blogs Images" srcset="" style="height:330px; width:100%;">
                         <h2>{{ strlen($blogLTS[0]->heading) > 25 ? substr($blogLTS[0]->heading, 0, 25) . '...' : $blogLTS[0]->heading }}</h2>
                      </a>
                      <p>{!! strlen($blogLTS[0]->content) > 60 ? substr($blogLTS[0]->content, 0, 60) . '...' : $blogLTS[0]->content !!}</p>
@@ -273,16 +383,16 @@
                   </div>
                </div>
 
-               <div class="col-lg-6">
+               <div class="col-md-6">
                   <div class="recent-blog-lists">
                      <h3>Featured Posts</h3>
-                     <hr style="color: #5CE1D5; height:5px;" />
+                     <hr style="color: var(--green); height:5px;" />
 
                      @foreach($blogLTS->skip('1') as $data)
                      <div class="list">
                         <a href="{{url('blogdetail/'.$data->id)}}">
                            <div class="list__heading d-flex justify-content-between">
-                              <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: #5CE1D5;">[New]</span>
+                              <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: var(--green);">[New]</span>
                            </div>
                         </a>
                         <div class="author__date d-flex justify-content-between">
@@ -296,42 +406,43 @@
                </div>
             </div>
 
-            <div class="row pt-4">
-               @foreach($blogRAN as $data)
-               <div class="col-lg-12 d-flex">
-                  <div class="blog__list">
-                     <a href="{{url('blogdetail/'.$data->id)}}">
-                        <div class="blog">
-                           <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="" style="height: 200px; width:250px;">
+
+            <div id="container">
+               <div id="slider-container">
+                  <span onclick="slideRight()" class="btn"></span>
+                  <div id="slider">
+                     @foreach($blogRAN as $data)
+                     <div class="slide">
+                        <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
+                        <a href="{{url('blogdetail/'.$data->id)}}">
                            <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
-                           <p>{!! strlen($data->content) > 25 ? substr($data->content, 0, 25) . '...' : $data->content !!}</p>
                            <div class="author__date d-flex justify-content-between">
                               <b>Nettechnocrats </b>&nbsp;&nbsp;
                               <p> {{ $data->created_at->format('d-m-Y') }} </p>
                            </div>
-                        </div>
-                     </a>
+                        </a>
+                     </div>
+                     @endforeach
                   </div>
+                  <span onclick="slideLeft()" class="btn"></span>
                </div>
-               @endforeach
             </div>
-
          </section>
 
          <div class="container">
             <section class="blog__more__topics pt-5">
                <div class="heading d-flex justify-content-between align-items-center">
-                  <hr style="color:#5CE1D5; width:20%; height:5px;" />
+                  <hr style="color:var(--green); width:20%; height:5px;" />
                   <h1>EXPLORE MORE TOPICS</h1>
-                  <hr style="color:#5CE1D5; width:20%; height:5px;" />
+                  <hr style="color:var(--green); width:20%; height:5px;" />
                </div>
                <!-- <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam ipsum neque molestiae eum! Recusandae.</p> -->
                <div class="row">
                   @foreach($blogTPC as $data)
-                  <div class="col-lg-4">
+                  <div class="col-lg-4 mt-4">
                      <div class="pdf__card">
                         <a href="{{url('blogdetail/'.$data->id)}}">
-                           <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="">
+                           <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="" style="height: 260px;">
                         </a>
                         <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
                      </div>
@@ -342,9 +453,9 @@
 
             <section class="subscribe pt-5">
                <div class="heading d-flex justify-content-between align-items-center">
-                  <hr style="color:#5CE1D5; width:8%; height:5px;" />
+                  <hr style="color:var(--green); width:8%; height:5px;" />
                   <h1>SUBSCRIBE TO GET UPDATE IN YOUR INBOX</h1>
-                  <hr style="color:#5CE1D5; width:8%; height:5px;" />
+                  <hr style="color:var(--green); width:8%; height:5px;" />
                </div>
 
                <div class="inputs">
@@ -390,7 +501,89 @@
       });
    </script>
 
+   <script>
+      var container = document.getElementById('container')
+      var slider = document.getElementById('slider');
+      var slides = document.getElementsByClassName('slide').length;
+      var buttons = document.getElementsByClassName('btn');
 
+
+      var currentPosition = 0;
+      var currentMargin = 0;
+      var slidesPerPage = 0;
+      var slidesCount = slides - slidesPerPage;
+      var containerWidth = container.offsetWidth;
+      var prevKeyActive = false;
+      var nextKeyActive = true;
+
+      window.addEventListener("resize", checkWidth);
+
+      function checkWidth() {
+         containerWidth = container.offsetWidth;
+         setParams(containerWidth);
+      }
+
+      function setParams(w) {
+         if (w < 551) {
+            slidesPerPage = 1;
+         } else {
+            if (w < 901) {
+               slidesPerPage = 2;
+            } else {
+               if (w < 1101) {
+                  slidesPerPage = 3;
+               } else {
+                  slidesPerPage = 4;
+               }
+            }
+         }
+         slidesCount = slides - slidesPerPage;
+         if (currentPosition > slidesCount) {
+            currentPosition -= slidesPerPage;
+         };
+         currentMargin = -currentPosition * (100 / slidesPerPage);
+         slider.style.marginLeft = currentMargin + '%';
+         if (currentPosition > 0) {
+            buttons[0].classList.remove('inactive');
+         }
+         if (currentPosition < slidesCount) {
+            buttons[1].classList.remove('inactive');
+         }
+         if (currentPosition >= slidesCount) {
+            buttons[1].classList.add('inactive');
+         }
+      }
+
+      setParams();
+
+      function slideRight() {
+         if (currentPosition != 0) {
+            slider.style.marginLeft = currentMargin + (100 / slidesPerPage) + '%';
+            currentMargin += (100 / slidesPerPage);
+            currentPosition--;
+         };
+         if (currentPosition === 0) {
+            buttons[0].classList.add('inactive');
+         }
+         if (currentPosition < slidesCount) {
+            buttons[1].classList.remove('inactive');
+         }
+      };
+
+      function slideLeft() {
+         if (currentPosition != slidesCount) {
+            slider.style.marginLeft = currentMargin - (100 / slidesPerPage) + '%';
+            currentMargin -= (100 / slidesPerPage);
+            currentPosition++;
+         };
+         if (currentPosition == slidesCount) {
+            buttons[1].classList.add('inactive');
+         }
+         if (currentPosition > 0) {
+            buttons[0].classList.remove('inactive');
+         }
+      };
+   </script>
 </body>
 
 </html>

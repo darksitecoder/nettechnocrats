@@ -141,7 +141,7 @@ class blogController extends Controller
         // Validate the incoming data
         $validatedData = $request->validate([
             'topic' => 'required|string',
-            'heading' => 'required|string|max:255',
+            'heading' => 'required|string|max:255|unique:blogs',
             'content' => 'required|string|max:100000',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
             'video' => 'nullable|mimes:mp4,mov,ogg,qt',
@@ -186,6 +186,7 @@ class blogController extends Controller
         // Create the blog entry
         $blog = Blog::create([
             'topic' => $validatedData['topic'],
+            'slug' => strtolower(preg_replace('/--+/', '-', preg_replace('/[^a-zA-Z0-9_]/', '-', $validatedData['heading']))),
             'heading' => $validatedData['heading'],
             'content' => $validatedData['content'],
             'image' => $imagePath,
@@ -326,25 +327,29 @@ class blogController extends Controller
     {
 
         $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
-        $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
-        $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->take(5)->get()->unique('topic');
+        $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->get();
+        $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->get()->unique('topic')->take(5);
 
         // dd($blogLTS, $blogRAN, $blogTPC);
-        return view('frontend.bloglist', compact('blogLTS', 'blogRAN', 'blogTPC'));
+        return view('frontend.blogLists', compact('blogLTS', 'blogRAN', 'blogTPC'));
     }
 
 
     // For showing in front end with compact
-    function blogDetailFrontEnd(Request $request, $id)
+    function blogDetailFrontEnd(Request $request, $slug)
     {
 
-        $blogFND = Blog::where('status', 'publish')->whereNotNull('image')->where('id', $id)->first();
-        $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
-        $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->inRandomOrder()->take(4)->get();
-        $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->take(5)->get()->unique('topic');
-
-        // dd($blogFND, $blogLTS, $blogRAN, $blogTPC);
-        return view('frontend.blogdetail', compact('blogFND', 'blogLTS', 'blogRAN', 'blogTPC'));
+        $blogFND = Blog::where('status', 'publish')->whereNotNull('image')->where('slug', $slug)->first();
+        if ($blogFND) {
+            $blogLTS = Blog::where('status', 'publish')->whereNotNull('image')->orderby('created_at', 'desc')->take(5)->get();
+            $blogRAN = Blog::where('status', 'publish')->whereNotNull('image')->get();
+            $blogTPC = Blog::where('status', 'publish')->whereNotNull('image')->get()->unique('topic')->take(5);
+    
+            // dd($blogFND, $blogLTS, $blogRAN, $blogTPC);
+            return view('frontend.blogdetail', compact('blogFND', 'blogLTS', 'blogRAN', 'blogTPC'));
+        }else {
+            echo 'Blog details not found';
+        }
     }
 
 

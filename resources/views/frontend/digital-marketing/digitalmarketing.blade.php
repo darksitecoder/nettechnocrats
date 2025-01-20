@@ -10,6 +10,7 @@
  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
   referrerpolicy="no-referrer" />
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/digital-marketing/fontawesome.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/digital-marketing/templatemo-seo-dream.css') }}">

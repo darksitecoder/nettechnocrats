@@ -233,7 +233,7 @@
 
       <main class="content">
         <div class="container-fluid p-0">
-          <form id="portfolioForm"  method="POST" enctype="multipart/form-data">
+          <form id="portfolioForm" method="POST" enctype="multipart/form-data">
             @csrf
             <span class="text" id="success_msg" style="font-size:13px;"></span>
 
@@ -251,15 +251,14 @@
             <input type="hidden" name="page_type" value="update">
             <span class="text-danger" id="portfolio_no_err" style="font-size:13px;"></span>
 
-
             <!-- category_1 Input Section -->
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <div class="col-md-12 stretch-card grid-margin">
                 <select id="category_1" name="category_1">
                   <option value="">-Select Category 1-</option>
-                  <option value="Web_Development" @if($Blogs[0]->category_1 == 'Web_Development') selected @endif>Web Development</option>
-                  <option value="Apps_Development" @if($Blogs[0]->category_1 == 'Apps_Development') selected @endif>Apps Development</option>
-                  <option value="Software_Development" @if($Blogs[0]->category_1 == 'Software_Development') selected @endif>Software Development</option>
+                  <option value="Apps_Development">Apps Development</option>
+                  <option value="Software_Development">Software Development</option>
+                  <option value="Web_Development">Web Development</option>
                 </select>
               </div>
               <span class="text-danger" id="category_1_err" style="font-size:13px;"></span>
@@ -271,12 +270,24 @@
                 <select id="category_2" name="category_2">
                   <option value="">-Select Category 2-</option>
 
-                  <!-- Options for Software Development -->
-                  <option data-parent="Software_Development" value="Customer Software Development" @if($Blogs[0]->category_2 == 'Customer Software Development') selected @endif>Customer Software Development</option>
-                  <option data-parent="Software_Development" value="ERP Software Development" @if($Blogs[0]->category_2 == 'ERP Software Development') selected @endif>ERP Software Development</option>
-                  <option data-parent="Software_Development" value="CRM Development" @if($Blogs[0]->category_2 == 'CRM Development') selected @endif>CRM Development</option>
-                  <option data-parent="Software_Development" value="Salesforce Development" @if($Blogs[0]->category_2 == 'Salesforce Development') selected @endif>Salesforce Development</option>
-                  <option data-parent="Software_Development" value="Iot" @if($Blogs[0]->category_2 == 'Iot') selected @endif>Iot</option>
+                    <!-- Options for Apps Development -->
+                    <option data-parent="Apps_Development" value="UI/UX/Product Design">UI/UX/Product Design</option>
+                    <option data-parent="Apps_Development" value="PWA">PWA</option>
+
+                    <!-- Options for Software Development -->
+                    <option data-parent="Software_Development" value="Customer Software Development">Customer Software Development</option>
+                    <option data-parent="Software_Development" value="ERP Software Development">ERP Software Development</option>
+                    <option data-parent="Software_Development" value="CRM Development">CRM Development</option>
+                    <option data-parent="Software_Development" value="Salesforce Development">Salesforce Development</option>
+                    <option data-parent="Software_Development" value="Iot">Iot</option>
+                  
+                    <!-- Options for Web Development -->
+                    <option data-parent="Web_Development" value="Python">Python</option>
+                    <option data-parent="Web_Development" value="WordPress">WordPress</option>
+                    <option data-parent="Web_Development" value="Magento">Magento</option>
+                    <option data-parent="Web_Development" value="Joomla">Joomla</option>
+                    <option data-parent="Web_Development" value="Drupal">Drupal</option>
+
                 </select>
               </div>
               <span class="text-danger" id="category_2_err" style="font-size:13px;"></span>
@@ -289,7 +300,7 @@
                   <input type="file" id="image" name="image" accept="image/*" style="display: none;">
                   <div class="upload-container">
                     <label for="image" id="imageLabel">Upload Image</label>
-                    <img id="uploadedImage" src="{{ asset( 'public/' . $Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
+                    <img id="uploadedImage" src="{{ asset($Blogs[0]->image) }}" alt="Uploaded Image" style="display: block;">
                   </div>
                 </div>
               </div>
@@ -385,6 +396,58 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- jQuery Script -->
 
+  <script>
+    $(document).ready(function() {
+      // Set initial values for category_1 and category_2
+      let initialCategory1 = "{{ $Blogs[0]->category_1 ?? '' }}";
+      let initialCategory2 = "{{ $Blogs[0]->category_2 ?? '' }}";
+
+      // Function to update category_2 based on category_1
+      function updateCategory2Dropdown(selectedCategory1, selectedCategory2) {
+        // Reset category_2 dropdown
+        $('#category_2').val('');
+        $('#category_2 option').hide(); // Hide all options first
+
+        if (selectedCategory1) {
+          // Show only the options that match the selected category_1
+          $('#category_2 option[data-parent="' + selectedCategory1 + '"]').show();
+
+          // Set category_2 value if provided
+          if (selectedCategory2) {
+            $('#category_2').val(selectedCategory2);
+          }
+        } else {
+          // Show default placeholder option if nothing is selected
+          $('#category_2 option[value=""]').show();
+        }
+      }
+
+      // Set initial category_1 value
+      if (initialCategory1) {
+        $('#category_1').val(initialCategory1);
+      }
+
+      // Update category_2 based on initial values
+      updateCategory2Dropdown(initialCategory1, initialCategory2);
+
+      // On change of category_1
+      $('#category_1').change(function() {
+        let selectedCategory1 = $(this).val();
+
+        // Reset category_2 value
+        $('#category_2').val('');
+        $('#showTableTR').hide();
+
+        // Update category_2 dropdown options
+        updateCategory2Dropdown(selectedCategory1);
+
+        // Show table if Digital Marketing is selected
+        if (selectedCategory1 === 'Digital_Marketing') {
+          $('#showTableTR').show();
+        }
+      });
+    });
+  </script>
 
 
   <script>
@@ -477,9 +540,9 @@
           contentType: false,
           processData: false,
           headers: {
-                            'X-CSRF-TOKEN': csrfToken // Add the CSRF token to the headers
-                        },
-        
+            'X-CSRF-TOKEN': csrfToken // Add the CSRF token to the headers
+          },
+
           beforeSend: function() {
             // Optional: Show a loader or disable buttons
             if (status === 'save') {

@@ -139,8 +139,8 @@ Route::get('/e-wallet-app-development', [TechController::class, 'wallet']);
 Route::get('/ui-ux-design-services', [TechController::class, 'uiux']);
 
 
-Route::get('/bloglist', [blogController::class, 'listBlogsFrontEnd']);
-Route::get('/blogdetail/{id}', [blogController::class, 'blogDetailFrontEnd']);
+Route::get('/blogs', [blogController::class, 'listBlogsFrontEnd']);
+Route::get('/blogdetail/{slug}', [blogController::class, 'blogDetailFrontEnd']);
 
 Route::middleware(['auth'])->group(function () {
     // Protected route for the admin dashboard
@@ -205,12 +205,6 @@ Route::get('blogComments/{role}', [BlogCommentController::class, 'blogComments']
 // for users blog
 Route::get('listBlogsForUsersApi', [blogController::class, 'listBlogsForUsersApi']);
 Route::get('blogDetailsForUsersApi/{blogID}/{b2b_id?}', [blogController::class, 'blogDetailsForUsersApi']);
-
-
-// blogs for Admin
-
-Route::get('/blogs/{shop_id?}', [blogController::class, 'blogs']);
-Route::get('blogDetails/{id}/{shop_id?}', [blogController::class, 'blogDetails']);
 
 
 // enquires for Admin

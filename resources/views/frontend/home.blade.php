@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Marketing, Web Development & Mobile App Development Company</title>
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -448,7 +449,7 @@
         .fluid-tabs {
             /*change the following to the desired height*/
             /*best with 65vh*/
-            height: 100vh !important;
+            height: 100% !important;
         }
 
         .tab-group {
@@ -459,20 +460,21 @@
         }
 
         .tab-container {
-            overflow-y: scroll;
-            -webkit-overflow-scrolling: touch;
+            /* overflow-y: scroll; */
+            /* -webkit-overflow-scrolling: touch; */
             /* iOS*/
-            overflow-x: hidden;
-            height: 50%;
+            /* overflow-x: hidden; */
+            height: 100%;
             -webkit-animation-name: text-appear;
             /* Safari 4.0 - 8.0 */
             -webkit-animation-duration: 1.6s;
             /* Safari 4.0 - 8.0 */
             animation-name: text-appear;
             animation-duration: 1.6s;
-            -webkit-box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6);
+            color: var(--white) !important;
+            /* -webkit-box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6);
             -moz-box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6);
-            box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6);
+            box-shadow: inset 4px 10px 30px -15px rgba(0, 0, 0, 0.6); */
         }
 
         /*if you need to add or remove a panel, you have to do some maths and rearrangements on this section.*/
@@ -482,22 +484,22 @@ we want the selected tab to be the biggest and the other equally smaller.
 Let's say we want the selected one to fill a 40% of the container; so we have a 60% left to cover . this is 60/3 = 20% */
         #panel-1 {
             width: 16%;
-            background: #ef002f;
+            background: var(--black);
         }
 
         #panel-2 {
             width: 16%;
-            background: #d10029;
+            background: var(--black);
         }
 
         #panel-3 {
             width: 16%;
-            background: #760017;
+            background: var(--black);
         }
 
         #panel-4 {
             width: 16%;
-            background: #690015;
+            background: var(--black);
         }
 
         .selected {
@@ -515,7 +517,11 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             height: inherit;
             margin: 1rem 1rem;
             border-radius: 20px;
-            height: 500px;
+            height: 580px;
+        }
+
+        .title {
+            color: var(--green);
         }
 
         .hide {
@@ -623,6 +629,91 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         ::-webkit-scrollbar-thumb:hover {
             background: #b4edd2;
         }
+
+        .hero-slider .item img {
+            width: 90%;
+            height: 50px !important;
+            cursor: default;
+        }
+
+        .hero-slider .item:hover {
+            box-shadow: none;
+            cursor: default;
+        }
+
+        .hero-slider {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 20px;
+            background-color: var(--white);
+            height: 100px;
+            padding: 1.5rem 0rem;
+            margin-top: -3rem;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .roll-unroll-elements {
+                display: none;
+            }
+
+            .industries {
+                display: none;
+            }
+        }
+
+        .home-form input {
+            border-radius: 6px;
+            margin: 1rem 0rem;
+            padding: 0.6rem;
+            border: none;
+            width: 90%;
+            outline: none;
+        }
+
+        .home-form .submit-btn {
+            margin-top: 1rem;
+            width: 200px !important;
+            border-radius: 5px;
+            background-color: var(--green);
+            border: 1px solid var(--green);
+            color: var(--white);
+            font-size: 18px;
+            font-weight: 600;
+            transition: 0.5s ease-in-out;
+        }
+
+        .home-form .submit-btn:hover {
+            background-color: transparent;
+        }
+
+        .counters {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .counters .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 30px;
+            text-align: center;
+        }
+
+        .counters .counter {
+            font-size: 45px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 700px) {
+            .counters .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .counters .container>div:nth-of-type(1),
+            .counters .container>div:nth-of-type(2) {
+                border-bottom: 1px lightskyblue solid;
+                padding-bottom: 20px;
+            }
+        }
     </style>
 </head>
 
@@ -645,6 +736,35 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     </div>
                 </div>
             </section>
+
+            <div class="container hero-slider">
+                <div class="slider-wrapper left">
+                    <div class="item item1"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item2"><img src="{{ asset('assets/web/common-img/1-removebg-preview-1-300x102.webp') }}" alt="" srcset=""></div>
+                    <div class="item item3"><img src="{{ asset('assets/web/common-img/2-removebg-preview-1-300x83.webp') }}" alt="" srcset=""></div>
+                    <div class="item item4"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item5"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
+                    <!-- <div class="item item6"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div> -->
+                    <!-- <div class="item item7"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div> -->
+                    <!-- <div class="item item8"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item9"><img src="{{ asset('assets/web/common-img/10-removebg-preview-1-300x62.webp') }}" alt="" srcset=""></div>
+                    <div class="item item10"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item11"><img src="{{ asset('assets/web/common-img/11-removebg-preview-1-300x58.webp') }}" alt="" srcset=""></div>
+                    <div class="item item12"><img src="{{ asset('assets/web/common-img/20-removebg-preview-1-300x56.webp') }}" alt="" srcset=""></div>
+                    <div class="item item13"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item14"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
+                    <div class="item item15"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
+                    <div class="item item16"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
+                    <div class="item item17"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item18"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
+                    <div class="item item19"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
+                    <div class="item item20"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div> -->
+
+                </div>
+            </div>
+
+
+
             <div class="container">
                 <section class="about__seo">
                     <div class="row">
@@ -686,7 +806,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Backed by expert marketers, we craft strategies that ensure your brand voice is heard, resonating with your audience seamlessly.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/digital-marketing/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -696,7 +816,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Leading SEO company and digital marketing agency at your service. Boost traffic, garner customers, and elevate profits with our on-page and off-page expertise.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/seo-services/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -706,7 +826,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>We recognize that every client campaign demands unique audience targeting on the right social media platforms.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/smo-services/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -716,7 +836,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Specializing in PPC services that drive organic traffic and connect you with your target audience instantly. Our savvy strategies ensure maximum ROI on your investment.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/ppc-services/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
 
@@ -729,7 +849,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Responsive, sleek, and user-centric websites are our specialty. Experience the perfect blend of design and functionality with us.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/web-development/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -739,7 +859,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>User experience is at the heart of our apps. We bring innovation to your fingertips, promoting user engagement and satisfaction.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/mobile-app-development/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -749,7 +869,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>We are rated as one of the top multi-vendor marketplace development companies, we will help you build the application for B2C, B2B and suppliers multi-vendor eCommerce marketplace.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="{{url('/multi-vendor-marketplace/')}}" class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -759,7 +879,10 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         <p>Gain the control and confidence you need to securely run your organization with the most flexible and secure cloud computing environment available. </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="card__read__more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        <a href="
+                                        
+                                        
+                                        " class="card__read__more">Learn More <i class="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -848,7 +971,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 <section class="testimonial__video">
                     <div class="row">
                         <div class="col-lg-6">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/f-MAIzGxWc0?si=GkZPmhg-MKDbM0Dl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <a href="https://youtu.be/f-MAIzGxWc0"><img src="{{ asset('assets/web/maxresdefault (1).png') }}" alt="" srcset="" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
+                            </a>
                         </div>
                         <div class="col-lg-6">
                             <h2>We Are Ranked Among the Top Global Leaders in Digital Marketing</h2>
@@ -866,7 +990,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 </section>
             </div>
 
-            <section class="">
+            <section class="my-1 roll-unroll-elements">
                 <div class="container-fluid fluid-tabs">
 
                     <div class="row tab-group">
@@ -909,16 +1033,20 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                     </svg>
                                 </div>
 
-                                <h1 id="title-1" class="text-center title ">Chat Anyone</h1>
+                                <h1 id="title-1" class="text-center title ">DCatalog</h1>
 
 
                             </div>
                             <div id="content-panel-1" class="container tab-container justify-content">
 
                                 <!--content goes here-->
-                                <h4>...in the world</h4>
+                                <h4>+ 214% Traffic & 300% Traffic Growth</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis.
+                                    Founded in 2008, DCatalog is the leader in the digital publishing industry. With the advanced HTML5 flip book technology, this platform empowers publishers, content creators, marketing and eCommerce professionals to easily create and publish engaging digital experiences. The website is formerly known by ePaperflip.
+
+
+                                    <br>
+                                    Results: With the rigorous efforts and amazing skills, experts from Nettechnocrats Team were able to provide 1st page ranking for those keywords and the traffic is still boosting. Mirit is very happy with the ranking and traffic.
                                 </p>
                             </div>
                         </div>
@@ -980,16 +1108,18 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
                             </div>
 
-                            <h1 id="title-2" class="text-center title rt rotate">Work Smarter</h1>
+                            <h1 id="title-2" class="text-center title rt rotate">Men's USA Case Study</h1>
 
                             <div id="content-panel-2" class="container tab-container hide justify-content">
-                                <h4>Avoid extra work</h4>
+                                <h4>+ 800% Revenue & 300% Traffic Growth</h4>
                                 <p>
-                                    Proin sed massa nisi. Praesent ut elit et diam laoreet rutrum. Morbi hendrerit lobortis nisl, et suscipit elit tempus tincidunt. Curabitur a sapien egestas, bibendum sem ut, viverra nisl. Donec in accumsan metus. Ut aliquam metus quis augue posuere pretium. Nullam ornare, ex id ullamcorper efficitur, leo massa semper leo, vitae eleifend eros lectus nec nisl. Sed elementum convallis enim, id posuere odio vulputate eget. Suspendisse a massa sed lectus dignissim consequat. Etiam ac tempor felis. Nunc interdum est sit amet ipsum commodo, et vestibulum mi tempor.
-
-                                <h4>What can you expect? </h4>
+                                    Organic Search | keywords at first page successfully implemented SEO and PPC Strategies for Men;s USA, Resulting in remarkable outcomes.they achieved an impressive 800% increase in organic search, A significant 300% boost in organic revenue, attained first page rankings for 2000 keywords on google and generated over 10 million impressive within a span of just 3 months.
                                 <p>
-                                    Quisque tristique efficitur purus. Mauris nisl massa, dictum nec ullamcorper non, lacinia in ex. Ut hendrerit rutrum ante eu facilisis. Fusce aliquam justo ante, sit amet tempor sem bibendum fermentum. Cras malesuada, lectus a volutpat tempus, odio nibh tempus velit, ut ultricies tortor magna at dui. Etiam in lacus viverra, auctor dui non, fringilla tellus. Curabitur tortor odio, fermentum id lobortis eget, faucibus nec orci. Cras eget nisi a ligula lobortis ultricies in eget enim. Nullam commodo finibus dignissim. Integer eget pellentesque magna. Duis interdum ipsum sed odio semper, sit amet condimentum est facilisis. Vestibulum lacinia ligula sit amet massa laoreet, id venenatis mauris bibendum.
+                                    Digital Strategy we Used: <br />
+                                    – Targeted competitive and Low hanging keywords <br />
+                                    – Targeted multiple websites <br />
+                                    – Created high DA and PA backlinks <br />
+                                    – We have done content syndication and outreach
                                 </p>
                             </div>
                         </div>
@@ -1054,9 +1184,24 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             </div>
 
                             <div id="content-panel-3" class="container tab-container hide justify-content">
-                                <h4>And share your work</h4>
+                                <h4>150+ increase in leads & 100% Traffic Growth</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis. </p>
+                                    Whirlpool wstore is a Home Appliances website, you can purchase here online refrigerator, washing
+                                    machine, air conditioner , water purifier etc. <br />
+
+                                    Objective: <br />
+                                    To Increase maximum number of potential leads and increased number of budget spent. Being service provider the
+                                    requirement of campaign was quality of visitors with maximum quantity of users. <br />
+
+
+
+                                    Goals Achieved: <br />
+                                    We started our campaign for online shopping with Google Adwords by double the conversion rate. Google Results provide
+                                    business to client and Expand its business by major PPC Networks.
+
+                                    – Google Adwords <br />
+
+                                    – Yahoo Search Marketing</p>
                             </div>
                         </div>
 
@@ -1132,15 +1277,17 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
 
                                 </div>
-                                <h1 id="title-4" class="text-center title rt rotate">Be creative</h1>
+                                <h1 id="title-4" class="text-center title rt rotate">Seemless AI</h1>
 
 
                             </div>
 
                             <div id="content-panel-4" class="container tab-container hide justify-content">
-                                <h4>Don't waste your time</h4>
+                                <h4>+ Leading Data Finder Company</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum, nunc nec laoreet varius, elit dolor pretium ante, id egestas augue odio vitae odio. Fusce in elit tempus, porttitor lorem sed, placerat nisi. Aenean maximus, sapien non consectetur volutpat, enim eros dignissim nunc, nec fringilla turpis massa et mi. Aliquam erat volutpat. Suspendisse dapibus tellus nec odio blandit porta. Proin vulputate blandit varius. Nulla ullamcorper interdum arcu, a eleifend nisi pellentesque quis. </p>
+                                    Organic Search | keywords at first page successfully implemented SEO. Resulting in remarkable outcomes.they achieved an impressive increase in organic search, A significant boost in organic revenue.
+
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1160,7 +1307,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             <div class="container">
 
             </div>
-            <section class="industries py-5 my-5">
+            <section class="industries py-1 my-5">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="content">
@@ -1253,8 +1400,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     <div class="col-lg-12">
                         <div class="slider-container">
                             <div class="left-slide">
-                                <div style="background-color: #1F184E;">
-                                    <h1 class="text-center">Crypto Web Application</h1>
+                                <div style="background-color: var(--green);">
+                                    <h1 class="text-center">Spato M-commerce Application</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, veritatis!</p>
                                     <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
@@ -1268,14 +1415,14 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                     <p>Lorem ipsum dolor sit amet.</p>
                                     <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
-                                <div style="background-color: #22272D;">
-                                    <h1 class="text-center">Artificial Inteligence Project</h1>
+                                <div style="background-color: var(--green);">
+                                    <h1 class="text-center">Spato E-commerce Project </h1>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                     <a href="{{url('/portfolio/')}}" class="case__study">Read Case Study</a>
                                 </div>
                             </div>
                             <div class="right-slide">
-                                <div style="background: url('{{ asset('assets/web/ilya-pavlov-OqtafYT5kTw-unsplash.jpg') }}');">
+                                <div style="background: url('{{ asset('assets/web/spatoweb.png') }}');">
 
                                 </div>
                                 <div style="background:url('{{ asset('assets/web/aplle-wallet-1-removebg-preview.webp') }}'); ">
@@ -1284,7 +1431,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 <div style="background: url('{{ asset('assets/web/resturent__app.jpg') }}');">
 
                                 </div>
-                                <div style="background: url('{{ asset('assets/web/645ec0260359a13ac1404bd1_keplr-crypto-wallet-website-design-inspiration.jpg') }}');">
+                                <div style="background: url('{{ asset('assets/web/spatomobile.png') }}');">
 
                                 </div>
                             </div>
@@ -1300,22 +1447,78 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     </div>
                 </div>
             </section>
+            <section class="sample__banner my-3 " style="background: url('{{ asset('assets/web/people.png') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat; padding:5rem 0rem !important;">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Consistently Effective, Cutting-Edge SEO Solutions for Higher Conversion Rates</h2>
+                        <p>Experience the power of innovation with our consistently effective, cutting-edge SEO solutions designed to skyrocket your conversion rates. Our expert team combines the latest SEO techniques with deep industry insights to ensure your limo service not only ranks higher but also converts visitors into loyal customers. Elevate your online presence by our world-class </p>
 
-            <section class="home__address py-5 my-5 d-flex justify-content-center">
+                        <section class="counters">
+                            <div class="container">
+                                <div class="text-center">
+                                    <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                                        <div class="counter" data-target="200">0</div>k+
+                                    </span>
+                                    <h3>1st Page Rank</h3>
+                                </div>
+                                <div class="text-center">
+                                    <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                                        <div class="counter" data-target="12">0</div>+
+                                    </span>
+                                    <h3>Years</h3>
+                                </div>
+                                <div class="text-center">
+                                    <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                                        <div class="counter" data-target="4000">0</div>+
+                                    </span>
+                                    <h3>Clients</h3>
+                                </div>
+                                <div class="text-center">
+                                    <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                                        <div class="counter" data-target="12">0</div>+
+                                    </span>
+                                    <h3>Awards Winning</h3>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <section class="home__address py-2 my-3 d-flex justify-content-center">
+                <div class="container">
+                    <div class="row address py-5" style="background-color: var(--blue);">
+                        <div class="col-md-6"><img src="{{ asset('assets/web/Untitled-design-2024-02-13T102554.756.webp') }}" class="" alt="" srcset="" style="width: 100%; box-shadow:none;">
+                        </div>
+                        <div class="col-md-6 d-flex flex-column home-form">
+                            <h3 class="text-white fw-bold fs-1">Time to <span style="color: var(--green);">Craft Brilliance</span> Together</h3>
+                            <p class="text-white fw-bold fs-6">Fill this out so we can know more about your requirements.</p>
+
+                            <input type="text" name="Name" id="" placeholder="Name*" required>
+                            <input type="email" name="Email" id="" placeholder="Email*" required>
+                            <input type="text" name="Phone" id="" placeholder="Phone*" required>
+                            <input type="text" name="website" id="" placeholder="Website URL*" required>
+
+                            <button type="submit" class="submit-btn">Request a free quote</button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="home__address py-5 my-2 d-flex justify-content-center">
                 <div class="container">
                     <div class="row address">
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:70px 0px 0px 70px;"><img src="{{ asset('assets/web/taj-mahal.png') }}" class="image-with-shadow" alt="" srcset="">
-                            <p class="text-center fw-bold fs-7">G-75, Sec-63, Noida, Delhi (NCR) India <br>
+                            <p class="text-center fw-bold" style="font-size: 17px;">G-75, Sec-63, Noida, Delhi (NCR) India <br>
                                 For Sales: +91-9711411002 <br>
                                 For HR: +91-8510091128</p>
                         </div>
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/web/statue-liberty.png') }}" class="image-with-shadow" alt="" srcset="">
-                            <p class="text-center fw-bold fs-7">9240 SW 72nd St Miami, FL 33173 <br>
+                            <p class="text-center fw-bold" style="font-size: 17px;">9240 SW 72nd St Miami, FL 33173 <br>
                                 For Sales: +1-786-753-7516 <br>
                                 Email: sales@nettechnocrats.com</p>
                         </div>
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:0px 70px 70px 0px;"><img src="{{ asset('assets/web/sydney-opera-house.png') }}" class="image-with-shadow" alt="" srcset="">
-                            <p class="text-center fw-bold fs-7">
+                            <p class="text-center fw-bold" style="font-size: 17px;">
                                 6 Satinay Court Oxenford, QLD 4210, Australia <br>
                                 Email: sales@nettechnocrats.com
                             </p>
@@ -1435,6 +1638,33 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             document.getElementById("icon-" + i).classList.toggle("ri", id !== i);
         }
     }
+</script>
+
+<script>
+    const counters = document.querySelectorAll('.counter');
+    const speed = 30; // The lower the speed value, the slower the counter animation
+
+    counters.forEach(counter => {
+        const updateCount = () => {
+            const target = +counter.getAttribute('data-target');
+            const count = +counter.innerText;
+
+            // Calculate the increment step
+            const inc = Math.ceil(target / speed);
+
+            // Check if the current count is less than the target
+            if (count < target) {
+                // Increment the count and update the counter text
+                counter.innerText = count + inc > target ? target : count + inc;
+                // Call the function again after a short delay
+                setTimeout(updateCount, 100);
+            } else {
+                counter.innerText = target; // Ensure the counter ends at the target value
+            }
+        };
+
+        updateCount();
+    });
 </script>
 
 </html>

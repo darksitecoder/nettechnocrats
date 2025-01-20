@@ -11,11 +11,16 @@
     <meta name="keywords" content="@yield('meta_keywords', 'default, keywords')">
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
 
-
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
         referrerpolicy="no-referrer" />
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
     <!-- Vendor CSS Files -->
     <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
@@ -240,34 +245,34 @@
                                 </div>
                             </li>
                             <li class="menu-item-has-children">
-              <a href="{{url('/portfolio_seo_list')}}">Portfolio <i class="fa fa-angle-down"></i></a>
-              <div class="sub-menu mega-menu mega-menu-column-2">
-                <div class="list-item">
-                  <h4 class="title fw-bold ps-4">Digital Marketing</h4>
-                  <ul>
-                    <li><a href="{{url('/portfolio_seo_list')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
+                                <a href="{{url('/portfolio_seo_list')}}">Portfolio <i class="fa fa-angle-down"></i></a>
+                                <div class="sub-menu mega-menu mega-menu-column-2">
+                                    <div class="list-item">
+                                        <h4 class="title fw-bold ps-4">Digital Marketing</h4>
+                                        <ul>
+                                            <li><a href="{{url('/portfolio_seo_list')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
 
-                  </ul>
-                </div>
-                <div class="list-item">
-                  <h4 class="title fw-bold ps-4">Development</h4>
-                  <ul>
-                    <li><a href="{{url('/portfolio/software_development')}}" data-image="">Software Development</a></li>
-                    <li><a href="{{url('/portfolio/web_development')}}" data-image="">Web Development</a></li>
-                    <li><a href="{{url('/portfolio/Apps_development')}}" data-image="">App Development</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title fw-bold ps-4">Development</h4>
+                                        <ul>
+                                            <li><a href="{{url('/portfolio/software_development')}}" data-image="">Software Development</a></li>
+                                            <li><a href="{{url('/portfolio/web_development')}}" data-image="">Web Development</a></li>
+                                            <li><a href="{{url('/portfolio/Apps_development')}}" data-image="">App Development</a></li>
 
-                  </ul>
-                </div>
+                                        </ul>
+                                    </div>
 
-              </div>
-            </li>
+                                </div>
+                            </li>
                             <li class="menu-item-has-children">
                                 <a href="#">Resources <i class="fas fa-angle-down"></i></a>
                                 <div class="sub-menu single-column-menu">
                                     <div class="list-item">
                                         <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
                                         <h5 class="title  m-0 fw-bolder pt-3">Nettechnocrats Blog</h5>
-                                        <a href="{{url('/bloglist/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder" style="color:var(--green);">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <a href="{{url('/blogs/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder" style="color:var(--green);">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
                                 </div>
                             </li>
@@ -279,7 +284,7 @@
                     <a href="#" class="phone__number"><i class="fa-solid fa-phone"></i>+91-9711411002</a>
                     <a target="_blank" href="https://api.whatsapp.com/send?phone=9711411002&amp;text=I checked the website, and I have a few questions to ask" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="{{ url('contact-us')}}"><span class="get__in__touch">Get In Touch</span></a>
-                    <a href="{{ url('login_page')}}"><span class="get__in__touch">Login</span></a>
+                    <!-- <a href="{{ url('login_page')}}"><span class="get__in__touch">Login</span></a> -->
                     <!-- mobile menu trigger -->
                     <div class="mobile-menu-trigger">
                         <span></span>
@@ -288,13 +293,6 @@
             </div>
         </div>
 
-        <svg width="0" height="0">
-            <defs>
-                <filter id="corner-shadow" x="0" y="0">
-                    <feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="black" flood-opacity="0.8" />
-                </filter>
-            </defs>
-        </svg>
     </header>
     <!-- header end -->
 
@@ -395,7 +393,14 @@
 
     <!-- Main JS File -->
     <script src="{{ asset('js/vendor/main.js') }}"></script>
-
+    <script>
+        $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+        });
+    </script>
 </body>
 @include('partial/footer')
 

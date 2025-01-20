@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\portfolio;
 
 class TechController extends Controller
 {
@@ -45,14 +46,19 @@ class TechController extends Controller
     {
         return view('frontend/tech/codeigniter');
     }
+
     public function microsoftcrm()
     {
-        return view('frontend/tech/microsoftcrm');
+        $datas = portfolio::where('category_2', 'CRM Development')->get();
+        return view('frontend/tech/microsoftcrm', compact('datas'));
     }
+
     public function salesforce()
     {
-        return view('frontend/tech/salesforce');
+        $datas = portfolio::where('category_2', 'Salesforce Development')->get();
+        return view('frontend/tech/salesforce', compact('datas'));
     }
+
     public function android()
     {
         return view('frontend/tech/android');
@@ -77,21 +83,28 @@ class TechController extends Controller
     {
         return view('frontend/tech/angular');
     }
+
     public function wordpress()
     {
-        return view('frontend/tech/wordpress');
+        $datas = portfolio::where('category_2', 'WordPress')->get();
+        return view('frontend/tech/wordpress', compact('datas'));
     }
+
     public function magento()
     {
-        return view('frontend/tech/magento');
+        $datas = portfolio::where('category_2', 'Magento')->get();
+        return view('frontend/tech/magento', compact('datas'));
     }
+
     public function joomla()
     {
-        return view('frontend/tech/joomla');
+        $datas = portfolio::where('category_2', 'SMO')->get();
+        return view('frontend/tech/joomla' ,compact('datas'));
     }
     public function python()
     {
-        return view('frontend/tech/python');
+        $datas = portfolio::where('category_2', 'Python')->get();
+        return view('frontend/tech/python', compact('datas'));
     }
     public function cloud()
     {
@@ -109,10 +122,14 @@ class TechController extends Controller
     {
         return view('frontend/tech/ibeacon');
     }
+
+
     public function iot()
     {
-        return view('frontend/tech/iot');
+        $datas = portfolio::where('category_2', 'Iot')->get();
+        return view('frontend/tech/iot', compact('datas'));
     }
+
     public function blockchain()
     {
         return view('frontend/tech/blockchain');
@@ -125,18 +142,24 @@ class TechController extends Controller
     {
         return view('frontend/tech/ai');
     }
+
     public function drupal()
     {
-        return view('frontend/tech/drupal');
+        $datas = portfolio::where('category_2', 'Drupal')->get();
+        return view('frontend/tech/drupal', compact('datas'));
     }
+
     public function wallet()
     {
         return view('frontend/tech/e-wallet-app-development');
     }
+
     public function uiux()
     {
-        return view('frontend/tech/uiux');
+        $datas = portfolio::where('category_2', 'UI/UX/Product Design')->get();
+        return view('frontend/tech/uiux', compact('datas'));
     }
+
     public function about()
     {
         return view('frontend/tech/about');
