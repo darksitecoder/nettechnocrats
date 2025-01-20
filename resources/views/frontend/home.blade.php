@@ -631,7 +631,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         }
 
         .hero-slider .item img {
-            width: 90%;
+            width: 101%;
             height: 50px !important;
             cursor: default;
         }
