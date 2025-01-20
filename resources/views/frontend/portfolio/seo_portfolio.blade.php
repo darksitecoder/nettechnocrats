@@ -118,24 +118,22 @@
                     
                     <div class="service-img">
                         <!-- <img src="{{ asset('assets/web/nettechnocrats-logo.png') }}" alt="" srcset=""> -->
-
-                        
                     </div>
                     <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
-                        <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>
+                        <!-- <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>
                         <div class="h4 text-center">
                             <p class="fs-1 m-0 p-0 text-white">320%</p>
                             <p class=" m-0 p-0 text-white">Website Leads</p>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="rounded-bottom text-center pt-3">
+                    <div class="rounded-bottom text-center" style="padding-top: 70%;">
                         <a class="btn btn-primary rounded-pill py-2 px-4" href="{{ url('/portfolio_seo_detail/' . $blog->id)}}">SEE CASE STUDY</a>  
                     </div>
-                    <div class="rounded-bottom text-center pt-3">
+                    {{--<div class="rounded-bottom text-center pt-3">
                         <p class="text-center p-0 m-0 fw-bold text-white">{!! \Illuminate\Support\Str::words($blog->company_name, 20) !!}</p>
                         
                         <p class="mb-4 p-0 m-0 fw-bold text-white">| {!! \Illuminate\Support\Str::words( $blog->company_name, 20) !!} |</p>
-                    </div>
+                    </div>--}}
                 </div>
             </div>
 
