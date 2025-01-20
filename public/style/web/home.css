@@ -189,7 +189,7 @@ p {
 }
 
 .header .menu>ul>li .sub-menu.mega-menu>.list-item>a {
-  padding: 10px 0;
+  padding: 1px 0;
   display: inline-block;
   font-size: 15px;
   color: var(--green);
