@@ -29,20 +29,21 @@
                 <div class="list-item">
                   <img src="{{ asset('assets/web/basic-hero-awards-and-accolades.jpg') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
                   <h5 class="title m-0 fw-bolder">Awards & Accolades</h5>
-                  <p class="m-0">The biggest awards we have achieved are the many friendships and relationships that we have discovered while doing business with you. It is our pride to see you smile.</p><a href="{{url('#')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                  <p class="m-0">The biggest awards we have achieved are the many friendships and relationships that we have discovered while doing business with you. It is our pride to see you smile.</p><a href="{{url('/about-us/certificate/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
                 <div class="list-item">
                   <img src="{{ asset('assets/web/ai-generated-multi-ethnic-diverse-group-of-people-free-photo.jpg') }}" class="img-fluid rounded" alt="" style="width: 250px; height:100px;">
                   <h5 class="title m-0 fw-bolder">Client’s Words</h5>
-                  <p class="m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p><a href="{{url('/clients')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                  <p class="m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p><a href="{{url('/about-us/testimonial')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                  <h5 class="title ps-0 m-0 fw-bolder">Partners</h5><a href="{{url('/about-us/partners')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-0 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
 
                 <div class="list-item">
                   <h5 class="title ps-3 m-0 fw-bolder">How we work and Function</h5>
                   <p class="ps-3 m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile
-                  </p><a href="{{url('#')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                  </p><a href="{{url('/about-us/methodology')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                   <h5 class="title ps-3 m-0 fw-bolder">Clientele</h5>
-                  <p class="ps-3 m-0">We’re proud to be globally acknowledged</p><a href="{{url('#')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                  <p class="ps-3 m-0">We’re proud to be globally acknowledged</p><a href="{{url('/clients')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
 
               </div>
@@ -135,7 +136,7 @@
                 <div class="list-item">
                   <span class=" fw-bolder fs-4">Diverse<span class="title fs-4 fw-bolder"> Capabilities</span></span>
                   <img src="{{ asset('assets/web/industry.jpg') }}" class="img-fluid rounded" alt="" style="width: 250px; height:100px;">
-                  <p class="m-0">Our software development services are built to evolve your business idea into a successful growth story</p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                  <p class="m-0">Our software development services are built to evolve your business idea into a successful growth story</p><a href="{{url('/e-wallet-app-development')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
@@ -214,8 +215,8 @@
               <a href="#">Resources <i class="fas fa-angle-down"></i></a>
               <div class="sub-menu single-column-menu">
                 <div class="list-item">
-                  <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
-                  <h5 class="title  m-0 fw-bolder pt-3">Nettechnocrats Blog</h5>
+                  <img src="{{ asset('assets/web/blog.jpg') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
+                  <h5 class="  m-0 fw-bolder pt-3">Nettechnocrats Blog</h5>
                   <a href="{{url('/blogs/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder" style="color:var(--green);">Read more <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
               </div>
