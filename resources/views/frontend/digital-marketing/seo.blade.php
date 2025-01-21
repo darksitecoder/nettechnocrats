@@ -6,23 +6,117 @@
 
 @section('meta_keywords', 'laravel, home, keywords')
 <title>Best SEO Services | #1 SEO Agency | SEO company in Noida</title>
-	<meta name="description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
-	<link rel="canonical" href="https://www.nettechnocrats.com/seo-services/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Best SEO Services | #1 SEO Agency | SEO company in Noida" />
-	<meta property="og:description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
-	<meta property="og:url" content="https://www.nettechnocrats.com/seo-services/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T10:27:27+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.png" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="14 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/seo-services/","url":"https://www.nettechnocrats.com/seo-services/","name":"Best SEO Services | #1 SEO Agency | SEO company in Noida","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/seo-services/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/seo-services/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.png","datePublished":"2023-08-22T05:14:37+00:00","dateModified":"2024-08-13T10:27:27+00:00","description":"Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!","breadcrumb":{"@id":"https://www.nettechnocrats.com/seo-services/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/seo-services/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/seo-services/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.png","width":162,"height":70,"caption":"extract"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/seo-services/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"SEO Services"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-	
+<meta name="description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
+<link rel="canonical" href="https://www.nettechnocrats.com/seo-services/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Best SEO Services | #1 SEO Agency | SEO company in Noida" />
+<meta property="og:description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
+<meta property="og:url" content="https://www.nettechnocrats.com/seo-services/" />
+<meta property="og:site_name" content="Nettechnocrats" />
+<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+<meta property="article:modified_time" content="2024-08-13T10:27:27+00:00" />
+<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@nettechnocrats" />
+<meta name="twitter:label1" content="Est. reading time" />
+<meta name="twitter:data1" content="14 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">
+  {
+    "@context": "https://schema.org",
+    "@graph": [{
+      "@type": "WebPage",
+      "@id": "https://www.nettechnocrats.com/seo-services/",
+      "url": "https://www.nettechnocrats.com/seo-services/",
+      "name": "Best SEO Services | #1 SEO Agency | SEO company in Noida",
+      "isPartOf": {
+        "@id": "/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage"
+      },
+      "image": {
+        "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.png",
+      "datePublished": "2023-08-22T05:14:37+00:00",
+      "dateModified": "2024-08-13T10:27:27+00:00",
+      "description": "Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!",
+      "breadcrumb": {
+        "@id": "https://www.nettechnocrats.com/seo-services/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction",
+        "target": ["https://www.nettechnocrats.com/seo-services/"]
+      }]
+    }, {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage",
+      "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.png",
+      "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.png",
+      "width": 162,
+      "height": 70,
+      "caption": "extract"
+    }, {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.nettechnocrats.com/seo-services/#breadcrumb",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.nettechnocrats.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "SEO Services"
+      }]
+    }, {
+      "@type": "WebSite",
+      "@id": "/#website",
+      "url": "/",
+      "name": "Nettechnocrats",
+      "description": "",
+      "publisher": {
+        "@id": "/#organization"
+      },
+      "potentialAction": [{
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "/?s={search_term_string}"
+        },
+        "query-input": {
+          "@type": "PropertyValueSpecification",
+          "valueRequired": true,
+          "valueName": "search_term_string"
+        }
+      }],
+      "inLanguage": "en-US"
+    }, {
+      "@type": "Organization",
+      "@id": "/#organization",
+      "name": "Nettechnocrats",
+      "url": "/",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "/#/schema/logo/image/",
+        "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+        "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+        "width": 205,
+        "height": 107,
+        "caption": "Nettechnocrats"
+      },
+      "image": {
+        "@id": "/#/schema/logo/image/"
+      },
+      "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+    }]
+  }
+</script>
+
 @section('content')
 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
@@ -111,7 +205,7 @@
             We take a consultative approach with clients. Our client's SEO marketing needs are paramount and that's why we work closely with you at every step of SEO process. Our SEO services are proven to bring more traffic on the website from the search engines and resulting in more customers, sales and ROI.
           </p>
 
-          <a href="#" class="contact__btn mt-5">Talk to our consultant</a>
+          <a href="{{ url('contact-us')}}" class="contact__btn mt-5">Talk to our consultant</a>
         </div>
       </div>
 
@@ -170,7 +264,7 @@
   </section><!-- /Stats Section -->
 
   <!-- Consultent -->
-  <section id="hero" class="hero section">
+  <!-- <section id="hero" class="hero section">
 
     <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
       <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
@@ -185,7 +279,7 @@
 
     </div>
 
-  </section>
+  </section> -->
   <!-- Consultent -->
 
   <!-- <section class="our__clients">
@@ -233,7 +327,7 @@
             <div class="icon">
               <i class="fa-solid fa-shop-lock"></i>
             </div>
-            <a href="service-details.html" class="stretched-link">
+            <a href="{{ url('/local-seo-services')}}" class="stretched-link">
               <h3>Local SEO</h3>
             </a>
             <p>Expand your local footprint! Reach out to your immediate audience seamlessly and make your mark in your neighborhood. Be the local buzz!</p>
@@ -245,7 +339,7 @@
             <div class="icon">
               <i class="fa-brands fa-amazon"></i>
             </div>
-            <a href="service-details.html" class="stretched-link">
+            <a href="{{ url('/amazon-seo-services')}}" class="stretched-link">
               <h3>Amazon SEO</h3>
             </a>
             <p>Navigate the giant e-commerce platform effortlessly. Skyrocket your products' visibility amidst millions and drive stellar sales on Amazon. </p>
@@ -257,7 +351,7 @@
             <div class="icon">
               <i class="fa-solid fa-cart-shopping"></i>
             </div>
-            <a href="service-details.html" class="stretched-link">
+            <a href="{{ url('/e-commerce-seo-services')}}" class="stretched-link">
               <h3>E-commerce SEO</h3>
             </a>
             <p>Optimize your online store for maximum visibility. Attract, engage, and convert your site visitors into loyal customers. Boost your online sales!</p>
@@ -269,11 +363,11 @@
             <div class="icon">
               <i class="fa-solid fa-gears"></i>
             </div>
-            <a href="service-details.html" class="stretched-link">
+            <a href="{{ url('/seo-services')}}" class="stretched-link">
               <h3>Technical SEO</h3>
             </a>
             <p>Dive deep into the backend of your website. Enhance its functionality, speed, and overall user experience. Make your website loved not just by users but by search engines too!</p>
-            <a href="service-details.html" class="stretched-link"></a>
+            <a href="{{ url('')}}" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
 
@@ -282,11 +376,11 @@
             <div class="icon">
               <i class="fa-brands fa-wix"></i>
             </div>
-            <a href="service-details.html" class="stretched-link">
+            <a href="{{ url('/wix-seo-agency')}}" class="stretched-link">
               <h3>WIX SEO</h3>
             </a>
             <p>Wix SEO is a powerful tool that empowers website owners to optimize their online presence effortlessly.</p>
-            <a href="service-details.html" class="stretched-link"></a>
+            <a href="{{ url('/wix-seo-agency')}}" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
 
@@ -295,7 +389,7 @@
             <div class="icon">
               <i class="fa-brands fa-wordpress"></i>
             </div>
-            <a href="service-details.html" class="stretched-link">
+            <a href="{{ url('/wordpress-seo-agency')}}" class="stretched-link">
               <h3>WordPress SEO</h3>
             </a>
             <p>When it comes to optimizing your WordPress website for search engines, look no further than our WordPress SEO agency.</p>
@@ -307,11 +401,11 @@
             <div class="icon">
               <i class="fa-brands fa-shopify"></i>
             </div>
-            <a href="service-details.html" class="stretched-link">
+            <a href="{{ url('/shopify-seo-agency')}}" class="stretched-link">
               <h3>Shopify SEO</h3>
             </a>
             <p>Shopify SEO is a critical component of driving organic traffic and increasing visibility for your online store on the Shopify platform.</p>
-            <a href="service-details.html" class="stretched-link"></a>
+            <a href="{{ url('/shopify-seo-agency')}}" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
@@ -319,11 +413,11 @@
             <div class="icon">
               <i class="fa-brands fa-squarespace"></i>
             </div>
-            <a href="service-details.html" class="stretched-link">
+            <a href="{{ url('/squarespace-seo-services')}}" class="stretched-link">
               <h3>Squarespace SEO</h3>
             </a>
             <p>Our Squarespace SEO services encompass a range of strategies and techniques to ensure your website ranks higher.</p>
-            <a href="service-details.html" class="stretched-link"></a>
+            <a href="{{ url('/squarespace-seo-services')}}" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
@@ -331,11 +425,11 @@
             <div class="icon">
               <i class="fa-solid fa-mobile-screen-button"></i>
             </div>
-            <a href="service-details.html" class="stretched-link">
+            <a href="{{ url('/mobile-app-development')}}" class="stretched-link">
               <h3>Mobile SEO</h3>
             </a>
             <p>Our Squarespace SEO services encompass a range of strategies and techniques to ensure your website ranks higher.</p>
-            <a href="service-details.html" class="stretched-link"></a>
+            <a href="{{ url('/mobile-app-development')}}" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
 
@@ -355,7 +449,7 @@
             <h3>Now When You Know All <span>About Our Brilliance </span></h3>
             <p>Let's Connect to discuss your <strong>SEO Services</strong> project.</p>
             <p><strong>Go Ahead & Fill The Form Below</strong></p>
-            <a class="cta-btn" href="#">Call To Action</a>
+            <a class="cta-btn" href="{{ url('contact-us')}}">Call To Action</a>
           </div>
         </div>
       </div>
@@ -386,7 +480,7 @@
     </div>
   </section>
 
-  
+
   <section class="light-background why__choose__Net">
     <div class="container">
       <h2>Why Nettechnocrats for Digital Marketing Services?</h2>
