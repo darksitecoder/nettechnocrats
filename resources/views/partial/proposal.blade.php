@@ -36,7 +36,7 @@
      </div>
 
      <div class="col-md-6 text-center">
-      <button type="submit">Send Me a Proposal <i class="fa-solid fa-arrow-right"></i></button>
+      <button type="submit"> Me a Proposal <i class=" fa-solid fa-arrow-right"></i></button>
      </div>
 
     </div>
