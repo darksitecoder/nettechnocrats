@@ -393,7 +393,7 @@
                             <h3>WordPress SEO</h3>
                         </a>
                         <p>When it comes to optimizing your WordPress website for search engines, look no further than our WordPress SEO agency.</p>
-                        <a href="service-details.html" class="stretched-link"></a>
+                        <a href="#" class="stretched-link"></a>
                     </div>
                 </div><!-- End Service Item -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
