@@ -334,9 +334,7 @@
                                           <div class="icon">
                                                 <i class="fa-regular fa-thumbs-up"></i>
                                           </div>
-                                          <a href="#" class="stretched-link">
-                                                <h3>INTEGRATION OF SOCIAL NETWORKING</h3>
-                                          </a>
+                                          <h3>INTEGRATION OF SOCIAL NETWORKING</h3>
                                           <p>Selecting the most relevant social media accounts and set them up with your that are of prime resonance to your brand and operations.</p>
                                     </div>
                               </div><!-- End Service Item -->
@@ -346,9 +344,7 @@
                                           <div class="icon">
                                                 <i class="fa-regular fa-copyright"></i>
                                           </div>
-                                          <a href="#" class="stretched-link">
-                                                <h3>BRAND BUILDING</h3>
-                                          </a>
+                                          <h3>BRAND BUILDING</h3>
                                           <p>After account setup, it’s time to start engaging the customers with the brand by generating fresh content and being noticed by the maximum number of people.</p>
                                     </div>
                               </div><!-- End Service Item -->
@@ -358,9 +354,7 @@
                                           <div class="icon">
                                                 <i class="fa-solid fa-arrows-to-circle"></i>
                                           </div>
-                                          <a href="#" class="stretched-link">
-                                                <h3>DEVELOP IMPACTFUL CONTENT</h3>
-                                          </a>
+                                          <h3>DEVELOP IMPACTFUL CONTENT</h3>
                                           <p>We use the Social Media insights to develop the best and successful content, measured by most liked, most shared and with maximum reach.</p>
                                     </div>
                               </div><!-- End Service Item -->
@@ -370,11 +364,8 @@
                                           <div class="icon">
                                                 <i class="fa-solid fa-people-group"></i>
                                           </div>
-                                          <a href="#" class="stretched-link">
-                                                <h3>SEEDING THE CAMPAIGNS</h3>
-                                          </a>
+                                          <h3>SEEDING THE CAMPAIGNS</h3>
                                           <p>We seed special campaigns through social pages and specific tags where the enthusiasts come and congregate as peers.</p>
-                                          <a href="#" class="stretched-link"></a>
                                     </div>
                               </div><!-- End Service Item -->
 
@@ -383,11 +374,8 @@
                                           <div class="icon">
                                                 <i class="fa-solid fa-bars-staggered"></i>
                                           </div>
-                                          <a href="#" class="stretched-link">
-                                                <h3>MONITORING STAGE</h3>
-                                          </a>
+                                          <h3>MONITORING STAGE</h3>
                                           <p>We track all conversations relating to the brand and comprehend factors that can be closely connected with the brand reputation.</p>
-                                          <a href="#" class="stretched-link"></a>
                                     </div>
                               </div><!-- End Service Item -->
 
@@ -396,11 +384,8 @@
                                           <div class="icon">
                                                 <i class="fa-solid fa-magnifying-glass-chart"></i>
                                           </div>
-                                          <a href="#" class="stretched-link">
-                                                <h3>ANALYSIS AND REPORTING STAGE</h3>
-                                          </a>
+                                          <h3>ANALYSIS AND REPORTING STAGE</h3>
                                           <p>We analyze each social media website against specific metrics, the sales generated and its overall impact on the organization.</p>
-                                          <a href="#" class="stretched-link"></a>
                                     </div>
                               </div><!-- End Service Item -->
 
