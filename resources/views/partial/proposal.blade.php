@@ -1,4 +1,9 @@
-﻿<div id="contact" class="contact__section">
+﻿<style>
+ .alert-success {
+  font-size: 20px;
+ }
+</style>
+<div id="contact" class="contact__section">
 
  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -7,7 +12,6 @@
 
 
 
-   @endif
    <form name="praposal_form" action="{{ route('proposal.store') }}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
     @csrf
     <div class="row gy-4">
@@ -36,6 +40,7 @@
      {{ session('success') }}
     </div>
    </div>
+   @endif
   </div><!-- End Contact Form -->
 
  </div>
