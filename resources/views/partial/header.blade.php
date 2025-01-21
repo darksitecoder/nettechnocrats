@@ -57,7 +57,7 @@
                 <div class="list-item">
                   <span class=" fw-bolder fs-4">Made to <span class="title fs-4 fw-bolder">Scale</span></span>
                   <img src="{{ asset('assets/web/software-development-strategy_01-cover.webp') }}" class="img-fluid rounded" alt="" style="width: 250px; height:100px;">
-                  <p class="m-0">Our software development services are built to evolve your business idea into a successful growth story</p><a href="{{url('software-development')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                  <p class="m-0">Our software development services are built to evolve your business idea into a successful growth story</p><a href="{{url('/software-development')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
