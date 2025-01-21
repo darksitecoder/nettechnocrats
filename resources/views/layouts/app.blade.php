@@ -106,7 +106,7 @@
                                         <h5 class="title m-0 fw-bolder">Client’s Words</h5>
                                         <p class="m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p><a href="{{url('testimonial')}}" data-image="{{ asset('assets/web/nav-images/ai-generated-multi-ethnic-diverse-group-of-people-free-photo.jpg') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
 
-                                        <h5 class="title ps-0 m-0 fw-bolder">Partners</h5><a href="{{url('/about-us/partners')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-0 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <h5 class="title ps-0 m-0 fw-bolder">Partners</h5><a href="{{url('partners')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-0 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
 
                                     <div class="list-item">
