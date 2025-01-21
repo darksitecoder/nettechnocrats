@@ -1,6 +1,6 @@
 ﻿<style>
  .alert-success {
-  font-size: 20px;
+  font-size: 15px;
  }
 </style>
 <div id="contact" class="contact__section">
@@ -10,6 +10,13 @@
   <div class="row gy-4">
 
 
+   <div class="col-lg-6">
+    @if(session('success'))
+    <div class="alert alert-success">
+     {{ session('success') }}
+    </div>
+    @endif
+   </div>
 
 
    <form name="praposal_form" action="{{ route('proposal.store') }}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
@@ -34,17 +41,9 @@
 
     </div>
    </form>
-   <div class="col-lg-6">
-    @if(session('success'))
-    <div class="alert alert-success">
-     {{ session('success') }}
-    </div>
-   </div>
-   @endif
   </div><!-- End Contact Form -->
 
- </div>
 
-</div>
+ </div>
 
 </div>
