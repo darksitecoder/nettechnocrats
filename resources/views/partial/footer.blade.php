@@ -69,11 +69,11 @@
         <div class="col-lg-3">
             <h5>Follow us</h5>
             <div class="social__media__icons pt-3">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/Nettechnocrats.it.services"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/nettechnocrats"><i class="fa-brands fa-twitter"></i></a>
+                <!-- <a href="#"><i class="fa-brands fa-pinterest"></i></a> -->
+                <a href="https://www.instagram.com/nettechnocrats/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/nettechnocrats/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
         <div class="col-lg-3">
