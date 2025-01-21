@@ -90,7 +90,7 @@
                                 <a href="#">About <i class="fa fa-angle-down"></i></a>
                                 <div class="sub-menu mega-menu mega-menu-column-4">
                                     <div class="list-item">
-                                        <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
+                                        <img src="{{ asset('assets/web/about-us-company.png') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
                                         <h5 class="title  m-0 fw-bolder">About Nettechnocrats</h5>
                                         <p class=" m-0">We design and build world class websites and mobile app that understands your business and help our client to grow</p><a href="{{url('/about-us')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
@@ -125,7 +125,7 @@
                                     <div class="list-item">
                                         <span class=" fw-bolder fs-4">Made to <span class="title fs-4 fw-bolder">Scale</span></span>
                                         <img src="{{ asset('assets/web/software-development-strategy_01-cover.webp') }}" class="img-fluid rounded" alt="" style="width: 250px; height:100px;">
-                                        <p class="m-0">Our software development services are built to evolve your business idea into a successful growth story</p><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <p class="m-0">Our software development services are built to evolve your business idea into a successful growth story</p><a href="{{url('/software-development')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
                                     <div class="list-item">
                                         <h4 class="title fw-bold ps-4">Digital Marketing</h4>
