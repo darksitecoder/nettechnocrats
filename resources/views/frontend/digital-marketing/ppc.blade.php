@@ -1,12 +1,22 @@
-﻿ <!DOCTYPE html>
- @extends('layouts.app')
+﻿<!DOCTYPE html>
+<html lang="en">
 
- @section('title', 'PPC Services')
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- @section('meta_description', 'This is a brief description of the home page for SEO purposes.')
+  <!-- <link rel="stylesheet" href="style.css"> -->
 
- @section('meta_keywords', 'laravel, home, keywords')
- <title>Effective PPC Services | Expert PPC Management Company</title>
+  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
+
+
+
+  <!-- Libraries Stylesheet -->
+  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+  <title>Effective PPC Services | Expert PPC Management Company</title>
  <meta name="description" content="Best PPC Services: We are Google certified PPC management agency in India &amp; USA that offers quality PPC campaign management services." />
  <link rel="canonical" href="https://www.nettechnocrats.com/ppc-services/" />
  <meta property="og:locale" content="en_US" />
@@ -118,9 +128,47 @@
    }
  </script>
 
- @section('content')
+
+   <!-- Libraries Stylesheet -->
+   <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+
+  <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
 
 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+@include('partial/google_analytics')
+
+
+</head>
+
+<body>
+  @include('partial/header')
  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
  <main class="main">
@@ -639,10 +687,42 @@
  </main>
  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
- @endsection
 
+  @include('partial/footer')
+</body>
 
+</html>
+<script>
+  const counters = document.querySelectorAll('.counter');
+  const speed = 30; // The lower the speed value, the slower the counter animation
 
- </body>
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      const count = +counter.innerText;
 
- </html>
+      // Calculate the increment step
+      const inc = Math.ceil(target / speed);
+
+      // Check if the current count is less than the target
+      if (count < target) {
+        // Increment the count and update the counter text
+        counter.innerText = count + inc > target ? target : count + inc;
+        // Call the function again after a short delay
+        setTimeout(updateCount, 100);
+      } else {
+        counter.innerText = target; // Ensure the counter ends at the target value
+      }
+    };
+
+    updateCount();
+  });
+</script>
+<script src="{{ asset('style/web/lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+
+<script src="{{ asset('js/main.js') }}"></script>

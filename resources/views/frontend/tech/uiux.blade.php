@@ -1,12 +1,180 @@
-﻿@extends('layouts.app')
+﻿<!DOCTYPE html>
+<html lang="en">
 
-@section('title', 'Seo services')
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-@section('meta_description', 'This is a brief description of the home page for SEO purposes.')
+  <!-- <link rel="stylesheet" href="style.css"> -->
 
-@section('meta_keywords', 'laravel, home, keywords')
+  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
 
-@section('content')
+
+
+  <!-- Libraries Stylesheet -->
+  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+  <title>Best SEO Services | #1 SEO Agency | SEO company in Noida</title>
+  <meta name="description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
+  <link rel="canonical" href="https://www.nettechnocrats.com/seo-services/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Best SEO Services | #1 SEO Agency | SEO company in Noida" />
+  <meta property="og:description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
+  <meta property="og:url" content="https://www.nettechnocrats.com/seo-services/" />
+  <meta property="og:site_name" content="Nettechnocrats" />
+  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+  <meta property="article:modified_time" content="2024-08-13T10:27:27+00:00" />
+  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@nettechnocrats" />
+  <meta name="twitter:label1" content="Est. reading time" />
+  <meta name="twitter:data1" content="14 minutes" />
+
+
+
+  <!-- Libraries Stylesheet -->
+  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+  <script type="application/ld+json" class="yoast-schema-graph">
+    {
+      "@context": "https://schema.org",
+      "@graph": [{
+        "@type": "WebPage",
+        "@id": "https://www.nettechnocrats.com/seo-services/",
+        "url": "https://www.nettechnocrats.com/seo-services/",
+        "name": "Best SEO Services | #1 SEO Agency | SEO company in Noida",
+        "isPartOf": {
+          "@id": "/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage"
+        },
+        "image": {
+          "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage"
+        },
+        "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.webp",
+        "datePublished": "2023-08-22T05:14:37+00:00",
+        "dateModified": "2024-08-13T10:27:27+00:00",
+        "description": "Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!",
+        "breadcrumb": {
+          "@id": "https://www.nettechnocrats.com/seo-services/#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [{
+          "@type": "ReadAction",
+          "target": ["https://www.nettechnocrats.com/seo-services/"]
+        }]
+      }, {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage",
+        "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.webp",
+        "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.webp",
+        "width": 162,
+        "height": 70,
+        "caption": "extract"
+      }, {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.nettechnocrats.com/seo-services/#breadcrumb",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.nettechnocrats.com/"
+        }, {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEO Services"
+        }]
+      }, {
+        "@type": "WebSite",
+        "@id": "/#website",
+        "url": "/",
+        "name": "Nettechnocrats",
+        "description": "",
+        "publisher": {
+          "@id": "/#organization"
+        },
+        "potentialAction": [{
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "/?s={search_term_string}"
+          },
+          "query-input": {
+            "@type": "PropertyValueSpecification",
+            "valueRequired": true,
+            "valueName": "search_term_string"
+          }
+        }],
+        "inLanguage": "en-US"
+      }, {
+        "@type": "Organization",
+        "@id": "/#organization",
+        "name": "Nettechnocrats",
+        "url": "/",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "/#/schema/logo/image/",
+          "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+          "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+          "width": 205,
+          "height": 107,
+          "caption": "Nettechnocrats"
+        },
+        "image": {
+          "@id": "/#/schema/logo/image/"
+        },
+        "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+      }]
+    }
+  </script>
+
+   <!-- Libraries Stylesheet -->
+   <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+
+  <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
+
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+@include('partial/google_analytics')
+
+
+</head>
+
+<body>
+  @include('partial/header')
 <style>
         .service .service-item {
                 height: 350px;
@@ -270,4 +438,41 @@
 </section><!-- /Call To Action Section -->
 
 
-@endsection
+@include('partial/footer')
+</body>
+
+</html>
+<script>
+  const counters = document.querySelectorAll('.counter');
+  const speed = 30; // The lower the speed value, the slower the counter animation
+
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      const count = +counter.innerText;
+
+      // Calculate the increment step
+      const inc = Math.ceil(target / speed);
+
+      // Check if the current count is less than the target
+      if (count < target) {
+        // Increment the count and update the counter text
+        counter.innerText = count + inc > target ? target : count + inc;
+        // Call the function again after a short delay
+        setTimeout(updateCount, 100);
+      } else {
+        counter.innerText = target; // Ensure the counter ends at the target value
+      }
+    };
+
+    updateCount();
+  });
+</script>
+<script src="{{ asset('style/web/lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+
+<script src="{{ asset('js/main.js') }}"></script>
