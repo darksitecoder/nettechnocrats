@@ -10,7 +10,7 @@
   <div class="row gy-4">
 
 
-   <div class="col-lg-6">
+   <div class="col-lg-12">
     @if(session('success'))
     <div class="alert alert-success">
      {{ session('success') }}
