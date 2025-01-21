@@ -1,30 +1,30 @@
 <?php include 'include/header.php'; ?>
 
 <section class="cd-section visible">
-   <!-- START HOMEPAGE DESIGN AREA -->
-   <div id="home" class="welcome-area site-header">
-      <div class="welcome-image-area about" data-stellar-background-ratio="0.6">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="banner_text about_banner">
-                     <h1>Multi-Disciplinary Project Development
-                     </h1>
-                     <p>We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p>
-             
-                     </h2>
-                  </div>
-                  
-               </div>
+  <!-- START HOMEPAGE DESIGN AREA -->
+  <div id="home" class="welcome-area site-header">
+    <div class="welcome-image-area about" data-stellar-background-ratio="0.6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="banner_text about_banner">
+              <h1>Multi-Disciplinary Project Development
+              </h1>
+              <p>We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p>
+
+              </h2>
             </div>
-         </div>
+
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
+  </div>
 </section>
 
 
-   </div>
-   <!-- modal -->
+</div>
+<!-- modal -->
 </div>
 
 <section class="sec method-section">
@@ -61,11 +61,11 @@
 
         <div class="method-image">
 
-          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no1.png" alt="" /></div>
+          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no1.webp" alt="" /></div>
 
-          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method1.png" alt="" />
+          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method1.webp" alt="" />
 
-          <div class="m-line method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/lm-line1.png" alt="" /></div>
+          <div class="m-line method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/lm-line1.webp" alt="" /></div>
 
         </div>
 
@@ -139,11 +139,11 @@
 
         <div class="method-image">
 
-          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no2.png" alt="" /></div>
+          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no2.webp" alt="" /></div>
 
-          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method2.png" alt="" />
+          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method2.webp" alt="" />
 
-          <div class="m-line method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/m-line2.png" alt="" /></div>
+          <div class="m-line method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/m-line2.webp" alt="" /></div>
 
         </div>
 
@@ -165,11 +165,11 @@
 
         <div class="method-image">
 
-          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no3.png" alt="" /></div>
+          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no3.webp" alt="" /></div>
 
-          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method3.png" alt="" />
+          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method3.webp" alt="" />
 
-          <div class="m-line method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/m-line3.png" alt="" /></div>
+          <div class="m-line method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/m-line3.webp" alt="" /></div>
 
         </div>
 
@@ -179,7 +179,7 @@
 
         <div class="method-text">
 
-          <h4>Design: User Interface (UI) & <br/>
+          <h4>Design: User Interface (UI) & <br />
 
             User Experience (UX)</h4>
 
@@ -247,11 +247,11 @@
 
         <div class="method-image">
 
-          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no4.png" alt="" /></div>
+          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no4.webp" alt="" /></div>
 
-          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method4.png" alt="" />
+          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method4.webp" alt="" />
 
-          <div class="m-line method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/m-line4.png" alt="" /></div>
+          <div class="m-line method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/m-line4.webp" alt="" /></div>
 
         </div>
 
@@ -273,11 +273,11 @@
 
         <div class="method-image">
 
-          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no5.png" alt="" /></div>
+          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no5.webp" alt="" /></div>
 
-          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method5.png" alt="" />
+          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method5.webp" alt="" />
 
-          <div class="m-line method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/m-line5.png" alt="" /></div>
+          <div class="m-line method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/m-line5.webp" alt="" /></div>
 
         </div>
 
@@ -351,9 +351,10 @@
 
         <div class="method-image">
 
-          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no6.png" alt="" /></div>
+          <div class="m-number method-position"><img src="https://s3.us-east-2.amazonaws.com/nettech-images/no6.webp" alt="" /></div>
 
-          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method6.png" alt="" /> </div>
+          <img src="https://s3.us-east-2.amazonaws.com/nettech-images/method6.webp" alt="" />
+        </div>
 
       </div>
 
@@ -368,4 +369,3 @@
 <?php include 'include/info_nettech.php'; ?>
 
 <?php include 'include/footer.php'; ?>
-

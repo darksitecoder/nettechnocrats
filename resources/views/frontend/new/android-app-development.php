@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="top-right-ellisp"> <img src="images/android-ellisp.png" width="176" height="176" alt=""> </div>
+        <div class="top-right-ellisp"> <img src="images/android-ellisp.webp" width="176" height="176" alt=""> </div>
       </div>
     </div>
   </div>
@@ -27,7 +27,7 @@
         <div class="technology-description android-text">
           <h3>Top-ranked Android App Development Company</h3>
           <p>Nettechnocrats facilitates end-to-end Android application development services with major specialization in diversified areas of custom android app development, android m-commerce development, gaming & entertainment, multimedia app development, & more.</p>
-          <div class="getintouch-btn"><a href="https://www.nettechnocrats.com/contact.php"><img src="images/getintouch-btn.png" width="155" height="42" alt=""></a></div>
+          <div class="getintouch-btn"><a href="https://www.nettechnocrats.com/contact.php"><img src="images/getintouch-btn.webp" width="155" height="42" alt=""></a></div>
         </div>
       </div>
       <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
@@ -36,13 +36,13 @@
     </div>
   </div>
 </section>
-<section class="section android-list-sec" >
+<section class="section android-list-sec">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top:-30px;">
         <div class="chatbot-channel-tab-outer android-tab">
           <ul class="nav nav-tabs tabtop  tabsetting">
-            <li> <a href="#tab_default_1"  class="active" data-toggle="tab"> Game Development</a> </li>
+            <li> <a href="#tab_default_1" class="active" data-toggle="tab"> Game Development</a> </li>
             <li> <a href="#tab_default_2" data-toggle="tab"> M-commerce Applications</a> </li>
             <li> <a href="#tab_default_3" data-toggle="tab"> Utility Apps </a> </li>
             <li> <a href="#tab_default_4" data-toggle="tab"> UI/UX Design</a> </li>
@@ -110,37 +110,37 @@
   <div class="container">
     <div class="row text-center why-android-top-text">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-       <div class="sep-para">
-        <h3>Why Choose Us?</h3>
-        <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
+        <div class="sep-para">
+          <h3>Why Choose Us?</h3>
+          <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional Android app developers brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-3 col-sm-6 col-sm-6 col-xs-12">
         <div class="mid-box">
-          <div class="mid-icon"><img src="images/android-icon-1.png" alt="" width="66" height="66"></div>
+          <div class="mid-icon"><img src="images/android-icon-1.webp" alt="" width="66" height="66"></div>
           <h4>Vertical Domain Expertise</h4>
           <p>Our versatile business domain experience in Android app development empowers us to communicate effectively with our clients and identify their requirements easily.</p>
         </div>
       </div>
       <div class="col-lg-3 col-sm-6 col-sm-6 col-xs-12">
         <div class="mid-box">
-          <div class="mid-icon"><img src="images/android-icon-2.png" alt="" width="66" height="66"></div>
+          <div class="mid-icon"><img src="images/android-icon-2.webp" alt="" width="66" height="66"></div>
           <h4>Technology Competence</h4>
           <p>Our full spectrum of competencies covering a number of technologies lets us deliver every project with quality assurance. Nettechnocrats intends to meet the evolving needs of customers & emerge as a top Android app development company in the industry.</p>
         </div>
       </div>
       <div class="col-lg-3 col-sm-6 col-sm-6 col-xs-12">
         <div class="mid-box">
-          <div class="mid-icon"><img src="images/android-icon-3.png" alt="" width="66" height="66"></div>
+          <div class="mid-icon"><img src="images/android-icon-3.webp" alt="" width="66" height="66"></div>
           <h4>Commitment To Quality</h4>
           <p>Our dedicated team of quality assurance professionals monitors each project activities at every phase that guarantees zero defects and standard results. Our high-performing mobile apps are tested to match quality & technology standards.</p>
         </div>
       </div>
       <div class="col-lg-3 col-sm-6 col-sm-6 col-xs-12">
         <div class="mid-box">
-          <div class="mid-icon"><img src="images/android-icon-1.png" alt="" width="66" height="66"></div>
+          <div class="mid-icon"><img src="images/android-icon-1.webp" alt="" width="66" height="66"></div>
           <h4>Client-Centric Approach</h4>
           <p>We have built our skill sets to successfully design and develop client-centric applications. Being a top-ranked Android app development company, Nettechnocrats comes up with a profit-driven strategy based on specific business needs of clients.</p>
         </div>
@@ -152,21 +152,21 @@
 
 
 
-<section class="section app-develop-sec" >
+<section class="section app-develop-sec">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <div class="appdevelop-left">
           <h3>Unveiling Our Secrets Of Developing Powerful Android Apps</h3>
-           <p>Our ideology to transform digital experiences with innovative solutions made us reinvent existing methodologies for mobile app development. Count on us and discover a plethora of out-of-box ideas & strategies at Nettechnocrats, a reputed Android development agency with remarkable excellence in UI/UX designing & development of user-friendly mobile apps. We use future-proof technology & implement a foolproof strategy to deliver the best Android apps leveraged with distinctive features & functionalities.</p>
-           
-        
-        <p>Creativity & innovation meet at Nettechnocrats as our highly skilled Android app developers make the best use of their dexterity in integrating robust functionalities of Android technology. We’re proud of our team’s efforts & dedication behind every successful project delivery. Our fully customized &  secure Android app development solutions drive user engagement with increased ROI. Nettechnocrats is enlisted among top-ranked Android app development companies with global clientele from varied business verticals including eCommerce, travel, business, finance, security, & more. Our keys to developing high-performing mobile apps for Android-powered devices are:</p>   
-          
-        
+          <p>Our ideology to transform digital experiences with innovative solutions made us reinvent existing methodologies for mobile app development. Count on us and discover a plethora of out-of-box ideas & strategies at Nettechnocrats, a reputed Android development agency with remarkable excellence in UI/UX designing & development of user-friendly mobile apps. We use future-proof technology & implement a foolproof strategy to deliver the best Android apps leveraged with distinctive features & functionalities.</p>
+
+
+          <p>Creativity & innovation meet at Nettechnocrats as our highly skilled Android app developers make the best use of their dexterity in integrating robust functionalities of Android technology. We’re proud of our team’s efforts & dedication behind every successful project delivery. Our fully customized & secure Android app development solutions drive user engagement with increased ROI. Nettechnocrats is enlisted among top-ranked Android app development companies with global clientele from varied business verticals including eCommerce, travel, business, finance, security, & more. Our keys to developing high-performing mobile apps for Android-powered devices are:</p>
+
+
         </div>
       </div>
-      
+
     </div>
   </div>
 </section>
@@ -197,32 +197,32 @@
         </ul>
         <div class="tab-content">
           <div id="why_1" class="container tab-pane active">
-            <figure><img src="images/chart_icon.png"></figure>
+            <figure><img src="images/chart_icon.webp"></figure>
             <h3>Mobile user interface design </h3>
             <p>Our interactive & scalable UI designs deliver astounding user experience with a blend of stunning graphics, animations, & other intuitive elements. We create highly compatible Android apps loaded with responsive UI designs & user-friendly features for better user engagement. </p>
           </div>
           <div id="why_2" class="container tab-pane fade">
-            <figure> <img src="images/chart_icon.png"></figure>
+            <figure> <img src="images/chart_icon.webp"></figure>
             <h3>Robust programming skills</h3>
             <p>The credit goes to our proficient programmers holding ample experience in writing error-free codes for creating feature-rich mobile apps using cutting-edge technology & skills in C, C++, Android & Google API, SDK integration, & more. </p>
           </div>
           <div id="why_3" class="container tab-pane fade">
-            <figure> <img src="images/chart_icon.png"></figure>
+            <figure> <img src="images/chart_icon.webp"></figure>
             <h3>Backend computation</h3>
             <p>At Nettechnocrats, we utilize agile methodologies & techniques to progress every project in a systematic manner. With specialization in database management, security, memory allocation implementation, advanced hardware interaction, & other automated channels, we include backend computation for every project</p>
           </div>
           <div id="why_4" class="container tab-pane fade">
-            <figure> <img src="images/chart_icon.png"></figure>
+            <figure> <img src="images/chart_icon.webp"></figure>
             <h3> Integration & customization</h3>
             <p>We behold expertise in delivering top-class Android app development services with customization & integration. Our mobile apps hold potential to match your business needs & make you achieve entrepreneurial goals.</p>
           </div>
           <div id="why_5" class="container tab-pane fade">
-            <figure> <img src="images/chart_icon.png"></figure>
+            <figure> <img src="images/chart_icon.webp"></figure>
             <h3>Business expertise</h3>
             <p>We build feature-packed Android apps to boost your profits & add value to your brand. Our mobile apps are developed to shine across their respective app stores & meet the requirements for optimization & enhanced visibility. </p>
           </div>
           <div id="why_6" class="container tab-pane fade">
-            <figure> <img src="images/chart_icon.png"></figure>
+            <figure> <img src="images/chart_icon.webp"></figure>
             <h3>Flexible work approach</h3>
             <p>Android OS is an open source platform and our adroit developers utilize its flexibility to build secure & high-performing Android apps within the proposed timeline and without any hassle. </p>
           </div>
@@ -238,29 +238,29 @@
         <div class="appdevelop-left">
           <h3>Insights into our Android App Development</h3>
           <p>Right from brainstorming ideas to rendering them on a canvas of impressive app designs, Nettechnocrats gained prominence as the best Android app development agency in the UK in facilitating the best-in-class services for app maintenance & support. Our services for Android app development emphasizes these ultimate benefits:</p>
-          
+
           <div class="appdevelop-right">
-          <ul>
-            <li>
-              <p>Opt for expertise & quality experiences with one-click accessibility. Our excellence in facilitating first-class services made us rank as the best custom Android app development company in the world.</p>
-            </li>
-            <li>
-              <p>Agile methodologies & business-centric approach to innovating cost-effective Android app solutions. We always intend to serve budget-friendly options to let you avail our exclusive services as per the business requirements & limits.</p>
-            </li>
-            <li>
-              <p>Hire dedicated professionals at Nettechnocrats, a top-notch Android app development agency in India on hourly-based & full-time engagement models at budget-friendly rates. Our experienced programmers will step beyond their limits & meet every challenge to deliver quality.</p>
-            </li>
-            <li>
-              <p>Transparent work style with client-friendly project management system & a team of proactive project managers specifically for Android app development.</p>
-            </li>
-            <li>
-              <p>The streamlined communication channel for seamless connectivity for client support. Right from beginning to execution of a project, our backend actively responds to clients’ queries & feedback to maintain transparency at every phase of development.</p>
-            </li>
-          </ul>
-        </div>
+            <ul>
+              <li>
+                <p>Opt for expertise & quality experiences with one-click accessibility. Our excellence in facilitating first-class services made us rank as the best custom Android app development company in the world.</p>
+              </li>
+              <li>
+                <p>Agile methodologies & business-centric approach to innovating cost-effective Android app solutions. We always intend to serve budget-friendly options to let you avail our exclusive services as per the business requirements & limits.</p>
+              </li>
+              <li>
+                <p>Hire dedicated professionals at Nettechnocrats, a top-notch Android app development agency in India on hourly-based & full-time engagement models at budget-friendly rates. Our experienced programmers will step beyond their limits & meet every challenge to deliver quality.</p>
+              </li>
+              <li>
+                <p>Transparent work style with client-friendly project management system & a team of proactive project managers specifically for Android app development.</p>
+              </li>
+              <li>
+                <p>The streamlined communication channel for seamless connectivity for client support. Right from beginning to execution of a project, our backend actively responds to clients’ queries & feedback to maintain transparency at every phase of development.</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      
+
     </div>
   </div>
 </section>

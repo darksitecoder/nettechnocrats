@@ -10,7 +10,7 @@
   <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+  <link rel="shortcut icon" href="img/icons/icon-48x48.webp" />
 
   <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
@@ -82,16 +82,16 @@
             </div>
           </div>
 
-            <!-- Display success or error message from session -->
-        @if (session('success'))
-            <div class="alert alert-success">
-                {{ session('success') }}
-            </div>
-        @elseif (session('error'))
-            <div class="alert alert-danger">
-                {{ session('error') }}
-            </div>
-        @endif
+          <!-- Display success or error message from session -->
+          @if (session('success'))
+          <div class="alert alert-success">
+            {{ session('success') }}
+          </div>
+          @elseif (session('error'))
+          <div class="alert alert-danger">
+            {{ session('error') }}
+          </div>
+          @endif
 
           <div class="row">
             <div class="col-12 col-lg-12 col-xxl-12 d-flex">

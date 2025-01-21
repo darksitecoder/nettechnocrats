@@ -1,4 +1,4 @@
-<?php include 'include/header.php';?>
+<?php include 'include/header.php'; ?>
 <section class="cd-section visible">
    <!-- START HOMEPAGE DESIGN AREA -->
    <div id="home" class="welcome-area site-header">
@@ -11,7 +11,7 @@
                      <p>We're Proud To Be Globally Acknowledged</p>
                      </h2>
                   </div>
-                  
+
                </div>
             </div>
          </div>
@@ -20,8 +20,8 @@
 </section>
 
 
-   </div>
-   <!-- modal -->
+</div>
+<!-- modal -->
 </div>
 <section class="sec certificate-sec">
    <div class="container">
@@ -45,33 +45,33 @@
       <div class="row">
          <div class="col-sm-4">
             <div class="certificate-list">
-               <div class="certificate-img"> <img src="https://s3.us-east-2.amazonaws.com/nettech-images/certificate1.png" alt="" /> </div>
-               <img src="https://s3.us-east-2.amazonaws.com/company-emp/ceo_border.png" alt="border" />
+               <div class="certificate-img"> <img src="https://s3.us-east-2.amazonaws.com/nettech-images/certificate1.webp" alt="" /> </div>
+               <img src="https://s3.us-east-2.amazonaws.com/company-emp/ceo_border.webp" alt="border" />
                <h4>jAS-ANZ</h4>
                <p>Our accreditation with JAS-ANZ assures the very best, consistent and professional auditing service.</p>
             </div>
          </div>
          <div class="col-sm-4">
             <div class="certificate-list">
-               <div class="certificate-img"> <img src="https://s3.us-east-2.amazonaws.com/nettech-images/certificate2.png" alt="" /> </div>
-               <img src="https://s3.us-east-2.amazonaws.com/company-emp/ceo_border.png" alt="border" />
+               <div class="certificate-img"> <img src="https://s3.us-east-2.amazonaws.com/nettech-images/certificate2.webp" alt="" /> </div>
+               <img src="https://s3.us-east-2.amazonaws.com/company-emp/ceo_border.webp" alt="border" />
                <h4>SGS</h4>
                <p>Our SGS certification provides the framework of our Quality Management System. </p>
             </div>
          </div>
-         
+
          <!--<div class="col-sm-4">
             <div class="certificate-list">
-               <div class="certificate-img"> <img src="https://s3.us-east-2.amazonaws.com/nettech-images/certificate5.png" alt="" /> </div>
-               <img src="https://s3.us-east-2.amazonaws.com/company-emp/ceo_border.png" alt="border" />
+               <div class="certificate-img"> <img src="https://s3.us-east-2.amazonaws.com/nettech-images/certificate5.webp" alt="" /> </div>
+               <img src="https://s3.us-east-2.amazonaws.com/company-emp/ceo_border.webp" alt="border" />
                <h4>sisa</h4>
                <p>We are extensively associated with PCI-DSS that improve our brand image and credibility.</p>
             </div>
          </div>-->
          <div class="col-sm-4">
             <div class="certificate-list">
-               <div class="certificate-img"> <img src="https://s3.us-east-2.amazonaws.com/nettech-images/certificate6.png" alt="" /> </div>
-               <img src="https://s3.us-east-2.amazonaws.com/company-emp/ceo_border.png" alt="border" />
+               <div class="certificate-img"> <img src="https://s3.us-east-2.amazonaws.com/nettech-images/certificate6.webp" alt="" /> </div>
+               <img src="https://s3.us-east-2.amazonaws.com/company-emp/ceo_border.webp" alt="border" />
                <h4>ISO</h4>
                <p>This certification ensures that all clients count on us to perform with consistency and quality.</p>
             </div>

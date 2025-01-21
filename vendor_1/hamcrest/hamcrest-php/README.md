@@ -1,7 +1,7 @@
 This is the PHP port of Hamcrest Matchers
 =========================================
 
-[![Build Status](https://travis-ci.org/hamcrest/hamcrest-php.png?branch=master)](https://travis-ci.org/hamcrest/hamcrest-php)
+[![Build Status](https://travis-ci.org/hamcrest/hamcrest-php.webp?branch=master)](https://travis-ci.org/hamcrest/hamcrest-php)
 
 Hamcrest is a matching library originally written for Java, but
 subsequently ported to many other languages.  hamcrest-php is the

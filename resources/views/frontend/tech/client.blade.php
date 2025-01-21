@@ -4,24 +4,123 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nettechnocrats Happy Clients for Mobile, Web &amp; Digital Marketing Projects</title>
-	<meta name="description" content="Here are some of the satisfied mobile, web &amp; digital clients list that we are honoured to have been selected for their work in Nettechnocrats." />
-	<link rel="canonical" href="https://www.nettechnocrats.com/about-us/clients/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Nettechnocrats Happy Clients for Mobile, Web &amp; Digital Marketing Projects" />
-	<meta property="og:description" content="Here are some of the satisfied mobile, web &amp; digital clients list that we are honoured to have been selected for their work in Nettechnocrats." />
-	<meta property="og:url" content="https://www.nettechnocrats.com/about-us/clients/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T08:52:57+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/Coca-Cola.png" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="5 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/about-us/clients/","url":"https://www.nettechnocrats.com/about-us/clients/","name":"Nettechnocrats Happy Clients for Mobile, Web & Digital Marketing Projects","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/about-us/clients/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/about-us/clients/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/Coca-Cola.png","datePublished":"2023-08-28T04:58:09+00:00","dateModified":"2024-08-13T08:52:57+00:00","description":"Here are some of the satisfied mobile, web & digital clients list that we are honoured to have been selected for their work in Nettechnocrats.","breadcrumb":{"@id":"https://www.nettechnocrats.com/about-us/clients/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/about-us/clients/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/about-us/clients/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/Coca-Cola.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/Coca-Cola.png","width":320,"height":80,"caption":"client"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/about-us/clients/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Company","item":"https://www.nettechnocrats.com/about-us/"},{"@type":"ListItem","position":3,"name":"Clients"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-	 <!-- <link rel="stylesheet" href="style.css"> -->
+ <title>Nettechnocrats Happy Clients for Mobile, Web &amp; Digital Marketing Projects</title>
+ <meta name="description" content="Here are some of the satisfied mobile, web &amp; digital clients list that we are honoured to have been selected for their work in Nettechnocrats." />
+ <link rel="canonical" href="https://www.nettechnocrats.com/about-us/clients/" />
+ <meta property="og:locale" content="en_US" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="Nettechnocrats Happy Clients for Mobile, Web &amp; Digital Marketing Projects" />
+ <meta property="og:description" content="Here are some of the satisfied mobile, web &amp; digital clients list that we are honoured to have been selected for their work in Nettechnocrats." />
+ <meta property="og:url" content="https://www.nettechnocrats.com/about-us/clients/" />
+ <meta property="og:site_name" content="Nettechnocrats" />
+ <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+ <meta property="article:modified_time" content="2024-08-13T08:52:57+00:00" />
+ <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/Coca-Cola.webp" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@nettechnocrats" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="5 minutes" />
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/about-us/clients/",
+    "url": "https://www.nettechnocrats.com/about-us/clients/",
+    "name": "Nettechnocrats Happy Clients for Mobile, Web & Digital Marketing Projects",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/about-us/clients/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/about-us/clients/#primaryimage"
+    },
+    "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/Coca-Cola.webp",
+    "datePublished": "2023-08-28T04:58:09+00:00",
+    "dateModified": "2024-08-13T08:52:57+00:00",
+    "description": "Here are some of the satisfied mobile, web & digital clients list that we are honoured to have been selected for their work in Nettechnocrats.",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/about-us/clients/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/about-us/clients/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/about-us/clients/#primaryimage",
+    "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/Coca-Cola.webp",
+    "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/Coca-Cola.webp",
+    "width": 320,
+    "height": 80,
+    "caption": "client"
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/about-us/clients/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Company",
+     "item": "https://www.nettechnocrats.com/about-us/"
+    }, {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Clients"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
+ <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
@@ -53,7 +152,7 @@
 <body>
  @include('partial/header')
  <!-- Abvout Start -->
- <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+ <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-12 wow fadeInLeft">

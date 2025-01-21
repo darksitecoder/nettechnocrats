@@ -17,7 +17,7 @@
     <div class="">
       <div class="row gy-4">
         <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-          <img src="{{ asset('assets/web/seo-banner.png') }} " alt="" srcset="">
+          <img src="{{ asset('assets/web/seo-banner.webp') }} " alt="" srcset="">
 
         </div>
 
@@ -147,7 +147,7 @@
   <section id="hero" class="hero section">
 
     <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
-      <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
+      <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.webp') }}');">
         <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <h1 class="text-center">How do we help?</h1>
           <p class="text-center"><strong>Our Exceptional SEO Services Redefined!</strong></p>
@@ -173,7 +173,7 @@
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
-            <div class="cabin"><img src="{{ asset('assets/web/google__ads.png') }} " alt="" srcset=""></div>
+            <div class="cabin"><img src="{{ asset('assets/web/google__ads.webp') }} " alt="" srcset=""></div>
             <div class="cabin"></div>
             <div class="cabin"></div>
             <div class="cabin"></div>

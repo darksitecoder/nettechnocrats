@@ -19,7 +19,7 @@
         gtag('config', 'G-0B6497GZPR');
     </script>
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -782,7 +782,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 <section class="about__seo">
                     <div class="row">
                         <div class="col-lg-5 d-flex align-items-center">
-                            <img src="{{ asset('assets/web/clutch.png') }}" alt="" srcset="" style="width:100%;">
+                            <img src="{{ asset('assets/web/clutch.webp') }}" alt="" srcset="" style="width:100%;">
                         </div>
                         <div class="col-lg-7">
                             <p class="colored__text">Awarded as Top SEO Company in 2023</p>
@@ -814,7 +814,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             <div class="row">
                                 <div class="col-lg-3">
                                     <div class="cards__details">
-                                        <img src="{{ asset('assets/web/digital-marketing.png') }}" alt="" srcset="">
+                                        <img src="{{ asset('assets/web/digital-marketing.webp') }}" alt="" srcset="">
                                         <h3>Digital Marketing</h3>
                                         <p>Backed by expert marketers, we craft strategies that ensure your brand voice is heard, resonating with your audience seamlessly.</p>
                                     </div>
@@ -824,7 +824,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="cards__details">
-                                        <img src="{{ asset('assets/web/seo.png') }}" alt="" srcset="">
+                                        <img src="{{ asset('assets/web/seo.webp') }}" alt="" srcset="">
                                         <h3>Search Engine Optimization</h3>
                                         <p>Leading SEO company and digital marketing agency at your service. Boost traffic, garner customers, and elevate profits with our on-page and off-page expertise.</p>
                                     </div>
@@ -834,7 +834,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="cards__details">
-                                        <img src="{{ asset('assets/web/smo.png') }}" alt="" srcset="">
+                                        <img src="{{ asset('assets/web/smo.webp') }}" alt="" srcset="">
                                         <h3>Social Media Optimization</h3>
                                         <p>We recognize that every client campaign demands unique audience targeting on the right social media platforms.</p>
                                     </div>
@@ -844,7 +844,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="cards__details">
-                                        <img src="{{ asset('assets/web/ppc.png') }}" alt="" srcset="">
+                                        <img src="{{ asset('assets/web/ppc.webp') }}" alt="" srcset="">
                                         <h3>Pay Per Click</h3>
                                         <p>Specializing in PPC services that drive organic traffic and connect you with your target audience instantly. Our savvy strategies ensure maximum ROI on your investment.</p>
                                     </div>
@@ -857,7 +857,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             <div class="row">
                                 <div class="col-lg-3">
                                     <div class="cards__details">
-                                        <img src="{{ asset('assets/web/webd.png') }}" alt="" srcset="">
+                                        <img src="{{ asset('assets/web/webd.webp') }}" alt="" srcset="">
                                         <h3>Web Development</h3>
                                         <p>Responsive, sleek, and user-centric websites are our specialty. Experience the perfect blend of design and functionality with us.</p>
                                     </div>
@@ -867,7 +867,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="cards__details">
-                                        <img src="{{ asset('assets/web/mobile.png') }}" alt="" srcset="">
+                                        <img src="{{ asset('assets/web/mobile.webp') }}" alt="" srcset="">
                                         <h3>Mobile Application</h3>
                                         <p>User experience is at the heart of our apps. We bring innovation to your fingertips, promoting user engagement and satisfaction.</p>
                                     </div>
@@ -877,7 +877,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="cards__details">
-                                        <img src="{{ asset('assets/web/mvm.png') }}" alt="" srcset="">
+                                        <img src="{{ asset('assets/web/mvm.webp') }}" alt="" srcset="">
                                         <h3>Multi-Vendor Marketplace</h3>
                                         <p>We are rated as one of the top multi-vendor marketplace development companies, we will help you build the application for B2C, B2B and suppliers multi-vendor eCommerce marketplace.</p>
                                     </div>
@@ -887,7 +887,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="cards__details">
-                                        <img src="{{ asset('assets/web/cloud.png') }}" alt="" srcset="">
+                                        <img src="{{ asset('assets/web/cloud.webp') }}" alt="" srcset="">
                                         <h3>Cloud Services</h3>
                                         <p>Gain the control and confidence you need to securely run your organization with the most flexible and secure cloud computing environment available. </p>
                                     </div>
@@ -984,17 +984,17 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 <section class="testimonial__video">
                     <div class="row">
                         <div class="col-lg-6">
-                            <a href="https://youtu.be/f-MAIzGxWc0" target="_blank"><img src="{{ asset('assets/web/maxresdefault (1).png') }}" alt="" srcset="" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"></a>
+                            <a href="https://youtu.be/f-MAIzGxWc0" target="_blank"><img src="{{ asset('assets/web/maxresdefault (1).webp') }}" alt="" srcset="" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"></a>
                         </div>
                         <div class="col-lg-6">
                             <h2>We Are Ranked Among the Top Global Leaders in Digital Marketing</h2>
                             <p>Nettechnocrats quickly ascended to digital prominence, catering to a diverse clientele across various business sectors. Partner with the best in digital innovation.</p>
 
                             <div class="slider-wrapper left">
-                                <div class="item item1"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="" srcset=""></div>
-                                <div class="item item2"><img src="{{ asset('assets/web/appfuture.png') }}" alt="" srcset=""></div>
-                                <div class="item item3"><img src="{{ asset('assets/web/upwork.png') }}" alt="" srcset=""></div>
-                                <div class="item item4"><img src="{{ asset('assets/web/extract.png') }}" alt="" srcset=""></div>
+                                <div class="item item1"><img src="{{ asset('assets/web/clutch_review.webp') }}" alt="" srcset=""></div>
+                                <div class="item item2"><img src="{{ asset('assets/web/appfuture.webp') }}" alt="" srcset=""></div>
+                                <div class="item item3"><img src="{{ asset('assets/web/upwork.webp') }}" alt="" srcset=""></div>
+                                <div class="item item4"><img src="{{ asset('assets/web/extract.webp') }}" alt="" srcset=""></div>
 
                             </div>
                         </div>
@@ -1306,7 +1306,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
                 </div>
             </section>
-            <section class="sample__banner" style="background: url('{{ asset('assets/web/sample__banner.png') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat;">
+            <section class="sample__banner" style="background: url('{{ asset('assets/web/sample__banner.webp') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat;">
                 <div class="row">
                     <div class="col-lg-12">
                         <h2>
@@ -1434,7 +1434,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 </div>
                             </div>
                             <div class="right-slide">
-                                <div style="background: url('{{ asset('assets/web/spatoweb.png') }}');">
+                                <div style="background: url('{{ asset('assets/web/spatoweb.webp') }}');">
 
                                 </div>
                                 <div style="background:url('{{ asset('assets/web/aplle-wallet-1-removebg-preview.webp') }}'); ">
@@ -1443,7 +1443,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 <div style="background: url('{{ asset('assets/web/resturent__app.jpg') }}');">
 
                                 </div>
-                                <div style="background: url('{{ asset('assets/web/spatomobile.png') }}');">
+                                <div style="background: url('{{ asset('assets/web/spatomobile.webp') }}');">
 
                                 </div>
                             </div>
@@ -1459,7 +1459,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     </div>
                 </div>
             </section>
-            <section class="sample__banner my-3 " style="background: url('{{ asset('assets/web/people.png') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat; padding:5rem 0rem !important;">
+            <section class="sample__banner my-3 " style="background: url('{{ asset('assets/web/people.webp') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat; padding:5rem 0rem !important;">
                 <div class="row">
                     <div class="col-lg-12">
                         <h2>Consistently Effective, Cutting-Edge SEO Solutions for Higher Conversion Rates</h2>
@@ -1519,17 +1519,17 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             <section class="home__address py-5 my-2 d-flex justify-content-center">
                 <div class="container">
                     <div class="row address">
-                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:70px 0px 0px 70px;"><img src="{{ asset('assets/web/taj-mahal.png') }}" class="image-with-shadow" alt="" srcset="">
+                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:70px 0px 0px 70px;"><img src="{{ asset('assets/web/taj-mahal.webp') }}" class="image-with-shadow" alt="" srcset="">
                             <p class="text-center fw-bold" style="font-size: 17px;">G-75, Sec-63, Noida, Delhi (NCR) India <br>
                                 For Sales: +91-9711411002 <br>
                                 For HR: +91-8510091128</p>
                         </div>
-                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/web/statue-liberty.png') }}" class="image-with-shadow" alt="" srcset="">
+                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/web/statue-liberty.webp') }}" class="image-with-shadow" alt="" srcset="">
                             <p class="text-center fw-bold" style="font-size: 17px;">9240 SW 72nd St Miami, FL 33173 <br>
                                 For Sales: +1-786-753-7516 <br>
                                 Email: sales@nettechnocrats.com</p>
                         </div>
-                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:0px 70px 70px 0px;"><img src="{{ asset('assets/web/sydney-opera-house.png') }}" class="image-with-shadow" alt="" srcset="">
+                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" style="border-radius:0px 70px 70px 0px;"><img src="{{ asset('assets/web/sydney-opera-house.webp') }}" class="image-with-shadow" alt="" srcset="">
                             <p class="text-center fw-bold" style="font-size: 17px;">
                                 6 Satinay Court Oxenford, QLD 4210, Australia <br>
                                 Email: sales@nettechnocrats.com

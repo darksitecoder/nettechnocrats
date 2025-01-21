@@ -4,25 +4,119 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>finance-banking-software-development - Nettechnocrats</title>
-	<meta name="description" content="finance-banking-software-development -" />
-	<link rel="canonical" href="https://www.nettechnocrats.com/finance-banking-software-development/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="finance-banking-software-development - Nettechnocrats" />
-	<meta property="og:description" content="finance-banking-software-development -" />
-	<meta property="og:url" content="https://www.nettechnocrats.com/finance-banking-software-development/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T08:57:21+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/online-banking.png" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="9 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/finance-banking-software-development/","url":"https://www.nettechnocrats.com/finance-banking-software-development/","name":"finance-banking-software-development - Nettechnocrats","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/finance-banking-software-development/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/finance-banking-software-development/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/online-banking.png","datePublished":"2023-08-29T09:53:56+00:00","dateModified":"2024-08-13T08:57:21+00:00","description":"finance-banking-software-development -","breadcrumb":{"@id":"https://www.nettechnocrats.com/finance-banking-software-development/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/finance-banking-software-development/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/finance-banking-software-development/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/online-banking.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/online-banking.png","width":64,"height":64,"caption":"Banking app development"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/finance-banking-software-development/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"finance-banking-software-development"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-	 <!-- <link rel="stylesheet" href="style.css"> -->
- <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+ <title>finance-banking-software-development - Nettechnocrats</title>
+ <meta name="description" content="finance-banking-software-development -" />
+ <link rel="canonical" href="https://www.nettechnocrats.com/finance-banking-software-development/" />
+ <meta property="og:locale" content="en_US" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="finance-banking-software-development - Nettechnocrats" />
+ <meta property="og:description" content="finance-banking-software-development -" />
+ <meta property="og:url" content="https://www.nettechnocrats.com/finance-banking-software-development/" />
+ <meta property="og:site_name" content="Nettechnocrats" />
+ <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+ <meta property="article:modified_time" content="2024-08-13T08:57:21+00:00" />
+ <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/online-banking.webp" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@nettechnocrats" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="9 minutes" />
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/finance-banking-software-development/",
+    "url": "https://www.nettechnocrats.com/finance-banking-software-development/",
+    "name": "finance-banking-software-development - Nettechnocrats",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/finance-banking-software-development/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/finance-banking-software-development/#primaryimage"
+    },
+    "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/online-banking.webp",
+    "datePublished": "2023-08-29T09:53:56+00:00",
+    "dateModified": "2024-08-13T08:57:21+00:00",
+    "description": "finance-banking-software-development -",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/finance-banking-software-development/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/finance-banking-software-development/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/finance-banking-software-development/#primaryimage",
+    "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/online-banking.webp",
+    "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/online-banking.webp",
+    "width": 64,
+    "height": 64,
+    "caption": "Banking app development"
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/finance-banking-software-development/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "finance-banking-software-development"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
+ <!-- <link rel="stylesheet" href="style.css"> -->
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
   rel="stylesheet"

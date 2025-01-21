@@ -22,8 +22,19 @@ class Image extends Base
      * @deprecated Categories are no longer used as a list in the placeholder API but referenced as string instead
      */
     protected static $categories = [
-        'abstract', 'animals', 'business', 'cats', 'city', 'food', 'nightlife',
-        'fashion', 'people', 'nature', 'sports', 'technics', 'transport',
+        'abstract',
+        'animals',
+        'business',
+        'cats',
+        'city',
+        'food',
+        'nightlife',
+        'fashion',
+        'people',
+        'nature',
+        'sports',
+        'technics',
+        'transport',
     ];
 
     /**
@@ -31,7 +42,7 @@ class Image extends Base
      *
      * Set randomize to false to remove the random GET parameter at the end of the url.
      *
-     * @example 'http://via.placeholder.com/640x480.png/CCCCCC?text=well+hi+there'
+     * @example 'http://via.placeholder.com/640x480.webp/CCCCCC?text=well+hi+there'
      *
      * @param int         $width
      * @param int         $height
@@ -101,7 +112,7 @@ class Image extends Base
      *
      * Requires curl, or allow_url_fopen to be on in php.ini.
      *
-     * @example '/path/to/dir/13b73edae8443990be1aa8f1a483bc27.png'
+     * @example '/path/to/dir/13b73edae8443990be1aa8f1a483bc27.webp'
      *
      * @return bool|string
      */

@@ -5,24 +5,102 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Amazon Web Services (AWS) Development | Cloud Computing Solutions</title>
-	<meta name="description" content="Explore the world of Amazon Web Services (AWS) for scalable, secure, and innovative cloud computing solutions. Discover the power of AWS for your business." />
-	<link rel="canonical" href="https://www.nettechnocrats.com/amazon-web-services/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Amazon Web Services (AWS) Development | Cloud Computing Solutions" />
-	<meta property="og:description" content="Explore the world of Amazon Web Services (AWS) for scalable, secure, and innovative cloud computing solutions. Discover the power of AWS for your business." />
-	<meta property="og:url" content="https://www.nettechnocrats.com/amazon-web-services/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T08:47:43+00:00" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="1 minute" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/amazon-web-services/","url":"https://www.nettechnocrats.com/amazon-web-services/","name":"Amazon Web Services (AWS) Development | Cloud Computing Solutions","isPartOf":{"@id":"/#website"},"datePublished":"2023-09-18T07:02:43+00:00","dateModified":"2024-08-13T08:47:43+00:00","description":"Explore the world of Amazon Web Services (AWS) for scalable, secure, and innovative cloud computing solutions. Discover the power of AWS for your business.","breadcrumb":{"@id":"https://www.nettechnocrats.com/amazon-web-services/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/amazon-web-services/"]}]},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/amazon-web-services/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Amazon Web Services"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-		
-	<!-- <link rel="stylesheet" href="style.css"> -->
- <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+ <meta name="description" content="Explore the world of Amazon Web Services (AWS) for scalable, secure, and innovative cloud computing solutions. Discover the power of AWS for your business." />
+ <link rel="canonical" href="https://www.nettechnocrats.com/amazon-web-services/" />
+ <meta property="og:locale" content="en_US" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="Amazon Web Services (AWS) Development | Cloud Computing Solutions" />
+ <meta property="og:description" content="Explore the world of Amazon Web Services (AWS) for scalable, secure, and innovative cloud computing solutions. Discover the power of AWS for your business." />
+ <meta property="og:url" content="https://www.nettechnocrats.com/amazon-web-services/" />
+ <meta property="og:site_name" content="Nettechnocrats" />
+ <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+ <meta property="article:modified_time" content="2024-08-13T08:47:43+00:00" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@nettechnocrats" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="1 minute" />
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/amazon-web-services/",
+    "url": "https://www.nettechnocrats.com/amazon-web-services/",
+    "name": "Amazon Web Services (AWS) Development | Cloud Computing Solutions",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "datePublished": "2023-09-18T07:02:43+00:00",
+    "dateModified": "2024-08-13T08:47:43+00:00",
+    "description": "Explore the world of Amazon Web Services (AWS) for scalable, secure, and innovative cloud computing solutions. Discover the power of AWS for your business.",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/amazon-web-services/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/amazon-web-services/"]
+    }]
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/amazon-web-services/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Amazon Web Services"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
+
+ <!-- <link rel="stylesheet" href="style.css"> -->
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
   rel="stylesheet"

@@ -71,7 +71,7 @@
 <body>
   @include('partial/header')
   <!-- Abvout Start -->
-  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
     <div class="container py-5">
       <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
         <div class="col-xl-7 wow fadeInLeft">
@@ -375,10 +375,10 @@
             <p class="mb-4">Nettechnocrats quickly ascended to digital prominence, catering to a diverse clientele across various business sectors. Partner with the best in digital innovation.</p>
           </div>
           <div class="slider-wrapper left">
-            <div class="item item1"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="" srcset=""></div>
-            <div class="item item2"><img src="{{ asset('assets/web/appfuture.png') }}" alt="" srcset=""></div>
-            <div class="item item3"><img src="{{ asset('assets/web/upwork.png') }}" alt="" srcset=""></div>
-            <div class="item item4"><img src="{{ asset('assets/web/extract.png') }}" alt="" srcset=""></div>
+            <div class="item item1"><img src="{{ asset('assets/web/clutch_review.webp') }}" alt="" srcset=""></div>
+            <div class="item item2"><img src="{{ asset('assets/web/appfuture.webp') }}" alt="" srcset=""></div>
+            <div class="item item3"><img src="{{ asset('assets/web/upwork.webp') }}" alt="" srcset=""></div>
+            <div class="item item4"><img src="{{ asset('assets/web/extract.webp') }}" alt="" srcset=""></div>
 
           </div>
         </div>

@@ -1,16 +1,16 @@
 <?php include 'include/header.php' ?>
 
 <section class="top_banner">
-  
-  
- <div class="inner_banner_area"> 
- <img class="innr_bnr_img" src="images/ppc_banner.jpg" alt=""> 
- <div class="carousel-caption banner_text_inner">
-          <h1>PPC Services</h1>
-          <p>Avail An Impressive ROI And An Instant Profit With PPC Management Services</p>
+
+
+  <div class="inner_banner_area">
+    <img class="innr_bnr_img" src="images/ppc_banner.jpg" alt="">
+    <div class="carousel-caption banner_text_inner">
+      <h1>PPC Services</h1>
+      <p>Avail An Impressive ROI And An Instant Profit With PPC Management Services</p>
+    </div>
   </div>
- </div> 
-  
+
 </section>
 
 
@@ -31,7 +31,7 @@
           <p>PPC marketing is a form of online advertising in which advertisers accrue costs when the user clicks their ads. It is one of the cost-effective ways to earn a spot at the top of the Google and Bing search results as well as on websites and platforms where your target audience spends the most time. But, to get a high return on your investment you need the best PPC management company that makes data-driven decisions, continually optimizes your campaigns and looks your entire funnel to help turn visits into sales.</p>
           <p>At Nettechnocrats, we specialize in offering PPC advertising services to get high-quality traffic to your website that will influence your bottom line. Our team of PPC experts write ads, do the keyword research and optimize every client campaign daily- constantly tweaking to get the best results for the value.</p>
           <p>Our PPC experts set a click-through-rate target for your PPC ads, which helps to get maximum ROI within your budget. Investing in PPC help you to find out those customers who might not be able to find you through traditional organic results.</p>
-          <div class="getintouch-btn"><a href="https://www.nettechnocrats.com/contact.php"><img src="images/getintouch-btn.png" width="155" height="42" alt=""></a></div>
+          <div class="getintouch-btn"><a href="https://www.nettechnocrats.com/contact.php"><img src="images/getintouch-btn.webp" width="155" height="42" alt=""></a></div>
         </div>
       </div>
       <div class="col-md-6">
@@ -46,44 +46,44 @@
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <ul class="nav nav-tabs tabtop  tabsetting">
-          <li> <a href="#tab_default_1"  class="active" data-toggle="tab"> <img src="images/brandvisibility.png"><br>
-            Quick Results</a> </li>
-          <li> <a href="#tab_default_2" data-toggle="tab"> <img src="images/increasedtraffic.png"><br>
-            Reach The Potentials</a> </li>
-          <li> <a href="#tab_default_3" data-toggle="tab"> <img src="images/leadgeneration.png"><br>
-            Brand Recognition </a> </li>
-          <li> <a href="#tab_default_4" data-toggle="tab"> <img src="images/increasedsale.png"><br>
-            Revenue Driver</a> </li>
-          <li> <a href="#tab_default_5" data-toggle="tab"> <img src="images/conversionrate.png"><br>
-            Immediate Traffic</a> </li>
+          <li> <a href="#tab_default_1" class="active" data-toggle="tab"> <img src="images/brandvisibility.webp"><br>
+              Quick Results</a> </li>
+          <li> <a href="#tab_default_2" data-toggle="tab"> <img src="images/increasedtraffic.webp"><br>
+              Reach The Potentials</a> </li>
+          <li> <a href="#tab_default_3" data-toggle="tab"> <img src="images/leadgeneration.webp"><br>
+              Brand Recognition </a> </li>
+          <li> <a href="#tab_default_4" data-toggle="tab"> <img src="images/increasedsale.webp"><br>
+              Revenue Driver</a> </li>
+          <li> <a href="#tab_default_5" data-toggle="tab"> <img src="images/conversionrate.webp"><br>
+              Immediate Traffic</a> </li>
         </ul>
         <div class="tab-content margin-tops">
           <div class="tab-pane active  in" id="tab_default_1">
-            <div class="col-md-12"> <img src="images/brandvisibility.png">
+            <div class="col-md-12"> <img src="images/brandvisibility.webp">
               <h4 class="heading4">Quick Results</h4>
               <p>The importance of organic searches can't be denied but the problem is that it takes time to provide results. On the other hand, with PPC you run a targeted advertised campaign, and start seeing conversions immediately.</p>
             </div>
           </div>
           <div class="tab-pane fade" id="tab_default_2">
-            <div class="col-md-12"> <img src="images/increasedtraffic.png">
+            <div class="col-md-12"> <img src="images/increasedtraffic.webp">
               <h4 class="heading4">Reach The Potentials</h4>
               <p>When running a PPC campaign, you can choose where and when your ads will appear. This flexibility allows you to separate your market and bring your products and services to potential customers.</p>
             </div>
           </div>
           <div class="tab-pane fade" id="tab_default_3">
-            <div class="col-md-12"> <img src="images/leadgeneration.png">
+            <div class="col-md-12"> <img src="images/leadgeneration.webp">
               <h4 class="heading4">Brand Recognition</h4>
               <p>You can use PPC to target keywords related to your industry so that people looking for those keywords will always see your ads. Doing this indirectly help you to raise brand awareness and establish your business as a leader in the industry.</p>
             </div>
           </div>
           <div class="tab-pane fade" id="tab_default_4">
-            <div class="col-md-12"> <img src="images/increasedsale.png">
+            <div class="col-md-12"> <img src="images/increasedsale.webp">
               <h4 class="heading4">Revenue Driver</h4>
               <p>PPC services provides you with an opportunity to increase your bottom line by displaying your advertisement in front of actively engaged buyers at the moment they are searching for your product or service online.</p>
             </div>
           </div>
           <div class="tab-pane fade" id="tab_default_5">
-            <div class="col-md-12"> <img src="images/conversionrate.png">
+            <div class="col-md-12"> <img src="images/conversionrate.webp">
               <h4 class="heading4">Immediate Traffic</h4>
               <p>PPC is the fastest platform to run your ads and get rich traffic immediately on the website. This strategy is extremely beneficial for new websites who are looking for instant exposure and high visibility.</p>
             </div>
@@ -105,7 +105,7 @@
       <div class="col-lg-4 col-sm-5 col-sm-5 col-xs-12">
         <div class="platform-right">
           <h3>Our Platforms</h3>
-          <div class="platform-right-img"><img src="images/platform-img.png" width="283" height="279" alt=""></div>
+          <div class="platform-right-img"><img src="images/platform-img.webp" width="283" height="279" alt=""></div>
         </div>
       </div>
     </div>
@@ -124,42 +124,42 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <div class="mid-box ppc-box1">
-          <div class="mid-icon"><img src="images/websiteaudits.png" width="70" height="71" alt=""></div>
+          <div class="mid-icon"><img src="images/websiteaudits.webp" width="70" height="71" alt=""></div>
           <h4>PPC Strategy</h4>
           <p>To create the right PPC strategy, we first need to know about your business, industry sector, USP of your brand and competitors. Having a discussion with you, our PPC specialist will draft a strategy that will deliver the results you need.</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <div class="mid-box ppc-box1">
-          <div class="mid-icon"><img src="images/Keywordresearchanalysis.png" width="70" height="71" alt=""></div>
+          <div class="mid-icon"><img src="images/Keywordresearchanalysis.webp" width="70" height="71" alt=""></div>
           <h4>Keyword Research</h4>
           <p>PPC along with SEO is all about keywords. While running your PPC campaign, we will continuously grow and refine highly relevant keywords that could be driving traffic to your site.</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <div class="mid-box ppc-box1">
-          <div class="mid-icon"><img src="images/onpageoptimization.png" width="70" height="71" alt=""></div>
+          <div class="mid-icon"><img src="images/onpageoptimization.webp" width="70" height="71" alt=""></div>
           <h4>Ad Extensions</h4>
           <p>When executed properly, Ad extensions can add value to both aesthetically and in terms of performance. Making different unique ad extensions, we make you stand out from your competitors.</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <div class="mid-box bot-box ppc-box">
-          <div class="mid-icon"><img src="images/analyticstracking.png" width="70" height="71" alt=""></div>
+          <div class="mid-icon"><img src="images/analyticstracking.webp" width="70" height="71" alt=""></div>
           <h4>PPC Optimization</h4>
           <p>Our PPC marketing experts make sure to deliver the best strategies for your PPC optimization for the enhanced conversion rates and effective landing page optimization.</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <div class="mid-box bot-box ppc-box">
-          <div class="mid-icon"><img src="images/contentcreation.png" width="70" height="71" alt=""></div>
+          <div class="mid-icon"><img src="images/contentcreation.webp" width="70" height="71" alt=""></div>
           <h4>Powerful Tracking & Reporting</h4>
           <p>Without the right data, PPC optimization is quite an arduous task. We provide you with a detailed analysis report of what is going with your campaign and how the paid search is performing against key metrics.</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <div class="mid-box bot-box ppc-box">
-          <div class="mid-icon"><img src="images/organiclinkbuilding.png" width="70" height="71" alt=""></div>
+          <div class="mid-icon"><img src="images/organiclinkbuilding.webp" width="70" height="71" alt=""></div>
           <h4>Remarketing</h4>
           <p>Working with an experienced PPC management company, we help you to optimize your remarketing campaign that allows the business to position targeted ads to an audience who have already visited your website.</p>
         </div>
@@ -184,22 +184,22 @@
         </ul>
         <div class="tab-content">
           <div id="why_1" class="container tab-pane active">
-            <figure><img src="images/chart_icon.png"></figure>
+            <figure><img src="images/chart_icon.webp"></figure>
             <h3>Save Time</h3>
             <p>PPC advertising requires a constant effort to manage and update keywords, ads, and campaigns. Hiring PPC experts will allow professionals to focus on your PPC accounts continuously.</p>
           </div>
           <div id="why_2" class="container tab-pane fade">
-            <figure> <img src="images/chart_icon.png"></figure>
+            <figure> <img src="images/chart_icon.webp"></figure>
             <h3>Effective Results</h3>
             <p>We have been a popular PPC advertising firm for years, we know how to build, run and optimize campaigns to bring in the most qualified traffic.</p>
           </div>
           <div id="why_3" class="container tab-pane fade">
-            <figure> <img src="images/chart_icon.png"></figure>
+            <figure> <img src="images/chart_icon.webp"></figure>
             <h3>Hip To Google’s Newest Tricks</h3>
             <p>Google keeps on introducing new Adwords features. And for this stuff, you really have to be on top and keep up with the latest features and strategies.</p>
           </div>
           <div id="why_4" class="container tab-pane fade">
-            <figure> <img src="images/chart_icon.png"></figure>
+            <figure> <img src="images/chart_icon.webp"></figure>
             <h3>Keep Away From Wasting Money</h3>
             <p>When you hire a PPC marketing agency, you're gaining a team of professionals who know how to manage and update bid prices to make the most of your budget.</p>
           </div>

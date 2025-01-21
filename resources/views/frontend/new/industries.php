@@ -1,153 +1,156 @@
-<?php header("HTTP/1.1 301 Moved Permanently");header("Location:https://www.nettechnocrats.com/"); exit;include 'include/header.php'; ?><section class="cd-section visible">   <!-- START HOMEPAGE DESIGN AREA -->
-  <div id="home" class="welcome-area site-header">
-    <div class="welcome-image-area indust" data-stellar-background-ratio="0.6">      
-    </div>
-    <div class="contact-section-home">
-                    <ul>
-                        <li class="phone"><a href="#" data-toggle="modal" data-target="#myModal" ><span><i class="fa fa-phone" aria-hidden="true"></i></span>CALL</a></li>
-                        <li class="req"><a href="#" data-toggle="modal" data-target="#myModal1" onclick="OpenREQ();" ><span><i class="fa fa-file-text-o" aria-hidden="true"></i></span>RFQ</a></li>
-                    </ul>
-                </div>
-  </div>
-</section>
-<div class="call-popup">
-<div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    
-                </div>
-<div class="modal-title text-center" id="CallMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
-                <div class="modal-body">
-                    
-                    <div class="call-content">
-                        <a href="#"><span>Call Now: </span>+1.973.459.4971</a>
-                        <a href="#"><span></span>+91.120.413.7259</a>
-                        <form id="callform">
-                            <div class="com-md-4 col-sm-4 col-xs-12">
-                            <input type="text" name="code" id="code" placeholder="+1" onkeypress="HideErrmsg('nameErr');" >
-                            <span id="codeErr"></span>
-                        </div>
-                        <div class="com-md-8 col-sm-8 col-xs-12">
-                            <input type="text" name="phoneno" id="phoneno" placeholder="Phone No." onkeypress="HideErrmsg('nameErr');" >
-                            <span id="phonenoErr"></span>
-                        </div>
-                        <div class="col-md-12">
-                        <input type="button" onclick="CallRequest();" id="Callbtn" Value="Request for Call Back" class="call-btn">
-                    </div>
-                        </form>
-                    </div>
-                </div>
-
-            </div><!-- modal-content -->
-        </div><!-- modal-dialog -->
-    </div><!-- modal -->
-</div>
-
-    <div class="req-popup">
-    <div class="modal left fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>                   
-                </div>
-                <div class="modal-title text-center" id="QueryMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
-                <div class="modal-body">
-                   <div class="rfq-content">
-                    <form id="queryform">
-      <div class="col-md-12">
-         <input type="text" name="rname" id="rname" placeholder="Name" onkeypress="HideErrmsg('rnameErr');">
-         <span id="rnameErr"></span>
-         <input type="text" name="remail" id="remail" placeholder="Email" onkeypress="HideErrmsg('remailErr');">
-         <span id="remailErr"></span>
+<?php header("HTTP/1.1 301 Moved Permanently");
+header("Location:https://www.nettechnocrats.com/");
+exit;
+include 'include/header.php'; ?><section class="cd-section visible"> <!-- START HOMEPAGE DESIGN AREA -->
+   <div id="home" class="welcome-area site-header">
+      <div class="welcome-image-area indust" data-stellar-background-ratio="0.6">
       </div>
-      <div class="col-md-4 col-sm-4 col-xs-12">
-         <input type="text" name="rcode" id="rcode" placeholder="+1" onkeypress="HideErrmsg('rcodeErr');" >
-         <span id="rcodeErr"></span>
-      </div>
-      <div class="col-md-8 col-sm-8 col-xs-12">
-         <input type="text" name="rphoneno" id="rphoneno" placeholder="Phone No." onkeypress="HideErrmsg('rphonenoErr');" >
-         <span id="rphonenoErr"></span>
-      </div>
-      <textarea row="3" placeholder="Message" name="rmessage" id="rmessage"></textarea>
-      <input type="text" name="vcapcha" id="vcapcha" style="width: 50%;" readonly="readonly" oncopy="return false" onpaste="return false" >
-      <label>What code is in the image</label>
-      <input type="text" placeholder="Capcha" name="rcapcha" id="rcapcha" onkeypress="HideErrmsg('rcapchaErr');">
-      <label>Enter the code shows in the image</label>
-      <span id="rcapchaErr"></span>
-      <div class="col-md-5 col-sm-6 col-xs-12">
-         <input type="button" Value="Submit" id="RFQBtn" style="width: 110%;" class="call-btn" onclick="RFQQyery();">
+      <div class="contact-section-home">
+         <ul>
+            <li class="phone"><a href="#" data-toggle="modal" data-target="#myModal"><span><i class="fa fa-phone" aria-hidden="true"></i></span>CALL</a></li>
+            <li class="req"><a href="#" data-toggle="modal" data-target="#myModal1" onclick="OpenREQ();"><span><i class="fa fa-file-text-o" aria-hidden="true"></i></span>RFQ</a></li>
+         </ul>
       </div>
    </div>
-</form>
-                   </div>
-                </div>
+</section>
+<div class="call-popup">
+   <div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
 
-            </div><!-- modal-content -->
-        </div><!-- modal-dialog -->
-    </div><!-- modal -->
-</div> 
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+            </div>
+            <div class="modal-title text-center" id="CallMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
+            <div class="modal-body">
+
+               <div class="call-content">
+                  <a href="#"><span>Call Now: </span>+1.973.459.4971</a>
+                  <a href="#"><span></span>+91.120.413.7259</a>
+                  <form id="callform">
+                     <div class="com-md-4 col-sm-4 col-xs-12">
+                        <input type="text" name="code" id="code" placeholder="+1" onkeypress="HideErrmsg('nameErr');">
+                        <span id="codeErr"></span>
+                     </div>
+                     <div class="com-md-8 col-sm-8 col-xs-12">
+                        <input type="text" name="phoneno" id="phoneno" placeholder="Phone No." onkeypress="HideErrmsg('nameErr');">
+                        <span id="phonenoErr"></span>
+                     </div>
+                     <div class="col-md-12">
+                        <input type="button" onclick="CallRequest();" id="Callbtn" Value="Request for Call Back" class="call-btn">
+                     </div>
+                  </form>
+               </div>
+            </div>
+
+         </div><!-- modal-content -->
+      </div><!-- modal-dialog -->
+   </div><!-- modal -->
+</div>
+
+<div class="req-popup">
+   <div class="modal left fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-title text-center" id="QueryMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
+            <div class="modal-body">
+               <div class="rfq-content">
+                  <form id="queryform">
+                     <div class="col-md-12">
+                        <input type="text" name="rname" id="rname" placeholder="Name" onkeypress="HideErrmsg('rnameErr');">
+                        <span id="rnameErr"></span>
+                        <input type="text" name="remail" id="remail" placeholder="Email" onkeypress="HideErrmsg('remailErr');">
+                        <span id="remailErr"></span>
+                     </div>
+                     <div class="col-md-4 col-sm-4 col-xs-12">
+                        <input type="text" name="rcode" id="rcode" placeholder="+1" onkeypress="HideErrmsg('rcodeErr');">
+                        <span id="rcodeErr"></span>
+                     </div>
+                     <div class="col-md-8 col-sm-8 col-xs-12">
+                        <input type="text" name="rphoneno" id="rphoneno" placeholder="Phone No." onkeypress="HideErrmsg('rphonenoErr');">
+                        <span id="rphonenoErr"></span>
+                     </div>
+                     <textarea row="3" placeholder="Message" name="rmessage" id="rmessage"></textarea>
+                     <input type="text" name="vcapcha" id="vcapcha" style="width: 50%;" readonly="readonly" oncopy="return false" onpaste="return false">
+                     <label>What code is in the image</label>
+                     <input type="text" placeholder="Capcha" name="rcapcha" id="rcapcha" onkeypress="HideErrmsg('rcapchaErr');">
+                     <label>Enter the code shows in the image</label>
+                     <span id="rcapchaErr"></span>
+                     <div class="col-md-5 col-sm-6 col-xs-12">
+                        <input type="button" Value="Submit" id="RFQBtn" style="width: 110%;" class="call-btn" onclick="RFQQyery();">
+                     </div>
+               </div>
+               </form>
+            </div>
+         </div>
+
+      </div><!-- modal-content -->
+   </div><!-- modal-dialog -->
+</div><!-- modal -->
+</div>
 <section class="industry-page">
-        <div class="tab_wrapd">
-          <div class="tab_nav">
-            <label for="step1" class="active"><a href="<?=BaseUrl?>finance-banking-software-development.php">Finance & <br> Banking</a></label>
-            <label for="step2"><a href="<?=BaseUrl?>education-portal-development.php">Education <br>  Portal</a></label>
-            <label for="step3"><a href="<?=BaseUrl?>media-advertisement.php
-">Media & <br>  Advertisement</a></label>
-            <label for="step4"><a href="<?=BaseUrl?>retailer-wholeseller.php">Retail & <br>  Wholesale Trade</a></label>
-            <label for="step5"><a href="<?=BaseUrl?>medical-healthcare-app-development.php">Medical & <br>  Health Care</a></label>
-            <label for="step6"><a href="<?=BaseUrl?>social-networking-app-development.php">Social<br>   Networking</a></label>
-            <label for="step7"><a href="<?=BaseUrl?>real-state-portal-development-company.php">Real <br>  Estate</a></label>
-            <label for="step8"><a href="<?=BaseUrl?>tour-travel-app-development-company.php">Tour & <br> Travel</a></label>
-             
-            <div class="tab-content">
-              <div id="step1" class="tab_form background_img">                
-                	<div class="auto_fill_address"> 
-                    	<div class="container">                 
-                  <h1>FINANCE & BANKING DEVELOPMENT</h1>
-                  <p>As per a recent survey, by 2020, most of the banks will adopt advanced technology solutions to serve their customers regardless of the geographical spread. Today, every possible function of a bank like from money transfer to savings to loans can now be done more faster, cheaper and efficiently by the advanced digital technology. As the regular branch and cash management functions are losing their relevance, a more fundamental change will be observed in the future banking.</p>
-                
-                  <div class="box_div">
-                  	<h2>Our bank website designs have the following features</h2>
-                    
-                  		  <div class="text_full_div clearfix">
-                           
-								<div class="industry-left">
-									<img src="images/cap.png" alt="">
-									<p>Easy to manage-The website is easy to use and there is no virtual training required for this. One can remain updated with the site, add new photos or texts and manage all with comfort.</p>
-								</div>
-							
-							
-							
-								<div class="industry-right">
-									<img src="images/book.png" alt="">
-									<p>Fits the needs and budget– We maximize the effect of your budget and for this purpose, we provide a wide range of services to meet the requirements.</p>
-								</div>
-							
-                            
+   <div class="tab_wrapd">
+      <div class="tab_nav">
+         <label for="step1" class="active"><a href="<?= BaseUrl ?>finance-banking-software-development.php">Finance & <br> Banking</a></label>
+         <label for="step2"><a href="<?= BaseUrl ?>education-portal-development.php">Education <br> Portal</a></label>
+         <label for="step3"><a href="<?= BaseUrl ?>media-advertisement.php
+">Media & <br> Advertisement</a></label>
+         <label for="step4"><a href="<?= BaseUrl ?>retailer-wholeseller.php">Retail & <br> Wholesale Trade</a></label>
+         <label for="step5"><a href="<?= BaseUrl ?>medical-healthcare-app-development.php">Medical & <br> Health Care</a></label>
+         <label for="step6"><a href="<?= BaseUrl ?>social-networking-app-development.php">Social<br> Networking</a></label>
+         <label for="step7"><a href="<?= BaseUrl ?>real-state-portal-development-company.php">Real <br> Estate</a></label>
+         <label for="step8"><a href="<?= BaseUrl ?>tour-travel-app-development-company.php">Tour & <br> Travel</a></label>
+
+         <div class="tab-content">
+            <div id="step1" class="tab_form background_img">
+               <div class="auto_fill_address">
+                  <div class="container">
+                     <h1>FINANCE & BANKING DEVELOPMENT</h1>
+                     <p>As per a recent survey, by 2020, most of the banks will adopt advanced technology solutions to serve their customers regardless of the geographical spread. Today, every possible function of a bank like from money transfer to savings to loans can now be done more faster, cheaper and efficiently by the advanced digital technology. As the regular branch and cash management functions are losing their relevance, a more fundamental change will be observed in the future banking.</p>
+
+                     <div class="box_div">
+                        <h2>Our bank website designs have the following features</h2>
+
+                        <div class="text_full_div clearfix">
+
+                           <div class="industry-left">
+                              <img src="images/cap.webp" alt="">
+                              <p>Easy to manage-The website is easy to use and there is no virtual training required for this. One can remain updated with the site, add new photos or texts and manage all with comfort.</p>
                            </div>
-                   
+
+
+
+                           <div class="industry-right">
+                              <img src="images/book.webp" alt="">
+                              <p>Fits the needs and budget– We maximize the effect of your budget and for this purpose, we provide a wide range of services to meet the requirements.</p>
+                           </div>
+
+
+                        </div>
+
+                     </div>
                   </div>
-                  </div>  
-				  </div>
-                  <div class="outer_sec">           
-            <div class="container">
-                	<div class="second_sec">
+               </div>
+               <div class="outer_sec">
+                  <div class="container">
+                     <div class="second_sec">
                         <h4>Drives more lead towards your website–We can drive more traffic and more leads towards the website by
-        providing the SEO services coupled with web designing. So, your site can get better search
-        ranking within Google.</h4>
-        <p>Our technical insight and practice experience provide solutions for banking and finance industry. We provide professional, visually appealing and effective finance and banking service web designs. With our expertise and technical ability, we provide a complete suite of web application development and enhancement services to various banking and financial institutions. We provide Internet solutions and creative services for the clients in finance and banking service industry too. Using our deep experience and industrial knowledge, we design specific and effective solutions for finance and banking sector. Each website has its own needs, style, and purpose. As such the banking is of sensitive nature, we provide a secure banking website that provides required information to your clients and eliminates any risks while exposing it. Besides this, your services, facilities, and experiences will be a highlight of the site in such a way that it will attract your potential customers.</p>
-                    </div>
-                </div>           
-        
-                </div>
-                
-              </div>
-              
-         <!--     <div id="step2" class="tab_form background_img">
+                           providing the SEO services coupled with web designing. So, your site can get better search
+                           ranking within Google.</h4>
+                        <p>Our technical insight and practice experience provide solutions for banking and finance industry. We provide professional, visually appealing and effective finance and banking service web designs. With our expertise and technical ability, we provide a complete suite of web application development and enhancement services to various banking and financial institutions. We provide Internet solutions and creative services for the clients in finance and banking service industry too. Using our deep experience and industrial knowledge, we design specific and effective solutions for finance and banking sector. Each website has its own needs, style, and purpose. As such the banking is of sensitive nature, we provide a secure banking website that provides required information to your clients and eliminates any risks while exposing it. Besides this, your services, facilities, and experiences will be a highlight of the site in such a way that it will attract your potential customers.</p>
+                     </div>
+                  </div>
+
+               </div>
+
+            </div>
+
+            <!--     <div id="step2" class="tab_form background_img">
             	  <div class="auto_fill_address"> 
                     	<div class="container">                 
                   <h1>EDUCATION PORTAL</h1>
@@ -162,7 +165,7 @@
                             <p>Uninterrupted information through easy navigation-A professional education portal simplifies information exchange for students, staff, and faculty by enabling the ease of use and constructed information flow.</p>
                          </div>
                          <div class="right_indus_img">
-                            <img src="images/industries.png" alt="image">
+                            <img src="images/industries.webp" alt="image">
                          </div>    
                     	</div>                 	
                     </div>
@@ -195,7 +198,7 @@
                                 <p>Attractive layout of the website-A website must be polished, appealing and professional. It's the first thing that is reflecting your product, services, and your company. An attractive website is very helpful to generate a positive impression to visitors of your site and make them your regular customer once they arrive.</p>
                              </div>
                              <div class="right_indus_img">
-                                <img src="images/industries.png" alt="image">
+                                <img src="images/industries.webp" alt="image">
                              </div> 
                            </div>                      	
                         </div>
@@ -228,7 +231,7 @@
                                 <p>A platform that provides full control-While selling retail and wholesales it provides you control through which you can manage the products which can be seen or purchased by the public, manage your dealer products and doing the pricing for a different group of shoppers.</p>
                              </div>
                              <div class="right_indus_img">
-                                <img src="images/industries.png" alt="image">
+                                <img src="images/industries.webp" alt="image">
                              </div> 
                            </div>                      	
                         </div>
@@ -260,7 +263,7 @@
                                 <p> <strong> Allow easy content updates and edits </strong>- Your website is equipped with a content management system so that you don't need to call a technical person every time when you need to post an article or update any other data.</p>
                              </div>
                              <div class="right_indus_img">
-                                <img src="images/industries.png" alt="image">
+                                <img src="images/industries.webp" alt="image">
                              </div> 
                            </div>
                                                	
@@ -294,7 +297,7 @@
                                  <p>Cost effectiveness-we give cost effective results to the clients and this is possible by the open source networking customized by the experts.</p>
                              </div>
                              <div class="right_indus_img">
-                                <img src="images/industries.png" alt="image">
+                                <img src="images/industries.webp" alt="image">
                              </div> 
                            </div>
                                   	
@@ -329,7 +332,7 @@
                                 <p><strong> Help in showcasing website features</strong>- With various interactive features and the attractive layouts offered by such real estate web designs, one can drive more buyers who take interest in the services.</p>
                              </div>
                              <div class="right_indus_img">
-                                <img src="images/industries.png" alt="image">
+                                <img src="images/industries.webp" alt="image">
                              </div> 
                            </div>                      	
                         </div>
@@ -362,7 +365,7 @@
                                 <p>Several navigation styles-People looking to travel are goal-oriented and may be browsing for a specific type, destination, or date. This type of visitors gets frustrated by not finding the right information easily. The travel website gives visitors lots of navigation options, so they can explore the site in several ways.</p>
                              </div>
                              <div class="right_indus_img">
-                                <img src="images/industries.png" alt="image">
+                                <img src="images/industries.webp" alt="image">
                              </div> 
                            </div>                      	
                         </div>
@@ -380,33 +383,33 @@
                </div>
               </div>  
 				-->
-              
-            </div>
- 		   
-          </div>
-        </div>
-      
+
+         </div>
+
+      </div>
+   </div>
+
 </section>
-<section class="industry-service"> 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-			<h3>Services That We Offer</h3>
-			<p>Fully editable Pages, Fast loading, Google Analytics, Integrated IDX, Interactive Map Research, Easy-to-save multiple search, Agent lead routing, Lead capture forms.</p>
-			<ul class="list-inline">
-				<li>Consulting Services</li>
-				<li>Mobile Application Development</li>
-				<li>Quality Assurance</li>
-				<li>UI/UX Design</li>
-				<li>Enterprise Software Development</li>
-				<li>Staff Augmentation & Dedicated Developers</li>
-				<li>Web Application Development</li>
-				<li>Product Strategy for Startups</li>
-				<li>Maintenance & Support</li>
-			</ul>
-			</div>
-		</div>
-	</div>
+<section class="industry-service">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <h3>Services That We Offer</h3>
+            <p>Fully editable Pages, Fast loading, Google Analytics, Integrated IDX, Interactive Map Research, Easy-to-save multiple search, Agent lead routing, Lead capture forms.</p>
+            <ul class="list-inline">
+               <li>Consulting Services</li>
+               <li>Mobile Application Development</li>
+               <li>Quality Assurance</li>
+               <li>UI/UX Design</li>
+               <li>Enterprise Software Development</li>
+               <li>Staff Augmentation & Dedicated Developers</li>
+               <li>Web Application Development</li>
+               <li>Product Strategy for Startups</li>
+               <li>Maintenance & Support</li>
+            </ul>
+         </div>
+      </div>
+   </div>
 </section>
 
 <?php include 'include/latest_post.php'; ?>
@@ -414,7 +417,7 @@
 <section>
    <div class="container">
       <div class="row">
-        <div class="col-xs-12">
+         <div class="col-xs-12">
             <ul class="client_info list-inline client1">
                <li>
                   <h4>150+</h4>
@@ -451,14 +454,14 @@
             </div>
             <ul class="address_div">
                <li>
-                  <img src="images/buss.png">
+                  <img src="images/buss.webp">
                   <span>
                      <h4>VISIT OFFICE</h4>
                      <h6>H-183, Sec-63, Noida,<br>Delhi (NCR) India</h6>
                   </span>
                </li>
                <li>
-                  <img src="images/calling.png">
+                  <img src="images/calling.webp">
                   <span>
                      <h4>CALL US</h4>
                      <h6>Sales: <a href="callto:+1 (973) 459-4971">+1 (973) 459-4971</a><br>
@@ -467,10 +470,10 @@
                   </span>
                </li>
                <li>
-                  <img src="images/email.png">
+                  <img src="images/email.webp">
                   <span>
                      <h4>SEND MESSAGE</h4>
-                     <h6>Sales:  <a href="mailto:info@nettechnocrats.com">sales@nettechnocrats.com </a><br>
+                     <h6>Sales: <a href="mailto:info@nettechnocrats.com">sales@nettechnocrats.com </a><br>
                         HR : <a href="mailto:info@nettechnocrats.com">hr@nettechnocrats.com </a>
                      </h6>
                   </span>
@@ -481,4 +484,4 @@
    </div>
 </section>
 
- <?php include 'include/footer.php'; ?>
+<?php include 'include/footer.php'; ?>

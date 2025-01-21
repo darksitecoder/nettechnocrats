@@ -10,7 +10,7 @@
   <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+  <link rel="shortcut icon" href="img/icons/icon-48x48.webp" />
 
   <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
@@ -267,7 +267,7 @@
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <div class="col-md-12 stretch-card grid-margin">
                 <select id="category_2" name="category_2">
-                  <option value="">-Select Category 2-</option>                 
+                  <option value="">-Select Category 2-</option>
 
                   <!-- Options for App Development -->
                   <option data-parent="Apps_Development" value="UI/UX/Product Design">UI/UX/Product Design</option>

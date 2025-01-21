@@ -17,7 +17,7 @@ class PortfolioController extends Controller
     {
         // dd($category_1);
         $portfolio = portfolio::where('status', 'publish')
-        ->Where('category_1', 'like', '%' . $category_1 . '%')
+            ->Where('category_1', 'like', '%' . $category_1 . '%')
             ->orderBy('created_at', 'desc')
             ->paginate(5);  // Paginate results, showing 10 per page
         // dd($portfolio);
@@ -33,25 +33,23 @@ class PortfolioController extends Controller
         //     ->paginate(10); 
 
 
-      
+
 
         $portfolio = portfolio::where('status', 'publish')
-        ->Where('category_1', 'like', '%' . 'Digital_Marketing' . '%')
+            ->Where('category_1', 'like', '%' . 'Digital_Marketing' . '%')
             ->orderBy('created_at', 'desc')
-            ->paginate(5);  
+            ->paginate(5);
         // dd($portfolio);
 
         return view('frontend/portfolio/seo_portfolio')->with(compact('portfolio'));
-
-
     }
 
 
     public function portfolio_seo_detail($id)
     {
         $portfolio = portfolio::where('status', 'publish')
-        ->Where('id', $id)
-          ->get(); 
+            ->Where('id', $id)
+            ->get();
 
         // dd($portfolio);
         return view('frontend/portfolio/portfolio_seo_detail')->with(compact('portfolio'));
@@ -73,7 +71,7 @@ class PortfolioController extends Controller
         }
 
         // Fetch all blogs (you can add further query filters if needed)
-        $portfolio = Portfolio::select('id','portfolio_no', 'heading', 'company_name','category_1', 'content', 'image', 'created_at', 'status')
+        $portfolio = Portfolio::select('id', 'portfolio_no', 'heading', 'company_name', 'category_1', 'content', 'image', 'created_at', 'status')
             // ->whereIn('category_1', $category_1)  // Ensure $category_1 is an array
             ->Where('category_1', 'like', '%' . $category_1 . '%')
             ->orderBy('created_at', 'desc')
@@ -188,7 +186,7 @@ class PortfolioController extends Controller
             ]);
         }
 
-      
+
         // Validate the incoming data
         $validatedData = $request->validate($rules);
 
@@ -221,7 +219,7 @@ class PortfolioController extends Controller
                 'company_name' => $request->company_name,
                 'status' => $status,
                 'created_by' => $user->id,
-                
+
             ]);
         }
 
@@ -236,10 +234,10 @@ class PortfolioController extends Controller
     {
 
         // dd($request->all());
-     
+
         // Get the status from the request
         $status = $request->input('status');
-    
+
         // Base validation rules
         $rules = [
             'portfolio_no' => 'required',
@@ -255,21 +253,21 @@ class PortfolioController extends Controller
             'image_start' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
             'image_final' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
         ];
-    
+
         // Add unique validation for 'portfolio_no' when not updating
         if ($request->page_type != 'update') {
             $rules['portfolio_no'] = 'required|unique:portfolio,portfolio_no';
         }
-    
+
         // Validate the incoming data
         $validatedData = $request->validate($rules);
-    
+
         // Get the authenticated user
         $user = Auth::user();
-    
+
         // Check if portfolio exists (for update scenario)
         $existingPortfolio = portfolio::where('portfolio_no', $request->portfolio_no)->first();
-    
+
         // Handle Image Uploads (only if new files are uploaded)
         if ($request->hasFile('image')) {
             $imageName = time() . '-' . uniqid() . '.' . $request->file('image')->getClientOriginalExtension();
@@ -278,7 +276,7 @@ class PortfolioController extends Controller
         } else {
             $imagePath = $existingPortfolio ? $existingPortfolio->image : null;
         }
-    
+
         if ($request->hasFile('image_start')) {
             $imageNameStart = time() . '-' . uniqid() . '.' . $request->file('image_start')->getClientOriginalExtension();
             $request->file('image_start')->move(public_path('backend/portfolio'), $imageNameStart);
@@ -286,7 +284,7 @@ class PortfolioController extends Controller
         } else {
             $imagePath_start = $existingPortfolio ? $existingPortfolio->image_start : null;
         }
-    
+
         if ($request->hasFile('image_final')) {
             $imageNameFinal = time() . '-' . uniqid() . '.' . $request->file('image_final')->getClientOriginalExtension();
             $request->file('image_final')->move(public_path('backend/portfolio'), $imageNameFinal);
@@ -294,7 +292,7 @@ class PortfolioController extends Controller
         } else {
             $imagePath_final = $existingPortfolio ? $existingPortfolio->image_final : null;
         }
-    
+
         // If this is a new portfolio, create a new record; otherwise, update existing
         if ($existingPortfolio) {
             $existingPortfolio->update([
@@ -334,14 +332,14 @@ class PortfolioController extends Controller
             ]);
             $message = 'Portfolio saved successfully!';
         }
-    
+
         // Return success response
         return response()->json([
             'success' => $message . ' ' . ($status === 'publish' ? 'and published' : ''),
         ]);
     }
-    
-    
+
+
 
 
 
@@ -358,8 +356,8 @@ class PortfolioController extends Controller
             $request->session()->flash('error', 'Portfolio Not Deleted');
         }
 
-         // Return redirect to the portfolio page based on the category
-    return redirect()->route('PortfolioForAdmin', ['category_1' => $category_1]);
+        // Return redirect to the portfolio page based on the category
+        return redirect()->route('PortfolioForAdmin', ['category_1' => $category_1]);
     }
 
 
@@ -446,7 +444,7 @@ class PortfolioController extends Controller
 
             $imagePath = $request->file('image')->move(public_path('backend/portfolio'), $imageName);
 
-            // The 'storeAs' method returns the relative path, e.g., 'public/backend/portfolio/1733316243.png'
+            // The 'storeAs' method returns the relative path, e.g., 'public/backend/portfolio/1733316243.webp'
             // Now we need to get the relative path without the "public" directory.
             $imageRelativePath = 'backend/portfolio/' . $imageName;
         }

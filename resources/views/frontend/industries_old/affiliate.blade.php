@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Increase Your Retail and Trade Profitability With Our Advanced Solutions</title>
       <!-- <link rel="stylesheet" href="style.css"> -->
-      <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+      <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
       <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
       <link
             rel="stylesheet"
@@ -41,7 +41,7 @@
 <body>
       @include('partial/header')
       <!-- Abvout Start -->
-      <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+      <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
             <div class="container py-5">
                   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
                         <div class="col-xl-12 wow fadeInLeft">
@@ -372,7 +372,7 @@
 
                                     <h4 class="text-primary1 fw-bolder">Preapps</h4>
                                     <p class="mb-4">Pre App is a premier mobile app marketing and discovery platform specially designed for app developers, publishers, and the enterprise. With over a total of 90 million client downloads, this tool is mainly used to do market research and validate your application idea. As well as, the tool is also helpful to track app’s downloads, revenue analytics, and usage.</p>
-                                    <img src="{{ asset('assets/web/progress.png') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+                                    <img src="{{ asset('assets/web/progress.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
                               </div>
                         </div>
                         <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">

@@ -4,25 +4,119 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trusted Healthcare SEO Company, Healthcare SEO Services</title>
-	<meta name="description" content="We are the trusted healthcare SEO company you need to enhance your online presence. Explore our healthcare SEO Services for your medical websites." />
-	<link rel="canonical" href="https://www.nettechnocrats.com/healthcare-seo-services/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Trusted Healthcare SEO Company, Healthcare SEO Services" />
-	<meta property="og:description" content="We are the trusted healthcare SEO company you need to enhance your online presence. Explore our healthcare SEO Services for your medical websites." />
-	<meta property="og:url" content="https://www.nettechnocrats.com/healthcare-seo-services/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T08:58:12+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/main-healthcare-1024x310-1.png" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="21 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/healthcare-seo-services/","url":"https://www.nettechnocrats.com/healthcare-seo-services/","name":"Trusted Healthcare SEO Company, Healthcare SEO Services","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/healthcare-seo-services/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/healthcare-seo-services/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/main-healthcare-1024x310-1.png","datePublished":"2023-08-28T09:13:44+00:00","dateModified":"2024-08-13T08:58:12+00:00","description":"We are the trusted healthcare SEO company you need to enhance your online presence. Explore our healthcare SEO Services for your medical websites.","breadcrumb":{"@id":"https://www.nettechnocrats.com/healthcare-seo-services/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/healthcare-seo-services/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/healthcare-seo-services/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/main-healthcare-1024x310-1.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/main-healthcare-1024x310-1.png","width":1024,"height":310,"caption":"icon"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/healthcare-seo-services/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Healthcare SEO"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-	 <!-- <link rel="stylesheet" href="style.css"> -->
- <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+ <title>Trusted Healthcare SEO Company, Healthcare SEO Services</title>
+ <meta name="description" content="We are the trusted healthcare SEO company you need to enhance your online presence. Explore our healthcare SEO Services for your medical websites." />
+ <link rel="canonical" href="https://www.nettechnocrats.com/healthcare-seo-services/" />
+ <meta property="og:locale" content="en_US" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="Trusted Healthcare SEO Company, Healthcare SEO Services" />
+ <meta property="og:description" content="We are the trusted healthcare SEO company you need to enhance your online presence. Explore our healthcare SEO Services for your medical websites." />
+ <meta property="og:url" content="https://www.nettechnocrats.com/healthcare-seo-services/" />
+ <meta property="og:site_name" content="Nettechnocrats" />
+ <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+ <meta property="article:modified_time" content="2024-08-13T08:58:12+00:00" />
+ <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/main-healthcare-1024x310-1.webp" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@nettechnocrats" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="21 minutes" />
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/healthcare-seo-services/",
+    "url": "https://www.nettechnocrats.com/healthcare-seo-services/",
+    "name": "Trusted Healthcare SEO Company, Healthcare SEO Services",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/healthcare-seo-services/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/healthcare-seo-services/#primaryimage"
+    },
+    "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/main-healthcare-1024x310-1.webp",
+    "datePublished": "2023-08-28T09:13:44+00:00",
+    "dateModified": "2024-08-13T08:58:12+00:00",
+    "description": "We are the trusted healthcare SEO company you need to enhance your online presence. Explore our healthcare SEO Services for your medical websites.",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/healthcare-seo-services/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/healthcare-seo-services/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/healthcare-seo-services/#primaryimage",
+    "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/main-healthcare-1024x310-1.webp",
+    "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/main-healthcare-1024x310-1.webp",
+    "width": 1024,
+    "height": 310,
+    "caption": "icon"
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/healthcare-seo-services/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Healthcare SEO"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
+ <!-- <link rel="stylesheet" href="style.css"> -->
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
   rel="stylesheet"
@@ -57,7 +151,7 @@
 <body>
  @include('partial/header')
  <!-- Abvout Start -->
- <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+ <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-12 wow fadeInLeft">
@@ -441,7 +535,7 @@
 
       <h4 class="text-primary1 fw-bolder">Beycome Real Estate</h4>
       <p class="mb-4">Beycome is the first and only real estate company and listing platform that realizes 100% of your home transactions online; helping homeowners, buyers, and renters close a deal on their home, without the assistance of a real estate agent or broker. In turn, by cutting out agents, this saves homeowners from paying the 6% commission fee involved in a home sale (or 10% commission fee due in a rental transaction). And when the owner saves, buyers and renters get more negotiation power for a better deal.</p>
-      <img src="{{ asset('assets/web/progress.png') }}" class="img-fluid rounded w-100 image-with-shadow" alt="#1 Healthcare SEO Company">
+      <img src="{{ asset('assets/web/progress.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="#1 Healthcare SEO Company">
      </div>
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">

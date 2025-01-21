@@ -44,7 +44,7 @@
 <body>
  @include('partial/header')
  <!-- Abvout Start -->
- <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+ <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-12 wow fadeInLeft">
@@ -62,7 +62,7 @@
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-6 wow fadeInLeft">
-     <img src="{{ asset('assets/web/laptop.png') }}" class="img-fluid rounded image-with-shadow w-100" alt="Social Media Marketing Services">
+     <img src="{{ asset('assets/web/laptop.webp') }}" class="img-fluid rounded image-with-shadow w-100" alt="Social Media Marketing Services">
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <h3 class="fw-bolder">Valuable

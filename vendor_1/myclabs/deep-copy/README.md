@@ -66,22 +66,22 @@ yourself.
 
 Now you're in for a big mess :(
 
-![association graph](doc/graph.png)
+![association graph](doc/graph.webp)
 
 
 ### Using simply `clone`
 
-![Using clone](doc/clone.png)
+![Using clone](doc/clone.webp)
 
 
 ### Overriding `__clone()`
 
-![Overriding __clone](doc/deep-clone.png)
+![Overriding __clone](doc/deep-clone.webp)
 
 
 ### With `DeepCopy`
 
-![With DeepCopy](doc/deep-copy.png)
+![With DeepCopy](doc/deep-copy.webp)
 
 
 ## How it works

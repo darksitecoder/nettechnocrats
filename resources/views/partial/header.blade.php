@@ -1,13 +1,13 @@
 ﻿
 
 <!-- header start -->
-<link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+<link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
 <header class="header">
   <div class="nav_container">
     <div class="row v-center">
       <div class="header-item item-left">
         <div class="logo">
-          <a href="{{ url('/')}}"><img src="{{ asset('assets/web/nettechnocrats-logo.png') }}" alt="" srcset=""></a>
+          <a href="{{ url('/')}}"><img src="{{ asset('assets/web/nettechnocrats-logo.webp') }}" alt="" srcset=""></a>
         </div>
       </div>
       <!-- menu start here -->
@@ -24,7 +24,7 @@
               <a href="#">About <i class="fa fa-angle-down"></i></a>
               <div class="sub-menu mega-menu mega-menu-column-4">
                 <div class="list-item">
-                  <img src="{{ asset('assets/web/about-us-company.png') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
+                  <img src="{{ asset('assets/web/about-us-company.webp') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
                   <h5 class="title  m-0 fw-bolder">About Nettechnocrats</h5>
                   <p class=" m-0">We design and build world class websites and mobile app that understands your business and help our client to grow</p><a href="{{url('/about-us')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class=" fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
@@ -61,7 +61,7 @@
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
                   <ul>
-                    <li><a href="{{url('/seo-services/')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">SEO</a></li>
+                    <li><a href="{{url('/seo-services/')}}" data-image="{{ asset('assets/web/nav-images/seo.webp') }}">SEO</a></li>
                     <li><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">SMO</a></li>
                     <li><a href="{{url('/ppc-services/')}}" data-image="">PPC</a></li>
                     <li><a href="{{url('/online-reputation-management/')}}" data-image="">ORM</a></li>
@@ -143,7 +143,7 @@
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
                   <ul>
-                    <li><a href="{{url('/healthcare-seo-services')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Healthcare</a></li>
+                    <li><a href="{{url('/healthcare-seo-services')}}" data-image="{{ asset('assets/web/nav-images/seo.webp') }}">Healthcare</a></li>
                     <li><a href="{{url('/limo-seo-services')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">Limo</a></li>
                     <li><a href="{{url('/e-commerce-seo-services')}}" data-image="">E-commerece</a></li>
                     <li><a href="{{url('/law-firm-seo')}}" data-image="">Law</a></li>
@@ -197,7 +197,7 @@
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
                   <ul>
-                    <li><a href="{{url('/portfolio_seo_list')}}" data-image="{{ asset('assets/web/nav-images/seo.png') }}">Digital Marketing</a></li>
+                    <li><a href="{{url('/portfolio_seo_list')}}" data-image="{{ asset('assets/web/nav-images/seo.webp') }}">Digital Marketing</a></li>
 
                   </ul>
                 </div>
@@ -317,7 +317,7 @@
     });
 
     link.addEventListener('mouseout', function() {
-      image.src = '{{ asset("assets/web/nav-images/seo.png") }}'; // Use double quotes inside the asset function
+      image.src = '{{ asset("assets/web/nav-images/seo.webp") }}'; // Use double quotes inside the asset function
     });
   });
 </script>

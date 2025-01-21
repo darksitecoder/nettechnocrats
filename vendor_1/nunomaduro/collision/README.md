@@ -1,7 +1,7 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/nunomaduro/collision/v7.x/docs/logo.png" alt="Collision logo" width="480">
+    <img src="https://raw.githubusercontent.com/nunomaduro/collision/v7.x/docs/logo.webp" alt="Collision logo" width="480">
     <br>
-    <img src="https://raw.githubusercontent.com/nunomaduro/collision/v7.x/docs/example.png" alt="Collision code example" height="300">
+    <img src="https://raw.githubusercontent.com/nunomaduro/collision/v7.x/docs/example.webp" alt="Collision code example" height="300">
 </p>
 
 <p align="center">

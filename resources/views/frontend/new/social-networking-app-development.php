@@ -1,5 +1,6 @@
-<?php include 'include/header.php';?>
-<?php //include 'include/connection.php';?>
+<?php include 'include/header.php'; ?>
+<?php //include 'include/connection.php';
+?>
 <section class="cd-section visible">
    <div id="home" class="welcome-area site-header">
       <div class="welcome-image-area portfolio-banner" data-stellar-background-ratio="0.6">
@@ -7,30 +8,30 @@
             <div class="banner_text">
                <h2>SOCIAL NETWORKING WEBSITE DESIGN & DEVELOPMENT</h2>
             </div>
-              <div class="contact-section-home">
-                    <ul>
-                        <li class="phone"><a href="#" data-toggle="modal" data-target="#myModal" ><span><i class="fa fa-phone" aria-hidden="true"></i></span>CALL</a></li>
-                        <li class="req"><a href="#" data-toggle="modal" data-target="#myModal1" onclick="OpenREQ();" ><span><i class="fa fa-file-text-o" aria-hidden="true"></i></span>RFQ</a></li>
-                    </ul>
-                </div>
+            <div class="contact-section-home">
+               <ul>
+                  <li class="phone"><a href="#" data-toggle="modal" data-target="#myModal"><span><i class="fa fa-phone" aria-hidden="true"></i></span>CALL</a></li>
+                  <li class="req"><a href="#" data-toggle="modal" data-target="#myModal1" onclick="OpenREQ();"><span><i class="fa fa-file-text-o" aria-hidden="true"></i></span>RFQ</a></li>
+               </ul>
+            </div>
          </div>
       </div>
    </div>
 </section>
 <section class="industry-page">
-        <div class="tab_wrapd">
-          <div class="tab_nav">
-           <label for="step1" ><a href="finance-banking.php">Finance & <br> Banking</a></label>
-            <label for="step2"><a href="education-portal.php">Education <br>  Portal</a></label>
-            <label for="step3"><a href="media-advertisement.php">Media & <br>  Advertisement</a></label>
-            <label for="step4"><a href="retailer-wholeseller.php">Retail & <br>  Wholesale Trade</a></label>
-            <label for="step5"><a href="medical-healthcare.php">Medical & <br>  Health Care</a></label>
-            <label for="step6" class="active"><a href="social-networking.php">Social<br>   Networking</a></label>
-            <label for="step7"><a href="real-state.php">Real <br>  Estate</a></label>
-            <label for="step8"><a href="tour-travel.php">Tour & <br> Travel</a></label>
-             
-            <div class="tab-content">
-           <!--   <div id="step1" class="tab_form background_img">                
+   <div class="tab_wrapd">
+      <div class="tab_nav">
+         <label for="step1"><a href="finance-banking.php">Finance & <br> Banking</a></label>
+         <label for="step2"><a href="education-portal.php">Education <br> Portal</a></label>
+         <label for="step3"><a href="media-advertisement.php">Media & <br> Advertisement</a></label>
+         <label for="step4"><a href="retailer-wholeseller.php">Retail & <br> Wholesale Trade</a></label>
+         <label for="step5"><a href="medical-healthcare.php">Medical & <br> Health Care</a></label>
+         <label for="step6" class="active"><a href="social-networking.php">Social<br> Networking</a></label>
+         <label for="step7"><a href="real-state.php">Real <br> Estate</a></label>
+         <label for="step8"><a href="tour-travel.php">Tour & <br> Travel</a></label>
+
+         <div class="tab-content">
+            <!--   <div id="step1" class="tab_form background_img">                
                 	<div class="auto_fill_address"> 
                     	<div class="container">                 
                   <h1>FINANCE & BANKING DEVELOPMENT</h1>
@@ -42,14 +43,14 @@
                   		  <div class="text_full_div clearfix">
                            
 								<div class="industry-left">
-									<img src="images/cap.png" alt="">
+									<img src="images/cap.webp" alt="">
 									<p>Easy to manage-The website is easy to use and there is no virtual training required for this. One can remain updated with the site, add new photos or texts and manage all with comfort.</p>
 								</div>
 							
 							
 							
 								<div class="industry-right">
-									<img src="images/book.png" alt="">
+									<img src="images/book.webp" alt="">
 									<p>Fits the needs and budget– We maximize the effect of your budget and for this purpose, we provide a wide range of services to meet the requirements.</p>
 								</div>
 							
@@ -71,8 +72,8 @@
                 </div>
                 </div>
               </div> -->
-              
-         <!--     <div id="step2" class="tab_form background_img">
+
+            <!--     <div id="step2" class="tab_form background_img">
             	  <div class="auto_fill_address"> 
                     	<div class="container">                 
                   <h1>EDUCATION PORTAL</h1>
@@ -84,14 +85,14 @@
                      <div class="text_full_div clearfix">
                            
 								<div class="industry-left">
-									<img src="images/cap.png" alt="">
+									<img src="images/cap.webp" alt="">
 									<p>Multi-device accessibility- The web is being served on different devices, each with different screen sizes, requiring different display sizes and content layouts. All the educational websites are focused on responsive web design that means, to be accessible on the different web based device.</p>
 								</div>
 							
 							
 							
 								<div class="industry-right">
-									<img src="images/book.png" alt="">
+									<img src="images/book.webp" alt="">
 									 <p>Uninterrupted information through easy navigation-A professional education portal simplifies information exchange for students, staff, and faculty by enabling the ease of use and constructed information flow.</p>
 								</div>
 							
@@ -111,8 +112,8 @@
                 </div>
                  </div>
               </div> -->
-              
-          <!--      <div id="step3" class="tab_form background_img">
+
+            <!--      <div id="step3" class="tab_form background_img">
                    <div class="auto_fill_address media-advertisement"> 
                         <div class="container">                 
                       <h1>MEDIA & ENTERTAINMENT</h1>
@@ -124,14 +125,14 @@
                          <div class="text_full_div clearfix">
                            
 								<div class="industry-left">
-									<img src="images/cap.png" alt="">
+									<img src="images/cap.webp" alt="">
 									 <p>Mobile-compatible versions-It is crucial that your visitors have the best possible user experience on all devices, and that's where mobile-responsive design comes in. Designing a responsive format enable your website to adapt and respond to the screen size of the device being used.</p>
 								</div>
 							
 							
 							
 								<div class="industry-right">
-									<img src="images/book.png" alt="">
+									<img src="images/book.webp" alt="">
 									  <p>Attractive layout of the website-A website must be polished, appealing and professional. It's the first thing that is reflecting your product, services, and your company. An attractive website is very helpful to generate a positive impression to visitors of your site and make them your regular customer once they arrive.</p>
 								</div>
 							
@@ -151,8 +152,8 @@
                    
                </div>
               </div> -->
-              
-    <!--       <div id="step4" class="tab_form background_img">
+
+            <!--       <div id="step4" class="tab_form background_img">
                   <div class="auto_fill_address retail-wholesale"> 
                         <div class="container">                 
                       <h1>RETAIL & WHOLESALE TRADE</h1>
@@ -163,12 +164,12 @@
                         
                          <div class="text_full_div clearfix">
                             <div class="industry-left">
-									<img src="images/cap.png" alt="">
+									<img src="images/cap.webp" alt="">
                                 <p>Custom design well suiting your business- It has professional look and the site contents are well organized. One can easily manage the up-sell and cross-sell information .The product display layouts are also created concerning your requirements.</p>
                                
                              </div>
                             <div class="industry-right">
-									<img src="images/book.png" alt="">
+									<img src="images/book.webp" alt="">
                                 <p>A platform that provides full control-While selling retail and wholesales it provides you control through which you can manage the products which can be seen or purchased by the public, manage your dealer products and doing the pricing for a different group of shoppers.</p>
                              </div> 
                            </div>                      	
@@ -186,8 +187,8 @@
                    
                </div>
               </div> -->
-              
-     <!--        <div id="step5" class="tab_form background_img">
+
+            <!--        <div id="step5" class="tab_form background_img">
              	  <div class="auto_fill_address"> 
                         <div class="container">                 
                       <h1>Medical & Healthcare Website Solutions</h1>
@@ -197,12 +198,12 @@
                         <h2>Our medical website design :has following features</h2>
                         <div class="text_full_div">
                             <div class="industry-left">
-									<img src="images/cap.png" alt="">
+									<img src="images/cap.webp" alt="">
                                 <p> <strong> Responsive design </strong>- Your patients are mobile, so your website should be. We built a website for you that is not the desktop-only version, although a responsive one that makes your web page look good on all devices like mobile, tablets, and desktops.</p>
                                
                              </div>
                               <div class="industry-right">
-									<img src="images/book.png" alt="">
+									<img src="images/book.webp" alt="">
 									 <p> <strong> Allow easy content updates and edits </strong>- Your website is equipped with a content management system so that you don't need to call a technical person every time when you need to post an article or update any other data.</p>
                              </div> 
                            </div>
@@ -220,46 +221,46 @@
             
                     </div>
                </div> -->
-            
-              
-             <div id="step6" class="tab_form background_img">
-                <div class="auto_fill_address"> 
-                        <div class="container">                 
-                      <h1>SOCIAL NETWORKING WEBSITE DESIGN & DEVELOPMENT</h1>
-                      <p>According to an online survey, the social networks and blogs are now the 4th most popular kinds of online activities. 67% of the online population are visiting these social networking websites and the time they're spending on these platforms are growing three times the overall growth of the Internet. Even the online stats show that social networks are now visited more often than personal email is read. so. If you also want to make a grand success of your project, consider designing a website.</p>
-                    
-                      <div class="box_div">
-                        <h2>As such, our developers know the latest trends;we create such customized community websites that give you the best possible ROI.</h2>
-                        
-                        <div class="text_full_div">
-                             <div class="industry-left">
-									<img src="https://s3.us-east-2.amazonaws.com/nettech-images/cap.png" alt="">
-                               <p>As such, our developers know the latest trends;we create such customized community websites that give you the best possible ROI.</p>
-                             </div>
-                              <div class="industry-right">
-									<img src="https://s3.us-east-2.amazonaws.com/nettech-images/book.png" alt="">
-									 <p>Cost effectiveness-we give cost effective results to the clients and this is possible by the open source networking customized by the experts.</p>
 
-                             </div> 
+
+            <div id="step6" class="tab_form background_img">
+               <div class="auto_fill_address">
+                  <div class="container">
+                     <h1>SOCIAL NETWORKING WEBSITE DESIGN & DEVELOPMENT</h1>
+                     <p>According to an online survey, the social networks and blogs are now the 4th most popular kinds of online activities. 67% of the online population are visiting these social networking websites and the time they're spending on these platforms are growing three times the overall growth of the Internet. Even the online stats show that social networks are now visited more often than personal email is read. so. If you also want to make a grand success of your project, consider designing a website.</p>
+
+                     <div class="box_div">
+                        <h2>As such, our developers know the latest trends;we create such customized community websites that give you the best possible ROI.</h2>
+
+                        <div class="text_full_div">
+                           <div class="industry-left">
+                              <img src="https://s3.us-east-2.amazonaws.com/nettech-images/cap.webp" alt="">
+                              <p>As such, our developers know the latest trends;we create such customized community websites that give you the best possible ROI.</p>
                            </div>
-                                 </div> 	
+                           <div class="industry-right">
+                              <img src="https://s3.us-east-2.amazonaws.com/nettech-images/book.webp" alt="">
+                              <p>Cost effectiveness-we give cost effective results to the clients and this is possible by the open source networking customized by the experts.</p>
+
+                           </div>
                         </div>
-                       </div>                     
-                     
-                        <div class="outer_sec">           
-                <div class="container">
-                        <div class="second_sec">
-                            <h4>Genuine website solutions with innovative qualities- we create community websites as desired and their innovative features and lots of custom modules will enhance and boost your business growth.</h4>
-                            
-            <p>We can develop such social networking websites which you can customize according to the business needs. Our social networking solutions are advanced, scalable and have information sharing characteristics. We not only create online community sites but also perform social media marketing. One can hand over all social networking needs to Nettechnocrats to get the latest updates and to drive more traffic towards yours existing website. We deliver Custom Social Networking and Collaboration platforms and build Online Communities and Knowledge Networks, with great user experience and responsive web design providing you full ownership rights to a custom solution. Our highly creative and versatile design team develop custom Social Network Applications and website design that includes various social media platform features like live chat, instantly ‘like’ and ‘comment’ on photos and videos, high privacy and security, options of comment, rating, like, etc.</p>
-                        </div>
-                    </div>           
-            
-                    </div>
-               
-              </div>
-              
-        <!--           <div id="step7" class="tab_form background_img">
+                     </div>
+                  </div>
+               </div>
+
+               <div class="outer_sec">
+                  <div class="container">
+                     <div class="second_sec">
+                        <h4>Genuine website solutions with innovative qualities- we create community websites as desired and their innovative features and lots of custom modules will enhance and boost your business growth.</h4>
+
+                        <p>We can develop such social networking websites which you can customize according to the business needs. Our social networking solutions are advanced, scalable and have information sharing characteristics. We not only create online community sites but also perform social media marketing. One can hand over all social networking needs to Nettechnocrats to get the latest updates and to drive more traffic towards yours existing website. We deliver Custom Social Networking and Collaboration platforms and build Online Communities and Knowledge Networks, with great user experience and responsive web design providing you full ownership rights to a custom solution. Our highly creative and versatile design team develop custom Social Network Applications and website design that includes various social media platform features like live chat, instantly ‘like’ and ‘comment’ on photos and videos, high privacy and security, options of comment, rating, like, etc.</p>
+                     </div>
+                  </div>
+
+               </div>
+
+            </div>
+
+            <!--           <div id="step7" class="tab_form background_img">
                 <div class="auto_fill_address"> 
                         <div class="container">                 
                       <h1>Real Estate Website Solutions</h1>
@@ -274,7 +275,7 @@
                                 <p><strong> Help in showcasing website features</strong>- With various interactive features and the attractive layouts offered by such real estate web designs, one can drive more buyers who take interest in the services.</p>
                              </div>
                              <div class="right_indus_img">
-                                <img src="images/industries.png" alt="image">
+                                <img src="images/industries.webp" alt="image">
                              </div> 
                            </div>                      	
                         </div>
@@ -307,7 +308,7 @@
                                 <p>Several navigation styles-People looking to travel are goal-oriented and may be browsing for a specific type, destination, or date. This type of visitors gets frustrated by not finding the right information easily. The travel website gives visitors lots of navigation options, so they can explore the site in several ways.</p>
                              </div>
                              <div class="right_indus_img">
-                                <img src="images/industries.png" alt="image">
+                                <img src="images/industries.webp" alt="image">
                              </div> 
                            </div>                      	
                         </div>
@@ -323,40 +324,40 @@
             
                     </div>
                </div>
-              </div>     -->          
-              
-            </div>
- 		   
-          </div>
-        </div>
-      
+              </div>     -->
+
+         </div>
+
+      </div>
+   </div>
+
 </section>
-<section class="industry-service"> 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-			<h3>Services That We Offer</h3>
-			<p>Fully editable Pages, Fast loading, Google Analytics, Integrated IDX, Interactive Map Research, Easy-to-save multiple search, Agent lead routing, Lead capture forms.</p>
-			<ul class="list-inline">
-				<li>Consulting Services</li>
-				<li>Mobile Application Development</li>
-				<li>Quality Assurance</li>
-				<li>UI/UX Design</li>
-				<li>Enterprise Software Development</li>
-				<li>Staff Augmentation & Dedicated Developers</li>
-				<li>Web Application Development</li>
-				<li>Product Strategy for Startups</li>
-				<li>Maintenance & Support</li>
-			</ul>
-			</div>
-		</div>
-	</div>
+<section class="industry-service">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <h3>Services That We Offer</h3>
+            <p>Fully editable Pages, Fast loading, Google Analytics, Integrated IDX, Interactive Map Research, Easy-to-save multiple search, Agent lead routing, Lead capture forms.</p>
+            <ul class="list-inline">
+               <li>Consulting Services</li>
+               <li>Mobile Application Development</li>
+               <li>Quality Assurance</li>
+               <li>UI/UX Design</li>
+               <li>Enterprise Software Development</li>
+               <li>Staff Augmentation & Dedicated Developers</li>
+               <li>Web Application Development</li>
+               <li>Product Strategy for Startups</li>
+               <li>Maintenance & Support</li>
+            </ul>
+         </div>
+      </div>
+   </div>
 </section>
 <?php include 'include/latest_post.php'; ?>
 <section>
    <div class="container">
       <div class="row">
-        <div class="col-xs-12">
+         <div class="col-xs-12">
             <ul class="client_info list-inline client1">
                <li>
                   <h4>150+</h4>
@@ -393,14 +394,14 @@
             </div>
             <ul class="address_div">
                <li>
-                  <img src="https://s3.us-east-2.amazonaws.com/nettech-images/buss.png">
+                  <img src="https://s3.us-east-2.amazonaws.com/nettech-images/buss.webp">
                   <span>
                      <h4>VISIT OFFICE</h4>
                      <h6>H-183, Sec-63, Noida,<br>Delhi (NCR) India</h6>
                   </span>
                </li>
                <li>
-                  <img src="https://s3.us-east-2.amazonaws.com/nettech-images/calling.png">
+                  <img src="https://s3.us-east-2.amazonaws.com/nettech-images/calling.webp">
                   <span>
                      <h4>CALL US</h4>
                      <h6>Sales: <a href="callto:+1 (973) 459-4971">+1 (973) 459-4971</a><br>
@@ -409,10 +410,10 @@
                   </span>
                </li>
                <li>
-                  <img src="https://s3.us-east-2.amazonaws.com/nettech-images/email.png">
+                  <img src="https://s3.us-east-2.amazonaws.com/nettech-images/email.webp">
                   <span>
                      <h4>SEND MESSAGE</h4>
-                     <h6>Sales:  <a href="mailto:info@nettechnocrats.com">sales@nettechnocrats.com </a><br>
+                     <h6>Sales: <a href="mailto:info@nettechnocrats.com">sales@nettechnocrats.com </a><br>
                         HR : <a href="mailto:info@nettechnocrats.com">hr@nettechnocrats.com </a>
                      </h6>
                   </span>
@@ -423,84 +424,84 @@
    </div>
 </section>
 <div class="call-popup">
-    <div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
+   <div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
 
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        
-                    </div>
-    <div class="modal-title text-center" id="CallMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
-                    <div class="modal-body">
-                        
-                        <div class="call-content">
-                            <a href="#"><span>Call Now: </span>+1.973.459.4971</a>
-                            <a href="#"><span></span>+91.120.413.7259</a>
-                            <form id="callform">
-                                <div class="com-md-4 col-sm-4 col-xs-12">
-                                <input type="text" name="code" id="code" placeholder="+1" onkeypress="HideErrmsg('nameErr');" >
-                                <span id="codeErr"></span>
-                            </div>
-                            <div class="com-md-8 col-sm-8 col-xs-12">
-                                <input type="text" name="phoneno" id="phoneno" placeholder="Phone No." onkeypress="HideErrmsg('nameErr');" >
-                                <span id="phonenoErr"></span>
-                            </div>
-                            <div class="col-md-12">
-                            <input type="button" onclick="CallRequest();" id="Callbtn" Value="Request for Call Back" class="call-btn">
-                        </div>
-                            </form>
-                        </div>
-                    </div>
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 
-                </div><!-- modal-content -->
-            </div><!-- modal-dialog -->
-        </div><!-- modal -->
+            </div>
+            <div class="modal-title text-center" id="CallMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
+            <div class="modal-body">
+
+               <div class="call-content">
+                  <a href="#"><span>Call Now: </span>+1.973.459.4971</a>
+                  <a href="#"><span></span>+91.120.413.7259</a>
+                  <form id="callform">
+                     <div class="com-md-4 col-sm-4 col-xs-12">
+                        <input type="text" name="code" id="code" placeholder="+1" onkeypress="HideErrmsg('nameErr');">
+                        <span id="codeErr"></span>
+                     </div>
+                     <div class="com-md-8 col-sm-8 col-xs-12">
+                        <input type="text" name="phoneno" id="phoneno" placeholder="Phone No." onkeypress="HideErrmsg('nameErr');">
+                        <span id="phonenoErr"></span>
+                     </div>
+                     <div class="col-md-12">
+                        <input type="button" onclick="CallRequest();" id="Callbtn" Value="Request for Call Back" class="call-btn">
+                     </div>
+                  </form>
+               </div>
+            </div>
+
+         </div><!-- modal-content -->
+      </div><!-- modal-dialog -->
+   </div><!-- modal -->
 </div>
 
 <div class="req-popup">
-    <div class="modal left fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
+   <div class="modal left fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
 
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>                   
-                </div>
-                <div class="modal-title text-center" id="QueryMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
-                <div class="modal-body">
-                   <div class="rfq-content">
-                    <form id="queryform">
-                      <div class="col-md-12">
-                         <input type="text" name="rname" id="rname" placeholder="Name" onkeypress="HideErrmsg('rnameErr');">
-                         <span id="rnameErr"></span>
-                         <input type="text" name="remail" id="remail" placeholder="Email" onkeypress="HideErrmsg('remailErr');">
-                         <span id="remailErr"></span>
-                      </div>
-                      <div class="col-md-4 col-sm-4 col-xs-12">
-                         <input type="text" name="rcode" id="rcode" placeholder="+1" onkeypress="HideErrmsg('rcodeErr');" >
-                         <span id="rcodeErr"></span>
-                      </div>
-                      <div class="col-md-8 col-sm-8 col-xs-12">
-                         <input type="text" name="rphoneno" id="rphoneno" placeholder="Phone No." onkeypress="HideErrmsg('rphonenoErr');" >
-                         <span id="rphonenoErr"></span>
-                      </div>
-                      <textarea row="3" placeholder="Message" name="rmessage" id="rmessage"></textarea>
-                      <input type="text" name="vcapcha" id="vcapcha" style="width: 50%;" readonly="readonly" oncopy="return false" onpaste="return false" >
-                      <label>What code is in the image</label>
-                      <input type="text" placeholder="Capcha" name="rcapcha" id="rcapcha" onkeypress="HideErrmsg('rcapchaErr');">
-                      <label>Enter the code shows in the image</label>
-                      <span id="rcapchaErr"></span>
-                      <div class="col-md-5 col-sm-6 col-xs-12">
-                         <input type="button" Value="Submit" id="RFQBtn" style="width: 110%;" class="call-btn" onclick="RFQQyery();">
-                      </div>
-                   </div>
-                </form>
-                   </div>
-                </div>
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-title text-center" id="QueryMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
+            <div class="modal-body">
+               <div class="rfq-content">
+                  <form id="queryform">
+                     <div class="col-md-12">
+                        <input type="text" name="rname" id="rname" placeholder="Name" onkeypress="HideErrmsg('rnameErr');">
+                        <span id="rnameErr"></span>
+                        <input type="text" name="remail" id="remail" placeholder="Email" onkeypress="HideErrmsg('remailErr');">
+                        <span id="remailErr"></span>
+                     </div>
+                     <div class="col-md-4 col-sm-4 col-xs-12">
+                        <input type="text" name="rcode" id="rcode" placeholder="+1" onkeypress="HideErrmsg('rcodeErr');">
+                        <span id="rcodeErr"></span>
+                     </div>
+                     <div class="col-md-8 col-sm-8 col-xs-12">
+                        <input type="text" name="rphoneno" id="rphoneno" placeholder="Phone No." onkeypress="HideErrmsg('rphonenoErr');">
+                        <span id="rphonenoErr"></span>
+                     </div>
+                     <textarea row="3" placeholder="Message" name="rmessage" id="rmessage"></textarea>
+                     <input type="text" name="vcapcha" id="vcapcha" style="width: 50%;" readonly="readonly" oncopy="return false" onpaste="return false">
+                     <label>What code is in the image</label>
+                     <input type="text" placeholder="Capcha" name="rcapcha" id="rcapcha" onkeypress="HideErrmsg('rcapchaErr');">
+                     <label>Enter the code shows in the image</label>
+                     <span id="rcapchaErr"></span>
+                     <div class="col-md-5 col-sm-6 col-xs-12">
+                        <input type="button" Value="Submit" id="RFQBtn" style="width: 110%;" class="call-btn" onclick="RFQQyery();">
+                     </div>
+               </div>
+               </form>
+            </div>
+         </div>
 
-            </div><!-- modal-content -->
-        </div><!-- modal-dialog -->
-    </div><!-- modal -->
+      </div><!-- modal-content -->
+   </div><!-- modal-dialog -->
+</div><!-- modal -->
 </div>
 
- <?php include 'include/footer.php'; ?>
+<?php include 'include/footer.php'; ?>

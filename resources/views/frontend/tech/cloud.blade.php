@@ -6,26 +6,120 @@
 
 @section('meta_keywords', 'laravel, home, keywords')
 <title>Comprehensive Cloud Computing Services for Your Business</title>
-	<meta name="description" content="Discover our cloud computing services to optimize your IT infrastructure. We provide secure, scalable, and reliable cloud solutions for your business needs." />
-	<link rel="canonical" href="https://www.nettechnocrats.com/cloud-computing/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Comprehensive Cloud Computing Services for Your Business" />
-	<meta property="og:description" content="Discover our cloud computing services to optimize your IT infrastructure. We provide secure, scalable, and reliable cloud solutions for your business needs." />
-	<meta property="og:url" content="https://www.nettechnocrats.com/cloud-computing/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T08:50:23+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/websiteaudits.png" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="7 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/cloud-computing/","url":"https://www.nettechnocrats.com/cloud-computing/","name":"Comprehensive Cloud Computing Services for Your Business","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/cloud-computing/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/cloud-computing/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/websiteaudits.png","datePublished":"2023-09-01T11:09:35+00:00","dateModified":"2024-08-13T08:50:23+00:00","description":"Discover our cloud computing services to optimize your IT infrastructure. We provide secure, scalable, and reliable cloud solutions for your business needs.","breadcrumb":{"@id":"https://www.nettechnocrats.com/cloud-computing/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/cloud-computing/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/cloud-computing/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/websiteaudits.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/websiteaudits.png","width":70,"height":70,"caption":"Hire PHP Developer"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/cloud-computing/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Cloud Computing"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
+<meta name="description" content="Discover our cloud computing services to optimize your IT infrastructure. We provide secure, scalable, and reliable cloud solutions for your business needs." />
+<link rel="canonical" href="https://www.nettechnocrats.com/cloud-computing/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Comprehensive Cloud Computing Services for Your Business" />
+<meta property="og:description" content="Discover our cloud computing services to optimize your IT infrastructure. We provide secure, scalable, and reliable cloud solutions for your business needs." />
+<meta property="og:url" content="https://www.nettechnocrats.com/cloud-computing/" />
+<meta property="og:site_name" content="Nettechnocrats" />
+<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+<meta property="article:modified_time" content="2024-08-13T08:50:23+00:00" />
+<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/websiteaudits.webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@nettechnocrats" />
+<meta name="twitter:label1" content="Est. reading time" />
+<meta name="twitter:data1" content="7 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">
+  {
+    "@context": "https://schema.org",
+    "@graph": [{
+      "@type": "WebPage",
+      "@id": "https://www.nettechnocrats.com/cloud-computing/",
+      "url": "https://www.nettechnocrats.com/cloud-computing/",
+      "name": "Comprehensive Cloud Computing Services for Your Business",
+      "isPartOf": {
+        "@id": "/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.nettechnocrats.com/cloud-computing/#primaryimage"
+      },
+      "image": {
+        "@id": "https://www.nettechnocrats.com/cloud-computing/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/websiteaudits.webp",
+      "datePublished": "2023-09-01T11:09:35+00:00",
+      "dateModified": "2024-08-13T08:50:23+00:00",
+      "description": "Discover our cloud computing services to optimize your IT infrastructure. We provide secure, scalable, and reliable cloud solutions for your business needs.",
+      "breadcrumb": {
+        "@id": "https://www.nettechnocrats.com/cloud-computing/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction",
+        "target": ["https://www.nettechnocrats.com/cloud-computing/"]
+      }]
+    }, {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.nettechnocrats.com/cloud-computing/#primaryimage",
+      "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/websiteaudits.webp",
+      "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/websiteaudits.webp",
+      "width": 70,
+      "height": 70,
+      "caption": "Hire PHP Developer"
+    }, {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.nettechnocrats.com/cloud-computing/#breadcrumb",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.nettechnocrats.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Cloud Computing"
+      }]
+    }, {
+      "@type": "WebSite",
+      "@id": "/#website",
+      "url": "/",
+      "name": "Nettechnocrats",
+      "description": "",
+      "publisher": {
+        "@id": "/#organization"
+      },
+      "potentialAction": [{
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "/?s={search_term_string}"
+        },
+        "query-input": {
+          "@type": "PropertyValueSpecification",
+          "valueRequired": true,
+          "valueName": "search_term_string"
+        }
+      }],
+      "inLanguage": "en-US"
+    }, {
+      "@type": "Organization",
+      "@id": "/#organization",
+      "name": "Nettechnocrats",
+      "url": "/",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "/#/schema/logo/image/",
+        "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+        "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+        "width": 205,
+        "height": 107,
+        "caption": "Nettechnocrats"
+      },
+      "image": {
+        "@id": "/#/schema/logo/image/"
+      },
+      "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+    }]
+  }
+</script>
 
 @section('content')
 <!-- Abvout Start -->
-<div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+<div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
     <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
       <div class="col-xl-7 wow fadeInLeft">
@@ -333,31 +427,31 @@
 
 <section class="brand__images py-4">
   <div class="container">
-   <h3 class="text-center">Count On Our Passion For Technology</h3>
-   <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
-   </div>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
-   </div>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
-   </div>
+    <h3 class="text-center">Count On Our Passion For Technology</h3>
+    <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
+    <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
+    </div>
+    <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
+    </div>
+    <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
+    </div>
   </div>
- </section>
+</section>
 
 <!-- Call To Action Section -->
 <section id="call-to-action" class="call-to-action section accent-background">

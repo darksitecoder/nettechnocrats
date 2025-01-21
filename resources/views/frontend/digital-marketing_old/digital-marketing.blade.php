@@ -10,7 +10,7 @@
  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
   referrerpolicy="no-referrer" />
- <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
 
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -61,7 +61,7 @@
       </div>
       <div class="col-lg-6">
        <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-        <img src="{{ asset('assets/web/banner-right-image.png') }}" alt="">
+        <img src="{{ asset('assets/web/banner-right-image.webp') }}" alt="">
        </div>
       </div>
      </div>
@@ -210,7 +210,7 @@
    <div class="row">
     <div class="col-lg-6">
      <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-      <img src="{{ asset('assets/web/about-left-image.png') }}" alt="">
+      <img src="{{ asset('assets/web/about-left-image.webp') }}" alt="">
      </div>
     </div>
     <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -263,7 +263,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-01.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-01.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -280,7 +280,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-02.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-02.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -297,7 +297,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-03.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-03.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -314,7 +314,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-03.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-03.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -331,7 +331,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-01.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-01.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -348,7 +348,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-02.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-02.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -548,19 +548,19 @@
          <ul>
           <li>
            <div class="icon">
-            <img src="{{ asset('assets/web/contact-icon-01.png') }}" alt="email icon">
+            <img src="{{ asset('assets/web/contact-icon-01.webp') }}" alt="email icon">
            </div>
            <a href="#">info@company.com</a>
           </li>
           <li>
            <div class="icon">
-            <img src="{{ asset('assets/web/contact-icon-02.png') }}" alt="phone">
+            <img src="{{ asset('assets/web/contact-icon-02.webp') }}" alt="phone">
            </div>
            <a href="#">+001-002-0034</a>
           </li>
           <li>
            <div class="icon">
-            <img src="{{ asset('assets/web/contact-icon-03.png') }}" alt="location">
+            <img src="{{ asset('assets/web/contact-icon-03.webp') }}" alt="location">
            </div>
            <a href="#">26th Street, Digital Villa</a>
           </li>
