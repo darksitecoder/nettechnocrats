@@ -5,6 +5,24 @@
 @section('meta_description', 'This is a brief description of the home page for SEO purposes.')
 
 @section('meta_keywords', 'laravel, home, keywords')
+<title>Best SEO Services | #1 SEO Agency | SEO company in Noida</title>
+	<meta name="description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
+	<link rel="canonical" href="https://www.nettechnocrats.com/seo-services/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Best SEO Services | #1 SEO Agency | SEO company in Noida" />
+	<meta property="og:description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
+	<meta property="og:url" content="https://www.nettechnocrats.com/seo-services/" />
+	<meta property="og:site_name" content="Nettechnocrats" />
+	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+	<meta property="article:modified_time" content="2024-08-13T10:27:27+00:00" />
+	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@nettechnocrats" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="14 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/seo-services/","url":"https://www.nettechnocrats.com/seo-services/","name":"Best SEO Services | #1 SEO Agency | SEO company in Noida","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/seo-services/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/seo-services/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.png","datePublished":"2023-08-22T05:14:37+00:00","dateModified":"2024-08-13T10:27:27+00:00","description":"Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!","breadcrumb":{"@id":"https://www.nettechnocrats.com/seo-services/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/seo-services/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/seo-services/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.png","width":162,"height":70,"caption":"extract"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/seo-services/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"SEO Services"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
+	
 @section('content')
 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
@@ -16,7 +34,7 @@
     <div class="">
       <div class="row gy-4">
         <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-          <img src="{{ asset('assets/web/seo-banner.png') }} " alt="" srcset="">
+          <img src="{{ asset('assets/web/seo-banner.png') }} " alt="SEO Services" srcset="">
 
         </div>
 

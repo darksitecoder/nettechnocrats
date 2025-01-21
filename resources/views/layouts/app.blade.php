@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Default Title')</title>
 
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0B6497GZPR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0B6497GZPR');
+</script>
+
+  
+
     <!-- Meta tags for SEO -->
     <meta name="description" content="@yield('meta_description', 'Default description here.')">
     <meta name="keywords" content="@yield('meta_keywords', 'default, keywords')">
@@ -85,14 +97,14 @@
                                     <div class="list-item">
                                         <img src="{{ asset('assets/web/basic-hero-awards-and-accolades.jpg') }}" class="img-fluid rounded " alt="" style="width: 250px; height:100px;">
                                         <h5 class="title m-0 fw-bolder">Awards & Accolades</h5>
-                                        <p class="m-0">The biggest awards we have achieved are the many friendships and relationships that we have discovered while doing business with you. It is our pride to see you smile.</p><a href="{{url('/about-us/certificate/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <p class="m-0">The biggest awards we have achieved are the many friendships and relationships that we have discovered while doing business with you. It is our pride to see you smile.</p><a href="{{url('/certificate/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
 
 
                                     </div>
                                     <div class="list-item">
                                         <img src="{{ asset('assets/web/ai-generated-multi-ethnic-diverse-group-of-people-free-photo.jpg') }}" class="img-fluid rounded" alt="" style="width: 250px; height:100px;">
                                         <h5 class="title m-0 fw-bolder">Client’s Words</h5>
-                                        <p class="m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p><a href="{{url('/about-us/testimonial')}}" data-image="{{ asset('assets/web/nav-images/ai-generated-multi-ethnic-diverse-group-of-people-free-photo.jpg') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        <p class="m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile</p><a href="{{url('/testimonial')}}" data-image="{{ asset('assets/web/nav-images/ai-generated-multi-ethnic-diverse-group-of-people-free-photo.jpg') }}" class="fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
 
                                         <h5 class="title ps-0 m-0 fw-bolder">Partners</h5><a href="{{url('/about-us/partners')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-0 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
@@ -100,7 +112,7 @@
                                     <div class="list-item">
                                         <h5 class="title ps-3 m-0 fw-bolder">How we work and Function</h5>
                                         <p class="ps-3 m-0">We Follow A Pursuit For Developing Customer-Centric Products For Web And Mobile
-                                        </p><a href="{{url('/about-us/methodology')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
+                                        </p><a href="{{url('/methodology')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                         <h5 class="title ps-3 m-0 fw-bolder">Clientele</h5>
                                         <p class="ps-3 m-0">We’re proud to be globally acknowledged</p><a href="{{url('/clients')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}" class="ps-3 fw-bolder">Read more <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>

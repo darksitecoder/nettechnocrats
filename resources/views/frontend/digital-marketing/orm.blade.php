@@ -6,7 +6,24 @@
 @section('meta_description', 'This is a brief description of the home page for SEO purposes.')
 
 @section('meta_keywords', 'laravel, home, keywords')
-
+<title>Online Reputation Management Services, Best ORM Agency India &amp; USA</title>
+	<meta name="description" content="Nettechoncrats provide Online Reputation Management Services for individuals &amp; business. We help to remove bad reviews/feedbacks from Google &amp; enhance brand reputation. Call us now for best ORM services Agency in India &amp; USA!" />
+	<link rel="canonical" href="https://www.nettechnocrats.com/online-reputation-management-services/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Online Reputation Management Services, Best ORM Agency India &amp; USA" />
+	<meta property="og:description" content="Nettechoncrats provide Online Reputation Management Services for individuals &amp; business. We help to remove bad reviews/feedbacks from Google &amp; enhance brand reputation. Call us now for best ORM services Agency in India &amp; USA!" />
+	<meta property="og:url" content="https://www.nettechnocrats.com/online-reputation-management-services/" />
+	<meta property="og:site_name" content="Nettechnocrats" />
+	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+	<meta property="article:modified_time" content="2024-08-13T10:15:38+00:00" />
+	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@nettechnocrats" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="7 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/online-reputation-management-services/","url":"https://www.nettechnocrats.com/online-reputation-management-services/","name":"Online Reputation Management Services, Best ORM Agency India & USA","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/online-reputation-management-services/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/online-reputation-management-services/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","datePublished":"2023-08-23T05:44:01+00:00","dateModified":"2024-08-13T10:15:38+00:00","description":"Nettechoncrats provide Online Reputation Management Services for individuals & business. We help to remove bad reviews/feedbacks from Google & enhance brand reputation. Call us now for best ORM services Agency in India & USA!","breadcrumb":{"@id":"https://www.nettechnocrats.com/online-reputation-management-services/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/online-reputation-management-services/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/online-reputation-management-services/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","width":155,"height":42,"caption":"button"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/online-reputation-management-services/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"online-reputation-management-services"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
+	
 @section('content')
  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
@@ -25,7 +42,7 @@
        </p>
       </div>
       <div class="col-lg-6 order-2 order-lg-1 d-flex justify-content-end" data-aos="fade-up">
-       <img class="hero__image pe-3" src="{{ asset('assets/web/smm-banner-img.png') }} " alt="" srcset="">
+       <img class="hero__image pe-3" src="{{ asset('assets/web/smm-banner-img.png') }} " alt="Best ORM Agency India" srcset="">
       </div>
 
      </div>

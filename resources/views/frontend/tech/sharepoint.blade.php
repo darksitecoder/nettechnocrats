@@ -4,7 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharepoint Development</title>
+<title>SharePoint Migration Services | Microsoft SharePoint Migration Company</title>
+	<meta name="description" content="Partner with Microsoft SharePoint migration company for expert SharePoint migration services. Seamlessly move your data with confidence." />
+	<link rel="canonical" href="https://www.nettechnocrats.com/sharepoint-migration/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="SharePoint Migration Services | Microsoft SharePoint Migration Company" />
+	<meta property="og:description" content="Partner with Microsoft SharePoint migration company for expert SharePoint migration services. Seamlessly move your data with confidence." />
+	<meta property="og:url" content="https://www.nettechnocrats.com/sharepoint-migration/" />
+	<meta property="og:site_name" content="Nettechnocrats" />
+	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+	<meta property="article:modified_time" content="2024-08-13T10:29:33+00:00" />
+	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/sharepoint_side_img.jpg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@nettechnocrats" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="7 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/sharepoint-migration/","url":"https://www.nettechnocrats.com/sharepoint-migration/","name":"SharePoint Migration Services | Microsoft SharePoint Migration Company","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/sharepoint-migration/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/sharepoint-migration/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/sharepoint_side_img.jpg","datePublished":"2023-08-31T09:02:06+00:00","dateModified":"2024-08-13T10:29:33+00:00","description":"Partner with Microsoft SharePoint migration company for expert SharePoint migration services. Seamlessly move your data with confidence.","breadcrumb":{"@id":"https://www.nettechnocrats.com/sharepoint-migration/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/sharepoint-migration/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/sharepoint-migration/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/sharepoint_side_img.jpg","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/sharepoint_side_img.jpg","width":500,"height":377,"caption":"SharePoint Migration"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/sharepoint-migration/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"SharePoint Migration"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
     <!-- <link rel="stylesheet" href="style.css"> -->
 
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">

@@ -4,8 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lamp Development</title>
-  <!-- <link rel="stylesheet" href="style.css"> -->
+<title>LAMP Development Services | Lamp Stack Development</title>
+	<meta name="description" content="We are LAMP stack development company provides expert services. Leverage the power of Linux, Apache, MySQL, and PHP to create dynamic web applications." />
+	<link rel="canonical" href="https://www.nettechnocrats.com/lamp-development/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="LAMP Development Services | Lamp Stack Development" />
+	<meta property="og:description" content="We are LAMP stack development company provides expert services. Leverage the power of Linux, Apache, MySQL, and PHP to create dynamic web applications." />
+	<meta property="og:url" content="https://www.nettechnocrats.com/lamp-development/" />
+	<meta property="og:site_name" content="Nettechnocrats" />
+	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+	<meta property="article:modified_time" content="2024-08-13T10:05:09+00:00" />
+	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/lamp_side_img-1.jpg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@nettechnocrats" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="11 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/lamp-development/","url":"https://www.nettechnocrats.com/lamp-development/","name":"LAMP Development Services | Lamp Stack Development","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/lamp-development/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/lamp-development/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/lamp_side_img-1.jpg","datePublished":"2023-09-01T06:15:38+00:00","dateModified":"2024-08-13T10:05:09+00:00","description":"We are LAMP stack development company provides expert services. Leverage the power of Linux, Apache, MySQL, and PHP to create dynamic web applications.","breadcrumb":{"@id":"https://www.nettechnocrats.com/lamp-development/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/lamp-development/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/lamp-development/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/lamp_side_img-1.jpg","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/lamp_side_img-1.jpg","width":500,"height":447,"caption":"Hire Lamp Developer"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/lamp-development/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Lamp Development"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
+	  <!-- <link rel="stylesheet" href="style.css"> -->
 
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
   <link
@@ -43,7 +59,7 @@
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
           <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-            <img src="{{ asset('assets/web/lamp-web-development.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+            <img src="{{ asset('assets/web/lamp-web-development.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="LAMP Development Services">
             <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
           </div>
         </div>
@@ -76,7 +92,7 @@
         </div>
         <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
           <div class="rounded position-relative overflow-hidden">
-            <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="">
+            <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="LAMP Development Services">
 
           </div>
         </div>
@@ -322,7 +338,7 @@
         <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
           <div class="seo__animation__gif">
             <div class="rounded position-relative overflow-hidden">
-              <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="">
+              <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="LAMP Development Services">
 
             </div>
           </div>
@@ -333,33 +349,33 @@
 
   <!--  -->
 
-  <section class="brand__images py-4">
-    <div class="container">
-      <h3 class="text-center">Count On Our Passion For Technology</h3>
-      <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
-      <div class="img__row">
-        <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="" srcset=""></div>
-      </div>
-      <div class="img__row">
-        <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="" srcset=""></div>
-      </div>
-      <div class="img__row">
-        <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="" srcset=""></div>
-        <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset=""></div>
-      </div>
-    </div>
-  </section>
+ <section class="brand__images py-4">
+  <div class="container">
+   <h3 class="text-center">Count On Our Passion For Technology</h3>
+   <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
+   <div class="img__row">
+    <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
+   </div>
+   <div class="img__row">
+    <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
+   </div>
+   <div class="img__row">
+    <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
+    <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
+   </div>
+  </div>
+ </section>
 
   <!-- Call To Action Section -->
   <section id="call-to-action" class="call-to-action section accent-background">

@@ -4,8 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Social Media Marketing
-  Services</title>
+ <title>Social Media Marketing Services</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -63,7 +62,7 @@
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-6 wow fadeInLeft">
-     <img src="{{ asset('assets/web/laptop.png') }}" class="img-fluid rounded image-with-shadow w-100" alt="">
+     <img src="{{ asset('assets/web/laptop.png') }}" class="img-fluid rounded image-with-shadow w-100" alt="Social Media Marketing Services">
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <h3 class="fw-bolder">Valuable
@@ -80,16 +79,16 @@
     <div class="col-xl-12 wow fadeInLeft">
      <div class="d-flex flex-wrap justify-content-between">
       <div class="w-50 d-flex justify-content-center py-5">
-       <img src="{{ asset('assets/web/footer-images/google_certified.webp') }}" class="img-fluid image-with-shadow partners__image" alt="">
+       <img src="{{ asset('assets/web/footer-images/google_certified.webp') }}" class="img-fluid image-with-shadow partners__image" alt="Google certify">
       </div>
       <div class="w-50 d-flex justify-content-center py-5">
-       <img src="{{ asset('assets/web/footer-images/amazon_services.webp') }}" class="img-fluid image-with-shadow partners__image" alt="">
+       <img src="{{ asset('assets/web/footer-images/amazon_services.webp') }}" class="img-fluid image-with-shadow partners__image" alt="Amazon">
       </div>
       <div class="w-50 d-flex justify-content-center py-5">
-       <img src="{{ asset('assets/web/footer-images/fdd9001_certified.webp') }}" class="img-fluid image-with-shadow partners__image" alt="" style="background-color: black;">
+       <img src="{{ asset('assets/web/footer-images/fdd9001_certified.webp') }}" class="img-fluid image-with-shadow partners__image" alt="ISO" style="background-color: black;">
       </div>
       <div class="w-50 d-flex justify-content-center py-5">
-       <img src="{{ asset('assets/web/footer-images/sdsfdpaypal.webp') }}" class="img-fluid image-with-shadow partners__image" alt="">
+       <img src="{{ asset('assets/web/footer-images/sdsfdpaypal.webp') }}" class="img-fluid image-with-shadow partners__image" alt="Paypal">
       </div>
      </div>
     </div>

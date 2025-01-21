@@ -6,7 +6,24 @@
 @section('meta_description', 'This is a brief description of the home page for SEO purposes.')
 
 @section('meta_keywords', 'laravel, home, keywords')
-
+<title>Local SEO Services | Local SEO Company in India- Nettechnocrats</title>
+	<meta name="description" content="Increase your local Search visibility, boost your sales &amp; ROI with Local SEO Services offered by Nettechnocrats. For More Contact us today." />
+	<link rel="canonical" href="https://www.nettechnocrats.com/local-seo-services/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Local SEO Services | Local SEO Company in India- Nettechnocrats" />
+	<meta property="og:description" content="Increase your local Search visibility, boost your sales &amp; ROI with Local SEO Services offered by Nettechnocrats. For More Contact us today." />
+	<meta property="og:url" content="https://www.nettechnocrats.com/local-seo-services/" />
+	<meta property="og:site_name" content="Nettechnocrats" />
+	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+	<meta property="article:modified_time" content="2024-08-13T10:11:24+00:00" />
+	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@nettechnocrats" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="8 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/local-seo-services/","url":"https://www.nettechnocrats.com/local-seo-services/","name":"Local SEO Services | Local SEO Company in India- Nettechnocrats","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/local-seo-services/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/local-seo-services/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","datePublished":"2023-08-22T12:04:57+00:00","dateModified":"2024-08-13T10:11:24+00:00","description":"Increase your local Search visibility, boost your sales & ROI with Local SEO Services offered by Nettechnocrats. For More Contact us today.","breadcrumb":{"@id":"https://www.nettechnocrats.com/local-seo-services/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/local-seo-services/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/local-seo-services/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","width":155,"height":42,"caption":"button"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/local-seo-services/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Local Seo"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
+	
 @section('content')
  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
@@ -22,7 +39,7 @@
        <h1 style="font-size: 35px;">Boost Your Local Presence with Local SEO Services Choose the premier Local SEO Company to elevate your business in local searches</h1>
       </div>
       <div class="col-lg-6 order-2 order-lg-1 d-flex justify-content-end" data-aos="fade-up">
-       <img class="hero__image pe-3" src="{{ asset('assets/web/smm-banner-img.png') }} " alt="" srcset="">
+       <img class="hero__image pe-3" src="{{ asset('assets/web/smm-banner-img.png') }} " alt="Local SEO Services" srcset="">
       </div>
 
      </div>
