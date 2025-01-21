@@ -1,5 +1,4 @@
-﻿<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0B6497GZPR"></script>
+﻿
 
 <!-- header start -->
 <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
