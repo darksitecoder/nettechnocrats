@@ -11,7 +11,7 @@
 
 use Carbon\CarbonImmutable;
 
-require_once __DIR__.'/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 function getMaxHistoryMonthsByAmount($amount): int
 {
@@ -54,20 +54,20 @@ function getOpenCollectiveSponsors(): string
         'isActive' => true,
         'totalAmountDonated' => 1000,
         'currency' => 'USD',
-        'lastTransactionAt' => CarbonImmutable::now()->format('Y-m-d').' 02:00',
+        'lastTransactionAt' => CarbonImmutable::now()->format('Y-m-d') . ' 02:00',
         'lastTransactionAmount' => 25,
         'profile' => 'https://tidelift.com/',
         'name' => 'Tidelift',
         'description' => 'Get professional support for Carbon',
-        'image' => 'https://carbon.nesbot.com/tidelift-brand.png',
+        'image' => 'https://carbon.nesbot.com/tidelift-brand.webp',
         'website' => 'https://tidelift.com/subscription/pkg/packagist-nesbot-carbon?utm_source=packagist-nesbot-carbon&utm_medium=referral&utm_campaign=docs',
     ];
 
-    $list = array_filter($members, static fn (array $member): bool => $member['totalAmountDonated'] > 3 && $member['role'] !== 'HOST' && (
+    $list = array_filter($members, static fn(array $member): bool => $member['totalAmountDonated'] > 3 && $member['role'] !== 'HOST' && (
         $member['totalAmountDonated'] > 100 ||
         $member['lastTransactionAt'] > CarbonImmutable::now()
-            ->subMonthsNoOverflow(getMaxHistoryMonthsByAmount($member['lastTransactionAmount']))
-            ->format('Y-m-d h:i') ||
+        ->subMonthsNoOverflow(getMaxHistoryMonthsByAmount($member['lastTransactionAmount']))
+        ->format('Y-m-d h:i') ||
         $member['isActive'] && $member['lastTransactionAmount'] >= 30
     ));
 
@@ -141,7 +141,7 @@ function getOpenCollectiveSponsors(): string
 
         $membersByUrl[$url] = $member;
         $href = htmlspecialchars($url);
-        $src = $customSponsorImages[$member['MemberId'] ?? ''] ?? $member['image'] ?? (strtr($member['profile'], ['https://opencollective.com/' => 'https://images.opencollective.com/']).'/avatar/256.png');
+        $src = $customSponsorImages[$member['MemberId'] ?? ''] ?? $member['image'] ?? (strtr($member['profile'], ['https://opencollective.com/' => 'https://images.opencollective.com/']) . '/avatar/256.webp');
         [$x, $y] = @getimagesize($src) ?: [0, 0];
         $validImage = ($x && $y);
         $src = $validImage ? htmlspecialchars($src) : 'https://opencollective.com/static/images/default-guest-logo.svg';
@@ -159,7 +159,7 @@ function getOpenCollectiveSponsors(): string
         $width = min($height * 2, $validImage ? round($x * $height / $y) : $height);
 
         if (!str_contains($href, 'utm_source') && !preg_match('/^https?:\/\/onlinekasyno-polis\.pl(\/.*)?$/', $href)) {
-            $href .= (!str_contains($href, '?') ? '?' : '&amp;').'utm_source=opencollective&amp;utm_medium=github&amp;utm_campaign=Carbon';
+            $href .= (!str_contains($href, '?') ? '?' : '&amp;') . 'utm_source=opencollective&amp;utm_medium=github&amp;utm_campaign=Carbon';
         }
 
         $title = getHtmlAttribute(($member['description'] ?? null) ?: $member['name']);
@@ -170,8 +170,8 @@ function getOpenCollectiveSponsors(): string
             $height *= 1.5;
         }
 
-        $output .= "\n".'<a title="'.$title.'" href="'.$href.'" target="_blank"'.$rel.'>'.
-            '<img alt="'.$alt.'" src="'.$src.'" width="'.$width.'" height="'.$height.'">'.
+        $output .= "\n" . '<a title="' . $title . '" href="' . $href . '" target="_blank"' . $rel . '>' .
+            '<img alt="' . $alt . '" src="' . $src . '" width="' . $width . '" height="' . $height . '">' .
             '</a>';
     }
 
@@ -181,7 +181,7 @@ function getOpenCollectiveSponsors(): string
 file_put_contents('readme.md', preg_replace_callback(
     '/(<!-- <open-collective-sponsors> -->)[\s\S]+(<!-- <\/open-collective-sponsors> -->)/',
     static function (array $match): string {
-        return $match[1].getOpenCollectiveSponsors().$match[2];
+        return $match[1] . getOpenCollectiveSponsors() . $match[2];
     },
     file_get_contents('readme.md'),
 ));

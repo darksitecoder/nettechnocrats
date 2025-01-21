@@ -15,7 +15,7 @@
       <!-- Hero Section -->
       <section id="hero" class="hero section">
 
-            <div class="hero__banner__base" style="background: url('{{ asset('assets/web/smm-banner.png') }}'); background-repeat:no-repeat; background-size:cover;">
+            <div class="hero__banner__base" style="background: url('{{ asset('assets/web/smm-banner.webp') }}'); background-repeat:no-repeat; background-size:cover;">
                   <div class="container">
                         <div class="row gy-4">
                               <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
@@ -23,7 +23,7 @@
                                     <p>Hire Social media experts to increase brand awareness and loyalty</p>
                               </div>
                               <div class="col-lg-6 order-2 order-lg-1 d-flex justify-content-end" data-aos="fade-up">
-                                    <img class="hero__image pe-3" src="{{ asset('assets/web/smm-banner-img.png') }} " alt="" srcset="">
+                                    <img class="hero__image pe-3" src="{{ asset('assets/web/smm-banner-img.webp') }} " alt="" srcset="">
                               </div>
 
                         </div>
@@ -152,7 +152,7 @@
       <section id="hero1" class="hero1 section">
 
             <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
-                  <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
+                  <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.webp') }}');">
                         <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center px-5" data-aos="fade-up">
                               <h1 class="text-center">Dedicated Social Media Optimization Team</h1>
                               <!-- <p class="text-center px-5"><strong>Our Exceptional SEO Services Redefined!</strong></p> -->
@@ -285,7 +285,7 @@
       <section class="portfolio-slider">
             <div class="slider owl-carousel">
                   @foreach($datas as $data)
-                  <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.png') }}'); background-repeat:no-repeat; background-size:cover;">
+                  <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.webp') }}'); background-repeat:no-repeat; background-size:cover;">
 
                         <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
                               <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>

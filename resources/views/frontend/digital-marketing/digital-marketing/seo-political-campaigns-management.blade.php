@@ -4,25 +4,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Best SEO Agency for Politicians, SEO Services For Politics</title>
-	<meta name="description" content="Nettechnocrats is #1 SEO Agency for managing Political Campaigns. Get visibility of your campaign on Google from SEO experts." />
-	<link rel="canonical" href="https://www.nettechnocrats.com/seo-political-campaigns-management/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Best SEO Agency for Politicians, SEO Services For Politics" />
-	<meta property="og:description" content="Nettechnocrats is #1 SEO Agency for managing Political Campaigns. Get visibility of your campaign on Google from SEO experts." />
-	<meta property="og:url" content="https://www.nettechnocrats.com/seo-political-campaigns-management/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T10:27:13+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="12 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/seo-political-campaigns-management/","url":"https://www.nettechnocrats.com/seo-political-campaigns-management/","name":"Best SEO Agency for Politicians, SEO Services For Politics","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/seo-political-campaigns-management/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/seo-political-campaigns-management/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg","datePublished":"2023-09-19T05:48:04+00:00","dateModified":"2024-08-13T10:27:13+00:00","description":"Nettechnocrats is #1 SEO Agency for managing Political Campaigns. Get visibility of your campaign on Google from SEO experts.","breadcrumb":{"@id":"https://www.nettechnocrats.com/seo-political-campaigns-management/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/seo-political-campaigns-management/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/seo-political-campaigns-management/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg","width":500,"height":485,"caption":"icon"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/seo-political-campaigns-management/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"SEO Political Campaigns Management"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-	  <!-- <link rel="stylesheet" href="style.css"> -->
-  <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+  <title>Best SEO Agency for Politicians, SEO Services For Politics</title>
+  <meta name="description" content="Nettechnocrats is #1 SEO Agency for managing Political Campaigns. Get visibility of your campaign on Google from SEO experts." />
+  <link rel="canonical" href="https://www.nettechnocrats.com/seo-political-campaigns-management/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Best SEO Agency for Politicians, SEO Services For Politics" />
+  <meta property="og:description" content="Nettechnocrats is #1 SEO Agency for managing Political Campaigns. Get visibility of your campaign on Google from SEO experts." />
+  <meta property="og:url" content="https://www.nettechnocrats.com/seo-political-campaigns-management/" />
+  <meta property="og:site_name" content="Nettechnocrats" />
+  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+  <meta property="article:modified_time" content="2024-08-13T10:27:13+00:00" />
+  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@nettechnocrats" />
+  <meta name="twitter:label1" content="Est. reading time" />
+  <meta name="twitter:data1" content="12 minutes" />
+  <script type="application/ld+json" class="yoast-schema-graph">
+    {
+      "@context": "https://schema.org",
+      "@graph": [{
+        "@type": "WebPage",
+        "@id": "https://www.nettechnocrats.com/seo-political-campaigns-management/",
+        "url": "https://www.nettechnocrats.com/seo-political-campaigns-management/",
+        "name": "Best SEO Agency for Politicians, SEO Services For Politics",
+        "isPartOf": {
+          "@id": "/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://www.nettechnocrats.com/seo-political-campaigns-management/#primaryimage"
+        },
+        "image": {
+          "@id": "https://www.nettechnocrats.com/seo-political-campaigns-management/#primaryimage"
+        },
+        "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg",
+        "datePublished": "2023-09-19T05:48:04+00:00",
+        "dateModified": "2024-08-13T10:27:13+00:00",
+        "description": "Nettechnocrats is #1 SEO Agency for managing Political Campaigns. Get visibility of your campaign on Google from SEO experts.",
+        "breadcrumb": {
+          "@id": "https://www.nettechnocrats.com/seo-political-campaigns-management/#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [{
+          "@type": "ReadAction",
+          "target": ["https://www.nettechnocrats.com/seo-political-campaigns-management/"]
+        }]
+      }, {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://www.nettechnocrats.com/seo-political-campaigns-management/#primaryimage",
+        "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg",
+        "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg",
+        "width": 500,
+        "height": 485,
+        "caption": "icon"
+      }, {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.nettechnocrats.com/seo-political-campaigns-management/#breadcrumb",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.nettechnocrats.com/"
+        }, {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEO Political Campaigns Management"
+        }]
+      }, {
+        "@type": "WebSite",
+        "@id": "/#website",
+        "url": "/",
+        "name": "Nettechnocrats",
+        "description": "",
+        "publisher": {
+          "@id": "/#organization"
+        },
+        "potentialAction": [{
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "/?s={search_term_string}"
+          },
+          "query-input": {
+            "@type": "PropertyValueSpecification",
+            "valueRequired": true,
+            "valueName": "search_term_string"
+          }
+        }],
+        "inLanguage": "en-US"
+      }, {
+        "@type": "Organization",
+        "@id": "/#organization",
+        "name": "Nettechnocrats",
+        "url": "/",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "/#/schema/logo/image/",
+          "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+          "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+          "width": 205,
+          "height": 107,
+          "caption": "Nettechnocrats"
+        },
+        "image": {
+          "@id": "/#/schema/logo/image/"
+        },
+        "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+      }]
+    }
+  </script>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
   <link
     rel="stylesheet"
@@ -56,7 +150,7 @@
 <body>
   @include('partial/header')
   <!-- Abvout Start -->
-  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
     <div class="container py-5">
       <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
         <div class="col-xl-7 wow fadeInLeft">
@@ -417,33 +511,33 @@
 
   <!--  -->
 
- <section class="brand__images py-4">
-  <div class="container">
-   <h3 class="text-center">Count On Our Passion For Technology</h3>
-   <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
-   </div>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
-   </div>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
-   </div>
-  </div>
- </section>
+  <section class="brand__images py-4">
+    <div class="container">
+      <h3 class="text-center">Count On Our Passion For Technology</h3>
+      <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
+      <div class="img__row">
+        <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
+      </div>
+      <div class="img__row">
+        <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
+      </div>
+      <div class="img__row">
+        <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
+        <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
+      </div>
+    </div>
+  </section>
 
   <!-- Call To Action Section -->
   <section id="call-to-action" class="call-to-action section accent-background">

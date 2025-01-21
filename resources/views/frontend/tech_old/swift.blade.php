@@ -37,7 +37,7 @@
 <body>
   @include('partial/header')
   <!-- Abvout Start -->
-  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
     <div class="container py-5">
       <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
         <div class="col-xl-7 wow fadeInLeft">
@@ -360,7 +360,7 @@
         <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
           <div class="seo__animation__gif">
             <div class="rounded position-relative overflow-hidden">
-              <img src="{{ asset('assets/web/why-swift-mst.png') }}" class="img-fluid rounded w-100" alt="">
+              <img src="{{ asset('assets/web/why-swift-mst.webp') }}" class="img-fluid rounded w-100" alt="">
 
             </div>
           </div>

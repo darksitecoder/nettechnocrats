@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SEO COMPANY GHAZIABAD</title>
   <!-- <link rel="stylesheet" href="style.css"> -->
-  <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+  <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
   <link
     rel="stylesheet"
@@ -41,7 +41,7 @@
 <body>
   @include('partial/header')
   <!-- Abvout Start -->
-  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
     <div class="container py-5">
       <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
         <div class="col-xl-12 wow fadeInLeft">
@@ -59,7 +59,7 @@
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-12 wow fadeInLeft">
      <div class=" rounded d-flex justify-content-center">
-      <img src="{{ asset('assets/web/tech__background.png') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+      <img src="{{ asset('assets/web/tech__background.webp') }}" class="img-fluid rounded" alt="" style="width: 100%; height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
      </div>
     </div>
    </div>
@@ -194,7 +194,7 @@
 
             <h4 class="text-primary1 fw-bolder">Beycome Real Estate</h4>
             <p class="mb-4">Beycome is the first and only real estate company and listing platform that realizes 100% of your home transactions online; helping homeowners, buyers, and renters close a deal on their home, without the assistance of a real estate agent or broker. In turn, by cutting out agents, this saves homeowners from paying the 6% commission fee involved in a home sale (or 10% commission fee due in a rental transaction). And when the owner saves, buyers and renters get more negotiation power for a better deal.</p>
-            <img src="{{ asset('assets/web/progress.png') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+            <img src="{{ asset('assets/web/progress.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
           </div>
         </div>
         <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">

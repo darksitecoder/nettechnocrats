@@ -844,7 +844,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(banner-dec-left.png);
+  background-image: url(banner-dec-left.webp);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -856,7 +856,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(banner-dec-right.png);
+  background-image: url(banner-dec-right.webp);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -963,11 +963,11 @@ Features Style
 }
 
 .first-feature:hover .icon {
-  background-image: url(features-icon-white-01.png);
+  background-image: url(features-icon-white-01.webp);
 }
 
 .second-feature:hover .icon {
-  background-image: url(features-icon-white-02.png);
+  background-image: url(features-icon-white-02.webp);
 }
 
 .features-item .number h6 {
@@ -986,27 +986,27 @@ Features Style
 }
 
 .features-item .first-number h6 {
-  background-image: url(features-number-01.png);
+  background-image: url(features-number-01.webp);
 }
 
 .features-item .second-number h6 {
-  background-image: url(features-number-02.png);
+  background-image: url(features-number-02.webp);
 }
 
 .features-item .third-number h6 {
-  background-image: url(features-number-03.png);
+  background-image: url(features-number-03.webp);
 }
 
 .features-item .fourth-number h6 {
-  background-image: url(features-number-04.png);
+  background-image: url(features-number-04.webp);
 }
 
 .first-feature .icon {
-  background-image: url(features-icon-black-01.png);
+  background-image: url(features-icon-black-01.webp);
 }
 
 .second-feature .icon {
-  background-image: url(features-icon-black-02.png);
+  background-image: url(features-icon-black-02.webp);
 }
 
 .features-item .icon {

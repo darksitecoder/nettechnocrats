@@ -88,7 +88,7 @@
 
 @section('content')
 <!-- Abvout Start -->
-<div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+<div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
     <div class="container py-5">
         <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
             <div class="col-xl-12 wow fadeInLeft">
@@ -115,9 +115,9 @@
 
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="service-item" style="background: url('{{ asset('/' . $blog->image) }}'); background-repeat:no-repeat; background-size:cover;">
-                    
+
                     <div class="service-img">
-                        <!-- <img src="{{ asset('assets/web/nettechnocrats-logo.png') }}" alt="" srcset=""> -->
+                        <!-- <img src="{{ asset('assets/web/nettechnocrats-logo.webp') }}" alt="" srcset=""> -->
                     </div>
                     <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
                         <!-- <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>
@@ -127,7 +127,7 @@
                         </div> -->
                     </div>
                     <div class="rounded-bottom text-center" style="padding-top: 70%;">
-                        <a class="btn btn-primary rounded-pill py-2 px-4" href="{{ url('/portfolio_seo_detail/' . $blog->id)}}">SEE CASE STUDY</a>  
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="{{ url('/portfolio_seo_detail/' . $blog->id)}}">SEE CASE STUDY</a>
                     </div>
                     {{--<div class="rounded-bottom text-center pt-3">
                         <p class="text-center p-0 m-0 fw-bold text-white">{!! \Illuminate\Support\Str::words($blog->company_name, 20) !!}</p>
@@ -140,14 +140,14 @@
             @endforeach
 
             <div class="pagination">
-    {{ $portfolio->links() }}
-</div>
-           
+                {{ $portfolio->links() }}
+            </div>
+
 
         </div>
-       
-        </div>
+
     </div>
+</div>
 </div>
 
 @endsection

@@ -31,7 +31,7 @@
 <body>
     @include('partial/header')
     <!-- Abvout Start -->
-    <div class="container-fluid about py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+    <div class="container-fluid about py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
         <div class="container py-5">
             <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-xl-5 wow fadeInLeft">
@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.2s">
                     <div class=" rounded position-relative overflow-hidden">
-                        <img src="{{ asset('assets/web/pay-p-c-removebg-preview.png') }}" class="img-fluid rounded w-100" alt="tech">
+                        <img src="{{ asset('assets/web/pay-p-c-removebg-preview.webp') }}" class="img-fluid rounded w-100" alt="tech">
                         <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-primary rounded position-relative overflow-hidden">
-                        <!-- <img src="img/about-2.png" class="img-fluid rounded w-100" alt=""> -->
+                        <!-- <img src="img/about-2.webp" class="img-fluid rounded w-100" alt=""> -->
                         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
                     </div>
                 </div>
@@ -590,7 +590,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-primary rounded">
-                        <img src="img/about-2.png" class="img-fluid w-100" alt="">
+                        <img src="img/about-2.webp" class="img-fluid w-100" alt="">
                     </div>
                 </div>
             </div>

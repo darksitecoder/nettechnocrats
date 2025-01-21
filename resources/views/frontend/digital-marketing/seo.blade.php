@@ -38,7 +38,7 @@
   <meta property="og:site_name" content="Nettechnocrats" />
   <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
   <meta property="article:modified_time" content="2024-08-13T10:27:27+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.png" />
+  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.webp" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@nettechnocrats" />
   <meta name="twitter:label1" content="Est. reading time" />
@@ -96,7 +96,7 @@
         "image": {
           "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage"
         },
-        "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.png",
+        "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.webp",
         "datePublished": "2023-08-22T05:14:37+00:00",
         "dateModified": "2024-08-13T10:27:27+00:00",
         "description": "Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!",
@@ -112,8 +112,8 @@
         "@type": "ImageObject",
         "inLanguage": "en-US",
         "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage",
-        "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.png",
-        "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.png",
+        "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.webp",
+        "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.webp",
         "width": 162,
         "height": 70,
         "caption": "extract"
@@ -238,7 +238,7 @@
       <div class="">
         <div class="row gy-4">
           <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-            <img src="{{ asset('assets/web/seo-banner.png') }} " alt="SEO Services" srcset="">
+            <img src="{{ asset('assets/web/seo-banner.webp') }} " alt="SEO Services" srcset="">
 
           </div>
 
@@ -327,7 +327,7 @@
     <section id="stats" class="stats section">
 
       <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
-        <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
+        <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.webp') }}');">
           <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center px-5" data-aos="fade-up">
             <h1 class="text-center">How do we help?</h1>
             <p class="text-center px-5"><strong>Our Exceptional SEO Services Redefined!</strong></p>
@@ -377,7 +377,7 @@
     <!-- <section id="hero" class="hero section">
 
     <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
-      <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
+      <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.webp') }}');">
         <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <h1 class="text-center">How do we help?</h1>
           <p class="text-center"><strong>Our Exceptional SEO Services Redefined!</strong></p>
@@ -403,7 +403,7 @@
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
-            <div class="cabin"><img src="{{ asset('assets/web/google__ads.png') }} " alt="" srcset=""></div>
+            <div class="cabin"><img src="{{ asset('assets/web/google__ads.webp') }} " alt="" srcset=""></div>
             <div class="cabin"></div>
             <div class="cabin"></div>
             <div class="cabin"></div>
@@ -569,7 +569,7 @@
     <section class="portfolio-slider">
       <div class="slider owl-carousel">
         @foreach($datas as $data)
-        <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.png') }}'); background-repeat:no-repeat; background-size:cover;">
+        <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.webp') }}'); background-repeat:no-repeat; background-size:cover;">
 
           <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
             <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>

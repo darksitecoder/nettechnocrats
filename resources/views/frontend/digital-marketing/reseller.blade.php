@@ -4,24 +4,118 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SEO Reseller Service | SEO Reseller Agency</title>
-	<meta name="description" content="We offer SEO Reseller Services &amp; SEO Reseller Program that fits your client&#039;s requirements. Call &amp; hire SEO Reseller Company today!" />
-	<link rel="canonical" href="https://www.nettechnocrats.com/seo-reseller/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="SEO Reseller Service | SEO Reseller Agency" />
-	<meta property="og:description" content="We offer SEO Reseller Services &amp; SEO Reseller Program that fits your client&#039;s requirements. Call &amp; hire SEO Reseller Company today!" />
-	<meta property="og:url" content="https://www.nettechnocrats.com/seo-reseller/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T10:27:05+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="6 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/seo-reseller/","url":"https://www.nettechnocrats.com/seo-reseller/","name":"SEO Reseller Service | SEO Reseller Agency","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/seo-reseller/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/seo-reseller/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","datePublished":"2023-08-23T07:27:05+00:00","dateModified":"2024-08-13T10:27:05+00:00","description":"We offer SEO Reseller Services & SEO Reseller Program that fits your client's requirements. Call & hire SEO Reseller Company today!","breadcrumb":{"@id":"https://www.nettechnocrats.com/seo-reseller/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/seo-reseller/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/seo-reseller/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.png","width":155,"height":42,"caption":"button"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/seo-reseller/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Seo Reseller"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
- <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+ <title>SEO Reseller Service | SEO Reseller Agency</title>
+ <meta name="description" content="We offer SEO Reseller Services &amp; SEO Reseller Program that fits your client&#039;s requirements. Call &amp; hire SEO Reseller Company today!" />
+ <link rel="canonical" href="https://www.nettechnocrats.com/seo-reseller/" />
+ <meta property="og:locale" content="en_US" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="SEO Reseller Service | SEO Reseller Agency" />
+ <meta property="og:description" content="We offer SEO Reseller Services &amp; SEO Reseller Program that fits your client&#039;s requirements. Call &amp; hire SEO Reseller Company today!" />
+ <meta property="og:url" content="https://www.nettechnocrats.com/seo-reseller/" />
+ <meta property="og:site_name" content="Nettechnocrats" />
+ <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+ <meta property="article:modified_time" content="2024-08-13T10:27:05+00:00" />
+ <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.webp" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@nettechnocrats" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="6 minutes" />
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/seo-reseller/",
+    "url": "https://www.nettechnocrats.com/seo-reseller/",
+    "name": "SEO Reseller Service | SEO Reseller Agency",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/seo-reseller/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/seo-reseller/#primaryimage"
+    },
+    "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.webp",
+    "datePublished": "2023-08-23T07:27:05+00:00",
+    "dateModified": "2024-08-13T10:27:05+00:00",
+    "description": "We offer SEO Reseller Services & SEO Reseller Program that fits your client's requirements. Call & hire SEO Reseller Company today!",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/seo-reseller/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/seo-reseller/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/seo-reseller/#primaryimage",
+    "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.webp",
+    "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.webp",
+    "width": 155,
+    "height": 42,
+    "caption": "button"
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/seo-reseller/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Seo Reseller"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
  <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"

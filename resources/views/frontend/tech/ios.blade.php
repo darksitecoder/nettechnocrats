@@ -4,23 +4,117 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>iPhone Application Development Company, iOS App Development</title>
-	<meta name="description" content="Get our iPhone application development services. We&#039;re a trusted iOS app development company delivering excellence in mobile app solutions." />
-	<link rel="canonical" href="https://www.nettechnocrats.com/iphone-ios-development-company/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="iPhone Application Development Company, iOS App Development" />
-	<meta property="og:description" content="Get our iPhone application development services. We&#039;re a trusted iOS app development company delivering excellence in mobile app solutions." />
-	<meta property="og:url" content="https://www.nettechnocrats.com/iphone-ios-development-company/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T10:06:39+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/ios-top-img.png" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="11 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/iphone-ios-development-company/","url":"https://www.nettechnocrats.com/iphone-ios-development-company/","name":"iPhone Application Development Company, iOS App Development","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/iphone-ios-development-company/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/iphone-ios-development-company/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/ios-top-img.png","datePublished":"2023-09-05T07:31:16+00:00","dateModified":"2024-08-13T10:06:39+00:00","description":"Get our iPhone application development services. We're a trusted iOS app development company delivering excellence in mobile app solutions.","breadcrumb":{"@id":"https://www.nettechnocrats.com/iphone-ios-development-company/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/iphone-ios-development-company/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/iphone-ios-development-company/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/ios-top-img.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/ios-top-img.png","width":1000,"height":1000,"caption":"Hire iOS App developer"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/iphone-ios-development-company/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Iphone/IOS Development Company"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
+ <title>iPhone Application Development Company, iOS App Development</title>
+ <meta name="description" content="Get our iPhone application development services. We&#039;re a trusted iOS app development company delivering excellence in mobile app solutions." />
+ <link rel="canonical" href="https://www.nettechnocrats.com/iphone-ios-development-company/" />
+ <meta property="og:locale" content="en_US" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="iPhone Application Development Company, iOS App Development" />
+ <meta property="og:description" content="Get our iPhone application development services. We&#039;re a trusted iOS app development company delivering excellence in mobile app solutions." />
+ <meta property="og:url" content="https://www.nettechnocrats.com/iphone-ios-development-company/" />
+ <meta property="og:site_name" content="Nettechnocrats" />
+ <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+ <meta property="article:modified_time" content="2024-08-13T10:06:39+00:00" />
+ <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/ios-top-img.webp" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@nettechnocrats" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="11 minutes" />
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/iphone-ios-development-company/",
+    "url": "https://www.nettechnocrats.com/iphone-ios-development-company/",
+    "name": "iPhone Application Development Company, iOS App Development",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/iphone-ios-development-company/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/iphone-ios-development-company/#primaryimage"
+    },
+    "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/ios-top-img.webp",
+    "datePublished": "2023-09-05T07:31:16+00:00",
+    "dateModified": "2024-08-13T10:06:39+00:00",
+    "description": "Get our iPhone application development services. We're a trusted iOS app development company delivering excellence in mobile app solutions.",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/iphone-ios-development-company/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/iphone-ios-development-company/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/iphone-ios-development-company/#primaryimage",
+    "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/ios-top-img.webp",
+    "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/ios-top-img.webp",
+    "width": 1000,
+    "height": 1000,
+    "caption": "Hire iOS App developer"
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/iphone-ios-development-company/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Iphone/IOS Development Company"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -53,7 +147,7 @@
 <body>
  @include('partial/header')
  <!-- Abvout Start -->
- <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+ <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-7 wow fadeInLeft">

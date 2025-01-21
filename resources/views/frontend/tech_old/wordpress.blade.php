@@ -8,7 +8,7 @@
 
 @section('content')
 <!-- Abvout Start -->
-<div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+<div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
     <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
       <div class="col-xl-7 wow fadeInLeft">
@@ -184,7 +184,7 @@
 <section class="portfolio-slider">
   <div class="slider owl-carousel">
     @foreach($datas as $data)
-    <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.png') }}'); background-repeat:no-repeat; background-size:cover;">
+    <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.webp') }}'); background-repeat:no-repeat; background-size:cover;">
 
       <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
         <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>

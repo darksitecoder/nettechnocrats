@@ -4,25 +4,119 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SEO Services for Colleges and Universities: Best SEO Strategy and Tips</title>
-	<meta name="description" content="Maximize your college or university&#039;s visibility with our tailored SEO services. Attract more students, faculty, and stakeholders through effective SEO Strategy." />
-	<link rel="canonical" href="https://www.nettechnocrats.com/seo-for-colleges-university/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="SEO Services for Colleges and Universities: Best SEO Strategy and Tips" />
-	<meta property="og:description" content="Maximize your college or university&#039;s visibility with our tailored SEO services. Attract more students, faculty, and stakeholders through effective SEO Strategy." />
-	<meta property="og:url" content="https://www.nettechnocrats.com/seo-for-colleges-university/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T10:19:49+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="13 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/seo-for-colleges-university/","url":"https://www.nettechnocrats.com/seo-for-colleges-university/","name":"SEO Services for Colleges and Universities: Best SEO Strategy and Tips","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/seo-for-colleges-university/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/seo-for-colleges-university/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg","datePublished":"2023-09-19T07:04:28+00:00","dateModified":"2024-08-13T10:19:49+00:00","description":"Maximize your college or university's visibility with our tailored SEO services. Attract more students, faculty, and stakeholders through effective SEO Strategy.","breadcrumb":{"@id":"https://www.nettechnocrats.com/seo-for-colleges-university/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/seo-for-colleges-university/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/seo-for-colleges-university/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg","width":500,"height":485,"caption":"icon"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/seo-for-colleges-university/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"SEO For Colleges University"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-	 <!-- <link rel="stylesheet" href="style.css"> -->
- <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+ <title>SEO Services for Colleges and Universities: Best SEO Strategy and Tips</title>
+ <meta name="description" content="Maximize your college or university&#039;s visibility with our tailored SEO services. Attract more students, faculty, and stakeholders through effective SEO Strategy." />
+ <link rel="canonical" href="https://www.nettechnocrats.com/seo-for-colleges-university/" />
+ <meta property="og:locale" content="en_US" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="SEO Services for Colleges and Universities: Best SEO Strategy and Tips" />
+ <meta property="og:description" content="Maximize your college or university&#039;s visibility with our tailored SEO services. Attract more students, faculty, and stakeholders through effective SEO Strategy." />
+ <meta property="og:url" content="https://www.nettechnocrats.com/seo-for-colleges-university/" />
+ <meta property="og:site_name" content="Nettechnocrats" />
+ <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+ <meta property="article:modified_time" content="2024-08-13T10:19:49+00:00" />
+ <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@nettechnocrats" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="13 minutes" />
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/seo-for-colleges-university/",
+    "url": "https://www.nettechnocrats.com/seo-for-colleges-university/",
+    "name": "SEO Services for Colleges and Universities: Best SEO Strategy and Tips",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/seo-for-colleges-university/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/seo-for-colleges-university/#primaryimage"
+    },
+    "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg",
+    "datePublished": "2023-09-19T07:04:28+00:00",
+    "dateModified": "2024-08-13T10:19:49+00:00",
+    "description": "Maximize your college or university's visibility with our tailored SEO services. Attract more students, faculty, and stakeholders through effective SEO Strategy.",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/seo-for-colleges-university/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/seo-for-colleges-university/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/seo-for-colleges-university/#primaryimage",
+    "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg",
+    "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg",
+    "width": 500,
+    "height": 485,
+    "caption": "icon"
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/seo-for-colleges-university/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "SEO For Colleges University"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
+ <!-- <link rel="stylesheet" href="style.css"> -->
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
   rel="stylesheet"
@@ -52,7 +146,7 @@
 <body>
  @include('partial/header')
  <!-- Abvout Start -->
- <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+ <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-7 wow fadeInLeft">
@@ -385,7 +479,7 @@
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gif">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/school-building-big-city-vector-illustration_61747-291.png') }}" class="img-fluid rounded w-100 image-with-shadow" alt="SEO For Edtech">
+       <img src="{{ asset('assets/web/school-building-big-city-vector-illustration_61747-291.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="SEO For Edtech">
 
       </div>
      </div>

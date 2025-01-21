@@ -1,5 +1,5 @@
-<?php include 'include/home_header.php';?>
-<link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
+<?php include 'include/home_header.php'; ?>
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 <section class="banner">
    <div class="container">
       <div class="row">
@@ -8,8 +8,8 @@
             </div>
             <div class="contact-section-home">
                <ul>
-                  <li class="phone"><a href="#" data-toggle="modal" data-target="#myModal" ><span><i class="fa fa-phone" aria-hidden="true"></i></span>CALL</a></li>
-                  <li class="req"><a href="#" data-toggle="modal" data-target="#myModal1" onclick="OpenREQ();" ><span><i class="fa fa-file-text-o" aria-hidden="true"></i></span>RFQ</a></li>
+                  <li class="phone"><a href="#" data-toggle="modal" data-target="#myModal"><span><i class="fa fa-phone" aria-hidden="true"></i></span>CALL</a></li>
+                  <li class="req"><a href="#" data-toggle="modal" data-target="#myModal1" onclick="OpenREQ();"><span><i class="fa fa-file-text-o" aria-hidden="true"></i></span>RFQ</a></li>
                </ul>
             </div>
          </div>
@@ -29,11 +29,11 @@
                      <a href="#"><span></span>+91.120.413.7259</a>
                      <form id="callform">
                         <div class="com-md-4 col-sm-4 col-xs-12">
-                           <input type="text" name="code" id="code" placeholder="+1" onkeypress="HideErrmsg('nameErr');" >
+                           <input type="text" name="code" id="code" placeholder="+1" onkeypress="HideErrmsg('nameErr');">
                            <span id="codeErr"></span>
                         </div>
                         <div class="com-md-8 col-sm-8 col-xs-12">
-                           <input type="text" name="phoneno" id="phoneno" placeholder="Phone No." onkeypress="HideErrmsg('nameErr');" >
+                           <input type="text" name="phoneno" id="phoneno" placeholder="Phone No." onkeypress="HideErrmsg('nameErr');">
                            <span id="phonenoErr"></span>
                         </div>
                         <div class="col-md-12">
@@ -54,7 +54,7 @@
          <div class="modal-dialog" role="document">
             <div class="modal-content">
                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>                   
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                </div>
                <div class="modal-title text-center" id="QueryMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
                <div class="modal-body">
@@ -66,7 +66,7 @@
                            <input type="text" name="remail" id="remail" placeholder="Email" onkeypress="HideErrmsg('remailErr');">
                            <span id="remailErr"></span>
                            <textarea row="3" placeholder="Message" name="rmessage" id="rmessage"></textarea>
-                           <input type="text" name="vcapcha" id="vcapcha" style="width: 50%;" readonly="readonly" oncopy="return false" onpaste="return false" >
+                           <input type="text" name="vcapcha" id="vcapcha" style="width: 50%;" readonly="readonly" oncopy="return false" onpaste="return false">
                            <label>What code is in the image</label>
                            <input type="text" placeholder="Capcha" name="rcapcha" id="rcapcha" onkeypress="HideErrmsg('rcapchaErr');">
                            <label>Enter the code shows in the image</label>
@@ -86,60 +86,60 @@
       <!-- modal -->
    </div>
    <div class="main_clients">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-offset-1 col-md-10">
-            <div class="col-xs-5 col-sm-2">
-               <ul class="list-inline">
-                  <li>
-                     <span class="countr">15+ Brands</span>
-                     <font>We’ve Worked</font>
-                  </li>
-               </ul>
-            </div>
-            <div class="col-xs-7 col-sm-10">
-               <div class="owl-theme" id="owl-demo">
-                  <div class="item">
-                     <img src="images/cocacola.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/preapps.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/slim.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/lexus.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/logo1.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/logo2.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/logo3.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/logo4.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/logo5.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/logo6.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/logo7.png" alt="" />
-                  </div>
-                  <div class="item">
-                     <img src="images/logo8.png" alt="" />
+      <div class="container">
+         <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+               <div class="col-xs-5 col-sm-2">
+                  <ul class="list-inline">
+                     <li>
+                        <span class="countr">15+ Brands</span>
+                        <font>We’ve Worked</font>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-xs-7 col-sm-10">
+                  <div class="owl-theme" id="owl-demo">
+                     <div class="item">
+                        <img src="images/cocacola.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/preapps.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/slim.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/lexus.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/logo1.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/logo2.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/logo3.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/logo4.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/logo5.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/logo6.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/logo7.webp" alt="" />
+                     </div>
+                     <div class="item">
+                        <img src="images/logo8.webp" alt="" />
+                     </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-   </div>
 </section>
 <section id="expert">
    <div class="red_overlay">
@@ -156,28 +156,28 @@
          <div class="row top_margin">
             <div class="col-sm-3 col-xs-12 block" data-move-y="200px" data-move-x="-200px">
                <div class="expert_box web">
-                  <img src="images/web-dev.png" alt="" />
+                  <img src="images/web-dev.webp" alt="" />
                   <h3>Advance Web Development</h3>
-                  <p>We assist our clients to turn their online presence into a profitable entity by developing a responsive website with emerging technologies and development practices that create a beautiful brand experience.  </p>
+                  <p>We assist our clients to turn their online presence into a profitable entity by developing a responsive website with emerging technologies and development practices that create a beautiful brand experience. </p>
                </div>
             </div>
             <div class="col-sm-3 col-xs-12 block" data-move-y="200px" data-move-x="-100px">
                <div class="expert_box mobile_dev">
-                  <img src="images/mobile-app.png" alt="" />
+                  <img src="images/mobile-app.webp" alt="" />
                   <h3>Mobile App Development</h3>
                   <p>Our mobile applications cater to the needs of both individual customers and enterprises functioning in multi-platforms (iOS and Android) that makes them stand out in the market and increases productivity.</p>
                </div>
             </div>
             <div class="col-sm-3 col-xs-12 block" data-move-y="200px" data-move-x="200px">
                <div class="expert_box software">
-                  <img src="images/software-dev.png" alt="" />
+                  <img src="images/software-dev.webp" alt="" />
                   <h3>Software Development</h3>
                   <p>Our adept software developers allow the clients to leverage the power of custom software development solutions that complements their unique business environment and accelerate growth.</p>
                </div>
             </div>
             <div class="col-sm-3 col-xs-12 block" data-move-y="200px" data-move-x="100px">
                <div class="expert_box consultant">
-                  <img src="images/it-consulting.png" alt="" />
+                  <img src="images/it-consulting.webp" alt="" />
                   <h3>Digital Marketing</h3>
                   <p>The Best SEO Services to Increase Your Online Visibility, and Conversions. Standing out in Google is no easy feat, it requires lots of efforts and strategies. But with Nettechnocrats, we will make it happen.</p>
                </div>
@@ -191,7 +191,7 @@
       <div class="row">
          <div class="col-xs-12">
             <div class="text-center team_heading">
-               <h1 class="heading">  Nettechnocrats Nurtures your business online with quality, dedication and flexibility to reduce your technical expenses.</h1>
+               <h1 class="heading"> Nettechnocrats Nurtures your business online with quality, dedication and flexibility to reduce your technical expenses.</h1>
                <h4>Our meticulous planning, in-depth knowledge, honest advice and proven track-records ensure that the clients will get a suite of tailored services that will help them to attain their business objectives.</h4>
             </div>
          </div>
@@ -200,27 +200,27 @@
          <div class="col-xs-12">
             <ul class="listing_team">
                <li>
-                  <img src="images/big-exp.png">
+                  <img src="images/big-exp.webp">
                   <h4>BIG Experience</h4>
                </li>
                <li>
-                  <img src="images/pci-comp.png">
+                  <img src="images/pci-comp.webp">
                   <h4>pci compliance</h4>
                </li>
                <li>
-                  <img src="images/global.png">
+                  <img src="images/global.webp">
                   <h4>GLOBAL REACH</h4>
                </li>
                <li>
-                  <img src="images/team-strength.png">
+                  <img src="images/team-strength.webp">
                   <h4>TEAM STRENGTH</h4>
                </li>
                <li>
-                  <img src="images/pellen.png">
+                  <img src="images/pellen.webp">
                   <h4>Efficient Delivery</h4>
                </li>
                <li>
-                  <img src="images/convenie.png">
+                  <img src="images/convenie.webp">
                   <h4>CONVENIENCE</h4>
                </li>
             </ul>
@@ -267,30 +267,30 @@
       <div class="row ">
          <div class="col-xs-12">
             <div class="light_gray">
-               <ul class="" >
-                  <li><img src="images/icon3.png">    
+               <ul class="">
+                  <li><img src="images/icon3.webp">
                      <span>Our Value Proposition is that we are solution providers
                      </span>
                   </li>
-                  <li><img src="images/icon1.png">
+                  <li><img src="images/icon1.webp">
                      <span> We have dedicated Project Managers to coordinate with clients
                      </span>
                   </li>
-                  <li><img src="images/icon5.png">    
-                     <span>Global Footprints which makes us reliable outsourcing partners 
+                  <li><img src="images/icon5.webp">
+                     <span>Global Footprints which makes us reliable outsourcing partners
                      </span>
                   </li>
                </ul>
                <ul>
-                  <li><img src="images/icon2.png">    
+                  <li><img src="images/icon2.webp">
                      <span>Content Management team who adds glory to projects
                      </span>
                   </li>
-                  <li><img src="images/icon4.png">  
+                  <li><img src="images/icon4.webp">
                      <span>Futuristic approach of Graphic Designers helps us attain compliment everytime
                      </span>
                   </li>
-                  <li><img src="images/icon6.png">    
+                  <li><img src="images/icon6.webp">
                      <span>Free Consultation to make you decisive about your business opportunities
                      </span>
                   </li>
@@ -315,14 +315,14 @@
             <div class="industries-text">
                <a href="">
                   <h4>Automotive</h4>
-                  <img src="images/automotive.png" alt="">
+                  <img src="images/automotive.webp" alt="">
                </a>
             </div>
          </div>
          <div class="col-sm-3 col-md-2">
             <div class="industries-text">
                <a href="/real-state.php">
-                  <img src="images/realesta.png" alt="">
+                  <img src="images/realesta.webp" alt="">
                   <h4>Real Estate</h4>
                </a>
             </div>
@@ -331,14 +331,14 @@
             <div class="industries-text">
                <a href="/media-advertisement.php">
                   <h4>Media and Entertainment</h4>
-                  <img src="images/madia.png" alt="">
+                  <img src="images/madia.webp" alt="">
                </a>
             </div>
          </div>
          <div class="col-sm-3 col-md-2">
             <div class="industries-text">
                <a href="/retailer-wholeseller.php">
-                  <img src="images/retails.png" alt="">
+                  <img src="images/retails.webp" alt="">
                   <h4>Retail and Ecommerce</h4>
                </a>
             </div>
@@ -347,14 +347,14 @@
             <div class="industries-text">
                <a href="/medical-healthcare.php">
                   <h4>Healthcare</h4>
-                  <img src="images/health.png" alt="">
+                  <img src="images/health.webp" alt="">
                </a>
             </div>
          </div>
          <div class="col-sm-3 col-md-2">
             <div class="industries-text">
                <a href="#">
-                  <img src="images/logistics.png" alt="">
+                  <img src="images/logistics.webp" alt="">
                   <h4>Logistics and<br>
                      Transportation
                   </h4>
@@ -367,14 +367,14 @@
             <div class="industries-text">
                <a href="#">
                   <h4>Manufacturing</h4>
-                  <img src="images/manufact.png" alt="">
+                  <img src="images/manufact.webp" alt="">
                </a>
             </div>
          </div>
          <div class="col-sm-3 col-md-2">
             <div class="industries-text">
                <a href="/tour-travel.php">
-                  <img src="images/travel.png" alt="">
+                  <img src="images/travel.webp" alt="">
                   <h4>Travel and Tourism</h4>
                </a>
             </div>
@@ -383,14 +383,14 @@
             <div class="industries-text">
                <a href="#">
                   <h4>Professional Services</h4>
-                  <img src="images/professional.png" alt="">
+                  <img src="images/professional.webp" alt="">
                </a>
             </div>
          </div>
          <div class="col-sm-3 col-md-2">
             <div class="industries-text">
                <a href="#">
-                  <img src="images/indepen.png" alt="">
+                  <img src="images/indepen.webp" alt="">
                   <h4>Independent Software Vendors</h4>
                </a>
             </div>
@@ -399,14 +399,14 @@
             <div class="industries-text">
                <a href="/finance-banking.php">
                   <h4>Banking and Finance</h4>
-                  <img src="images/banking.png" alt="">
+                  <img src="images/banking.webp" alt="">
                </a>
             </div>
          </div>
          <div class="col-sm-3 col-md-2">
             <div class="industries-text">
                <a href="/education-portal.php">
-                  <img src="images/education.png" alt="">
+                  <img src="images/education.webp" alt="">
                   <h4>Education and E-Learning</h4>
                </a>
             </div>
@@ -430,52 +430,52 @@
                <h2 class="heading2">News</h2>
                <p>Why customers in more than 15+ countries <br> choose Nettechnocrats?</p>
                <div class="news_details">
-                  <?php 
-                     $sql="select p.post_title,p.post_name,p.post_content,p.post_date,img.guid from wp_posts p join wp_postmeta meta on p.id=meta.post_id join wp_posts img on img.ID=meta.meta_value where p.post_type='post' && p.post_status='publish' && meta.meta_key='_thumbnail_id' ORDER BY p.id DESC LIMIT 0,2";
-                     $result=mysqli_query($conn,$sql);
-                     while ($res = mysqli_fetch_array($result)) 
-                     {  
-                         $img_arr = utf8_encode($res['guid']);
-                         //echo $img_arr = explode('.', utf8_encode($blog['guid']));
-                         //$blog_img = $img_arr[0].'.'.$img_arr[1].'.'.$img_arr[2].'-150x150.'.$img_arr[3];
-                         ?>
-                  <div class="bottom_bottom">
-                     <div class="news_img">
-                        <img src="<?php echo $img_arr;?>">
+                  <?php
+                  $sql = "select p.post_title,p.post_name,p.post_content,p.post_date,img.guid from wp_posts p join wp_postmeta meta on p.id=meta.post_id join wp_posts img on img.ID=meta.meta_value where p.post_type='post' && p.post_status='publish' && meta.meta_key='_thumbnail_id' ORDER BY p.id DESC LIMIT 0,2";
+                  $result = mysqli_query($conn, $sql);
+                  while ($res = mysqli_fetch_array($result)) {
+                     $img_arr = utf8_encode($res['guid']);
+                     //echo $img_arr = explode('.', utf8_encode($blog['guid']));
+                     //$blog_img = $img_arr[0].'.'.$img_arr[1].'.'.$img_arr[2].'-150x150.'.$img_arr[3];
+                  ?>
+                     <div class="bottom_bottom">
+                        <div class="news_img">
+                           <img src="<?php echo $img_arr; ?>">
+                        </div>
+                        <div class="news_text">
+                           <div class="pull-left">
+                              <a href="https://www.nettechnocrats.com/blog/<?php echo $res['post_name']; ?>">
+                                 <h2>
+                                    <?php echo utf8_encode($res['post_title']); ?>
+                              </a>
+                           </div>
+                           <div class="pull-right">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                           </div>
+                           <p> <?php $Length = $res['post_content'];
+                                 echo substr(utf8_encode($res['post_content']), 0, 173); ?>......</p>
+                           <div class="pull-left">
+                              <span>Hits: <font>200</font> Votes: <font>110 </font> Added:
+                                 <font><?php echo date('d-m-Y', strtotime($res['post_date'])) ?></font>
+                              </span>
+                           </div>
+                           <div class="pull-right">
+                              <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.nettechnocrats.com/blog/<?php echo $res['post_name']; ?>">
+                                 <i class="fa fa-facebook" aria-hidden="true"></i>
+                              </a>
+                              <a href="https://twitter.com/home?status=https://www.nettechnocrats.com/blog/<?php echo $res['post_name']; ?>">
+                                 <i class="fa fa-twitter" aria-hidden="true"></i>
+                              </a>
+                              <a href="https://www.linkedin.com/cws/share?url=https://www.nettechnocrats.com/blog/<?php echo $res['post_name']; ?>">
+                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
+                              </a>
+                           </div>
+                        </div>
                      </div>
-                     <div class="news_text">
-                        <div class="pull-left">
-                           <a href="https://www.nettechnocrats.com/blog/<?php echo $res['post_name'];?>">
-                              <h2>
-                              <?php echo utf8_encode($res['post_title']); ?>
-                           </a>
-                        </div>
-                        <div class="pull-right">
-                           <i class="fa fa-star" aria-hidden="true"></i>
-                           <i class="fa fa-star" aria-hidden="true"></i>
-                           <i class="fa fa-star" aria-hidden="true"></i>
-                           <i class="fa fa-star" aria-hidden="true"></i>
-                           <i class="fa fa-star" aria-hidden="true"></i>   
-                        </div>
-                        <p> <?php $Length=$res['post_content'];
-                           echo substr(utf8_encode($res['post_content']),0,173); ?>......</p>
-                        <div class="pull-left">
-                           <span>Hits: <font>200</font> Votes: <font>110 </font> Added: 
-                           <font><?php echo date('d-m-Y', strtotime($res['post_date'])) ?></font></span>
-                        </div>
-                        <div class="pull-right">
-                           <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.nettechnocrats.com/blog/<?php echo $res['post_name'];?>">
-                           <i class="fa fa-facebook" aria-hidden="true"></i>
-                           </a>
-                           <a href="https://twitter.com/home?status=https://www.nettechnocrats.com/blog/<?php echo $res['post_name'];?>">
-                           <i class="fa fa-twitter" aria-hidden="true"></i>
-                           </a>
-                           <a href="https://www.linkedin.com/cws/share?url=https://www.nettechnocrats.com/blog/<?php echo $res['post_name'];?>">
-                           <i class="fa fa-linkedin" aria-hidden="true"></i>
-                           </a>    
-                        </div>
-                     </div>
-                  </div>
                   <?php } ?>
                </div>
             </div>
@@ -556,8 +556,8 @@
             <div class="our_partners">
                <h3>Our Partners</h3>
                <div class="partnerd_logo">
-                  <img src="images/amazon.png">
-                  <img src="images/paypal.png">
+                  <img src="images/amazon.webp">
+                  <img src="images/paypal.webp">
                </div>
             </div>
          </div>
@@ -566,22 +566,22 @@
                <h3> our certification</h3>
                <div class="owl-carousel1 owl-theme certification_logo">
                   <div class="item">
-                     <img src="images/googleadw.png">
+                     <img src="images/googleadw.webp">
                   </div>
                   <div class="item">
-                     <img src="images/certified.png">
+                     <img src="images/certified.webp">
                   </div>
                   <div class="item">
-                     <img src="images/pci.png">
+                     <img src="images/pci.webp">
                   </div>
                   <div class="item">
-                     <img src="images/certi.png">
+                     <img src="images/certi.webp">
                   </div>
                   <div class="item">
-                     <img src="images/certi2.png">
+                     <img src="images/certi2.webp">
                   </div>
                   <div class="item">
-                     <img src="images/certi3.png">
+                     <img src="images/certi3.webp">
                   </div>
                </div>
             </div>
@@ -599,14 +599,14 @@
             </div>
             <ul class="address_div">
                <li>
-                  <img src="images/buss.png">
+                  <img src="images/buss.webp">
                   <span>
                      <h4>VISIT OFFICE</h4>
                      <h6>H-183, Sec-63, Noida,<br>Delhi (NCR) India</h6>
                   </span>
                </li>
                <li>
-                  <img src="images/calling.png">
+                  <img src="images/calling.webp">
                   <span>
                      <h4>CALL US</h4>
                      <h6>Sales: <a href="callto:+1 (918) 514-3211">+1 (918) 514-3211</a><br>
@@ -615,10 +615,10 @@
                   </span>
                </li>
                <li>
-                  <img src="images/email.png">
+                  <img src="images/email.webp">
                   <span>
                      <h4>SEND MESSAGE</h4>
-                     <h6>Sales:  <a href="mailto:info@nettechnocrats.com">sales@nettechnocrats.com </a><br>
+                     <h6>Sales: <a href="mailto:info@nettechnocrats.com">sales@nettechnocrats.com </a><br>
                         HR : <a href="mailto:info@nettechnocrats.com">hr@nettechnocrats.com </a>
                      </h6>
                   </span>

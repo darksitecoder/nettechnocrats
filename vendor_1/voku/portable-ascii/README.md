@@ -353,7 +353,7 @@ the range [128-255] in order of appearance.
 Convert given string to safe filename (and keep string case).
 
 EXAMPLE: <code>
-ASCII::to_filename('שדגשדג.png', true)); // 'shdgshdg.png'
+ASCII::to_filename('שדגשדג.webp', true)); // 'shdgshdg.webp'
 </code>
 
 **Parameters:**

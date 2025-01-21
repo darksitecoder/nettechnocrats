@@ -10,7 +10,7 @@
   <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+  <link rel="shortcut icon" href="img/icons/icon-48x48.webp" />
 
   <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
@@ -119,7 +119,7 @@
       transform: scale(1.0);
       transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
     }
-    
+
     .close-button {
       float: right;
       width: 1.5rem;

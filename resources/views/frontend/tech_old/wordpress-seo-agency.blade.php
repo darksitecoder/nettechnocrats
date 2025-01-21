@@ -51,7 +51,7 @@
 
   @include('partial/header')
   <!-- Abvout Start -->
-  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
     <div class="container py-5">
       <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
         <div class="col-xl-6 wow fadeInLeft">
@@ -114,7 +114,7 @@
       <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
         <div class="col-xl-12 wow fadeInLeft">
           <div class=" rounded d-flex justify-content-center">
-            <img src="{{ asset('assets/web/wordpress-agency.png') }}" class="img-fluid" alt="" style="width: 100%; height:300px; border-radius:25px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+            <img src="{{ asset('assets/web/wordpress-agency.webp') }}" class="img-fluid" alt="" style="width: 100%; height:300px; border-radius:25px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </div>
         </div>
       </div>
@@ -843,7 +843,7 @@
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/progress.png') }}" class="img-fluid rounded w-100" alt="">
+      <img src="{{ asset('assets/web/progress.webp') }}" class="img-fluid rounded w-100" alt="">
 
      </div>
     </div>

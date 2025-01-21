@@ -10,7 +10,7 @@
   <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+  <link rel="shortcut icon" href="img/icons/icon-48x48.webp" />
 
   <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
@@ -295,7 +295,7 @@
                   <option data-parent="Digital_Marketing" value="SEO Reseller">SEO Reseller</option>
 
 
-                  
+
                 </select>
                 <span class="text-danger" id="category_2_err" style="font-size:13px;"></span>
               </div>
@@ -320,7 +320,7 @@
               </div>
               <span class="text-danger" id="heading_err" style="font-size:13px;"></span>
 
-              
+
             </div>
 
             <div class="row pt-1 my-3 d-flex justify-content-center">
@@ -357,15 +357,15 @@
               <h3 class="fw-bolder">When We Started</h3>
               <!-- Display Content Validation Error -->
               <div class="col-md-12 stretch-card grid-margin blog__content mt-3 pt-1 pb-3">
-    <div class="image-uploader">
-      <input type="file" class="image-input" name="image_start" accept="image/*" style="display: none;">
-      <div class="upload-container">
-        <label class="imageLabel">Upload Image</label>
-        <img class="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
-      </div>
-    </div>
-    <span class="text-danger" id="image_start_err" style="font-size:13px;"></span>
-  </div>
+                <div class="image-uploader">
+                  <input type="file" class="image-input" name="image_start" accept="image/*" style="display: none;">
+                  <div class="upload-container">
+                    <label class="imageLabel">Upload Image</label>
+                    <img class="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
+                  </div>
+                </div>
+                <span class="text-danger" id="image_start_err" style="font-size:13px;"></span>
+              </div>
               <div class="col-md-12 stretch-card grid-margin blog__content">
                 <textarea name="content_start" id="editor_2"></textarea>
               </div>
@@ -380,15 +380,15 @@
               <h3 class="fw-bolder">The Results</h3>
               <!-- Display Content Validation Error -->
               <div class="col-md-12 stretch-card grid-margin blog__content mt-3 pt-1 pb-3">
-    <div class="image-uploader">
-      <input type="file" class="image-input" name="image_final" accept="image/*" style="display: none;">
-      <div class="upload-container">
-        <label class="imageLabel">Upload Image</label>
-        <img class="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
-      </div>
-    </div>
-    <span class="text-danger" id="image_final_err" style="font-size:13px;"></span>
-  </div>
+                <div class="image-uploader">
+                  <input type="file" class="image-input" name="image_final" accept="image/*" style="display: none;">
+                  <div class="upload-container">
+                    <label class="imageLabel">Upload Image</label>
+                    <img class="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
+                  </div>
+                </div>
+                <span class="text-danger" id="image_final_err" style="font-size:13px;"></span>
+              </div>
               <div class="col-md-12 stretch-card grid-margin blog__content">
                 <textarea name="content_final" id="editor_3"></textarea>
               </div>

@@ -10,7 +10,7 @@
 	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+	<link rel="shortcut icon" href="img/icons/icon-48x48.webp" />
 
 	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-sign-in.html" />
 
@@ -45,7 +45,7 @@
 								<div class="m-sm-4">
 									<div class="text-center">
 										<a href="{{url('/')}}">
-											<img src="{{ asset('/dashboard_theme/img/avatars/nettechnocrats-logo.png')}}" alt="Charles Hall" class="img-fluid rounded-ci5cle" width="152" height="152" /></a>
+											<img src="{{ asset('/dashboard_theme/img/avatars/nettechnocrats-logo.webp')}}" alt="Charles Hall" class="img-fluid rounded-ci5cle" width="152" height="152" /></a>
 									</div>
 									<form method="POST" action="{{ url('credentials_check') }}">
 										@csrf

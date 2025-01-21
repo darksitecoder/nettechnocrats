@@ -31,7 +31,7 @@
 <body>
     @include('partial/header')
     <!-- Abvout Start -->
-    <div class="container-fluid about py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+    <div class="container-fluid about py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
         <div class="container py-5">
             <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-xl-7 wow fadeInLeft">
@@ -618,7 +618,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-primary rounded">
-                        <img src="img/about-2.png" class="img-fluid w-100" alt="">
+                        <img src="img/about-2.webp" class="img-fluid w-100" alt="">
                     </div>
                 </div>
             </div>

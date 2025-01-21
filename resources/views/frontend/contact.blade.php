@@ -38,7 +38,7 @@
 <main class="main">
 
   <!-- Hero Section -->
-  <section id="hero" class="hero1 section" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+  <section id="hero" class="hero1 section" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
 
     <div class="">
       <div class="row gy-4">
@@ -75,7 +75,7 @@
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <div class="row">
                 <div class="col-md-6 d-flex justify-content-between">
-                  <img src="{{ asset('assets/web/Flag_of_India.svg.png') }}" class="me-2" alt="" srcset="" style="width: 40px; height:25px; border-radius:2px;">
+                  <img src="{{ asset('assets/web/Flag_of_India.svg.webp') }}" class="me-2" alt="" srcset="" style="width: 40px; height:25px; border-radius:2px;">
                   <div>
                     <h3>INDIA</h3>
                     <p class=" pb-2 fw-bold"> G-75, Sec-63, Noida, Delhi (NCR) India</p>

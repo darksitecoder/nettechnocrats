@@ -10,7 +10,7 @@
   <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+  <link rel="shortcut icon" href="img/icons/icon-48x48.webp" />
 
   <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
@@ -286,80 +286,80 @@
                     <label for="video" id="videoLabel">Upload Video</label>
                     <video id="uploadedVideo" controls style="display: block;">
                       <source src="{{ asset('storage/' . $Blogs[0]->video) }}" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
+              Your browser does not support the video tag.
+              </video>
 
-                  </div>
-                </div>
-              </div>
             </div>
-
-            <!-- PDF Upload Section -->
-            <div class="row pt-1 d-flex justify-content-center">
-              <div class="col-md-12 stretch-card grid-margin">
-                <div class="pdf-uploader">
-                  <!-- Hidden file input to upload PDF -->
-                  <input type="file" id="pdf" name="pdf" accept="application/pdf" style="display: none;" onchange="showSelectedFile()">
-
-                  <div class="upload-container">
-                    <!-- Label to trigger file input -->
-                    <label for="pdf" id="pdfLabel">Upload PDF</label>
-
-                    <!-- Display current file name or new file name after selection -->
-                    @if(isset($Blogs[0]->pdf) && $Blogs[0]->pdf != '')
-                    <p id="pdfName" style="display: block;">Current file: {{ basename($Blogs[0]->pdf) }}</p>
-                    @else
-                    <p id="pdfName" style="display: none;"></p>
-                    @endif
-                  </div>
-                </div>
-              </div>
-            </div>--}}
-
-            <!-- Topic Select Section -->
-            <div class="row pt-1 my-3 d-flex justify-content-center">
-              <div class="col-md-12 stretch-card grid-margin">
-                <select name="topic" id="topic">
-                  @foreach($topics as $topic)
-                  <option value="{{ $topic->topic }}"
-                    {{ old('topic', $Blogs[0]->topic) == $topic->topic ? 'selected' : '' }}>
-                    {{ $topic->topic }}
-                  </option>
-                  @endforeach
-                </select>
-              </div>
-            </div>
-
-            <div class="" style="display:none">
-              <input name="blogId" value="{{$Blogs[0]->id}}"></input>
-            </div>
-
-
-            <!-- Heading Input Section -->
-            <div class="row pt-1 my-3 d-flex justify-content-center">
-              <!-- Display Heading Validation Error -->
-              <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="heading" name="heading" class="blog__heading" value="{{ $Blogs[0]->heading }}" placeholder="Enter Heading Here...">
-              </div>
-            </div>
-
-            <!-- Content Textarea Section -->
-            <div class="row pt-1 d-flex justify-content-center">
-              <!-- Display Content Validation Error -->
-              <div class="col-md-12 stretch-card grid-margin blog__content">
-                <textarea name="content" id="editor" value="">{{ $Blogs[0]->content }}</textarea>
-              </div>
-            </div>
-
-          </form>
-
-
         </div>
-      </main>
-
-      @include('admin/partials/footer')
-
     </div>
+  </div>
+
+  <!-- PDF Upload Section -->
+  <div class="row pt-1 d-flex justify-content-center">
+    <div class="col-md-12 stretch-card grid-margin">
+      <div class="pdf-uploader">
+        <!-- Hidden file input to upload PDF -->
+        <input type="file" id="pdf" name="pdf" accept="application/pdf" style="display: none;" onchange="showSelectedFile()">
+
+        <div class="upload-container">
+          <!-- Label to trigger file input -->
+          <label for="pdf" id="pdfLabel">Upload PDF</label>
+
+          <!-- Display current file name or new file name after selection -->
+          @if(isset($Blogs[0]->pdf) && $Blogs[0]->pdf != '')
+          <p id="pdfName" style="display: block;">Current file: {{ basename($Blogs[0]->pdf) }}</p>
+          @else
+          <p id="pdfName" style="display: none;"></p>
+          @endif
+        </div>
+      </div>
+    </div>
+  </div>--}}
+
+  <!-- Topic Select Section -->
+  <div class="row pt-1 my-3 d-flex justify-content-center">
+    <div class="col-md-12 stretch-card grid-margin">
+      <select name="topic" id="topic">
+        @foreach($topics as $topic)
+        <option value="{{ $topic->topic }}"
+          {{ old('topic', $Blogs[0]->topic) == $topic->topic ? 'selected' : '' }}>
+          {{ $topic->topic }}
+        </option>
+        @endforeach
+      </select>
+    </div>
+  </div>
+
+  <div class="" style="display:none">
+    <input name="blogId" value="{{$Blogs[0]->id}}"></input>
+  </div>
+
+
+  <!-- Heading Input Section -->
+  <div class="row pt-1 my-3 d-flex justify-content-center">
+    <!-- Display Heading Validation Error -->
+    <div class="col-md-12 stretch-card grid-margin">
+      <input type="text" id="heading" name="heading" class="blog__heading" value="{{ $Blogs[0]->heading }}" placeholder="Enter Heading Here...">
+    </div>
+  </div>
+
+  <!-- Content Textarea Section -->
+  <div class="row pt-1 d-flex justify-content-center">
+    <!-- Display Content Validation Error -->
+    <div class="col-md-12 stretch-card grid-margin blog__content">
+      <textarea name="content" id="editor" value="">{{ $Blogs[0]->content }}</textarea>
+    </div>
+  </div>
+
+  </form>
+
+
+  </div>
+  </main>
+
+  @include('admin/partials/footer')
+
+  </div>
   </div>
 
   <script src="{{ asset('dashboard_theme/js/app.js') }}"></script>

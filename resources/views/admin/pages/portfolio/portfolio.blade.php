@@ -10,7 +10,7 @@
   <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+  <link rel="shortcut icon" href="img/icons/icon-48x48.webp" />
 
   <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
@@ -78,7 +78,7 @@
             <h1 class="h3 mb-3"><strong>Portfolio List ( {{$category_1}})</strong></h1>
             <div class="buttons">
 
-            @if($category_1 == 'Digital_Marketing')
+              @if($category_1 == 'Digital_Marketing')
               <a href="{{url('/createportfolio_Seo')}}" class=" btn">Create Portfolio <i class="fa-solid fa-circle-plus"></i></a>
               @elseif($category_1 == 'Development')
               <a href="{{url('/createportfolio_Developemnt')}}" class=" btn">Create Portfolio <i class="fa-solid fa-circle-plus"></i></a>
@@ -140,26 +140,26 @@
                         </button>
                       </a>
                     </td>
-              @elseif($category_1 == 'Development')
-              <td class="d-none d-md-table-cell"><a href="{{ url('/editPortfolioForAdmin_Development/' . $blog->portfolio_no) }}">
+                    @elseif($category_1 == 'Development')
+                    <td class="d-none d-md-table-cell"><a href="{{ url('/editPortfolioForAdmin_Development/' . $blog->portfolio_no) }}">
                         <button class="badge px-2 py-1 fs-6 edit">
                           Edit <i class="fa-solid fa-pen-to-square"></i>
                         </button>
                       </a>
                     </td>
-              @endif
+                    @endif
 
 
-                  
-              <td class="d-none d-md-table-cell">
-    <form action="{{ route('deletePortfolioForAdminApi', ['id' => $blog->id, 'category_1' => $blog->category_1]) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this portfolio?');">
-        @csrf
-        @method('DELETE') <!-- Use DELETE method if deleting an item -->
-        <button type="submit" class="badge bg-danger px-2 py-1 fs-6 delete">
-            Delete <i class="fa-solid fa-trash"></i>
-        </button>
-    </form>
-</td>
+
+                    <td class="d-none d-md-table-cell">
+                      <form action="{{ route('deletePortfolioForAdminApi', ['id' => $blog->id, 'category_1' => $blog->category_1]) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this portfolio?');">
+                        @csrf
+                        @method('DELETE') <!-- Use DELETE method if deleting an item -->
+                        <button type="submit" class="badge bg-danger px-2 py-1 fs-6 delete">
+                          Delete <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </form>
+                    </td>
 
                     </tr>
                     @endforeach

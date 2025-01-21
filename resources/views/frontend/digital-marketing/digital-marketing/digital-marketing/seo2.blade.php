@@ -17,7 +17,7 @@
     <div class="">
       <div class="row gy-4">
         <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-          <img src="{{ asset('assets/web/seo-banner.png') }} " alt="" srcset="">
+          <img src="{{ asset('assets/web/seo-banner.webp') }} " alt="" srcset="">
 
         </div>
 
@@ -77,7 +77,7 @@
 
       <div class="row gy-4">
         <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-          <!-- <img src="{{ asset('assets/web/about-left-image.png') }} " class="img-fluid" alt=""> -->
+          <!-- <img src="{{ asset('assets/web/about-left-image.webp') }} " class="img-fluid" alt=""> -->
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
           <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
         </div>
@@ -146,7 +146,7 @@
   <section id="hero" class="hero section">
 
     <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
-      <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
+      <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.webp') }}');">
         <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <h1 class="text-center">How do we help?</h1>
           <p class="text-center"><strong>Our Exceptional SEO Services Redefined!</strong></p>
