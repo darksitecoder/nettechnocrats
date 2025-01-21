@@ -1,6 +1,4 @@
-﻿
-
-<!-- header start -->
+﻿<!-- header start -->
 <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
 <header class="header">
   <div class="nav_container">
@@ -79,8 +77,8 @@
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Software Development</h4>
                   <ul>
-                    <li><a href="{{url('#')}}" data-image="">Customer Software Development</a></li>
-                    <li><a href="{{url('#')}}" data-image="">ERP Software Development</a></li>
+                    <li><a href="{{url('/software-development')}}" data-image="">Customer Software Development</a></li>
+                    <li><a href="{{url('/erp_software_development')}}" data-image="">ERP Software Development</a></li>
                     <li><a href="{{url('/microsoft-dynamic-crm')}}" data-image="">CRM Development</a></li>
                     <li><a href="{{url('/salesforce-development')}}" data-image="">Salesforce Development</a></li>
                     <li><a href="{{url('/iot-applications-development-company')}}" data-image="">Iot
