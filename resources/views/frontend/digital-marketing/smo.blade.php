@@ -1,14 +1,8 @@
 ﻿<!DOCTYPE html>
-@extends('layouts.app')
+<html lang="en">
 
-@section('title', 'Home Page Title')
-
-@section('meta_description', 'This is a brief description of the home page for SEO purposes.')
-
-@section('meta_keywords', 'laravel, home, keywords')
-
-@section('content')
-<title>Best SMO Services, SMO Company in India</title>
+<head>
+ <title>Best SMO Services, SMO Company in India</title>
 <meta name="description" content="Your Trusted Social Media Marketing Agency for SMO Services. Boost your online presence with our expert SMO and increase brand visibility." />
 <link rel="canonical" href="https://www.nettechnocrats.com/smo-services/" />
 <meta property="og:locale" content="en_US" />
@@ -24,7 +18,14 @@
 <meta name="twitter:site" content="@nettechnocrats" />
 <meta name="twitter:label1" content="Est. reading time" />
 <meta name="twitter:data1" content="6 minutes" />
+
+
+
+
 <script type="application/ld+json" class="yoast-schema-graph">
+
+
+      <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
       {
             "@context": "https://schema.org",
             "@graph": [{
@@ -120,7 +121,40 @@
       }
 </script>
 
-<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+<link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
+
+
+
+<!-- Libraries Stylesheet -->
+<link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+<link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+<link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+
+  <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
+
+  
+  
+
+@include('partial/google_analytics')
+
+
+</head>
+
+<body>
+  @include('partial/header')
+  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
 <main class="main">
 
@@ -510,4 +544,43 @@
 </main>
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-@endsection
+
+
+  @include('partial/footer')
+</body>
+
+</html>
+<script>
+  const counters = document.querySelectorAll('.counter');
+  const speed = 30; // The lower the speed value, the slower the counter animation
+
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      const count = +counter.innerText;
+
+      // Calculate the increment step
+      const inc = Math.ceil(target / speed);
+
+      // Check if the current count is less than the target
+      if (count < target) {
+        // Increment the count and update the counter text
+        counter.innerText = count + inc > target ? target : count + inc;
+        // Call the function again after a short delay
+        setTimeout(updateCount, 100);
+      } else {
+        counter.innerText = target; // Ensure the counter ends at the target value
+      }
+    };
+
+    updateCount();
+  });
+</script>
+<script src="{{ asset('style/web/lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+
+<script src="{{ asset('js/main.js') }}"></script>
