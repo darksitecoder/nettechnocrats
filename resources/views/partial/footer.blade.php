@@ -31,11 +31,11 @@
             <div class="row">
                 <div class="col-lg-6">
                     <p><a href="{{url('about-us')}}">About Us</a></p>
-                    <p><a href="{{url('about-us/certificate')}}">Certifications</a></p>
+                    <p><a href="{{url('certificate')}}">Certifications</a></p>
                 </div>
                 <div class="col-lg-6">
-                    <p> <a href="{{url('about-us/testimonial')}}">Testimonials</a></p>
-                    <p> <a href="{{url('about-us/methodology')}}">Methodology</a></p>
+                    <p> <a href="{{url('testimonial')}}">Testimonials</a></p>
+                    <p> <a href="{{url('methodology')}}">Methodology</a></p>
                 </div>
             </div>
             <h5>Resources</h5>

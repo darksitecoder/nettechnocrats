@@ -7,14 +7,17 @@
     <title>Digital Marketing, Web Development & Mobile App Development Company</title>
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0B6497GZPR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0B6497GZPR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-0B6497GZPR');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0B6497GZPR');
+    </script>
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
     <link
@@ -738,8 +741,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             <h1 class="py-2">Unlock Digital <br> Excellence, Propel Your <br> Brand Forward! </h1>
                             <p class="py-3 banner__description">Experience digital dominance with Nettechnocrats. Our data-driven SEO and digital marketing expertise empower your brand to thrive online. Watch as your business soars with top SERP rankings, high conversion rates, and a surge in web traffic. Join us on this exhilarating journey to successin the digital realm!</p>
                             <div class="banner__btn d-flex">
-                                <a href="#" class="btn get__touch mx-1">Get In Touch</a>
-                                <a href="#" class="btn audit mx-1">Request For Audit</a>
+                                <a href="{{ url('contact-us')}}" class="btn get__touch mx-1">Get In Touch</a>
+                                <a href="{{ url('contact-us')}}" class="btn audit mx-1">Request For Audit</a>
                             </div>
                         </div>
                         <div class="col-lg-4"><img src="{{ asset('assets/web/hero_banner.webp') }}" alt="" srcset=""></div>
@@ -792,7 +795,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             <p>With Nettechnocrats, you gain access to our expertise and industry insights, empowering your business to thrive in the long run. Embark on your journey toward lasting success today!
                             </p>
                             <br>
-                            <a href="#" class="about__btn mt-4">Talk With Our Experts</a>
+                            <a href="{{ url('contact-us')}}" class="about__btn mt-4">Talk With Our Experts</a>
                         </div>
                     </div>
                 </section>
@@ -1323,7 +1326,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             <p class="industries__tag">INDUSTRIES</p>
                             <h3>A Unified Vision That Caters to Diverse Industry Demands</h3>
                             <p class="pb-3">As an experienced Search Engine Optimization company in India, we level up your SEO efforts to create brand awareness and ensure increased revenues. By utilizing cutting-edge strategies, conducting detailed analyses, and establishing innovative approaches, we go above and beyond to help you expand your businesses and ensure long-term success.</p>
-                            <a href="#" class="card__read__more mt-5">Contact Us <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="{{ url('contact-us')}}" class="card__read__more mt-5">Contact Us <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
