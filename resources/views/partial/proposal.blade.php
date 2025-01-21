@@ -10,7 +10,7 @@
   <div class="row gy-4">
 
 
-   <div class="col-lg-6">
+   <div class="col-lg-12">
     @if(session('success'))
     <div class="alert alert-success">
      {{ session('success') }}
@@ -36,7 +36,7 @@
      </div>
 
      <div class="col-md-6 text-center">
-      <button type="submit">Send Me a Proposal <i class="fa-solid fa-arrow-right"></i></button>
+      <button type="submit"> Me a Proposal <i class=" fa-solid fa-arrow-right"></i></button>
      </div>
 
     </div>
