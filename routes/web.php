@@ -15,6 +15,7 @@ use App\Http\Controllers\Admin\blogController;
 use App\Http\Controllers\Admin\BlogCommentController;
 use App\Http\Controllers\Admin\BlogTopicController;
 use App\Http\Controllers\Admin\enquiresController;
+use App\Http\Controllers\ProposalController;
 
 /*
 |--------------------------------------------------------------------------
@@ -153,6 +154,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('listContactEnquiriesForAdmin', [enquiresController::class, 'listContactEnquiriesForAdmin']);
     Route::get('deleteContactEnquiriesForAdmin/{id}', [enquiresController::class, 'deleteContactEnquiriesForAdmin']);
+
 });
 // Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
 // for blog topic
@@ -160,6 +162,7 @@ Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
 Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
 Route::get('deleteBlogTopicApi', [BlogTopicController::class, 'delete']);
 
+Route::post('/submit-proposal', [ProposalController::class, 'store'])->name('proposal.store');
 
 // for blogs
 Route::get('listBlogsForAdminApi', [blogController::class, 'listBlogsForAdminApi']);
