@@ -1,275 +1,577 @@
-<?php include 'include/header.php'; ?>
-	<section class="cd-section visible">        	
-     <!-- START HOMEPAGE DESIGN AREA -->
-        <div id="home" class="welcome-area site-header">     
-            <div class="welcome-image-area seobg crm" data-stellar-background-ratio="0.6">
-                <div class="row">
-                                <div class="col-md-12">
-                                  <div class="banner_text about_banner">
-                                    <h1>All-in-one CRM solutions to grow your sales</h1>
-                                  </div>
-                                  <div class="contact-section-home">
-                                        <ul>
-                                            <li class="phone"><a href="#" data-toggle="modal" data-target="#myModal" ><span><i class="fa fa-phone" aria-hidden="true"></i></span>CALL</a></li>
-                                            <li class="req"><a href="#" data-toggle="modal" data-target="#myModal1" onclick="OpenREQ();" ><span><i class="fa fa-file-text-o" aria-hidden="true"></i></span>RFQ</a></li>
-                                        </ul>
-                                    </div>
-                                </div>                        
-                            </div> 
+@extends('layouts.app')
+
+@section('title', 'Seo services')
+
+@section('meta_description', 'This is a brief description of the home page for SEO purposes.')
+
+@section('meta_keywords', 'laravel, home, keywords')
+<title>Best SEO Services | #1 SEO Agency | SEO company in Noida</title>
+<meta name="description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
+<link rel="canonical" href="https://www.nettechnocrats.com/seo-services/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Best SEO Services | #1 SEO Agency | SEO company in Noida" />
+<meta property="og:description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
+<meta property="og:url" content="https://www.nettechnocrats.com/seo-services/" />
+<meta property="og:site_name" content="Nettechnocrats" />
+<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+<meta property="article:modified_time" content="2024-08-13T10:27:27+00:00" />
+<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@nettechnocrats" />
+<meta name="twitter:label1" content="Est. reading time" />
+<meta name="twitter:data1" content="14 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">
+    {
+        "@context": "https://schema.org",
+        "@graph": [{
+            "@type": "WebPage",
+            "@id": "https://www.nettechnocrats.com/seo-services/",
+            "url": "https://www.nettechnocrats.com/seo-services/",
+            "name": "Best SEO Services | #1 SEO Agency | SEO company in Noida",
+            "isPartOf": {
+                "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage"
+            },
+            "image": {
+                "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.png",
+            "datePublished": "2023-08-22T05:14:37+00:00",
+            "dateModified": "2024-08-13T10:27:27+00:00",
+            "description": "Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!",
+            "breadcrumb": {
+                "@id": "https://www.nettechnocrats.com/seo-services/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [{
+                "@type": "ReadAction",
+                "target": ["https://www.nettechnocrats.com/seo-services/"]
+            }]
+        }, {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.nettechnocrats.com/seo-services/#primaryimage",
+            "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.png",
+            "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1.png",
+            "width": 162,
+            "height": 70,
+            "caption": "extract"
+        }, {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.nettechnocrats.com/seo-services/#breadcrumb",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.nettechnocrats.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "SEO Services"
+            }]
+        }, {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "Nettechnocrats",
+            "description": "",
+            "publisher": {
+                "@id": "/#organization"
+            },
+            "potentialAction": [{
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                }
+            }],
+            "inLanguage": "en-US"
+        }, {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "Nettechnocrats",
+            "url": "/",
+            "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "/#/schema/logo/image/",
+                "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+                "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+                "width": 205,
+                "height": 107,
+                "caption": "Nettechnocrats"
+            },
+            "image": {
+                "@id": "/#/schema/logo/image/"
+            },
+            "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+        }]
+    }
+</script>
+
+@section('content')
+<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+<main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+        <div class="">
+            <div class="row gy-4">
+                <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+                    <img src="{{ asset('assets/web/seo-banner.png') }} " alt="SEO Services" srcset="">
+
+                </div>
+
             </div>
         </div>
-	</section>
-	<div class="call-popup">
-    <div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
 
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        
+    </section><!-- /Hero Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-activity icon"></i></div>
+                        <h4><a href="" class="stretched-link">Brand Visibility</a></h4>
+                        <p>Since the top positioned website results in significant impressions, having your website in these top positions on the SERPs assure more exposure of the website in front of your potential customers.</p>
                     </div>
-    <div class="modal-title text-center" id="CallMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
-                    <div class="modal-body">
-                        
-                        <div class="call-content">
-                            <a href="#"><span>Call Now: </span>+1.973.459.4971</a>
-                            <a href="#"><span></span>+91.120.413.7259</a>
-                            <form id="callform">
-                                <div class="com-md-4 col-sm-4 col-xs-12">
-                                <input type="text" name="code" id="code" placeholder="+1" onkeypress="HideErrmsg('nameErr');" >
-                                <span id="codeErr"></span>
-                            </div>
-                            <div class="com-md-8 col-sm-8 col-xs-12">
-                                <input type="text" name="phoneno" id="phoneno" placeholder="Phone No." onkeypress="HideErrmsg('nameErr');" >
-                                <span id="phonenoErr"></span>
-                            </div>
-                            <div class="col-md-12">
-                            <input type="button" onclick="CallRequest();" id="Callbtn" Value="Request for Call Back" class="call-btn">
-                        </div>
-                            </form>
-                        </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+                        <h4><a href="" class="stretched-link">Increased Traffic</a></h4>
+                        <p>Top positions on the search engine results receive a majority of impressions and clicks, so ranking on the top may help you to get significant increases in traffic of your website. </p>
                     </div>
+                </div><!-- End Service Item -->
 
-                </div><!-- modal-content -->
-            </div><!-- modal-dialog -->
-        </div><!-- modal -->
-</div>
+                <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+                        <h4><a href="" class="stretched-link">Lead Generation</a></h4>
+                        <p>SEO marketing is all about getting rank on the search engine results which will help the website attract a lot of traffic and eventually convert them into leads and sales. </p>
+                    </div>
+                </div><!-- End Service Item -->
 
-<div class="req-popup">
-    <div class="modal left fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
+            </div>
 
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>                   
+        </div>
+
+    </section><!-- /Featured Services Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <span>About Us<br></span>
+            <h2><strong>What sets<br> our company apart?</strong></h2>
+            <p>We have already spent enough years in SEO, ensuring that we understand the algorithm employed by all the major search engines. That's why we are consistently able to achieve positive results for our clients. </p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row gy-4">
+                <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+                    <div class="seo__animation__gif">
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
+                        <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
+                    </div>
                 </div>
-                <div class="modal-title text-center" id="QueryMessage" style="color: #005401;font-weight: bold;margin-top: 10px;"></div>
-                <div class="modal-body">
-                   <div class="rfq-content">
-                   <form id="queryform">
-      <div class="col-md-12">
-         <input type="text" name="rname" id="rname" placeholder="Name" onkeypress="HideErrmsg('rnameErr');">
-         <span id="rnameErr"></span>
-         <input type="text" name="remail" id="remail" placeholder="Email" onkeypress="HideErrmsg('remailErr');">
-         <span id="remailErr"></span>
-      </div>
-      <div class="col-md-4 col-sm-4 col-xs-12">
-         <input type="text" name="rcode" id="rcode" placeholder="+1" onkeypress="HideErrmsg('rcodeErr');" >
-         <span id="rcodeErr"></span>
-      </div>
-      <div class="col-md-8 col-sm-8 col-xs-12">
-         <input type="text" name="rphoneno" id="rphoneno" placeholder="Phone No." onkeypress="HideErrmsg('rphonenoErr');" >
-         <span id="rphonenoErr"></span>
-      </div>
-      <textarea row="3" placeholder="Message" name="rmessage" id="rmessage"></textarea>
-      <input type="text" name="vcapcha" id="vcapcha" style="width: 50%;" readonly="readonly" oncopy="return false" onpaste="return false" >
-      <label>What code is in the image</label>
-      <input type="text" placeholder="Capcha" name="rcapcha" id="rcapcha" onkeypress="HideErrmsg('rcapchaErr');">
-      <label>Enter the code shows in the image</label>
-      <span id="rcapchaErr"></span>
-      <div class="col-md-5 col-sm-6 col-xs-12">
-         <input type="button" Value="Submit" id="RFQBtn" style="width: 110%;" class="call-btn" onclick="RFQQyery();">
-      </div>
-   </div>
-</form>
-                   </div>
-                </div>
+                <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+                    <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3> -->
+                    <p class="">
+                        There is no shortage of SEO consultants and experts offering SEO services in India, but only a few of them have enough skills and experience to match with Nettechnocrats. Backed by a pool of SEO experts, we help you develop a unique strategy and plan so that you know what you exactly need to do to get higher rankings. We execute the best plan for you and help to get the top position in the marketplace.
+                    </p>
+                    <p>
+                        Standing out in Google is no easy feat, it requires lots of efforts and strategies. But with a leading SEO company like us, we assure to make it happen.
+                    </p>
+                    <p>
+                        We take a consultative approach with clients. Our client's SEO marketing needs are paramount and that's why we work closely with you at every step of SEO process. Our SEO services are proven to bring more traffic on the website from the search engines and resulting in more customers, sales and ROI.
+                    </p>
 
-            </div><!-- modal-content -->
-        </div><!-- modal-dialog -->
-    </div><!-- modal -->
-</div>
-    <section class="seoapp crmapp">
-    	<div class="container">
-        	<div class="row">
-            	<div class="col-md-12">
-                	<div class="getstated_div">
-                        <a href="portfolio.php">view our portfolio</a>
-                    </div>
+                    <a href="{{ url('contact-us')}}" class="contact__btn mt-5">Talk to our consultant</a>
                 </div>
             </div>
-        </div>
-    </section>
 
-	<section class="seocontent">
-    	<div class="container">
-        	<div class="row">
-            	<div class="col-md-12">
-                	<div class="app_heading seo1">
-                    	<h1>Cloud Migration Services</h1>     
-<p>Make a confidence move to the cloud with Nettechnocrats.</p>						
-                    </div>
-                    
-                    <div class="col-lg-4 col-sm-6 col-xs-12">
-                    	<div class="aboutseo">
-                        	<h1>Cloud Migration</h1>
-                            <p>With cloud migration services, you can easily migrate your workloads from strategy to execution with zero business disruption. Our migration services help you to do all this with less risk and cost.</p>
-                        </div>
-                    </div>
-                    
-                     <div class="col-lg-4 col-sm-6 col-xs-12">
-                    	<div class="aboutseo">
-                        	<h1>Infrastructure Migration</h1>
-                            <p>Whether you're relocating to a new office for downsizing or up-sizing, migrating to a better data operator center, or even moving your entire operation out of the country.</p>
-                        </div>
-                    </div>
-                    
-                     <div class="col-lg-4 col-sm-6 col-xs-12">
-                    	<div class="aboutseo">
-                        	<h1>Data Migration</h1>
-                            <p>Your data migration to the cloud needs a careful planning and preparation. From discovery to ongoing management, we help our clients by offering end-to-end cloud migration services.</p>
-                        </div>
-                    </div>
-                    
-                     <div class="col-lg-4 col-sm-6 col-xs-12">
-                    	<div class="aboutseo">
-                        	<h1>Platform Migration</h1>
-                            <p>Having good hands-on experience in developing and migrating applications on several leading platforms, we help you to understand and make better use of the options available across cloud.</p>
-                        </div>
-                    </div>
-                    
-                     <div class="col-lg-4 col-sm-6 col-xs-12">
-                    	<div class="aboutseo">
-                        	<h1>Application Migration</h1>
-                            <p>Most of the firms have a keen interest to get out of the data center business to cut their costs. We provide the fastest and cost-effective way to migrate your application platforms to the cloud.</p>
-                        </div>
-                    </div>
-                    
-                  <!--   <div class="col-lg-4 col-sm-6 col-xs-12">
-                    	<div class="aboutseo">
-                        	<h1>Optimized Content</h1>
-                            <p>Our team of content writers possess experience to give your business zenith heights of success through unique content</p>
-                        </div>
-                    </div> -->
-                 </div>   
-            </div>
         </div>
-    </section>
-    
-    
-    <section class="whychooseus crm-why">
-    	<div class="leftimg seoimg">
-        	<img src="https://s3.us-east-2.amazonaws.com/nettech-images/crm-left.jpg" alt="image">
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+        <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
+            <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
+                <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center px-5" data-aos="fade-up">
+                    <h1 class="text-center">How do we help?</h1>
+                    <p class="text-center px-5"><strong>Our Exceptional SEO Services Redefined!</strong></p>
+                    <p class="text-center px-5">In today's digital-dominated world, our SEO services stand out. We elevate Brand Visibility, making your business a recognizable name in crowded markets. By optimizing your online presence, we guarantee Increased Traffic, driving potential clients to your doorstep.</p>
+                    <p class="text-center px-5">Beyond mere numbers, our focus on Lead Generation ensures a quality audience engages with your content. This naturally translates to Increased Sales as more visitors convert to customers. And speaking of conversion, our strategies finesse user journeys, enhancing the Conversion Rate. Simply put, we are not just about drawing crowds; we are about drawing the right crowd and ensuring they take action.</p>
+
+
+                    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="row gy-4">
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="stats-item text-center w-100 h-100">
+                                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="3" class="purecounter"></span>
+                                    <p>Clients</p>
+                                </div>
+                            </div><!-- End Stats Item -->
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="stats-item text-center w-100 h-100">
+                                    <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="4" class="purecounter"></span>
+                                    <p>Projects</p>
+                                </div>
+                            </div><!-- End Stats Item -->
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="stats-item text-center w-100 h-100">
+                                    <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="5" class="purecounter"></span>
+                                    <p>Hours Of Support</p>
+                                </div>
+                            </div><!-- End Stats Item -->
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="stats-item text-center w-100 h-100">
+                                    <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="4" class="purecounter"></span>
+                                    <p>Members</p>
+                                </div>
+                            </div><!-- End Stats Item -->
+
+                        </div>
+
+                    </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Consultent -->
+    <!-- <section id="hero" class="hero section">
+
+    <div class="py-4" style="background-color: rgba(50,197,181,0.2);">
+      <div class="row gy-4 py-5" style="background: url('{{ asset('assets/web/dot-shape.png') }}');">
+        <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+          <h1 class="text-center">How do we help?</h1>
+          <p class="text-center"><strong>Our Exceptional SEO Services Redefined!</strong></p>
+          <p class="text-center">In today’s digital-dominated world, our SEO services stand out. We elevate Brand Visibility, making your business a recognizable name in crowded markets. By optimizing your online presence, we guarantee Increased Traffic, driving potential clients to your doorstep.</p>
+          <p class="text-center">Beyond mere numbers, our focus on Lead Generation ensures a quality audience engages with your content. This naturally translates to Increased Sales as more visitors convert to customers. And speaking of conversion, our strategies finesse user journeys, enhancing the Conversion Rate. Simply put, we are not just about drawing crowds; we are about drawing the right crowd and ensuring they take action.</p>
+
         </div>
-    	<div class="container">
-        	<div class="row">
-            	<div class="col-md-8 col-md-offset-4">
-                	<div class="whychoose_div wordpresschoose">
-                    	<h1>WHY CHOOSE US?</h1>
-                        
-                    
-                        <div class="price">
-                            <h1>Tailor-made cloud management</h1>
-                            <p>We don’t just migrate and leave. Once successfully transferred, we can set up a tailor-made support agreement for regular upgrades and maintenance to your specific cloud services. </p>                               
-                    	</div>
-                        
-                        <div class="price">
-                            <h1>Fine tuning for cloud: testing</h1>
-                            <p>Testing application quality is high priority in a cloud domain. With different levels of services and different performance attributes, we put your apps through stringent testing to improve performance.</p>                               
-                    	</div>
-                        <div class="price">
-                            <h1>Deep technical skills</h1>
-                            <p>Our developers have knowledge of many different technologies. This puts us in a unique position to deep dive into your cloud services to maintain interactions with other systems.</p>                               
-                    	</div>
-                        <div class="price">
-                            <h1>Security and compliance</h1>
-                            <p>Not all apps belong in the cloud. We work with you to ensure that whatever path you choose, compliance with your industry regulation and governance standards are not compromised.</p>                     
-                    	</div>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    
-   <section>
-   <div class="container">
+      </div>
+
+    </div>
+
+  </section> -->
+    <!-- Consultent -->
+
+    <!-- <section class="our__clients">
+    <div class="container">
       <div class="row">
-        <div class="col-xs-12">
-            <ul class="client_info list-inline client1">
-               <li>
-                  <h4>150+</h4>
-                  <h2>FULL-TIME EMPLOYEES</h2>
-               </li>
-               <li>
-                  <h4>AWS</h4>
-                  <h2>Consulting Partner.</h2>
-               </li>
-               <li>
-                  <h4>2500+</h4>
-                  <h2>PROJECTS DELIVERED</h2>
-               </li>
-               <li>
-                  <h4>ISO</h4>
-                  <h2>Certified</h2>
-               </li>
-               <li>
-                  <h4>8+</h4>
-                  <h2>YEARS IN BUSINESS</h2>
-               </li>
-            </ul>
-         </div>
+        <div class="col-lg-12 d-flex justify-content-center">
+          <div class="wheel">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <div class="cabin"><img src="{{ asset('assets/web/google__ads.png') }} " alt="" srcset=""></div>
+            <div class="cabin"></div>
+            <div class="cabin"></div>
+            <div class="cabin"></div>
+            <div class="cabin"></div>
+            <div class="cabin"></div>
+          </div>
+        </div>
       </div>
-   </div>
-</section>
-<section class="blue_bg">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <div class="experience">
-               <h2>Experience</h2>
-               <h5>in the industry 8 Years+</h5>
+    </div>
+  </section> -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <span>Services</span>
+            <h2>Tailored SEO Solutions for Every Business Need</h2>
+            <p>Why Choose Us For SEO Services?</p>
+            <p class="fs-5">In the dynamic domain of SEO, our history is rich with over two decades of proficiency. As a forefront SEO company, we’ve seamlessly blended deep-rooted expertise with agility, navigating through the intricate terrains of search engine algorithms and user behaviours. Our commitment isn’t just about recalling the past—it’s about constantly driving towards unparalleled excellence. With rigorous attention to keyword research and a constant ear to the industry’s heartbeat, our SEO services are meticulously curated and unparalleled in delivery.</p><br />
+            <!-- <p class="fs-5">
+        </p> -->
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-shop-lock"></i>
+                        </div>
+                        <a href="{{ url('/local-seo-services')}}" class="stretched-link">
+                            <h3>Local SEO</h3>
+                        </a>
+                        <p>Expand your local footprint! Reach out to your immediate audience seamlessly and make your mark in your neighborhood. Be the local buzz!</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-brands fa-amazon"></i>
+                        </div>
+                        <a href="{{ url('/amazon-seo-services')}}" class="stretched-link">
+                            <h3>Amazon SEO</h3>
+                        </a>
+                        <p>Navigate the giant e-commerce platform effortlessly. Skyrocket your products' visibility amidst millions and drive stellar sales on Amazon. </p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <a href="{{ url('/e-commerce-seo-services')}}" class="stretched-link">
+                            <h3>E-commerce SEO</h3>
+                        </a>
+                        <p>Optimize your online store for maximum visibility. Attract, engage, and convert your site visitors into loyal customers. Boost your online sales!</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <a href="{{ url('/seo-services')}}" class="stretched-link">
+                            <h3>Technical SEO</h3>
+                        </a>
+                        <p>Dive deep into the backend of your website. Enhance its functionality, speed, and overall user experience. Make your website loved not just by users but by search engines too!</p>
+                        <a href="{{ url('')}}" class="stretched-link"></a>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-brands fa-wix"></i>
+                        </div>
+                        <a href="{{ url('/wix-seo-agency')}}" class="stretched-link">
+                            <h3>WIX SEO</h3>
+                        </a>
+                        <p>Wix SEO is a powerful tool that empowers website owners to optimize their online presence effortlessly.</p>
+                        <a href="{{ url('/wix-seo-agency')}}" class="stretched-link"></a>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-brands fa-wordpress"></i>
+                        </div>
+                        <a href="{{ url('/wordpress-seo-agency')}}" class="stretched-link">
+                            <h3>WordPress SEO</h3>
+                        </a>
+                        <p>When it comes to optimizing your WordPress website for search engines, look no further than our WordPress SEO agency.</p>
+                        <a href="service-details.html" class="stretched-link"></a>
+                    </div>
+                </div><!-- End Service Item -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-brands fa-shopify"></i>
+                        </div>
+                        <a href="{{ url('/shopify-seo-agency')}}" class="stretched-link">
+                            <h3>Shopify SEO</h3>
+                        </a>
+                        <p>Shopify SEO is a critical component of driving organic traffic and increasing visibility for your online store on the Shopify platform.</p>
+                        <a href="{{ url('/shopify-seo-agency')}}" class="stretched-link"></a>
+                    </div>
+                </div><!-- End Service Item -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-brands fa-squarespace"></i>
+                        </div>
+                        <a href="{{ url('/squarespace-seo-services')}}" class="stretched-link">
+                            <h3>Squarespace SEO</h3>
+                        </a>
+                        <p>Our Squarespace SEO services encompass a range of strategies and techniques to ensure your website ranks higher.</p>
+                        <a href="{{ url('/squarespace-seo-services')}}" class="stretched-link"></a>
+                    </div>
+                </div><!-- End Service Item -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <a href="{{ url('/mobile-app-development')}}" class="stretched-link">
+                            <h3>Mobile SEO</h3>
+                        </a>
+                        <p>Our Squarespace SEO services encompass a range of strategies and techniques to ensure your website ranks higher.</p>
+                        <a href="{{ url('/mobile-app-development')}}" class="stretched-link"></a>
+                    </div>
+                </div><!-- End Service Item -->
+
             </div>
-            <ul class="address_div">
-               <li>
-                  <img src="https://s3.us-east-2.amazonaws.com/nettech-images/buss.png">
-                  <span>
-                     <h4>VISIT OFFICE</h4>
-                     <h6>H-183, Sec-63, Noida,<br>Delhi (NCR) India</h6>
-                  </span>
-               </li>
-               <li>
-                  <img src="https://s3.us-east-2.amazonaws.com/nettech-images/calling.png">
-                  <span>
-                     <h4>CALL US</h4>
-                     <h6>Sales: <a href="callto:+1 (786) 472-6045">+1 (786) 472-6045</a><br>
-                        HR: <a href="callto:0120-4137259">0120-4137259</a>
-                     </h6>
-                  </span>
-               </li>
-               <li>
-                  <img src="https://s3.us-east-2.amazonaws.com/nettech-images/email.png">
-                  <span>
-                     <h4>SEND MESSAGE</h4>
-                     <h6>Sales:  <a href="mailto:sales@nettechnocrats.com">sales@nettechnocrats.com </a><br>
-                        HR : <a href="mailto:hr@nettechnocrats.com">hr@nettechnocrats.com </a>
-                     </h6>
-                  </span>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </div>
-</section>
-    
-    <?php include 'include/footer.php'; ?>
+
+        </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section accent-background">
+
+        <div class="container">
+            <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-xl-10">
+                    <div class="text-center">
+                        <h3>Now When You Know All <span>About Our Brilliance </span></h3>
+                        <p>Let's Connect to discuss your <strong>SEO Services</strong> project.</p>
+                        <p><strong>Go Ahead & Fill The Form Below</strong></p>
+                        <a class="cta-btn" href="{{ url('contact-us')}}">Call To Action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section><!-- /Call To Action Section -->
+    <section class="portfolio-slider">
+        <div class="slider owl-carousel">
+            @foreach($datas as $data)
+            <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.png') }}'); background-repeat:no-repeat; background-size:cover;">
+
+                <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
+                    <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>
+                    <div class="h4 text-center">
+                        <p class="fs-1 m-0 p-0 text-white">320%</p>
+                        <p class=" m-0 p-0 text-white">Website Leads</p>
+                    </div>
+                </div>
+                <div class="rounded-bottom text-center pt-3">
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="{{url('portfolio_seo_detail/'.$data->id)}}">SEE CASE STUDY</a>
+                </div>
+                <div class="rounded-bottom text-center pt-3">
+                    <p class="text-center p-0 m-0 fw-bold text-white">{{$data->company_name}}</p>
+                    <p class="mb-4 p-0 m-0 fw-bold text-white">| {{$data->industry}} |</p>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </section>
+
+
+    <section class="light-background why__choose__Net">
+        <div class="container">
+            <h2>Why Nettechnocrats for Digital Marketing Services?</h2>
+            <p>Be it an ambitious startup eager to etch its digital footprint or an established brand aspiring to refurbish its SEO techniques and fortify its online presence, our holistic SEO services are your passport to digital triumph. Put your digital dreams in the hands of an eminent SEO company that meticulously crafts strategies tailor-made for your distinct business aspirations, and observe as we navigate your digital trajectory towards unmatched growth.</p>
+            <div class="row pt-2">
+                <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
+                    <div class="row mt-3">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="200">5+ years of average experience
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="200">On time project delivery guaranteed
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="300">High sealed security
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="300">Dedicated Project Managers
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="400">24*7 Support
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="400">Hassle free communication
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="500">Maintenance Service
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="500">User-Friendly Data Structure
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="600">5+ years of average experience
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="600">On time project delivery guaranteed
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Integrity & transparency
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Free no-obligation quote
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Flexible Engagement Models
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="why__answer" data-aos="fade-up" data-aos-delay="800">Non-Discloser Agreement
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="seo__animation__gif">
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/578e205c-f7c1-49b6-936b-691653dfbb40/gP7yHNusgA.json" background="##fff" speed="1" style="width: 100%; height: 100%" loop autoplay direction="1" mode="normal"></lottie-player>
+
+                    </div>
+    </section>
+
+
+
+    @include('frontend/portfolio/contact_form');
+
+
+</main>
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+@endsection
