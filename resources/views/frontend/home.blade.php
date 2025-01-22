@@ -1499,20 +1499,27 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             <section class="home__address py-2 my-3 d-flex justify-content-center">
                 <div class="container">
                     <div class="row address py-5" style="background-color: var(--blue);">
-                        <div class="col-md-6"><img src="{{ asset('assets/web/Untitled-design-2024-02-13T102554.756.webp') }}" class="" alt="" srcset="" style="width: 100%; box-shadow:none;">
+                        <div class="col-md-6">
+                            <img src="{{ asset('assets/web/Untitled-design-2024-02-13T102554.756.webp') }}" class="" alt="" style="width: 100%; box-shadow:none;">
                         </div>
                         <div class="col-md-6 d-flex flex-column home-form">
                             <h3 class="text-white fw-bold fs-1">Time to <span style="color: var(--green);">Craft Brilliance</span> Together</h3>
                             <p class="text-white fw-bold fs-6">Fill this out so we can know more about your requirements.</p>
 
-                            <input type="text" name="Name" id="" placeholder="Name*" required>
-                            <input type="email" name="Email" id="" placeholder="Email*" required>
-                            <input type="text" name="Phone" id="" placeholder="Phone*" required>
-                            <input type="text" name="website" id="" placeholder="Website URL*" required>
+                            <form id="quoteForm">
+                                <input type="text" name="name" id="name" placeholder="Name*" required>
+                                <input type="email" name="email" id="email" placeholder="Email*" required>
+                                <input type="text" name="phone" id="phone" placeholder="Phone*" required>
+                                <input type="url" name="website" id="website" placeholder="Website URL*" required>
+                                <button type="submit" class="submit-btn">Request a free quote</button>
+                            </form>
 
-                            <button type="submit" class="submit-btn">Request a free quote</button>
+                            <br>
+                            <div class="col-lg-11 quoteFormMassage" style="display: none;">
+                                <div class="alert alert-success">
+                                </div>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </section>
@@ -1679,4 +1686,53 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
     });
 </script>
 
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#quoteForm').on('submit', function (e) {
+            e.preventDefault(); // Prevent the form from submitting normally
+
+            // Clear and hide the message container
+            $('.quoteFormMassage').hide();
+            $('.quoteFormMassage .alert-success').empty();
+
+            $.ajax({
+                url: "{{ url('saveQuotationApi') }}", // Laravel route
+                method: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    name: $('#name').val(),
+                    email: $('#email').val(),
+                    phone: $('#phone').val(),
+                    website: $('#website').val()
+                },
+                success: function (response) {
+                    // Show success message
+                    $('.quoteFormMassage').show();
+                    $('.quoteFormMassage .alert-success').html(response.message);
+                    
+                    // Reset the form
+                    $('#quoteForm')[0].reset();
+                },
+                error: function (xhr) {
+                    // Show error messages, if available
+                    const errors = xhr.responseJSON?.errors;
+                    if (errors) {
+                        let errorMessages = '';
+                        $.each(errors, function (key, value) {
+                            errorMessages += `<p>${value[0]}</p>`;
+                        });
+                        $('.quoteFormMassage').show();
+                        $('.quoteFormMassage .alert-danger').html(errorMessages);
+                    } else {
+                        // Fallback error message
+                        $('.quoteFormMassage').show();
+                        $('.quoteFormMassage .alert-danger').html('Something went wrong!');
+                    }
+                }
+            });
+        });
+    });
+</script>
 </html>

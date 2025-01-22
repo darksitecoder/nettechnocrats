@@ -162,8 +162,18 @@
         <div class="container-fluid p-0">
           <div class="d-flex justify-content-between mb-4">
             <h1 class="h3 mb-3"><strong>Enquiry List</strong></h1>
-            <div class="buttons">
-              <a href="{{url('/listContactEnquiriesForAdmin')}}" class=" btn">Contact Enquires <i class="fa-solid fa-circle-plus"></i></a>
+            <div class="d-flex">
+              <div class="buttons">
+                <a href="{{url('/listQuoteEnquiriesForAdmin')}}" class=" btn">Quote Enquires <i class="fa-solid fa-circle-plus"></i></a>
+              </div>
+
+              <div class="buttons mx-3">
+                <a href="{{url('/listContactEnquiriesForAdmin')}}" class=" btn">Contact Enquires <i class="fa-solid fa-circle-plus"></i></a>
+              </div>
+
+              <div class="buttons">
+                <a href="{{url('/listProposalEnquiriesForAdmin')}}" class=" btn">Proposal Enquires <i class="fa-solid fa-circle-plus"></i></a>
+              </div>
             </div>
           </div>
 

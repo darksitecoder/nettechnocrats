@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\BlogCommentController;
 use App\Http\Controllers\Admin\BlogTopicController;
 use App\Http\Controllers\Admin\enquiresController;
 use App\Http\Controllers\ProposalController;
+use App\Http\Controllers\QuoteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -96,8 +97,8 @@ Route::get('/tour-travel-app-development', [IndustriesController::class, 'travel
 
 
 Route::get('/portfolio/{category_1}', [PortfolioController::class, 'index']);
-Route::get('/portfolio_seo_list', [PortfolioController::class, 'portfolio_seo']);
-Route::get('/portfolio_seo_detail/{id}', [PortfolioController::class, 'portfolio_seo_detail']);
+Route::get('/portfolio-seo-list', [PortfolioController::class, 'portfolio_seo']);
+Route::get('/portfolio-seo-detail/{id}', [PortfolioController::class, 'portfolio_seo_detail']);
 
 Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
 
@@ -162,7 +163,15 @@ Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
 Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
 Route::get('deleteBlogTopicApi', [BlogTopicController::class, 'delete']);
 
+// proposals
 Route::post('/submit-proposal', [ProposalController::class, 'store'])->name('proposal.store');
+Route::get('listProposalEnquiriesForAdmin', [ProposalController::class, 'list']);
+Route::get('deleteProposalEnquiriesForAdmin/{id}', [ProposalController::class, 'delete']);
+
+// Quotes 
+Route::post('saveQuotationApi', [QuoteController::class, 'store']);
+Route::get('listQuoteEnquiriesForAdmin', [QuoteController::class, 'list']);
+Route::get('deleteQuoteEnquiriesForAdmin/{id}', [QuoteController::class, 'delete']);
 
 // for blogs
 Route::get('listBlogsForAdminApi', [blogController::class, 'listBlogsForAdminApi']);
@@ -238,13 +247,13 @@ Route::view('/retailer-wholeseller', 'frontend.tech.retailer-wholeseller');
 Route::view('/web-development', 'frontend.tech.web-development');
 Route::view('/location', 'frontend.tech.location');
 Route::view('/pwa', 'frontend.tech.pwa');
-Route::view('/customer_software_development', 'frontend.tech.customer_software_development');
-Route::view('/erp_software_development', 'frontend.tech.erp_software_development');
-Route::view('/crm_development', 'frontend.tech.crm_development');
-Route::view('/generative_ai', 'frontend.tech.generative_ai');
-Route::view('/google_vision', 'frontend.tech.google_vision');
-Route::view('/quality_analysis', 'frontend.tech.quality_analysis');
-Route::view('/software-development', 'frontend.tech.software-development');
+Route::view('/customer-software-development', 'frontend.tech.customer_software_development');
+Route::view('/erp-software-development', 'frontend.tech.erp_software_development');
+Route::view('/crm-development', 'frontend.tech.crm_development');
+Route::view('/generative-ai', 'frontend.tech.generative_ai');
+Route::view('/google-vision', 'frontend.tech.google_vision');
+Route::view('/quality-analysis', 'frontend.tech.quality_analysis');
+// Route::view('/software-development', 'frontend.tech.software-development');
 
 
 // industries

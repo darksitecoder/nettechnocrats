@@ -155,6 +155,7 @@
       line-height: 40px;
     }
   </style>
+  @include('partial/google_analytics')
 </head>
 
 <body>

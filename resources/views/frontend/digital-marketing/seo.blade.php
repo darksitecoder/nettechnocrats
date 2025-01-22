@@ -135,8 +135,8 @@
     }
   </script>
 
-   <!-- Libraries Stylesheet -->
-   <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+  <!-- Libraries Stylesheet -->
+  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
   <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
   <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 
@@ -168,7 +168,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
     referrerpolicy="no-referrer" />
 
-@include('partial/google_analytics')
+  @include('partial/google_analytics')
 
 
 </head>
@@ -450,7 +450,7 @@
                 <h3>WordPress SEO</h3>
               </a>
               <p>When it comes to optimizing your WordPress website for search engines, look no further than our WordPress SEO agency.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
@@ -526,7 +526,7 @@
             </div>
           </div>
           <div class="rounded-bottom text-center pt-3">
-            <a class="btn btn-primary rounded-pill py-2 px-4" href="{{url('portfolio_seo_detail/'.$data->id)}}">SEE CASE STUDY</a>
+            <a class="btn btn-primary rounded-pill py-2 px-4" href="{{url('portfolio-seo-detail/'.$data->id)}}">SEE CASE STUDY</a>
           </div>
           <div class="rounded-bottom text-center pt-3">
             <p class="text-center p-0 m-0 fw-bold text-white">{{$data->company_name}}</p>
