@@ -1,4 +1,151 @@
-<?php include 'include/header.php' ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Microsoft Dynamics CRM | Comprehensive Microsoft Dynamics CRM Service</title>
+<meta name="description" content="Optimize your customer relationships with our Microsoft Dynamics CRM service. Discover the power of this robust solution for seamless business operations." />
+<link rel="canonical" href="https://www.nettechnocrats.com/microsoft-dynamic-crm/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Microsoft Dynamics CRM | Comprehensive Microsoft Dynamics CRM Service" />
+<meta property="og:description" content="Optimize your customer relationships with our Microsoft Dynamics CRM service. Discover the power of this robust solution for seamless business operations." />
+<meta property="og:url" content="https://www.nettechnocrats.com/microsoft-dynamic-crm/" />
+<meta property="og:site_name" content="Nettechnocrats" />
+<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+<meta property="article:modified_time" content="2024-08-13T10:12:06+00:00" />
+<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/python_img.webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@nettechnocrats" />
+<meta name="twitter:label1" content="Est. reading time" />
+<meta name="twitter:data1" content="8 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">
+    {
+        "@context": "https://schema.org",
+        "@graph": [{
+            "@type": "WebPage",
+            "@id": "https://www.nettechnocrats.com/microsoft-dynamic-crm/",
+            "url": "https://www.nettechnocrats.com/microsoft-dynamic-crm/",
+            "name": "Microsoft Dynamics CRM | Comprehensive Microsoft Dynamics CRM Service",
+            "isPartOf": {
+                "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://www.nettechnocrats.com/microsoft-dynamic-crm/#primaryimage"
+            },
+            "image": {
+                "@id": "https://www.nettechnocrats.com/microsoft-dynamic-crm/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/python_img.webp",
+            "datePublished": "2023-09-06T09:10:29+00:00",
+            "dateModified": "2024-08-13T10:12:06+00:00",
+            "description": "Optimize your customer relationships with our Microsoft Dynamics CRM service. Discover the power of this robust solution for seamless business operations.",
+            "breadcrumb": {
+                "@id": "https://www.nettechnocrats.com/microsoft-dynamic-crm/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [{
+                "@type": "ReadAction",
+                "target": ["https://www.nettechnocrats.com/microsoft-dynamic-crm/"]
+            }]
+        }, {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.nettechnocrats.com/microsoft-dynamic-crm/#primaryimage",
+            "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/python_img.webp",
+            "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/python_img.webp",
+            "width": 941,
+            "height": 934,
+            "caption": "Python Web development"
+        }, {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.nettechnocrats.com/microsoft-dynamic-crm/#breadcrumb",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.nettechnocrats.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Microsoft Dynamic CRM"
+            }]
+        }, {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "Nettechnocrats",
+            "description": "",
+            "publisher": {
+                "@id": "/#organization"
+            },
+            "potentialAction": [{
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                }
+            }],
+            "inLanguage": "en-US"
+        }, {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "Nettechnocrats",
+            "url": "/",
+            "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "/#/schema/logo/image/",
+                "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+                "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+                "width": 205,
+                "height": 107,
+                "caption": "Nettechnocrats"
+            },
+            "image": {
+                "@id": "/#/schema/logo/image/"
+            },
+            "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+        }]
+    }
+</script>
+
+<link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
+ <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer" />
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+  referrerpolicy="no-referrer" />
+
+
+
+ <!-- Libraries Stylesheet -->
+ <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+ <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+ <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+ <style>
+  .service .service-item {
+   height: 500px;
+  }
+ </style>
+ @include('partial/google_analytics')
+</head>
+
+<body>
+ @include('partial/header')
 <section class="top-outer">
   <div class="container">
     <div class="row">
@@ -183,4 +330,17 @@
 
 
 
-<?php include 'include/footer.php' ?>
+
+@include('partial/footer')
+</body>
+
+</html>
+
+<script src="{{ asset('style/web/lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+
+<script src="{{ asset('js/main.js') }}"></script>

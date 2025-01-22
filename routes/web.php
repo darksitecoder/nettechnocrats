@@ -102,11 +102,11 @@ Route::get('/portfolio_seo_detail/{id}', [PortfolioController::class, 'portfolio
 Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
 
 
-Route::get('/seo-services', [DigitalMarketingController::class, 'seo']);
-Route::get('/smo-services', [DigitalMarketingController::class, 'smo']);
-Route::get('/ppc-services', [DigitalMarketingController::class, 'ppc']);
-Route::get('/local-seo-services', [DigitalMarketingController::class, 'local']);
-Route::get('/online-reputation-management', [DigitalMarketingController::class, 'orm']);
+Route::get('/seo-services/', [DigitalMarketingController::class, 'seo']);
+Route::get('/smo-services/', [DigitalMarketingController::class, 'smo']);
+Route::get('/ppc-services/', [DigitalMarketingController::class, 'ppc']);
+Route::get('/local-seo-services/', [DigitalMarketingController::class, 'local']);
+Route::get('/online-reputation-management/', [DigitalMarketingController::class, 'orm']);
 
 Route::get('/healthcare-seo-services', [DigitalMarketingController::class, 'healthcare']);
 Route::get('/limo-seo-services', [DigitalMarketingController::class, 'limoseo']);
