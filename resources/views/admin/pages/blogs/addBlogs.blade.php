@@ -218,6 +218,14 @@
       background-color: transparent;
       border: none;
     }
+
+    .input__feilds {
+      border: 1px solid black;
+      font-size: 20px;
+      width: 100%;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
   </style>
 </head>
 
@@ -346,6 +354,18 @@
           <div class="col-md-12 stretch-card grid-margin blog__content">
             <textarea name="content" id="editor">{{ old('content') }}</textarea>
           </div>
+        </div>
+
+
+        <div class="row pt-1 my-3 d-flex justify-content-center">
+          <!-- Display company_name Validation Error -->
+          <div class="col-md-12 stretch-card grid-margin mb-3">
+            <input type="text" id="company_name" name="company_name" class="blog__company_name input__feilds" value="" placeholder="Enter SEO Title">
+          </div>
+          <div class="col-md-12 stretch-card grid-margin">
+            <input type="text" id="industry" name="industry" class="blog__company_name input__feilds" value="" placeholder="Enter Meta Description">
+          </div>
+          <span class="text-danger" id="company_name_err" style="font-size:13px;"></span>
         </div>
 
         </form>
