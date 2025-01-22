@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
   <script src="https://kit.fontawesome.com/e1528f4468.js" crossorigin="anonymous"></script>
   <!-- Fonts -->
-  <title>Enquiry List</title>
+  <title>Contact Enquires</title>
 
   <link href="{{ asset('/dashboard_theme/css/app.css') }}" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -119,6 +119,27 @@
       transform: scale(1.0);
       transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
     }
+    
+    .close-button {
+      float: right;
+      width: 1.5rem;
+      line-height: 1.5rem;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 0.25rem;
+      background-color: lightgray;
+    }
+
+    .close-button:hover {
+      background-color: darkgray;
+    }
+
+    .show-modal {
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1.0);
+      transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    }
 
     .alert-success {
       background-color: #67f0c8;
@@ -161,21 +182,9 @@
       <main class="content">
         <div class="container-fluid p-0">
           <div class="d-flex justify-content-between mb-4">
-            <h1 class="h3 mb-3"><strong>Enquiry List</strong></h1>
-            <div class="d-flex">
-              <div class="buttons">
-                <a href="{{url('/listQuoteEnquiriesForAdmin')}}" class=" btn">Quote Enquires <i class="fa-solid fa-circle-plus"></i></a>
-              </div>
-
-              <div class="buttons mx-3">
-                <a href="{{url('/listContactEnquiriesForAdmin')}}" class=" btn">Contact Enquires <i class="fa-solid fa-circle-plus"></i></a>
-              </div>
-
-              <div class="buttons">
-                <a href="{{url('/listProposalEnquiriesForAdmin')}}" class=" btn">Proposal Enquires <i class="fa-solid fa-circle-plus"></i></a>
-              </div>
-            </div>
+            <h1 class="h3 mb-3"><strong>Contact Quote List</strong></h1>
           </div>
+
 
           <!-- Flash Messages (Success or Error) -->
           @if(session('success'))
@@ -202,40 +211,28 @@
                 <table class="table table-hover my-0">
                   <thead>
                     <tr>
-                      <th>Enquiry Id</th>
+                      <th>Quote Id</th>
                       <th>Date</th>
                       <th class="d-none d-xl-table-cell">Name</th>
-                      <th class="d-none d-xl-table-cell">Subject</th>
                       <th class="d-none d-md-table-cell">Email</th>
-                      <!-- <th class="d-none d-md-table-cell">Phone</th> -->
-                      <th class="d-none d-md-table-cell"></th>
+                      <th class="d-none d-md-table-cell">Phone</th>
+                      <th class="d-none d-md-table-cell">Website</th>
                       <th class="d-none d-md-table-cell"></th>
                     </tr>
                   </thead>
+
+
                   <tbody>
-
-
                     @foreach($enquiry as $data)
                     <tr>
                       <td>{{ $data->id }}</td>
                       <td>{{ $data->created_at->format('d-m-Y') }}</td>
                       <td>{{ $data->name }}</td>
-                      <td>{{ $data->subject }}</td>
                       <td>{{ $data->email }}</td>
+                      <td>{{ $data->phone }}</td>
+                      <td><a href="{{ $data->website }}" target="_blank">{{ $data->website }}</a></td>
                       <td class="d-none d-md-table-cell">
-                        <button
-                          class="badge px-2 py-1 fs-6 edit trigger"
-                          data-id="{{ $data->id }}"
-                          data-name="{{ $data->name }}"
-                          data-subject="{{ $data->subject }}"
-                          data-email="{{ $data->email }}"
-                          data-message="{{ $data->message }}"
-                          data-date="{{ $data->created_at->format('d-m-Y') }}">
-                          View enquiry <i class="fa-regular fa-eye"></i>
-                        </button>
-                      </td>
-                      <td class="d-none d-md-table-cell">
-                        <a href="{{ url('deleteEnquiriesForAdmin/'.$data->id) }}">
+                        <a href="{{ url('deleteQuoteEnquiriesForAdmin/'.$data->id) }}">
                           <button class="badge bg-danger px-2 py-1 fs-6 delete">Delete <i class="fa-solid fa-trash"></i></button>
                         </a>
                       </td>
@@ -255,83 +252,6 @@
 
     </div>
   </div>
-
-
-  <!-- Modal -->
-  <div class="modal">
-    <div class="modal-content">
-      <span class="close-button"><i class="fa-solid fa-xmark"></i></span>
-      <h1 class="fw-bolder">Enquiry Details</h1>
-      <table>
-        <tr>
-          <th>Enquiry Id</th>
-          <td id="modal-id"></td>
-        </tr>
-        <tr>
-          <th>Date</th>
-          <td id="modal-date"></td>
-        </tr>
-        <tr>
-          <th>Name</th>
-          <td id="modal-name"></td>
-        </tr>
-        <tr>
-          <th>Subject</th>
-          <td id="modal-subject"></td>
-        </tr>
-        <tr>
-          <th>Email</th>
-          <td id="modal-email"></td>
-        </tr>
-        <tr>
-          <th colspan="2">Message:</th>
-        </tr>
-        <tr>
-          <td colspan="2" id="modal-message"></td>
-        </tr>
-      </table>
-    </div>
-  </div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const modal = document.querySelector('.modal');
-      const closeButton = document.querySelector('.close-button');
-
-      // Function to toggle modal
-      function toggleModal() {
-        modal.classList.toggle('show-modal');
-      }
-
-      // Event delegation for dynamic .trigger buttons
-      document.addEventListener('click', (event) => {
-        if (event.target.closest('.trigger')) {
-          const button = event.target.closest('.trigger');
-
-          // Populate modal with data from button
-          document.getElementById('modal-id').textContent = button.getAttribute('data-id');
-          document.getElementById('modal-date').textContent = button.getAttribute('data-date');
-          document.getElementById('modal-name').textContent = button.getAttribute('data-name');
-          document.getElementById('modal-subject').textContent = button.getAttribute('data-subject');
-          document.getElementById('modal-email').textContent = button.getAttribute('data-email');
-          document.getElementById('modal-message').textContent = button.getAttribute('data-message');
-
-          toggleModal();
-        }
-      });
-
-      // Close modal on click
-      closeButton.addEventListener('click', toggleModal);
-
-      // Close modal on outside click
-      window.addEventListener('click', (event) => {
-        if (event.target === modal) {
-          toggleModal();
-        }
-      });
-    });
-  </script>
-
 </body>
 
 </html>

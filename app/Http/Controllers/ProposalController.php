@@ -27,4 +27,25 @@ class ProposalController extends Controller
         // Redirect back with a success message
         return back()->with('success', 'Proposal submitted successfully!');
     }
+
+
+    public function list(Request $request)
+    {
+        $enquiry = Proposal::orderby('created_at', 'desc')->get();
+        return view('admin/pages/enquires/proposalList', compact('enquiry'));
+    }   
+    
+    
+    public function delete(Request $request, $id)
+    {
+        $deletedProposal = Proposal::where('id', $id)->delete();
+        if ($deletedProposal) {
+            $request->session()->flash('success', "Proposal enquiry ID - $id deleted successfully");
+        } else {
+            $request->session()->flash('error', "Proposal enquiry ID - $id not deleted");
+        }
+    
+        // Return response (redirect to the same page)
+        return redirect()->back();
+    }
 }

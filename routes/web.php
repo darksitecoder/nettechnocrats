@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\BlogCommentController;
 use App\Http\Controllers\Admin\BlogTopicController;
 use App\Http\Controllers\Admin\enquiresController;
 use App\Http\Controllers\ProposalController;
+use App\Http\Controllers\QuoteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -162,7 +163,15 @@ Route::post('addBlogTopicApi', [BlogTopicController::class, 'save']);
 Route::get('fetchBlogTopicApi', [BlogTopicController::class, 'fetch']);
 Route::get('deleteBlogTopicApi', [BlogTopicController::class, 'delete']);
 
+// proposals
 Route::post('/submit-proposal', [ProposalController::class, 'store'])->name('proposal.store');
+Route::get('listProposalEnquiriesForAdmin', [ProposalController::class, 'list']);
+Route::get('deleteProposalEnquiriesForAdmin/{id}', [ProposalController::class, 'delete']);
+
+// Quotes 
+Route::post('saveQuotationApi', [QuoteController::class, 'store']);
+Route::get('listQuoteEnquiriesForAdmin', [QuoteController::class, 'list']);
+Route::get('deleteQuoteEnquiriesForAdmin/{id}', [QuoteController::class, 'delete']);
 
 // for blogs
 Route::get('listBlogsForAdminApi', [blogController::class, 'listBlogsForAdminApi']);
