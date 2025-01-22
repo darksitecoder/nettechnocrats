@@ -385,7 +385,7 @@
                                                 <i class="fa-solid fa-magnifying-glass-chart"></i>
                                           </div>
                                           <h3>ANALYSIS AND REPORTING STAGE</h3>
-                                          <p>We analyze each social media website against specific metrics, the sales generated and its overall impact on the organization.</p>
+                                          <p>We analyze each social media website against specific metrics, the sales generated and its overall impact on the organization.</p>2
                                     </div>
                               </div><!-- End Service Item -->
 
