@@ -78,7 +78,7 @@
                   <h4 class="title fw-bold ps-4">Software Development</h4>
                   <ul>
                     <li><a href="{{url('/software-development')}}" data-image="">Customer Software Development</a></li>
-                    <li><a href="{{url('/erp_software_development')}}" data-image="">ERP Software Development</a></li>
+                    <li><a href="{{url('/erp-software-development')}}" data-image="">ERP Software Development</a></li>
                     <li><a href="{{url('/microsoft-dynamic-crm')}}" data-image="">CRM Development</a></li>
                     <li><a href="{{url('/salesforce-development')}}" data-image="">Salesforce Development</a></li>
                     <li><a href="{{url('/iot-applications-development-company')}}" data-image="">Iot
@@ -190,21 +190,21 @@
               </div>
             </li>
             <li class="menu-item-has-children">
-              <a href="{{url('/portfolio_seo_list')}}">Portfolio <i class="fa fa-angle-down"></i></a>
+              <a href="{{url('/portfolio-seo-list')}}">Portfolio <i class="fa fa-angle-down"></i></a>
               <div class="sub-menu mega-menu mega-menu-column-2">
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
                   <ul>
-                    <li><a href="{{url('/portfolio_seo_list')}}" data-image="{{ asset('assets/web/nav-images/seo.webp') }}">Digital Marketing</a></li>
+                    <li><a href="{{url('/portfolio-seo-list')}}" data-image="{{ asset('assets/web/nav-images/seo.webp') }}">Digital Marketing</a></li>
 
                   </ul>
                 </div>
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Development</h4>
                   <ul>
-                    <li><a href="{{url('/portfolio/software_development')}}" data-image="">Software Development</a></li>
-                    <li><a href="{{url('/portfolio/web_development')}}" data-image="">Web Development</a></li>
-                    <li><a href="{{url('/portfolio/Apps_development')}}" data-image="">App Development</a></li>
+                    <li><a href="{{url('/portfolio/software-development')}}" data-image="">Software Development</a></li>
+                    <li><a href="{{url('/portfolio/web-development')}}" data-image="">Web Development</a></li>
+                    <li><a href="{{url('/portfolio/Apps-development')}}" data-image="">App Development</a></li>
 
                   </ul>
                 </div>

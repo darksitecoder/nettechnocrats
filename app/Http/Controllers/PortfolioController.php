@@ -15,6 +15,7 @@ class PortfolioController extends Controller
     //
     public function index($category_1)
     {
+        $category_1 = str_replace('-', '_', $category_1);
         // dd($category_1);
         $portfolio = portfolio::where('status', 'publish')
             ->Where('category_1', 'like', '%' . $category_1 . '%')

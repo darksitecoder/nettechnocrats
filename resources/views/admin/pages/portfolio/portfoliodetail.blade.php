@@ -245,7 +245,7 @@
                         <p>{!! $blog->content !!}</p>
 
                         <!-- View More button with a link to portfolio details -->
-                        <a href="{{ url('/portfolio/software_development')}}" class="btn">
+                        <a href="{{ url('/portfolio/software-development')}}" class="btn">
                             View More Case Studies <i class="fa-solid fa-angles-right"></i>
                         </a>
                     </div>
