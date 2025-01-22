@@ -4,25 +4,119 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Email Marketing Services | Streamlined Bulk Email Marketing Automation</title>
-	<meta name="description" content="Elevate your marketing efforts with our Email Marketing Services. Automate bulk email campaigns efficiently for improved engagement and conversions" />
-	<link rel="canonical" href="https://www.nettechnocrats.com/email-marketing/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Email Marketing Services | Streamlined Bulk Email Marketing Automation" />
-	<meta property="og:description" content="Elevate your marketing efforts with our Email Marketing Services. Automate bulk email campaigns efficiently for improved engagement and conversions" />
-	<meta property="og:url" content="https://www.nettechnocrats.com/email-marketing/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T08:57:14+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/email_marketing_side.jpg" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="11 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/email-marketing/","url":"https://www.nettechnocrats.com/email-marketing/","name":"Email Marketing Services | Streamlined Bulk Email Marketing Automation","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/email-marketing/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/email-marketing/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/email_marketing_side.jpg","datePublished":"2023-09-18T11:14:38+00:00","dateModified":"2024-08-13T08:57:14+00:00","description":"Elevate your marketing efforts with our Email Marketing Services. Automate bulk email campaigns efficiently for improved engagement and conversions","breadcrumb":{"@id":"https://www.nettechnocrats.com/email-marketing/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/email-marketing/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/email-marketing/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/email_marketing_side.jpg","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/email_marketing_side.jpg","width":500,"height":395,"caption":"Process"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/email-marketing/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Email Marketing"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-	 <!-- <link rel="stylesheet" href="style.css"> -->
- <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+ <title>Email Marketing Services | Streamlined Bulk Email Marketing Automation</title>
+ <meta name="description" content="Elevate your marketing efforts with our Email Marketing Services. Automate bulk email campaigns efficiently for improved engagement and conversions" />
+ <link rel="canonical" href="https://www.nettechnocrats.com/email-marketing/" />
+ <meta property="og:locale" content="en_US" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="Email Marketing Services | Streamlined Bulk Email Marketing Automation" />
+ <meta property="og:description" content="Elevate your marketing efforts with our Email Marketing Services. Automate bulk email campaigns efficiently for improved engagement and conversions" />
+ <meta property="og:url" content="https://www.nettechnocrats.com/email-marketing/" />
+ <meta property="og:site_name" content="Nettechnocrats" />
+ <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+ <meta property="article:modified_time" content="2024-08-13T08:57:14+00:00" />
+ <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/email_marketing_side.jpg" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@nettechnocrats" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="11 minutes" />
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/email-marketing/",
+    "url": "https://www.nettechnocrats.com/email-marketing/",
+    "name": "Email Marketing Services | Streamlined Bulk Email Marketing Automation",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/email-marketing/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/email-marketing/#primaryimage"
+    },
+    "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/email_marketing_side.jpg",
+    "datePublished": "2023-09-18T11:14:38+00:00",
+    "dateModified": "2024-08-13T08:57:14+00:00",
+    "description": "Elevate your marketing efforts with our Email Marketing Services. Automate bulk email campaigns efficiently for improved engagement and conversions",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/email-marketing/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/email-marketing/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/email-marketing/#primaryimage",
+    "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/email_marketing_side.jpg",
+    "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/email_marketing_side.jpg",
+    "width": 500,
+    "height": 395,
+    "caption": "Process"
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/email-marketing/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Email Marketing"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
+ <!-- <link rel="stylesheet" href="style.css"> -->
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
   rel="stylesheet"

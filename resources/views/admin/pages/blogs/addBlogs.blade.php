@@ -10,7 +10,7 @@
   <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+  <link rel="shortcut icon" href="img/icons/icon-48x48.webp" />
 
   <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
@@ -288,75 +288,75 @@
                 <!-- Display Video Validation Error -->
                 @error('video')
                 <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
-                @enderror
-              </div>
-            </div>
-
-            <!-- PDF Upload Section -->
-            <div class="row pt-1 d-flex justify-content-center">
-              <div class="col-md-12 stretch-card grid-margin">
-                <div class="pdf-uploader">
-                  <!-- Display PDF Validation Error -->
-                  @error('pdf')
-                  <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
-                  @enderror
-                  <input type="file" id="pdf" name="pdf" accept="application/pdf" style="display: none;">
-                  <div class="upload-container">
-                    <label for="pdf" id="pdfLabel">Upload PDF</label>
-                    <p id="pdfName" style="display: none;"></p>
-                  </div>
-                </div>
-              </div>
-            </div>--}}
-
-            <!-- Topic Select Section -->
-            <div class="row pt-1 my-3 d-flex justify-content-center">
-              <!-- Display Topic Validation Error -->
-              @error('topic')
-              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
               @enderror
-              <div class="col-md-12 stretch-card grid-margin">
-                <select name="topic" id="topic">
-                  @foreach($topics as $topic)
-                  <option name="topic" value="{{ $topic->topic }}" {{ old('topic') == $topic->topic ? 'selected' : '' }}>
-                    {{ $topic->topic }}
-                  </option>
-                  @endforeach
-                </select>
-              </div>
             </div>
-
-            <!-- Heading Input Section -->
-            <div class="row pt-1 my-3 d-flex justify-content-center">
-              <!-- Display Heading Validation Error -->
-              @error('heading')
-              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
-              @enderror
-              <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="heading" name="heading" class="blog__heading" value="{{ old('heading') }}" placeholder="Enter Heading Here...">
-              </div>
-            </div>
-
-            <!-- Content Textarea Section -->
-            <div class="row pt-1 d-flex justify-content-center">
-              <!-- Display Content Validation Error -->
-              @error('content')
-              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
-              @enderror
-              <div class="col-md-12 stretch-card grid-margin blog__content">
-                <textarea name="content" id="editor">{{ old('content') }}</textarea>
-              </div>
-            </div>
-
-          </form>
-
-
         </div>
-      </main>
 
-      @include('admin/partials/footer')
+        <!-- PDF Upload Section -->
+        <div class="row pt-1 d-flex justify-content-center">
+          <div class="col-md-12 stretch-card grid-margin">
+            <div class="pdf-uploader">
+              <!-- Display PDF Validation Error -->
+              @error('pdf')
+              <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+              @enderror
+              <input type="file" id="pdf" name="pdf" accept="application/pdf" style="display: none;">
+              <div class="upload-container">
+                <label for="pdf" id="pdfLabel">Upload PDF</label>
+                <p id="pdfName" style="display: none;"></p>
+              </div>
+            </div>
+          </div>
+        </div>--}}
+
+        <!-- Topic Select Section -->
+        <div class="row pt-1 my-3 d-flex justify-content-center">
+          <!-- Display Topic Validation Error -->
+          @error('topic')
+          <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+          @enderror
+          <div class="col-md-12 stretch-card grid-margin">
+            <select name="topic" id="topic">
+              @foreach($topics as $topic)
+              <option name="topic" value="{{ $topic->topic }}" {{ old('topic') == $topic->topic ? 'selected' : '' }}>
+                {{ $topic->topic }}
+              </option>
+              @endforeach
+            </select>
+          </div>
+        </div>
+
+        <!-- Heading Input Section -->
+        <div class="row pt-1 my-3 d-flex justify-content-center">
+          <!-- Display Heading Validation Error -->
+          @error('heading')
+          <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+          @enderror
+          <div class="col-md-12 stretch-card grid-margin">
+            <input type="text" id="heading" name="heading" class="blog__heading" value="{{ old('heading') }}" placeholder="Enter Heading Here...">
+          </div>
+        </div>
+
+        <!-- Content Textarea Section -->
+        <div class="row pt-1 d-flex justify-content-center">
+          <!-- Display Content Validation Error -->
+          @error('content')
+          <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+          @enderror
+          <div class="col-md-12 stretch-card grid-margin blog__content">
+            <textarea name="content" id="editor">{{ old('content') }}</textarea>
+          </div>
+        </div>
+
+        </form>
+
 
     </div>
+    </main>
+
+    @include('admin/partials/footer')
+
+  </div>
   </div>
 
   <script src="{{ asset('dashboard_theme/js/app.js') }}"></script>

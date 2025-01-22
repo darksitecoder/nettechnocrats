@@ -4,24 +4,122 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>We are Certified Partners -Nettechnocrats IT Services Pvt Ltd</title>
-	<meta name="description" content="We are proud to globally certified partner with Google, Amazon and PayPal. We are awarded by top-tier research firms and featured in premium magazines and journals." />
-	<link rel="canonical" href="https://www.nettechnocrats.com/about-us/partners/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="We are Certified Partners -Nettechnocrats IT Services Pvt Ltd" />
-	<meta property="og:description" content="We are proud to globally certified partner with Google, Amazon and PayPal. We are awarded by top-tier research firms and featured in premium magazines and journals." />
-	<meta property="og:url" content="https://www.nettechnocrats.com/about-us/partners/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-09-09T09:42:12+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="3 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/about-us/partners/","url":"https://www.nettechnocrats.com/about-us/partners/","name":"We are Certified Partners -Nettechnocrats IT Services Pvt Ltd","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/about-us/partners/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/about-us/partners/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp","datePublished":"2023-08-25T05:49:25+00:00","dateModified":"2024-09-09T09:42:12+00:00","description":"We are proud to globally certified partner with Google, Amazon and PayPal. We are awarded by top-tier research firms and featured in premium magazines and journals.","breadcrumb":{"@id":"https://www.nettechnocrats.com/about-us/partners/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/about-us/partners/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/about-us/partners/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp","width":622,"height":422},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/about-us/partners/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Company","item":"https://www.nettechnocrats.com/about-us/"},{"@type":"ListItem","position":3,"name":"Partners"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-	 <!-- <link rel="stylesheet" href="style.css"> -->
+ <title>We are Certified Partners -Nettechnocrats IT Services Pvt Ltd</title>
+ <meta name="description" content="We are proud to globally certified partner with Google, Amazon and PayPal. We are awarded by top-tier research firms and featured in premium magazines and journals." />
+ <link rel="canonical" href="https://www.nettechnocrats.com/about-us/partners/" />
+ <meta property="og:locale" content="en_US" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="We are Certified Partners -Nettechnocrats IT Services Pvt Ltd" />
+ <meta property="og:description" content="We are proud to globally certified partner with Google, Amazon and PayPal. We are awarded by top-tier research firms and featured in premium magazines and journals." />
+ <meta property="og:url" content="https://www.nettechnocrats.com/about-us/partners/" />
+ <meta property="og:site_name" content="Nettechnocrats" />
+ <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+ <meta property="article:modified_time" content="2024-09-09T09:42:12+00:00" />
+ <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@nettechnocrats" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="3 minutes" />
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/about-us/partners/",
+    "url": "https://www.nettechnocrats.com/about-us/partners/",
+    "name": "We are Certified Partners -Nettechnocrats IT Services Pvt Ltd",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/about-us/partners/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/about-us/partners/#primaryimage"
+    },
+    "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp",
+    "datePublished": "2023-08-25T05:49:25+00:00",
+    "dateModified": "2024-09-09T09:42:12+00:00",
+    "description": "We are proud to globally certified partner with Google, Amazon and PayPal. We are awarded by top-tier research firms and featured in premium magazines and journals.",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/about-us/partners/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/about-us/partners/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/about-us/partners/#primaryimage",
+    "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp",
+    "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/09/Untitled-design-11.webp",
+    "width": 622,
+    "height": 422
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/about-us/partners/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Company",
+     "item": "https://www.nettechnocrats.com/about-us/"
+    }, {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Partners"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
+ <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
@@ -53,7 +151,7 @@
 <body>
  @include('partial/header')
  <!-- Abvout Start -->
- <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+ <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-7 wow fadeInLeft">

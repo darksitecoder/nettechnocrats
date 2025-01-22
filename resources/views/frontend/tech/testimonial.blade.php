@@ -709,7 +709,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
   <section class="testimonial__video">
     <div class="row">
       <div class="col-lg-6">
-        <a href="https://youtu.be/f-MAIzGxWc0"><img src="{{ asset('assets/web/maxresdefault (1).png') }}" alt="you tube" srcset="" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
+        <a href="https://youtu.be/f-MAIzGxWc0"><img src="{{ asset('assets/web/maxresdefault (1).webp') }}" alt="you tube" srcset="" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
         </a>
       </div>
       <div class="col-lg-6">
@@ -719,9 +719,9 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         <p class="fw-bolder fs-3 text-center">Imad</p>
         <p class=" text-center">Business Owner</p>
         <div class="slider-wrapper left">
-          <div class="item item1"><img src="{{ asset('assets/web/clutch_review.png') }}" alt="Clutch " srcset=""></div>
-          <div class="item item2"><img src="{{ asset('assets/web/appfuture.png') }}" alt="Appfutura" srcset=""></div>
-          <div class="item item3"><img src="{{ asset('assets/web/upwork.png') }}" alt="Upwork" srcset=""></div>
+          <div class="item item1"><img src="{{ asset('assets/web/clutch_review.webp') }}" alt="Clutch " srcset=""></div>
+          <div class="item item2"><img src="{{ asset('assets/web/appfuture.webp') }}" alt="Appfutura" srcset=""></div>
+          <div class="item item3"><img src="{{ asset('assets/web/upwork.webp') }}" alt="Upwork" srcset=""></div>
           <div class="item item4"></div>
 
         </div>
@@ -748,7 +748,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         </div>
         <div class="col-lg-6">
           <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ asset('assets/web/person-icon-512x483-d7q8hqj4.png') }}" alt="Person" srcset="" style="border-radius: 100%; width:100px; height:100px;">
+            <img src="{{ asset('assets/web/person-icon-512x483-d7q8hqj4.webp') }}" alt="Person" srcset="" style="border-radius: 100%; width:100px; height:100px;">
             <p class="fw-bolder">Mobile App Development for Mental Health Channel</p>
             <p>
 
@@ -760,7 +760,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         </div>
         <div class="col-lg-6">
           <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="{{ asset('assets/web/person-icon-512x483-d7q8hqj4.png') }}" alt="Person" srcset="" style="border-radius: 100%; width:100px; height:100px;">
+            <img src="{{ asset('assets/web/person-icon-512x483-d7q8hqj4.webp') }}" alt="Person" srcset="" style="border-radius: 100%; width:100px; height:100px;">
             <p class="fw-bolder">Website and Mobile App development for Food Business</p>
             <p>
               It was a great experience with team Nettechnocrats. They have a great development team with talented project managers who can deliver the project on time. Thank you Nettechnocrats.</p>

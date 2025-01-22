@@ -5,28 +5,119 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>A Full Stack Digital Marketing Services Company – Nettechnocrats</title>
-	<meta name="description" content="We are a full stack digital marketing company that provides high quality online marketing services from all over the world." />
-	<link rel="canonical" href="https://www.nettechnocrats.com/digital-marketing/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="A Full Stack Digital Marketing Services Company – Nettechnocrats" />
-	<meta property="og:description" content="We are a full stack digital marketing company that provides high quality online marketing services from all over the world." />
-	<meta property="og:url" content="https://www.nettechnocrats.com/digital-marketing/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-08-13T08:54:45+00:00" />
-	<meta property="og:image" content="https://nettechnocrats.com/wp-content/uploads/2023/08/Capture6.7.webp" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="8 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/digital-marketing/","url":"https://www.nettechnocrats.com/digital-marketing/","name":"A Full Stack Digital Marketing Services Company – Nettechnocrats","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/digital-marketing/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/digital-marketing/#primaryimage"},"thumbnailUrl":"https://nettechnocrats.com/wp-content/uploads/2023/08/Capture6.7.webp","datePublished":"2023-08-18T04:45:47+00:00","dateModified":"2024-08-13T08:54:45+00:00","description":"We are a full stack digital marketing company that provides high quality online marketing services from all over the world.","breadcrumb":{"@id":"https://www.nettechnocrats.com/digital-marketing/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/digital-marketing/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/digital-marketing/#primaryimage","url":"https://nettechnocrats.com/wp-content/uploads/2023/08/Capture6.7.webp","contentUrl":"https://nettechnocrats.com/wp-content/uploads/2023/08/Capture6.7.webp"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/digital-marketing/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"Digital Marketing"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-	
+ <meta name="description" content="We are a full stack digital marketing company that provides high quality online marketing services from all over the world." />
+ <link rel="canonical" href="https://www.nettechnocrats.com/digital-marketing/" />
+ <meta property="og:locale" content="en_US" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="A Full Stack Digital Marketing Services Company – Nettechnocrats" />
+ <meta property="og:description" content="We are a full stack digital marketing company that provides high quality online marketing services from all over the world." />
+ <meta property="og:url" content="https://www.nettechnocrats.com/digital-marketing/" />
+ <meta property="og:site_name" content="Nettechnocrats" />
+ <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+ <meta property="article:modified_time" content="2024-08-13T08:54:45+00:00" />
+ <meta property="og:image" content="https://nettechnocrats.com/wp-content/uploads/2023/08/Capture6.7.webp" />
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="@nettechnocrats" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="8 minutes" />
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/digital-marketing/",
+    "url": "https://www.nettechnocrats.com/digital-marketing/",
+    "name": "A Full Stack Digital Marketing Services Company – Nettechnocrats",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/digital-marketing/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/digital-marketing/#primaryimage"
+    },
+    "thumbnailUrl": "https://nettechnocrats.com/wp-content/uploads/2023/08/Capture6.7.webp",
+    "datePublished": "2023-08-18T04:45:47+00:00",
+    "dateModified": "2024-08-13T08:54:45+00:00",
+    "description": "We are a full stack digital marketing company that provides high quality online marketing services from all over the world.",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/digital-marketing/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/digital-marketing/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/digital-marketing/#primaryimage",
+    "url": "https://nettechnocrats.com/wp-content/uploads/2023/08/Capture6.7.webp",
+    "contentUrl": "https://nettechnocrats.com/wp-content/uploads/2023/08/Capture6.7.webp"
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/digital-marketing/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Digital Marketing"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
+
  <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
   referrerpolicy="no-referrer" />
- <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/digital-marketing/fontawesome.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/digital-marketing/templatemo-seo-dream.css') }}">
@@ -75,7 +166,7 @@
       </div>
       <div class="col-lg-6">
        <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-        <img src="{{ asset('assets/web/banner-right-image.png') }}" alt="Digital Marketing Service">
+        <img src="{{ asset('assets/web/banner-right-image.webp') }}" alt="Digital Marketing Service">
        </div>
       </div>
      </div>
@@ -224,7 +315,7 @@
    <div class="row">
     <div class="col-lg-6">
      <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-      <img src="{{ asset('assets/web/about-left-image.png') }}" alt="Digital Marketing company">
+      <img src="{{ asset('assets/web/about-left-image.webp') }}" alt="Digital Marketing company">
      </div>
     </div>
     <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -277,7 +368,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-01.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-01.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -294,7 +385,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-02.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-02.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -311,7 +402,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-03.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-03.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -328,7 +419,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-03.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-03.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -345,7 +436,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-01.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-01.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -362,7 +453,7 @@
       <div class="row">
        <div class="col-lg-4">
         <div class="icon">
-         <img src="{{ asset('assets/web/service-icon-02.png') }}" alt="">
+         <img src="{{ asset('assets/web/service-icon-02.webp') }}" alt="">
         </div>
        </div>
        <div class="col-lg-8">
@@ -562,19 +653,19 @@
          <ul>
           <li>
            <div class="icon">
-            <img src="{{ asset('assets/web/contact-icon-01.png') }}" alt="email icon">
+            <img src="{{ asset('assets/web/contact-icon-01.webp') }}" alt="email icon">
            </div>
            <a href="#">info@company.com</a>
           </li>
           <li>
            <div class="icon">
-            <img src="{{ asset('assets/web/contact-icon-02.png') }}" alt="phone">
+            <img src="{{ asset('assets/web/contact-icon-02.webp') }}" alt="phone">
            </div>
            <a href="#">+001-002-0034</a>
           </li>
           <li>
            <div class="icon">
-            <img src="{{ asset('assets/web/contact-icon-03.png') }}" alt="location">
+            <img src="{{ asset('assets/web/contact-icon-03.webp') }}" alt="location">
            </div>
            <a href="#">26th Street, Digital Villa</a>
           </li>

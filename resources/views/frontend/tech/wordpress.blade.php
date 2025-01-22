@@ -6,26 +6,120 @@
 
 @section('meta_keywords', 'laravel, home, keywords')
 <title>Expert WordPress Development Services | WordPress Development Company</title>
-	<meta name="description" content="We are trusted and experienced WordPress development company for tailored solutions. Get top-notch WordPress development services by experts." />
-	<link rel="canonical" href="https://www.nettechnocrats.com/wordpress-development-services/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Expert WordPress Development Services | WordPress Development Company" />
-	<meta property="og:description" content="We are trusted and experienced WordPress development company for tailored solutions. Get top-notch WordPress development services by experts." />
-	<meta property="og:url" content="https://www.nettechnocrats.com/wordpress-development-services/" />
-	<meta property="og:site_name" content="Nettechnocrats" />
-	<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-	<meta property="article:modified_time" content="2024-07-23T17:01:30+00:00" />
-	<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/wordpress.png" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nettechnocrats" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="9 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.nettechnocrats.com/wordpress-development-services/","url":"https://www.nettechnocrats.com/wordpress-development-services/","name":"Expert WordPress Development Services | WordPress Development Company","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"https://www.nettechnocrats.com/wordpress-development-services/#primaryimage"},"image":{"@id":"https://www.nettechnocrats.com/wordpress-development-services/#primaryimage"},"thumbnailUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/wordpress.png","datePublished":"2023-09-06T05:44:58+00:00","dateModified":"2024-07-23T17:01:30+00:00","description":"We are trusted and experienced WordPress development company for tailored solutions. Get top-notch WordPress development services by experts.","breadcrumb":{"@id":"https://www.nettechnocrats.com/wordpress-development-services/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.nettechnocrats.com/wordpress-development-services/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.nettechnocrats.com/wordpress-development-services/#primaryimage","url":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/wordpress.png","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2023/09/wordpress.png","width":500,"height":463,"caption":"Wordpress Development Services"},{"@type":"BreadcrumbList","@id":"https://www.nettechnocrats.com/wordpress-development-services/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nettechnocrats.com/"},{"@type":"ListItem","position":2,"name":"WordPress Development Services"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"Nettechnocrats","description":"","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"/#organization","name":"Nettechnocrats","url":"/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/logo/image/","url":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","contentUrl":"https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp","width":205,"height":107,"caption":"Nettechnocrats"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Nettechnocrats.it.services","https://x.com/nettechnocrats"]}]}</script>
-	
+<meta name="description" content="We are trusted and experienced WordPress development company for tailored solutions. Get top-notch WordPress development services by experts." />
+<link rel="canonical" href="https://www.nettechnocrats.com/wordpress-development-services/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Expert WordPress Development Services | WordPress Development Company" />
+<meta property="og:description" content="We are trusted and experienced WordPress development company for tailored solutions. Get top-notch WordPress development services by experts." />
+<meta property="og:url" content="https://www.nettechnocrats.com/wordpress-development-services/" />
+<meta property="og:site_name" content="Nettechnocrats" />
+<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+<meta property="article:modified_time" content="2024-07-23T17:01:30+00:00" />
+<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/wordpress.webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@nettechnocrats" />
+<meta name="twitter:label1" content="Est. reading time" />
+<meta name="twitter:data1" content="9 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">
+  {
+    "@context": "https://schema.org",
+    "@graph": [{
+      "@type": "WebPage",
+      "@id": "https://www.nettechnocrats.com/wordpress-development-services/",
+      "url": "https://www.nettechnocrats.com/wordpress-development-services/",
+      "name": "Expert WordPress Development Services | WordPress Development Company",
+      "isPartOf": {
+        "@id": "/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.nettechnocrats.com/wordpress-development-services/#primaryimage"
+      },
+      "image": {
+        "@id": "https://www.nettechnocrats.com/wordpress-development-services/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/wordpress.webp",
+      "datePublished": "2023-09-06T05:44:58+00:00",
+      "dateModified": "2024-07-23T17:01:30+00:00",
+      "description": "We are trusted and experienced WordPress development company for tailored solutions. Get top-notch WordPress development services by experts.",
+      "breadcrumb": {
+        "@id": "https://www.nettechnocrats.com/wordpress-development-services/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction",
+        "target": ["https://www.nettechnocrats.com/wordpress-development-services/"]
+      }]
+    }, {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.nettechnocrats.com/wordpress-development-services/#primaryimage",
+      "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/wordpress.webp",
+      "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/wordpress.webp",
+      "width": 500,
+      "height": 463,
+      "caption": "Wordpress Development Services"
+    }, {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.nettechnocrats.com/wordpress-development-services/#breadcrumb",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.nettechnocrats.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "WordPress Development Services"
+      }]
+    }, {
+      "@type": "WebSite",
+      "@id": "/#website",
+      "url": "/",
+      "name": "Nettechnocrats",
+      "description": "",
+      "publisher": {
+        "@id": "/#organization"
+      },
+      "potentialAction": [{
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "/?s={search_term_string}"
+        },
+        "query-input": {
+          "@type": "PropertyValueSpecification",
+          "valueRequired": true,
+          "valueName": "search_term_string"
+        }
+      }],
+      "inLanguage": "en-US"
+    }, {
+      "@type": "Organization",
+      "@id": "/#organization",
+      "name": "Nettechnocrats",
+      "url": "/",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "/#/schema/logo/image/",
+        "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+        "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+        "width": 205,
+        "height": 107,
+        "caption": "Nettechnocrats"
+      },
+      "image": {
+        "@id": "/#/schema/logo/image/"
+      },
+      "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+    }]
+  }
+</script>
+
 @section('content')
 <!-- Abvout Start -->
-<div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+<div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
     <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
       <div class="col-xl-7 wow fadeInLeft">
@@ -201,7 +295,7 @@
 <section class="portfolio-slider">
   <div class="slider owl-carousel">
     @foreach($datas as $data)
-    <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.png') }}'); background-repeat:no-repeat; background-size:cover;">
+    <div class="service-item" style="background: url('{{ asset('assets/web/sample__banner.webp') }}'); background-repeat:no-repeat; background-size:cover;">
 
       <div class="rounded-bottom  text-center d-flex align-items-center justify-content-center pt-4">
         <p class="me-4 text-success"><i class="fa-solid fa-arrow-up"></i></p>
@@ -393,31 +487,31 @@
 
 <section class="brand__images py-4">
   <div class="container">
-   <h3 class="text-center">Count On Our Passion For Technology</h3>
-   <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
-   </div>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
-   </div>
-   <div class="img__row">
-    <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
-    <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
-   </div>
+    <h3 class="text-center">Count On Our Passion For Technology</h3>
+    <p class="text-center">Since 2011, we have been going that extra mile to create exceptional digital strategies for our clients and their customers. That said, we are awarded by top-tier research firms and featured in premium magazines and journals.</p>
+    <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
+    </div>
+    <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
+    </div>
+    <div class="img__row">
+      <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
+      <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
+    </div>
   </div>
- </section>
+</section>
 
 <!-- Call To Action Section -->
 <section id="call-to-action" class="call-to-action section accent-background">

@@ -11,7 +11,7 @@
     <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+    <link rel="shortcut icon" href="img/icons/icon-48x48.webp" />
 
     <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
@@ -199,7 +199,7 @@
                 url: 'fetchBlogTopicApi',
                 method: 'GET',
                 dataType: 'json',
-                    
+
                 success: function(response) {
                     $.each(response.data, function(index, item) {
                         var element = document.createElement("div");
@@ -222,7 +222,7 @@
         });
 
         // Add Blog Topic
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             var inputText = document.getElementById("input-text");
             var addButton = document.getElementById("add-button");
             var elementContainer = document.getElementById("element-container");
@@ -230,7 +230,7 @@
             // Get CSRF token from the meta tag
             var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-            addButton.addEventListener("click", function (e) {
+            addButton.addEventListener("click", function(e) {
                 e.preventDefault();
                 $('.msg_err').text('');
                 var text = inputText.value.trim();
@@ -248,7 +248,7 @@
                             'text': text
                         },
                         dataType: 'json',
-                        success: function (response) {
+                        success: function(response) {
                             if (response.alreadyExist) {
                                 $('#allReadyExist').text(response.alreadyExist);
                             }
@@ -269,7 +269,7 @@
                                 inputText.value = "";
                             }
                         },
-                        error: function (xhr, status, error) {
+                        error: function(xhr, status, error) {
                             console.error(xhr.responseText);
                         }
                     });
@@ -277,7 +277,7 @@
             });
 
             // Add using Enter key
-            inputText.addEventListener("keypress", function (event) {
+            inputText.addEventListener("keypress", function(event) {
                 if (event.key === "Enter") {
                     addButton.click();
                 }
@@ -286,7 +286,7 @@
 
         // Remove Blog Topic
         $(document).on('click', '.fa-xmark', function() {
-        
+
             $('.msg_err').text('');
             var $this = $(this);
             var id = $this.attr('id');

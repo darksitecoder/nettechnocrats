@@ -2,20 +2,25 @@
   padding: 0;
   margin: 0;
 }
-.social-icons:before, .social-icons:after {
+
+.social-icons:before,
+.social-icons:after {
   content: " ";
   display: table;
 }
+
 .social-icons:after {
   clear: both;
 }
+
 .social-icons li {
   display: inline-block;
   list-style: none;
   margin-right: 5px;
   margin-bottom: 5px;
 }
-.social-icons li > a {
+
+.social-icons li>a {
   border-radius: 2px;
   width: 28px;
   height: 28px;
@@ -28,21 +33,25 @@
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
 }
+
 .social-icons li .google {
   background: url("../images/google.svg") no-repeat center center;
   border-radius: 2px;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
   border: 1px solid #4285f4;
 }
+
 .social-icons li .linkedin {
-  background: url("../images/linkedin.png") no-repeat;
+  background: url("../images/linkedin.webp") no-repeat;
   background-position: 0 -38px !important;
 }
+
 .social-icons li .facebook {
-  background: url("../images/facebook.png") no-repeat;
+  background: url("../images/facebook.webp") no-repeat;
   background-position: 0 -38px !important;
 }
+
 .social-icons li .github {
-  background: url("../images/github.png") no-repeat;
+  background: url("../images/github.webp") no-repeat;
   background-position: 0 -38px !important;
 }

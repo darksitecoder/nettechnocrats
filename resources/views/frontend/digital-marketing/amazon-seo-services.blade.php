@@ -5,9 +5,9 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Amazon SEO Services, Expert Amazon Marketing Company</title>
-<meta name="description" content="Maximize your Amazon visibility and sales with the best Amazon SEO services. Our expert Amazon marketing strategies ensure your products stand out in the online marketplace." />
-	 <!-- <link rel="stylesheet" href="style.css"> -->
- <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.png') }}">
+ <meta name="description" content="Maximize your Amazon visibility and sales with the best Amazon SEO services. Our expert Amazon marketing strategies ensure your products stand out in the online marketplace." />
+ <!-- <link rel="stylesheet" href="style.css"> -->
+ <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
   rel="stylesheet"
@@ -32,7 +32,7 @@
 <body>
  @include('partial/header')
  <!-- Abvout Start -->
- <div class="container-fluid about hero__banner__tech " style="background: url('{{ asset('assets/web/tech__background.png') }}'); background-repeat:no-repeat; background-size:cover;">
+ <div class="container-fluid about hero__banner__tech " style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-2">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-6 wow fadeInLeft">
