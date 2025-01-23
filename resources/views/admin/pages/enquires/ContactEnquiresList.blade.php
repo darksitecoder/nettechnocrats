@@ -228,7 +228,7 @@
                       <td>{{ $data->id }}</td>
                       <td>{{ $data->created_at->format('d-m-Y') }}</td>
                       <td>{{ $data->name }}</td>
-                      <td>{{ $data->subject }}</td>
+                      <td>{{ $data->phone }}</td>
                       <td>{{ $data->email }}</td>
                       <td class="d-none d-md-table-cell">
                         <button
