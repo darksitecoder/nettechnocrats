@@ -63,7 +63,7 @@ class Handler extends ExceptionHandler
         // Check if it's a 404 error (NotFoundHttpException)
         if ($exception instanceof NotFoundHttpException) {
             // Return a custom view for 404 errors
-            return response()->view('errors.404', [], 404);
+            return response()->view('frontend.tech.404', [], 404);
         }
 
         // Call the parent render method for all other exceptions
