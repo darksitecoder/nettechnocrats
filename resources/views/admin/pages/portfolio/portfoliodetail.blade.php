@@ -4,7 +4,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
+        <title>{{$portfolio[0]->seo_title??''}}</title>
+        <meta name="description" content="{{$portfolio[0]->seo_decription??''}}">
         <!-- <link rel="stylesheet" href="style.css"> -->
 
         <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -245,7 +246,7 @@
                         <p>{!! $blog->content !!}</p>
 
                         <!-- View More button with a link to portfolio details -->
-                        <a href="{{ url('/portfolio/software-development')}}" class="btn">
+                        <a href="{{ url('/portfolio/software-development.php')}}" class="btn">
                             View More Case Studies <i class="fa-solid fa-angles-right"></i>
                         </a>
                     </div>
