@@ -199,7 +199,7 @@
 
                 <div class="col-sm-6">
                     <p class="mb-4">Our innovative business models help business in improving productivity and operational excellence while achieving high-efficiency business value.</p>
-                    <a href="{{ url('contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+                    <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
                 </div>
                 <div class="col-sm-6">
                     <p class="mb-4">Our end to end Internet Of Things solution portfolio benefits organizations in facilitating their digital transformation journey.</p>
@@ -523,7 +523,7 @@
                     <div class="text-center">
                         <h3>Ready To Get Started?</h3>
                         <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-                        <a class="cta-btn" href="{{ url('contact-us')}}">Contact Us</a>
+                        <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
                     </div>
                 </div>
             </div>

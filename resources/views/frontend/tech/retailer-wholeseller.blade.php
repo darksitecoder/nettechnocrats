@@ -71,7 +71,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="{{ url('contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>
@@ -307,7 +307,7 @@
      <div class="text-center">
       <h3>A Results-Driven eCommerce SEO Agency</h3>
       <p>Nettechnocrats stands out as a renowned and successful eCommerce SEO firm, offering impactful optimization services to clients all over India and worldwide.</p>
-      <a class="cta-btn" href="{{ url('contact-us')}}">Contact Us</a>
+      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
      </div>
     </div>
    </div>

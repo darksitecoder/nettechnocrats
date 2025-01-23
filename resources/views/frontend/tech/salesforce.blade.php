@@ -174,7 +174,7 @@
         </div>
         <p class="mb-4">We aim to cater to varied industries with business-centric Salesforce app development focused on the core aspects of the clients’ business. Our brilliance in delivering custom-built solutions based on Salesforce technology led to the expansion of various organizations. With an award-winning track record in the integration of multiple customizations & creation of feature-loaded platforms and products like marketing cloud, sales cloud, service cloud, & more.</p>
 
-        <a href="{{url('/contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{url('/contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
     </div>
 </div>
 <!-- About End -->
