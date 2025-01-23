@@ -17,6 +17,7 @@ use App\Http\Controllers\Admin\BlogTopicController;
 use App\Http\Controllers\Admin\enquiresController;
 use App\Http\Controllers\ProposalController;
 use App\Http\Controllers\QuoteController;
+use App\Http\Middleware\EnsureTrailingSlash;
 
 /*
 |--------------------------------------------------------------------------
@@ -103,9 +104,13 @@ Route::get('/portfolio-seo-detail/{id}', [PortfolioController::class, 'portfolio
 Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
 
 
-Route::get('/seo-services/', [DigitalMarketingController::class, 'seo']);
-Route::get('/smo-services/', [DigitalMarketingController::class, 'smo']);
-Route::get('/ppc-services/', [DigitalMarketingController::class, 'ppc']);
+
+
+Route::get('/seo-services/', [DigitalMarketingController::class, 'seo'])->middleware(EnsureTrailingSlash::class);
+Route::get('/smo-services/', [DigitalMarketingController::class, 'smo'])->middleware(EnsureTrailingSlash::class);
+Route::get('/ppc-services/', [DigitalMarketingController::class, 'ppc'])->middleware(EnsureTrailingSlash::class);
+
+
 Route::get('/local-seo-services/', [DigitalMarketingController::class, 'local']);
 Route::get('/online-reputation-management/', [DigitalMarketingController::class, 'orm']);
 
