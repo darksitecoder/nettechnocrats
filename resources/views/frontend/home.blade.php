@@ -1689,8 +1689,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script>
-    $(document).ready(function () {
-        $('#quoteForm').on('submit', function (e) {
+    $(document).ready(function() {
+        $('#quoteForm').on('submit', function(e) {
             e.preventDefault(); // Prevent the form from submitting normally
 
             // Clear and hide the message container
@@ -1707,20 +1707,20 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     phone: $('#phone').val(),
                     website: $('#website').val()
                 },
-                success: function (response) {
+                success: function(response) {
                     // Show success message
                     $('.quoteFormMassage').show();
                     $('.quoteFormMassage .alert-success').html(response.message);
-                    
+
                     // Reset the form
                     $('#quoteForm')[0].reset();
                 },
-                error: function (xhr) {
+                error: function(xhr) {
                     // Show error messages, if available
                     const errors = xhr.responseJSON?.errors;
                     if (errors) {
                         let errorMessages = '';
-                        $.each(errors, function (key, value) {
+                        $.each(errors, function(key, value) {
                             errorMessages += `<p>${value[0]}</p>`;
                         });
                         $('.quoteFormMassage').show();
@@ -1735,4 +1735,5 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         });
     });
 </script>
+
 </html>
