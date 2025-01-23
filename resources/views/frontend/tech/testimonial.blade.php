@@ -686,6 +686,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
       }
     }
   </style>
+
+  @include('partial/google_analytics')
 </head>
 
 <body>

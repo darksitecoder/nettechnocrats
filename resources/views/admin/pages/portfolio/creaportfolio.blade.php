@@ -218,6 +218,23 @@
       background-color: transparent;
       border: none;
     }
+
+    .input__feilds {
+      border: 1px solid black;
+      font-size: 20px;
+      width: 100%;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .portfolio-feilds {
+      border: 1px solid black;
+      font-size: 15px;
+      width: 250px;
+      height: 30px;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
   </style>
 </head>
 
@@ -245,50 +262,52 @@
                 <input type="button" class="btn published" name="status" value="publish" />
               </div>
             </div>
-
-            <input type="text" name="portfolio_no" id="portfolio_no" value="{{$newPortfolioNo}}" />
-            <span class="text-danger" id="portfolio_no_err" style="font-size:13px;"></span>
-
-
-            <!-- category_1 Input Section -->
-            <div class="row pt-1 my-3 d-flex justify-content-center">
-              <div class="col-md-12 stretch-card grid-margin">
-                <select id="category_1" name="category_1">
-                  <option value="">-Select Category 1-</option>
-                  <option value="Software_Development">Software Development</option>
-                  <option value="Web_Development">Web Development</option>
-                  <option value="Apps_Development">Apps Development</option>
-                </select>
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <input type="text" name="portfolio_no" class="portfolio-feilds" id="portfolio_no" value="{{$newPortfolioNo}}" />
+                <span class="text-danger" id="portfolio_no_err" style="font-size:13px;"></span>
               </div>
-              <span class="text-danger" id="category_1_err" style="font-size:13px;"></span>
-            </div>
 
-            <!-- category_2 Input Section -->
-            <div class="row pt-1 my-3 d-flex justify-content-center">
-              <div class="col-md-12 stretch-card grid-margin">
-                <select id="category_2" name="category_2">
-                  <option value="">-Select Category 2-</option>
-
-                  <!-- Options for App Development -->
-                  <option data-parent="Apps_Development" value="UI/UX/Product Design">UI/UX/Product Design</option>
-                  <option data-parent="Apps_Development" value="PWA">PWA</option>
-
-                  <!-- Options for Web Development -->
-                  <option data-parent="Web_Development" value="Python">Python</option>
-                  <option data-parent="Web_Development" value="WordPress">WordPress</option>
-                  <option data-parent="Web_Development" value="Magento">Magento</option>
-                  <option data-parent="Web_Development" value="Joomla">Joomla</option>
-                  <option data-parent="Web_Development" value="Drupal">Drupal</option>
-
-                  <!-- Options for Software Development -->
-                  <option data-parent="Software_Development" value="Customer Software Development">Customer Software Development</option>
-                  <option data-parent="Software_Development" value="ERP Software Development">ERP Software Development</option>
-                  <option data-parent="Software_Development" value="CRM Development">CRM Development</option>
-                  <option data-parent="Software_Development" value="Salesforce Development">Salesforce Development</option>
-                  <option data-parent="Software_Development" value="Iot">Iot</option>
-                </select>
+              <!-- category_1 Input Section -->
+              <div class="row pt-1 my-3 d-flex justify-content-center">
+                <div class="col-md-12 stretch-card grid-margin">
+                  <select id="category_1" name="category_1" class="portfolio-feilds">
+                    <option value="">-Select Category 1-</option>
+                    <option value="Software_Development">Software Development</option>
+                    <option value="Web_Development">Web Development</option>
+                    <option value="Apps_Development">Apps Development</option>
+                  </select>
+                </div>
+                <span class="text-danger" id="category_1_err" style="font-size:13px;"></span>
               </div>
-              <span class="text-danger" id="category_2_err" style="font-size:13px;"></span>
+
+              <!-- category_2 Input Section -->
+              <div class="row pt-1 my-3 d-flex justify-content-center">
+                <div class="col-md-12 stretch-card grid-margin">
+                  <select id="category_2" name="category_2" class=" portfolio-feilds">
+                    <option value="">-Select Category 2-</option>
+
+                    <!-- Options for App Development -->
+                    <option data-parent="Apps_Development" value="UI/UX/Product Design">UI/UX/Product Design</option>
+                    <option data-parent="Apps_Development" value="PWA">PWA</option>
+
+                    <!-- Options for Web Development -->
+                    <option data-parent="Web_Development" value="Python">Python</option>
+                    <option data-parent="Web_Development" value="WordPress">WordPress</option>
+                    <option data-parent="Web_Development" value="Magento">Magento</option>
+                    <option data-parent="Web_Development" value="Joomla">Joomla</option>
+                    <option data-parent="Web_Development" value="Drupal">Drupal</option>
+
+                    <!-- Options for Software Development -->
+                    <option data-parent="Software_Development" value="Customer Software Development">Customer Software Development</option>
+                    <option data-parent="Software_Development" value="ERP Software Development">ERP Software Development</option>
+                    <option data-parent="Software_Development" value="CRM Development">CRM Development</option>
+                    <option data-parent="Software_Development" value="Salesforce Development">Salesforce Development</option>
+                    <option data-parent="Software_Development" value="Iot">Iot</option>
+                  </select>
+                </div>
+                <span class="text-danger" id="category_2_err" style="font-size:13px;"></span>
+              </div>
             </div>
             <!-- Image Upload Section -->
             <div class="row pt-3 d-flex justify-content-center">
@@ -318,7 +337,7 @@
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <!-- Display company_name Validation Error -->
               <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="company_name" name="company_name" class="blog__company_name" value="" placeholder="Enter Company Name">
+                <input type="text" id="company_name" name="company_name" class="blog__company_name input__feilds" value="" placeholder="Enter Company Name">
               </div>
               <span class="text-danger" id="company_name_err" style="font-size:13px;"></span>
             </div>
@@ -332,7 +351,16 @@
               <span class="text-danger" id="content_err" style="font-size:13px;"></span>
             </div>
 
-
+            <div class="row pt-1 my-3 d-flex justify-content-center">
+              <!-- Display company_name Validation Error -->
+              <div class="col-md-12 stretch-card grid-margin mb-3">
+                <input type="text" id="company_name" name="company_name" class="blog__company_name input__feilds" value="" placeholder="Enter SEO Title">
+              </div>
+              <div class="col-md-12 stretch-card grid-margin">
+                <input type="text" id="industry" name="industry" class="blog__company_name input__feilds" value="" placeholder="Enter SEO Description">
+              </div>
+              <span class="text-danger" id="company_name_err" style="font-size:13px;"></span>
+            </div>
             <div id="showTableTR" style="display: none;">
               <div class="table-responsive">
                 <table class="table" id="table" style="border: none;">
