@@ -228,8 +228,8 @@
                       <td>{{ $data->id }}</td>
                       <td>{{ $data->created_at->format('d-m-Y') }}</td>
                       <td>{{ $data->name }}</td>
-                      <td>{{ $data->phone }}</td>
                       <td>{{ $data->email }}</td>
+                      <td>{{ $data->phone }}</td>
                       <td class="d-none d-md-table-cell">
                         <button
                           class="badge px-2 py-1 fs-6 edit trigger"
