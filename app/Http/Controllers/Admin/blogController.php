@@ -146,6 +146,8 @@ class blogController extends Controller
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
             'video' => 'nullable|mimes:mp4,mov,ogg,qt',
             'pdf' => 'nullable|mimes:pdf',
+            'seo_title' => 'required',
+            'seo_decription' => 'required',
             'status' => 'nullable|string|in:save,publish',
         ]);
 
@@ -192,6 +194,8 @@ class blogController extends Controller
             'image' => $imagePath,
             'video' => $videoPath,
             'pdf' => $pdfPath,
+            'seo_title' => $validatedData['seo_title'],
+            'seo_decription' => $validatedData['seo_decription'],
             'status' => $status,
             'created_by' => $user->id
         ]);
@@ -260,6 +264,8 @@ class blogController extends Controller
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
             'video' => 'nullable|mimes:mp4,mov,ogg,qt',
             'pdf' => 'nullable|mimes:pdf',
+            'seo_title' => 'required',
+            'seo_decription' => 'required',
             'action' => 'nullable|string|in:save,publish', // Optional: if you want to differentiate between save and publish
         ]);
 
@@ -310,6 +316,8 @@ class blogController extends Controller
             'image' => $imagePath,
             'video' => $videoPath,
             'pdf' => $pdfPath,
+            'seo_title' => $validatedData['seo_title'],
+            'seo_decription' => $validatedData['seo_decription'],
             'status' => $validatedData['action'] ?? 'save', // Default to 'save' if not provided
         ]);
 

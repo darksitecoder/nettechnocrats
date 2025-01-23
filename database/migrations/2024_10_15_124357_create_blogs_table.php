@@ -17,6 +17,10 @@ class CreateBlogsTable extends Migration
             $table->string('image')->nullable(); // Image path
             $table->string('video')->nullable(); // Video path
             $table->string('pdf')->nullable(); // PDF path
+             
+            $table->string('seo_title', 255)->nullable();
+            $table->string('seo_decription', 255)->nullable();
+            
             $table->enum('status', ['save', 'publish'])->nullable(); // Status
             $table->string('created_by', 255); // created_by
             $table->timestamps(); // Created at & Updated at

@@ -26,6 +26,9 @@ class portfolio extends Model
         'image_start',
         'image_final',
         'company_name',
+
+        'seo_title',
+        'seo_decription',
         'status',
         'created_by',
     ];

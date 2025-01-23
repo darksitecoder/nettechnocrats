@@ -103,15 +103,20 @@ Route::get('/portfolio-seo-detail/{id}', [PortfolioController::class, 'portfolio
 
 Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
 
+// Route::middleware('trailing-slash')->group(function () {
+//     Route::get('/seo-services', [SeoController::class, 'index']);
+//     // other routes that require trailing slash
+// });
 
 
 
-Route::get('/seo-services/', [DigitalMarketingController::class, 'seo'])->middleware(EnsureTrailingSlash::class);
-Route::get('/smo-services/', [DigitalMarketingController::class, 'smo'])->middleware(EnsureTrailingSlash::class);
-Route::get('/ppc-services/', [DigitalMarketingController::class, 'ppc'])->middleware(EnsureTrailingSlash::class);
+
+Route::get('/seo-services.php', [DigitalMarketingController::class, 'seo']);
+Route::get('/smo-services.php', [DigitalMarketingController::class, 'smo']);
+Route::get('/ppc-services.php', [DigitalMarketingController::class, 'ppc']);
 
 
-Route::get('/local-seo-services/', [DigitalMarketingController::class, 'local']);
+Route::get('/local-seo-services.php', [DigitalMarketingController::class, 'local']);
 Route::get('/online-reputation-management/', [DigitalMarketingController::class, 'orm']);
 
 Route::get('/healthcare-seo-services', [DigitalMarketingController::class, 'healthcare']);
@@ -143,7 +148,7 @@ Route::get('/blog', [blogController::class, 'blog']);
 
 
 Route::get('/e-wallet-app-development', [TechController::class, 'wallet']);
-Route::get('/ui-ux-design-services', [TechController::class, 'uiux']);
+Route::get('/ui-ux-design-services.php', [TechController::class, 'uiux']);
 
 
 Route::get('/blogs', [blogController::class, 'listBlogsFrontEnd']);
