@@ -59,9 +59,9 @@
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
                   <ul>
-                    <li><a href="{{url('/seo-service.php')}}" data-image="{{ asset('assets/web/nav-images/seo.webp') }}">SEO</a></li>
-                    <li><a href="{{url('/smo-service.php')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">SMO</a></li>
-                    <li><a href="{{url('/ppc-service.php')}}" data-image="">PPC</a></li>
+                    <li><a href="{{url('/seo-services.php')}}" data-image="{{ asset('assets/web/nav-images/seo.webp') }}">SEO</a></li>
+                    <li><a href="{{url('/smo-services.php')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">SMO</a></li>
+                    <li><a href="{{url('/ppc-services.php')}}" data-image="">PPC</a></li>
                     <li><a href="{{url('/online-reputation-management.php')}}" data-image="">ORM</a></li>
                     <li><a href="" data-image="">AEO</a></li>
                     <li><a href="{{url('/local-seo-services.php')}}" data-image="">Local SEO</a></li>
