@@ -269,33 +269,32 @@ Route::view('/industries', 'frontend.industries.industries');
 
 // digital-marketing
 // Route::view('/affiliate-marketplace', 'frontend.digital-marketing.affiliate-marketplace');
-Route::view('/amazon-ppc-services', 'frontend.digital-marketing.amazon-ppc-services');
-Route::view('/amazon-seo-services', 'frontend.digital-marketing.amazon-seo-services');
-Route::view('/amazon-web-services', 'frontend.digital-marketing.amazon-web-services');
-Route::view('/email-marketing', 'frontend.digital-marketing.email-marketing');
-Route::view('/finance-banking-software-development', 'frontend.digital-marketing.finance-banking-software-development');
-Route::view('/instagram-marketing-services', 'frontend.digital-marketing.instagram-marketing-services');
-Route::view('/media-advertisement', 'frontend.digital-marketing.media-advertisement');
-Route::view('/real-state-portal-development-company', 'frontend.digital-marketing.real-state-portal-development-company');
-Route::view('/seo-for-banks', 'frontend.digital-marketing.seo-for-banks');
-Route::view('/seo-reseller', 'frontend.digital-marketing.seo-reseller');
-Route::view('/seo-political-campaigns-management', 'frontend.digital-marketing.seo-political-campaigns-management');
-Route::view('/social-media-marketing-services', 'frontend.digital-marketing.social-media-marketing-services');
-Route::view('/seo-company-ahmedabad', 'frontend.digital-marketing.seo-company-ahmedabad');
-Route::view('/seo-company-delhi', 'frontend.digital-marketing.seo-company-delhi');
-Route::view('/seo-company-bangalore', 'frontend.digital-marketing.seo-company-bangalore');
-Route::view('/seo-services-chandigarh', 'frontend.digital-marketing.seo-services-chandigarh');
-Route::view('/seo-company-chennai', 'frontend.digital-marketing.seo-company-chennai');
-Route::view('/seo-for-real-estate', 'frontend.digital-marketing.seo-for-real-estate');
-Route::view('/seo-company-ghaziabad', 'frontend.digital-marketing.seo-company-ghaziabad');
-Route::view('/seo-for-colleges-university', 'frontend.digital-marketing.seo-for-colleges-university');
-Route::view('/seo-services-for-hotels-and-restaurants', 'frontend.digital-marketing.seo-services-for-hotels-and-restaurants');
-Route::view('/shopify-seo-agency', 'frontend.digital-marketing.shopify-seo-agency');
-Route::view('/squarespace-seo-services', 'frontend.digital-marketing.squarespace-seo-services');
-Route::view('/wix-seo-agency', 'frontend.digital-marketing.wix-seo-agency');
-Route::view('/video-marketing', 'frontend.digital-marketing.video-marketing');
+Route::view('/amazon-ppc-services.php', 'frontend.digital-marketing.amazon-ppc-services');
+Route::view('/amazon-seo-services.php', 'frontend.digital-marketing.amazon-seo-services');
+Route::view('/amazon-web-services.php', 'frontend.digital-marketing.amazon-web-services');
+Route::view('/email-marketing.php', 'frontend.digital-marketing.email-marketing');
+Route::view('/finance-banking-software-development.php', 'frontend.digital-marketing.finance-banking-software-development');
+Route::view('/instagram-marketing-services.php', 'frontend.digital-marketing.instagram-marketing-services');
+Route::view('/media-advertisement.php', 'frontend.digital-marketing.media-advertisement');
+Route::view('/real-state-portal-development-company.php', 'frontend.digital-marketing.real-state-portal-development-company');
+Route::view('/seo-for-banks.php', 'frontend.digital-marketing.seo-for-banks');
+Route::view('/seo-reseller.php', 'frontend.digital-marketing.seo-reseller');
+Route::view('/seo-political-campaigns-management.php', 'frontend.digital-marketing.seo-political-campaigns-management');
+Route::view('/social-media-marketing-services.php', 'frontend.digital-marketing.social-media-marketing-services');
+Route::view('/seo-company-ahmedabad.php', 'frontend.digital-marketing.seo-company-ahmedabad');
+Route::view('/seo-company-delhi.php', 'frontend.digital-marketing.seo-company-delhi');
+Route::view('/seo-company-bangalore.php', 'frontend.digital-marketing.seo-company-bangalore');
+Route::view('/seo-services-chandigarh.php', 'frontend.digital-marketing.seo-services-chandigarh');
+Route::view('/seo-company-chennai.php', 'frontend.digital-marketing.seo-company-chennai');
+Route::view('/seo-for-real-estate.php', 'frontend.digital-marketing.seo-for-real-estate');
+Route::view('/seo-company-ghaziabad.php', 'frontend.digital-marketing.seo-company-ghaziabad');
+Route::view('/seo-for-colleges-university.php', 'frontend.digital-marketing.seo-for-colleges-university');
+Route::view('/seo-services-for-hotels-and-restaurants.php', 'frontend.digital-marketing.seo-services-for-hotels-and-restaurants');
+Route::view('/shopify-seo-agency.php', 'frontend.digital-marketing.shopify-seo-agency');
+Route::view('/squarespace-seo-services.php', 'frontend.digital-marketing.squarespace-seo-services');
+Route::view('/wix-seo-agency.php', 'frontend.digital-marketing.wix-seo-agency');
+Route::view('/video-marketing.php', 'frontend.digital-marketing.video-marketing');
 
 Route::get('/404', function () {
     return view('frontend.tech.404'); // You can change this to your custom 404 view
 })->name('404');
-
