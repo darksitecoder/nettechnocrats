@@ -33,7 +33,22 @@
    height: 500px;
   } */
 
-  .home-button {}
+  .home-button {
+   border: 1px solid var(--green);
+   background-color: var(--green);
+   padding: 8px 12px;
+   color: var(--black);
+   border-radius: 5px;
+   font-size: 21px;
+   font-weight: 600;
+   transition: 0.5s ease-in-out;
+  }
+
+  .home-button:hover {
+   border: 1px solid var(--black);
+   background-color: var(--black);
+   color: var(--green);
+  }
  </style>
 </head>
 
@@ -57,7 +72,7 @@
    </div>
   </div>
  </div>
- <div class="container">
+ <div class="container py-5 my-5">
   <div class="row">
    <div class="col-md-12 d-flex justify-content-center align-item-center">
     <a href="{{ url('/')}}" class="home-button">Visit Home Page</a>
