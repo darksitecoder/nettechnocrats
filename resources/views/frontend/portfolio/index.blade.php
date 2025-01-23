@@ -219,7 +219,7 @@
 
 
                     <div class=" thumbnail__overlay">
-                        <a class="btn" href="{{ url('/portfoliodetails/' . $blog->id) }}">VIEW CASE STUDY</a>
+                        <a class="btn" href="{{ url($blog->id.'/portfoliodetails.php') }}">VIEW CASE STUDY</a>
                     </div>
                 </div>
                 <div class="desc">

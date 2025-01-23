@@ -505,7 +505,7 @@
               <hr style="color: var(--blue); height:5px;" />
               @foreach($blogLTS as $data)
               <div class="list">
-                <a href="{{url('blogdetail/'.$data->slug) }}">
+                <a href="{{url('blogdetail/' . $data->slug . '.php') }}">
                   <div class="list__heading d-flex justify-content-between">
                     <h4>{{ strlen($data->heading) > 35 ? substr($data->heading, 0, 35) . '...' : $data->heading }}</h4> <span style="color: var(--green);">[New]</span>
                   </div>
@@ -524,7 +524,7 @@
               </div>
               @foreach($blogTPC as $data)
               <div class="pdf__card mt-3">
-                <a href="{{url('blogdetail/'.$data->slug) }}">
+                <a href="{{url('blogdetail/' . $data->slug . '.php') }}">
                   <img src="{{ asset('/'.$data->image) }}" alt="Blogs Images" srcset="">
                 </a>
                 <p class="text-center">{!! strlen($data->topic) > 25 ? substr($data->topic, 0, 25) . '...' : $data->topic !!}</p>
@@ -617,7 +617,7 @@
           @foreach($blogRAN as $data)
           <div class="slide">
             <img src="{{ asset('/'.$data->image) }}" alt="" class="mt-2" srcset="" style="height: 200px; width:90%;">
-            <a href="{{url('blogdetail/'.$data->slug) }}">
+            <a href="{{url('blogdetail/' . $data->slug . '.php') }}">
               <h6>{{ strlen($data->heading) > 25 ? substr($data->heading, 0, 25) . '...' : $data->heading }}</h6>
               <div class="author__date d-flex justify-content-between">
                 <b>Nettechnocrats </b>&nbsp;&nbsp;

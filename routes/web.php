@@ -97,11 +97,11 @@ Route::get('/tour-travel-app-development.php', [IndustriesController::class, 'tr
 
 
 
-Route::get('/portfolio/{category_1}', [PortfolioController::class, 'index']);
+Route::get('/portfolio/{category_1}.php', [PortfolioController::class, 'index']);
 Route::get('/portfolio-seo-list.php', [PortfolioController::class, 'portfolio_seo']);
-Route::get('/portfolio-seo-detail/{id}', [PortfolioController::class, 'portfolio_seo_detail']);
+Route::get('/{id}/portfolio-seo-detail.php', [PortfolioController::class, 'portfolio_seo_detail']);
 
-Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
+Route::get('/{id}/portfoliodetails.php', [PortfolioController::class, 'portfoliodetail']);
 
 
 
@@ -149,7 +149,7 @@ Route::get('/ui-ux-design-services.php', [TechController::class, 'uiux']);
 
 
 Route::get('/blogs.php', [blogController::class, 'listBlogsFrontEnd']);
-Route::get('/blogdetail/{slug}', [blogController::class, 'blogDetailFrontEnd']);
+Route::get('/blogdetail/{slug}.php', [blogController::class, 'blogDetailFrontEnd']);
 
 Route::middleware(['auth'])->group(function () {
     // Protected route for the admin dashboard
