@@ -336,7 +336,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="{{ url('contact-us')}}">Contact Us</a>
+      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
      </div>
     </div>
    </div>

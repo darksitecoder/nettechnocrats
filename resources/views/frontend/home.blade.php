@@ -741,8 +741,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             <h1 class="py-2">Unlock Digital <br> Excellence, Propel Your <br> Brand Forward! </h1>
                             <p class="py-3 banner__description">Experience digital dominance with Nettechnocrats. Our data-driven SEO and digital marketing expertise empower your brand to thrive online. Watch as your business soars with top SERP rankings, high conversion rates, and a surge in web traffic. Join us on this exhilarating journey to successin the digital realm!</p>
                             <div class="banner__btn d-flex">
-                                <a href="{{ url('contact-us')}}" class="btn get__touch mx-1">Get In Touch</a>
-                                <a href="{{ url('contact-us')}}" class="btn audit mx-1">Request For Audit</a>
+                                <a href="{{ url('contact-us.php')}}" class="btn get__touch mx-1">Get In Touch</a>
+                                <a href="{{ url('contact-us.php')}}" class="btn audit mx-1">Request For Audit</a>
                             </div>
                         </div>
                         <div class="col-lg-4"><img src="{{ asset('assets/web/hero_banner.webp') }}" alt="" srcset=""></div>
@@ -795,7 +795,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             <p>With Nettechnocrats, you gain access to our expertise and industry insights, empowering your business to thrive in the long run. Embark on your journey toward lasting success today!
                             </p>
                             <br>
-                            <a href="{{ url('contact-us')}}" class="about__btn mt-4">Talk With Our Experts</a>
+                            <a href="{{ url('contact-us.php')}}" class="about__btn mt-4">Talk With Our Experts</a>
                         </div>
                     </div>
                 </section>
@@ -1326,7 +1326,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             <p class="industries__tag">INDUSTRIES</p>
                             <h3>A Unified Vision That Caters to Diverse Industry Demands</h3>
                             <p class="pb-3">As an experienced Search Engine Optimization company in India, we level up your SEO efforts to create brand awareness and ensure increased revenues. By utilizing cutting-edge strategies, conducting detailed analyses, and establishing innovative approaches, we go above and beyond to help you expand your businesses and ensure long-term success.</p>
-                            <a href="{{ url('contact-us')}}" class="card__read__more mt-5">Contact Us <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="{{ url('contact-us.php')}}" class="card__read__more mt-5">Contact Us <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -1689,8 +1689,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script>
-    $(document).ready(function () {
-        $('#quoteForm').on('submit', function (e) {
+    $(document).ready(function() {
+        $('#quoteForm').on('submit', function(e) {
             e.preventDefault(); // Prevent the form from submitting normally
 
             // Clear and hide the message container
@@ -1707,20 +1707,20 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     phone: $('#phone').val(),
                     website: $('#website').val()
                 },
-                success: function (response) {
+                success: function(response) {
                     // Show success message
                     $('.quoteFormMassage').show();
                     $('.quoteFormMassage .alert-success').html(response.message);
-                    
+
                     // Reset the form
                     $('#quoteForm')[0].reset();
                 },
-                error: function (xhr) {
+                error: function(xhr) {
                     // Show error messages, if available
                     const errors = xhr.responseJSON?.errors;
                     if (errors) {
                         let errorMessages = '';
-                        $.each(errors, function (key, value) {
+                        $.each(errors, function(key, value) {
                             errorMessages += `<p>${value[0]}</p>`;
                         });
                         $('.quoteFormMassage').show();
@@ -1735,4 +1735,5 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         });
     });
 </script>
+
 </html>

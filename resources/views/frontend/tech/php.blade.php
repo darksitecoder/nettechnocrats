@@ -184,7 +184,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="{{ url('contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>

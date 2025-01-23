@@ -195,7 +195,7 @@
         </div>
       </div>
       <p class="mb-4">Our Python developers have rich experience in utilizing the full potential of this open-source programming language. Scalability is the biggest advantage of Python, which is why it is loved by developers and business owner who are looking for the long term business establishment in this competitive market. Our skilled offshore Python developers have more than 5 years of ordinary experience and ensure to offer the best enterprise web applications using standard Django, NumPy, Flask, Pyramid and Web2py frameworks with pace & precision while saving your development cost.</p>
-      <a href="{{ url('contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+      <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
     </div>
   </div>
   <!-- About End -->

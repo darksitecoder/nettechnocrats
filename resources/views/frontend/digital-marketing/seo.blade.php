@@ -262,7 +262,7 @@
               We take a consultative approach with clients. Our client's SEO marketing needs are paramount and that's why we work closely with you at every step of SEO process. Our SEO services are proven to bring more traffic on the website from the search engines and resulting in more customers, sales and ROI.
             </p>
 
-            <a href="{{ url('contact-us')}}" class="contact__btn mt-5">Talk to our consultant</a>
+            <a href="{{ url('contact-us.php')}}" class="contact__btn mt-5">Talk to our consultant</a>
           </div>
         </div>
 
@@ -506,7 +506,7 @@
               <h3>Now When You Know All <span>About Our Brilliance </span></h3>
               <p>Let's Connect to discuss your <strong>SEO Services</strong> project.</p>
               <p><strong>Go Ahead & Fill The Form Below</strong></p>
-              <a class="cta-btn" href="{{ url('contact-us')}}">Call To Action</a>
+              <a class="cta-btn" href="{{ url('contact-us.php')}}">Call To Action</a>
             </div>
           </div>
         </div>
