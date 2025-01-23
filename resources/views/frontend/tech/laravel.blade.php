@@ -140,6 +140,7 @@
  <style>
 
  </style>
+ @include('partial/google_analytics')
 </head>
 
 <body>
@@ -153,6 +154,7 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Laravel Web Application Development Company In India</h1>
       <p class="mb-4 text-white">Get Cost-effective and highly futuristic Laravel solutions to develop business growth</p>
+      @include('partial/proposal')
      </div>
 
      <section id="contact" class="contact__section section">

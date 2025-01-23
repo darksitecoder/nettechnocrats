@@ -47,6 +47,7 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Retail Software Solutions</h1>
       <p class="mb-4 text-white">Increase Your Retail and Trade Profitability With Our Advanced Solutions</p>
+      @include('partial/proposal')
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
