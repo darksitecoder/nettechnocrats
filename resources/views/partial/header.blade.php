@@ -59,17 +59,17 @@
                 <div class="list-item">
                   <h4 class="title fw-bold ps-4">Digital Marketing</h4>
                   <ul>
-                    <li><a href="{{url('/seo-services/')}}" data-image="{{ asset('assets/web/nav-images/seo.webp') }}">SEO</a></li>
-                    <li><a href="{{url('/smo-services/')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">SMO</a></li>
-                    <li><a href="{{url('/ppc-services/')}}" data-image="">PPC</a></li>
+                    <li><a href="{{url('/seo-service.php')}}" data-image="{{ asset('assets/web/nav-images/seo.webp') }}">SEO</a></li>
+                    <li><a href="{{url('/smo-service.php')}}" data-image="{{ asset('assets/web/nav-images/smo.webp') }}">SMO</a></li>
+                    <li><a href="{{url('/ppc-service.php')}}" data-image="">PPC</a></li>
                     <li><a href="{{url('/online-reputation-management/')}}" data-image="">ORM</a></li>
                     <li><a href="" data-image="">AEO</a></li>
-                    <li><a href="{{url('/local-seo-services/')}}" data-image="">Local SEO</a></li>
+                    <li><a href="{{url('/local-seo-services.php')}}" data-image="">Local SEO</a></li>
                     <li><a href="{{url('/#/')}}" data-image="">SEO Reseller</a></li>
                   </ul>
                   <h4 class="title fw-bold ps-4">Mobile App</h4>
                   <ul>
-                    <li><a href="{{url('/ui-ux-design-services')}}" data-image="">UI/UX/Product Design</a></li>
+                    <li><a href="{{url('/ui-ux-design-services.php')}}" data-image="">UI/UX/Product Design</a></li>
                     <li><a href="{{url('#')}}" data-image="">PWA</a></li>
                   </ul>
 
