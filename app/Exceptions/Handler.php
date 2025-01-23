@@ -5,6 +5,7 @@ namespace App\Exceptions;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Illuminate\Http\Request;
 
 class Handler extends ExceptionHandler
 {
@@ -14,7 +15,7 @@ class Handler extends ExceptionHandler
      * @var array<class-string<\Throwable>, \Psr\Log\LogLevel::*>
      */
     protected $levels = [
-        //
+        // Customize log levels here if needed
     ];
 
     /**
@@ -23,7 +24,7 @@ class Handler extends ExceptionHandler
      * @var array<int, class-string<\Throwable>>
      */
     protected $dontReport = [
-        //
+        // Add exceptions that you don't want to report
     ];
 
     /**
@@ -31,6 +32,7 @@ class Handler extends ExceptionHandler
      *
      * @var array<int, string>
      */
+    // If you want to prevent specific fields from being flashed to the session, you can uncomment and modify this.
     // protected $dontFlash = [
     //     'current_password',
     //     'password',
@@ -45,20 +47,26 @@ class Handler extends ExceptionHandler
     public function register()
     {
         $this->reportable(function (Throwable $e) {
-            //
+            // Custom exception reporting logic (if needed)
         });
     }
 
+    /**
+     * Render an exception into an HTTP response.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Throwable  $exception
+     * @return \Illuminate\Http\Response
+     */
     public function render($request, Throwable $exception)
     {
+        // Check if it's a 404 error (NotFoundHttpException)
         if ($exception instanceof NotFoundHttpException) {
-            return redirect()->route('404');
-
+            // Return a custom view for 404 errors
+            return response()->view('errors.404', [], 404);
         }
 
+        // Call the parent render method for all other exceptions
         return parent::render($request, $exception);
     }
-
-
 }
-    
