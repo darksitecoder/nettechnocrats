@@ -235,31 +235,31 @@ Route::post('/enquiryFormSubmit', [enquiresController::class, 'enquiryFormSubmit
 // Routs for static pages
 
 // tech
-Route::view('/tech-stack', 'frontend.tech.tech-stack');
-Route::view('/wordpress-seo-agency', 'frontend.tech.wordpress-seo-agency');
-Route::view('/certificate', 'frontend.tech.certificate');
-Route::view('/automobile-software-solutions', 'frontend.tech.automobile-software-solutions');
-Route::view('/methodology', 'frontend.tech.methodology');
-Route::view('/testimonial', 'frontend.tech.testimonial');
-Route::view('/partners', 'frontend.tech.partners');
-Route::view('/content-writing-services', 'frontend.tech.content-writing-services');
-Route::view('/landing-page-development', 'frontend.tech.landing-page-development');
-Route::view('/thank-you', 'frontend.tech.thank-you');
+Route::view('/tech-stack.php', 'frontend.tech.tech-stack');
+Route::view('/wordpress-seo-agency.php', 'frontend.tech.wordpress-seo-agency');
+Route::view('/certificate.php', 'frontend.tech.certificate');
+Route::view('/automobile-software-solutions.php', 'frontend.tech.automobile-software-solutions');
+Route::view('/methodology.php', 'frontend.tech.methodology');
+Route::view('/testimonial.php', 'frontend.tech.testimonial');
+Route::view('/partners.php', 'frontend.tech.partners');
+Route::view('/content-writing-services.php', 'frontend.tech.content-writing-services');
+Route::view('/landing-page-development.php', 'frontend.tech.landing-page-development');
+Route::view('/thank-you.php', 'frontend.tech.thank-you');
 // Route::view('/ott-video-app-development', 'frontend.tech.ott-video-app-development');
-Route::view('/mobile-app-development', 'frontend.tech.mobile-app-development');
-Route::view('/privacy-policy', 'frontend.tech.privacy-policy');
-Route::view('/resources', 'frontend.tech.resources');
-Route::view('/retailer-wholeseller', 'frontend.tech.retailer-wholeseller');
-Route::view('/web-development', 'frontend.tech.web-development');
-Route::view('/location', 'frontend.tech.location');
-Route::view('/pwa', 'frontend.tech.pwa');
-Route::view('/customer-software-development', 'frontend.tech.customer_software_development');
-Route::view('/erp-software-development', 'frontend.tech.erp_software_development');
-Route::view('/crm-development', 'frontend.tech.crm_development');
-Route::view('/generative-ai', 'frontend.tech.generative_ai');
-Route::view('/google-vision', 'frontend.tech.google_vision');
-Route::view('/quality-analysis', 'frontend.tech.quality_analysis');
-Route::view('/software-development', 'frontend.tech.software-development');
+Route::view('/mobile-app-development.php', 'frontend.tech.mobile-app-development');
+Route::view('/privacy-policy.php', 'frontend.tech.privacy-policy');
+Route::view('/resources.php', 'frontend.tech.resources');
+Route::view('/retailer-wholeseller.php', 'frontend.tech.retailer-wholeseller');
+Route::view('/web-development.php', 'frontend.tech.web-development');
+Route::view('/location.php', 'frontend.tech.location');
+Route::view('/pwa.php', 'frontend.tech.pwa');
+Route::view('/customer-software-development.php', 'frontend.tech.customer_software_development');
+Route::view('/erp-software-development.php', 'frontend.tech.erp_software_development');
+Route::view('/crm-development.php', 'frontend.tech.crm_development');
+Route::view('/generative-ai.php', 'frontend.tech.generative_ai');
+Route::view('/google-vision.php', 'frontend.tech.google_vision');
+Route::view('/quality-analysis.php', 'frontend.tech.quality_analysis');
+Route::view('/software-development.php', 'frontend.tech.software-development');
 
 
 // industries
