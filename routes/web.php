@@ -295,4 +295,4 @@ Route::view('/squarespace-seo-services', 'frontend.digital-marketing.squarespace
 Route::view('/wix-seo-agency', 'frontend.digital-marketing.wix-seo-agency');
 Route::view('/video-marketing', 'frontend.digital-marketing.video-marketing');
 
-Route::view('/404', 'frontend.tech.404');
+Route::view('/404', 'frontend.tech.404')->name('404');
