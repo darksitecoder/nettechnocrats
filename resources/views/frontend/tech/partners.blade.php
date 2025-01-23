@@ -39,6 +39,8 @@
    width: 50%;
   }
  </style>
+
+ @include('partial/google_analytics')
 </head>
 
 <body>

@@ -136,7 +136,7 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
-
+ @include('partial/google_analytics')
  <style>
   /* .service .service-item {
    height: 500px;
@@ -183,7 +183,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{ url('contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>
