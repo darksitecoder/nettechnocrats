@@ -2,40 +2,40 @@
     <div class="row">
         <div class="col-lg-2">
             <h5 class="fs-5">Experties</h5>
-            <p><a href="{{url('seo-services/')}}">SEO Services</a></p>
-            <p><a href="{{url('smo-services/')}}">SMO Services</a></p>
-            <p><a href="{{url('ppc-services/')}}">PPC Services</a></p>
-            <p><a href="{{url('digital-marketing')}}">Digital Marketing</a></p>
-            <p><a href="{{url('landing-page-development')}}">Landing Page Development</a></p>
+            <p><a href="{{url('seo-services.php')}}">SEO Services</a></p>
+            <p><a href="{{url('smo-services.php')}}">SMO Services</a></p>
+            <p><a href="{{url('ppc-services.php')}}">PPC Services</a></p>
+            <p><a href="{{url('digital-marketing.php')}}">Digital Marketing</a></p>
+            <p><a href="{{url('landing-page-development.php')}}">Landing Page Development</a></p>
         </div>
         <div class="col-lg-2">
             <h5 class="fs-5">SEO BY INDUSTRY</h5>
-            <p><a href="{{url('law-firm-seo')}}">Law Firm SEO</a></p>
-            <p> <a href="{{url('healthcare-seo-services')}}">Healthcare SEO</a></p>
-            <p><a href="{{url('limo-seo-services')}}">limo SEO</a></p>
-            <p> <a href="{{url('e-commerce-seo-services')}}">E-commerce SEO</a></p>
-            <p><a href="{{url('shopify-seo-agency')}}">Shopify SEO</a></p>
-            <p><a href="{{url('wix-seo-agency')}}">WIX SEO</a></p>
+            <p><a href="{{url('law-firm-seo.php')}}">Law Firm SEO</a></p>
+            <p> <a href="{{url('healthcare-seo-services.php')}}">Healthcare SEO</a></p>
+            <p><a href="{{url('limo-seo-services.php')}}">limo SEO</a></p>
+            <p> <a href="{{url('e-commerce-seo-services.php')}}">E-commerce SEO</a></p>
+            <p><a href="{{url('shopify-seo-agency.php')}}">Shopify SEO</a></p>
+            <p><a href="{{url('wix-seo-agency.php')}}">WIX SEO</a></p>
         </div>
         <div class="col-lg-2">
             <h5 class="invisible">More Links</h5>
-            <p><a href="{{url('wordpress-seo-agency')}}">Wordpress SEO</a></p>
-            <p><a href="{{url('online-reputation-management')}}">ORM</a></p>
-            <p><a href="{{url('local-seo-services')}}">Local SEO</a></p>
-            <p><a href="{{url('seo-reseller')}}">SEO Reseller</a></p>
-            <p><a href="{{url('amazon-seo-services')}}">Amazon SEO</a></p>
-            <p><a href="{{url('squarespace-seo-services')}}">Squarespace SEO</a></p>
+            <p><a href="{{url('wordpress-seo-agency.php')}}">Wordpress SEO</a></p>
+            <p><a href="{{url('online-reputation-management.php')}}">ORM</a></p>
+            <p><a href="{{url('local-seo-services.php')}}">Local SEO</a></p>
+            <p><a href="{{url('seo-reseller.php')}}">SEO Reseller</a></p>
+            <p><a href="{{url('amazon-seo-services.php')}}">Amazon SEO</a></p>
+            <p><a href="{{url('squarespace-seo-services.php')}}">Squarespace SEO</a></p>
         </div>
         <div class="col-lg-6">
             <h5>About Company</h5>
             <div class="row">
                 <div class="col-lg-6">
-                    <p><a href="{{url('about-us')}}">About Us</a></p>
-                    <p><a href="{{url('certificate')}}">Certifications</a></p>
+                    <p><a href="{{url('about-us.php')}}">About Us</a></p>
+                    <p><a href="{{url('certificate.php')}}">Certifications</a></p>
                 </div>
                 <div class="col-lg-6">
-                    <p> <a href="{{url('testimonial')}}">Testimonials</a></p>
-                    <p> <a href="{{url('methodology')}}">Methodology</a></p>
+                    <p> <a href="{{url('testimonial.php')}}">Testimonials</a></p>
+                    <p> <a href="{{url('methodology.php')}}">Methodology</a></p>
                 </div>
             </div>
             <h5>Resources</h5>
@@ -48,20 +48,20 @@
             <h5>INDUSTRIES THAT WE SERVED:</h5>
             <div class="keywords__footer">
 
-                <a href="{{url('e-wallet-app-development')}}">E-Wallet App Development </a>
-                <a href="{{url('banking-and-finance-app-development')}}">Banking App Development </a>
-                <a href="{{url('multi-vendor-marketplace')}}">Multi-Vendor Marketplace Development </a>
-                <a href="{{url('affiliate-marketplace')}}">Affiliate marketplace </a>
-                <a href="{{url('on-demand-app-development')}}">On demand App Development </a>
-                <a href="{{url('taxi-booking-app')}}">Taxi Booking App Development </a>
-                <a href="{{url('job-portal-development')}}">Job Portal Development </a>
-                <a href="{{url('food-delivery-app')}}">Food Delivery App </a>
-                <a href="{{url('real-estate-app-development')}}">Real Estate App Development </a>
-                <a href="{{url('lamp-development')}}">LAMP Development </a>
-                <a href="{{url('social-media-app-development')}}">Social Media App Development </a>
-                <a href="{{url('ott-video-app-development')}}">OTT Video App Development </a>
-                <a href="{{url('education-portal-development')}}">Education Portal Development </a>
-                <a href="{{url('tour-travel-app-development')}}">Travel and Tourism </a>
+                <a href="{{url('e-wallet-app-development.php')}}">E-Wallet App Development </a>
+                <a href="{{url('banking-and-finance-app-development.php')}}">Banking App Development </a>
+                <a href="{{url('multi-vendor-marketplace.php')}}">Multi-Vendor Marketplace Development </a>
+                <a href="{{url('affiliate-marketplace.php')}}">Affiliate marketplace </a>
+                <a href="{{url('on-demand-app-development.php')}}">On demand App Development </a>
+                <a href="{{url('taxi-booking-app.php')}}">Taxi Booking App Development </a>
+                <a href="{{url('job-portal-development.php')}}">Job Portal Development </a>
+                <a href="{{url('food-delivery-app.php')}}">Food Delivery App </a>
+                <a href="{{url('real-estate-app-development.php')}}">Real Estate App Development </a>
+                <a href="{{url('lamp-development.php')}}">LAMP Development </a>
+                <a href="{{url('social-media-app-development.php')}}">Social Media App Development </a>
+                <a href="{{url('ott-video-app-development.php')}}">OTT Video App Development </a>
+                <a href="{{url('education-portal-development.php')}}">Education Portal Development </a>
+                <a href="{{url('tour-travel-app-development.php')}}">Travel and Tourism </a>
             </div>
         </div>
     </div>
