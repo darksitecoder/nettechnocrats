@@ -354,10 +354,12 @@
             <div class="row pt-1 my-3 d-flex justify-content-center">
               <!-- Display company_name Validation Error -->
               <div class="col-md-12 stretch-card grid-margin mb-3">
-                <input type="text" id="company_name" name="company_name" class="blog__company_name input__feilds" value="" placeholder="Enter SEO Title">
+                <input type="text" id="seo_title" name="seo_title" class="blog__company_name input__feilds" value="" placeholder="Enter SEO title">
+                <span class="text-danger" id="seo_title_err" style="font-size:13px;"></span>
               </div>
               <div class="col-md-12 stretch-card grid-margin">
-                <input type="text" id="industry" name="industry" class="blog__company_name input__feilds" value="" placeholder="Enter SEO Description">
+                <input type="text" id="seo_decription" name="seo_decription" class="blog__company_name input__feilds" value="" placeholder="Enter SEO meta decription">
+                <span class="text-danger" id="seo_decription_err" style="font-size:13px;"></span>
               </div>
               <span class="text-danger" id="company_name_err" style="font-size:13px;"></span>
             </div>
