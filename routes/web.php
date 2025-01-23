@@ -103,10 +103,7 @@ Route::get('/portfolio-seo-detail/{id}', [PortfolioController::class, 'portfolio
 
 Route::get('/portfoliodetails/{id}', [PortfolioController::class, 'portfoliodetail']);
 
-// Route::middleware('trailing-slash')->group(function () {
-//     Route::get('/seo-services', [SeoController::class, 'index']);
-//     // other routes that require trailing slash
-// });
+
 
 
 
