@@ -42,58 +42,58 @@ Route::get('/', function () {
 });
 
 // Route::get('/', [DigitalMarketingController::class, 'index1']);
-Route::get('/digital-marketing', [DigitalMarketingController::class, 'index']);
-Route::get('/tech', [TechController::class, 'tech']);
-Route::get('/asp-net-development', [TechController::class, 'asp']);
-Route::get('/c-sharp-development', [TechController::class, 'csharp']);
-Route::get('/share-point', [TechController::class, 'sharepoint']);
-Route::get('/php-development', [TechController::class, 'php']);
-Route::get('/zend-development', [TechController::class, 'zend']);
-Route::get('/lamp-development', [TechController::class, 'lamp']);
-Route::get('/laravel-development', [TechController::class, 'laravel']);
-Route::get('/codeigniter-development', [TechController::class, 'codeigniter']);
-Route::get('/microsoft-dynamic-crm', [TechController::class, 'microsoftcrm']);
-Route::get('/salesforce-development', [TechController::class, 'salesforce']);
-Route::get('/android-app-development', [TechController::class, 'android']);
-Route::get('/iphone-ios-development-company', [TechController::class, 'iphone']);
-Route::get('/swift-platform-development', [TechController::class, 'swift']);
-Route::get('/wearable-app-development', [TechController::class, 'wearable']);
-Route::get('/nodejs-development', [TechController::class, 'nodejs']);
-Route::get('/angular-js-development', [TechController::class, 'angular']);
-Route::get('/wordpress-development-services', [TechController::class, 'wordpress']);
-Route::get('/magento-web-development', [TechController::class, 'magento']);
-Route::get('/joomla-web-development', [TechController::class, 'joomla']);
-Route::get('/drupal-web-development', [TechController::class, 'drupal']);
+Route::get('/digital-marketing.php', [DigitalMarketingController::class, 'index']);
+Route::get('/tech.php', [TechController::class, 'tech']);
+Route::get('/asp-net-development.php', [TechController::class, 'asp']);
+Route::get('/c-sharp-development.php', [TechController::class, 'csharp']);
+Route::get('/share-point.php', [TechController::class, 'sharepoint']);
+Route::get('/php-development.php', [TechController::class, 'php']);
+Route::get('/zend-development.php', [TechController::class, 'zend']);
+Route::get('/lamp-development.php', [TechController::class, 'lamp']);
+Route::get('/laravel-development.php', [TechController::class, 'laravel']);
+Route::get('/codeigniter-development.php', [TechController::class, 'codeigniter']);
+Route::get('/microsoft-dynamic-crm.php', [TechController::class, 'microsoftcrm']);
+Route::get('/salesforce-development.php', [TechController::class, 'salesforce']);
+Route::get('/android-app-development.php', [TechController::class, 'android']);
+Route::get('/iphone-ios-development-company.php', [TechController::class, 'iphone']);
+Route::get('/swift-platform-development.php', [TechController::class, 'swift']);
+Route::get('/wearable-app-development.php', [TechController::class, 'wearable']);
+Route::get('/nodejs-development.php', [TechController::class, 'nodejs']);
+Route::get('/angular-js-development.php', [TechController::class, 'angular']);
+Route::get('/wordpress-development-services.php', [TechController::class, 'wordpress']);
+Route::get('/magento-web-development.php', [TechController::class, 'magento']);
+Route::get('/joomla-web-development.php', [TechController::class, 'joomla']);
+Route::get('/drupal-web-development.php', [TechController::class, 'drupal']);
 
-Route::get('/python-django-development-company', [TechController::class, 'python']);
-Route::get('/cloud-computing', [TechController::class, 'cloud']);
-Route::get('/big-data-analytics', [TechController::class, 'bigdata']);
-Route::get('/chatbot-development-company', [TechController::class, 'chatbot']);
-Route::get('/ibeacon-app-development-company', [TechController::class, 'ibeacon']);
-Route::get('/iot-applications-development-company', [TechController::class, 'iot']);
-Route::get('/blockchain-application-development-company', [TechController::class, 'blockchain']);
-Route::get('/data-science', [TechController::class, 'datascience']);
-Route::get('/ai-application-development-company', [TechController::class, 'ai']);
-
-
-Route::get('/about-us', [TechController::class, 'about']);
-Route::get('/clients', [TechController::class, 'client']);
-Route::get('/contact-us', [TechController::class, 'contact']);
+Route::get('/python-django-development-company.php', [TechController::class, 'python']);
+Route::get('/cloud-computing.php', [TechController::class, 'cloud']);
+Route::get('/big-data-analytics.php', [TechController::class, 'bigdata']);
+Route::get('/chatbot-development-company.php', [TechController::class, 'chatbot']);
+Route::get('/ibeacon-app-development-company.php', [TechController::class, 'ibeacon']);
+Route::get('/iot-applications-development-company.php', [TechController::class, 'iot']);
+Route::get('/blockchain-application-development-company.php', [TechController::class, 'blockchain']);
+Route::get('/data-science.php', [TechController::class, 'datascience']);
+Route::get('/ai-application-development-company.php', [TechController::class, 'ai']);
 
 
-Route::get('/banking-and-finance-app-development', [IndustriesController::class, 'banking']);
-Route::get('/multi-vendor-marketplace', [IndustriesController::class, 'vendor']);
-Route::get('/affiliate-marketplace', [IndustriesController::class, 'affiliate']);
-Route::get('/on-demand-app-development', [IndustriesController::class, 'demand']);
-Route::get('/taxi-booking-app', [IndustriesController::class, 'taxi']);
-Route::get('/job-portal-development', [IndustriesController::class, 'job']);
-Route::get('/food-delivery-app', [IndustriesController::class, 'delivery']);
-Route::get('/real-estate-app-development', [IndustriesController::class, 'realestate']);
-Route::get('/lamp-development', [IndustriesController::class, 'lamb']);
-Route::get('/social-media-app-development', [IndustriesController::class, 'socialmedia']);
-Route::get('/ott-video-app-development', [IndustriesController::class, 'ott']);
-Route::get('/education-portal-development', [IndustriesController::class, 'education']);
-Route::get('/tour-travel-app-development', [IndustriesController::class, 'travel']);
+Route::get('/about-us.php', [TechController::class, 'about']);
+Route::get('/clients.php', [TechController::class, 'client']);
+Route::get('/contact-us.php', [TechController::class, 'contact']);
+
+
+Route::get('/banking-and-finance-app-development.php', [IndustriesController::class, 'banking']);
+Route::get('/multi-vendor-marketplace.php', [IndustriesController::class, 'vendor']);
+Route::get('/affiliate-marketplace.php', [IndustriesController::class, 'affiliate']);
+Route::get('/on-demand-app-development.php', [IndustriesController::class, 'demand']);
+Route::get('/taxi-booking-app.php', [IndustriesController::class, 'taxi']);
+Route::get('/job-portal-development.php', [IndustriesController::class, 'job']);
+Route::get('/food-delivery-app.php', [IndustriesController::class, 'delivery']);
+Route::get('/real-estate-app-development.php', [IndustriesController::class, 'realestate']);
+Route::get('/lamp-development.php', [IndustriesController::class, 'lamb']);
+Route::get('/social-media-app-development.php', [IndustriesController::class, 'socialmedia']);
+Route::get('/ott-video-app-development.php', [IndustriesController::class, 'ott']);
+Route::get('/education-portal-development.php', [IndustriesController::class, 'education']);
+Route::get('/tour-travel-app-development.php', [IndustriesController::class, 'travel']);
 
 
 
@@ -117,17 +117,17 @@ Route::get('/ppc-services.php', [DigitalMarketingController::class, 'ppc']);
 
 
 Route::get('/local-seo-services.php', [DigitalMarketingController::class, 'local']);
-Route::get('/online-reputation-management/', [DigitalMarketingController::class, 'orm']);
+Route::get('/online-reputation-management.php', [DigitalMarketingController::class, 'orm']);
 
-Route::get('/healthcare-seo-services', [DigitalMarketingController::class, 'healthcare']);
-Route::get('/limo-seo-services', [DigitalMarketingController::class, 'limoseo']);
-Route::get('/law-firm-seo', [DigitalMarketingController::class, 'lawseo']);
-Route::get('/e-commerce-seo-services', [DigitalMarketingController::class, 'ecommerce']);
+Route::get('/healthcare-seo-services.php', [DigitalMarketingController::class, 'healthcare']);
+Route::get('/limo-seo-services.php', [DigitalMarketingController::class, 'limoseo']);
+Route::get('/law-firm-seo.php', [DigitalMarketingController::class, 'lawseo']);
+Route::get('/e-commerce-seo-services.php', [DigitalMarketingController::class, 'ecommerce']);
 // Route::get('/banking-and-finance-app-development', [DigitalMarketingController::class, 'banking']);
 
 
 
-Route::get('/about', [DigitalMarketingController::class, 'aboutus']);
+Route::get('/about.php', [DigitalMarketingController::class, 'aboutus']);
 
 
 Route::get('/login_page', [logincontroller::class, 'login_page'])->name('login');
@@ -143,15 +143,15 @@ Route::post('/signup', [logincontroller::class, 'signup']);
 
 // Route::get('/portfolio', [AdminportfolioController::class, 'portfolio']);
 
-Route::get('/blog', [blogController::class, 'blog']);
+Route::get('/blog.php', [blogController::class, 'blog']);
 
 
 
-Route::get('/e-wallet-app-development', [TechController::class, 'wallet']);
+Route::get('/e-wallet-app-development.php', [TechController::class, 'wallet']);
 Route::get('/ui-ux-design-services.php', [TechController::class, 'uiux']);
 
 
-Route::get('/blogs', [blogController::class, 'listBlogsFrontEnd']);
+Route::get('/blogs.php', [blogController::class, 'listBlogsFrontEnd']);
 Route::get('/blogdetail/{slug}', [blogController::class, 'blogDetailFrontEnd']);
 
 Route::middleware(['auth'])->group(function () {
