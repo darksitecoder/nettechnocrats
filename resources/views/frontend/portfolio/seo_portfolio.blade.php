@@ -127,7 +127,7 @@
                         </div> -->
                     </div>
                     <div class="rounded-bottom text-center" style="padding-top: 70%;">
-                        <a class="btn btn-primary rounded-pill py-2 px-4" href="{{ url('/portfolio-seo-detail/' . $blog->id)}}">SEE CASE STUDY</a>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="{{ url($blog->id.'/portfolio-seo-detail.php')}}">SEE CASE STUDY</a>
                     </div>
                     {{--<div class="rounded-bottom text-center pt-3">
                         <p class="text-center p-0 m-0 fw-bold text-white">{!! \Illuminate\Support\Str::words($blog->company_name, 20) !!}</p>
