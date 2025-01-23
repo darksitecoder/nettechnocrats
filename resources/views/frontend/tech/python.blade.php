@@ -158,6 +158,7 @@
             <h1 class="display-5 mb-4 text-white">Python-Django Web Development Company In India
             </h1>
             <p class="mb-4 text-white">Python has taken the world by storm. With its immense capabilities, our Python developer has proficient in building robust, secure & scalable apps utilizing best Python development strategies.</p>
+            @include('partial/proposal')
           </div>
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">

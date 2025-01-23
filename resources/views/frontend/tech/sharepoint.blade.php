@@ -152,6 +152,7 @@
                         <h1 class="display-5 mb-4 text-white">SharePoint Migration Services</h1>
                         <p class="mb-4 text-white">
                         </p>
+                        @include('partial/proposal')
                     </div>
                 </div>
                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">

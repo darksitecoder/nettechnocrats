@@ -46,6 +46,7 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Software Development Services</h1>
       <p class="mb-4 text-white">Effective, scalable and robust software solutions to amaze your customers</p>
+      @include('partial/proposal')
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
