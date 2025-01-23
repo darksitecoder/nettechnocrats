@@ -165,7 +165,6 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('listContactEnquiriesForAdmin', [enquiresController::class, 'listContactEnquiriesForAdmin']);
     Route::get('deleteContactEnquiriesForAdmin/{id}', [enquiresController::class, 'deleteContactEnquiriesForAdmin']);
-
 });
 // Route::get('listEnquiriesForAdmin', [enquiresController::class, 'listEnquiriesForAdmin']);
 // for blog topic
@@ -263,7 +262,7 @@ Route::view('/crm-development', 'frontend.tech.crm_development');
 Route::view('/generative-ai', 'frontend.tech.generative_ai');
 Route::view('/google-vision', 'frontend.tech.google_vision');
 Route::view('/quality-analysis', 'frontend.tech.quality_analysis');
-// Route::view('/software-development', 'frontend.tech.software-development');
+Route::view('/software-development', 'frontend.tech.software-development');
 
 
 // industries

@@ -30,6 +30,8 @@ return new class extends Migration
             $table->string('image')->nullable(); 
             $table->string('image_start')->nullable(); 
             $table->string('image_final')->nullable(); 
+            $table->string('seo_title', 255)->nullable();
+            $table->string('seo_decription', 255)->nullable();
 
             $table->enum('status', ['save', 'publish'])->nullable(); // Status
             $table->string('created_by', 255);

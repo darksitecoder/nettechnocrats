@@ -177,6 +177,8 @@ class PortfolioController extends Controller
             'category_2' => 'required',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
             'status' => 'nullable|string|in:save,publish',
+            'seo_title' => 'required',
+            'seo_decription' => 'required',
         ];
 
 
@@ -218,6 +220,8 @@ class PortfolioController extends Controller
                 'heading' => $request->heading,
                 'content' => $request->content,
                 'company_name' => $request->company_name,
+                'seo_title' => $request->seo_title,
+                'seo_decription' => $request->seo_decription,
                 'status' => $status,
                 'created_by' => $user->id,
 
@@ -253,6 +257,8 @@ class PortfolioController extends Controller
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
             'image_start' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
             'image_final' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
+            'seo_title' => 'required',
+            'seo_decription' => 'required',
         ];
 
         // Add unique validation for 'portfolio_no' when not updating
@@ -308,6 +314,8 @@ class PortfolioController extends Controller
                 'content_final' => $request->content_2,
                 'company_name' => $request->company_name,
                 'industry' => $request->industry,
+                'seo_title' => $request->seo_title,
+                'seo_decription' => $request->seo_decription,
 
                 'status' => $status,
                 'created_by' => $user->id,
@@ -327,6 +335,8 @@ class PortfolioController extends Controller
                 'content_final' => $request->content_2,
                 'company_name' => $request->company_name,
                 'industry' => $request->industry,
+                'seo_title' => $request->seo_title,
+                'seo_decription' => $request->seo_decription,
 
                 'status' => $status,
                 'created_by' => $user->id,

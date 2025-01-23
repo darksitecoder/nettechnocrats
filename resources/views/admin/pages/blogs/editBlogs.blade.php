@@ -362,13 +362,18 @@
 
   <div class="row pt-1 my-3 d-flex justify-content-center">
     <!-- Display company_name Validation Error -->
-    <div class="col-md-12 stretch-card grid-margin">
-      <input type="text" id="company_name" name="company_name" class="blog__company_name input__feilds mb-3" value="" placeholder="Enter Company Name">
+    <div class="col-md-12 stretch-card grid-margin mb-3">
+      <input type="text" id="seo_title" name="seo_title" class="blog__company_name input__feilds" value="{{$Blogs[0]->seo_title}}" placeholder="Enter SEO title">
+      @error('seo_title')
+        <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+      @enderror
     </div>
     <div class="col-md-12 stretch-card grid-margin">
-      <input type="text" id="industry" name="industry" class="blog__company_name input__feilds" value="" placeholder="Enter Industry">
+      <input type="text" id="seo_decription" name="seo_decription" class="blog__company_name input__feilds" value="{{$Blogs[0]->seo_decription}}" placeholder="Enter SEO meta decription">
+      @error('seo_decription')
+        <span class="text-danger" style="font-size:13px;">{{ $message }}</span>
+      @enderror
     </div>
-    <span class="text-danger" id="company_name_err" style="font-size:13px;"></span>
   </div>
 
   </form>

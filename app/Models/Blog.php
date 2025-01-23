@@ -16,6 +16,8 @@ class Blog extends Model
         'image',
         'video',
         'pdf',
+        'seo_title',
+        'seo_decription',
         'status',
         'created_by',
     ];
