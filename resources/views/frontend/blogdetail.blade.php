@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog Details</title>
+
+  <title>{{$blogFND->seo_title??''}}</title>
+    <meta name="description" content="{{$blogFND->seo_decription??''}}">
   <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
