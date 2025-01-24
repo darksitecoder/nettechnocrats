@@ -146,6 +146,7 @@
                   height: 550px !important;
             }
       </style>
+      @include('partial/google_analytics')
 </head>
 
 <body>
@@ -159,6 +160,7 @@
                                     <!-- <h4 class="text-primary1">About Us</h4> -->
                                     <h1 class="display-5 mb-4 text-white">Nettechnocrats helps to create a ground of innovation OTT Platform</h1>
                                     <p class="mb-4 text-white">Grab end-to-end video streaming app development services and furnish impeccable TV viewing experiences to your users over frictionless channels. Fit all your VOD (Video On Demand Platform) business requirements with our OTT app development solutions which offers you scalable video streaming applications for fabulous OTT platforms like Apple TV, Roku, Amazon Fire TV and so on.</p>
+                                    @include('partial/proposal')
                               </div>
                         </div>
                   </div>
@@ -196,7 +198,7 @@
                                     <div class="row g-4">
 
                                           <div class="col-sm-6">
-                                                <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+                                                <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
                                           </div>
 
                                     </div>
@@ -767,7 +769,7 @@
                               <div class="text-center">
                                     <h3>Ready To Get Started?</h3>
                                     <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-                                    <a class="cta-btn" href="#">Contact Us</a>
+                                    <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
                               </div>
                         </div>
                   </div>
