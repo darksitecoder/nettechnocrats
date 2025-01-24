@@ -73,4 +73,10 @@ class DigitalMarketingController extends Controller
     {
         return view('frontend.digital-marketing.ecommerce');
     }
+
+    public function pagenotfound()
+    {
+        return view('frontend.tech.404');
+    }
+
 }

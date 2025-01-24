@@ -17,7 +17,8 @@ use App\Http\Controllers\Admin\BlogTopicController;
 use App\Http\Controllers\Admin\enquiresController;
 use App\Http\Controllers\ProposalController;
 use App\Http\Controllers\QuoteController;
-use App\Http\Middleware\EnsureTrailingSlash;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -31,17 +32,10 @@ use App\Http\Middleware\EnsureTrailingSlash;
 */
 
 
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-
 Route::get('/', function () {
     return view('frontend.home');
 });
 
-// Route::get('/', [DigitalMarketingController::class, 'index1']);
 Route::get('/digital-marketing.php', [DigitalMarketingController::class, 'index']);
 Route::get('/tech.php', [TechController::class, 'tech']);
 Route::get('/asp-net-development.php', [TechController::class, 'asp']);
@@ -295,6 +289,17 @@ Route::view('/squarespace-seo-services.php', 'frontend.digital-marketing.squares
 Route::view('/wix-seo-agency.php', 'frontend.digital-marketing.wix-seo-agency');
 Route::view('/video-marketing.php', 'frontend.digital-marketing.video-marketing');
 
-Route::get('/404', function () {
-    return view('frontend.tech.404'); // You can change this to your custom 404 view
-})->name('404');
+
+// Route::get('/404', [DigitalMarketingController::class, 'pagenotfound']);
+
+Route::fallback(function () {
+    // Check if the request is the root (i.e., "/")
+    if (request()->path() === '/') {
+        // Simply return a redirect to the home page
+        return redirect('/'); // This is correct
+    }
+
+    // For all other undefined routes, return the custom 404 page
+    return response()->view('frontend.tech.404', [], 404);
+});
+

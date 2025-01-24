@@ -1,92 +1,157 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="en">
 
-@section('title', 'Chatbot Development Company In India')
-
-@section('meta_description', 'This is a brief description of the home page for SEO purposes.')
-
-@section('meta_keywords', 'laravel, home, keywords')
-<style>
-    .service-img img {
-        width: 120px;
-    }
-
-    .service-item i {
-        color: green;
-        font-size: 50px;
-    }
-
-    /*** Service Start ***/
-    .service .service-item {
-        background: var(--bs-light);
-        border-radius: 10px;
-        transition: 0.20s;
-        border: 1px solid var(--accent-color);
-        height: 400px;
-    }
+<head>
+      <title>Best SMO Services, SMO Company in India</title>
+      <meta name="description" content="Your Trusted Social Media Marketing Agency for SMO Services. Boost your online presence with our expert SMO and increase brand visibility." />
+      <link rel="canonical" href="https://www.nettechnocrats.com/smo-services/" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="article" />
+      <meta property="og:title" content="Best SMO Services, SMO Company in India" />
+      <meta property="og:description" content="Your Trusted Social Media Marketing Agency for SMO Services. Boost your online presence with our expert SMO and increase brand visibility." />
+      <meta property="og:url" content="https://www.nettechnocrats.com/smo-services/" />
+      <meta property="og:site_name" content="Nettechnocrats" />
+      <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
+      <meta property="article:modified_time" content="2024-08-13T11:19:13+00:00" />
+      <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.webp" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@nettechnocrats" />
+      <meta name="twitter:label1" content="Est. reading time" />
+      <meta name="twitter:data1" content="6 minutes" />
 
 
-    .service-item::after {
-        content: '';
-        /* position: absolute; */
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        /* Adjust the opacity here */
-        z-index: 1;
-    }
 
-    .service .service-item .btn {
-        font-weight: 700;
-    }
 
-    .service .service-item:hover .btn {
-        font-weight: 700;
-        color: var(--white) !important;
-    }
+      <script type="application/ld+json" class="yoast-schema-graph">
+            < link rel = "stylesheet"
+            href = "{{ asset('style/web/home.css') }}" > {
+                  "@context": "https://schema.org",
+                  "@graph": [{
+                        "@type": "WebPage",
+                        "@id": "https://www.nettechnocrats.com/smo-services/",
+                        "url": "https://www.nettechnocrats.com/smo-services/",
+                        "name": "Best SMO Services, SMO Company in India",
+                        "isPartOf": {
+                              "@id": "/#website"
+                        },
+                        "primaryImageOfPage": {
+                              "@id": "https://www.nettechnocrats.com/smo-services/#primaryimage"
+                        },
+                        "image": {
+                              "@id": "https://www.nettechnocrats.com/smo-services/#primaryimage"
+                        },
+                        "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.webp",
+                        "datePublished": "2023-08-24T07:23:45+00:00",
+                        "dateModified": "2024-08-13T11:19:13+00:00",
+                        "description": "Your Trusted Social Media Marketing Agency for SMO Services. Boost your online presence with our expert SMO and increase brand visibility.",
+                        "breadcrumb": {
+                              "@id": "https://www.nettechnocrats.com/smo-services/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [{
+                              "@type": "ReadAction",
+                              "target": ["https://www.nettechnocrats.com/smo-services/"]
+                        }]
+                  }, {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-US",
+                        "@id": "https://www.nettechnocrats.com/smo-services/#primaryimage",
+                        "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.webp",
+                        "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.webp",
+                        "width": 155,
+                        "height": 42,
+                        "caption": "button"
+                  }, {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.nettechnocrats.com/smo-services/#breadcrumb",
+                        "itemListElement": [{
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://www.nettechnocrats.com/"
+                        }, {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "SMO Services"
+                        }]
+                  }, {
+                        "@type": "WebSite",
+                        "@id": "/#website",
+                        "url": "/",
+                        "name": "Nettechnocrats",
+                        "description": "",
+                        "publisher": {
+                              "@id": "/#organization"
+                        },
+                        "potentialAction": [{
+                              "@type": "SearchAction",
+                              "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "/?s={search_term_string}"
+                              },
+                              "query-input": {
+                                    "@type": "PropertyValueSpecification",
+                                    "valueRequired": true,
+                                    "valueName": "search_term_string"
+                              }
+                        }],
+                        "inLanguage": "en-US"
+                  }, {
+                        "@type": "Organization",
+                        "@id": "/#organization",
+                        "name": "Nettechnocrats",
+                        "url": "/",
+                        "logo": {
+                              "@type": "ImageObject",
+                              "inLanguage": "en-US",
+                              "@id": "/#/schema/logo/image/",
+                              "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+                              "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+                              "width": 205,
+                              "height": 107,
+                              "caption": "Nettechnocrats"
+                        },
+                        "image": {
+                              "@id": "/#/schema/logo/image/"
+                        },
+                        "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+                  }]
+            }
+      </script>
 
-    .service .service-item .btn:hover {
-        color: var(--accent-color) !important;
-    }
+      <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
 
-    .service .service-item:hover {
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
 
-    .service .service-item:hover a {
-        color: black !important;
-    }
 
-    .service .service-item:hover i {
-        color: green !important;
-    }
+      <!-- Libraries Stylesheet -->
+      <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+      <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+      <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 
-    .service .service-item .service-img {
-        display: flex;
-        justify-content: center;
-        padding: 20px 0px 0px 0px;
-        transition: 0.20s;
-    }
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
-    .service .service-item .service-img i {
-        transition: 0.20s;
-        font-size: 70px;
-    }
+      <!-- Vendor CSS Files -->
+      <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
+      <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
 
-    .service .service-item:hover .service-img i {
-        transform: scale(1.2);
-    }
+      <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+      <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
-    .service .service-item .h4 {
-        font-weight: 600;
-        font-size: 18px;
-        text-align: center;
-        cursor: default;
-    }
-</style>
+      <!-- Main CSS File -->
+      <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
 
-@section('content')
+
+
+
+      @include('partial/google_analytics')
+
+
+</head>
+
+<body>
+      @include('partial/header')
 <!-- Abvout Start -->
 <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
     <div class="container py-5">
@@ -150,4 +215,41 @@
 </div>
 </div>
 
-@endsection
+@include('partial/footer')
+</body>
+
+</html>
+<script>
+      const counters = document.querySelectorAll('.counter');
+      const speed = 30; // The lower the speed value, the slower the counter animation
+
+      counters.forEach(counter => {
+            const updateCount = () => {
+                  const target = +counter.getAttribute('data-target');
+                  const count = +counter.innerText;
+
+                  // Calculate the increment step
+                  const inc = Math.ceil(target / speed);
+
+                  // Check if the current count is less than the target
+                  if (count < target) {
+                        // Increment the count and update the counter text
+                        counter.innerText = count + inc > target ? target : count + inc;
+                        // Call the function again after a short delay
+                        setTimeout(updateCount, 100);
+                  } else {
+                        counter.innerText = target; // Ensure the counter ends at the target value
+                  }
+            };
+
+            updateCount();
+      });
+</script>
+<script src="{{ asset('style/web/lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+
+<script src="{{ asset('js/main.js') }}"></script>

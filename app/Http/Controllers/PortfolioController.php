@@ -29,13 +29,6 @@ class PortfolioController extends Controller
 
     public function portfolio_seo()
     {
-        // $portfolio = portfolio::where('status', 'publish')
-        //     ->orderBy('created_at', 'desc')
-        //     ->paginate(10); 
-
-
-
-
         $portfolio = portfolio::where('status', 'publish')
             ->Where('category_1', 'like', '%' . 'Digital_Marketing' . '%')
             ->orderBy('created_at', 'desc')
