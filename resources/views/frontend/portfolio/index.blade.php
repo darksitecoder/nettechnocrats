@@ -4,7 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+
+    <!-- {{$category_1}} -->
+    @if($category_1 == 'software_development')
+    <title>Nettechnocrats | Software Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Nettechnocrats, a software development company skilled in web development, mobile apps, and backend systems. Check out our projects, skills, and how to collaborate.">
+    @elseif($category_1 == 'web_development')
+    <title>Nettechnocrats | Web Development Portfolio</title>
+    <meta name="description" content="Check the portfolio of web development skilled in different technologies like python, laravel, node and etc.. Contact us for your ideas.">
+    @elseif($category_1 == 'Apps_development')
+    <title>Nettechnocrats | App Development Portfolio and Case Study</title>
+    <meta name="description" content="Discover the portfolio of Nettechnocrats, an app development company specializing in iOS, Android, and cross-platform applications. Explore our projects, skills, and experience.">
+    @endif
+
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
     <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">

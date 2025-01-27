@@ -20,10 +20,10 @@ class PortfolioController extends Controller
         $portfolio = portfolio::where('status', 'publish')
             ->Where('category_1', 'like', '%' . $category_1 . '%')
             ->orderBy('created_at', 'desc')
-            ->paginate(5);  // Paginate results, showing 10 per page
-        // dd($portfolio);
+            ->paginate(10);  // Paginate results, showing 10 per page
+        dd($portfolio);
 
-        return view('frontend/portfolio/index')->with(compact('portfolio'));
+        return view('frontend/portfolio/index')->with(compact('portfolio', 'category_1'));
     }
 
 
@@ -32,7 +32,7 @@ class PortfolioController extends Controller
         $portfolio = portfolio::where('status', 'publish')
             ->Where('category_1', 'like', '%' . 'Digital_Marketing' . '%')
             ->orderBy('created_at', 'desc')
-            ->paginate(5);
+            ->paginate(10);
         // dd($portfolio);
 
         return view('frontend/portfolio/seo_portfolio')->with(compact('portfolio'));
