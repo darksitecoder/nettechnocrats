@@ -40,7 +40,7 @@
    width: 100%;
    height: 350px;
    margin: 10px 0px;
-   border-radius: 20px;
+   border-radius: 10px;
    align-items: center;
    display: flex;
    justify-content: center;
@@ -50,6 +50,7 @@
    text-align: center;
    color: var(--white);
    font-size: 25px;
+   padding: 0px 10px;
    font-weight: 600;
   }
  </style>
@@ -77,67 +78,181 @@
   <h3 class="fw-bold py-3">Software Development</h3>
   <div class="row">
    <div class="col-md-3">
-    <a href="{{url('education-portal-development.php')}}">
-     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/4458808_2351583.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+    <a href="{{url('/software-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/Microsoft-Dynamics-CRM.webp') }}'); background-repeat: no-repeat; background-size: cover;">
       <div class="content">
-       Education Portal Development
+       Software Development
       </div>
      </div>
     </a>
    </div>
    <div class="col-md-3">
-    <a href="{{url('lamp-development.php')}}">
-     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/Lamp-stack-development.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+    <a href="{{url('/erp-software-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/ERP-1024x724.webp') }}'); background-repeat: no-repeat; background-size: cover;">
       <div class="content">
-       LAMP Development
+       ERP Software Development
       </div>
      </div>
     </a>
    </div>
    <div class="col-md-3">
-    <a href="{{url('affiliate-marketplace.php')}}">
-     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/10780611_19199574.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+    <a href="{{url('/salesforce-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/a-complete-guide-to-salesforce-qa-testing-transformed.webp') }}'); background-repeat: no-repeat; background-size: cover;">
       <div class="content">
-       Affiliate marketplace
-      </div>
-     </div>
-    </a>
-   </div>
-
-   <div class="col-md-3">
-    <a href="{url('on-demand-app-development.php')}}">
-     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/7473101_3682361.webp') }}'); background-repeat: no-repeat; background-size: cover;">
-      <div class="content">
-       Taxi Booking App Development
-      </div>
-     </div>
-    </a>
-   </div>
-
-
-
-
-   <div class="col-md-3">
-    <a href="{{url('social-media-app-development.php')}}">
-     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/12491662_4950546.webp') }}'); background-repeat: no-repeat; background-size: cover;">
-      <div class="content">
-       Social Media App Development
+       Salesforce Development
       </div>
      </div>
     </a>
    </div>
 
    <div class="col-md-3">
-    <a href="{{url('food-delivery-app.php')}}">
-     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/7574104_3707363.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+    <a href="{{url('/iot-applications-development-company.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/iot.webp') }}'); background-repeat: no-repeat; background-size: cover;">
       <div class="content">
-       Food Delivery App
+       IOT
+      </div>
+     </div>
+    </a>
+   </div>
+  </div>
+
+
+  <h3 class="fw-bold py-3">Web Development</h3>
+  <div class="row">
+   <div class="col-md-3">
+    <a href="{{url('/python-django-development-company.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/django-logo.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Python Development
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('/wordpress-development-services.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/wordPress-website-migration.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Wordpress Development
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('/magento-web-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/magento.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Magento Development
       </div>
      </div>
     </a>
    </div>
 
+   <div class="col-md-3">
+    <a href="{{url('/joomla-web-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/og_joomla.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Joomla Development
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('/drupal-web-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/drupal-nettechnocrats.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Drupal Development
+      </div>
+     </div>
+    </a>
+   </div>
+  </div>
 
+  <h3 class="fw-bold py-3">Cloud Service</h3>
+  <div class="row">
+   <div class="col-md-3">
+    <a href="{{url('/cloud-computing.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/cloud-computing.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Cloud Computing
+      </div>
+     </div>
+    </a>
+   </div>
+  </div>
+
+  <h3 class="fw-bold py-3">Data storage</h3>
+  <div class="row">
+
+   <div class="col-md-3">
+    <a href="{{url('/big-data-analytics.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/big-data-datenquellen-transformed.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Big Data
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('/ibeacon-app-development-company.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/iBeacon-App-Development-1.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       IBeacon
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('/blockchain-application-development-company.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/blockchain__lower.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Blockchain
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('/data-science.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/datascience-nettechnocrats.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Data Science
+      </div>
+     </div>
+    </a>
+   </div>
+
+  </div>
+
+
+  <h3 class="fw-bold py-3">Mobile App</h3>
+  <div class="row">
+
+   <div class="col-md-3">
+    <a href="{{url('/iphone-ios-development-company.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/ios-image.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       IOS App Development
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('/android-app-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/android-image.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Android App Development
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('/ui-ux-design-services.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/uiux-img.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       UI UX Services
+      </div>
+     </div>
+    </a>
+   </div>
 
   </div>
  </div>
