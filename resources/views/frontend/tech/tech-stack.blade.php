@@ -35,6 +35,23 @@
   .design-features .service-item {
    height: 550px !important;
   }
+
+  .showcards {
+   width: 100%;
+   height: 350px;
+   margin: 10px 0px;
+   border-radius: 20px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+  }
+
+  .showcards .content {
+   text-align: center;
+   color: var(--white);
+   font-size: 25px;
+   font-weight: 600;
+  }
  </style>
  @include('partial/google_analytics')
 </head>
@@ -56,7 +73,74 @@
   </div>
  </div>
 
+ <div class="container py-5 mt-3">
+  <h3 class="fw-bold py-3">Software Development</h3>
+  <div class="row">
+   <div class="col-md-3">
+    <a href="{{url('education-portal-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/4458808_2351583.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Education Portal Development
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('lamp-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/Lamp-stack-development.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       LAMP Development
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('affiliate-marketplace.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/10780611_19199574.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Affiliate marketplace
+      </div>
+     </div>
+    </a>
+   </div>
 
+   <div class="col-md-3">
+    <a href="{url('on-demand-app-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/7473101_3682361.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Taxi Booking App Development
+      </div>
+     </div>
+    </a>
+   </div>
+
+
+
+
+   <div class="col-md-3">
+    <a href="{{url('social-media-app-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/12491662_4950546.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Social Media App Development
+      </div>
+     </div>
+    </a>
+   </div>
+
+   <div class="col-md-3">
+    <a href="{{url('food-delivery-app.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/7574104_3707363.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Food Delivery App
+      </div>
+     </div>
+    </a>
+   </div>
+
+
+
+  </div>
+ </div>
 
  @include('partial/footer')
 </body>
