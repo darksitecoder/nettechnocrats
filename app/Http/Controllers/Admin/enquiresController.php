@@ -71,7 +71,25 @@ class enquiresController extends Controller
         ]);
 
         if ($save) {
-            echo 'OK';
+            // Send email via SMTP
+            try {
+                $emailData = [
+                    'name' => $request->name,
+                    'email' => $request->email,
+                    'subject' => $request->subject,
+                    'message' => $request->message,
+                ];
+
+                \Mail::send('emails.enquiry', $emailData, function ($message) use ($request) {
+                    $message->to('support@nettechnocrats.com')
+                            ->subject('New Enquiry Submitted')
+                            ->from($request->email, $request->name);
+                }); 
+
+                echo 'OK'; // Success response
+            } catch (\Exception $e) {
+                return response()->json(['error' => 'Email not sent: ' . $e->getMessage()], 500);
+            }
         }
     }
 

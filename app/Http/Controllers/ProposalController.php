@@ -18,14 +18,35 @@ class ProposalController extends Controller
         ]);
 
         // Create a new proposal entry in the database
-        Proposal::create([
+        $save = Proposal::create([
             'name' => $request->name,
             'email' => $request->email,
             'subject' => $request->subject,
         ]);
 
-        // Redirect back with a success message
-        return back()->with('success', 'Proposal submitted successfully!');
+
+        if ($save) {
+            // Send email via SMTP
+            try {
+                $emailData = [
+                    'name' => $request->name,
+                    'email' => $request->email,
+                    'subject' => $request->subject,
+                ];
+    
+                \Mail::send('emails.proposal_enquiry', $emailData, function ($message) use ($request) {
+                    $message->to('support@nettechnocrats.com')
+                            ->subject('New Proposal Enquiry Recieved')
+                            ->from($request->email, $request->name);
+                }); 
+    
+                // Redirect back with a success message
+                return back()->with('success', 'Proposal submitted successfully!');
+
+            } catch (\Exception $e) {
+                return response()->json(['error' => 'Email not sent: ' . $e->getMessage()], 500);
+            }
+        }
     }
 
 

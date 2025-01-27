@@ -17,14 +17,36 @@ class QuoteController extends Controller
         ]);
 
         // Save to the database
-        Quote::create([
+        $save = Quote::create([
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
             'website' => $request->website
         ]);
 
-        return response()->json(['message' => 'Your request has been submitted successfully!'], 200);
+
+        if ($save) {
+            // Send email via SMTP
+            try {
+                $emailData = [
+                    'name' => $request->name,
+                    'email' => $request->email,
+                    'phone' => $request->phone,
+                    'website' => $request->website
+                ];
+    
+                \Mail::send('emails.quote_enquiry', $emailData, function ($message) use ($request) {
+                    $message->to('support@nettechnocrats.com')
+                            ->subject('New Quotation Enquiry Recieved')
+                            ->from($request->email, $request->name);
+                }); 
+    
+                return response()->json(['message' => 'Your request has been submitted successfully!'], 200);
+
+            } catch (\Exception $e) {
+                return response()->json(['error' => 'Email not sent: ' . $e->getMessage()], 500);
+            }
+        }
     }
 
 
