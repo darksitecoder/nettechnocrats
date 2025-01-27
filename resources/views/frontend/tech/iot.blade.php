@@ -115,8 +115,26 @@
             }]
         }
     </script>
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
+
+
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -130,11 +148,6 @@
         referrerpolicy="no-referrer" />
 
 
-
-    <!-- Libraries Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 
     <style>
         .service .service-item {
