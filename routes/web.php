@@ -257,7 +257,7 @@ Route::view('/software-development.php', 'frontend.tech.software-development');
 
 
 // industries
-Route::view('/industries', 'frontend.industries.industries');
+Route::view('/industries.php', 'frontend.industries.industries');
 
 
 
@@ -302,4 +302,3 @@ Route::fallback(function () {
     // For all other undefined routes, return the custom 404 page
     return response()->view('frontend.tech.404', [], 404);
 });
-
