@@ -106,7 +106,30 @@ class enquiresController extends Controller
     ]);
 
     if ($save) {
-        echo 'OK';
+        // Send email via SMTP
+        try {
+            $emailData = [
+                'name' => $request->name,
+                'email' => $request->email,
+                'phone' => $request->phone,
+                'country' => $request->country,
+                'company_size' => $request->company_size,
+                'company_name' => $request->company_name,
+                'company_website' => $request->company_website,
+                'project_title' => $request->project_title,
+                'requirement' => $request->requirement,
+            ];
+
+            \Mail::send('emails.contact_enquiry', $emailData, function ($message) use ($request) {
+                $message->to('support@nettechnocrats.com')
+                        ->subject('New Contact Enquiry Submitted')
+                        ->from($request->email, $request->name);
+            }); 
+
+            echo 'OK'; // Success response
+        } catch (\Exception $e) {
+            return response()->json(['error' => 'Email not sent: ' . $e->getMessage()], 500);
+        }
     }
 }
 }

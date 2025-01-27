@@ -21,7 +21,7 @@ class PortfolioController extends Controller
             ->Where('category_1', 'like', '%' . $category_1 . '%')
             ->orderBy('created_at', 'desc')
             ->paginate(10);  // Paginate results, showing 10 per page
-        dd($portfolio);
+        // dd($portfolio);
 
         return view('frontend/portfolio/index')->with(compact('portfolio', 'category_1'));
     }
@@ -37,7 +37,6 @@ class PortfolioController extends Controller
 
         return view('frontend/portfolio/seo_portfolio')->with(compact('portfolio'));
     }
-
 
     public function portfolio_seo_detail($id)
     {
