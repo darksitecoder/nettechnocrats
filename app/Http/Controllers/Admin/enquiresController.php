@@ -81,7 +81,7 @@ class enquiresController extends Controller
                 ];
 
                 \Mail::send('emails.enquiry', $emailData, function ($message) use ($request) {
-                    $message->to('support@nettechnocrats.com')
+                    $message->to('sales@nettechnocrats.com')
                             ->subject('New Enquiry Submitted')
                             ->from($request->email, $request->name);
                 }); 
@@ -139,7 +139,7 @@ class enquiresController extends Controller
             ];
 
             \Mail::send('emails.contact_enquiry', $emailData, function ($message) use ($request) {
-                $message->to('support@nettechnocrats.com')
+                $message->to('sales@nettechnocrats.com')
                         ->subject('New Contact Enquiry Submitted')
                         ->from($request->email, $request->name);
             }); 
