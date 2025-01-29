@@ -35,7 +35,7 @@ class ProposalController extends Controller
                 ];
     
                 \Mail::send('emails.proposal_enquiry', $emailData, function ($message) use ($request) {
-                    $message->to('support@nettechnocrats.com')
+                    $message->to('sales@nettechnocrats.com')
                             ->subject('New Proposal Enquiry Recieved')
                             ->from($request->email, $request->name);
                 }); 

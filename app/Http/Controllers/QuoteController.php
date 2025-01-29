@@ -36,7 +36,7 @@ class QuoteController extends Controller
                 ];
     
                 \Mail::send('emails.quote_enquiry', $emailData, function ($message) use ($request) {
-                    $message->to('support@nettechnocrats.com')
+                    $message->to('sales@nettechnocrats.com')
                             ->subject('New Quotation Enquiry Recieved')
                             ->from($request->email, $request->name);
                 }); 
