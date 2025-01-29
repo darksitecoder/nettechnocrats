@@ -6,20 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Partner in Digital Marketing & Website Development</title>
   <meta name="description" content="A trusted provider of digital marketing, website development, and mobile app solutions. Learn about our commitment to innovation and clients." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/about-us/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Your Partner in Digital Marketing, Website Development" />
-  <meta property="og:description" content="A trusted provider of digital marketing, website development, and mobile app solutions. Learn about our commitment to innovation and clients." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/about-us/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T08:54:30+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/Intro-Home-page-new.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="7 minutes" />
+
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",
@@ -176,7 +163,6 @@
       padding: 1rem 0rem;
     }
   </style>
-  @include('partial/google_analytics')
 </head>
 
 <body>
@@ -192,6 +178,7 @@
             <p class="mb-4 text-white">We design and build world class websites and mobile app that understands your
               business and help our client to grow</p>
           </div>
+          @include('partial/proposal')
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
           <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">

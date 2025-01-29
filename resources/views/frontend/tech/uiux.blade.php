@@ -16,22 +16,8 @@
         <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
         <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 
-        <title>Best SEO Services | #1 SEO Agency | SEO company in Noida</title>
-        <meta name="description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
-        <link rel="canonical" href="https://www.nettechnocrats.com/seo-services/" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="Best SEO Services | #1 SEO Agency | SEO company in Noida" />
-        <meta property="og:description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
-        <meta property="og:url" content="https://www.nettechnocrats.com/seo-services/" />
-        <meta property="og:site_name" content="Nettechnocrats" />
-        <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-        <meta property="article:modified_time" content="2024-08-13T10:27:27+00:00" />
-        <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.webp" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@nettechnocrats" />
-        <meta name="twitter:label1" content="Est. reading time" />
-        <meta name="twitter:data1" content="14 minutes" />
+        <title>UI & UX Design Services, UI/UX Consulting Service</title>
+        <meta name="description" content="Nettechnocrats is the leading UI/UX design service provider. Consult with our expert for UI/UX Services." />
 
 
 
@@ -195,7 +181,6 @@
                                                 <p class="mb-4 text-white">
                                                         Nettechnocrats is the trusted one-stop solution provider for real estate web and mobile application development. Through our service, our sole purpose is to cater to the global audience whereby we make use of the top-notch web development technologies and developers experience to create an excellent real estate business solution.
                                                 </p>
-                                                @include('partial/proposal')
                                         </div>
                                 </div>
                                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -429,7 +414,7 @@
                                         <div class="text-center">
                                                 <h3>Ready To Get Started?</h3>
                                                 <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-                                                <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
+                                                <a class="cta-btn" href="#">Contact Us</a>
                                         </div>
                                 </div>
                         </div>

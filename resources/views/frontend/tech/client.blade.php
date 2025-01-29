@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Nettechnocrats Happy Clients for Mobile, Web &amp; Digital Marketing Projects</title>
  <meta name="description" content="Here are some of the satisfied mobile, web &amp; digital clients list that we are honoured to have been selected for their work in Nettechnocrats." />
- <link rel="canonical" href="https://www.nettechnocrats.com/about-us/clients/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Nettechnocrats Happy Clients for Mobile, Web &amp; Digital Marketing Projects" />
- <meta property="og:description" content="Here are some of the satisfied mobile, web &amp; digital clients list that we are honoured to have been selected for their work in Nettechnocrats." />
- <meta property="og:url" content="https://www.nettechnocrats.com/about-us/clients/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T08:52:57+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/Coca-Cola.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="5 minutes" />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -147,7 +134,6 @@
    height: 500px;
   } */
  </style>
- @include('partial/google_analytics')
 </head>
 
 <body>

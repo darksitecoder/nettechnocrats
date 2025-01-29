@@ -4,8 +4,9 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Social Media Marketing Services</title>
- <!-- <link rel="stylesheet" href="style.css"> -->
+<title>We are Certified Partners -Nettechnocrats IT Services Pvt Ltd</title>
+<meta name="description" content="We are proud to globally certified partner with Google, Amazon and PayPal. We are awarded by top-tier research firms and featured in premium magazines and journals."/>
+	 <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
@@ -39,8 +40,6 @@
    width: 50%;
   }
  </style>
-
- @include('partial/google_analytics')
 </head>
 
 <body>

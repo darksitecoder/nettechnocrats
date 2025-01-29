@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>CodeIgniter Development Services | Expert CodeIgniter Development Company</title>
  <meta name="description" content="We are a leading CodeIgniter development company for top-notch CodeIgniter development services. We create tailored solutions to meet your business needs." />
- <link rel="canonical" href="https://www.nettechnocrats.com/codeigniter-development/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="CodeIgniter Development Services | Expert CodeIgniter Development Company" />
- <meta property="og:description" content="We are a leading CodeIgniter development company for top-notch CodeIgniter development services. We create tailored solutions to meet your business needs." />
- <meta property="og:url" content="https://www.nettechnocrats.com/codeigniter-development/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-07-23T12:54:24+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/ci_side_img.jpg" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="9 minutes" />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -136,7 +123,6 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
- @include('partial/google_analytics')
 </head>
 
 <body>
@@ -150,8 +136,8 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">CodeIgniter Development</h1>
       <p class="mb-4 text-white">Highly-customized CodeIgniter development services to empower your business</p>
-      @include('partial/proposal')
      </div>
+     @include('partial/proposal')
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
@@ -180,7 +166,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="{{url('/contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{url('/contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>
@@ -395,7 +381,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="{{url('/contact-us.php')}}">Contact Us</a>
+      <a class="cta-btn" href="{{url('/contact-us')}}">Contact Us</a>
      </div>
     </div>
    </div>

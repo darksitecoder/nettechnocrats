@@ -6,20 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blockchain Application Development Company, Blockchain Service</title>
   <meta name="description" content="We are a top blockchain application development company for cutting-edge solutions. Explore our blockchain application development services." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/blockchain-application-development-company/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Blockchain Application Development Company, Blockchain Service" />
-  <meta property="og:description" content="We are a top blockchain application development company for cutting-edge solutions. Explore our blockchain application development services." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/blockchain-application-development-company/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T08:49:08+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/technology-img.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="10 minutes" />
+
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",
@@ -240,7 +227,7 @@
             <div id="collapseOne" class="tab-pane fade show p-0 active">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">ICO Development</h1>
+                  <h2 class="display-5 mb-4">ICO Development</h2>
                   <p class="mb-4">Customized ICO development services from design to launch ensures success.</p>
                 </div>
               </div>
@@ -248,7 +235,7 @@
             <div id="collapseTwo" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">ICO Marketing</h1>
+                  <h2 class="display-5 mb-4">ICO Marketing</h2>
                   <p class="mb-4">Dedicated strategic marketing to get ultimate fame in the field of ICO development.</p>
                 </div>
               </div>
@@ -256,7 +243,7 @@
             <div id="collapseThree" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Wallet app Development</h1>
+                  <h2 class="display-5 mb-4">Wallet app Development</h2>
                   <p class="mb-4">Wallet app is developed ensures timely payments, quick transfer of funds, easy accessibility, and simple money transaction</p>
                 </div>
               </div>
@@ -264,7 +251,7 @@
             <div id="collapseFour" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Blockchain development</h1>
+                  <h2 class="display-5 mb-4">Blockchain development</h2>
                   <p class="mb-4">Blockchain development develops and implements an incorruptible digital ledger for economic transactions.</p>
                 </div>
               </div>
@@ -272,7 +259,7 @@
             <div id="collapseFive" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Coin creation</h1>
+                  <h2 class="display-5 mb-4">Coin creation</h2>
                   <p class="mb-4">Coin creation gives the much-needed headway in the transaction into cutting edge blockchain</p>
                 </div>
               </div>
@@ -280,7 +267,7 @@
             <div id="collapseSix" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Smart Contract Development</h1>
+                  <h2 class="display-5 mb-4">Smart Contract Development</h2>
                   <p class="mb-4">For business authenticity and reliability-smart contract development acts indelible and traceable.</p>
                 </div>
               </div>
@@ -288,7 +275,7 @@
             <div id="collapseSeven" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Hypeledger Development</h1>
+                  <h2 class="display-5 mb-4">Hypeledger Development</h2>
                   <p class="mb-4">Keeping the business ahead, hyper ledger maintains and manages everything with the best results.</p>
                 </div>
               </div>
@@ -296,7 +283,7 @@
             <div id="collapseEight" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Multichain Development</h1>
+                  <h2 class="display-5 mb-4">Multichain Development</h2>
                   <p class="mb-4">Multi chains enables the business to complete vivid tasks. Also, it keeps a business ready for any challenge.</p>
                 </div>
               </div>

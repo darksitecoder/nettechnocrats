@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Content Marketing Services India &amp; USA | Nettechnocrats</title>
  <meta name="description" content="Nettechnocrats is the best content marketing company in India &amp; USA that offers b2b content marketing, &amp; digital content marketing services. Call us now &amp; hire the best content marketing firm." />
- <link rel="canonical" href="https://www.nettechnocrats.com/content-writing-services/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Content Marketing Services India &amp; USA | Nettechnocrats" />
- <meta property="og:description" content="Nettechnocrats is the best content marketing company in India &amp; USA that offers b2b content marketing, &amp; digital content marketing services. Call us now &amp; hire the best content marketing firm." />
- <meta property="og:url" content="https://www.nettechnocrats.com/content-writing-services/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T08:54:10+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/content_marketing_side.jpg" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="11 minutes" />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -136,8 +123,6 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
-
- @include('partial/google_analytics')
 </head>
 
 <body>

@@ -79,6 +79,9 @@
      <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/4458808_2351583.webp') }}'); background-repeat: no-repeat; background-size: cover;">
       <div class="content">
        Education Portal Development
+
+
+
       </div>
      </div>
     </a>

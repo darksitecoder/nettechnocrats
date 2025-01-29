@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Methodology | Our Approach to Website and Mobile App Development</title>
  <meta name="description" content="Our Approach to Web and Mobile App Development - Your Success, Our Expertise" />
- <link rel="canonical" href="https://www.nettechnocrats.com/about-us/methodology/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Methodology | Our Approach to Website and Mobile App Development" />
- <meta property="og:description" content="Our Approach to Web and Mobile App Development - Your Success, Our Expertise" />
- <meta property="og:url" content="https://www.nettechnocrats.com/about-us/methodology/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T08:53:09+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/no1.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="7 minutes" />
+ 
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -151,8 +138,6 @@
    margin: 0.5rem;
   }
  </style>
-
- @include('partial/google_analytics')
 </head>
 
 <body>
@@ -472,7 +457,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
+      <a class="cta-btn" href="#">Contact Us</a>
      </div>
     </div>
    </div>

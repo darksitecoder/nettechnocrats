@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Leading PHP Development Company | Hire PHP Developers</title>
  <meta name="description" content="We are top PHP development company to bring your web projects to reality. Hire skilled PHP developers for your customized solutions." />
- <link rel="canonical" href="https://www.nettechnocrats.com/php-development/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Leading PHP Development Company | Hire PHP Developers" />
- <meta property="og:description" content="We are top PHP development company to bring your web projects to reality. Hire skilled PHP developers for your customized solutions." />
- <meta property="og:url" content="https://www.nettechnocrats.com/php-development/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T10:16:16+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/php_side_img.jpg" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="8 minutes" />
+ 
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -136,7 +123,7 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
- @include('partial/google_analytics')
+
  <style>
   /* .service .service-item {
    height: 500px;
@@ -155,7 +142,6 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">PHP Development Services</h1>
       <p class="mb-4 text-white">Open-Source Solutions To Build Your Business Websites</p>
-      @include('partial/proposal')
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -184,7 +170,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>

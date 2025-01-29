@@ -6,20 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chatbot Development Company | Chatbot Development Services</title>
   <meta name="description" content="Partner with our chatbot development company for cutting-edge chatbot development services. Elevate customer engagement with our chatbot development services." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/chatbot-development-company/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Chatbot Development Company | Chatbot Development Services" />
-  <meta property="og:description" content="Partner with our chatbot development company for cutting-edge chatbot development services. Elevate customer engagement with our chatbot development services." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/chatbot-development-company/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T08:49:21+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/chat-top-img.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="9 minutes" />
+
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",
@@ -239,7 +226,7 @@
             <div id="collapseOne" class="tab-pane fade show p-0 active">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Facebook Bot Development</h1>
+                  <h2 class="display-5 mb-4">Facebook Bot Development</h2>
                   <p class="mb-4">Placing chatbots within Facebook messenger allow your enterprise to market bots to over a billion of users across the world and take advantage of messenger’s native UI.</p>
                 </div>
               </div>
@@ -247,7 +234,7 @@
             <div id="collapseTwo" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Microsoft Bot Development</h1>
+                  <h2 class="display-5 mb-4">Microsoft Bot Development</h2>
                   <p class="mb-4">Integrating chatbots within Microsoft extend its functionality and allow to chat with the most trusted enterprise system with ease.</p>
                 </div>
               </div>
@@ -255,7 +242,7 @@
             <div id="collapseThree" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Telegram Bot Development</h1>
+                  <h2 class="display-5 mb-4">Telegram Bot Development</h2>
                   <p class="mb-4">Bring chatbots to the new world of cloud-based instant messaging service developed utilizing the latest Telegram bot API</p>
                 </div>
               </div>
@@ -263,7 +250,7 @@
             <div id="collapseFour" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Slack Bot Development</h1>
+                  <h2 class="display-5 mb-4">Slack Bot Development</h2>
                   <p class="mb-4">Innovate your existing workplace by developing high functioning bots with the world’s one of the most popular messaging and collaborations apps.</p>
                 </div>
               </div>

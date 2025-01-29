@@ -1,25 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IoT Applications Development Compan | Pioneering IoT Solutions</title>
-    <meta name="description" content="Discover our IoT application development services. As a trusted IoT application development company, we build innovative solutions to drive digital transformation." />
-    <link rel="canonical" href="https://www.nettechnocrats.com/iot-applications-development-company/" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="IoT Applications Development Compan | Pioneering IoT Solutions" />
-    <meta property="og:description" content="Discover our IoT application development services. As a trusted IoT application development company, we build innovative solutions to drive digital transformation." />
-    <meta property="og:url" content="https://www.nettechnocrats.com/iot-applications-development-company/" />
-    <meta property="og:site_name" content="Nettechnocrats" />
-    <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-    <meta property="article:modified_time" content="2024-08-13T10:06:31+00:00" />
-    <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/iot-img.webp" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@nettechnocrats" />
-    <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="11 minutes" />
+    <title>IoT Application Development Company | Expert IoT Development Services</title>
+    <meta name="description" content="Looking for top-notch IoT application development company to provide IoT application service to create innovative and scalable IoT solutions tailored to your needs." />
+  
     <script type="application/ld+json" class="yoast-schema-graph">
         {
             "@context": "https://schema.org",
@@ -115,40 +102,40 @@
             }]
         }
     </script>
-    <!-- Libraries Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+ <!-- Libraries Stylesheet -->
+ <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
-    <!-- Vendor CSS Files -->
-    <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
 
-    <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('js/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
-    <!-- Main CSS File -->
-    <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
-
-
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
-        referrerpolicy="no-referrer" />
+  <!-- Main CSS File -->
+  <link href="{{ asset('style/web/seo-services/main.css') }}" rel="stylesheet">
 
 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+
+    
     <style>
         .service .service-item {
             height: 500px;
@@ -168,7 +155,7 @@
                 <div class="col-xl-7 wow fadeInLeft">
                     <div>
                         <!-- <h4 class="text-primary1">About Us</h4> -->
-                        <h1 class="display-5 mb-4 text-white">IoT Application Development Company In India</h1>
+                        <h1 class="display-5 mb-4 text-white">Top Rated IoT Application Service</h1>
                         <p class="mb-4 text-white">Create quality apps with Internet of Things to ensure your apps performs</p>
                         @include('partial/proposal')
                     </div>
@@ -260,7 +247,7 @@
                         <div id="collapseOne" class="tab-pane fade show p-0 active">
                             <div class="row g-4">
                                 <div class="col-md-12">
-                                    <h1 class="display-5 mb-4">Full Range Of IoT Services</h1>
+                                    <h2 class="display-5 mb-4">Full Range Of IoT Services</h2>
                                     <p class="mb-4">With the extensive expertise and IOT app development services our team fulfills client’s business needs. We also provide comprehensive support to efficiently develop sustainable and innovative solutions for new business models.</p>
                                 </div>
                             </div>
@@ -268,7 +255,7 @@
                         <div id="collapseTwo" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-md-12">
-                                    <h1 class="display-5 mb-4">IoT Architecture Consulting</h1>
+                                    <h2 class="display-5 mb-4">IoT Architecture Consulting</h2>
                                     <p class="mb-4">We validate the agility and stability of your business and provide iot developer guidance for IOT platform selection. We provide IOT app development with the latest trends of the industry.</p>
                                 </div>
                             </div>
@@ -276,7 +263,7 @@
                         <div id="collapseThree" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-md-12">
-                                    <h1 class="display-5 mb-4">Integration & Implementation</h1>
+                                    <h2 class="display-5 mb-4">Integration & Implementation</h2>
                                     <p class="mb-4">We provide innovative, end-to-end and real time solutions. We are the IOT solution provider. Using our expertise we identify communication requirements of IOT devices. IoT developer develops cloud for data and process integration donning IOT app development.</p>
                                 </div>
                             </div>
@@ -284,7 +271,7 @@
                         <div id="collapseFour" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-md-12">
-                                    <h1 class="display-5 mb-4">Smart Manufacturing</h1>
+                                    <h2 class="display-5 mb-4">Smart Manufacturing</h2>
                                     <p class="mb-4">Our expert enables efficient and profound iot application development. Also, they provide assistance of IOT data and advanced analytics that help in making informed decisions.</p>
                                 </div>
                             </div>
@@ -292,7 +279,7 @@
                         <div id="collapseFive" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-md-12">
-                                    <h1 class="display-5 mb-4">Processing & Automation</h1>
+                                    <h2 class="display-5 mb-4">Processing & Automation</h2>
                                     <p class="mb-4">To get real-time analysis and accurate data evaluation by leveraging the advantage of graphs, charts and dashboards, as an IoT solution provider we get a better insight into advanced and complex data.</p>
                                 </div>
                             </div>
@@ -300,7 +287,7 @@
                         <div id="collapseSix" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-md-12">
-                                    <h1 class="display-5 mb-4">Device Management</h1>
+                                    <h2 class="display-5 mb-4">Device Management</h2>
                                     <p class="mb-4">You get assistance with safe and reliable device management while providing constant updates and fixing bugs.</p>
                                 </div>
                             </div>

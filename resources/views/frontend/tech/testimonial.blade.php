@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital Marketing, Web Development & Mobile App Development Company</title>
+  <title>Find client Reviews for web and Digital Marketing projects</title>
+  <meta name="description" content="We works for reputed company and get the client words which is lot for us." />
+ 
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
   <link
     rel="stylesheet"
@@ -686,8 +688,6 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
       }
     }
   </style>
-
-  @include('partial/google_analytics')
 </head>
 
 <body>

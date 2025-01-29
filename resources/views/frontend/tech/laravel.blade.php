@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Laravel Development Company | Laravel Development Services</title>
  <meta name="description" content="Experience top-tier Laravel development services by partnering with our Laravel development company. Get customizable web solution." />
- <link rel="canonical" href="https://www.nettechnocrats.com/laravel-development/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Laravel Development Company | Laravel Development Services" />
- <meta property="og:description" content="Experience top-tier Laravel development services by partnering with our Laravel development company. Get customizable web solution." />
- <meta property="og:url" content="https://www.nettechnocrats.com/laravel-development/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-07-23T13:35:13+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/laravel_img.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="12 minutes" />
+ 
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -140,7 +127,6 @@
  <style>
 
  </style>
- @include('partial/google_analytics')
 </head>
 
 <body>
@@ -154,7 +140,6 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Laravel Web Application Development Company In India</h1>
       <p class="mb-4 text-white">Get Cost-effective and highly futuristic Laravel solutions to develop business growth</p>
-      @include('partial/proposal')
      </div>
 
      <section id="contact" class="contact__section section">
@@ -227,7 +212,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="{{url('/contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{url('/contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>
@@ -357,7 +342,7 @@
       <div id="collapseOne" class="tab-pane fade show p-0 active">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Global Implementation</h1>
+         <h2 class="display-5 mb-4">Global Implementation</h2>
          <p class="mb-4">With the Laravel framework, a developer need not worry about the application will be suitable for users or not who are from a different country and follow different time, language or currency. Developers can easily integrate different functions in the application with Laravel framework support.</p>
         </div>
        </div>
@@ -365,7 +350,7 @@
       <div id="collapseTwo" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Extension Ability</h1>
+         <h2 class="display-5 mb-4">Extension Ability</h2>
          <p class="mb-4">With countless components and still adding, the Laravel framework is a versatile and fully object-oriented framework, utilizing a lot of object-oriented concepts like inheritance and interfaces. This allows most of ZF’s components to extend to some point.</p>
         </div>
        </div>
@@ -373,7 +358,7 @@
       <div id="collapseThree" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Less Time Required</h1>
+         <h2 class="display-5 mb-4">Less Time Required</h2>
          <p class="mb-4">As Laravel is an object-oriented programming language, this framework helps PHP developers by providing complete support for PHP development. By easily reusing the code, developers can develop multi-interface applications quickly.</p>
         </div>
        </div>
@@ -381,7 +366,7 @@
       <div id="collapseFour" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Uncomplicated Integration</h1>
+         <h2 class="display-5 mb-4">Uncomplicated Integration</h2>
          <p class="mb-4">Another benefit of choosing Laravel application development is its class that allows a trouble-free integration with other libraries that you want to use. Laravel web application development can be facilitated to a great extent using this feature.</p>
         </div>
        </div>
@@ -389,7 +374,7 @@
       <div id="collapseFive" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Wide User & Community Base</h1>
+         <h2 class="display-5 mb-4">Wide User & Community Base</h2>
          <p class="mb-4">The Laravel framework has a large thriving community of developers. Thanks to the vast and active community who keeps on augmenting the pool of knowledge. The reference guide of Laravel explains all the components and their use properly.</p>
         </div>
        </div>
@@ -397,7 +382,7 @@
       <div id="collapseSix" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Allows To Do Multiple Things</h1>
+         <h2 class="display-5 mb-4">Allows To Do Multiple Things</h2>
          <p class="mb-4">With Laravel framework development, you’re allowed to do multiple things. Right from user authentication and controlling the action to resources to creating forms, you can go for much more.</p>
         </div>
        </div>
@@ -527,7 +512,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="{{url('/contact-us.php')}}">Contact Us</a>
+      <a class="cta-btn" href="{{url('/contact-us')}}">Contact Us</a>
      </div>
     </div>
    </div>

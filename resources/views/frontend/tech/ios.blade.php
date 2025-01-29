@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>iPhone Application Development Company, iOS App Development</title>
  <meta name="description" content="Get our iPhone application development services. We&#039;re a trusted iOS app development company delivering excellence in mobile app solutions." />
- <link rel="canonical" href="https://www.nettechnocrats.com/iphone-ios-development-company/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="iPhone Application Development Company, iOS App Development" />
- <meta property="og:description" content="Get our iPhone application development services. We&#039;re a trusted iOS app development company delivering excellence in mobile app solutions." />
- <meta property="og:url" content="https://www.nettechnocrats.com/iphone-ios-development-company/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T10:06:39+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/ios-top-img.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="11 minutes" />
+ 
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -142,8 +129,6 @@
    height: 500px;
   }
  </style>
-
- @include('partial/google_analytics')
 </head>
 
 <body>
@@ -161,7 +146,6 @@
 
 
       </p>
-      @include('partial/proposal')
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -188,7 +172,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>
@@ -560,7 +544,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
+      <a class="cta-btn" href="#">Contact Us</a>
      </div>
     </div>
    </div>

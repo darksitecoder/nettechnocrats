@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Development Services</title>
-  <!-- <link rel="stylesheet" href="style.css"> -->
+<title>Your Trusted Web Development Company | Expert Website Development Services</title>
+	<meta name="description" content="We are a professional web development company with a team of expert web developers. Hire Developers for custom web solutions."/>
+	  <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
   <link
@@ -46,7 +47,6 @@
       height: 600px;
     }
   </style>
-  @include('partial/google_analytics')
 </head>
 
 <body>
@@ -60,8 +60,6 @@
             <!-- <h4 class="text-primary1">About Us</h4> -->
             <h1 class="display-5 mb-4 text-white">Web Development Services</h1>
             <p class="mb-4 text-white">Open-Source Solutions To Build Your Business Websites</p>
-
-            @include('partial/proposal')
           </div>
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">

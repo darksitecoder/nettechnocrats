@@ -4,7 +4,9 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Tech Stack</title>
+ <title>Tech Stack- Find the latest Technology Stack in Nettechnocrats</title>
+  <meta name="description" content="Explore the tech stack for web and software development services. We have dedicated resources for all stack." />
+
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -114,6 +116,46 @@
      </div>
     </a>
    </div>
+    
+    <div class="col-md-3">
+    <a href="{{url('/asp-net-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/iot.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       ASP.net Development
+      </div>
+     </div>
+    </a>
+   </div>
+   
+   <div class="col-md-3">
+    <a href="{{url('/c-sharp-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/iot.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       C# Development
+      </div>
+     </div>
+    </a>
+   </div>
+   
+    <div class="col-md-3">
+    <a href="{{url('/ai-application-development-company.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/iot.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       AI
+      </div>
+     </div>
+    </a>
+   </div>
+   <div class="col-md-3">
+    <a href="{{url('/automobile-software-solutions.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/iot.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Automobile Software Development
+      </div>
+     </div>
+    </a>
+   </div>
+   
   </div>
 
 
@@ -128,6 +170,47 @@
      </div>
     </a>
    </div>
+   
+   <div class="col-md-3">
+    <a href="{{url('/lamp-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/wordPress-website-migration.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       LAMP Web Development
+      </div>
+     </div>
+    </a>
+   </div>
+   
+   <div class="col-md-3">
+    <a href="{{url('/magento-web-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/wordPress-website-migration.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Magento Web Development
+      </div>
+     </div>
+    </a>
+   </div>
+   
+   <div class="col-md-3">
+    <a href="{{url('/php-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/wordPress-website-migration.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       PHP Web Development
+      </div>
+     </div>
+    </a>
+   </div>
+   
+   <div class="col-md-3">
+    <a href="{{url('/nodejs-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/wordPress-website-migration.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Node JS Development
+      </div>
+     </div>
+    </a>
+   </div>
+   
    <div class="col-md-3">
     <a href="{{url('/wordpress-development-services.php')}}">
      <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/wordPress-website-migration.webp') }}'); background-repeat: no-repeat; background-size: cover;">
@@ -137,6 +220,7 @@
      </div>
     </a>
    </div>
+   
    <div class="col-md-3">
     <a href="{{url('/magento-web-development.php')}}">
      <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/magento.webp') }}'); background-repeat: no-repeat; background-size: cover;">
@@ -148,6 +232,16 @@
    </div>
 
    <div class="col-md-3">
+    <a href="{{url('/codeigniter-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/og_joomla.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Codeigniter Development
+      </div>
+     </div>
+    </a>
+   </div>
+   
+   <div class="col-md-3">
     <a href="{{url('/joomla-web-development.php')}}">
      <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/og_joomla.webp') }}'); background-repeat: no-repeat; background-size: cover;">
       <div class="content">
@@ -156,6 +250,27 @@
      </div>
     </a>
    </div>
+   
+    <div class="col-md-3">
+    <a href="{{url('/laravel-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/og_joomla.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Laravel Development
+      </div>
+     </div>
+    </a>
+   </div>
+   
+   <div class="col-md-3">
+    <a href="{{url('/angular-js-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/og_joomla.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Angular JS Development
+      </div>
+     </div>
+    </a>
+   </div>
+   
    <div class="col-md-3">
     <a href="{{url('/drupal-web-development.php')}}">
      <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/drupal-nettechnocrats.webp') }}'); background-repeat: no-repeat; background-size: cover;">
@@ -179,6 +294,18 @@
     </a>
    </div>
   </div>
+  
+  <div class="row">
+   <div class="col-md-3">
+    <a href="{{url('/amazon-web-services.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/cloud-computing.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Amazon Web Service
+      </div>
+     </div>
+    </a>
+   </div>
+  </div>
 
   <h3 class="fw-bold py-3">Data storage</h3>
   <div class="row">
@@ -192,6 +319,17 @@
      </div>
     </a>
    </div>
+   
+   <div class="col-md-3">
+    <a href="{{url('/sharepoint-migration.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/big-data-datenquellen-transformed.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Sharepoint Migration
+      </div>
+     </div>
+    </a>
+   </div>
+   
    <div class="col-md-3">
     <a href="{{url('/ibeacon-app-development-company.php')}}">
      <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/iBeacon-App-Development-1.webp') }}'); background-repeat: no-repeat; background-size: cover;">
@@ -249,6 +387,26 @@
      <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/uiux-img.webp') }}'); background-repeat: no-repeat; background-size: cover;">
       <div class="content">
        UI UX Services
+      </div>
+     </div>
+    </a>
+   </div>
+   
+   <div class="col-md-3">
+    <a href="{{url('/wearable-app-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/uiux-img.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Wearable App
+      </div>
+     </div>
+    </a>
+   </div>
+   
+    <div class="col-md-3">
+    <a href="{{url('/swift-platform-development.php')}}">
+     <div class="showcards" style="background: linear-gradient(rgba(14, 14, 14, 0.75), rgba(14, 14, 14, 0.85)), url('{{ asset('assets/web/uiux-img.webp') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="content">
+       Swift Platform
       </div>
      </div>
     </a>

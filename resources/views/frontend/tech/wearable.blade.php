@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Wearable App Development Service, Wearable App Development Company</title>
  <meta name="description" content="Explore our top-notch wearable app development services. Partner with a reliable company to create customized applications for wearable devices." />
- <link rel="canonical" href="https://www.nettechnocrats.com/wearable-app-development/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Wearable App Development Service, Wearable App Development Company" />
- <meta property="og:description" content="Explore our top-notch wearable app development services. Partner with a reliable company to create customized applications for wearable devices." />
- <meta property="og:url" content="https://www.nettechnocrats.com/wearable-app-development/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T11:18:08+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/wearable-top-img1.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="9 minutes" />
+ 
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -142,7 +129,6 @@
    height: 500px;
   }
  </style>
- @include('partial/google_analytics')
 </head>
 
 <body>
@@ -156,8 +142,6 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Wearable App Development</h1>
       <p class="mb-4 text-white">Sneak in the futuristic technology with creative wearable device apps for stunning user experience.</p>
-
-      @include('partial/proposal')
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -185,7 +169,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>
@@ -341,7 +325,7 @@
       <div id="collapseOne" class="tab-pane fade show p-0 active">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Mobile User Interface Design</h1>
+         <h2 class="display-5 mb-4">Mobile User Interface Design</h2>
          <p class="mb-4">Our interactive & scalable UI designs deliver astounding user experience with a blend of stunning graphics, animations, & other intuitive elements. We create highly compatible Android apps loaded with responsive UI designs & user-friendly features for better user engagement.</p>
         </div>
        </div>
@@ -365,7 +349,7 @@
       <div id="collapseFour" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Backend computation</h1>
+         <h2 class="display-5 mb-4">Backend computation</h2>
          <p class="mb-4">At Nettechnocrats, we utilize agile methodologies & techniques to progress every project in a systematic manner. With specialization in database management, security, memory allocation implementation, advanced hardware interaction, & other automated channels, we include backend computation for every project
          </p>
         </div>
@@ -374,7 +358,7 @@
       <div id="collapseFive" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Integration & customization</h1>
+         <h2 class="display-5 mb-4">Integration & customization</h2>
          <p class="mb-4">We behold expertise in delivering top-class Android app development services with customization & integration. Our mobile apps hold potential to match your business needs & make you achieve entrepreneurial goals.
          </p>
         </div>
@@ -555,7 +539,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
+      <a class="cta-btn" href="#">Contact Us</a>
      </div>
     </div>
    </div>

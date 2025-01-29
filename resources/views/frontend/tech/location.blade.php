@@ -60,7 +60,6 @@
    color: var(--green);
   }
  </style>
- @include('partial/google_analytics')
 </head>
 
 <body>

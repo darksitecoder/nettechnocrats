@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Expert WordPress Development Services | WordPress Development Company</title>
 <meta name="description" content="We are trusted and experienced WordPress development company for tailored solutions. Get top-notch WordPress development services by experts." />
-<link rel="canonical" href="https://www.nettechnocrats.com/wordpress-development-services/" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Expert WordPress Development Services | WordPress Development Company" />
-<meta property="og:description" content="We are trusted and experienced WordPress development company for tailored solutions. Get top-notch WordPress development services by experts." />
-<meta property="og:url" content="https://www.nettechnocrats.com/wordpress-development-services/" />
-<meta property="og:site_name" content="Nettechnocrats" />
-<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-<meta property="article:modified_time" content="2024-07-23T17:01:30+00:00" />
-<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/wordpress.webp" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@nettechnocrats" />
-<meta name="twitter:label1" content="Est. reading time" />
-<meta name="twitter:data1" content="9 minutes" />
+
 <script type="application/ld+json" class="yoast-schema-graph">
   {
     "@context": "https://schema.org",
@@ -236,7 +223,7 @@
     <div class="row g-4">
 
       <div class="col-sm-6">
-        <a href="{{url('/contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{url('/contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
       </div>
 
     </div>
@@ -552,7 +539,7 @@
         <div class="text-center">
           <h3>Ready To Get Started?</h3>
           <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-          <a class="cta-btn" href="{{url('/contact-us.php')}}">Contact Us</a>
+          <a class="cta-btn" href="{{url('/contact-us')}}">Contact Us</a>
         </div>
       </div>
     </div>

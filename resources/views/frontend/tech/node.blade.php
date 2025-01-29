@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Node.js Development Company | Expert Node.js Development Services</title>
  <meta name="description" content="Empower your projects with our Node.js development services. Trust our Node.js development company for scalable and efficient solutions." />
- <link rel="canonical" href="https://www.nettechnocrats.com/nodejs-development/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Node.js Development Company | Expert Node.js Development Services" />
- <meta property="og:description" content="Empower your projects with our Node.js development services. Trust our Node.js development company for scalable and efficient solutions." />
- <meta property="og:url" content="https://www.nettechnocrats.com/nodejs-development/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T10:15:02+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/nodejs_img.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="10 minutes" />
+ 
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -136,7 +123,7 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
- @include('partial/google_analytics')
+
  <style>
   /* .service .service-item {
    height: 500px;
@@ -155,7 +142,6 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Best Node Js Web Application Development Company In India</h1>
       <p class="mb-4 text-white">Highly-customized Node.JS web development to empower your business</p>
-      @include('partial/proposal')
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -183,7 +169,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>
@@ -548,7 +534,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
+      <a class="cta-btn" href="#">Contact Us</a>
      </div>
     </div>
    </div>

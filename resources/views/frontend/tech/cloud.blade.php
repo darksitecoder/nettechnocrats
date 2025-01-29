@@ -4,21 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Computing Service, Cloud Computing Copmany</title>
   <meta name="description" content="Discover our cloud computing services to optimize your IT infrastructure. We provide secure, scalable, and reliable cloud solutions for your business needs." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/cloud-computing/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Comprehensive Cloud Computing Services for Your Business" />
-  <meta property="og:description" content="Discover our cloud computing services to optimize your IT infrastructure. We provide secure, scalable, and reliable cloud solutions for your business needs." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/cloud-computing/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T08:50:23+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/websiteaudits.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="7 minutes" />
+
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",

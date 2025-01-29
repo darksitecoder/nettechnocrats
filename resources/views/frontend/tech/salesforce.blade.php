@@ -1,26 +1,34 @@
-﻿@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="en">
 
-@section('title', 'Salesforce Development')
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Salesforce Development Company | Expert Salesforce Development Services</title>
+ <!-- <link rel="stylesheet" href="style.css"> -->
+<meta name="description" content="Partner with a leading Salesforce development company for custom Salesforce development services. Streamline your business processes with tailored Salesforce solutions."/>
+ <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
+ <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer" />
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-@section('meta_description', 'This is a brief description of the home page for SEO purposes.')
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+  referrerpolicy="no-referrer" />
 
-@section('meta_keywords', 'laravel, home, keywords')
-<title>Salesforce Development Company | Trusted Salesforce Development Services</title>
-<meta name="description" content="Transform your business with our Salesforce development services. We are your reliable Salesforce development company, delivering tailored solutions." />
-<link rel="canonical" href="https://www.nettechnocrats.com/salesforce-development/" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Salesforce Development Company | Trusted Salesforce Development Services" />
-<meta property="og:description" content="Transform your business with our Salesforce development services. We are your reliable Salesforce development company, delivering tailored solutions." />
-<meta property="og:url" content="https://www.nettechnocrats.com/salesforce-development/" />
-<meta property="og:site_name" content="Nettechnocrats" />
-<meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-<meta property="article:modified_time" content="2024-08-13T10:18:28+00:00" />
-<meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/salesforce_side_img.jpg" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@nettechnocrats" />
-<meta name="twitter:label1" content="Est. reading time" />
-<meta name="twitter:data1" content="11 minutes" />
+
+
+ <!-- Libraries Stylesheet -->
+ <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+ <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+ <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+
+
 <script type="application/ld+json" class="yoast-schema-graph">
     {
         "@context": "https://schema.org",
@@ -116,8 +124,9 @@
         }]
     }
 </script>
-
-@section('content')
+</head>
+<body>
+  @include('partial/header')
 <!-- Abvout Start -->
 <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
     <div class="container py-5">
@@ -174,7 +183,7 @@
         </div>
         <p class="mb-4">We aim to cater to varied industries with business-centric Salesforce app development focused on the core aspects of the clients’ business. Our brilliance in delivering custom-built solutions based on Salesforce technology led to the expansion of various organizations. With an award-winning track record in the integration of multiple customizations & creation of feature-loaded platforms and products like marketing cloud, sales cloud, service cloud, & more.</p>
 
-        <a href="{{url('/contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
     </div>
 </div>
 <!-- About End -->
@@ -296,7 +305,7 @@
                     <div id="collapseOne" class="tab-pane fade show p-0 active">
                         <div class="row g-4">
                             <div class="col-md-12">
-                                <h1 class="display-5 mb-4">Increased Lead Generation</h1>
+                                <h2 class="display-5 mb-4">Increased Lead Generation</h2>
                                 <p class="mb-4">The software works on cloud functionality that eliminates extensive efforts in data entry, administration, & security checks and focusing on lead generation.</p>
                             </div>
                         </div>
@@ -304,7 +313,7 @@
                     <div id="collapseTwo" class="tab-pane fade show p-0">
                         <div class="row g-4">
                             <div class="col-md-12">
-                                <h1 class="display-5 mb-4">Offers Customer Satisfaction</h1>
+                                <h2 class="display-5 mb-4">Offers Customer Satisfaction</h2>
                                 <p class="mb-4">Our SalesForce developers bring custom solutions to let a client get a brief insight into crucial sales & data information with streamlined & automated data processes.</p>
                             </div>
                         </div>
@@ -312,7 +321,7 @@
                     <div id="collapseThree" class="tab-pane fade show p-0">
                         <div class="row g-4">
                             <div class="col-md-12">
-                                <h1 class="display-5 mb-4">More Support & Service Options</h1>
+                                <h2 class="display-5 mb-4">More Support & Service Options</h2>
                                 <p class="mb-4">Our CRM software gathers customer queries from varied channels and assigns them to a relevant team or employee responsible for its resolution in a streamlined way.</p>
                             </div>
                         </div>
@@ -320,7 +329,7 @@
                     <div id="collapseFour" class="tab-pane fade show p-0">
                         <div class="row g-4">
                             <div class="col-md-12">
-                                <h1 class="display-5 mb-4">High Return on Investment</h1>
+                                <h2 class="display-5 mb-4">High Return on Investment</h2>
                                 <p class="mb-4">With a Salesforce app development company, businesses get opportunities to get a return on investment at higher rates with managed investment in IT infrastructure.
                                 </p>
                             </div>
@@ -329,7 +338,7 @@
                     <div id="collapseFive" class="tab-pane fade show p-0">
                         <div class="row g-4">
                             <div class="col-md-12">
-                                <h1 class="display-5 mb-4">Unbound Scalability</h1>
+                                <h2 class="display-5 mb-4">Unbound Scalability</h2>
                                 <p class="mb-4">Our clients are familiar with incredible scalability offered by Salesforce CRM that majorly focuses on multitenant approach for effortless implementation at minimal costs.
                                 </p>
                             </div>
@@ -338,7 +347,7 @@
                     <div id="collapseSix" class="tab-pane fade show p-0">
                         <div class="row g-4">
                             <div class="col-md-12">
-                                <h1 class="display-5 mb-4">Instant Results</h1>
+                                <h2 class="display-5 mb-4">Instant Results</h2>
                                 <p class="mb-4">Salesforce prioritizes lead conversion with real-time accessibility of results so that one can get a clear picture of impending success and benefits.
                                 </p>
                             </div>
@@ -365,7 +374,7 @@
                 </div>
             </div>
             <div class="rounded-bottom text-center pt-3">
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="{{url($data->id.'/portfolio-seo-detail.php')}}">SEE CASE STUDY</a>
+                <a class="btn btn-primary rounded-pill py-2 px-4" href="{{url('portfolio-seo-detail/'.$data->id)}}">SEE CASE STUDY</a>
             </div>
             <div class="rounded-bottom text-center pt-3">
                 <p class="text-center p-0 m-0 fw-bold text-white">{{$data->company_name}}</p>
@@ -505,7 +514,7 @@
                 <div class="text-center">
                     <h3>Ready To Get Started?</h3>
                     <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-                    <a class="cta-btn" href="#">Contact Us</a>
+                    <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -513,5 +522,16 @@
 
 </section><!-- /Call To Action Section -->
 
+  @include('partial/footer')
+</body>
 
-@endsection
+</html>
+
+<script src="{{ asset('style/web/lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+
+<script src="{{ asset('js/main.js') }}"></script>

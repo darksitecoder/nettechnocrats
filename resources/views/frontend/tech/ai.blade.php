@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>AI Application Development Company, AI Development Services</title>
  <meta name="description" content="Explore top-notch AI application development services from a trusted company. Turn your vision into reality with cutting-edge artificial intelligence solutions." />
- <link rel="canonical" href="https://www.nettechnocrats.com/ai-application-development-company/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="AI Application Development Company, AI Development Services" />
- <meta property="og:description" content="Explore top-notch AI application development services from a trusted company. Turn your vision into reality with cutting-edge artificial intelligence solutions." />
- <meta property="og:url" content="https://www.nettechnocrats.com/ai-application-development-company/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T08:48:10+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/python_img.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="8 minutes" />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -142,7 +129,6 @@
    height: 450px !important;
   }
  </style>
- @include('partial/google_analytics')
 </head>
 
 <body>
@@ -183,7 +169,7 @@
       <p class="mb-4">Gone are the days when things are done manually, in today’s world that is full of technological advancement most of the work is taken over by software, machinery and various automated processes. In this regard, all the thanks go to Artificial intelligence, as most of the advancement made today is all due to this technology.</p>
       <p class="mb-4">We at Nettechnocrats are adamant to deliver best in performance to our valuable clients. We offer them automated solutions using AI-powered applications to drive growth and efficiency in their business processes and operations. Our distinguished panel of highly professional and certified professionals have expertise in an entire range of AI technologies like Machine learning, Image Processing speech reorganization, virtual assistance etc. The specifically designed solutions delivered by us to our client’s, are unique and catered according to their business goals.</p>
       <p class="mb-4">With our expertise and experience of working with various data visualization and analytics tools like Tableau, SAS, R, QlikView, QlikSense, IBM Cognos, Azure ML and more, is the main reason behind our popularity as leading Data Analytics Service Providers.</p>
-      <a href="{{url('/contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+      <a href="{{url('/contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
      </div>
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
@@ -388,7 +374,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="{{url('/contact-us.php')}}">Contact Us</a>
+      <a class="cta-btn" href="{{url('/contact-us')}}">Contact Us</a>
      </div>
     </div>
    </div>

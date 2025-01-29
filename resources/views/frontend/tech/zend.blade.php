@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Zend Development Services | Expert Zend Development Company</title>
  <meta name="description" content="We are a trusted Zend development company delivering high-quality solutions for your web projects. Explore our Zend development services." />
- <link rel="canonical" href="https://www.nettechnocrats.com/zend-development/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Zend Development Services | Expert Zend Development Company" />
- <meta property="og:description" content="We are a trusted Zend development company delivering high-quality solutions for your web projects. Explore our Zend development services." />
- <meta property="og:url" content="https://www.nettechnocrats.com/zend-development/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-09-09T08:19:36+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2024/07/zendapp_work.webp-1.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="11 minutes" />
+ 
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -135,8 +122,6 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
-
- @include('partial/google_analytics')
 </head>
 
 <body>
@@ -152,13 +137,11 @@
       <p class="mb-4 text-white">Get Cost-effective and highly futuristic ZEND solutions to develop business growth
 
       </p>
-
-      @include('partial/proposal')
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/zend-logo.webp') }}" class="img-fluid rounded " alt="Zend Development Services">
+      <img src="{{ asset('assets/web/sharepoint.webp') }}" class="img-fluid rounded " alt="Zend Development Services">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
@@ -182,7 +165,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>
@@ -190,7 +173,7 @@
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/zend-dev.webp') }}" class="img-fluid rounded w-100" alt="Zend Development company">
+      <img src="{{ asset('assets/web/sharepoint1.webp') }}" class="img-fluid rounded w-100" alt="Zend Development company">
 
      </div>
     </div>
@@ -313,7 +296,7 @@
       <div id="collapseOne" class="tab-pane fade show p-0 active">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Global Implementation</h1>
+         <h2 class="display-5 mb-4">Global Implementation</h2>
          <p class="mb-4">With the Zend framework, a developer need not worry about the application will be suitable for users or not who are from a different country and follow different time, language or currency. Developers can easily integrate different functions in the application with Zend framework support.</p>
         </div>
        </div>
@@ -321,7 +304,7 @@
       <div id="collapseTwo" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Extension Ability</h1>
+         <h2 class="display-5 mb-4">Extension Ability</h2>
          <p class="mb-4">With countless components and still adding, the Zend framework is a versatile and fully object-oriented framework, utilizing a lot of object-oriented concepts like inheritance and interfaces. This allows most of ZF’s components to extend to some point.</p>
         </div>
        </div>
@@ -329,7 +312,7 @@
       <div id="collapseThree" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Less Time Required</h1>
+         <h2 class="display-5 mb-4">Less Time Required</h2>
          <p class="mb-4">As Zend is an object-oriented programming language, this framework helps PHP developers by providing complete support for PHP development. By easily reusing the code, developers can develop multi-interface applications quickly.</p>
         </div>
        </div>
@@ -337,7 +320,7 @@
       <div id="collapseFour" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Uncomplicated Integration</h1>
+         <h2 class="display-5 mb-4">Uncomplicated Integration</h2>
          <p class="mb-4">Another benefit of choosing Zend application development is its class that allows a trouble-free integration with other libraries that you want to use. Zend web application development can be facilitated to a great extent using this feature.</p>
         </div>
        </div>
@@ -345,7 +328,7 @@
       <div id="collapseFive" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Wide User & Community Base</h1>
+         <h2 class="display-5 mb-4">Wide User & Community Base</h2>
          <p class="mb-4">The Zend framework has a large thriving community of developers. Thanks to the vast and active community who keeps on augmenting the pool of knowledge. The reference guide of Zend explains all the components and their use properly.</p>
         </div>
        </div>
@@ -353,7 +336,7 @@
       <div id="collapseSix" class="tab-pane fade show p-0">
        <div class="row g-4">
         <div class="col-md-12">
-         <h1 class="display-5 mb-4">Allows To Do Multiple Things</h1>
+         <h2 class="display-5 mb-4">Allows To Do Multiple Things</h2>
          <p class="mb-4">The PHP community is very fast and so large, the proof is the number of PHP frameworks available. Popular framework available on PHP is Aiki, Symfony, Zend, Silex, and Slim. This is one of the major advantages of using the PHP scripting language.</p>
         </div>
        </div>
@@ -435,7 +418,7 @@
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gif">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/zend-download.webp') }}" class="img-fluid rounded w-100" alt="Zend Development Services">
+       <img src="{{ asset('assets/web/SharePoint-migration.webp') }}" class="img-fluid rounded w-100" alt="Zend Development Services">
 
       </div>
      </div>
@@ -483,7 +466,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
+      <a class="cta-btn" href="#">Contact Us</a>
      </div>
     </div>
    </div>

@@ -6,20 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>eWallet App Development Company, Mobile Wallet App Development</title>
   <meta name="description" content="Would you like to create a fast and secure mobile wallet app for your business? We are ewallet app development company to manage your money in smartest way." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/e-wallet-app-development/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="eWallet App Development Company, Mobile Wallet App Development" />
-  <meta property="og:description" content="Would you like to create a fast and secure mobile wallet app for your business? We are ewallet app development company to manage your money in smartest way." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/e-wallet-app-development/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-09-26T07:37:39+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/main-ewallet-1024x310-1.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="27 minutes" />
+  
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",
@@ -146,7 +133,6 @@
       height: 550px !important;
     }
   </style>
-  @include('partial/google_analytics')
 </head>
 
 <body>
@@ -161,7 +147,6 @@
             <h1 class="display-5 mb-4 text-white">Developing a Mobile Wallet Application for All Types of Payments</h1>
             <p class="mb-4 text-white">Sending money and handing over the cash required physical presence. However, in the present time, millions of people are adopting digital wallets, and the earliest adopters of the new form of money have great chances to grow practically.
             </p>
-            @include('partial/proposal')
           </div>
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -194,7 +179,7 @@
             <div class="row g-4">
 
               <div class="col-sm-6">
-                <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+                <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
               </div>
 
             </div>
@@ -361,7 +346,7 @@
             <div id="collapseOne" class="tab-pane fade show p-0 active">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Geo-Location</h1>
+                  <h2 class="display-5 mb-4">Geo-Location</h2>
                   <p class="mb-4">Integrated GPS technology will allow users to find nearby friends for easy & rapid money transactions.</p>
                 </div>
               </div>
@@ -369,7 +354,7 @@
             <div id="collapseThree" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">In-App Camera</h1>
+                  <h2 class="display-5 mb-4">In-App Camera</h2>
                   <p class="mb-4">We integrate in-app camera feature to scan QR code through which you can pay, transfer & accept the</p>
                 </div>
               </div>
@@ -377,7 +362,7 @@
             <div id="collapseFour" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Push Notification</h1>
+                  <h2 class="display-5 mb-4">Push Notification</h2>
                   <p class="mb-4">Get push notifications on your smartphone for offers, transactions, promotions, and rewards.</p>
                 </div>
               </div>
@@ -385,7 +370,7 @@
             <div id="collapseFive" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Data Sync</h1>
+                  <h2 class="display-5 mb-4">Data Sync</h2>
                   <p class="mb-4">The eWallet app will automatically sync your bank account with registered mobile number & ensures</p>
                 </div>
               </div>
@@ -393,7 +378,7 @@
             <div id="collapseSix" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">QR Code</h1>
+                  <h2 class="display-5 mb-4">QR Code</h2>
                   <p class="mb-4">It allows users to pay, transfer, and accept payment with QR code scanning.
                   </p>
                 </div>
@@ -402,7 +387,7 @@
             <div id="collapseSeven" class="tab-pane fade show p-0">
               <div class="row g-4">
                 <div class="col-md-12">
-                  <h1 class="display-5 mb-4">Data Sync</h1>
+                  <h2 class="display-5 mb-4">Data Sync</h2>
                   <p class="mb-4">The cloud connectivity with mobile wallet apps enables highly secured, reliable & rapid transactions.</p>
                 </div>
               </div>
@@ -784,7 +769,7 @@
           <div class="text-center">
             <h3>Ready To Get Started?</h3>
             <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-            <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
+            <a class="cta-btn" href="#">Contact Us</a>
           </div>
         </div>
       </div>

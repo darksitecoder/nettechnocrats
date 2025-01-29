@@ -9,6 +9,11 @@
   --accent-color-opacity: rgba(50, 197, 181, 0.1);
   --surface-color: #ffffff;
   --contrast-color: #ffffff;
+  --orange: #F25423;
+}
+
+.orange {
+  color: var(--orange);
 }
 
 .btn-primary {
@@ -317,7 +322,7 @@ p {
 }
 
 .hero__banner {
-  background-color: #e0f6f3;
+  background-color: var(--blue);
   padding: 2rem 2rem;
   padding-bottom: 6rem;
 }
@@ -325,12 +330,14 @@ p {
 .hero__banner h1 {
   font-size: 45px;
   font-weight: 700;
+  color: var(--white);
 }
 
 .hero__banner .banner__description {
   font-weight: 500;
   font-size: 18px;
   text-align: justify;
+  color: var(--white);
 }
 
 .hero__banner .btn {
@@ -343,13 +350,15 @@ p {
 }
 
 .hero__banner .get__touch {
-  background-color: var(--green);
-  border: 1px solid var(--green);
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+  font-size: 20px;
 }
 
 .hero__banner .get__touch:hover {
   background-color: transparent;
-  border: 1px solid var(--green);
+  color: var(--orange);
+  border: 1px solid var(--orange);
 }
 
 .hero__banner .audit {

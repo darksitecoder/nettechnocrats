@@ -6,20 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AngularJS Development Company | Leading AngularJS Development Services</title>
   <meta name="description" content="Get excellence AngularJS development services. We are your trusted AngularJS development company for cutting-edge web solutions." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/angular-js-development/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="AngularJS Development Company | Leading AngularJS Development Services" />
-  <meta property="og:description" content="Get excellence AngularJS development services. We are your trusted AngularJS development company for cutting-edge web solutions." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/angular-js-development/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T08:48:01+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/angularjs.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="9 minutes" />
+
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",
@@ -142,7 +129,6 @@
    height: 500px;
   } */
   </style>
-  @include('partial/google_analytics')
 </head>
 
 <body>
