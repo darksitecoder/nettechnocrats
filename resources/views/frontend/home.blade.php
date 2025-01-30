@@ -713,13 +713,13 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         }
 
         .counters .counter {
-            font-size: 45px;
+            font-size: 35px;
             font-weight: 600;
             margin: 10px 0;
         }
 
         .counters h3 {
-
+            font-size: 25px;
             font-weight: 600;
 
         }
@@ -760,28 +760,55 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             <section class="counters">
                 <div class="container">
                     <div class="text-center">
-                        <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                        <span class="fs-1 fw-bold d-flex text-center align-items-center justify-content-center" style="height: 50px;">
                             <div class="counter" data-target="200">0</div>k+
                         </span>
                         <h3>1st Page Rank</h3>
                     </div>
                     <div class="text-center">
-                        <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                        <span class="fs-1 fw-bold d-flex text-center align-items-center justify-content-center" style="height: 50px;">
                             <div class="counter" data-target="12">0</div>+
                         </span>
                         <h3>Years</h3>
                     </div>
                     <div class="text-center">
-                        <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                        <span class="fs-1 fw-bold d-flex text-center align-items-center justify-content-center" style="height: 50px;">
                             <div class="counter" data-target="4000">0</div>+
                         </span>
                         <h3>Clients</h3>
                     </div>
                     <div class="text-center">
-                        <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center">
+                        <span class="fs-1 fw-bolder d-flex text-center align-items-center justify-content-center" style="height: 50px;">
                             <div class="counter" data-target="12">0</div>+
                         </span>
                         <h3>Awards Winning</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="brand__images py-4 mt-5">
+                <div class="container">
+                    <h3 class="text-center fs-1">Our Clients</h3>
+
+                    <div class="img__row">
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
+                    </div>
+                    <div class="img__row">
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
+                    </div>
+                    <div class="img__row">
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
+                        <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
                     </div>
                 </div>
             </section>
@@ -1667,7 +1694,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
 <script>
     const counters = document.querySelectorAll('.counter');
-    const speed = 30; // The lower the speed value, the slower the counter animation
+    const speed = 60; // The lower the speed value, the slower the counter animation
 
     counters.forEach(counter => {
         const updateCount = () => {
@@ -1740,6 +1767,24 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             });
         });
     });
+</script>
+
+<script>
+    $(function() {
+        $('.popup-youtube, .popup-vimeo').magnificPopup({
+            disableOn: 700,
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+            fixedContentPos: false
+        });
+    });
+</script>
+
+
+<script>
+    document.body.innerHTML = document.body.innerHTML.replace(/\uFEFF/g, '');
 </script>
 
 </html>
