@@ -28,11 +28,11 @@ class DigitalMarketingController extends Controller
     }
 
     public function smo()
-    {        
+    {
         $datas = portfolio::where('category_2', 'SMO')->get();
         return view('frontend.digital-marketing.smo', compact('datas'));
     }
-   
+
     public function ppc()
     {
         $datas = portfolio::where('category_2', 'PPC')->get();
@@ -45,7 +45,7 @@ class DigitalMarketingController extends Controller
         return view('frontend.digital-marketing.local', compact('datas'));
     }
 
-    public function orm() 
+    public function orm()
     {
         $datas = portfolio::where('category_2', 'ORM')->get();
         return view('frontend.digital-marketing.orm', compact('datas'));
@@ -78,5 +78,4 @@ class DigitalMarketingController extends Controller
     {
         return view('frontend.tech.404');
     }
-
 }

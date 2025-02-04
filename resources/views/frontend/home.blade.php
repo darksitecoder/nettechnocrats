@@ -735,6 +735,73 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 padding-bottom: 20px;
             }
         }
+
+        .image-back {
+            display: flex;
+            align-items: center;
+            background-color: rgba(80, 226, 202, 0.2);
+            padding: 0.5rem 0rem;
+            border-radius: 5px;
+            transition: 0.5s ease-in-out;
+        }
+
+        .image-back:hover {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .image-back img {
+            width: 57%;
+            height: 100%;
+        }
+
+        .image-back p {
+            font-size: 15px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .blackOut {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 0;
+            top: 0;
+            bottom: 0;
+            display: none;
+        }
+
+        .blackOut .popupAlignCenter {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .blackOut .popupAlignCenter .popUpWrapper {
+            width: 80%;
+            max-width: 1280px;
+            max-height: 640px;
+            background-color: #fff;
+            z-index: 100;
+        }
+
+        .blackOut .popupAlignCenter .popUpWrapper button.videoClose {
+            color: var(--black);
+            font-weight: 600;
+            position: absolute;
+            right: 50px;
+            font-size: 22px;
+            padding: 4px 10px;
+            float: right;
+            background: none;
+            border: 0;
+            cursor: pointer;
+            background-color: var(--green);
+            border-radius: 100%;
+
+        }
     </style>
 </head>
 
@@ -785,7 +852,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     </div>
                 </div>
             </section>
-            <section class="brand__images py-4 mt-5">
+            <!-- <section class="brand__images py-4 mt-5">
                 <div class="container">
                     <h3 class="text-center fs-1">Our Clients</h3>
 
@@ -811,32 +878,109 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                         <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
 
-            <div class="container">
-                <section class="about__seo">
-                    <div class="row">
-                        <div class="col-lg-5 d-flex align-items-center">
-                            <img src="{{ asset('assets/web/clutch.webp') }}" alt="" srcset="" style="width:100%;">
-                        </div>
-                        <div class="col-lg-7">
-                            <p class="colored__text">Awarded as Top SEO Company in 2023</p>
-                            <h2>Boosting ROI and Traffic: The Nettechnocrats Way!</h2>
-                            <p>
-                                At Nettechnocrats, we take immense pride in being recognized as a Top SEO company by Clutch, renowned for our exceptional ability to boost ROI and drive traffic like never before. Our mission is simple: aim high with your ROI and witness the phenomenal surge in your website traffic!</p>
 
-                            <p>Experience exponential growth and unparalleled success by attracting precisely the right audience through strategically chosen industry-relevant search terms. We don’t just scratch the surface; we plunge into the depths of every aspect that influences your visibility on search engine results pages – from your website’s authority to its lightning-fast speed. Our strategic approach ensures that the results you achieve are nothing short of transformative.</p>
+            <section class="about__seo px-4">
+                <h2 class="text-center pb-3">Boosting ROI and Traffic: The Nettechnocrats Way!</h2>
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <!-- <img src="{{ asset('assets/web/assets/images/semrush.webp') }}" alt="" srcset="" style="width:100%;"> -->
 
-                            <p>With Nettechnocrats, you gain access to our expertise and industry insights, empowering your business to thrive in the long run. Embark on your journey toward lasting success today!
-                            </p>
-                            <br>
-                            <a href="{{ url('contact-us.php')}}" class="about__btn mt-4">Talk With Our Experts</a>
+                        <div class="row">
+                            <div class="col-md-6 py-3">
+                                <div class="image-back">
+                                    <img src="{{ asset('assets/web/assets/images/topdevelopers.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <div class="text">
+                                        <p class="fw-bold">Top Developers</p>
+                                        <p class="">Best Development Company</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-3">
+                                <div class="image-back">
+                                    <img src="{{ asset('assets/web/assets/images/semrush.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <div class="text">
+                                        <p class="fw-bold">Semrush</p>
+                                        <p class="">Best SEO Company</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-3">
+                                <div class="image-back">
+                                    <img src="{{ asset('assets/web/assets/images/clutch-co.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <div class="text">
+                                        <p class="fw-bold">Clutch</p>
+                                        <p class="">Top Digital Marketing Agency</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-3">
+                                <div class="image-back">
+                                    <img src="{{ asset('assets/web/assets/images/G2_Crowd.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <div class="text">
+                                        <p class="fw-bold">G2</p>
+                                        <p class="">Best Local SEO Agency</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-3">
+                                <div class="image-back">
+                                    <img src="{{ asset('assets/web/assets/images/goodfirms.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <div class="text">
+                                        <p class="fw-bold">Good Firms</p>
+                                        <p class="">Best SEO Company In India</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-3">
+                                <div class="image-back">
+                                    <img src="{{ asset('assets/web/assets/images/goodfims1.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <div class="text">
+                                        <p class="fw-bold">Good Firms</p>
+                                        <p class="">Best SEO Company In India</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-3">
+                                <div class="image-back">
+                                    <img src="{{ asset('assets/web/assets/images/Hindustan_.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <div class="text">
+                                        <p class="fw-bold">Hindustan Times</p>
+                                        <p class="">Best SEO Company</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-3">
+                                <div class="image-back">
+                                    <img src="{{ asset('assets/web/assets/images/Upwork.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <div class="text">
+                                        <p class="fw-bold">Upwork</p>
+                                        <p class="">Best Development Company</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                </section>
+                    <div class="col-lg-6">
+                        <p class="colored__text">Awarded as Top SEO Company in 2023</p>
 
+                        <p>
+                            At Nettechnocrats, we take immense pride in being recognized as a Top SEO company by Clutch, renowned for our exceptional ability to boost ROI and drive traffic like never before. Our mission is simple: aim high with your ROI and witness the phenomenal surge in your website traffic!</p>
 
+                        <p>Experience exponential growth and unparalleled success by attracting precisely the right audience through strategically chosen industry-relevant search terms. We don’t just scratch the surface; we plunge into the depths of every aspect that influences your visibility on search engine results pages – from your website’s authority to its lightning-fast speed. Our strategic approach ensures that the results you achieve are nothing short of transformative.</p>
+
+                        <p>With Nettechnocrats, you gain access to our expertise and industry insights, empowering your business to thrive in the long run. Embark on your journey toward lasting success today!
+                        </p>
+                        <br>
+                        <a href="{{ url('contact-us.php')}}" class="about__btn mt-4">Talk With Our Experts</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container">
 
                 <section class="spectrum__services">
                     <div class="row">
@@ -1025,7 +1169,11 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 <section class="testimonial__video">
                     <div class="row">
                         <div class="col-lg-6">
-                            <a href="https://youtu.be/f-MAIzGxWc0" target="_blank"><img src="{{ asset('assets/web/maxresdefault (1).webp') }}" alt="" srcset="" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"></a>
+
+
+                            <div class="videoPopup">
+                                <a href="javascript:void(0)" onclick="videoPopupItem.launchPopUp();"><img src="{{ asset('assets/web/maxresdefault.gif') }}" alt="" srcset="" class="popup-btn" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"></a>
+                            </div>
                         </div>
                         <div class="col-lg-6">
                             <h2>We Are Ranked Among the Top Global Leaders in Digital Marketing</h2>
@@ -1040,6 +1188,9 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             </div>
                         </div>
                     </div>
+
+
+
                 </section>
             </div>
 
@@ -1347,16 +1498,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
                 </div>
             </section>
-            <section class="sample__banner" style="background: url('{{ asset('assets/web/sample__banner.webp') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat;">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2>
-                            What Comprise A Robust Digital Marketing Strategy? Straight from the horse's Mouth
-                        </h2>
-                        <p>Well, it's not the rocket science, but to be truthful, it is not that much easier too. But before you hire us as your digital marketing consultant, let us know you what processes we have adopted to serve you.</p>
-                    </div>
-                </div>
-            </section>
+
             <div class="container">
 
             </div>
@@ -1500,7 +1642,18 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     </div>
                 </div>
             </section>
-            <section class="sample__banner my-3 " style="background: url('{{ asset('assets/web/people.webp') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat; padding:5rem 0rem !important;">
+
+            <section class="sample__banner" style="background: url('{{ asset('assets/web/sample__banner.webp') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat;">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>
+                            What Comprise A Robust Digital Marketing Strategy? Straight from the horse's Mouth
+                        </h2>
+                        <p>Well, it's not the rocket science, but to be truthful, it is not that much easier too. But before you hire us as your digital marketing consultant, let us know you what processes we have adopted to serve you.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="sample__banner my-3 " style="background: url('{{ asset('assets/web/people.webp') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat; padding:5rem 0rem !important;">
                 <div class="row">
                     <div class="col-lg-12">
                         <h2>Consistently Effective, Cutting-Edge SEO Solutions for Higher Conversion Rates</h2>
@@ -1536,7 +1689,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                         </section>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <section class="home__address py-2 my-3 d-flex justify-content-center">
                 <div class="container">
                     <div class="row address py-5" style="background-color: var(--blue);">
@@ -1551,7 +1704,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 <input type="text" name="name" id="name" placeholder="Name*" required>
                                 <input type="email" name="email" id="email" placeholder="Email*" required>
                                 <input type="text" name="phone" id="phone" placeholder="Phone*" required>
-                                <input type="url" name="website" id="website" placeholder="Website URL*" required>
+                                <input type="text" name="website" id="website" placeholder="Website URL*" required>
                                 <button type="submit" class="submit-btn">Request a free quote</button>
                             </form>
 
@@ -1588,6 +1741,12 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             </section>
 
             @include('partial/footer')
+        </div>
+
+        <div class="blackOut">
+            <div class="popupAlignCenter">
+                <!-- popup content populates here -->
+            </div>
         </div>
 </body>
 
@@ -1789,7 +1948,44 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         });
     });
 </script>
+<script>
+    function videoPopup(objectName, videoUrl) {
+        this.videoUrl = videoUrl;
+        this.screenSize = $(window).width();
+        this.heightOfVideo = this.screenSize * .4;
+        this.videoPop = '<div class="popUpWrapper">' +
+            '<div id="videoWrap"">' +
+            '<button type="button" class="videoClose" onclick="' + objectName + '.closeVideo()">X</button>' +
+            '<iframe width="100%" height="' + this.heightOfVideo + '" src="' + this.videoUrl + '" frameborder="0" allowfullscreen></iframe></div>' +
+            '</div>',
+            this.closeVideo = function() {
+                $('.blackOut').fadeOut('slow');
+                $('.popupAlignCenter').html("");
+            },
+            this.launchPopUp = function() {
+                $(window).scroll(function() {
+                    return false;
+                });
+                if ($('.blackOut').css('display') == "none") {
+                    $('.blackOut').fadeIn('slow');
+                }
+                $('.blackOut').css('z-index', '1000');
+                $('.popupAlignCenter').html(this.videoPop);
+                $('.popUpWrapper').fadeIn('slow');
+            }
+    };
 
+    $(document).mouseup(function(e) {
+        var container = $(".popUpWrapper");
+        if ($('.blackOut').css('z-index') != "0") {
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                $('.blackOut').fadeOut('slow');
+            }
+        }
+    });
+
+    var videoPopupItem = new videoPopup('videoPopupItem', 'https://www.youtube.com/embed/f-MAIzGxWc0?si=OcyqqRQLRMx-S2-f');
+</script>
 
 <!-- <script>
     document.body.innerHTML = document.body.innerHTML.replace(/\uFEFF/g, '');

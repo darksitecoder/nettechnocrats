@@ -12,6 +12,11 @@
   --orange: #F25423;
 }
 
+* {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+}
+
 .orange {
   color: var(--orange);
 }
