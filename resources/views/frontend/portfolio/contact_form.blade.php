@@ -50,7 +50,7 @@
 @endif
 
     <div class="col-lg-7">
-      <form action="{{url('/enquiryFormSubmit')}}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+      <form action="{{url('/enquiryFormSubmit')}}" method="post" class="php-email-form php-email-form-2" data-aos="fade-up" data-aos-delay="200">
         @csrf
         
         <div class="row gy-4">
@@ -92,3 +92,39 @@
 </div>
 
 </section><!-- /Contact Section -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function () {
+    $(".php-email-form-2").on("submit", function (e) {
+        e.preventDefault(); // Prevent default form submission
+
+        var form = $(this);
+        var formData = form.serialize(); // Serialize form data
+
+        // Show loading message
+        $(".loading").show();
+        $(".error-message, .sent-message").hide();
+
+        $.ajax({
+            url: form.attr("action"), // Form action URL
+            type: "POST",
+            data: formData,
+            dataType: "json",
+            success: function (response) {
+                $(".loading").hide();
+                $(".sent-message").show().text("Your message has been sent. Thank you!");
+                form.trigger("reset"); // Reset the form after submission
+            },
+            error: function (xhr) {
+                $(".loading").hide();
+                var errorMsg = "Something went wrong! Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.error) {
+                    errorMsg = xhr.responseJSON.error;
+                }
+                $(".error-message").show().text(errorMsg);
+            }
+        });
+    });
+});
+</script>
