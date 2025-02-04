@@ -80,13 +80,13 @@ class enquiresController extends Controller
                     'message' => $request->message,
                 ];
 
-                \Mail::send('emails.enquiry', $emailData, function ($message) use ($request) {
+                \Mail::send('emails.enquiry', ['emailData' => $emailData], function ($message) use ($request) {
                     $message->to('sales@nettechnocrats.com')
                             ->subject('New Enquiry Submitted')
                             ->from($request->email, $request->name);
-                }); 
-
-                echo 'OK'; // Success response
+                });
+        
+                return response()->json(['success', 'Enquiry submitted successfully!']);
             } catch (\Exception $e) {
                 return response()->json(['error' => 'Email not sent: ' . $e->getMessage()], 500);
             }
