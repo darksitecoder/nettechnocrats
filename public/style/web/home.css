@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+﻿/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); */
 @import url(colors.css);
 
 :root {
@@ -12,10 +12,10 @@
   --orange: #F25423;
 }
 
-* {
+/* * {
   font-family: "Roboto", serif;
   font-optical-sizing: auto;
-}
+} */
 
 .orange {
   color: var(--orange);
@@ -427,7 +427,7 @@ p {
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
   border-radius: 20px;
   margin: 1rem 2rem;
-  padding: 3.5rem 0rem;
+  /* padding: 3.5rem 0rem; */
 }
 
 .spectrum__services h2 {

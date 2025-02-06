@@ -1,8 +1,8 @@
 ﻿<!-- header start -->
 <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
 
 <header class="header">
   <div class="nav_container">
@@ -231,7 +231,7 @@
       <!-- menu end here -->
       <div class="header-item item-right">
         <a href="#" class="phone__number"><i class="fa-solid fa-phone"></i>+91-9711411002</a>
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=9711411002&amp;text=I checked the website, and I have a few questions to ask" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=9711411002&amp;text=Hello Nettechnocrats, I'm looking for SEO & digital marketing services. Can you help boost my online presence?" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
         <a href="{{ url('contact-us.php')}}"><span class="get__in__touch">Get In Touch</span></a>
         <!-- <a href="{{ url('login_page')}}"><span class="get__in__touch">Login</span></a> -->
         <!-- mobile menu trigger -->
