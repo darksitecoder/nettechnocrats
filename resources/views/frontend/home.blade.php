@@ -852,38 +852,12 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     </div>
                 </div>
             </section>
-            <!-- <section class="brand__images py-4 mt-5">
-                <div class="container">
-                    <h3 class="text-center fs-1">Our Clients</h3>
 
-                    <div class="img__row">
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
-                    </div>
-                    <div class="img__row">
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
-                    </div>
-                    <div class="img__row">
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
-                        <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
-                    </div>
-                </div>
-            </section> -->
 
 
 
             <section class="about__seo px-4">
-                <h2 class="text-center pb-3">Boosting ROI and Traffic: The Nettechnocrats Way!</h2>
+                <h2 class="text-center pb-3 fs-1">Boosting ROI and Traffic: The Nettechnocrats Way!</h2>
                 <div class="row">
                     <div class="col-lg-6 d-flex align-items-center">
                         <!-- <img src="{{ asset('assets/web/assets/images/semrush.webp') }}" alt="" srcset="" style="width:100%;"> -->
@@ -985,7 +959,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 <section class="spectrum__services">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h2 class="text-center">Unveiling Our Spectrum of Services</h2>
+                            <h2 class="text-center fs-1">Unveiling Our Spectrum of Services</h2>
                             <p class="text-center">Leveraging a robust team force, we’re helping businesses across various sectors amplify their online presence. Through trusted methods like White Hat SEO, SEM, and SMO, we elevate brand recognition and foster growth.</p>
                         </div>
                     </div>
@@ -1084,6 +1058,34 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="brand__images pb-4 ">
+                    <div class="container">
+                        <h3 class="text-center fs-1">Our Clients</h3>
+
+                        <div class="img__row">
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
+                        </div>
+                        <div class="img__row">
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
+                        </div>
+                        <div class="img__row">
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
+                            <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
                         </div>
                     </div>
                 </section>
