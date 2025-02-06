@@ -13,7 +13,7 @@ class QuoteController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'phone' => 'required|string|max:15',
-            'website' => 'required|url'
+            'website' => 'required'
         ]);
 
         // Save to the database

@@ -40,8 +40,7 @@ class ProposalController extends Controller
                             ->from($request->email, $request->name);
                 }); 
     
-                // Redirect back with a success message
-                return back()->with('success', 'Proposal submitted successfully!');
+                return response()->json(['success'=> 'Proposal submitted successfully!']);
 
             } catch (\Exception $e) {
                 return response()->json(['error' => 'Email not sent: ' . $e->getMessage()], 500);
