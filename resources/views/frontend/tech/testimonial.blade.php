@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Find client Reviews for web and Digital Marketing projects</title>
   <meta name="description" content="We works for reputed company and get the client words which is lot for us." />
- 
+
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
   <link
     rel="stylesheet"
@@ -16,6 +16,10 @@
     referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
   <style>
     .slider-container {
       position: relative;
@@ -687,6 +691,74 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         padding-bottom: 20px;
       }
     }
+
+    .image-back {
+      display: flex;
+      align-items: center;
+      background-color: rgba(80, 226, 202, 0.2);
+      padding: 0.5rem 0.5rem;
+      border-radius: 5px;
+      min-height: 105px;
+      transition: 0.5s ease-in-out;
+    }
+
+    .image-back:hover {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .image-back img {
+      width: 57%;
+      height: 100%;
+    }
+
+    .image-back p {
+      font-size: 13px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .blackOut {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+      top: 0;
+      bottom: 0;
+      display: none;
+    }
+
+    .blackOut .popupAlignCenter {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .blackOut .popupAlignCenter .popUpWrapper {
+      width: 80%;
+      max-width: 1280px;
+      max-height: 640px;
+      background-color: #fff;
+      z-index: 100;
+    }
+
+    .blackOut .popupAlignCenter .popUpWrapper button.videoClose {
+      color: var(--black);
+      font-weight: 600;
+      position: absolute;
+      right: 50px;
+      font-size: 22px;
+      padding: 4px 10px;
+      float: right;
+      background: none;
+      border: 0;
+      cursor: pointer;
+      background-color: var(--green);
+      border-radius: 100%;
+
+    }
   </style>
 </head>
 
@@ -711,8 +783,9 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
   <section class="testimonial__video">
     <div class="row">
       <div class="col-lg-6">
-        <a href="https://youtu.be/f-MAIzGxWc0"><img src="{{ asset('assets/web/maxresdefault (1).webp') }}" alt="you tube" srcset="" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
-        </a>
+        <div class="videoPopup">
+          <a class="popup-youtube" href="https://www.youtube.com/watch?v=f-MAIzGxWc0"><img src="{{ asset('assets/web/maxresdefault.gif') }}" alt="" srcset="" class="popup-btn" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"></a>
+        </div>
       </div>
       <div class="col-lg-6">
         <h2>what our clients
@@ -958,6 +1031,12 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
   @include('partial/footer')
   </div>
+
+  <div class="blackOut">
+    <div class="popupAlignCenter">
+      <!-- popup content populates here -->
+    </div>
+  </div>
 </body>
 
 <script>
@@ -1093,6 +1172,18 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
       document.getElementById("icon-" + i).classList.toggle("ri", id !== i);
     }
   }
+</script>
+<script>
+  $(function() {
+    $('.popup-youtube, .popup-vimeo').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false
+    });
+  });
 </script>
 
 </html>
