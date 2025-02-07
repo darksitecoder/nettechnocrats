@@ -165,7 +165,7 @@
         }
 
         .industries__card p {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 600;
             margin: 0;
 
@@ -526,12 +526,11 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
         .panel {
             -webkit-transition: width 0.2s, transform 0.4s;
-            /* Safari */
             transition: width 0.2s, transform 0.4s, box-shadow 0.4s;
             height: inherit;
             margin: 1rem 1rem;
             border-radius: 20px;
-            height: 580px;
+            height: 482px;
         }
 
         .title {
@@ -740,8 +739,9 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             display: flex;
             align-items: center;
             background-color: rgba(80, 226, 202, 0.2);
-            padding: 0.5rem 0rem;
+            padding: 0.5rem 0.5rem;
             border-radius: 5px;
+            min-height: 105px;
             transition: 0.5s ease-in-out;
         }
 
@@ -755,7 +755,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         }
 
         .image-back p {
-            font-size: 15px;
+            font-size: 13px;
             padding: 0;
             margin: 0;
         }
@@ -1321,11 +1321,11 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 <p>
                                     Organic Search | keywords at first page successfully implemented SEO and PPC Strategies for Men;s USA, Resulting in remarkable outcomes.they achieved an impressive 800% increase in organic search, A significant 300% boost in organic revenue, attained first page rankings for 2000 keywords on google and generated over 10 million impressive within a span of just 3 months.
                                 <p>
-                                    Digital Strategy we Used: <br />
+                                    <!-- Digital Strategy we Used: <br />
                                     – Targeted competitive and Low hanging keywords <br />
                                     – Targeted multiple websites <br />
                                     – Created high DA and PA backlinks <br />
-                                    – We have done content syndication and outreach
+                                    – We have done content syndication and outreach -->
                                 </p>
                             </div>
                         </div>
@@ -1401,13 +1401,13 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
 
 
-                                    Goals Achieved: <br />
+                                    <!-- Goals Achieved: <br />
                                     We started our campaign for online shopping with Google Adwords by double the conversion rate. Google Results provide
                                     business to client and Expand its business by major PPC Networks.
 
                                     – Google Adwords <br />
 
-                                    – Yahoo Search Marketing</p>
+                                    – Yahoo Search Marketing</p> -->
                             </div>
                         </div>
 
