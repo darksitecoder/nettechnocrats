@@ -4,9 +4,9 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Best Software Development Company | Custom Software Development Services</title>
- <meta name="description" content="We are your trusted custom software development company providing cutting-edge software develoment solutions to startup to enterprise clients." />
-  
+ <title>All-in-one CRM solutions, CRM Development Company</title>
+ <meta name="description" content="We are top rated CRM development company provides scaleable solution to all industries who needs CRM solutions to enhance the performance of website."/>
+
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -30,11 +30,10 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 
  <style>
-  .service .service-item {
-   height: 320px;
-  }
+  /* .service .service-item {
+   height: 500px;
+  } */
  </style>
- @include('partial/google_analytics')
 </head>
 
 <body>
@@ -46,33 +45,31 @@
     <div class="col-xl-7 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">Software Development Services</h1>
-      <p class="mb-4 text-white">Effective, scalable and robust software solutions to amaze your customers</p>
+      <h1 class="display-5 mb-4 text-white">All-in-one CRM solutions to grow your sales</h1>
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/432-4323860_software-development-vector-png-transparent-png-removebg-preview (1).webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+      <img src="{{ asset('assets/web/PHP-logo.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
    </div>
   </div>
  </div>
- <!-- About End -->
 
  <!-- Services Start -->
- <div class="container-fluid service py-5">
+ <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <!-- <h2 class="text-center">A Quick Glance of Top Industries We Serve</h2>
-   <p class="text-center pb-5">Nettechnocrats is a leading chatbot development company that assist their clients to build bots which will provide an unparalleled experience to their customers and automate their collaborations tasks.</p> -->
+   <h2 class="text-center">Cloud Migration Services</h2>
+   <p class="text-center pb-5">Make a confidence move to the cloud with Nettechnocrats.</p>
    <div class="row g-4">
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img"><i class="fa-brands fa-angular"></i></div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Software Development</a>
-       <p class="mb-4">Innovative, well-designed and correctly implemented business software solutions that can maximize your company value.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Cloud Migration</a>
+       <p class="mb-4">With cloud migration services, you can easily migrate your workloads from strategy to execution with zero business disruption. Our migration services help you to do all this with less risk and cost.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -83,8 +80,8 @@
        <i class="fa-solid fa-cash-register"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Business Application Development</a>
-       <p class="mb-4">Whether you are a start-up or a fully-fledged company, we are ready to assist you at every phase of development from conceptualization to development and support. </p>
+       <a href="#" class="h4 d-inline-block mb-4">Infrastructure Migration</a>
+       <p class="mb-4">Whether you're relocating to a new office for downsizing or up-sizing, migrating to a better data operator center, or even moving your entire operation out of the country.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -95,8 +92,8 @@
        <i class="fa-solid fa-laptop-code"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">E-Commerce Application Development</a>
-       <p class="mb-4">Working in a cohesive manner with clients, we build scalable and secure E-commerce websites that turn your visitors into your customers. </p>
+       <a href="#" class="h4 d-inline-block mb-4">Data Migration</a>
+       <p class="mb-4">Your data migration to the cloud needs a careful planning and preparation. From discovery to ongoing management, we help our clients by offering end-to-end cloud migration services.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -107,8 +104,8 @@
        <i class="fa-solid fa-circle-nodes"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Web Application Development</a>
-       <p class="mb-4">Our experts develops full-cycle SaaS solutions development, sites and portals for corporate projects as well as deployment and support services.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Platform Migration</a>
+       <p class="mb-4">Having good hands-on experience in developing and migrating applications on several leading platforms, we help you to understand and make better use of the options available across cloud.</p>
       </div>
      </div>
     </div>
@@ -118,52 +115,22 @@
        <i class="fa-brands fa-creative-commons-remix"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Support & Maintenance</a>
-       <p class="mb-4">Whether you need software installation, or system upgrades and improvements, we will be your efficient resource to help you maximize ROI and improve your business processes.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Application Migration</a>
+       <p class="mb-4">Most of the firms have a keen interest to get out of the data center business to cut their costs. We provide the fastest and cost-effective way to migrate your application platforms to the cloud.</p>
       </div>
      </div>
     </div>
-    <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-microscope"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">MOBILE APP DEVELOPMENT USING ANGULAR JS</a>
-       <p class="mb-4">We are backed by a veteran team of Angular JS developers for Angular JS based products customization, extension, and integration.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-cloud-arrow-up"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">MAINTENANCE & SUPPORT</a>
-       <p class="mb-4">Our expert consultants will guide your application development using best practices and rich expertise.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img"><i class="fa-brands fa-nfc-directional"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">BEHAVIOR WITH DIRECTIVES</a>
-       <p class="mb-4">Angular provides extra functionality to the HTML with the use of directives. Have you ever wished that your browser would do new tricks for you? Well, now it can!</p>
-      </div>
-     </div>
-    </div> -->
    </div>
   </div>
  </div>
  <!-- Services End -->
 
 
+ <!--  -->
+
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Software Development Services?</h2>
+   <h2>Why Nettechnocrats for CRM Development Services?</h2>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
      <div class="row mt-3">
@@ -240,7 +207,7 @@
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gifs">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/pngtree-software-development-and-programming-code-on-computer-vector-illustration-for-technology-picture-image_8444436.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+       <img src="{{ asset('assets/web/php-dev-removebg-preview.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
       </div>
      </div>

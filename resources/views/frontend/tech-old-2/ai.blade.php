@@ -1,12 +1,107 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Hire Developers for Retail and Wholesale Software Solutions</title>
-<meta name="description" content="Get the cutting edge solution for your retail business by top development company. We provides 24x7 support to make you visible which give 100% satisfication to customers.."/>
- 
+ <title>AI Application Development Company, AI Development Services</title>
+ <meta name="description" content="Explore top-notch AI application development services from a trusted company. Turn your vision into reality with cutting-edge artificial intelligence solutions." />
+
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/ai-application-development-company/",
+    "url": "https://www.nettechnocrats.com/ai-application-development-company/",
+    "name": "AI Application Development Company, AI Development Services",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/ai-application-development-company/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/ai-application-development-company/#primaryimage"
+    },
+    "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/python_img.webp",
+    "datePublished": "2023-09-05T05:25:26+00:00",
+    "dateModified": "2024-08-13T08:48:10+00:00",
+    "description": "Explore top-notch AI application development services from a trusted company. Turn your vision into reality with cutting-edge artificial intelligence solutions.",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/ai-application-development-company/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/ai-application-development-company/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/ai-application-development-company/#primaryimage",
+    "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/python_img.webp",
+    "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/python_img.webp",
+    "width": 941,
+    "height": 934,
+    "caption": "Python Web development"
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/ai-application-development-company/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Artificial Intelligence Application Development Company"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -30,8 +125,8 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
 
  <style>
-  .service .service-item {
-   height: 520px;
+  .service-item {
+   height: 450px !important;
   }
  </style>
 </head>
@@ -45,13 +140,14 @@
     <div class="col-xl-7 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">Retail Software Solutions</h1>
-      <p class="mb-4 text-white">Increase Your Retail and Trade Profitability With Our Advanced Solutions</p>
+      <h1 class="display-5 mb-4 text-white">Artificial Intelligence</h1>
+      <p class="mb-4 text-white">Create quality apps with Artificial Intelligence to ensure your apps performs at a higher scale</p>
      </div>
+     @include('partial/proposal')
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/What-is-a-POS-system-removebg-preview.webp') }}" class="img-fluid rounded image-with-shadow w-100" alt="Retail Software Solutions">
+      <img src="{{ asset('assets/web/ai-logo.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="AI Application Development Company">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
@@ -60,29 +156,30 @@
  </div>
  <div class="container-fluid about py-5">
   <div class="container py-5">
+
+   <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+    <h2 class="display-5 mb-4">Artificial Intelligence</h2>
+    <p class="mb-4">Beat the heat of technology and remodel the ways of delivering services with Artificial intelligence</p>
+   </div>
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-6 wow fadeInLeft">
      <div>
-      <h2 class="display-5 mb-4">Retail & Wholesale Trade Solutions</h2>
-      <p class="mb-4">To get ensured positive and unique customer experience and quick access to business reports from any location across the world, the retail sector needs to get retail software development. With the use of a web browser, one can find end number of retail software development provider, but they get the unbeatable service, there is always the need to hire the best. Among the leading ones, Nettechnocrats develops retail software services for the retail industry. Providing custom retail software development solutions for brick and mortar, e-Commerce, c-store and grocery, dealerships, shopping cars and mobile systems, as well as retail technology solutions for the performance, the firm has got great reviews for the work.</p>
-      <p class="mb-4">Nettechnocrats customizes solutions for the retail industry, leveraging development and engineering skills to develop unique solutions for CRM, billing, inventory platforms. Here are the services provided by retail software development done by Nettechnocrats.</p>
-
-      <div class="row g-4">
-
-       <div class="col-sm-6">
-        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
-       </div>
-
-      </div>
+      <!-- <h4 class="text-primary1">About Us</h4> -->
+      <!-- <p class="mb-4 fw-bold fs-3">What is Laravel Web Development ?</p> -->
+      <p class="mb-4">Gone are the days when things are done manually, in today’s world that is full of technological advancement most of the work is taken over by software, machinery and various automated processes. In this regard, all the thanks go to Artificial intelligence, as most of the advancement made today is all due to this technology.</p>
+      <p class="mb-4">We at Nettechnocrats are adamant to deliver best in performance to our valuable clients. We offer them automated solutions using AI-powered applications to drive growth and efficiency in their business processes and operations. Our distinguished panel of highly professional and certified professionals have expertise in an entire range of AI technologies like Machine learning, Image Processing speech reorganization, virtual assistance etc. The specifically designed solutions delivered by us to our client’s, are unique and catered according to their business goals.</p>
+      <p class="mb-4">With our expertise and experience of working with various data visualization and analytics tools like Tableau, SAS, R, QlikView, QlikSense, IBM Cognos, Azure ML and more, is the main reason behind our popularity as leading Data Analytics Service Providers.</p>
+      <a href="{{url('/contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
      </div>
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/vnext-global-cost-to-develop-a-customized-retail-software.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="Retail Software Solutions">
+      <img src="{{ asset('assets/web/robot.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="AI Application Development">
 
      </div>
     </div>
    </div>
+
   </div>
  </div>
  <!-- About End -->
@@ -90,28 +187,18 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <h2 class="display-5 mb-4">Retail CRM Development and E-Commerce Software Programming</h2>
+   <h2 class="display-5 mb-4 text-center">Explore our Artificial Intelligence Expertise</h2>
+   <p class="mb-4 text-center">Artificial intelligence has easy human efforts in many ways and it is not wrong to say that our lives have become advance with AI technology. The project delivered by our experts seamlessly integrates with our client’s business. We offer AI Specialists in</p>
    <div class="row g-4">
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-brands fa-laravel"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">REWARDS AND LOYALTY MANAGEMENT</a>
-       <p class="mb-4">Reward management is one common need and virtually managing it with the single software is highly needed. Hence, Nettechnocrats offers rewards and loyalty management in its retail CRM development. Not just these, they also effectively manage shopping list applications, online ordering platforms and delivery module integration which are the common need for retail development and software programming.</p>
-       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
+
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-searchengin"></i>
+       <i class="fa-solid fa-robot"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">PRIVATE LABEL PRODUCT MANAGEMENT</a>
-       <p class="mb-4">Our private label product software solutions are helpful for all retailers big or small. This software allows you to set any strategy you like, no matter how complex and get the best prices available for the products based on your strategy, product price elasticity, and internal data.</p>
+       <a href="#" class="h4 d-inline-block mb-4">MACHINE LEARNING</a>
+       <p class="mb-4">Scale up the success of your business by leveraging the advantage offered by machine as well as deep learning.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -119,11 +206,11 @@
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-globe"></i>
+       <i class="fa-solid fa-code"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CUSTOM RETAIL SOFTWARE</a>
-       <p class="mb-4">Our skilled developers are always ready to develop unique solutions which are tailored to meet your special needs. Whether you need an ERP system for your business, a POS application, or just a back-office software, we deal with all of them.</p>
+       <a href="#" class="h4 d-inline-block mb-4">AI-BASED DEVELOPMENT</a>
+       <p class="mb-4">Our team develops AI-based applications using the innovative & creative idea that empower enterprises and help them achieve their goals.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -131,55 +218,36 @@
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-chart-simple"></i>
+       <i class="fa-solid fa-language"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CRM SYSTEMS DEVELOPMENT</a>
-       <p class="mb-4">To smoothly run the retail business, they develop CRM systems.</p>
+       <a href="#" class="h4 d-inline-block mb-4">NATURAL LANGUAGE PROCESSING</a>
+       <p class="mb-4">Our services for natural language processing help in improving communication between systems and humans. It comprehends what we speak or write and take action accordingly</p>
       </div>
      </div>
     </div>
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-creative-commons-remix"></i>
+       <i class="fa-solid fa-images"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">COUPON CAMPAIGN MANAGEMENT</a>
-       <p class="mb-4">Retail business always use different tactics and tricks to attract customers and coupon campaign management is one among them. To ensure the clients and customers all in one service, Nettechnocrats gets the coupon management done effectively.</p>
+       <a href="#" class="h4 d-inline-block mb-4">IMAGE PROCESSING</a>
+       <p class="mb-4">With the expertise in futuristic image processing technology, we create high-tech visual applications that possess an ability to analyze, acquire and synthesize images.</p>
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-link"></i>
+       <i class="fa-brands fa-think-peaks"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">SCHEDULING MODULE INTEGRATION</a>
-       <p class="mb-4">To get the perfect software for the back office of your retail business, professionals get the right scheduling module integration.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-link"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">AUTOMATED TIME TRACKING</a>
-       <p class="mb-4">Tracking out the employee time and website approach time is important and Nettechnocrats development team develops and adds automated time tracking in the software designed.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-link"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">PAYROLL MANAGEMENT</a>
-       <p class="mb-4">Nettechnocrats believes in the right management of everything for the retail business. Hence, they get the right payroll management developed for back-office software.</p>
+       <a href="#" class="h4 d-inline-block mb-4">
+        DECISION MANAGEMENT
+       </a>
+       <p class="mb-4">For our clients to make effective business decisions we impart business based decision management using reliable algorithms and predictive systems.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
@@ -188,11 +256,10 @@
  </div>
  <!-- Services End -->
 
-
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Retailer Software Solution?</h2>
-
+   <h2>Why Nettechnocrats for Artificial Intelligence?</h2>
+   <p class="pb-4 pt-4">Businesses are tremendously driving positive outcomes for themselves and their customers, with data and analytics, while maintaining and facilitating the highest level of data protection.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
      <div class="row mt-3">
@@ -259,7 +326,8 @@
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gifs">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/retails-shop.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="Retail Software Service">
+       <img src="{{ asset('assets/web/artificial-inteligence.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="AI Application Development Service">
+
       </div>
      </div>
     </div>
@@ -304,9 +372,9 @@
    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
     <div class="col-xl-10">
      <div class="text-center">
-      <h3>A Results-Driven eCommerce SEO Agency</h3>
-      <p>Nettechnocrats stands out as a renowned and successful eCommerce SEO firm, offering impactful optimization services to clients all over India and worldwide.</p>
-      <a class="cta-btn" href="#">Contact Us</a>
+      <h3>Ready To Get Started?</h3>
+      <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
+      <a class="cta-btn" href="{{url('/contact-us')}}">Contact Us</a>
      </div>
     </div>
    </div>

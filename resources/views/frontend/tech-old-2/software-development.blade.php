@@ -4,9 +4,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Best Software Development Company | Custom Software Development Services</title>
- <meta name="description" content="We are your trusted custom software development company providing cutting-edge software develoment solutions to startup to enterprise clients." />
-  
+ <title>Software Development Services</title>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">

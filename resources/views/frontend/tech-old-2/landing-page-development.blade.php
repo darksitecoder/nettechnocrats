@@ -4,10 +4,9 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Hire Developers for Retail and Wholesale Software Solutions</title>
-<meta name="description" content="Get the cutting edge solution for your retail business by top development company. We provides 24x7 support to make you visible which give 100% satisfication to customers.."/>
- 
- <!-- <link rel="stylesheet" href="style.css"> -->
+<title>Landing Page Design Services | Landing page Development Company</title>
+	<meta name="description" content="We are top rated landing page design and development company offer custom design to increase the conversion. Get best custom landing page."/>
+	 <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
@@ -31,7 +30,11 @@
 
  <style>
   .service .service-item {
-   height: 520px;
+   height: 300px;
+  }
+
+  .design-features .service-item {
+   height: 550px !important;
   }
  </style>
 </head>
@@ -42,17 +45,23 @@
  <div class="container-fluid about hero__banner__tech py-5" style="background: url('{{ asset('assets/web/tech__background.webp') }}'); background-repeat:no-repeat; background-size:cover;">
   <div class="container py-5">
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-7 wow fadeInLeft">
+    <div class="col-xl-12 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">Retail Software Solutions</h1>
-      <p class="mb-4 text-white">Increase Your Retail and Trade Profitability With Our Advanced Solutions</p>
+      <h1 class="display-5 mb-4 text-white">Landing Page Design Made Simple: Boost Your PPC Campaigns</h1>
+      <p class="mb-4 text-white">No Coding, More Leads With Our Landing Page Builder & Design Services at Nettechnocrats
+      </p>
      </div>
     </div>
-    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
-     <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/What-is-a-POS-system-removebg-preview.webp') }}" class="img-fluid rounded image-with-shadow w-100" alt="Retail Software Solutions">
-      <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
+   </div>
+  </div>
+ </div>
+ <div class="container-fluid ">
+  <div class="container py-2">
+   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="col-xl-12 wow fadeInLeft">
+     <div class=" rounded d-flex justify-content-center">
+      <img src="{{ asset('assets/web/landingpage-banner.webp') }}" class="img-fluid rounded" alt="Landing page design" style="width: 100%; height:500px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
      </div>
     </div>
    </div>
@@ -60,26 +69,17 @@
  </div>
  <div class="container-fluid about py-5">
   <div class="container py-5">
+
+   <div class=" mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="">
+    <h2 class="display-5 mb-4">Elevate Your PPC Campaigns with Our Expertise</h2>
+   </div>
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
-    <div class="col-xl-6 wow fadeInLeft">
+    <div class="col-xl-12 wow fadeInLeft">
      <div>
-      <h2 class="display-5 mb-4">Retail & Wholesale Trade Solutions</h2>
-      <p class="mb-4">To get ensured positive and unique customer experience and quick access to business reports from any location across the world, the retail sector needs to get retail software development. With the use of a web browser, one can find end number of retail software development provider, but they get the unbeatable service, there is always the need to hire the best. Among the leading ones, Nettechnocrats develops retail software services for the retail industry. Providing custom retail software development solutions for brick and mortar, e-Commerce, c-store and grocery, dealerships, shopping cars and mobile systems, as well as retail technology solutions for the performance, the firm has got great reviews for the work.</p>
-      <p class="mb-4">Nettechnocrats customizes solutions for the retail industry, leveraging development and engineering skills to develop unique solutions for CRM, billing, inventory platforms. Here are the services provided by retail software development done by Nettechnocrats.</p>
-
-      <div class="row g-4">
-
-       <div class="col-sm-6">
-        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
-       </div>
-
-      </div>
-     </div>
-    </div>
-    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-     <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/vnext-global-cost-to-develop-a-customized-retail-software.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="Retail Software Solutions">
-
+      <!-- <h4 class="text-primary1">About Us</h4> -->
+      <p class="mb-2">Today, being online is super important. Landing pages are a big part of online promotion. They’re often the first thing visitors see on your website. Whether for ads or website improvement, choosing the right helper matters a lot.</p>
+      <p class="mb-2">Our landing page design services go beyond the ordinary. We’re not just another landing page creator; we’re your pathway to maximizing conversions and ROI. With a focus on landing page optimization, we ensure your campaigns hit the mark.</p>
+      <p class="mb-4">Partner with us, the leading Landing Page Development Services provider, to make your PPC campaigns stand out. Your success is our mission.</p>
      </div>
     </div>
    </div>
@@ -90,109 +90,126 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <h2 class="display-5 mb-4">Retail CRM Development and E-Commerce Software Programming</h2>
+   <h2 class="pb-5">Essential Factors for Landing Page Builder Selection</h2>
+
    <div class="row g-4">
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-laravel"></i>
+       <i class="fa-solid fa-disease"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">REWARDS AND LOYALTY MANAGEMENT</a>
-       <p class="mb-4">Reward management is one common need and virtually managing it with the single software is highly needed. Hence, Nettechnocrats offers rewards and loyalty management in its retail CRM development. Not just these, they also effectively manage shopping list applications, online ordering platforms and delivery module integration which are the common need for retail development and software programming.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Pricing Policy</a>
+       <p class="mb-4">Pricing is a pivotal factor, so assess your budget and try free trials to match your financial constraints.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-searchengin"></i>
+       <i class="fa-solid fa-gauge-high"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">PRIVATE LABEL PRODUCT MANAGEMENT</a>
-       <p class="mb-4">Our private label product software solutions are helpful for all retailers big or small. This software allows you to set any strategy you like, no matter how complex and get the best prices available for the products based on your strategy, product price elasticity, and internal data.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Features</a>
+       <p class="mb-4">Delve into core and specialized features, such as industry-specific solutions like account management and dynamic text.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-globe"></i>
+       <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CUSTOM RETAIL SOFTWARE</a>
-       <p class="mb-4">Our skilled developers are always ready to develop unique solutions which are tailored to meet your special needs. Whether you need an ERP system for your business, a POS application, or just a back-office software, we deal with all of them.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Integration</a>
+       <p class="mb-4">Seek seamless integration with top email marketing and CRM platforms for streamlined data transfer.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-solid fa-chart-simple"></i>
+       <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CRM SYSTEMS DEVELOPMENT</a>
-       <p class="mb-4">To smoothly run the retail business, they develop CRM systems.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Accountability</a>
+       <p class="mb-4">Prioritize data security, including domain protection and password security, for peace of mind.</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+
+    <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-creative-commons-remix"></i>
+       <i class="fa-solid fa-shield-halved"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">COUPON CAMPAIGN MANAGEMENT</a>
-       <p class="mb-4">Retail business always use different tactics and tricks to attract customers and coupon campaign management is one among them. To ensure the clients and customers all in one service, Nettechnocrats gets the coupon management done effectively.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Benefits</a>
+       <p class="mb-4">Landing page builders offer lead generation, conversion optimization, Quality Score enhancement, and more</p>
+       <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
     </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-link"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">SCHEDULING MODULE INTEGRATION</a>
-       <p class="mb-4">To get the perfect software for the back office of your retail business, professionals get the right scheduling module integration.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-link"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">AUTOMATED TIME TRACKING</a>
-       <p class="mb-4">Tracking out the employee time and website approach time is important and Nettechnocrats development team develops and adds automated time tracking in the software designed.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-link"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">PAYROLL MANAGEMENT</a>
-       <p class="mb-4">Nettechnocrats believes in the right management of everything for the retail business. Hence, they get the right payroll management developed for back-office software.</p>
-      </div>
-     </div>
-    </div>
+
+    <h2 class="pb-5">Unlock Your Squarespace’s True Potential with Nettechnocrats!</h2>
+
+    <p>The digital realm can sometimes feel like an unsolvable maze. But with the right partner, navigating through becomes a walk in the park. At Nettechnocrats, we pride ourselves on offering clarity, education, and a clear path to digital success. When SEO becomes part of your daily discourse, you’ll realize its power in bolstering your brand’s digital presence.
+
+     - Did you painstakingly craft your Squarespace site, only to be uncertain of its SEO robustness?
+     - Did a past collaboration leave you less than satisfied with your Squarespace SEO outcomes?
+     - Or perhaps, you’re just venturing into the world of Squarespace SEO Services, desiring a flawless start?
+
+     At Nettechnocrats, our Squarespace SEO Expert team is here to guide, rectify, and elevate. Whether you’ve single-handedly built your site or you’re a large enterprise with expansive content needs, our offerings are tailored to fit.
+
+     Hesitating about your next move? Or simply wishing for a more personal interaction to address your queries? Schedule a brief chat with us. We’re passionate about assisting Squarespace enthusiasts like you!
+    </p>
+
    </div>
   </div>
  </div>
  <!-- Services End -->
 
+ <div class="container-fluid about py-5">
+  <div class="container py-5">
+
+   <div class="mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+    <h2 class="display-5 mb-4">Real Estate App Development Samples </h2>
+    <p class="mb-0">We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Tour and Travel App development case studies here:</p>
+   </div>
+   <div id="call-to-action" class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100" style=" background-color: var(-accent-color) !important;">
+
+
+    <div class="col-xl-6 wow fadeInLeft">
+     <div>
+
+      <h4 class="text-primary1 fw-bolder">Beycome Real Estate</h4>
+      <p class="mb-4">Beycome is the first and only real estate company and listing platform that realizes 100% of your home transactions online; helping homeowners, buyers, and renters close a deal on their home, without the assistance of a real estate agent or broker. In turn, by cutting out agents, this saves homeowners from paying the 6% commission fee involved in a home sale (or 10% commission fee due in a rental transaction). And when the owner saves, buyers and renters get more negotiation power for a better deal.</p>
+      <img src="{{ asset('assets/web/progress.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="Landing page design">
+     </div>
+    </div>
+    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+     <div class="rounded position-relative overflow-hidden">
+      <img src="{{ asset('assets/web/1-beycome.webp') }}" class="img-fluid rounded w-100" alt="Landing page design">
+
+     </div>
+    </div>
+
+   </div>
+  </div>
+ </div>
+
+ <!--  -->
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Retailer Software Solution?</h2>
-
+   <h2>Why Nettechnocrats for SEO Services?</h2>
+   <p>Nettechnocrats has carved a niche by excelling in multiple technologies and serving its global clients. Our team of professional SEO brainstorms out-of-box ideas & result-driven strategies for every project to ensure clients’ satisfaction. Quality & relevance are our major USPs to mention behind successful project deliveries to valuable clients from varied business verticals. We’re pleased to serve these benefits with feasible Android app development solutions to our clientele.</p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
      <div class="row mt-3">
@@ -237,6 +254,16 @@
      </div>
      <div class="row">
       <div class="col-lg-6">
+       <p class="why__answer" data-aos="fade-up" data-aos-delay="600">5+ years of average experience
+       </p>
+      </div>
+      <div class="col-lg-6">
+       <p class="why__answer" data-aos="fade-up" data-aos-delay="600">On time project delivery guaranteed
+       </p>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-lg-6">
        <p class="why__answer" data-aos="fade-up" data-aos-delay="700">Integrity & transparency
        </p>
       </div>
@@ -257,9 +284,10 @@
      </div>
     </div>
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-     <div class="seo__animation__gifs">
-      <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/retails-shop.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="Retail Software Service">
+     <div class="seo__animation__gif">
+      <div class="rounded-4 position-relative overflow-hidden">
+       <img src="{{ asset('assets/web/nature-mountain-illustration-landing-page-vector.webp') }}" class="img-fluid" alt="Landing page design" style="width: 700px;">
+
       </div>
      </div>
     </div>
@@ -304,8 +332,8 @@
    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
     <div class="col-xl-10">
      <div class="text-center">
-      <h3>A Results-Driven eCommerce SEO Agency</h3>
-      <p>Nettechnocrats stands out as a renowned and successful eCommerce SEO firm, offering impactful optimization services to clients all over India and worldwide.</p>
+      <h3>Ready To Get Started?</h3>
+      <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
       <a class="cta-btn" href="#">Contact Us</a>
      </div>
     </div>

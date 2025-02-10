@@ -4,9 +4,9 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Best Software Development Company | Custom Software Development Services</title>
- <meta name="description" content="We are your trusted custom software development company providing cutting-edge software develoment solutions to startup to enterprise clients." />
-  
+ <title>ERP SOLUTIONS, ERP Development Services, ERP Company</title>
+<meta name="description" content="Partner with a leading ERP company for custom ERP development services. We design scalable, efficient, and innovative ERP solutions tailored to your business needs."/>
+	
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -31,7 +31,7 @@
 
  <style>
   .service .service-item {
-   height: 320px;
+   height: 500px;
   }
  </style>
  @include('partial/google_analytics')
@@ -46,14 +46,47 @@
     <div class="col-xl-7 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">Software Development Services</h1>
-      <p class="mb-4 text-white">Effective, scalable and robust software solutions to amaze your customers</p>
+      <h1 class="display-5 mb-4 text-white">ERP SOLUTIONS</h1>
+      <p class="mb-4 text-white">Integrating your business application with business data insures that you have seamless access to data.</p>
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/432-4323860_software-development-vector-png-transparent-png-removebg-preview (1).webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+      <img src="{{ asset('assets/web/pngtree-erp-enterprise-resource-planning-landing-header-vector-png-image_14868860.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="container-fluid about py-5">
+  <div class="container py-5">
+
+   <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+    <h2 class="display-5 mb-4">ERP SOLUTIONS</h2>
+    <p class="mb-0"></p>
+   </div>
+   <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="col-xl-6 wow fadeInLeft">
+     <div>
+      <!-- <h4 class="text-primary1">About Us</h4> -->
+      <!-- <p class="mb-4 fw-bolder fs-3">What is Node.Js Development?</p> -->
+      <p class="mb-4">Enterprise resource planning software is software system that is proven to be of great help in business planning, administration and optimization of internal business process comprising of different modules like supply chain, manufacturing, customer relationship management, etc. </p>
+      <p class="mb-4">Integrating your business application with business data insures that you have seamless access to data. This integration of ERP solutions gives you access to all the core business functions, like production, sales, accounting, purchasing and more while providing you a high level indication of the business. We develop web ERP software that holds characteristics like real time integration and time updates so that you can control on your business 24*7.</p>
+      <p class="mb-4">Irrespective of the size and industry, we offer custom ERP software development services which are fully customizable and cover everything required that is needed to run a firm. We at Nettechnocrats are recognized as the top ERP software development company in India offering the following ERP solutions to meet our client's requirements. </p>
+      <div class="row g-4">
+
+       <div class="col-sm-6">
+        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+       </div>
+
+      </div>
+     </div>
+    </div>
+    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+     <div class="rounded position-relative overflow-hidden">
+      <img src="{{ asset('assets/web/download.webp') }}" class="img-fluid rounded w-100" alt="">
+
      </div>
     </div>
    </div>
@@ -62,7 +95,7 @@
  <!-- About End -->
 
  <!-- Services Start -->
- <div class="container-fluid service py-5">
+ <div class="container-fluid service pb-5">
   <div class="container pb-5">
    <!-- <h2 class="text-center">A Quick Glance of Top Industries We Serve</h2>
    <p class="text-center pb-5">Nettechnocrats is a leading chatbot development company that assist their clients to build bots which will provide an unparalleled experience to their customers and automate their collaborations tasks.</p> -->
@@ -71,8 +104,8 @@
      <div class="service-item">
       <div class="service-img"><i class="fa-brands fa-angular"></i></div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Software Development</a>
-       <p class="mb-4">Innovative, well-designed and correctly implemented business software solutions that can maximize your company value.</p>
+       <a href="#" class="h4 d-inline-block mb-4">Implementation</a>
+       <p class="mb-4">Our expert team posses both the business and technical knowledge to analyze, configure, test and deploy the most complex ERP platforms and take you to the next level! They will be fully responsible for recognizing what project type your ERP implementation is and accordingly use the methodology. </p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -83,8 +116,8 @@
        <i class="fa-solid fa-cash-register"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Business Application Development</a>
-       <p class="mb-4">Whether you are a start-up or a fully-fledged company, we are ready to assist you at every phase of development from conceptualization to development and support. </p>
+       <a href="#" class="h4 d-inline-block mb-4">Integration</a>
+       <p class="mb-4">Integration is a way of connecting ERP software to other systems to ensure that a consistent information is shared while automating work flows. Our custom ERP software development services provide you with a fast, cost-effective and a reliable way to integrate and manage external applications and data with your ERP or CRM system.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -95,31 +128,9 @@
        <i class="fa-solid fa-laptop-code"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">E-Commerce Application Development</a>
-       <p class="mb-4">Working in a cohesive manner with clients, we build scalable and secure E-commerce websites that turn your visitors into your customers. </p>
+       <a href="#" class="h4 d-inline-block mb-4">Customizations</a>
+       <p class="mb-4">Customization of ERP solution is one of the biggest challenges for an ERP software development company. Our ERP consultants thoroughly understand all the complexities of your business process and your specific demands as well to deliver you smartly built customizations.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-circle-nodes"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Web Application Development</a>
-       <p class="mb-4">Our experts develops full-cycle SaaS solutions development, sites and portals for corporate projects as well as deployment and support services.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-brands fa-creative-commons-remix"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">Support & Maintenance</a>
-       <p class="mb-4">Whether you need software installation, or system upgrades and improvements, we will be your efficient resource to help you maximize ROI and improve your business processes.</p>
       </div>
      </div>
     </div>
@@ -160,10 +171,12 @@
  </div>
  <!-- Services End -->
 
+ <!--  -->
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Software Development Services?</h2>
+   <h2>Why choose custom ERP development for your business?</h2>
+   <p>We understand that each industry has its own requirements and that even in your own industry, your business will be unique. We have industry specific custom ERP solutions which are designed to be confirmed to your specific business. </p>
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
      <div class="row mt-3">
@@ -240,7 +253,7 @@
     <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gifs">
       <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/pngtree-software-development-and-programming-code-on-computer-vector-illustration-for-technology-picture-image_8444436.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
+       <img src="{{ asset('assets/web/images.jpg') }}" class="img-fluid rounded w-100 image-with-shadow" alt="">
 
       </div>
      </div>

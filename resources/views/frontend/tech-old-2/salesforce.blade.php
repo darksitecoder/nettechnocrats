@@ -5,9 +5,8 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Salesforce Development Company | Expert Salesforce Development Services</title>
-<meta name="description" content="Partner with a leading Salesforce development company for custom Salesforce development services. Streamline your business processes with tailored Salesforce solutions."/>
- 
  <!-- <link rel="stylesheet" href="style.css"> -->
+<meta name="description" content="Partner with a leading Salesforce development company for custom Salesforce development services. Streamline your business processes with tailored Salesforce solutions."/>
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
   rel="stylesheet"

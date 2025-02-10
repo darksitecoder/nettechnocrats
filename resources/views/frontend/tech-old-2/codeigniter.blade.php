@@ -1,12 +1,107 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Hire Developers for Retail and Wholesale Software Solutions</title>
-<meta name="description" content="Get the cutting edge solution for your retail business by top development company. We provides 24x7 support to make you visible which give 100% satisfication to customers.."/>
- 
+ <title>CodeIgniter Development Services | Expert CodeIgniter Development Company</title>
+ <meta name="description" content="We are a leading CodeIgniter development company for top-notch CodeIgniter development services. We create tailored solutions to meet your business needs." />
+
+ <script type="application/ld+json" class="yoast-schema-graph">
+  {
+   "@context": "https://schema.org",
+   "@graph": [{
+    "@type": "WebPage",
+    "@id": "https://www.nettechnocrats.com/codeigniter-development/",
+    "url": "https://www.nettechnocrats.com/codeigniter-development/",
+    "name": "CodeIgniter Development Services | Expert CodeIgniter Development Company",
+    "isPartOf": {
+     "@id": "/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://www.nettechnocrats.com/codeigniter-development/#primaryimage"
+    },
+    "image": {
+     "@id": "https://www.nettechnocrats.com/codeigniter-development/#primaryimage"
+    },
+    "thumbnailUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/ci_side_img.jpg",
+    "datePublished": "2023-09-01T06:29:17+00:00",
+    "dateModified": "2024-07-23T12:54:24+00:00",
+    "description": "We are a leading CodeIgniter development company for top-notch CodeIgniter development services. We create tailored solutions to meet your business needs.",
+    "breadcrumb": {
+     "@id": "https://www.nettechnocrats.com/codeigniter-development/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [{
+     "@type": "ReadAction",
+     "target": ["https://www.nettechnocrats.com/codeigniter-development/"]
+    }]
+   }, {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://www.nettechnocrats.com/codeigniter-development/#primaryimage",
+    "url": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/ci_side_img.jpg",
+    "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2023/09/ci_side_img.jpg",
+    "width": 500,
+    "height": 427,
+    "caption": "Codeigniter Development"
+   }, {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.nettechnocrats.com/codeigniter-development/#breadcrumb",
+    "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.nettechnocrats.com/"
+    }, {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Codeigniter Development"
+    }]
+   }, {
+    "@type": "WebSite",
+    "@id": "/#website",
+    "url": "/",
+    "name": "Nettechnocrats",
+    "description": "",
+    "publisher": {
+     "@id": "/#organization"
+    },
+    "potentialAction": [{
+     "@type": "SearchAction",
+     "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "/?s={search_term_string}"
+     },
+     "query-input": {
+      "@type": "PropertyValueSpecification",
+      "valueRequired": true,
+      "valueName": "search_term_string"
+     }
+    }],
+    "inLanguage": "en-US"
+   }, {
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "Nettechnocrats",
+    "url": "/",
+    "logo": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "/#/schema/logo/image/",
+     "url": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "contentUrl": "https://www.nettechnocrats.com/wp-content/uploads/2024/05/nettechnocrats-logo.webp",
+     "width": 205,
+     "height": 107,
+     "caption": "Nettechnocrats"
+    },
+    "image": {
+     "@id": "/#/schema/logo/image/"
+    },
+    "sameAs": ["https://www.facebook.com/Nettechnocrats.it.services", "https://x.com/nettechnocrats"]
+   }]
+  }
+ </script>
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -28,12 +123,6 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
-
- <style>
-  .service .service-item {
-   height: 520px;
-  }
- </style>
 </head>
 
 <body>
@@ -45,13 +134,14 @@
     <div class="col-xl-7 wow fadeInLeft">
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
-      <h1 class="display-5 mb-4 text-white">Retail Software Solutions</h1>
-      <p class="mb-4 text-white">Increase Your Retail and Trade Profitability With Our Advanced Solutions</p>
+      <h1 class="display-5 mb-4 text-white">CodeIgniter Development</h1>
+      <p class="mb-4 text-white">Highly-customized CodeIgniter development services to empower your business</p>
      </div>
+     @include('partial/proposal')
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
      <div class=" rounded position-relative overflow-hidden  d-flex justify-content-center">
-      <img src="{{ asset('assets/web/What-is-a-POS-system-removebg-preview.webp') }}" class="img-fluid rounded image-with-shadow w-100" alt="Retail Software Solutions">
+      <img src="{{ asset('assets/web/slider_img1.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="CodeIgniter Development Services">
       <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c7bfe87d-3ff6-4393-a188-2e75c4e054f6/K6w0F2mLOc.json" background="#fff" speed="1" style="width: 100%; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player> -->
      </div>
     </div>
@@ -60,17 +150,23 @@
  </div>
  <div class="container-fluid about py-5">
   <div class="container py-5">
+
+   <div class="text-center mx-auto pb-5 wow fadeInUp" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px;">
+    <h2 class="display-5 mb-4">CodeIgniter Development Services</h2>
+    <p class="mb-0">Creative CodeIgniter Development Services To Serve Your Buisness</p>
+   </div>
    <div class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
     <div class="col-xl-6 wow fadeInLeft">
      <div>
-      <h2 class="display-5 mb-4">Retail & Wholesale Trade Solutions</h2>
-      <p class="mb-4">To get ensured positive and unique customer experience and quick access to business reports from any location across the world, the retail sector needs to get retail software development. With the use of a web browser, one can find end number of retail software development provider, but they get the unbeatable service, there is always the need to hire the best. Among the leading ones, Nettechnocrats develops retail software services for the retail industry. Providing custom retail software development solutions for brick and mortar, e-Commerce, c-store and grocery, dealerships, shopping cars and mobile systems, as well as retail technology solutions for the performance, the firm has got great reviews for the work.</p>
-      <p class="mb-4">Nettechnocrats customizes solutions for the retail industry, leveraging development and engineering skills to develop unique solutions for CRM, billing, inventory platforms. Here are the services provided by retail software development done by Nettechnocrats.</p>
+      <!-- <h4 class="text-primary1">About Us</h4> -->
+      <p class="mb-4">Nettechnocrats is an experienced CodeIgniter web development company holding rich experience in developing code for your web application with most effective CodeIgniter services. We create fully-functional PHP based applications and websites based on MVC architecture. Our main focus is to provide applications that are fully compatible with different PHP versions (PHP4, PHP5 & PHP7), configurations and standard shared hosting accounts.
+      </p>
+      <p class="mb-4">We have an adept team of CodeIgniter developers with extensive knowledge in code libraries of CodeIgniter that helps you in delivering the outstanding bespoke applications. With our experience in serving CodeIgniter projects across different domains, we are ready to work on any complex project. Whether you want a corporate website, a professional website or a business portal, we can build all for you.</p>
 
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{url('/contact-us')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>
@@ -78,7 +174,7 @@
     </div>
     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
      <div class="rounded position-relative overflow-hidden">
-      <img src="{{ asset('assets/web/vnext-global-cost-to-develop-a-customized-retail-software.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="Retail Software Solutions">
+      <img src="{{ asset('assets/web/codeigniter-development-services-transformed.webp') }}" class="img-fluid rounded w-100" alt="CodeIgniter Development Services">
 
      </div>
     </div>
@@ -90,16 +186,15 @@
  <!-- Services Start -->
  <div class="container-fluid service pb-5">
   <div class="container pb-5">
-   <h2 class="display-5 mb-4">Retail CRM Development and E-Commerce Software Programming</h2>
    <div class="row g-4">
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
      <div class="service-item">
       <div class="service-img">
-       <i class="fa-brands fa-laravel"></i>
+       <i class="fa-brands fa-mendeley"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">REWARDS AND LOYALTY MANAGEMENT</a>
-       <p class="mb-4">Reward management is one common need and virtually managing it with the single software is highly needed. Hence, Nettechnocrats offers rewards and loyalty management in its retail CRM development. Not just these, they also effectively manage shopping list applications, online ordering platforms and delivery module integration which are the common need for retail development and software programming.</p>
+       <a href="#" class="h4 d-inline-block mb-4">CUSTOM CMS DEVELOPMENT</a>
+       <p class="mb-4">Our team of CodeIgniter developers has the proficiency to provide custom solutions for the CMS design and functionality and provide an outstanding user experience.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -110,8 +205,8 @@
        <i class="fa-brands fa-searchengin"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">PRIVATE LABEL PRODUCT MANAGEMENT</a>
-       <p class="mb-4">Our private label product software solutions are helpful for all retailers big or small. This software allows you to set any strategy you like, no matter how complex and get the best prices available for the products based on your strategy, product price elasticity, and internal data.</p>
+       <a href="#" class="h4 d-inline-block mb-4">3RD PARTY APP INTEGRATION</a>
+       <p class="mb-4">We integrate third-party services like email services, social media services, payment gateways, analytics, etc. with different APIs.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -122,8 +217,8 @@
        <i class="fa-solid fa-globe"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CUSTOM RETAIL SOFTWARE</a>
-       <p class="mb-4">Our skilled developers are always ready to develop unique solutions which are tailored to meet your special needs. Whether you need an ERP system for your business, a POS application, or just a back-office software, we deal with all of them.</p>
+       <a href="#" class="h4 d-inline-block mb-4">CODEIGNITER E-COMMERCE SOLUTIONS</a>
+       <p class="mb-4">Our skilled PHP experts provide a bug-free implementation of CodeIgniter for your eCommerce application development.</p>
        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
       </div>
      </div>
@@ -134,8 +229,8 @@
        <i class="fa-solid fa-chart-simple"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">CRM SYSTEMS DEVELOPMENT</a>
-       <p class="mb-4">To smoothly run the retail business, they develop CRM systems.</p>
+       <a href="#" class="h4 d-inline-block mb-4">CODEIGNITER MIGRATION SOLUTIONS</a>
+       <p class="mb-4">We also provide CodeIgniter application migration services from your static HTML website or any CMS powered website to meet your migration needs.</p>
       </div>
      </div>
     </div>
@@ -145,8 +240,9 @@
        <i class="fa-brands fa-creative-commons-remix"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">COUPON CAMPAIGN MANAGEMENT</a>
-       <p class="mb-4">Retail business always use different tactics and tricks to attract customers and coupon campaign management is one among them. To ensure the clients and customers all in one service, Nettechnocrats gets the coupon management done effectively.</p>
+       <a href="#" class="h4 d-inline-block mb-4">
+        SOCIAL NETWORKING DEVELOPMENT</a>
+       <p class="mb-4">Our experts build custom social networking solutions, utilizing white label technologies and integration of social networking software as a part of services.</p>
       </div>
      </div>
     </div>
@@ -156,30 +252,8 @@
        <i class="fa-solid fa-link"></i>
       </div>
       <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">SCHEDULING MODULE INTEGRATION</a>
-       <p class="mb-4">To get the perfect software for the back office of your retail business, professionals get the right scheduling module integration.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-link"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">AUTOMATED TIME TRACKING</a>
-       <p class="mb-4">Tracking out the employee time and website approach time is important and Nettechnocrats development team develops and adds automated time tracking in the software designed.</p>
-      </div>
-     </div>
-    </div>
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-     <div class="service-item">
-      <div class="service-img">
-       <i class="fa-solid fa-link"></i>
-      </div>
-      <div class="rounded-bottom p-4">
-       <a href="#" class="h4 d-inline-block mb-4">PAYROLL MANAGEMENT</a>
-       <p class="mb-4">Nettechnocrats believes in the right management of everything for the retail business. Hence, they get the right payroll management developed for back-office software.</p>
+       <a href="#" class="h4 d-inline-block mb-4">THEME DESIGN & INTEGRATION</a>
+       <p class="mb-4">Our enticing CodeIgniter themes are the first choice of our clients for eCommerce website development in order to draw the user’s attention.</p>
       </div>
      </div>
     </div>
@@ -191,7 +265,7 @@
 
  <section class="light-background why__choose__Net">
   <div class="container">
-   <h2>Why Nettechnocrats for Retailer Software Solution?</h2>
+   <h2>Why Nettechnocrats for CodeIgniter Development Services?</h2>
 
    <div class="row pt-2">
     <div class="col-lg-6 position-relative align-self-start " data-aos="fade-up" data-aos-delay="100">
@@ -256,10 +330,11 @@
       </div>
      </div>
     </div>
-    <div class="col-lg-6 content d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+    <div class="col-lg-6 content d-flex align-items-center " data-aos="fade-up" data-aos-delay="200">
      <div class="seo__animation__gifs">
-      <div class="rounded position-relative overflow-hidden">
-       <img src="{{ asset('assets/web/retails-shop.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="Retail Software Service">
+      <div class="rounded position-relative overflow-hidden border-bottom-2">
+       <img src="{{ asset('assets/web/codeigneter-banner.webp') }}" class="img-fluid rounded w-100 image-with-shadow" alt="CodeIgniter Development Services">
+
       </div>
      </div>
     </div>
@@ -304,9 +379,9 @@
    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
     <div class="col-xl-10">
      <div class="text-center">
-      <h3>A Results-Driven eCommerce SEO Agency</h3>
-      <p>Nettechnocrats stands out as a renowned and successful eCommerce SEO firm, offering impactful optimization services to clients all over India and worldwide.</p>
-      <a class="cta-btn" href="#">Contact Us</a>
+      <h3>Ready To Get Started?</h3>
+      <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
+      <a class="cta-btn" href="{{url('/contact-us')}}">Contact Us</a>
      </div>
     </div>
    </div>
