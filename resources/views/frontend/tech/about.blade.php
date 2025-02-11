@@ -126,7 +126,7 @@
 
   <style>
     .service .service-item {
-      height: 370px;
+      height: 400px;
     }
 
     .design-features .service-item {

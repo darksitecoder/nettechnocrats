@@ -123,6 +123,12 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+ <style>
+  .service .service-item {
+   height: 430px;
+  }
+ </style>
 </head>
 
 <body>

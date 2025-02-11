@@ -5,7 +5,7 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>All-in-one CRM solutions, CRM Development Company</title>
- <meta name="description" content="We are top rated CRM development company provides scaleable solution to all industries who needs CRM solutions to enhance the performance of website."/>
+ <meta name="description" content="We are top rated CRM development company provides scaleable solution to all industries who needs CRM solutions to enhance the performance of website." />
 
  <!-- <link rel="stylesheet" href="style.css"> -->
 
@@ -46,6 +46,7 @@
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">All-in-one CRM solutions to grow your sales</h1>
+      @include('partial/proposal')
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -255,7 +256,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="#">Contact Us</a>
+      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
      </div>
     </div>
    </div>

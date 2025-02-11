@@ -5,7 +5,7 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Certificationof Nettechnocrats - Reconized by Top Brands</title>
- <meta name="description" content="We are one of the finest company which is reconized by top leaders in IT domain."/>
+ <meta name="description" content="We are one of the finest company which is reconized by top leaders in IT domain." />
 
  <!-- <link rel="stylesheet" href="style.css"> -->
 
@@ -31,7 +31,7 @@
 
  <style>
   .service .service-item {
-   height: 350px;
+   height: 360px;
    text-align: center;
   }
 

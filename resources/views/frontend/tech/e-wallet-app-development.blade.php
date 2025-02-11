@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>eWallet App Development Company, Mobile Wallet App Development</title>
   <meta name="description" content="Would you like to create a fast and secure mobile wallet app for your business? We are ewallet app development company to manage your money in smartest way." />
-  
+
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",
@@ -130,7 +130,7 @@
     }
 
     .design-features .service-item {
-      height: 550px !important;
+      height: 570px !important;
     }
   </style>
 </head>
@@ -147,6 +147,8 @@
             <h1 class="display-5 mb-4 text-white">Developing a Mobile Wallet Application for All Types of Payments</h1>
             <p class="mb-4 text-white">Sending money and handing over the cash required physical presence. However, in the present time, millions of people are adopting digital wallets, and the earliest adopters of the new form of money have great chances to grow practically.
             </p>
+
+            @include('partial/proposal')
           </div>
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -179,7 +181,7 @@
             <div class="row g-4">
 
               <div class="col-sm-6">
-                <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+                <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
               </div>
 
             </div>
@@ -618,7 +620,7 @@
         </h2>
         <p class="mb-0">We have served 1000+ clients globally and completed 2000+ projects for them. Checkout some of the best Mobile App development case studies here:</p>
       </div>
-      <div id="call-to-action" class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100" style=" background-color: var(--accent-color) !important;">
+      <div id="call-to-action" class="row g-5 align-items-center" data-aos="fade-up" data-aos-delay="100" style="">
 
 
         <div class="col-xl-6 wow fadeInLeft">
@@ -769,7 +771,7 @@
           <div class="text-center">
             <h3>Ready To Get Started?</h3>
             <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-            <a class="cta-btn" href="#">Contact Us</a>
+            <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
           </div>
         </div>
       </div>

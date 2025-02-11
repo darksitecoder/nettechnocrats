@@ -29,6 +29,12 @@
         referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
     <style>
         .slider-container {
             position: relative;
@@ -802,6 +808,20 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             border-radius: 100%;
 
         }
+
+        /* .box {
+            animation: animName 150s linear infinite;
+        }
+
+        @keyframes animName {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        } */
     </style>
 </head>
 
@@ -811,8 +831,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
         <div id="editor" style="height: 500px;">
             <section class="hero__banner">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-7">
+                    <div class="row" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-7 wow fadeInLeft">
                             <h1 class="py-2">Unlock <span class="orange">Digital Excellence,</span> Propel Your Brand <br><span class="orange">Forward! </span></h1>
                             <p class="py-3 banner__description">Experience digital dominance with Nettechnocrats. Our data-driven SEO and digital marketing expertise empower your brand to thrive online. Watch as your business soars with top SERP rankings, high conversion rates, and a surge in web traffic. Join us on this exhilarating journey to successin the digital realm!</p>
                             <div class="banner__btn d-flex">
@@ -820,7 +840,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 <!-- <a href="{{ url('contact-us.php')}}" class="btn audit mx-1">Request For Audit</a> -->
                             </div>
                         </div>
-                        <div class="col-lg-5"><img src="{{ asset('assets/web/hero_banner.webp') }}" alt="" srcset=""></div>
+                        <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s"><img src="{{ asset('assets/web/hero_banner.webp') }}" alt="" srcset="" class="box"></div>
                     </div>
                 </div>
             </section>
@@ -858,8 +878,8 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
             <section class="about__seo px-4">
                 <h2 class="text-center pb-3 fs-1">Boosting ROI and Traffic: The Nettechnocrats Way!</h2>
-                <div class="row">
-                    <div class="col-lg-6 d-flex align-items-center">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-6 d-flex align-items-center wow fadeInRight" data-wow-delay="0.2s">
                         <!-- <img src="{{ asset('assets/web/assets/images/semrush.webp') }}" alt="" srcset="" style="width:100%;"> -->
 
                         <div class="row">
@@ -938,7 +958,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 wow fadeInLeft">
                         <p class="colored__text">Awarded as Top SEO Company in 2023</p>
 
                         <p>
@@ -958,7 +978,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
                 <section class="spectrum__services">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.2s">
                             <h2 class="text-center fs-1">Unveiling Our Spectrum of Services</h2>
                             <p class="text-center">Leveraging a robust team force, we’re helping businesses across various sectors amplify their online presence. Through trusted methods like White Hat SEO, SEM, and SMO, we elevate brand recognition and foster growth.</p>
                         </div>
@@ -966,7 +986,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     <div class="row services__cards">
                         <div class="col-lg-12">
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-lg-3  wow fadeInUp" data-wow-delay="0.2s">
                                     <div class="cards__details">
                                         <img src="{{ asset('assets/web/digital-marketing.webp') }}" alt="" srcset="">
                                         <h3>Digital Marketing</h3>
@@ -977,7 +997,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
                                     <div class="cards__details">
                                         <img src="{{ asset('assets/web/seo.webp') }}" alt="" srcset="">
                                         <h3>Search Engine Optimization</h3>
@@ -988,7 +1008,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
                                     <div class="cards__details">
                                         <img src="{{ asset('assets/web/smo.webp') }}" alt="" srcset="">
                                         <h3>Social Media Optimization</h3>
@@ -999,7 +1019,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
                                     <div class="cards__details">
                                         <img src="{{ asset('assets/web/ppc.webp') }}" alt="" srcset="">
                                         <h3>Pay Per Click</h3>
@@ -1013,7 +1033,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
                             </div>
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
                                     <div class="cards__details">
                                         <img src="{{ asset('assets/web/webd.webp') }}" alt="" srcset="">
                                         <h3>Web Development</h3>
@@ -1024,7 +1044,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
                                     <div class="cards__details">
                                         <img src="{{ asset('assets/web/mobile.webp') }}" alt="" srcset="">
                                         <h3>Mobile Application</h3>
@@ -1035,7 +1055,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
                                     <div class="cards__details">
                                         <img src="{{ asset('assets/web/mvm.webp') }}" alt="" srcset="">
                                         <h3>Multi-Vendor Marketplace</h3>
@@ -1046,7 +1066,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
                                     <div class="cards__details">
                                         <img src="{{ asset('assets/web/cloud.webp') }}" alt="" srcset="">
                                         <h3>Cloud Services</h3>
@@ -1067,25 +1087,25 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                         <h3 class="text-center fs-1">Our Clients</h3>
 
                         <div class="img__row">
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.1s"><img src="{{ asset('assets/web/common-img/Coca-Cola.webp') }}" alt="Coca Cola" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.2s"><img src="{{ asset('assets/web/common-img/5-1.webp') }}" alt="Slimbroswer" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.3s"><img src="{{ asset('assets/web/common-img/7-1.webp') }}" alt="Dcatalog" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.4s"><img src="{{ asset('assets/web/common-img/8-1.webp') }}" alt="Lexus" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.5s"><img src="{{ asset('assets/web/common-img/9-1.webp') }}" alt="MensUSA" srcset=""></div>
                         </div>
                         <div class="img__row">
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.1s"><img src="{{ asset('assets/web/common-img/10-1.webp') }}" alt="MADStyle" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.2s"><img src="{{ asset('assets/web/common-img/11-1.webp') }}" alt="MRKT360" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.3s"><img src="{{ asset('assets/web/common-img/bjp-1.webp') }}" alt="BJP" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.4s"><img src="{{ asset('assets/web/common-img/bubble.webp') }}" alt="Bubble" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.5s"><img src="{{ asset('assets/web/common-img/chemists-world.webp') }}" alt="Chemistsworld" srcset=""></div>
                         </div>
                         <div class="img__row">
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
-                            <div class="brands"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.1s"><img src="{{ asset('assets/web/common-img/dbl-1.webp') }}" alt="DUNLAP" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.2s"><img src="{{ asset('assets/web/common-img/omni-1.webp') }}" alt="MniSecure" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.3s"><img src="{{ asset('assets/web/common-img/Preapps.webp') }}" alt="Preapps" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.4s"><img src="{{ asset('assets/web/common-img/tolo-1.webp') }}" alt="ToloToys" srcset=""></div>
+                            <div class="brands wow fadeInRight" data-wow-delay="0.5s"><img src="{{ asset('assets/web/common-img/1-1.webp') }}" alt="" srcset="ZANGI"></div>
                         </div>
                     </div>
                 </section>
@@ -1170,14 +1190,14 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
                 <section class="testimonial__video">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.6s">
 
 
                             <div class="videoPopup">
                                 <a href="javascript:void(0)" onclick="videoPopupItem.launchPopUp();"><img src="{{ asset('assets/web/maxresdefault.gif') }}" alt="" srcset="" class="popup-btn" style="width: 100%; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"></a>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.6s">
                             <h2>We Are Ranked Among the Top Global Leaders in Digital Marketing</h2>
                             <p>Nettechnocrats quickly ascended to digital prominence, catering to a diverse clientele across various business sectors. Partner with the best in digital innovation.</p>
 
@@ -1201,7 +1221,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
                     <div class="row tab-group">
                         <!-- FIRST BOX -->
-                        <div class="panel selected" id="panel-1" onclick="changeSelected(1);">
+                        <div class="panel selected wow fadeInUp" data-wow-delay="0.4s" id="panel-1" onclick="changeSelected(1);">
 
                             <div class="vertical-center">
                                 <div class="sm-icon icon" id="icon-1">
@@ -1257,7 +1277,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             </div>
                         </div>
                         <!-- SECOND BOX -->
-                        <div class="panel" id="panel-2" onclick="changeSelected(2);">
+                        <div class="panel wow fadeInDown" data-wow-delay="0.4s" id="panel-2" onclick="changeSelected(2);">
 
                             <div class="icon rotate ri" id="icon-2">
 
@@ -1331,7 +1351,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                         </div>
 
                         <!-- THIRD BOX -->
-                        <div class="panel" id="panel-3" onclick="changeSelected(3);">
+                        <div class="panel wow fadeInUp" data-wow-delay="0.4s" id="panel-3" onclick="changeSelected(3);">
 
                             <div class="vertical-center">
                                 <div class="icon rotate ri" id="icon-3">
@@ -1412,7 +1432,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                         </div>
 
                         <!-- FOURTH BOX -->
-                        <div class="panel" id="panel-4" onclick="changeSelected(4);">
+                        <div class="panel wow fadeInDown" data-wow-delay="0.4s" id="panel-4" onclick="changeSelected(4);">
                             <div class="vertical-center">
                                 <div class="icon rotate ri" id="icon-4">
 
@@ -1506,7 +1526,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
             </div>
             <section class="industries py-1 my-5">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 wow fadeInLeft">
                         <div class="content">
                             <p class="industries__tag">INDUSTRIES</p>
                             <h3>A Unified Vision That Caters to Diverse Industry Demands</h3>
@@ -1516,73 +1536,73 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     </div>
                     <div class="col-lg-6">
                         <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-burger "></i>
                                     <p>Food</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-cart-shopping"></i>
                                     <p>Retail</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-graduation-cap"></i>
                                     <p>Education</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-user-group"></i>
                                     <p>B2B</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-gear"></i>
                                     <p>Utilties</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-house"></i>
                                     <p>Realestate</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-earth-europe"></i>
                                     <p>Travel</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-filter"></i>
                                     <p>Chemical</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-robot"></i>
                                     <p>Technology</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-shop-lock"></i>
                                     <p>E-commerce</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-coins"></i>
                                     <p>Finance</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="industries__card my-2 d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-bed-pulse"></i>
                                     <p>Healthcare</p>
@@ -1647,7 +1667,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 
             <section class="sample__banner" style="background: url('{{ asset('assets/web/sample__banner.webp') }}');   background-size: cover;  background-position: center;  background-repeat: no-repeat;">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 wow fadeInDown" data-wow-delay="0.4s">
                         <h2>
                             What Comprise A Robust Digital Marketing Strategy? Straight from the horse's Mouth
                         </h2>
@@ -1992,5 +2012,14 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
 <!-- <script>
     document.body.innerHTML = document.body.innerHTML.replace(/\uFEFF/g, '');
 </script> -->
+
+<script src="{{ asset('style/web/lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('style/web/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+
+<script src="{{ asset('js/main.js') }}"></script>
 
 </html>
