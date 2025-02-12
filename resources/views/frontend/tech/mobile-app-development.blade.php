@@ -5,8 +5,8 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Top-ranked Mobile App Development Agency- Nettechnocrats</title>
-<meta name="description" content="We are top rated mobile app development. Hire top mobile app developers at reasonable cost."/>
-	
+ <meta name="description" content="We are top rated mobile app development. Hire top mobile app developers at reasonable cost." />
+
  <!-- <link rel="stylesheet" href="style.css"> -->
  <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -48,6 +48,8 @@
    height: 400px;
   }
  </style>
+
+ @include('partial/google_analytics')
 </head>
 
 <body>
@@ -61,6 +63,8 @@
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Top-ranked Mobile App Development Agency</h1>
       <p class="mb-4 text-white">Innovative mobile apps to embark the digital revolution.</p>
+
+      @include('partial/proposal')
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -312,7 +316,7 @@
       <p>We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best Mobile App development case studies here:
 
       </p>
-      <a class="cta-btn" href="{{url('/contact-us/')}}">Contact Us</a>
+      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
      </div>
     </div>
    </div>
@@ -495,7 +499,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="{{url('/contact-us/')}}">Contact Us</a>
+      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
      </div>
     </div>
    </div>

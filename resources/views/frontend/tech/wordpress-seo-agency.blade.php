@@ -142,6 +142,8 @@
       line-height: 40px;
     }
   </style>
+
+  @include('partial/google_analytics')
 </head>
 
 <body>
@@ -157,44 +159,7 @@
             <h1 class="display-5 mb-4 text-white fs-3">Rise, Rank, Repeat: WordPress SEO with Nettechnocrats Your Ultimate Guide to Elevated Search Engine Rankings</h1>
             <p class="mb-4 text-white">Sending money and handing over the cash required physical presence. However, in the present time, millions of people are adopting digital wallets, and the earliest adopters of the new form of money have great chances to grow practically.
             </p>
-          </div>
-          <div id="contact" class="contact__section">
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-              <div class="row gy-4">
-
-
-
-                <div class="col-lg-12">
-                  <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-                    <div class="row gy-4">
-
-                      <div class="col-md-6">
-                        <input type="text" name="name" id="name-field" class="form-control" placeholder="Your Name">
-                      </div>
-
-                      <div class="col-md-6">
-                        <input type="email" class="form-control" name="email" id="email-field" placeholder="Your Email" required="">
-                      </div>
-
-                      <div class="col-md-6">
-                        <input type="text" class="form-control" name="subject" id="subject-field" placeholder="Request For...." required="">
-                      </div>
-
-                      <div class="col-md-6 text-center">
-                        <button type="submit">Send Me a Proposal <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                      </div>
-
-                    </div>
-                  </form>
-                </div><!-- End Contact Form -->
-
-              </div>
-
-            </div>
-
+            @include('partial/proposal')
           </div>
         </div>
         <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">

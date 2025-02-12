@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Trusted Web Development Company | Expert Website Development Services</title>
-	<meta name="description" content="We are a professional web development company with a team of expert web developers. Hire Developers for custom web solutions."/>
-	  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>Your Trusted Web Development Company | Expert Website Development Services</title>
+  <meta name="description" content="We are a professional web development company with a team of expert web developers. Hire Developers for custom web solutions." />
+  <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
   <link
@@ -47,6 +47,7 @@
       height: 600px;
     }
   </style>
+  @include('partial/google_analytics')
 </head>
 
 <body>
@@ -60,6 +61,7 @@
             <!-- <h4 class="text-primary1">About Us</h4> -->
             <h1 class="display-5 mb-4 text-white">Web Development Services</h1>
             <p class="mb-4 text-white">Open-Source Solutions To Build Your Business Websites</p>
+            @include('partial/proposal')
           </div>
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -316,7 +318,7 @@
           <div class="text-center">
             <h3>Web Application Development Samples</h3>
             <p>We have served 2500+ clients globally and completed 4200+ projects for them. Checkout some of the best custom web development case studies here:</p>
-            <a class="cta-btn" href="{{url('/contact-us/')}}">Contact Us</a>
+            <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
           </div>
         </div>
       </div>
@@ -498,7 +500,7 @@
           <div class="text-center">
             <h3>Ready To Get Started?</h3>
             <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-            <a class="cta-btn" href="{{url('/contact-us/')}}">Contact Us</a>
+            <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
           </div>
         </div>
       </div>

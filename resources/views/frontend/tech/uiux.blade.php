@@ -181,6 +181,7 @@
                                                 <p class="mb-4 text-white">
                                                         Nettechnocrats is the trusted one-stop solution provider for real estate web and mobile application development. Through our service, our sole purpose is to cater to the global audience whereby we make use of the top-notch web development technologies and developers experience to create an excellent real estate business solution.
                                                 </p>
+                                                @include('partial/proposal')
                                         </div>
                                 </div>
                                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -414,7 +415,7 @@
                                         <div class="text-center">
                                                 <h3>Ready To Get Started?</h3>
                                                 <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-                                                <a class="cta-btn" href="#">Contact Us</a>
+                                                <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
                                         </div>
                                 </div>
                         </div>

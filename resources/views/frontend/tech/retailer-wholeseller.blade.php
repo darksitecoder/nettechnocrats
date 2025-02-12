@@ -5,8 +5,8 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Hire Developers for Retail and Wholesale Software Solutions</title>
-<meta name="description" content="Get the cutting edge solution for your retail business by top development company. We provides 24x7 support to make you visible which give 100% satisfication to customers.."/>
- 
+ <meta name="description" content="Get the cutting edge solution for your retail business by top development company. We provides 24x7 support to make you visible which give 100% satisfication to customers.." />
+
  <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -34,6 +34,7 @@
    height: 520px;
   }
  </style>
+ @include('partial/google_analytics')
 </head>
 
 <body>
@@ -46,7 +47,7 @@
      <div>
       <!-- <h4 class="text-primary1">About Us</h4> -->
       <h1 class="display-5 mb-4 text-white">Retail Software Solutions</h1>
-      <p class="mb-4 text-white">Increase Your Retail and Trade Profitability With Our Advanced Solutions</p>
+      <p class="mb-4 text-white">Increase Your Retail and Trade Profitability With Our Advanced Solutions</p>@include('partial/proposal')
      </div>
     </div>
     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -70,7 +71,7 @@
       <div class="row g-4">
 
        <div class="col-sm-6">
-        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
+        <a href="{{ url('contact-us.php')}}" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Contact Us</a>
        </div>
 
       </div>
@@ -306,7 +307,7 @@
      <div class="text-center">
       <h3>A Results-Driven eCommerce SEO Agency</h3>
       <p>Nettechnocrats stands out as a renowned and successful eCommerce SEO firm, offering impactful optimization services to clients all over India and worldwide.</p>
-      <a class="cta-btn" href="#">Contact Us</a>
+      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
      </div>
     </div>
    </div>

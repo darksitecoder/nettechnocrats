@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -60,6 +60,7 @@
    color: var(--green);
   }
  </style>
+ @include('partial/google_analytics')
 </head>
 
 <body>

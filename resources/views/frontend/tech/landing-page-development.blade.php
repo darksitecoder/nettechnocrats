@@ -4,9 +4,9 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Landing Page Design Services | Landing page Development Company</title>
-	<meta name="description" content="We are top rated landing page design and development company offer custom design to increase the conversion. Get best custom landing page."/>
-	 <!-- <link rel="stylesheet" href="style.css"> -->
+ <title>Landing Page Design Services | Landing page Development Company</title>
+ <meta name="description" content="We are top rated landing page design and development company offer custom design to increase the conversion. Get best custom landing page." />
+ <!-- <link rel="stylesheet" href="style.css"> -->
 
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
  <link
@@ -37,6 +37,7 @@
    height: 550px !important;
   }
  </style>
+ @include('partial/google_analytics')
 </head>
 
 <body>
@@ -51,6 +52,8 @@
       <h1 class="display-5 mb-4 text-white">Landing Page Design Made Simple: Boost Your PPC Campaigns</h1>
       <p class="mb-4 text-white">No Coding, More Leads With Our Landing Page Builder & Design Services at Nettechnocrats
       </p>
+
+      @include('partial/proposal')
      </div>
     </div>
    </div>
@@ -334,7 +337,7 @@
      <div class="text-center">
       <h3>Ready To Get Started?</h3>
       <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-      <a class="cta-btn" href="#">Contact Us</a>
+      <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
      </div>
     </div>
    </div>
