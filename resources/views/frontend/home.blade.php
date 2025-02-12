@@ -1257,7 +1257,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                                 <!-- <a href="{{ url('contact-us.php')}}" class="btn audit mx-1">Request For Audit</a> -->
                             </div>
                         </div>
-                        <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s"><img src="{{ asset('assets/web/hero_banner.webp') }}" alt="" srcset="" class="box"></div>
+                        <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s"><img src="{{ asset('assets/web/hero_banner.webp') }}" alt="Digital Marketing" srcset="" class="box"></div>
                     </div>
                 </div>
             </section>
@@ -1406,7 +1406,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                         <div class="row">
                             <div class="col-md-6 py-3">
                                 <div class="image-back">
-                                    <img src="{{ asset('assets/web/assets/images/topdevelopers.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <img src="{{ asset('assets/web/assets/images/topdevelopers.webp') }}" class=" image-with-shadow" alt="top developer" srcset="">
                                     <div class="text">
                                         <p class="fw-bold">Top Developers</p>
                                         <p class="">Best Development Company</p>
@@ -1415,7 +1415,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             </div>
                             <div class="col-md-6 py-3">
                                 <div class="image-back">
-                                    <img src="{{ asset('assets/web/assets/images/semrush.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <img src="{{ asset('assets/web/assets/images/semrush.webp') }}" class=" image-with-shadow" alt="semrush" srcset="">
                                     <div class="text">
                                         <p class="fw-bold">Semrush</p>
                                         <p class="">Best SEO Company</p>
@@ -1424,7 +1424,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             </div>
                             <div class="col-md-6 py-3">
                                 <div class="image-back">
-                                    <img src="{{ asset('assets/web/assets/images/clutch-co.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <img src="{{ asset('assets/web/assets/images/clutch-co.webp') }}" class=" image-with-shadow" alt="clutch top rated" srcset="">
                                     <div class="text">
                                         <p class="fw-bold">Clutch</p>
                                         <p class="">Top Digital Marketing Agency</p>
@@ -1433,7 +1433,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             </div>
                             <div class="col-md-6 py-3">
                                 <div class="image-back">
-                                    <img src="{{ asset('assets/web/assets/images/G2_Crowd.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <img src="{{ asset('assets/web/assets/images/G2_Crowd.webp') }}" class=" image-with-shadow" alt="G2 Crowd" srcset="">
                                     <div class="text">
                                         <p class="fw-bold">G2</p>
                                         <p class="">Best Local SEO Agency</p>
@@ -1442,7 +1442,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             </div>
                             <div class="col-md-6 py-3">
                                 <div class="image-back">
-                                    <img src="{{ asset('assets/web/assets/images/goodfirms.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <img src="{{ asset('assets/web/assets/images/goodfirms.webp') }}" class=" image-with-shadow" alt="Goodfirm Top SEO company" srcset="">
                                     <div class="text">
                                         <p class="fw-bold">Good Firms</p>
                                         <p class="">Best SEO Company In India</p>
@@ -1451,7 +1451,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             </div>
                             <div class="col-md-6 py-3">
                                 <div class="image-back">
-                                    <img src="{{ asset('assets/web/assets/images/goodfims1.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <img src="{{ asset('assets/web/assets/images/goodfims1.webp') }}" class=" image-with-shadow" alt="Goodfirms" srcset="">
                                     <div class="text">
                                         <p class="fw-bold">Good Firms</p>
                                         <p class="">Best SEO Company In India</p>
@@ -1460,7 +1460,7 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                             </div>
                             <div class="col-md-6 py-3">
                                 <div class="image-back">
-                                    <img src="{{ asset('assets/web/assets/images/Hindustan_.webp') }}" class=" image-with-shadow" alt="" srcset="">
+                                    <img src="{{ asset('assets/web/assets/images/Hindustan_.webp') }}" class=" image-with-shadow" alt="HT" srcset="">
                                     <div class="text">
                                         <p class="fw-bold">Hindustan Times</p>
                                         <p class="">Best SEO Company</p>
