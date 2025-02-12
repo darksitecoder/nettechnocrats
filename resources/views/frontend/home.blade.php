@@ -119,17 +119,17 @@
             background-color: #f0f0f0;
         }
 
-        .content {
+        .industries .content {
             border-radius: 0px 0px 240px 0px;
             background-color: var(--blue);
             padding: 2rem;
         }
 
-        .content * {
+        .industries .content * {
             color: var(--white);
         }
 
-        .content .card__read__more:hover {
+        .industries .content .card__read__more:hover {
             background-color: var(--white);
             color: var(--blue);
         }
@@ -822,6 +822,288 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                 transform: rotate(360deg);
             }
         } */
+
+
+        
+====================================================================
+	Testimonilas Section
+====================================================================
+
+***/
+
+.testimonials-section{
+	position:relative;
+	padding: 120px 0px;
+}
+
+.testimonials-section .image-layer{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.testimonials-section .carousel-box{
+	position: relative;
+	display: block;
+	max-width: 780px;
+	padding: 55px 20px;
+	background: rgba(255,255,255,0.94);
+	border-bottom: 2px solid #2cb9d8;
+	text-align: center;
+	z-index: 1;
+}
+
+.testimonials-section .slide-item{
+	position: relative;
+	display: block;
+}
+
+.testimonials-section .slide-item .inner{
+	position: relative;
+	display: block;
+	max-width: 580px;
+	margin: 0 auto;
+}
+
+.testimonials-section .slide-item .icon-box{
+	position: relative;
+	display: block;
+	color: #f25423;
+	font-size: 48px;
+	line-height: 1em;
+	margin-bottom: 30px;
+}
+
+.testimonials-section .slide-item .title{
+	position: relative;
+	display: block;
+	color: #2cb9d8;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-bottom: 15px;
+}
+
+.testimonials-section .slide-item .text{
+	position: relative;
+	display: block;
+	font-size: 17px;
+	line-height: 1.6em;
+	color: #222222;
+	margin-bottom: 30px;
+}
+
+.testimonials-section .slide-item .info{
+	position: relative;
+	display: block;
+	font-size: 13px;
+	line-height: 1.5em;
+	color: #666666;
+}
+
+.testimonials-section .slide-item .info .name{
+	position: relative;
+	display: block;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #222222;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.testimonials-section .owl-theme .owl-nav{
+	display: none;
+}
+
+.testimonials-section .owl-theme .owl-dots{
+	position: relative;
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 35px;
+}
+
+.testimonials-section .owl-theme .owl-dots .owl-dot{
+	position: relative;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.testimonials-section .owl-theme .owl-dots .owl-dot span{
+	position: relative;
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: #cccccc;
+	border-radius: 50%;
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.testimonials-section .owl-theme .owl-dots .owl-dot.active span{
+	background: #f25423;
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+
+
+/*** 
+
+====================================================================
+	Testimonilas Section
+====================================================================
+
+***/
+
+.testimonials-two{
+	position:relative;
+	padding: 0px 0px 0px;
+}
+
+.testimonials-two .carousel-box{
+	position: relative;
+	display: block;
+}
+
+.testimonial-block{
+    width: 650px;
+	position: relative;
+	display: block;
+	margin-bottom: 50px;
+}
+
+.owl-theme .testimonial-block{
+	margin: 0 0 25px;
+}
+
+.testimonial-block .inner{
+	position: relative;
+	display: block;
+}
+
+.testimonial-block .content-box{
+	position: relative;
+	display: block;
+	margin-bottom: 45px;
+}
+.testimonial-block .content-box .image {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 22;
+}
+
+.testimonial-block:hover .content-box:before,
+.testimonial-block:hover .content-box .content{
+	border-color: #f25423;
+}
+
+.testimonial-block .content{
+	position: relative;
+	display: block;
+	padding: 80px 45px 45px;
+	background: #fafafa;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	z-index: 1;
+	box-shadow: 0 20px 23px -5px rgba(0,0,0,.2);
+	border-radius: 10px;
+	margin-top: -50px;
+}
+
+.testimonial-block .content .name {
+    color: #1e1e22;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.testimonial-block .content h3{color: #1e1e22; font-weight: 500;}
+.testimonial-block .content .text{
+	position: relative;
+	display: block;
+	font-size: 15px;
+	line-height: 1.7em;
+	color: #1e1e22;
+}
+
+.testimonial-block .info{
+	position: relative;
+	display: block;
+	margin-left: 25px;
+	padding: 10px 0px 0px 105px;
+	line-height: 1.5em;
+	color: #666666;
+	min-height: 90px;
+}
+
+.testimonial-block .info .image{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 90px;
+	height: 90px;
+	border: 5px solid #ffffff;
+	border-radius: 50%;
+	box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.05), 0px 0px 35px 0px rgba(0,0,0,0.05);
+}
+
+.testimonial-block .info .image img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.testimonial-block .info .name{
+	position: relative;
+	display: block;
+	font-size: 18px;
+	line-height: 1.4em;
+	color: #222222;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.testimonial-block .info .designation{
+	position: relative;
+	display: block;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #2cb9d8;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.testimonial-block .info .rating{
+	position: relative;
+	padding-top: 7px;
+	font-size: 12px;
+	color: #f4c212;
+	left: 1px;
+}
+
+.testimonials-two .owl-theme .owl-nav,
+.testimonials-two .owl-theme .owl-dots{
+	display: none;
+}
+
     </style>
 </head>
 
@@ -1612,6 +1894,107 @@ Let's say we want the selected one to fill a 40% of the container; so we have a 
                     </div>
                 </div>
             </section>
+
+            <section class="testimonials-two bg-white">
+        <img src="{{ asset('assets/web/clients-top-shade.png') }}" class="img-fluid w-100">
+        <div class="testimonials-inner bg-white">           
+            <div class="row clearfix">
+                <div class="col-12">
+                    <div class="sec-title text-center">
+                        <h2>What Our <strong>Clients Say</strong></h2>
+                        <div class="lower-text text-theme2">We love technology & our clients rely on our specialization in digital marketing, IT consulting,<br>and website & mobile app development to match your business needs.</div>
+                        <span class="sec-title-dash bg-theme mt-4"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="auto-container mb-4">
+                <div class="carousel-box">
+                    <div class="testimonial-carousel theme-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": false, "dots": true, "autoplay": true, "autoplayTimeout": 5000, "smartSpeed": 500, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "800":{ "items" : "2" }, "1024":{ "items" : "2" }, "1366":{ "items" : "2" }}}'>
+                        <!--Slide-->
+                        <div class="testimonial-block">
+                            <div class="inner">
+                                <div class="content-box">
+                                    <div class="image"><img src="{{ asset('assets/web/author-thumb-1.jpg') }}" alt=""></div>
+                                    <div class="content">
+                                        <div class="name">Joseph Hathorn - <small class="designation">Dounder and CEO</small></div>
+                                        <h3>Great Experience</h3>
+                                        <div class="text">I been happy that Nettechnocrats has ability to develop my business's website in short time and logical rate comparing with other providers. For sure that will be only beginning for more projects will be relying on them to handle</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide-->
+                        <div class="testimonial-block">
+                            <div class="inner">
+                                <div class="content-box">
+                                    <div class="image"><img src="{{ asset('assets/web/author-thumb-2.jpg') }}" alt=""></div>
+                                    <div class="content">
+                                        <div class="name">Sameer Maashi - <small class="designation">IT Director at Armed Forces</small></div>
+                                        <h3>Good and Dependable Development Team</h3>
+                                        <div class="text">I have worked with the team at Nettechnocrats on several projects. They did a good job with the development of the sites. They are very responsive and are able to execute the vision for the project. I highly recommend Anand and his team of Developers.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-12">
+                        <div class="sec-title text-center">
+                            <h2>We accelerate your<br><strong>Digital Transformation</strong> journey</h2>
+                            <span class="sec-title-dash bg-theme mt-4"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix mb-5">
+                    <div class="column sb2 col-lg-4 col-md-6">
+                        <div class="service-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <a href="">
+                                <div class="inner-box p-0">
+                                    <div class="icon-outer mb-4 mb-lg-0">
+                                        <div class="icon-box"><img src="images/resource/dt1.png" class="img-fluid w-100" alt="" title=""></div>
+                                    </div>
+                                    <h4 class="px-4 py-3 text-left">Enterprises App Development & Modernization</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column sb2 col-lg-4 col-md-6">
+                        <div class="service-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <a href="">
+                                <div class="inner-box p-0">
+                                    <div class="icon-outer mb-4 mb-lg-0">
+                                        <div class="icon-box"><img src="images/resource/dt2.png" class="img-fluid w-100" alt="" title=""></div>
+                                    </div>
+                                    <h4 class="px-4 py-3 text-left">DevOps, MicroServices, Serverless Architecture, & Cloud Consulting</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column sb2 col-lg-4 col-md-6">
+                        <div class="service-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <a href="">
+                                <div class="inner-box p-0">
+                                    <div class="icon-outer mb-4 mb-lg-0">
+                                        <div class="icon-box"><img src="images/resource/dt3.png" class="img-fluid w-100" alt="" title=""></div>
+                                    </div>
+                                    <h4 class="px-4 py-3 text-left">Application Development for Internet of Things (IoT)</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+    </section>
+
+
+
             <section class="industries">
                 <div class="row">
                     <div class="col-lg-12">
