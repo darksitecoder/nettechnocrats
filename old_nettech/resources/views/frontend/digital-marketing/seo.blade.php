@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
 
   <!-- Vendor CSS Files -->
-  <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('js/vendor ') }}" rel="stylesheet">
   <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
   <link href="{{ asset('js/vendor/aos/aos.css') }}" rel="stylesheet">
   <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
