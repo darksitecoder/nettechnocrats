@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+
+  <title>Best SEO Services | #1 SEO Agency | SEO company in Noida</title>
+  <meta name="description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
+
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,25 +20,6 @@
   <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
   <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
   <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
-
-  <title>Best SEO Services | #1 SEO Agency | SEO company in Noida</title>
-  <meta name="description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
-  <link rel="canonical" href="https://www.nettechnocrats.com/seo-services/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Best SEO Services | #1 SEO Agency | SEO company in Noida" />
-  <meta property="og:description" content="Nettechnocrats is the leading SEO company in Noida providing 100% white Hat SEO Services at pocket-friendly prices. For more visit us now!" />
-  <meta property="og:url" content="https://www.nettechnocrats.com/seo-services/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T10:27:27+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/p1-150x70.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="14 minutes" />
-
-
 
   <!-- Libraries Stylesheet -->
   <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
@@ -383,7 +369,7 @@
               <div class="icon">
                 <i class="fa-solid fa-shop-lock"></i>
               </div>
-              <a href="{{ url('/local-seo-services')}}" class="stretched-link">
+              <a href="{{ url('/local-seo-services.php')}}" class="stretched-link">
                 <h3>Local SEO</h3>
               </a>
               <p>Expand your local footprint! Reach out to your immediate audience seamlessly and make your mark in your neighborhood. Be the local buzz!</p>
@@ -395,7 +381,7 @@
               <div class="icon">
                 <i class="fa-brands fa-amazon"></i>
               </div>
-              <a href="{{ url('/amazon-seo-services')}}" class="stretched-link">
+              <a href="{{ url('/amazon-seo-services.php')}}" class="stretched-link">
                 <h3>Amazon SEO</h3>
               </a>
               <p>Navigate the giant e-commerce platform effortlessly. Skyrocket your products' visibility amidst millions and drive stellar sales on Amazon. </p>
@@ -407,7 +393,7 @@
               <div class="icon">
                 <i class="fa-solid fa-cart-shopping"></i>
               </div>
-              <a href="{{ url('/e-commerce-seo-services')}}" class="stretched-link">
+              <a href="{{ url('/e-commerce-seo-services.php')}}" class="stretched-link">
                 <h3>E-commerce SEO</h3>
               </a>
               <p>Optimize your online store for maximum visibility. Attract, engage, and convert your site visitors into loyal customers. Boost your online sales!</p>
@@ -419,7 +405,7 @@
               <div class="icon">
                 <i class="fa-solid fa-gears"></i>
               </div>
-              <a href="{{ url('/seo-services')}}" class="stretched-link">
+              <a href="{{ url('/seo-services.php')}}" class="stretched-link">
                 <h3>Technical SEO</h3>
               </a>
               <p>Dive deep into the backend of your website. Enhance its functionality, speed, and overall user experience. Make your website loved not just by users but by search engines too!</p>
@@ -432,7 +418,7 @@
               <div class="icon">
                 <i class="fa-brands fa-wix"></i>
               </div>
-              <a href="{{ url('/wix-seo-agency')}}" class="stretched-link">
+              <a href="{{ url('/wix-seo-agency.php')}}" class="stretched-link">
                 <h3>WIX SEO</h3>
               </a>
               <p>Wix SEO is a powerful tool that empowers website owners to optimize their online presence effortlessly.</p>
@@ -445,7 +431,7 @@
               <div class="icon">
                 <i class="fa-brands fa-wordpress"></i>
               </div>
-              <a href="{{ url('/wordpress-seo-agency')}}" class="stretched-link">
+              <a href="{{ url('/wordpress-seo-agency.php')}}" class="stretched-link">
                 <h3>WordPress SEO</h3>
               </a>
               <p>When it comes to optimizing your WordPress website for search engines, look no further than our WordPress SEO agency.</p>
@@ -457,7 +443,7 @@
               <div class="icon">
                 <i class="fa-brands fa-shopify"></i>
               </div>
-              <a href="{{ url('/shopify-seo-agency')}}" class="stretched-link">
+              <a href="{{ url('/shopify-seo-agency.php')}}" class="stretched-link">
                 <h3>Shopify SEO</h3>
               </a>
               <p>Shopify SEO is a critical component of driving organic traffic and increasing visibility for your online store on the Shopify platform.</p>
@@ -469,7 +455,7 @@
               <div class="icon">
                 <i class="fa-brands fa-squarespace"></i>
               </div>
-              <a href="{{ url('/squarespace-seo-services')}}" class="stretched-link">
+              <a href="{{ url('/squarespace-seo-services.php')}}" class="stretched-link">
                 <h3>Squarespace SEO</h3>
               </a>
               <p>Our Squarespace SEO services encompass a range of strategies and techniques to ensure your website ranks higher.</p>
@@ -481,7 +467,7 @@
               <div class="icon">
                 <i class="fa-solid fa-mobile-screen-button"></i>
               </div>
-              <a href="{{ url('/mobile-app-development')}}" class="stretched-link">
+              <a href="{{ url('/mobile-app-development.php')}}" class="stretched-link">
                 <h3>Mobile SEO</h3>
               </a>
               <p>Our Squarespace SEO services encompass a range of strategies and techniques to ensure your website ranks higher.</p>

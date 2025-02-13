@@ -6,20 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estate SEO company, Real Estate SEO Services</title>
     <meta name="description" content="Are you struggling to get #1 ranking for your real estate business. Try SEO Services for Real Estate Business and enhance your online visibility." />
-    <link rel="canonical" href="https://www.nettechnocrats.com/seo-for-real-estate/" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Real Estate SEO company, Real Estate SEO Services" />
-    <meta property="og:description" content="Are you struggling to get #1 ranking for your real estate business. Try SEO Services for Real Estate Business and enhance your online visibility." />
-    <meta property="og:url" content="https://www.nettechnocrats.com/seo-for-real-estate/" />
-    <meta property="og:site_name" content="Nettechnocrats" />
-    <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-    <meta property="article:modified_time" content="2024-08-13T10:28:46+00:00" />
-    <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@nettechnocrats" />
-    <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="10 minutes" />
+   
     <script type="application/ld+json" class="yoast-schema-graph">
         {
             "@context": "https://schema.org",

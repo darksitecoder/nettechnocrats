@@ -6,20 +6,7 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>SEO Services Dubai, No.1 SEO Agency &amp; SEO Company in Dubai</title>
        <meta name="description" content="Get top-notch SEO services from Dubai&#039;s premier SEO company. With over 15 years of experience, our SEO agency is committed to delivering high-quality SEO services in Dubai." />
-       <link rel="canonical" href="https://www.nettechnocrats.com/seo-company-dubai/" />
-       <meta property="og:locale" content="en_US" />
-       <meta property="og:type" content="article" />
-       <meta property="og:title" content="SEO Services Dubai, No.1 SEO Agency &amp; SEO Company in Dubai" />
-       <meta property="og:description" content="Get top-notch SEO services from Dubai&#039;s premier SEO company. With over 15 years of experience, our SEO agency is committed to delivering high-quality SEO services in Dubai." />
-       <meta property="og:url" content="https://www.nettechnocrats.com/seo-company-dubai/" />
-       <meta property="og:site_name" content="Nettechnocrats" />
-       <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-       <meta property="article:modified_time" content="2024-08-13T10:28:07+00:00" />
-       <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/main-multivendor-1-1024x310-1.webp" />
-       <meta name="twitter:card" content="summary_large_image" />
-       <meta name="twitter:site" content="@nettechnocrats" />
-       <meta name="twitter:label1" content="Est. reading time" />
-       <meta name="twitter:data1" content="17 minutes" />
+    
        <script type="application/ld+json" class="yoast-schema-graph">
               {
                      "@context": "https://schema.org",

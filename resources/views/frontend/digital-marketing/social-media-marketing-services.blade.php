@@ -6,20 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Top Social Media Marketing Agency in India</title>
   <meta name="description" content="We are top Social Media Marketing Agency offer paid services to increase the brand brand visibility, engagement, and conversions." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/social-media-marketing-services/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Top Social Media Marketing Agency in India" />
-  <meta property="og:description" content="We are top Social Media Marketing Agency offer paid services to increase the brand brand visibility, engagement, and conversions." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/social-media-marketing-services/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T11:19:55+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/10/social-media-marketing-services-banner.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="13 minutes" />
+ 
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",

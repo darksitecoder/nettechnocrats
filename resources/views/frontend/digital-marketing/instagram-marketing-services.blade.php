@@ -5,21 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Best Instagram Marketing Company, Instagram Marketing Services</title>
-  <meta name="description" content="Nettechnocrats- Get Instagram marketing services by best instagram marketing company to get exposure in the marketing." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/instagram-marketing-services/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Best Instagram Marketing Company, Instagram Marketing Services" />
-  <meta property="og:description" content="Nettechnocrats- Get Instagram marketing services by best instagram marketing company to get exposure in the marketing." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/instagram-marketing-services/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T10:06:26+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/10/seo-1.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="16 minutes" />
+  <meta name="description" content="Nettechnocrats- Get Instagram marketing services by best instagram marketing company to get exposure in the marketing. Find the real value of money." />
+
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",
@@ -152,9 +139,11 @@
     }
 
     .service .service-item {
-      height: 450px;
+      height: 310px;
     }
   </style>
+
+  @include('partial/google_analytics')
 </head>
 
 <body>
@@ -169,6 +158,8 @@
             <h1 class="display-5 mb-4 text-white">Elevate Your Instagram
               Presence</h1>
             <p class="mb-4 text-white">Unleash the power of Instagram with our expert marketing services. As a leading Instagram Marketing Agency, we’re dedicated to helping your business thrive. Boost your growth, engagement, and success with the best in the industry.</p>
+
+            @include('partial/proposal')
           </div>
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -704,7 +695,7 @@
           <div class="text-center">
             <h3>Ready To Get Started?</h3>
             <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-            <a class="cta-btn" href="#">Contact Us</a>
+            <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
           </div>
         </div>
       </div>

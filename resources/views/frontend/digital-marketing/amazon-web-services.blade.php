@@ -6,19 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Amazon Web Services (AWS) Development | Cloud Computing Solutions</title>
  <meta name="description" content="Explore the world of Amazon Web Services (AWS) for scalable, secure, and innovative cloud computing solutions. Discover the power of AWS for your business." />
- <link rel="canonical" href="https://www.nettechnocrats.com/amazon-web-services/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Amazon Web Services (AWS) Development | Cloud Computing Solutions" />
- <meta property="og:description" content="Explore the world of Amazon Web Services (AWS) for scalable, secure, and innovative cloud computing solutions. Discover the power of AWS for your business." />
- <meta property="og:url" content="https://www.nettechnocrats.com/amazon-web-services/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T08:47:43+00:00" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="1 minute" />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -120,6 +108,7 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+ @include('partial/google_analytics')
 </head>
 
 <body>

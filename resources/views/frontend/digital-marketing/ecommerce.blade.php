@@ -6,20 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Top Ecommerce SEO Company | Ecommerce SEO Services India</title>
   <meta name="description" content="Drive your online success with our Ecommerce SEO services. As a leading Ecommerce SEO agency in India, we offer expert solutions to boost rankings, traffic and revenue. Partner with us for superior Ecommerce SEO services today." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/e-commerce-seo-services/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Top Ecommerce SEO Company | Ecommerce SEO Services India" />
-  <meta property="og:description" content="Drive your online success with our Ecommerce SEO services. As a leading Ecommerce SEO agency in India, we offer expert solutions to boost rankings, traffic and revenue. Partner with us for superior Ecommerce SEO services today." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/e-commerce-seo-services/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T09:00:05+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/ecommerce_side_img.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="14 minutes" />
+
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",
@@ -156,6 +143,8 @@
       height: 450px;
     }
   </style>
+
+  @include('partial/google_analytics')
 </head>
 
 <body>
@@ -170,6 +159,7 @@
             <h1 class="display-5 mb-4 text-white">Best eCommerce SEO Services</h1>
             <p class="mb-4 text-white">Positioning Your Products at Customers’ Fingertips with the Best eCommerce SEO Company.</p>
             <p class="mb-4 text-white">Offer 24/7 shopping convenience with our eCommerce SEO solutions. Join Us and elevate your online storefront to new heights.</p>
+            @include('partial/proposal')
           </div>
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -805,7 +795,7 @@
           <div class="text-center">
             <h3>Ready To Get Started?</h3>
             <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-            <a class="cta-btn" href="#">Contact Us</a>
+            <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
           </div>
         </div>
       </div>

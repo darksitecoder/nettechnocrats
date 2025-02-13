@@ -6,20 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Best SEO Agency for Politicians, SEO Services For Politics</title>
   <meta name="description" content="Nettechnocrats is #1 SEO Agency for managing Political Campaigns. Get visibility of your campaign on Google from SEO experts." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/seo-political-campaigns-management/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Best SEO Agency for Politicians, SEO Services For Politics" />
-  <meta property="og:description" content="Nettechnocrats is #1 SEO Agency for managing Political Campaigns. Get visibility of your campaign on Google from SEO experts." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/seo-political-campaigns-management/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T10:27:13+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="12 minutes" />
+ 
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",

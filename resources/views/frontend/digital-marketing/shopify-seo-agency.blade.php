@@ -4,22 +4,9 @@
 <head>
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Top-Tier Shopify SEO Agency | Expert Shopify SEO Services</title>
+       <title>Top Shopify SEO Agency | Expert Shopify SEO Services</title>
        <meta name="description" content="Time to improve Shopify Store Sales and Rankings with Shopify SEO Services. Trust Our Shopify SEO Experts to see results." />
-       <link rel="canonical" href="https://www.nettechnocrats.com/shopify-seo-agency/" />
-       <meta property="og:locale" content="en_US" />
-       <meta property="og:type" content="article" />
-       <meta property="og:title" content="Top-Tier Shopify SEO Agency | Expert Shopify SEO Services" />
-       <meta property="og:description" content="Time to improve Shopify Store Sales and Rankings with Shopify SEO Services. Trust Our Shopify SEO Experts to see results." />
-       <meta property="og:url" content="https://www.nettechnocrats.com/shopify-seo-agency/" />
-       <meta property="og:site_name" content="Nettechnocrats" />
-       <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-       <meta property="article:modified_time" content="2024-08-13T11:18:56+00:00" />
-       <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/main-multivendor-1-1024x310-1.webp" />
-       <meta name="twitter:card" content="summary_large_image" />
-       <meta name="twitter:site" content="@nettechnocrats" />
-       <meta name="twitter:label1" content="Est. reading time" />
-       <meta name="twitter:data1" content="13 minutes" />
+    
        <script type="application/ld+json" class="yoast-schema-graph">
               {
                      "@context": "https://schema.org",

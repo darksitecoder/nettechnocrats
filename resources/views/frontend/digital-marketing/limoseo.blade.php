@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Trusted Limo SEO Company | Enhance Visiblity by Limo SEO</title>
  <meta name="description" content="As a trusted limo SEO company, we specialize in propelling limousine services to the top of search results. Discover our proven strategies today." />
- <link rel="canonical" href="https://www.nettechnocrats.com/limo-seo-services/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Trusted Limo SEO Company | Enhance Visiblity by Limo SEO" />
- <meta property="og:description" content="As a trusted limo SEO company, we specialize in propelling limousine services to the top of search results. Discover our proven strategies today." />
- <meta property="og:url" content="https://www.nettechnocrats.com/limo-seo-services/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T10:11:14+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/angularapp_work-1.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="15 minutes" />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",

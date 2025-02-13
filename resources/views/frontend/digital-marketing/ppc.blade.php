@@ -18,20 +18,7 @@
 
   <title>Effective PPC Services | Expert PPC Management Company</title>
   <meta name="description" content="Best PPC Services: We are Google certified PPC management agency in India &amp; USA that offers quality PPC campaign management services." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/ppc-services/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Effective PPC Services | Expert PPC Management Company" />
-  <meta property="og:description" content="Best PPC Services: We are Google certified PPC management agency in India &amp; USA that offers quality PPC campaign management services." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/ppc-services/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T10:16:37+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/ppc_side_img.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="8 minutes" />
+ 
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",

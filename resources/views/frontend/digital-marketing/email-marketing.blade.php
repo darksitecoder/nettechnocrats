@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Email Marketing Services | Streamlined Bulk Email Marketing Automation</title>
  <meta name="description" content="Elevate your marketing efforts with our Email Marketing Services. Automate bulk email campaigns efficiently for improved engagement and conversions" />
- <link rel="canonical" href="https://www.nettechnocrats.com/email-marketing/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="Email Marketing Services | Streamlined Bulk Email Marketing Automation" />
- <meta property="og:description" content="Elevate your marketing efforts with our Email Marketing Services. Automate bulk email campaigns efficiently for improved engagement and conversions" />
- <meta property="og:url" content="https://www.nettechnocrats.com/email-marketing/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T08:57:14+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/email_marketing_side.jpg" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="11 minutes" />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -136,6 +123,12 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+ <style>
+  .service .service-item {
+   height: 450px;
+  }
+ </style>
 </head>
 
 <body>

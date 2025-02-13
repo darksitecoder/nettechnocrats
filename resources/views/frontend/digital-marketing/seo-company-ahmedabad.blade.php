@@ -6,20 +6,7 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>SEO Company, SEO services &amp; Digital Marketing Agency Ahmedabad</title>
        <meta name="description" content="We are top-rated SEO company in Ahmedabad committed to providing the best SEO and digital marketing services to our clients. Hire SEO experts in Ahmedabad to get best ROI." />
-       <link rel="canonical" href="https://www.nettechnocrats.com/seo-company-ahmedabad/" />
-       <meta property="og:locale" content="en_US" />
-       <meta property="og:type" content="article" />
-       <meta property="og:title" content="SEO Company, SEO services &amp; Digital Marketing Agency Ahmedabad" />
-       <meta property="og:description" content="We are top-rated SEO company in Ahmedabad committed to providing the best SEO and digital marketing services to our clients. Hire SEO experts in Ahmedabad to get best ROI." />
-       <meta property="og:url" content="https://www.nettechnocrats.com/seo-company-ahmedabad/" />
-       <meta property="og:site_name" content="Nettechnocrats" />
-       <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-       <meta property="article:modified_time" content="2024-08-13T10:18:54+00:00" />
-       <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/main-multivendor-1-1024x310-1.webp" />
-       <meta name="twitter:card" content="summary_large_image" />
-       <meta name="twitter:site" content="@nettechnocrats" />
-       <meta name="twitter:label1" content="Est. reading time" />
-       <meta name="twitter:data1" content="14 minutes" />
+     
        <script type="application/ld+json" class="yoast-schema-graph">
               {
                      "@context": "https://schema.org",

@@ -4,23 +4,7 @@
 <head>
       <title>Best SMO Services, SMO Company in India</title>
       <meta name="description" content="Your Trusted Social Media Marketing Agency for SMO Services. Boost your online presence with our expert SMO and increase brand visibility." />
-      <link rel="canonical" href="https://www.nettechnocrats.com/smo-services/" />
-      <meta property="og:locale" content="en_US" />
-      <meta property="og:type" content="article" />
-      <meta property="og:title" content="Best SMO Services, SMO Company in India" />
-      <meta property="og:description" content="Your Trusted Social Media Marketing Agency for SMO Services. Boost your online presence with our expert SMO and increase brand visibility." />
-      <meta property="og:url" content="https://www.nettechnocrats.com/smo-services/" />
-      <meta property="og:site_name" content="Nettechnocrats" />
-      <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-      <meta property="article:modified_time" content="2024-08-13T11:19:13+00:00" />
-      <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.webp" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@nettechnocrats" />
-      <meta name="twitter:label1" content="Est. reading time" />
-      <meta name="twitter:data1" content="6 minutes" />
-
-
-
+ 
 
       <script type="application/ld+json" class="yoast-schema-graph">
             < link rel = "stylesheet"

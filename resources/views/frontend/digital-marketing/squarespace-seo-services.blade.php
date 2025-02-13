@@ -6,20 +6,7 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>Top Notch Squarespace SEO Services, Squarespace SEO Agency</title>
        <meta name="description" content="Enhance your online presence with our Squarespace SEO services. We specialize to enhance your organic position for Squarespace websites." />
-       <link rel="canonical" href="https://www.nettechnocrats.com/squarespace-seo-services/" />
-       <meta property="og:locale" content="en_US" />
-       <meta property="og:type" content="article" />
-       <meta property="og:title" content="Top Notch Squarespace SEO Services, Squarespace SEO Agency" />
-       <meta property="og:description" content="Enhance your online presence with our Squarespace SEO services. We specialize to enhance your organic position for Squarespace websites." />
-       <meta property="og:url" content="https://www.nettechnocrats.com/squarespace-seo-services/" />
-       <meta property="og:site_name" content="Nettechnocrats" />
-       <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-       <meta property="article:modified_time" content="2024-08-13T11:20:13+00:00" />
-       <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/main-multivendor-1-1024x310-1.webp" />
-       <meta name="twitter:card" content="summary_large_image" />
-       <meta name="twitter:site" content="@nettechnocrats" />
-       <meta name="twitter:label1" content="Est. reading time" />
-       <meta name="twitter:data1" content="18 minutes" />
+      
        <script type="application/ld+json" class="yoast-schema-graph">
               {
                      "@context": "https://schema.org",

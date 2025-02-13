@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>A Full Stack Digital Marketing Services Company – Nettechnocrats</title>
  <meta name="description" content="We are a full stack digital marketing company that provides high quality online marketing services from all over the world." />
- <link rel="canonical" href="https://www.nettechnocrats.com/digital-marketing/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="A Full Stack Digital Marketing Services Company – Nettechnocrats" />
- <meta property="og:description" content="We are a full stack digital marketing company that provides high quality online marketing services from all over the world." />
- <meta property="og:url" content="https://www.nettechnocrats.com/digital-marketing/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T08:54:45+00:00" />
- <meta property="og:image" content="https://nettechnocrats.com/wp-content/uploads/2023/08/Capture6.7.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="8 minutes" />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -154,7 +141,7 @@
           </div>
          </div>
          <div class="col-lg-12">
-          <h2>SEO &amp; Digital Marketing Agency</h2>
+          <h1>SEO &amp; Digital Marketing Agency</h1>
          </div>
          <div class="col-lg-12">
           <div class="main-green-button scroll-to-section">

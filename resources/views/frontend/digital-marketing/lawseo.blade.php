@@ -6,20 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Law SEO Services: Drive Success for Your Law SEO Firm</title>
   <meta name="description" content="Boost your law firm&#039;s online presence with our specialized SEO services. Get ahead in the competitive legal industry today." />
-  <link rel="canonical" href="https://www.nettechnocrats.com/law-firm-seo/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Law SEO Services: Drive Success for Your Law SEO Firm" />
-  <meta property="og:description" content="Boost your law firm&#039;s online presence with our specialized SEO services. Get ahead in the competitive legal industry today." />
-  <meta property="og:url" content="https://www.nettechnocrats.com/law-firm-seo/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T10:10:43+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/istockphoto-1070977862-612x612-1.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="16 minutes" />
+
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",
@@ -115,7 +102,6 @@
       }]
     }
   </script>
-  Your Practice</title>
   <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel="icon" type="image/x-icon" href="{{ asset('assets/web/favicon.webp') }}">
   <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
@@ -157,6 +143,8 @@
       height: 450px;
     }
   </style>
+
+  @include('partial/google_analytics')
 </head>
 
 <body>
@@ -171,6 +159,7 @@
             <h1 class="display-5 mb-4 text-white">SEO for Lawyers: Boost
               Your Practice</h1>
             <p class="mb-4 text-white">Elevate Your Reach and Client Base with Specialized Law Firm SEO</p>
+            @include('partial/proposal')
           </div>
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -654,7 +643,7 @@
           <div class="text-center">
             <h3>Ready To Get Started?</h3>
             <p>Stay ahead from Crowd. We have an expert team of application developers who are experienced and proficient. We have good experience in bespoke web and mobile app development and are committed to delivering the best of the class solutions.</p>
-            <a class="cta-btn" href="#">Contact Us</a>
+            <a class="cta-btn" href="{{ url('contact-us.php')}}">Contact Us</a>
           </div>
         </div>
       </div>

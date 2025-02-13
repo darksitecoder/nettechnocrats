@@ -129,6 +129,7 @@
    height: 450px !important;
   }
  </style>
+ @include('partial/google_analytics')
 </head>
 
 <body>

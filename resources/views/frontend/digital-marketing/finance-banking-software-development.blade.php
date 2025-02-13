@@ -4,22 +4,9 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>finance-banking-software-development - Nettechnocrats</title>
- <meta name="description" content="finance-banking-software-development -" />
- <link rel="canonical" href="https://www.nettechnocrats.com/finance-banking-software-development/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="finance-banking-software-development - Nettechnocrats" />
- <meta property="og:description" content="finance-banking-software-development -" />
- <meta property="og:url" content="https://www.nettechnocrats.com/finance-banking-software-development/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T08:57:21+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/online-banking.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="9 minutes" />
+ <title>Fintech Software Development | Banking Website Development Services- Nettechnocrats</title>
+ <meta name="description" content="We are top rated Company provides banking website development and finance software development services. Contact us for mobile app development for Fintech. " />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -136,6 +123,8 @@
  <link rel="stylesheet" href="{{ asset('style/web/lib/animate/animate.min.css') }}" />
  <link rel="stylesheet" href="{{ asset('style/web/lib/lightbox/css/lightbox.min.css') }}">
  <link rel="stylesheet" href="{{ asset('style/web/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+
+ @include('partial/google_analytics')
 </head>
 
 <body>

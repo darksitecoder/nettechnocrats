@@ -4,8 +4,10 @@
 <head>
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>WIX SEO SERVICES</title>
-       <!-- <link rel="stylesheet" href="style.css"> -->
+       <title>WIX SEO Services | WIX SEO Company</title>
+        <meta name="description" content="We provides top notch wix seo services to our clients. We use latest SEO technique to optimize the websites to match with google guidlines." />
+
+	   <!-- <link rel="stylesheet" href="style.css"> -->
 
        <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
        <link

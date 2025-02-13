@@ -6,20 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>SEO Reseller Service | SEO Reseller Agency</title>
  <meta name="description" content="We offer SEO Reseller Services &amp; SEO Reseller Program that fits your client&#039;s requirements. Call &amp; hire SEO Reseller Company today!" />
- <link rel="canonical" href="https://www.nettechnocrats.com/seo-reseller/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="SEO Reseller Service | SEO Reseller Agency" />
- <meta property="og:description" content="We offer SEO Reseller Services &amp; SEO Reseller Program that fits your client&#039;s requirements. Call &amp; hire SEO Reseller Company today!" />
- <meta property="og:url" content="https://www.nettechnocrats.com/seo-reseller/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T10:27:05+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/getintouch-btn.webp" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="6 minutes" />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
@@ -123,7 +110,7 @@
  <link rel="stylesheet" href="{{ asset('style/web/home.css') }}">
 
  <!-- Vendor CSS Files -->
- <link href="{{ asset('js/vendor ') }}" rel="stylesheet">
+ <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap.min.css') }}" rel="stylesheet">
  <link href="{{ asset('js/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
  <link href="{{ asset('js/vendor/aos/aos.css') }}" rel="stylesheet">
  <link href="{{ asset('js/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">

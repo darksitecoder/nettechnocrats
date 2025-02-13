@@ -6,20 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Real Estate App Development - Nettechnocrats</title>
   <meta name="description" content="Real Estate App Development -" />
-  <link rel="canonical" href="https://www.nettechnocrats.com/real-estate-app-development/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Real Estate App Development - Nettechnocrats" />
-  <meta property="og:description" content="Real Estate App Development -" />
-  <meta property="og:url" content="https://www.nettechnocrats.com/real-estate-app-development/" />
-  <meta property="og:site_name" content="Nettechnocrats" />
-  <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
-  <meta property="article:modified_time" content="2024-08-13T10:17:50+00:00" />
-  <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/09/main-real-estate-1024x310-1.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@nettechnocrats" />
-  <meta name="twitter:label1" content="Est. reading time" />
-  <meta name="twitter:data1" content="17 minutes" />
+ 
   <script type="application/ld+json" class="yoast-schema-graph">
     {
       "@context": "https://schema.org",

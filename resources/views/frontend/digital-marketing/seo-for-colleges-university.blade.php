@@ -4,22 +4,9 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>SEO Services for Colleges and Universities: Best SEO Strategy and Tips</title>
- <meta name="description" content="Maximize your college or university&#039;s visibility with our tailored SEO services. Attract more students, faculty, and stakeholders through effective SEO Strategy." />
- <link rel="canonical" href="https://www.nettechnocrats.com/seo-for-colleges-university/" />
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="article" />
- <meta property="og:title" content="SEO Services for Colleges and Universities: Best SEO Strategy and Tips" />
- <meta property="og:description" content="Maximize your college or university&#039;s visibility with our tailored SEO services. Attract more students, faculty, and stakeholders through effective SEO Strategy." />
- <meta property="og:url" content="https://www.nettechnocrats.com/seo-for-colleges-university/" />
- <meta property="og:site_name" content="Nettechnocrats" />
- <meta property="article:publisher" content="https://www.facebook.com/Nettechnocrats.it.services" />
- <meta property="article:modified_time" content="2024-08-13T10:19:49+00:00" />
- <meta property="og:image" content="https://www.nettechnocrats.com/wp-content/uploads/2023/08/local_seo_side.jpg" />
- <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@nettechnocrats" />
- <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="13 minutes" />
+ <title>SEO Services for Colleges and Universities | SEO for Edtech Websites</title>
+ <meta name="description" content="Maximize your college or university&#039;s visibility with our tailored SEO services. Attract more students, faculty, and stakeholders through effective SEO Strategy for Edtech Webistes." />
+
  <script type="application/ld+json" class="yoast-schema-graph">
   {
    "@context": "https://schema.org",
